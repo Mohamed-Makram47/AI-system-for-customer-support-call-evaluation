@@ -48,7 +48,7 @@ Phase 4 — RAG Policy Validation (FAISS + LLM)
       ↓
 Phase 5 — Scoring + Coaching Generation (LLM)
       ↓
-Dashboard (React / Streamlit)
+Dashboard (React)
 ```
 
 ---
