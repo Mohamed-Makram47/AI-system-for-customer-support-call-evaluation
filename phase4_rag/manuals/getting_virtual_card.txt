@@ -1,0 +1,13 @@
+**Getting Virtual Card Policy Manual for Call Center Agents**
+
+The following policy outlines the guidelines for call center agents to follow when handling customer requests for virtual cards.
+
+- **Rule 1: Verification of Customer Identity**: Before providing any information or assistance with getting a virtual card, agents must verify the customer's identity through our standard authentication process, which includes asking for their name, date of birth, and account information, and confirming their identity through our CRM system.
+
+- **Rule 2: Eligibility Criteria**: Agents must inform customers that to be eligible for a virtual card, they must have an active checking account with our bank, be at least 18 years old (or the age of majority in their state), and have a valid government-issued ID. Agents must also check the customer's account status to ensure it is in good standing.
+
+- **Rule 3: Disclosure of Virtual Card Terms**: Agents must clearly explain the terms and conditions of the virtual card to the customer, including any associated fees, spending limits, and expiration dates. Agents must also inform customers that virtual cards are for online use only and cannot be used for in-person transactions.
+
+- **Rule 4: Secure Delivery of Virtual Card Information**: When providing virtual card information to customers, agents must ensure that all sensitive information, including card numbers and expiration dates, is communicated securely through our approved secure messaging platform or by reading the information aloud to the customer and verifying their understanding.
+
+- **Rule 5: Documentation and Follow-up**: Agents must document all virtual card requests and issuances in the customer's account records, including the date of request, card details, and any issues or concerns raised by the customer. Agents must also follow up with customers to ensure they have received and understand how to use their virtual card, and to address any subsequent issues or questions that may arise.

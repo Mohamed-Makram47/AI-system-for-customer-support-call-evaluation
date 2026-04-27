@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Rule 1: Disclosure of Transfer Timing**: Agents must inform customers of the estimated timeframe for transfer of funds between accounts, which is typically 2-3 business days for ACH (Automated Clearing House) transfers and 1 business day for wire transfers, unless a specific agreement or product has a different timeline.",
+    "source": "transfer_timing"
+  },
+  {
+    "rule": "**Rule 2: Verification of Transfer Details**: Before confirming a transfer request, agents must verify with the customer the details of the transfer, including the amount to be transferred, the source and destination accounts, and the date the transfer is to be initiated, to ensure accuracy and prevent errors.",
+    "source": "transfer_timing"
+  },
+  {
+    "rule": "**Rule 3: Cut-Off Times for Same-Day Processing**: Agents must advise customers that transfers initiated before the daily cut-off time (typically 3:00 PM ET) may be processed the same business day, while those initiated after the cut-off time will be processed the next business day.",
+    "source": "transfer_timing"
+  },
+  {
+    "rule": "**Rule 4: Weekend and Holiday Transfers**: Agents must inform customers that transfers initiated on a weekend or bank holiday will be processed on the next business day, and that weekends and holidays do not count as business days for the purpose of calculating transfer timing.",
+    "source": "transfer_timing"
+  },
+  {
+    "rule": "**Rule 5: Documentation and Follow-Up**: Agents must document all transfer requests and confirmations in the customer's account records, and follow up with customers as necessary to ensure that transfers are completed as requested and to address any issues or discrepancies that may arise.",
+    "source": "transfer_timing"
+  }
+]

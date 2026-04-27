@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verification of Customer Identity**: Before providing any information or assistance related to a card arrival issue, agents must verify the identity of the customer by asking for their name, date of birth, and the last four digits of their social security number or account number, and then authenticate their identity through our secure authentication process.",
+    "source": "card_arrival"
+  },
+  {
+    "rule": "**Card Arrival Timeframe Inquiry Response**: When a customer inquires about the arrival time of their card, agents must inform them that the standard delivery timeframe is 7-10 business days from the date of mailing, and provide them with the exact mailing date if available; if the customer is within 3 business days of the expected delivery timeframe, agents should also offer to escalate the issue to our investigations team for further review.",
+    "source": "card_arrival"
+  },
+  {
+    "rule": "**Lost or Stolen Card Reporting**: If a customer reports that their card has not arrived and suspects it may have been lost or stolen, agents must instruct them to immediately report the incident to our fraud department by phone and provide a reference number or case ID; agents should then offer to replace the card, explaining that a new card will be mailed and that the customer will receive a separate notification with the new card details.",
+    "source": "card_arrival"
+  },
+  {
+    "rule": "**Card Activation Status**: When a customer calls about a card that has arrived but is not working, agents must ask them to confirm if they have activated the card; if not, agents should guide them through the activation process, providing clear instructions on how to activate the card via our automated phone system, online banking, or mobile banking app.",
+    "source": "card_arrival"
+  },
+  {
+    "rule": "**Escalation to Investigations Team**: If a customer is not satisfied with the resolution provided or has additional concerns about their card arrival issue, agents must offer to escalate the issue to our investigations team, providing the customer with a clear explanation of the escalation process and a timeframe for when they can expect a follow-up; agents",
+    "source": "card_arrival"
+  }
+]

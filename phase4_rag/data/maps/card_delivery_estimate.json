@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Rule 1: Verification of Customer Identity**: Before providing any information about the card delivery estimate, agents must verify the customer's identity through their account details or by asking for their name, date of birth, and address to ensure they are speaking with the cardholder or an authorized representative.",
+    "source": "card_delivery_estimate"
+  },
+  {
+    "rule": "**Rule 2: Accurate Information Provision**: Agents must provide accurate and up-to-date information regarding the card delivery estimate. This includes explaining the standard and expedited shipping options, if available, and any associated fees. Agents should refer to the bank's current shipping policy and estimated delivery times, which are typically 7-10 business days for standard shipping and 2-3 business days for expedited shipping.",
+    "source": "card_delivery_estimate"
+  },
+  {
+    "rule": "**Rule 3: Transparency on Delivery Exceptions**: Agents must inform customers about potential exceptions that may delay card delivery, such as incomplete or inaccurate address information, high-volume periods, or issues with the postal service. Agents should also advise customers on how to update their address or request expedited shipping to minimize delays.",
+    "source": "card_delivery_estimate"
+  },
+  {
+    "rule": "**Rule 4: Escalation Procedure for Urgent Cases**: If a customer reports an urgent need for their card (e.g., immediate travel plans or emergency access to funds), agents must follow the established escalation procedure. This involves notifying the supervisor or the card issuance team to review the case and provide an expedited solution, such as overnight shipping or a temporary card.",
+    "source": "card_delivery_estimate"
+  },
+  {
+    "rule": "**Rule 5: Documentation and Follow-up**: Agents must document all interactions related to card delivery estimates in the customer's account notes, including any updates provided or issues resolved. If a customer requests a follow-up on their card's status, agents should ensure that a colleague or supervisor is assigned to review the case and provide an update within a specified timeframe (e.g., 24-48 hours).",
+    "source": "card_delivery_estimate"
+  }
+]

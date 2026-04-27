@@ -1,0 +1,13 @@
+**Top-up Limits Policy Manual for Call Center Agents**
+
+When handling customer inquiries and requests related to top-up limits, agents must adhere to the following rules:
+
+- **Verify Customer Identity**: Before providing any information or making changes to top-up limits, agents must verify the customer's identity through our standard authentication process, which includes asking for their name, date of birth, and account details, and checking our internal systems to confirm their identity.
+
+- **Explain Top-up Limit Policies**: Agents must clearly explain the current top-up limits to customers, which are $500 per transaction and $1,000 per day for standard accounts, and $2,000 per transaction and $3,000 per day for premium accounts, and provide information on any applicable fees or requirements for increasing these limits.
+
+- **Process Top-up Limit Increase Requests**: For customers requesting to increase their top-up limits, agents must inform them that they need to contact our specialized account management team during business hours (Monday to Friday, 9 AM to 5 PM EST) or submit a formal request through our website, and provide the required documentation, such as proof of income or identification, to support their request.
+
+- **Handle Exceeding Top-up Limits**: If a customer's top-up exceeds the daily limit, agents must advise them that the transaction will be declined and explain the next steps, which may include splitting the transaction into multiple payments or waiting until the next day to make another attempt, and offer alternative solutions, such as a temporary increase in limit for exceptional circumstances.
+
+- **Document and Escalate Exceptions**: Agents must document any exceptions or unusual patterns related to top-up limits, such as suspected fraudulent activity, and escalate these cases to their supervisor or our fraud prevention team for further review and action, following our established procedures for reporting and addressing potential security threats.

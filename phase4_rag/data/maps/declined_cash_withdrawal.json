@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Rule 1: Acknowledge and Apologize**: The agent must acknowledge the customer's frustration and apologize for the inconvenience caused by the declined cash withdrawal, ensuring the customer feels heard and understood.",
+    "source": "declined_cash_withdrawal"
+  },
+  {
+    "rule": "**Rule 2: Verify Customer Information**: Before providing any assistance, the agent must verify the customer's identity by asking for their name, account number, and/or debit card number to ensure they are speaking with the account holder.",
+    "source": "declined_cash_withdrawal"
+  },
+  {
+    "rule": "**Rule 3: Investigate Decline Reason**: The agent must investigate the reason for the declined cash withdrawal by checking the customer's account status, available balance, and any potential holds or blocks on the account, and provide a clear explanation to the customer.",
+    "source": "declined_cash_withdrawal"
+  },
+  {
+    "rule": "**Rule 4: Offer Alternative Solutions**: If the decline is due to insufficient funds or a temporary block, the agent must offer alternative solutions, such as depositing funds, transferring money from another account, or scheduling a follow-up withdrawal.",
+    "source": "declined_cash_withdrawal"
+  },
+  {
+    "rule": "**Rule 5: Document and Escalate (if necessary)**: The agent must document the customer's concern and resolution in the customer's account records, and escalate the issue to a supervisor or specialized team if the decline is related to a potential account security issue or other complex problem that requires additional expertise.",
+    "source": "declined_cash_withdrawal"
+  }
+]

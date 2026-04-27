@@ -1,0 +1,13 @@
+**Getting Spare Card Policy Manual for Call Center Agents**
+
+When handling customer requests for spare cards, agents must follow these rules:
+
+- **Verify Customer Identity**: Before issuing a spare card, agents must verify the customer's identity by asking for their name, date of birth, and account information. Agents must also authenticate the customer through our secure authentication process, which includes answering security questions or providing a one-time password sent to their registered mobile number.
+
+- **Check Eligibility for Spare Card**: Agents must check the customer's account status and ensure they are eligible for a spare card. This includes verifying that the customer's primary card is active and not expired, and that they have not exceeded the maximum allowed number of spare cards.
+
+- **Explain Spare Card Terms and Fees**: Agents must clearly explain the terms and conditions of the spare card, including any associated fees, to the customer. This includes informing the customer that the spare card will have the same account details and limits as the primary card, and that any transactions made on the spare card will be reflected on the same account.
+
+- **Obtain Customer Consent**: Agents must obtain explicit consent from the customer before issuing a spare card. This includes confirming the customer's understanding of the terms and conditions, and ensuring they are aware that the spare card will be mailed to their registered address.
+
+- **Document and Escalate if Necessary**: Agents must document the customer's request and the actions taken in our CRM system. If the customer requests a spare card due to a lost or stolen primary card, agents must also escalate the issue to our fraud team for further review and action, and advise the customer to report the incident to the local police and provide a police report or FIR number if required.

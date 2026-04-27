@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Customer Identity**: Before providing any assistance, agents must verify the customer's identity by asking for their name, date of birth, and card number. The agent must then check the customer's information against our database to ensure they are the authorized cardholder.",
+    "source": "card_not_working"
+  },
+  {
+    "rule": "**Troubleshoot Basic Issues**: Agents must ask customers a series of troubleshooting questions to identify potential basic issues, such as: \"Is your card expired?\", \"Is your card damaged or worn out?\", \"Have you tried using the card at a different location or merchant?\", and \"Have you recently changed your PIN or address?\". The agent must document the customer's responses and provide guidance accordingly.",
+    "source": "card_not_working"
+  },
+  {
+    "rule": "**Check Card Status and Limits**: Agents must check the card's status and transaction limits using our internal systems to determine if the card is active, blocked, or has exceeded its limits. If the card is blocked, the agent must offer to unblock it or provide instructions on how to do so.",
+    "source": "card_not_working"
+  },
+  {
+    "rule": "**Escalate Complex Issues**: If the issue persists after troubleshooting and checking the card status, agents must escalate the issue to a senior agent or a specialized card support team. The agent must provide a clear summary of the issue, the customer's information, and any relevant details to facilitate a smooth handover.",
+    "source": "card_not_working"
+  },
+  {
+    "rule": "**Document and Follow-up**: Agents must document all interactions with the customer, including the issue, resolution, and any follow-up actions. The agent must also follow up with the customer within a specified timeframe (e.g., 24-48 hours) to ensure the issue has been resolved and the card is working as expected. The follow-up must be documented in our customer interaction management system.",
+    "source": "card_not_working"
+  }
+]

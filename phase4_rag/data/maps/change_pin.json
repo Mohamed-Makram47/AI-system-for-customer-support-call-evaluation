@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Customer Identity**: Before processing a PIN change request, agents must verify the customer's identity by asking for their name, date of birth, and account information (e.g., account number or debit card number). The agent must then authenticate the customer using the bank's approved authentication methods, which may include security questions, a one-time password sent to the customer's registered phone or email, or biometric verification.",
+    "source": "change_pin"
+  },
+  {
+    "rule": "**Obtain Explicit Consent**: Agents must clearly explain the PIN change process and obtain the customer's explicit consent to proceed. The agent must say, \"I understand you would like to change your PIN. Are you ready to proceed with the new PIN?\" and document the customer's verbal consent.",
+    "source": "change_pin"
+  },
+  {
+    "rule": "**Ensure New PIN Meets Complexity Requirements**: The agent must ensure the customer's new PIN meets the bank's complexity requirements, which include: a minimum of 4 digits, a maximum of 12 digits, and at least one digit that is different from the previous PIN. The agent must inform the customer of these requirements and guide them in selecting a compliant new PIN.",
+    "source": "change_pin"
+  },
+  {
+    "rule": "**Never Share or Display PIN Information**: Agents are strictly prohibited from sharing or displaying the customer's new PIN in any format, including writing it down or reading it aloud. Instead, the agent must provide the customer with a secure method to receive the new PIN, such as a one-time password sent to their registered phone or email, or a printed PIN envelope.",
+    "source": "change_pin"
+  },
+  {
+    "rule": "**Document and Retain Records**: Agents must document the PIN change request, including the customer's verification, consent, and new PIN delivery method, in the bank's customer relationship management (CRM) system. The agent must also retain a record of the transaction, including the date, time, and details of the PIN change, for a minimum of 5 years in accordance with regulatory requirements.",
+    "source": "change_pin"
+  }
+]

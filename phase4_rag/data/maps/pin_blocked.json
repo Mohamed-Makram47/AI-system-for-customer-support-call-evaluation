@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Customer Identity**: Before assisting with a PIN block, agents must verify the customer's identity by asking for their name, date of birth, and account information (e.g., account number or debit/credit card number). This ensures that the agent is speaking with the account owner and prevents unauthorized access to sensitive information.",
+    "source": "pin_blocked"
+  },
+  {
+    "rule": "**Determine Block Reason**: Agents must investigate the reason for the PIN block by checking the customer's account history and transaction records. This helps to identify if the block was triggered by multiple incorrect PIN attempts, a suspected security issue, or another reason.",
+    "source": "pin_blocked"
+  },
+  {
+    "rule": "**Provide Clear Instructions**: Agents must clearly explain the reason for the PIN block and provide step-by-step instructions on how to resolve the issue. If the block was triggered by multiple incorrect PIN attempts, agents should advise the customer to try again after a specified period or to visit a branch for assistance.",
+    "source": "pin_blocked"
+  },
+  {
+    "rule": "**Escalate to Supervisor or Specialist if Necessary**: If the PIN block is related to a suspected security issue or a complex technical problem, agents must escalate the issue to a supervisor or a specialized technical support team. This ensures that the issue is handled by someone with the necessary expertise and authority.",
+    "source": "pin_blocked"
+  },
+  {
+    "rule": "**Document Customer Interaction**: Agents must document the customer's issue and the resolution provided in the customer's account records. This includes noting the reason for the PIN block, the steps taken to resolve the issue, and any additional follow-up actions required. Accurate documentation helps to prevent similar issues in the future and ensures that all customer interactions are recorded for auditing and compliance purposes.",
+    "source": "pin_blocked"
+  }
+]

@@ -1,0 +1,13 @@
+**Get Physical Card Policy Manual for Call Center Agents**
+
+When handling customer requests for physical cards, agents must follow these rules:
+
+- **Verify Customer Identity**: Before issuing a physical card, agents must verify the customer's identity using their name, date of birth, and the last four digits of their social security number or account number. This verification ensures that the request is coming from the actual account holder.
+
+- **Check for Existing Card Orders**: Agents must check the customer's account to see if there are any existing physical card orders that have not been resolved or cancelled. If an existing order is found, the agent must inform the customer and provide an estimated delivery date or offer to track the existing order.
+
+- **Confirm Card Type and Address**: Agents must confirm with the customer the type of physical card they are requesting (e.g., debit, credit, or prepaid) and ensure that the card is to be mailed to the customer's current address on file. Any changes to the address require verification through a secure method, such as a callback to a previously verified phone number.
+
+- **Document Customer Requests and Outcomes**: All customer requests for physical cards, including denials or issues with the request, must be thoroughly documented in the customer's account records. This documentation must include the reason for the request, any issues encountered, and the resolution provided to the customer.
+
+- **Escalate Exceptions and Provide Tracking Information**: If there are any exceptions or issues with fulfilling a physical card request (e.g., address verification failure, suspected fraud), agents must escalate the issue to their supervisor or the fraud department as per established protocols. Additionally, agents must provide customers with tracking information for the physical card once it has been mailed, including the shipping method and expected delivery timeframe.

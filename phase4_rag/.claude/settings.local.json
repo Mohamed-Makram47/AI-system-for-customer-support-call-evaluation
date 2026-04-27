@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git config *)",
+      "Bash(git push *)",
+      "Read(//c/Users/mohma/Desktop/AI-system-for-customer-support-call-evaluation/**)",
+      "Bash(git -C \"C:/Users/mohma/Desktop/AI-system-for-customer-support-call-evaluation\" status --short)",
+      "Bash(mkdir -p \"C:/Users/mohma/Desktop/AI-system-for-customer-support-call-evaluation/phase4_rag\")",
+      "Bash(rsync -av --exclude='model/*.pt' --exclude='venv311/' --exclude='.git/' --exclude='__pycache__/' \"C:/Users/mohma/Desktop/phase4_rag/\" \"C:/Users/mohma/Desktop/AI-system-for-customer-support-call-evaluation/phase4_rag/\")"
+    ]
+  }
+}

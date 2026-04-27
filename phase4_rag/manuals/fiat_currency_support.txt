@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling fiat_currency_support:
+
+- **Rule 1: Verify Customer Information**: Before providing any support for fiat currency-related issues, agents must verify the customer's identity through our standard authentication process, which includes asking for their name, date of birth, and account information to ensure they are speaking with the account holder.
+
+- **Rule 2: Clearly Explain Fiat Currency Support Options**: Agents must clearly explain the available support options for fiat currency-related issues, including but not limited to, providing information on deposit and withdrawal processes, transaction limits, and any associated fees, and ensure the customer understands the next steps and timelines for resolution.
+
+- **Rule 3: Adhere to Regulatory Requirements**: Agents must adhere to all relevant regulatory requirements, including anti-money laundering (AML) and know-your-customer (KYC) regulations, when handling fiat currency-related issues, and ensure that all transactions and customer information are handled in accordance with our bank's policies and procedures.
+
+- **Rule 4: Document All Interactions**: Agents must document all interactions with customers regarding fiat currency support in our customer relationship management (CRM) system, including but not limited to, the customer's issue, the resolution provided, and any follow-up actions required, to ensure a clear audit trail and enable effective issue tracking and resolution.
+
+- **Rule 5: Escalate Complex Issues**: Agents must escalate complex fiat currency-related issues, such as transactions that are pending or disputed, or customer complaints that cannot be resolved through standard procedures, to a senior agent or a specialized team, such as our fraud prevention unit, to ensure timely and effective resolution and minimize potential risks to the bank and the customer.

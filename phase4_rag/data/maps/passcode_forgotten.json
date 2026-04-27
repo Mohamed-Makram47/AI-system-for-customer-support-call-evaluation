@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Caller Identity**: Before providing any assistance, the agent must verify the caller's identity by asking for their name, date of birth, and account information (e.g., account number or debit card number). The agent must then use the verified information to access the caller's account in the banking system and confirm their identity.",
+    "source": "passcode_forgotten"
+  },
+  {
+    "rule": "**Do Not Provide Passcode Reset via Phone**: Agents are not authorized to reset a passcode over the phone. Instead, they must instruct the caller to reset their passcode through the bank's secure online platform, mobile app, or by visiting a branch in person.",
+    "source": "passcode_forgotten"
+  },
+  {
+    "rule": "**Provide Alternative Solutions**: If the caller is unable to reset their passcode through the online platform or mobile app, the agent must offer to mail a passcode reset letter or provide instructions on how to visit a branch to reset the passcode in person.",
+    "source": "passcode_forgotten"
+  },
+  {
+    "rule": "**Document Caller Interaction**: The agent must document the caller's issue and the resolution provided in the bank's customer interaction system, including the caller's name, account information, and a description of the issue and resolution.",
+    "source": "passcode_forgotten"
+  },
+  {
+    "rule": "**Escalate to Supervisor if Necessary**: If the caller is not satisfied with the resolution provided or if the agent is unsure about how to handle the issue, they must escalate the call to a supervisor for further assistance and guidance. The supervisor will review the situation and provide a resolution or additional guidance to the agent.",
+    "source": "passcode_forgotten"
+  }
+]

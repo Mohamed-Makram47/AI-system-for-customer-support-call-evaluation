@@ -1,0 +1,13 @@
+**Top-up by Cash or Cheque Policy Manual for Call Center Agents**
+
+When handling customer inquiries and transactions related to top-ups by cash or cheque, agents must adhere to the following rules:
+
+- **Verify Customer Identity**: Before processing any top-up transaction by cash or cheque, agents must verify the customer's identity by asking for and confirming their name, account number, and date of birth. This ensures that the transaction is being made by or for the account owner.
+
+- **Accept Only Valid Cheques**: Agents are only authorized to accept cheques that are dated within the last 30 days, made payable to the bank or the customer's name, and have the customer's account number written on the back. Cheques must be drawn on a Canadian bank and in Canadian dollars.
+
+- **Cash Handling Procedures**: When accepting cash for a top-up, agents must count the cash back to the customer to ensure accuracy and confirm the amount. The agent must then verify the transaction details on the customer's account and provide a receipt immediately.
+
+- **Complete Transaction Documentation**: For all top-up transactions by cash or cheque, agents must complete and retain a transaction slip or receipt, which includes the date, amount, customer name, and account number. The agent must also ensure that the customer receives a copy of the receipt.
+
+- **Escalate for Approval if Exceeding Limits**: If a customer attempts to make a top-up by cash or cheque that exceeds the daily limit of $10,000, the agent must escalate the transaction to a supervisor for approval. The supervisor will review the transaction and verify the customer's identity and account details before approving or declining the transaction.

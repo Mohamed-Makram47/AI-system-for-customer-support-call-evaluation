@@ -1,0 +1,13 @@
+**Get Disposable Virtual Card Policy Manual**
+
+The following rules are designed to ensure compliance with regulatory requirements and company policies when handling requests for disposable virtual cards.
+
+- **Verify Customer Identity**: Before providing information or assistance with a disposable virtual card, agents must verify the caller's identity through our standard authentication process, which includes asking for their name, date of birth, and account information. Agents must ensure that the caller's information matches our records before proceeding.
+
+- **Explain Terms and Conditions**: Agents must clearly explain the terms and conditions associated with the disposable virtual card, including any fees, limits on use, and expiration dates. Agents must ensure that customers understand that disposable virtual cards are single-use cards and cannot be reloaded or reused.
+
+- **Confirm Customer Request**: Agents must confirm that the customer understands that a disposable virtual card is a single-use card, specifically requested through our get_disposable_virtual_card process, and that it will be issued for a specific transaction or purpose. Agents must document the customer's confirmation in our system.
+
+- **Adhere to Issuance Limits**: Agents must adhere to established limits on the issuance of disposable virtual cards, including limits on the number of cards issued per day, per week, or per customer. Agents must also ensure that customers are not exceeding these limits.
+
+- **Document and Escalate Issues**: Agents must document any issues or concerns raised by customers regarding their disposable virtual card, including disputes or unauthorized transactions. Agents must escalate these issues to their supervisor or the fraud department, as necessary, and follow established procedures for resolving these types of issues.

@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Customer Identity**: Before proceeding with the investigation, agents must verify the customer's identity using their name, date of birth, and account information to ensure they are speaking with the account holder.",
+    "source": "cash_withdrawal_not_recognised"
+  },
+  {
+    "rule": "**Gather Transaction Details**: Agents must request and document detailed information about the disputed transaction, including the date, time, and location of the withdrawal, as well as the amount withdrawn. This information will be used to investigate the transaction and determine the next course of action.",
+    "source": "cash_withdrawal_not_recognised"
+  },
+  {
+    "rule": "**Check for Recent Transactions**: Agents must review the customer's recent transaction history to identify if there have been any similar transactions or suspicious activity. This can help determine if the withdrawal was made by the customer or if it may be a fraudulent transaction.",
+    "source": "cash_withdrawal_not_recognised"
+  },
+  {
+    "rule": "**Escalate to Fraud Team if Necessary**: If the agent determines that the transaction is potentially fraudulent or the customer confirms that they did not make the withdrawal, the agent must escalate the issue to the fraud team for further investigation and resolution. The agent must provide all relevant documentation and information to support the escalation.",
+    "source": "cash_withdrawal_not_recognised"
+  },
+  {
+    "rule": "**Provide Temporary Account Protection**: If the customer confirms that they did not make the withdrawal and the agent has escalated the issue to the fraud team, the agent must offer to temporarily protect the account from further unauthorized transactions, if possible, and provide guidance on next steps to prevent similar incidents in the future.",
+    "source": "cash_withdrawal_not_recognised"
+  }
+]

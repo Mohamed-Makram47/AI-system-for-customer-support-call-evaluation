@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verification of Customer Identity**: Before providing any information or assistance regarding a pending card payment, agents must verify the customer's identity through their account details, such as name, date of birth, and card number, to ensure they are speaking with the authorized cardholder.",
+    "source": "pending_card_payment"
+  },
+  {
+    "rule": "**Disclosure of Payment Status**: Agents must clearly explain the status of the pending card payment to the customer, including the date it was initiated, the amount, and the expected processing time, in accordance with the bank's policies and applicable regulations.",
+    "source": "pending_card_payment"
+  },
+  {
+    "rule": "**Investigation of Payment Issues**: If the customer disputes a pending card payment or reports an unauthorized transaction, agents must investigate the issue promptly and thoroughly, gathering all relevant information, and escalate the matter to a supervisor or specialized team if necessary.",
+    "source": "pending_card_payment"
+  },
+  {
+    "rule": "**Provision of Payment Hold Information**: Agents must inform customers that pending card payments may be subject to a hold on their account for a specified period, which may vary depending on the type of transaction, and provide guidance on how to monitor their account activity and dispute any incorrect transactions.",
+    "source": "pending_card_payment"
+  },
+  {
+    "rule": "**Documentation and Follow-up**: Agents must document all interactions with customers regarding pending card payments in the customer's account records, including any resolutions or next steps, and ensure that follow-up actions are taken as necessary to resolve the issue and prevent similar issues from arising in the future.",
+    "source": "pending_card_payment"
+  }
+]

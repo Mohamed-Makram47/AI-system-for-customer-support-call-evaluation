@@ -1,0 +1,13 @@
+**Supported Cards and Currencies Policy Manual**
+
+As a banking call center agent, it is essential to provide accurate and compliant information to customers regarding supported cards and currencies. The following rules must be followed:
+
+- **Rule 1: Verify Card Type and Currency Support**: Agents must verify the type of card (e.g., debit, credit, prepaid) and currency supported by our banking system before providing information to the customer. This can be done by checking the customer's account details or referring to the bank's supported cards and currencies matrix.
+
+- **Rule 2: Clearly Communicate Supported Currencies**: When a customer inquires about supported currencies, agents must clearly communicate that our bank supports transactions in [list specific currencies, e.g., USD, EUR, GBP, etc.]. Agents must also inform customers that transactions in unsupported currencies may incur additional fees or conversion rates.
+
+- **Rule 3: Inform Customers of Card Limitations**: Agents must inform customers about any limitations or restrictions on their specific card type, such as daily spending limits, foreign transaction fees, or limitations on international transactions.
+
+- **Rule 4: Provide Accurate Information on Card and Currency Combinations**: Agents must provide accurate information on which card types can be used for transactions in specific currencies. For example, if a customer's debit card is not supported for transactions in a particular currency, the agent must inform them of this limitation and provide alternative options.
+
+- **Rule 5: Document Customer Inquiries and Responses**: Agents must document all customer inquiries and responses related to supported cards and currencies in our banking system's CRM or customer interaction platform. This ensures that customer interactions are tracked and can be reviewed for compliance and quality assurance purposes.

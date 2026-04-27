@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Rule 1: Acknowledge and Apologize**: The agent must acknowledge the customer's concern and apologize for the inconvenience caused by the duplicate charge. The agent must use a phrase such as \"I apologize for the mistake and appreciate you bringing this to our attention\" to show empathy and set a positive tone for the rest of the interaction.",
+    "source": "transaction_charged_twice"
+  },
+  {
+    "rule": "**Rule 2: Verify Customer Information**: The agent must verify the customer's identity and account information to ensure they are speaking with the correct person and have access to the relevant account details. This includes asking for and confirming the customer's name, account number, and transaction details.",
+    "source": "transaction_charged_twice"
+  },
+  {
+    "rule": "**Rule 3: Investigate and Identify Root Cause**: The agent must investigate the issue by checking the customer's account history and transaction records to confirm that the transaction was indeed charged twice. The agent must identify the root cause of the issue, such as a technical glitch, human error, or other factors.",
+    "source": "transaction_charged_twice"
+  },
+  {
+    "rule": "**Rule 4: Provide Resolution and Refund**: If the investigation confirms that the transaction was charged twice, the agent must provide a resolution to the customer, which includes refunding the duplicate charge. The agent must explain the refund process, provide a reference number or confirmation of the refund, and ensure the customer understands the next steps.",
+    "source": "transaction_charged_twice"
+  },
+  {
+    "rule": "**Rule 5: Document and Escalate (if necessary)**: The agent must document the issue, investigation, and resolution in the customer's account records and/or a internal ticketing system. If the issue cannot be resolved through standard procedures or if the customer is not satisfied with the resolution, the agent must escalate the issue to a supervisor or specialized team for further review and assistance.",
+    "source": "transaction_charged_twice"
+  }
+]

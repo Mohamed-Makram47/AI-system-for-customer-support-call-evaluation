@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Caller Identity**: Before processing a refund request, agents must verify the caller's identity by asking for their name, date of birth, and account information (e.g., account number or debit/credit card number). Agents must ensure the caller's information matches the records in our system before proceeding with the refund request.",
+    "source": "request_refund"
+  },
+  {
+    "rule": "**Check Refund Eligibility**: Agents must review the account or transaction history to determine if the caller is eligible for a refund. This includes checking if the refund request is within the allowed timeframe (e.g., 30 days from the transaction date) and if the transaction meets the refund criteria (e.g., returned merchandise or cancelled service).",
+    "source": "request_refund"
+  },
+  {
+    "rule": "**Use Standardized Refund Script**: When processing a refund, agents must use our standardized refund script to ensure compliance with regulatory requirements and company policies. The script includes required disclosures, such as the refund amount, reason for the refund, and any additional fees or charges.",
+    "source": "request_refund"
+  },
+  {
+    "rule": "**Document Refund Reason and Resolution**: Agents must document the reason for the refund request and the resolution provided in our customer relationship management (CRM) system. This includes selecting the appropriate refund reason code, entering a detailed description of the issue, and recording the outcome (e.g., refund approved or denied).",
+    "source": "request_refund"
+  },
+  {
+    "rule": "**Escalate Complex Refund Requests**: If the caller disputes a refund decision or the issue is complex and requires additional review, agents must escalate the request to a senior agent or supervisor for further review and resolution. Agents must also notify the caller of the escalation and provide an estimated timeframe for a follow-up response.",
+    "source": "request_refund"
+  }
+]

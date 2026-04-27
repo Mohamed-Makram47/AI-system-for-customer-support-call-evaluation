@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Customer Identity**: Before processing a cancel transfer request, agents must verify the customer's identity by asking for their name, account number, and date of birth, and confirming this information against our internal systems.",
+    "source": "cancel_transfer"
+  },
+  {
+    "rule": "**Check Transfer Status**: Agents must check the status of the transfer in our system to ensure it has not yet been processed or completed. If the transfer has already been processed, the agent must inform the customer that it cannot be cancelled and provide information on how to reverse the transaction, if applicable.",
+    "source": "cancel_transfer"
+  },
+  {
+    "rule": "**Obtain Customer Confirmation**: Agents must obtain explicit confirmation from the customer that they want to cancel the transfer. This can be done by having the customer verbally confirm or by providing a cancellation request in writing (e.g., email or fax). The agent must document the customer's confirmation in our system.",
+    "source": "cancel_transfer"
+  },
+  {
+    "rule": "**Process Cancellation within Timely Manner**: Agents must process the cancellation of the transfer within 2 business days of receiving the customer's request, provided the transfer has not yet been processed. The agent must update the customer's account and notify them once the cancellation has been completed.",
+    "source": "cancel_transfer"
+  },
+  {
+    "rule": "**Escalate Complex Cases**: If the customer requests to cancel a transfer that involves a complex issue (e.g., international transfer, large dollar amount, or disputed transaction), the agent must escalate the case to a senior agent or a specialized team (e.g., fraud department) for further review and assistance. The agent must document the escalation and communicate the next steps to the customer.",
+    "source": "cancel_transfer"
+  }
+]

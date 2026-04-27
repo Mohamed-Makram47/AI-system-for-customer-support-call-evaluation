@@ -1,0 +1,13 @@
+**Topping Up by Card Policy Manual for Call Center Agents**
+
+When handling customer inquiries and transactions related to topping up by card, agents must adhere to the following rules:
+
+- **Verify Customer Identity**: Before proceeding with any topping up by card transaction, agents must verify the customer's identity through their account details, security questions, or other approved verification methods to ensure they are speaking with the account holder or an authorized representative.
+
+- **Check Card Eligibility**: Agents must check if the card being used for the top-up is eligible for the transaction, ensuring it is a valid, active card and not expired. The agent should also confirm that the card type (e.g., debit, credit) is accepted for the specific top-up transaction.
+
+- **Disclose Fees and Terms**: Agents are required to clearly disclose any fees associated with the top-up transaction and provide the customer with the terms and conditions of the service, including the exchange rate if applicable. This information must be provided in a clear and understandable manner.
+
+- **Obtain Customer Consent**: Before completing the top-up transaction, agents must obtain explicit consent from the customer to proceed. This includes confirming the amount to be topped up, the card to be used, and any associated fees. The customer's consent must be documented within the transaction record.
+
+- **Transaction Limits and Error Handling**: Agents must be aware of and communicate to customers the daily and monthly transaction limits for topping up by card. In case of any errors during the transaction (e.g., card decline, technical issues), the agent should follow the established error handling procedures, which include notifying the customer of the issue, explaining the next steps, and escalating if necessary.

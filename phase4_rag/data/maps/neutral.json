@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Agents must not take a side or make subjective judgments**: When handling sensitive issues, agents must remain neutral and avoid taking a side or making subjective judgments that may influence the customer's perception or the outcome of the issue.",
+    "source": "neutral"
+  },
+  {
+    "rule": "**Agents must use objective language and tone**: Agents must use objective language and maintain a neutral tone when communicating with customers, avoiding language or tone that may be perceived as confrontational, apologetic, or sympathetic.",
+    "source": "neutral"
+  },
+  {
+    "rule": "**Agents must focus on facts and policy**: When resolving issues, agents must focus on the facts of the situation and adhere to established policies and procedures, rather than making exceptions or accommodations based on personal opinions or biases.",
+    "source": "neutral"
+  },
+  {
+    "rule": "**Agents must not make promises or commitments**: Agents must not make promises or commitments to customers that may be perceived as binding or influential, and must instead focus on providing accurate information and escalating issues to senior representatives when necessary.",
+    "source": "neutral"
+  },
+  {
+    "rule": "**Agents must document all interactions accurately and objectively**: Agents must document all interactions with customers accurately and objectively, avoiding subjective comments or opinions, and ensuring that all relevant information is captured and retained in accordance with regulatory requirements and internal policies.",
+    "source": "neutral"
+  }
+]

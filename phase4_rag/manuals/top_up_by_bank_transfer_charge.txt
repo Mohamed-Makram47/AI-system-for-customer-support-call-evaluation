@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue of top_up_by_bank_transfer_charge:
+
+- **Rule 1: Verification of Customer Information**: Before proceeding with any resolution, agents must verify the customer's identity and account information to ensure they are speaking with the account holder or authorized representative. This includes confirming the customer's name, account number, and any other relevant details.
+
+- **Rule 2: Acknowledgement and Empathy**: Agents must acknowledge the customer's concern and show empathy regarding the top-up by bank transfer charge. This includes phrases such as "I understand your concern about the charge" or "I apologize that you're being charged for the top-up". This helps to de-escalate any potential issues and builds trust with the customer.
+
+- **Rule 3: Explanation of Charges**: Agents must clearly explain the top-up by bank transfer charge, including the amount, reason for the charge, and any relevant terms and conditions. Agents should also provide information on how the charge can be avoided in the future, if applicable.
+
+- **Rule 4: Resolution Options**: Agents must provide the customer with clear resolution options, which may include a refund of the charge, a reversal of the transaction, or guidance on how to avoid similar charges in the future. Agents should also inform the customer of any potential fees or consequences associated with the chosen resolution option.
+
+- **Rule 5: Documentation and Escalation**: Agents must document the customer's concern, the resolution provided, and any agreements or next steps discussed during the call. If the issue cannot be resolved through standard procedures, agents must escalate the issue to a supervisor or specialized team, following established escalation procedures and providing all relevant documentation.

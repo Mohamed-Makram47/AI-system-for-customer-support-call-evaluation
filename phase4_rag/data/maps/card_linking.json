@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Customer Identity**: Before proceeding with any card linking request, agents must verify the customer's identity using their name, date of birth, and account information. This can be done through our customer verification system or by asking the customer to provide their account details and confirming them against our records.",
+    "source": "card_linking"
+  },
+  {
+    "rule": "**Obtain Explicit Consent**: Agents must obtain explicit consent from the customer to link their card to their account. This can be done by having the customer confirm their intention to link the card through a clear and audible affirmative response, such as \"yes\" or \"I agree.\" The agent must document this consent in the customer's account notes.",
+    "source": "card_linking"
+  },
+  {
+    "rule": "**Check Card and Account Eligibility**: Agents must check that the card and account are eligible for linking. This includes verifying that the card is not expired, not blocked, and not already linked to another account. Additionally, agents must ensure that the account is active and not restricted from card linking.",
+    "source": "card_linking"
+  },
+  {
+    "rule": "**Use Secure Authentication Methods**: When linking a card, agents must use secure authentication methods to prevent unauthorized access. This includes using two-factor authentication (2FA) or one-time passwords (OTPs) sent to the customer's registered mobile number or email address. Agents must follow our established 2FA/OTP protocols to ensure the security of the transaction.",
+    "source": "card_linking"
+  },
+  {
+    "rule": "**Document and Escalate Exceptions**: Agents must document any exceptions or issues encountered during the card linking process in the customer's account notes. If the card linking request is unsuccessful or requires additional verification, agents must escalate the issue to their supervisor or the card linking specialist team for further assistance. Agents must also inform the customer of the next steps and provide a clear explanation of the reason for the delay or denial.",
+    "source": "card_linking"
+  }
+]

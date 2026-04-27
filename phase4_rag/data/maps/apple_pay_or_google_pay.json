@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Customer Identity**: Before providing any information or assistance, agents must verify the customer's identity through our standard authentication process, which includes asking for their name, date of birth, and account information to ensure they are speaking with the account owner.",
+    "source": "apple_pay_or_google_pay"
+  },
+  {
+    "rule": "**Acknowledge and Apologize**: Agents must acknowledge the customer's concern and apologize for any inconvenience caused by the issue with Apple Pay or Google Pay, demonstrating empathy and a customer-centric approach.",
+    "source": "apple_pay_or_google_pay"
+  },
+  {
+    "rule": "**Troubleshooting Steps**: Agents must walk the customer through standard troubleshooting steps, which include checking if their device is compatible with Apple Pay or Google Pay, ensuring their device's operating system is up-to-date, and verifying that their card has been properly added to the digital wallet.",
+    "source": "apple_pay_or_google_pay"
+  },
+  {
+    "rule": "**Escalation Procedure**: If the issue cannot be resolved through basic troubleshooting, agents must escalate the issue to our specialized digital wallet support team, who will further investigate and resolve the issue; agents must provide the customer with a clear explanation of the escalation process and an estimated timeframe for resolution.",
+    "source": "apple_pay_or_google_pay"
+  },
+  {
+    "rule": "**Documentation and Follow-up**: Agents must document the customer's issue and the resolution provided in our CRM system, and follow up with the customer within a specified timeframe (e.g., 24-48 hours) to ensure the issue has been fully resolved and the customer is satisfied with the outcome.",
+    "source": "apple_pay_or_google_pay"
+  }
+]

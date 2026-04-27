@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Rule 1: Acknowledge and Apologize**: The agent must acknowledge the customer's concern and apologize for any inconvenience caused by the transfer fee charged. The agent should express empathy and assure the customer that they will investigate the matter.",
+    "source": "transfer_fee_charged"
+  },
+  {
+    "rule": "**Rule 2: Verify Customer Information**: Before proceeding with the investigation, the agent must verify the customer's identity and gather relevant information about the transfer, including the date, amount, and recipient's details. This ensures that the agent is working with accurate information and helps prevent potential fraud.",
+    "source": "transfer_fee_charged"
+  },
+  {
+    "rule": "**Rule 3: Investigate and Review Transfer Details**: The agent must review the transfer details, including the transfer type (domestic or international), transfer method (online, mobile, or in-branch), and any applicable fees. The agent should also check if the customer was informed about the transfer fee prior to the transaction.",
+    "source": "transfer_fee_charged"
+  },
+  {
+    "rule": "**Rule 4: Provide Clear Explanation and Resolution**: Based on the investigation, the agent must provide a clear explanation of the transfer fee charged and the reason for it. If the fee was incorrectly charged, the agent should offer to reverse the fee and provide a corrected transaction receipt. If the fee was correctly charged, the agent should explain the applicable policies and procedures.",
+    "source": "transfer_fee_charged"
+  },
+  {
+    "rule": "**Rule 5: Document and Escalate (if necessary)**: The agent must document the customer's concern, the investigation, and the resolution in the customer's account records. If the issue cannot be resolved during the initial call or if the customer is not satisfied with the resolution, the agent should escalate the issue to a senior agent or a specialized team for further review and assistance.",
+    "source": "transfer_fee_charged"
+  }
+]

@@ -1,0 +1,21 @@
+**Card Swallowed Policy Manual for Call Center Agents**
+
+When handling customer inquiries regarding a card that has been swallowed by an ATM or other card-reading device, agents must follow these rules:
+
+- **Rule 1: Empathize and Acknowledge**: The agent must immediately acknowledge the customer's concern and express empathy for the inconvenience caused. A standard phrase to use is: "I apologize for the trouble you're experiencing with your card being swallowed. I'm here to help you resolve this issue."
+
+- **Rule 2: Gather Information**: The agent must collect specific details from the customer to facilitate the investigation and resolution process. This includes: 
+  - The type of card (debit, credit, etc.)
+  - The date and time of the incident
+  - The location of the ATM or device that swallowed the card
+  - The customer's account information (for verification purposes)
+
+- **Rule 3: Check on Card Status and Block if Necessary**: The agent must verify if the card has been blocked or reported lost/stolen. If not, and the customer confirms the card was indeed swallowed and not used after the incident, the agent should offer to block the card to prevent potential unauthorized transactions.
+
+- **Rule 4: Provide Resolution Options**: The agent must explain to the customer the available options for resolving the issue, which may include:
+  - Having the card retrieved from the device (if possible)
+  - Issuing a replacement card
+  - Providing a temporary card (if available)
+  - Advising on how to access their account without the card
+
+- **Rule 5: Document and Follow-Up**: The agent must document the customer's concern, actions taken, and any resolutions offered or implemented in the customer's account records. If a replacement or temporary card is requested, the agent must ensure the customer understands the process, timeline, and any associated fees. The agent should also offer to follow up on the status of the resolution if necessary and provide a case reference number for future inquiries

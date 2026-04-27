@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Rule 1: Verification of Customer Identity** - Before providing any information or assistance regarding exchange charges, agents must verify the customer's identity through their account details or other secure authentication methods to prevent unauthorized access to sensitive information.",
+    "source": "exchange_charge"
+  },
+  {
+    "rule": "**Rule 2: Disclosure of Exchange Charge Details** - Agents must clearly explain the exchange charge, including the rate, any applicable fees, and how the charge was calculated. They should also inform customers about any potential fluctuations in exchange rates that might affect their transactions.",
+    "source": "exchange_charge"
+  },
+  {
+    "rule": "**Rule 3: Adherence to Regulatory Requirements** - Agents are required to comply with all relevant regulations, including the Bank Secrecy Act (BSA), anti-money laundering (AML) laws, and the Foreign Account Tax Compliance Act (FATCA), when handling exchange charge inquiries. This includes reporting suspicious activities and ensuring that transactions do not violate any regulatory requirements.",
+    "source": "exchange_charge"
+  },
+  {
+    "rule": "**Rule 4: Accurate Information and Documentation** - Agents must provide accurate and up-to-date information regarding exchange charges. If a customer requests documentation or details about a specific transaction, agents must ensure that the information provided is complete, accurate, and delivered in a timely manner.",
+    "source": "exchange_charge"
+  },
+  {
+    "rule": "**Rule 5: Escalation of Complex Issues** - If an agent encounters a complex issue related to an exchange charge that they are not authorized to resolve or if the customer expresses dissatisfaction with the provided solution, the agent must escalate the issue to a senior representative or a specialized team, such as the compliance department, in accordance with the bank's escalation procedures.",
+    "source": "exchange_charge"
+  }
+]

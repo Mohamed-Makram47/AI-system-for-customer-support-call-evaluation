@@ -1,0 +1,13 @@
+**Card Acceptance Policy Manual for Call Center Agents**
+
+As a call center agent, it is essential to handle card acceptance issues in a compliant and efficient manner. The following rules must be followed:
+
+- **Verify Card Information**: When a customer calls with a card acceptance issue, the agent must verify the card information, including the card number (last 4 digits), expiration date, and cardholder name, to ensure accurate identification of the issue.
+
+- **Check Card Status**: The agent must check the card status using the bank's internal systems or third-party tools to determine if the card is active, inactive, or has been reported lost or stolen.
+
+- **Follow Card Acceptance Guidelines**: Agents must follow the bank's card acceptance guidelines, which include not accepting cards that are not supported by the bank or have been flagged for suspicious activity.
+
+- **Escalate Complex Issues**: If the agent encounters a complex card acceptance issue that cannot be resolved through standard procedures, they must escalate the issue to a senior agent or a specialized team, such as the card operations team, for further assistance.
+
+- **Document and Close**: After resolving the card acceptance issue, the agent must document the resolution in the customer's account records and close the issue in the bank's internal systems, ensuring that all relevant details are captured and easily accessible for future reference.

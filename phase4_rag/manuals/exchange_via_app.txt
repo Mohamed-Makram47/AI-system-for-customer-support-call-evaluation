@@ -1,0 +1,13 @@
+**Exchange via App Policy Manual for Call Center Agents**
+
+When handling customer inquiries and requests related to exchanging currency via our mobile app, agents must adhere to the following rules:
+
+- **Verify Customer Eligibility**: The agent must verify that the customer has downloaded and installed the latest version of our mobile banking app and has a registered account with our bank, enabled for mobile transactions, before proceeding with any exchange via app request.
+
+- **Confirm Transaction Limits**: The agent must inform the customer of the daily and monthly transaction limits for exchanging currency via the app, as per our bank's policies and the customer's account type, to ensure the requested transaction amount does not exceed these limits.
+
+- **Guide Through In-App Process**: The agent must guide the customer through the in-app process for exchanging currency, ensuring the customer understands the exchange rates, fees (if any), and the terms and conditions of the transaction, and that they are able to execute the transaction on their own via the app.
+
+- **Verify Customer Identity and Transaction Details**: For security and compliance purposes, the agent must verify the customer's identity through our standard verification protocols and ensure that all transaction details provided by the customer (such as the amount to exchange and the recipient's details, if applicable) are accurate and match the information on file.
+
+- **Escalate Complex Issues**: If the customer encounters any issues during the exchange process via the app that the agent cannot resolve through standard troubleshooting (e.g., technical issues, concerns about exchange rates, or transaction errors), the agent must escalate the issue to the specialized support team or the app support desk, following our bank's escalation procedures, to ensure timely and appropriate resolution.

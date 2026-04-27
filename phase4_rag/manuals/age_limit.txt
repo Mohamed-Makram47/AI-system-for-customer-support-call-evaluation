@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue of age_limit:
+
+- **Verify Customer Age**: When a customer calls to inquire about opening an account or applying for a financial product, the agent must verify the customer's age to ensure they meet the minimum age requirement of 18 years old (or the state-specific age limit, if applicable). The agent must ask for and document the customer's date of birth.
+
+- **Check Age Restricted Products**: The agent must be aware of and check if the product or service the customer is inquiring about has an age restriction. For example, certain investment products or credit cards may have age limits higher than 18. The agent must inform the customer of any age restrictions and provide alternative options if available.
+
+- **Obtain Parental Consent for Minors**: If the customer is under the age of 18, the agent must inform them that they cannot open an account or apply for a product in their own name. However, the agent may offer to open a joint account with a parent or guardian, or provide information on how to apply for a product with parental consent.
+
+- **Document Age Verification**: The agent must document the customer's age verification in the customer's account records or case notes. This includes recording the customer's date of birth, the method used to verify the age, and any subsequent conversations or actions taken regarding the age limit.
+
+- **Escalate Age Limit Exceptions**: If a customer does not meet the age limit requirement for a specific product or service, and the agent is unsure about how to proceed or if an exception can be made, the agent must escalate the issue to their supervisor or compliance officer for review and guidance. The agent must not make any promises or commitments to the customer regarding an exception without prior approval from a supervisor or compliance officer.

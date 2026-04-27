@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Rule 1: Verification of Caller Identity**: Before providing any information or assistance related to country support, agents must verify the caller's identity through our standard verification process, which includes asking for their name, date of birth, and account information. Agents must document the verification process in our customer relationship management (CRM) system.",
+    "source": "country_support"
+  },
+  {
+    "rule": "**Rule 2: Adherence to Country-Specific Regulations**: Agents must be knowledgeable about and adhere to country-specific regulations and guidelines when handling country support issues. This includes understanding the specific requirements and restrictions related to transactions, account openings, and other banking services in the country in question.",
+    "source": "country_support"
+  },
+  {
+    "rule": "**Rule 3: Use of Approved Scripts and Responses**: Agents must use only approved scripts and responses when communicating with callers about country support issues. These scripts and responses are designed to ensure compliance with regulatory requirements and company policies. Agents must not deviate from these approved scripts and responses without prior approval from their supervisor.",
+    "source": "country_support"
+  },
+  {
+    "rule": "**Rule 4: Escalation of Complex Issues**: Agents must escalate complex country support issues to their supervisor or a designated specialist if they are unsure about how to resolve the issue or if the issue requires additional expertise. Examples of complex issues may include requests for exceptions to standard policies or procedures, or situations involving multiple countries or jurisdictions.",
+    "source": "country_support"
+  },
+  {
+    "rule": "**Rule 5: Documentation and Follow-Up**: Agents must document all country support interactions in our CRM system, including the issue reported, the resolution provided, and any follow-up actions required. Agents must also follow up with callers to ensure that their issues have been fully resolved and that no additional assistance is required. This follow-up must be documented in the CRM system as well.",
+    "source": "country_support"
+  }
+]

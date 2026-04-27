@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Customer Identity**: Before providing any information or assistance, agents must verify the customer's identity using their name, date of birth, and account information. This ensures that sensitive information is only shared with the account owner or authorized representative.",
+    "source": "pending_cash_withdrawal"
+  },
+  {
+    "rule": "**Acknowledge and Empathize**: Agents must acknowledge the customer's concern and express empathy regarding the pending cash withdrawal. This can be done by stating, \"I understand your concern about the pending cash withdrawal, and I'm here to help you resolve the issue.\"",
+    "source": "pending_cash_withdrawal"
+  },
+  {
+    "rule": "**Investigate and Provide Status Update**: Agents must investigate the pending cash withdrawal by checking the account status, transaction history, and any available notes or alerts. They must provide a clear and concise status update to the customer, including the reason for the pending withdrawal, the expected resolution timeframe, and any additional information required to resolve the issue.",
+    "source": "pending_cash_withdrawal"
+  },
+  {
+    "rule": "**Escalate to Supervisor if Necessary**: If the agent is unable to resolve the issue or if the customer requests to speak with a supervisor, the agent must escalate the issue to a supervisor immediately. The supervisor will review the situation, provide additional guidance or support, and work with the customer to resolve the issue.",
+    "source": "pending_cash_withdrawal"
+  },
+  {
+    "rule": "**Document and Follow-up**: Agents must document the customer's concern, the investigation, and the resolution (or escalation) in the customer's account notes. Additionally, agents must follow up with the customer within the agreed-upon timeframe to ensure the issue has been resolved to their satisfaction and to provide any additional assistance needed.",
+    "source": "pending_cash_withdrawal"
+  }
+]

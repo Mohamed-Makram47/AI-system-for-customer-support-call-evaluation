@@ -1,0 +1,13 @@
+**Lost or Stolen Phone Policy Manual for Call Center Agents**
+
+When handling customer inquiries regarding a lost or stolen phone, agents must follow these guidelines to ensure compliance and provide excellent customer service:
+
+- **Verify Customer Identity**: Before providing any assistance, agents must verify the customer's identity by asking for their name, date of birth, and account information (e.g., account number or debit/credit card number). This ensures that the customer is the authorized account holder and prevents unauthorized access to sensitive information.
+
+- **Acknowledge and Empathize**: Agents must acknowledge the customer's concern and express empathy. A simple phrase, such as "I'm sorry to hear that your phone was lost or stolen. I'm here to help," can go a long way in de-escalating any potential frustration.
+
+- **Guide Customer to Mobile Banking App or Online Platform**: Agents must guide the customer to use their mobile banking app or online platform to report the lost or stolen phone and take necessary actions, such as freezing or canceling their debit/credit cards, and updating their account information. If the customer is unable to access the app or platform, the agent must offer alternative solutions, such as visiting a branch or providing additional guidance.
+
+- **Provide Clear Instructions on Next Steps**: Agents must provide clear instructions on next steps to prevent further unauthorized activity. This may include advising the customer to contact their wireless provider to suspend or terminate their service, monitoring their account activity, and updating their passwords and security questions.
+
+- **Document and Escalate (if necessary)**: Agents must document the customer's concern and the resolution provided in their system of record. If the customer's issue requires additional attention or involves a sensitive topic (e.g., potential identity theft), the agent must escalate the issue to a supervisor or specialized team (e.g., fraud department) for further assistance and support.

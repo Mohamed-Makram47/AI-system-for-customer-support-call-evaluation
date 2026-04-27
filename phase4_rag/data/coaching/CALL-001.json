@@ -1,0 +1,23 @@
+{
+  "call_id": "CALL-001",
+  "fine_label_predicted": "compromised_card",
+  "classifier_match": false,
+  "violations_count": 1,
+  "good_turns_count": 2,
+  "strengths": [
+    "The agent took proactive steps to protect the customer's account by blocking the compromised card immediately.",
+    "The agent provided clear instructions and a timeline for receiving a replacement card.",
+    "The agent provided a reference number for the replacement card, ensuring the customer had a point of contact for follow-ups."
+  ],
+  "improvements": [
+    "The agent needs to be more vigilant in identifying situations that require escalation to a supervisor or specialized teams, such as fraud.",
+    "The agent should not provide information that could potentially mislead customers about their liability in cases of reported theft.",
+    "The agent must follow established protocols for handling sensitive issues like compromised cards to ensure customer protection and compliance with bank policies."
+  ],
+  "rephrasing": [
+    {
+      "original": "Don't worry, you're fully liable for all charges on your account until you formally report the theft in writing.",
+      "better": "I'm going to escalate this issue to our fraud team to ensure your account is protected and investigated further."
+    }
+  ]
+}

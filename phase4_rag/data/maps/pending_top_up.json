@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verification of Customer Identity**: Before providing any information or assistance regarding a pending top-up, agents must verify the customer's identity through their account details, such as account number, date of birth, or other approved verification methods to ensure they are speaking with the account holder or authorized representative.",
+    "source": "pending_top_up"
+  },
+  {
+    "rule": "**Disclosure of Pending Top-Up Status**: Agents must clearly explain the status of the pending top-up to the customer, including the date it was initiated, the expected processing time, and any additional information required to complete the transaction. Agents should use plain language, avoiding technical jargon, to ensure the customer understands the information.",
+    "source": "pending_top_up"
+  },
+  {
+    "rule": "**Documentation and Escalation**: If a customer inquires about a pending top-up that is not reflected in their account or if there are discrepancies in the transaction, agents must document the issue in the customer's account notes and escalate it to the pending top-up resolution team or a designated supervisor for further investigation and resolution.",
+    "source": "pending_top_up"
+  },
+  {
+    "rule": "**Customer Communication**: Agents must communicate with customers in a professional and courteous manner, providing accurate and timely updates on the status of their pending top-up. If a customer requests an estimated completion time or asks for a reason for the delay, agents must provide a clear and accurate response or refer the customer to a supervisor if necessary.",
+    "source": "pending_top_up"
+  },
+  {
+    "rule": "**Resolution and Follow-Up**: Once the pending top-up issue is resolved, agents must ensure that the customer's account is updated accordingly and verify that the transaction has been completed to the customer's satisfaction. Agents should also follow up with the customer, if necessary, to confirm that the issue has been fully resolved and that they are satisfied with the outcome.",
+    "source": "pending_top_up"
+  }
+]

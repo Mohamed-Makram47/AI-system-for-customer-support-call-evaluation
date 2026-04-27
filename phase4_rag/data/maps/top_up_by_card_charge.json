@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verification of Customer Identity**: Before proceeding with any top up by card charge transaction, agents must verify the customer's identity through their account information, including name, date of birth, and address, to ensure they are speaking with the account holder or an authorized representative.",
+    "source": "top_up_by_card_charge"
+  },
+  {
+    "rule": "**Disclosure of Fees and Terms**: Agents must clearly disclose to customers the fees associated with the top up by card charge, including any convenience fees, and provide a summary of the terms and conditions governing the transaction, including any applicable limits and restrictions.",
+    "source": "top_up_by_card_charge"
+  },
+  {
+    "rule": "**Authorization and Consent**: Agents must obtain explicit authorization and consent from customers before processing a top up by card charge, ensuring customers understand that they are authorizing a charge to their card for the specified amount, and that the transaction is non-refundable.",
+    "source": "top_up_by_card_charge"
+  },
+  {
+    "rule": "**Card Information Handling**: Agents must handle card information with care, ensuring that all card details are collected and processed securely, and that no card information is stored or recorded in any system or documentation, except as permitted by company policy and applicable regulations.",
+    "source": "top_up_by_card_charge"
+  },
+  {
+    "rule": "**Transaction Confirmation and Receipt**: After completing a top up by card charge transaction, agents must provide customers with a clear confirmation of the transaction, including the amount charged, the date and time of the transaction, and a unique reference number, and ensure that customers receive a receipt or a confirmation email, as per company policy.",
+    "source": "top_up_by_card_charge"
+  }
+]

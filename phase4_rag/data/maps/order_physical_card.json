@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Customer Identity**: Before processing an order for a physical card, agents must verify the customer's identity by asking for their name, date of birth, and the last four digits of their social security number or account number. This information must match the customer's information on file.",
+    "source": "order_physical_card"
+  },
+  {
+    "rule": "**Check for Existing Orders**: Agents must check the customer's account history to ensure that there are no existing orders for a physical card that have not been fulfilled or cancelled. If an existing order is found, the agent must inform the customer and provide an estimated delivery date or offer to track the existing order.",
+    "source": "order_physical_card"
+  },
+  {
+    "rule": "**Confirm Card Type and Address**: Agents must confirm with the customer the type of card they are ordering (e.g., debit, credit, replacement, etc.) and ensure that the customer's address on file is correct and up-to-date. If the address is incorrect, the agent must update the address before processing the order.",
+    "source": "order_physical_card"
+  },
+  {
+    "rule": "**Provide Disclosure and Estimated Delivery Time**: Agents must disclose to the customer that there may be a fee associated with ordering a replacement physical card and provide an estimated delivery time. The agent must also inform the customer that they can use their digital card or other alternative payment methods while waiting for the physical card to arrive.",
+    "source": "order_physical_card"
+  },
+  {
+    "rule": "**Document and Escalate Exceptions**: Agents must document all orders for physical cards in the customer's account notes, including any issues or exceptions that arise during the process. If the customer requests expedited shipping or has a special request, the agent must escalate the issue to their supervisor or designated team for review and approval before processing the order.",
+    "source": "order_physical_card"
+  }
+]
