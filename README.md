@@ -32,27 +32,61 @@ When a call ends, the system automatically:
 ---
 
 ## System Pipeline
+
 ```
 Call Recording
       ↓
-Phase 1 — Speech-to-Text + Speaker Diarization (Whisper + pyannote.audio)
+Phase 1 — Speech-to-Text + Speaker Diarization (Whisper + pyannote.audio)  🔄 In Progress
       ↓
-Phase 2 — Rule-Based Behavioral Metrics (Talking ratio, interruptions, silences)
+Phase 2 — Rule-Based Behavioral Metrics (Talking ratio, interruptions, silences)  ⬜ Planned
       ↓
 Phase 3 — Deep Learning Evaluation
-      ├── Customer Sentiment (RoBERTa — 3 class)
-      ├── Agent Opening/Closing Compliance (RoBERTa — binary)
-      └── Issue Classification (BERT — 78 classes) ✅ Done
+      ├── 3A: Customer Sentiment (RoBERTa — 3 class)                        🔄 In Progress
+      ├── 3B: Agent Opening/Closing Compliance (RoBERTa — binary)           ⬜ Planned
+      └── 3C: Issue Classification (DualHead RoBERTa — 10 coarse / 78 fine) ✅ Done
       ↓
-Phase 4 — RAG Policy Validation (FAISS + LLM)
+Phase 4 — RAG Policy Validation (FAISS + sentence-transformers + Groq LLM)  ✅ Done
       ↓
-Phase 5 — Scoring + Coaching Generation (LLM)
+Phase 5 — Scoring + Coaching Generation (LLM)                               ✅ Done
       ↓
-Dashboard (React / Streamlit)
+Phase 6 — Web Dashboard (React / Streamlit)                                  ⬜ Planned
 ```
 
 ---
 
+## Current Progress
+
+| Phase | Description | Status |
+|-------|-------------|--------|
+| **Phase 3C** | Issue Classification — Dual-head RoBERTa fine-tuned on BANKING77 (10 coarse + 78 fine classes, 91.33% accuracy) | ✅ Done |
+| **Phase 4** | RAG Policy Validation — 78 FAISS indexes (one per issue type), retrieves top-k policy rules and evaluates agent compliance via Groq LLM | ✅ Done |
+| **Phase 5** | Scoring + Coaching Generation — LLM generates per-call coaching reports with violations, strengths, and suggested alternative phrasing | ✅ Done |
+| **Phase 1** | Speech-to-Text & Speaker Diarization (Whisper + pyannote.audio) | 🔄 In Progress |
+| **Phase 3A** | Customer Sentiment Analysis (RoBERTa — 3 class) | 🔄 In Progress |
+| **Phase 3B** | Agent Opening/Closing Compliance (RoBERTa — binary) | ⬜ Planned |
+| **Phase 2** | Rule-Based Behavioral Metrics (talking ratio, interruptions, silences) | ⬜ Planned |
+| **Phase 6** | Web Dashboard (React / Streamlit) | ⬜ Planned |
+
+### Completed Highlights
+
+**Phase 3C — Issue Classification**
+- Architecture: Dual-head RoBERTa (shared encoder, two classification heads)
+- Coarse head: 10 banking categories | Fine head: 78 issue classes
+- Accuracy: 91.33% on BANKING77 test set
+- Model on HuggingFace: [Mohamed-Makram47/banking-issue-classifier](https://huggingface.co/Mohamed-Makram47/banking-issue-classifier)
+
+**Phase 4 — RAG Policy Validation**
+- 78 FAISS indexes pre-built, one per issue type
+- Embedding model: `all-MiniLM-L6-v2` (sentence-transformers)
+- Retrieves top-k most relevant policy rules per agent utterance
+- LLM (Groq / Llama 3) evaluates each utterance: violation or compliant + reason
+
+**Phase 5 — Scoring + Coaching Generation**
+- Aggregates RAG verdicts into a per-call compliance score
+- LLM generates structured coaching reports per call:
+  - Policy violations with explanation
+  - Agent strengths
+  - Suggested alternative phrasing for failed interactions
 
 ---
 
@@ -62,24 +96,12 @@ Dashboard (React / Streamlit)
 |-----------|-----------|
 | Speech-to-Text | OpenAI Whisper |
 | Speaker Diarization | pyannote.audio |
-| NLP Models | BERT, RoBERTa (PyTorch + HuggingFace) |
-| RAG | FAISS + sentence-transformers + Groq API |
-| Coaching | Groq API (Llama 3) |
+| NLP Models | RoBERTa (PyTorch + HuggingFace) |
+| Issue Classification | Dual-head RoBERTa (10 coarse + 78 fine classes) |
+| RAG | FAISS + sentence-transformers (`all-MiniLM-L6-v2`) |
+| LLM | Groq API (Llama 3) |
 | Backend | Python + FastAPI |
-| Frontend | React|
+| Frontend | React |
 | Database | PostgreSQL + Vector DB |
-
----
-
-## Current Progress
-
-- ✅ Phase 3C — Issue Classification: BERT fine-tuned on BANKING77 (91.33% accuracy, 78 classes)
-  - Model: [Mohamed-Makram77/banking-issue-classifier](https://huggingface.co/Mohamed-Makram47/banking-issue-classifier)
-- 🔄 Phase 1 — Speech-to-Text & Diarization: In progress
-- 🔄 Phase 3A — Sentiment Analysis: In progress
-- ⬜ Phase 3B — Opening/Closing Compliance: Planned
-- ⬜ Phase 4 — RAG Pipeline: Planned
-- ⬜ Phase 5 — Scoring & Coaching: Planned
-- ⬜ Phase 6 — Web Dashboard: Planned
 
 ---
