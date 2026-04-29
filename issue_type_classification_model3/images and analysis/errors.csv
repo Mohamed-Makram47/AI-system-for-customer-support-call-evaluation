@@ -1,0 +1,189 @@
+text,category,coarse_category,roberta_pred,ensemble_pred,roberta_correct,ensemble_correct,sbert_helped,sbert_hurt
+Can I change the amount I made on a payment that I made to the payment is correct.,cancel_transfer,transfers_and_payments,card_payment_wrong_exchange_rate,card_payment_wrong_exchange_rate,False,False,False,False
+How long until my transfer goes through?,transfer_timing,transfers_and_payments,pending_transfer,pending_transfer,False,False,False,False
+How long does a transfer take to be confirmed?,pending_transfer,transfers_and_payments,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,False,False,False,False
+Someone transferred money to me and it doesn't show,pending_transfer,transfers_and_payments,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,False,False,False,False
+There is a transaction from my account that I don't recognize can you trace back the information so I can make sure it's something I did or not?,direct_debit_payment_not_recognised,transfers_and_payments,card_payment_not_recognised,card_payment_not_recognised,False,False,False,False
+Why is a money transfer not showing?,pending_transfer,transfers_and_payments,pending_transfer,transfer_not_received_by_recipient,True,False,False,True
+Why is my transfer not done yet?,pending_transfer,transfers_and_payments,transfer_not_received_by_recipient,transfer_not_received_by_recipient,False,False,False,False
+What all currencies can be exchanged?,exchange_via_app,general_account_management,fiat_currency_support,fiat_currency_support,False,False,False,False
+I put money into my account for the minimum balance but the application didn't accept.,top_up_reverted,top_up_and_funding,top_up_limits,top_up_failed,False,False,False,False
+"My card's frozen, what can I do?",pin_blocked,card_functionality,card_not_working,card_not_working,False,False,False,False
+What should I do to get transactions off of my account if I didn't make them? My card must have been compromised and I need to freeze it asap!,card_payment_not_recognised,security_and_fraud,compromised_card,compromised_card,False,False,False,False
+How do I locate my card?,card_arrival,card_delivery,lost_or_stolen_card,lost_or_stolen_card,False,False,False,False
+"There is an incoming payment into my account, but it is deactivated. Will they still be processed?",fiat_currency_support,general_account_management,reverted_card_payment,pending_card_payment,False,False,False,False
+How do I know when my card will arrive?,card_arrival,card_delivery,card_delivery_estimate,card_delivery_estimate,False,False,False,False
+How do I unblock my card using the app?,card_not_working,card_functionality,pin_blocked,pin_blocked,False,False,False,False
+Should i reinstall the payment app?,contactless_not_working,card_functionality,contactless_not_working,card_not_working,True,False,False,True
+im not sure what this charge is for,card_payment_fee_charged,fees_and_charges,direct_debit_payment_not_recognised,direct_debit_payment_not_recognised,False,False,False,False
+Where do I find the exchange rate?,exchange_charge,fees_and_charges,exchange_rate,exchange_rate,False,False,False,False
+I transferred some money but the recipient is having trouble withdrawing.,transfer_not_received_by_recipient,transfers_and_payments,transfer_not_received_by_recipient,beneficiary_not_allowed,True,False,False,True
+"i know i entered the right info, but my top up isn't in my balance",topping_up_by_card,top_up_and_funding,pending_top_up,top_up_failed,False,False,False,False
+How long can I expect a transfer to pend for?,pending_transfer,transfers_and_payments,pending_transfer,transfer_timing,True,False,False,True
+When will my transfer be available in my account.,balance_not_updated_after_bank_transfer,account_and_balance,transfer_timing,transfer_timing,False,False,False,False
+I was charged on my account that shouldn't be there.,direct_debit_payment_not_recognised,transfers_and_payments,card_payment_not_recognised,card_payment_not_recognised,False,False,False,False
+how many transactions can i make with a disposable card,get_disposable_virtual_card,virtual_card,disposable_card_limits,disposable_card_limits,False,False,False,False
+What other methods are there to verify my identity?,why_verify_identity,security_and_fraud,verify_my_identity,verify_my_identity,False,False,False,False
+Can I get a copy of the card by email?,getting_virtual_card,virtual_card,order_physical_card,order_physical_card,False,False,False,False
+Where did this fee come from?,extra_charge_on_statement,fees_and_charges,card_payment_fee_charged,card_payment_fee_charged,False,False,False,False
+"I was double charged, and the second charge is showing as ""pending"". How long will it be before I get my money back once the second charge has been refunded?",pending_card_payment,transfers_and_payments,transaction_charged_twice,transaction_charged_twice,False,False,False,False
+I see a charge on my account that I don't recall making. I feel like my account may have been compromised.,card_payment_not_recognised,security_and_fraud,compromised_card,compromised_card,False,False,False,False
+My non-physical card will not work,virtual_card_not_working,virtual_card,card_not_working,card_not_working,False,False,False,False
+Good morning. I tried to make a purchase with my credit card last night and again this morning. Both times it was declined. Can you investigate?,declined_transfer,transfers_and_payments,declined_card_payment,declined_card_payment,False,False,False,False
+"I need support options, I want to top my card",supported_cards_and_currencies,general_account_management,topping_up_by_card,topping_up_by_card,False,False,False,False
+I am concerned about the security in my account and would like to make a dispute.,direct_debit_payment_not_recognised,transfers_and_payments,compromised_card,compromised_card,False,False,False,False
+Can I top up using my car?,topping_up_by_card,top_up_and_funding,top_up_by_cash_or_cheque,automatic_top_up,False,False,False,False
+Is there a transfer fee?,transfer_fee_charged,fees_and_charges,transfer_fee_charged,top_up_by_bank_transfer_charge,True,False,False,True
+Can I add funds to the card directly from my bank account?,transfer_into_account,transfers_and_payments,topping_up_by_card,topping_up_by_card,False,False,False,False
+Do you accept other currencies besides US Dollars?,supported_cards_and_currencies,general_account_management,fiat_currency_support,fiat_currency_support,False,False,False,False
+I can't transfer money from my account.,declined_transfer,transfers_and_payments,beneficiary_not_allowed,beneficiary_not_allowed,False,False,False,False
+Is a non-electronic card available as well,order_physical_card,card_delivery,get_disposable_virtual_card,get_disposable_virtual_card,False,False,False,False
+Where can I view my PIN?,pin_blocked,card_functionality,get_physical_card,get_physical_card,False,False,False,False
+can I have a non virtual card?,order_physical_card,card_delivery,getting_virtual_card,getting_virtual_card,False,False,False,False
+When I try and to buy something using my card it keeps getting declined.,declined_transfer,transfers_and_payments,declined_card_payment,declined_card_payment,False,False,False,False
+Is it okay to use a bank card to top up,top_up_by_card_charge,fees_and_charges,topping_up_by_card,topping_up_by_card,False,False,False,False
+"When I got cash, I'm pretty sure there was a glitch that overcharged me.",cash_withdrawal_charge,fees_and_charges,wrong_exchange_rate_for_cash_withdrawal,wrong_exchange_rate_for_cash_withdrawal,False,False,False,False
+do the details of my profile have to match my documents,verify_my_identity,security_and_fraud,unable_to_verify_identity,why_verify_identity,False,False,False,False
+Is it possible for me to get money out in a different currency?,receiving_money,transfers_and_payments,exchange_via_app,exchange_via_app,False,False,False,False
+"How can I fix my card, it got declined twice.",declined_transfer,transfers_and_payments,declined_card_payment,declined_card_payment,False,False,False,False
+How many virtual cards do I get?,disposable_card_limits,card_functionality,getting_virtual_card,getting_virtual_card,False,False,False,False
+I will now look at your transaction history.,neutral,neutral,transfer_not_received_by_recipient,transfer_not_received_by_recipient,False,False,False,False
+How much does it cost in fees to use your card?,order_physical_card,card_delivery,card_payment_fee_charged,card_payment_fee_charged,False,False,False,False
+What's the deal with no cryptocurrency on your app?,beneficiary_not_allowed,transfers_and_payments,fiat_currency_support,fiat_currency_support,False,False,False,False
+"Someone stole my wallet earlier today, not sure exactly when, probably on Piccadilly circus. Can you check if there were any attempts to use the card and obviously block it?",lost_or_stolen_card,security_and_fraud,cash_withdrawal_not_recognised,cash_withdrawal_not_recognised,False,False,False,False
+Do charge fees for transfers?,transfer_fee_charged,fees_and_charges,top_up_by_bank_transfer_charge,top_up_by_bank_transfer_charge,False,False,False,False
+My funding to my card didn't go through.,top_up_failed,top_up_and_funding,declined_card_payment,declined_card_payment,False,False,False,False
+"I show another charge on my card from when I used it, why?",card_payment_fee_charged,fees_and_charges,transaction_charged_twice,transaction_charged_twice,False,False,False,False
+Can I purchase extra non-virtual cards?,getting_spare_card,card_delivery,getting_virtual_card,getting_virtual_card,False,False,False,False
+Can I use my card for payment all over the world?,card_acceptance,card_functionality,country_support,country_support,False,False,False,False
+I had a wrong fee charged at this ATM.,cash_withdrawal_charge,fees_and_charges,wrong_exchange_rate_for_cash_withdrawal,wrong_exchange_rate_for_cash_withdrawal,False,False,False,False
+Where is my transfer from [country]?,balance_not_updated_after_bank_transfer,account_and_balance,transfer_timing,transfer_timing,False,False,False,False
+Can you tell me what the transfer policy is?,top_up_by_bank_transfer_charge,fees_and_charges,receiving_money,declined_transfer,False,False,False,False
+What do i need to verify my id?,unable_to_verify_identity,security_and_fraud,verify_my_identity,verify_my_identity,False,False,False,False
+"I've already topped up, but I cannot see the funds being available. What happened?",pending_top_up,top_up_and_funding,top_up_reverted,top_up_reverted,False,False,False,False
+Why didn`t my topup go through?,top_up_failed,top_up_and_funding,top_up_reverted,top_up_reverted,False,False,False,False
+What are the fees for top-ups?,top_up_by_bank_transfer_charge,fees_and_charges,top_up_by_card_charge,top_up_by_card_charge,False,False,False,False
+My card is being declined online. Could you tell me what might be broken or wrong with the account?,declined_transfer,transfers_and_payments,card_not_working,card_not_working,False,False,False,False
+WHAT CAN I DO AFTER THE CARD MISSING,activate_my_card,card_functionality,lost_or_stolen_card,lost_or_stolen_card,False,False,False,False
+My card is being declined for a purchase. I bought items before and the card worked. Do you know what the problem is?,reverted_card_payment,transfers_and_payments,declined_card_payment,declined_card_payment,False,False,False,False
+"I don't understand how to top up my account, can you please explain the process?",transfer_into_account,transfers_and_payments,topping_up_by_card,topping_up_by_card,False,False,False,False
+my card was not in the mail again can you advise?,card_delivery_estimate,card_delivery,card_arrival,card_arrival,False,False,False,False
+My transfer is pending.,balance_not_updated_after_bank_transfer,account_and_balance,pending_transfer,pending_transfer,False,False,False,False
+Why hasn't my transfer been made?,failed_transfer,transfers_and_payments,transfer_not_received_by_recipient,transfer_not_received_by_recipient,False,False,False,False
+WHERE IS MY MONEY I WAS USING MY CARD AND IT DISAPPEARED,topping_up_by_card,top_up_and_funding,cash_withdrawal_not_recognised,cash_withdrawal_not_recognised,False,False,False,False
+What methods can I use to add money to my account?,transfer_into_account,transfers_and_payments,top_up_by_cash_or_cheque,top_up_by_cash_or_cheque,False,False,False,False
+How do I freeze my card using the app?,compromised_card,security_and_fraud,lost_or_stolen_card,lost_or_stolen_card,False,False,False,False
+Why was I unable to do a transfer?,declined_transfer,transfers_and_payments,failed_transfer,failed_transfer,False,False,False,False
+When can I expect to receive my new card?,card_delivery_estimate,card_delivery,card_arrival,card_arrival,False,False,False,False
+Why is my money gone right when I attempted to top up,topping_up_by_card,top_up_and_funding,top_up_reverted,top_up_reverted,False,False,False,False
+When will my funds transfer?,transfer_not_received_by_recipient,transfers_and_payments,transfer_timing,transfer_timing,False,False,False,False
+How do I top up my card?,transfer_into_account,transfers_and_payments,topping_up_by_card,topping_up_by_card,False,False,False,False
+Is it possible to deposit money in GBP?,receiving_money,transfers_and_payments,fiat_currency_support,fiat_currency_support,False,False,False,False
+How do I reset my PIN?,pin_blocked,card_functionality,change_pin,change_pin,False,False,False,False
+Can you freeze my account? I just saw there are transactions on my account that I don't recognize. How can I fix this?,card_payment_not_recognised,security_and_fraud,compromised_card,compromised_card,False,False,False,False
+Why did I get a fee?,cash_withdrawal_charge,fees_and_charges,card_payment_fee_charged,card_payment_fee_charged,False,False,False,False
+Can you look to make sure the exchange rate is correct,wrong_exchange_rate_for_cash_withdrawal,general_account_management,exchange_rate,exchange_rate,False,False,False,False
+i was charged when i used a us issued card. why and what cards are free to use to add money,top_up_by_card_charge,fees_and_charges,top_up_by_card_charge,card_payment_fee_charged,True,False,False,True
+"I am attempting to make a purchase online, but my card is not working. I know there are funds available, is this an issue on the banks end?",reverted_card_payment,transfers_and_payments,failed_transfer,failed_transfer,False,False,False,False
+"I would like to know why my payment is still pending, can you help?",pending_transfer,transfers_and_payments,pending_card_payment,pending_card_payment,False,False,False,False
+How can I check the exchange rate applied to my transaction?,card_payment_wrong_exchange_rate,fees_and_charges,exchange_rate,exchange_rate,False,False,False,False
+How long does it take for an international transfer into my account?,balance_not_updated_after_bank_transfer,account_and_balance,transfer_timing,transfer_timing,False,False,False,False
+"I wasn't charged the correct amount for an item I purchased, how can I fix this?",request_refund,account_and_balance,card_payment_wrong_exchange_rate,card_payment_wrong_exchange_rate,False,False,False,False
+Can I top up using an international card,top_up_by_card_charge,fees_and_charges,supported_cards_and_currencies,supported_cards_and_currencies,False,False,False,False
+whats your exchange rate,exchange_charge,fees_and_charges,exchange_rate,exchange_rate,False,False,False,False
+Can you help with a transfer to an account,beneficiary_not_allowed,transfers_and_payments,transfer_into_account,transfer_into_account,False,False,False,False
+Is a copy of the police report necessary for completing the report process?,lost_or_stolen_card,security_and_fraud,why_verify_identity,verify_my_identity,False,False,False,False
+someone stole my money,direct_debit_payment_not_recognised,transfers_and_payments,cash_withdrawal_not_recognised,cash_withdrawal_not_recognised,False,False,False,False
+how long do money transfers take?,transfer_not_received_by_recipient,transfers_and_payments,pending_transfer,transfer_timing,False,False,False,False
+Trouble transferring transaction contact for help,declined_transfer,transfers_and_payments,failed_transfer,failed_transfer,False,False,False,False
+Could you verify your date of birth for me?,neutral,neutral,why_verify_identity,unable_to_verify_identity,False,False,False,False
+Someone stole my cards!,lost_or_stolen_phone,security_and_fraud,lost_or_stolen_card,lost_or_stolen_card,False,False,False,False
+How do I make sure I don't run out of money on my card while traveling?,automatic_top_up,top_up_and_funding,automatic_top_up,topping_up_by_card,True,False,False,True
+Can I exchange currencies?,fiat_currency_support,general_account_management,exchange_via_app,exchange_via_app,False,False,False,False
+how does a virtual card work,get_disposable_virtual_card,virtual_card,getting_virtual_card,getting_virtual_card,False,False,False,False
+Will you accept my other card?,supported_cards_and_currencies,general_account_management,card_acceptance,card_acceptance,False,False,False,False
+The card got declined twice when I tried to use it to buy something online yesterday.,declined_transfer,transfers_and_payments,declined_card_payment,declined_card_payment,False,False,False,False
+Somebody used my card to make a purchase,card_payment_not_recognised,security_and_fraud,compromised_card,compromised_card,False,False,False,False
+"I'm out of money, can I add money with my bank?",transfer_into_account,transfers_and_payments,top_up_by_cash_or_cheque,top_up_by_cash_or_cheque,False,False,False,False
+Why does my account not accept cash deposits?,balance_not_updated_after_cheque_or_cash_deposit,account_and_balance,declined_cash_withdrawal,declined_cash_withdrawal,False,False,False,False
+"I am missing some funds from my account - I tried to transfer them using my credit card number, and it disappeared.",topping_up_by_card,top_up_and_funding,compromised_card,compromised_card,False,False,False,False
+What major card payments are accepted?,visa_or_mastercard,card_functionality,supported_cards_and_currencies,supported_cards_and_currencies,False,False,False,False
+How do I cancel my card? There are charges on my account that I didn't make.,cash_withdrawal_not_recognised,account_and_balance,compromised_card,compromised_card,False,False,False,False
+How do I do a successful transfer to an account?,beneficiary_not_allowed,transfers_and_payments,transfer_into_account,transfer_into_account,False,False,False,False
+What extra charges are there?,transfer_fee_charged,fees_and_charges,card_payment_fee_charged,card_payment_fee_charged,False,False,False,False
+I was charged for something I didn't expect,transfer_fee_charged,fees_and_charges,direct_debit_payment_not_recognised,transaction_charged_twice,False,False,False,False
+My account was charged for a withdraw I tried to make that was decline.,pending_cash_withdrawal,account_and_balance,declined_cash_withdrawal,declined_cash_withdrawal,False,False,False,False
+How many disposable virtual cards can I have?,disposable_card_limits,card_functionality,get_disposable_virtual_card,get_disposable_virtual_card,False,False,False,False
+Why don't I have my transfer?,balance_not_updated_after_bank_transfer,account_and_balance,transfer_not_received_by_recipient,transfer_not_received_by_recipient,False,False,False,False
+Can I freeze my card right now?,compromised_card,security_and_fraud,lost_or_stolen_card,lost_or_stolen_card,False,False,False,False
+There is a fee I don't recognize on my statement.,extra_charge_on_statement,fees_and_charges,card_payment_not_recognised,card_payment_not_recognised,False,False,False,False
+The app wouldn't accept my top up.,top_up_reverted,top_up_and_funding,top_up_failed,top_up_failed,False,False,False,False
+I am waiting for my card to arrive.,card_delivery_estimate,card_delivery,card_arrival,card_arrival,False,False,False,False
+What type of deposits do you accept into my account?,top_up_by_cash_or_cheque,top_up_and_funding,supported_cards_and_currencies,supported_cards_and_currencies,False,False,False,False
+Will declined funds I tried to withdraw be returned to me?,wrong_amount_of_cash_received,account_and_balance,declined_cash_withdrawal,declined_cash_withdrawal,False,False,False,False
+How do I set-up my PIN for the new card?,get_physical_card,card_delivery,change_pin,change_pin,False,False,False,False
+What can I use a virtual disposable card for?,disposable_card_limits,card_functionality,get_disposable_virtual_card,get_disposable_virtual_card,False,False,False,False
+how much you charge for exhcange,exchange_charge,fees_and_charges,top_up_by_bank_transfer_charge,top_up_by_bank_transfer_charge,False,False,False,False
+Is there a fee for exchanging cash?,wrong_exchange_rate_for_cash_withdrawal,general_account_management,exchange_charge,exchange_charge,False,False,False,False
+Cannot access my top up.,topping_up_by_card,top_up_and_funding,top_up_failed,top_up_failed,False,False,False,False
+Can I space out how often money is transferred along my travels?,automatic_top_up,top_up_and_funding,transfer_timing,receiving_money,False,False,False,False
+Is GBP a supported currency?,receiving_money,transfers_and_payments,fiat_currency_support,fiat_currency_support,False,False,False,False
+Can you help me figure out what's happening? I'm trying to transfer money to a friend but it keeps getting returned. I'm not sure what i'm doing wrong.,failed_transfer,transfers_and_payments,failed_transfer,transfer_not_received_by_recipient,True,False,False,True
+How long can an EU transfer take?,pending_transfer,transfers_and_payments,transfer_timing,transfer_timing,False,False,False,False
+"I transferred money yesterday, but it still isn't available?",pending_transfer,transfers_and_payments,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,False,False,False,False
+where is theft-top option?,automatic_top_up,top_up_and_funding,lost_or_stolen_card,verify_top_up,False,False,False,False
+How can I fund my top-up account using my bank account?,transfer_into_account,transfers_and_payments,top_up_by_cash_or_cheque,top_up_by_cash_or_cheque,False,False,False,False
+I would like a temporary virtual card,get_disposable_virtual_card,virtual_card,getting_virtual_card,getting_virtual_card,False,False,False,False
+Which forms of currency are accepted?,supported_cards_and_currencies,general_account_management,supported_cards_and_currencies,fiat_currency_support,True,False,False,True
+Why am I being charged more ?,card_payment_wrong_exchange_rate,fees_and_charges,extra_charge_on_statement,extra_charge_on_statement,False,False,False,False
+Is there a way to know when my card will arrive?,card_arrival,card_delivery,card_delivery_estimate,card_delivery_estimate,False,False,False,False
+When will I get my card?,card_arrival,card_delivery,card_delivery_estimate,card_delivery_estimate,False,False,False,False
+I believe my credit card was stolen.,lost_or_stolen_card,security_and_fraud,lost_or_stolen_card,compromised_card,True,False,False,True
+I think my statement has a fraudulent charge,card_payment_not_recognised,security_and_fraud,compromised_card,compromised_card,False,False,False,False
+I made an out of country transfer and it hasn't went through yet.,balance_not_updated_after_bank_transfer,account_and_balance,pending_transfer,pending_transfer,False,False,False,False
+If I make a top-up are there charges applied?,top_up_by_bank_transfer_charge,fees_and_charges,top_up_by_card_charge,top_up_by_card_charge,False,False,False,False
+"OMG! I'm trying to load my card and it wont top up! I desperately need the money either on my card or in my bank, where is it?",pending_top_up,top_up_and_funding,top_up_failed,topping_up_by_card,False,False,False,False
+Where's the money that got charged to my card? It's not showing up in my account balance,topping_up_by_card,top_up_and_funding,balance_not_updated_after_cheque_or_cash_deposit,cash_withdrawal_not_recognised,False,False,False,False
+Why can't I see the top-up amount I just added to my account?,topping_up_by_card,top_up_and_funding,pending_top_up,pending_top_up,False,False,False,False
+Can I change my currency from USD to EUR?,exchange_via_app,general_account_management,fiat_currency_support,fiat_currency_support,False,False,False,False
+Where is the money I topped off with?,pending_top_up,top_up_and_funding,topping_up_by_card,topping_up_by_card,False,False,False,False
+How can I top-up my card?,top_up_by_cash_or_cheque,top_up_and_funding,topping_up_by_card,topping_up_by_card,False,False,False,False
+how long dies it take for transfers to reflect on my balance,transfer_timing,transfers_and_payments,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,False,False,False,False
+What do I do with my card PIN?,get_physical_card,card_delivery,pin_blocked,pin_blocked,False,False,False,False
+transaction failed?,transfer_not_received_by_recipient,transfers_and_payments,failed_transfer,failed_transfer,False,False,False,False
+How do I change currencies to euros?,fiat_currency_support,general_account_management,exchange_via_app,exchange_via_app,False,False,False,False
+How long until my transfer will be available to me,balance_not_updated_after_bank_transfer,account_and_balance,transfer_timing,transfer_timing,False,False,False,False
+why did the app refuse to make an approved payment,reverted_card_payment,transfers_and_payments,declined_card_payment,declined_card_payment,False,False,False,False
+WTF??? I tried to withdraw some money at a Metro bank on High St. Kensington and without any notice it disappeared in the machine. The bank was already closed so I couldn't do anything. How do I get it back?,card_swallowed,card_functionality,wrong_amount_of_cash_received,wrong_amount_of_cash_received,False,False,False,False
+Why was my account deducted from a seller when I didn't approve of it?,direct_debit_payment_not_recognised,transfers_and_payments,reverted_card_payment,reverted_card_payment,False,False,False,False
+Am I able to exchange currencies?,fiat_currency_support,general_account_management,exchange_via_app,exchange_via_app,False,False,False,False
+Am I allowed to use any card to make a payment?,visa_or_mastercard,card_functionality,supported_cards_and_currencies,supported_cards_and_currencies,False,False,False,False
+I have a top up that didn't go through. Why?,top_up_failed,top_up_and_funding,top_up_reverted,top_up_reverted,False,False,False,False
+Someone has taken my money and I don't know who,direct_debit_payment_not_recognised,transfers_and_payments,cash_withdrawal_not_recognised,cash_withdrawal_not_recognised,False,False,False,False
+How long does a card delivery take?,card_arrival,card_delivery,card_delivery_estimate,card_delivery_estimate,False,False,False,False
+Where is the transfer I started?,transfer_not_received_by_recipient,transfers_and_payments,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,False,False,False,False
+A wrong exchange rate was applied to a transaction made abroad.,wrong_exchange_rate_for_cash_withdrawal,general_account_management,card_payment_wrong_exchange_rate,card_payment_wrong_exchange_rate,False,False,False,False
+"I believe my money did not go through with my top up, was there a problem on your end?",top_up_reverted,top_up_and_funding,top_up_failed,top_up_failed,False,False,False,False
+There are some strange charges on my card that I didn't make from a few days ago. Is my card stolen and if so should I cancel it? Will I get refunded the charges?,card_payment_not_recognised,security_and_fraud,card_payment_not_recognised,compromised_card,True,False,False,True
+Where is the money I pushed it's on my mobile app as being withdrawn.,wrong_amount_of_cash_received,account_and_balance,pending_cash_withdrawal,cash_withdrawal_not_recognised,False,False,False,False
+I transferred some money but it is yet to arrive.,balance_not_updated_after_bank_transfer,account_and_balance,transfer_not_received_by_recipient,transfer_not_received_by_recipient,False,False,False,False
+"I attempted to use my card while I was intoxicated, and I failed to input my PIN, and the machine kept my card. How soon can I have it back?",pin_blocked,card_functionality,card_swallowed,card_swallowed,False,False,False,False
+"I was attempting to purchase a golf club off eBay yesterday, but my credit card was declined. I tried multiple times, and again this morning. Can you check into my card please?",declined_transfer,transfers_and_payments,declined_transfer,declined_card_payment,True,False,False,True
+My card is just not working at this time.,virtual_card_not_working,virtual_card,card_not_working,card_not_working,False,False,False,False
+What is the transfer fee charge?,transfer_fee_charged,fees_and_charges,transfer_fee_charged,top_up_by_bank_transfer_charge,True,False,False,True
+I need to reorder my virtual card!,getting_virtual_card,virtual_card,virtual_card_not_working,virtual_card_not_working,False,False,False,False
+what is the charges for new card?,contactless_not_working,card_functionality,card_about_to_expire,getting_spare_card,False,False,False,False
+I've tried numerous times to submit a transfer of funds. Why isn't it going through?,beneficiary_not_allowed,transfers_and_payments,failed_transfer,failed_transfer,False,False,False,False
+"I really need money from my card today, but my card is getting declined. Please help!!",top_up_failed,top_up_and_funding,declined_cash_withdrawal,declined_cash_withdrawal,False,False,False,False
+I made a transfer and am still waiting.,balance_not_updated_after_bank_transfer,account_and_balance,pending_transfer,pending_transfer,False,False,False,False
+how do VR cards work,get_disposable_virtual_card,virtual_card,getting_virtual_card,getting_virtual_card,False,False,False,False
+I am getting continuous failure for all my transfers. I have cross checked each recipient detail again and again and everything is correct.,declined_transfer,transfers_and_payments,declined_transfer,failed_transfer,True,False,False,True
+what is this charge on my account,direct_debit_payment_not_recognised,transfers_and_payments,card_payment_not_recognised,card_payment_not_recognised,False,False,False,False
+On my last transaction it seem that my top-up was not successful.,top_up_reverted,top_up_and_funding,top_up_failed,top_up_failed,False,False,False,False
+Nothing goes through on my card.,card_not_working,card_functionality,declined_card_payment,declined_card_payment,False,False,False,False
+I transferred some money but I think it has gotten lost somewhere.,balance_not_updated_after_bank_transfer,account_and_balance,transfer_not_received_by_recipient,transfer_not_received_by_recipient,False,False,False,False
+"I am waiting patiently for a week now for the seller to get back to me and there has been no response, could you please help me further with getting my money back. Thank you.",refund_not_showing_up,account_and_balance,refund_not_showing_up,request_refund,True,False,False,True
+My cash withdrawal was partly declined,wrong_amount_of_cash_received,account_and_balance,declined_cash_withdrawal,declined_cash_withdrawal,False,False,False,False
+what is required documents for new card process ?,contactless_not_working,card_functionality,contactless_not_working,activate_my_card,True,False,False,True
+What are your policies for card transfers?,failed_transfer,transfers_and_payments,top_up_by_bank_transfer_charge,top_up_by_bank_transfer_charge,False,False,False,False
+The app will not let me into my account.,unable_to_verify_identity,security_and_fraud,passcode_forgotten,passcode_forgotten,False,False,False,False
