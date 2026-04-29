@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Transfer Details**: Before investigating the issue, agents must verify the transfer details with the customer, including the date and time of the transfer, the recipient's account number, and the transfer amount, to ensure accuracy and confirm that the transfer was initiated correctly.",
+    "source": "transfer_not_received_by_recipient"
+  },
+  {
+    "rule": "**Check Transfer Status**: Agents must check the status of the transfer using the bank's systems and tools, such as tracking the transfer ID or transaction reference number, to determine if the transfer is still pending, processed, or failed.",
+    "source": "transfer_not_received_by_recipient"
+  },
+  {
+    "rule": "**Provide Estimated Timeframes**: Agents must provide customers with estimated timeframes for when the transfer should arrive in the recipient's account, based on the type of transfer (e.g. domestic, international), the payment method, and the bank's processing times.",
+    "source": "transfer_not_received_by_recipient"
+  },
+  {
+    "rule": "**Escalate to Investigation**: If the transfer is outside of the expected timeframe or if the customer provides evidence that the recipient has not received the funds, agents must escalate the issue to a specialized investigation team or a senior agent to conduct a thorough review of the transfer and resolve the issue.",
+    "source": "transfer_not_received_by_recipient"
+  },
+  {
+    "rule": "**Communicate Clearly and Empathetically**: Agents must communicate clearly and empathetically with customers, providing regular updates on the status of the investigation and the expected resolution timeframe, and ensuring that customers understand the next steps and any additional information required to resolve the issue.",
+    "source": "transfer_not_received_by_recipient"
+  }
+]

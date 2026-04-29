@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Provide a standard delivery timeframe**: Agents must inform customers that the standard delivery timeframe for cards is 7-10 business days within the continental US and 10-14 business days for Alaska, Hawaii, and international destinations. Agents should clarify that this timeframe may vary depending on the customer's location and shipping carrier.",
+    "source": "card_delivery_estimate"
+  },
+  {
+    "rule": "**Do not provide expedited shipping guarantees**: Agents are not authorized to guarantee expedited shipping or delivery within a specific timeframe (e.g., 2 days) unless the customer has been offered and paid for expedited shipping services. Agents should not make promises that may create unrealistic expectations.",
+    "source": "card_delivery_estimate"
+  },
+  {
+    "rule": "**Explain the card delivery process**: Agents must explain to customers that once the card is processed and shipped, it will be delivered via a shipping carrier (e.g., USPS, UPS, FedEx) and that tracking information will be provided. Agents should also inform customers that they can track the status of their shipment.",
+    "source": "card_delivery_estimate"
+  },
+  {
+    "rule": "**No exceptions for special delivery requests**: Agents are not authorized to accommodate special delivery requests (e.g., delivering on a specific date) unless approved by a supervisor or manager. Agents should politely inform customers that they cannot make exceptions to the standard delivery policy.",
+    "source": "card_delivery_estimate"
+  },
+  {
+    "rule": "**Escalate urgent requests to a supervisor**: If a customer requests expedited shipping or has an urgent need for their card, agents must escalate the issue to a supervisor or manager for review and possible resolution. The supervisor will assess the situation and determine if an exception can be made or if alternative solutions are available.",
+    "source": "card_delivery_estimate"
+  }
+]

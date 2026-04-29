@@ -1,4 +1,41 @@
-# Model weights — too large for GitHub (440MB)
+# Environment / secrets
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv*/
+.venv/
+env/
+
+# FAISS index and generated data (large binary artifacts)
+data/policy_index.faiss
+data/policy_map.json
+data/results.json
+data/indexes/
+data/maps/
+
+# Calibration artifacts (generated on-demand)
+calibrate_results.txt
+calibrate_out.txt
+calibrate_err.txt
+
+# IDE / OS
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# Batch helpers
+run_calibrate.bat
+
+# Large model weights (>100MB — use Git LFS or store externally)
+model/*.pt
+model/*.bin
 issue_type_classification_model/model/model.safetensors
 issue_type_classification_model2/model/dual_head_model.pt
 issue_type_classification_model3/model/best_roberta.pt
@@ -6,18 +43,4 @@ issue_type_classification_model3/model/best_roberta.pt
 # Private files — contain tokens
 issue_type_classification_model/inference/upload_to_hf.py
 issue_type_classification_model/inference/test_model.py
-
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-
-# Environment files
-.env
-
-# VS Code
-.vscode/
-
-# Windows
-Thumbs.db
-desktop.iniissue_type_classification_model3/sbert_centroids.npy
+issue_type_classification_model3/sbert_centroids.npy

@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Rule 1: Identify Compatible ATMs**: When a customer asks about using their card at an ATM, the agent must inform them that their card can be used at any ATM that displays the Mastercard logo, regardless of the bank that operates the ATM.",
+    "source": "atm_support"
+  },
+  {
+    "rule": "**Rule 2: Provide ATM Locator Information**: If a customer asks to find an ATM around them, the agent should provide information on how to use the bank's online ATM locator tool or mobile app to find nearby ATMs that accept their card.",
+    "source": "atm_support"
+  },
+  {
+    "rule": "**Rule 3: Clarify Card Acceptance**: When a customer inquires about whether their card is accepted by ATMs, the agent must confirm that their card is a Mastercard and therefore accepted at any ATM that displays the Mastercard logo.",
+    "source": "atm_support"
+  },
+  {
+    "rule": "**Rule 4: Address Out-of-Network ATM Fees**: If a customer asks about using an ATM from a different bank, the agent must inform them that using an out-of-network ATM may incur fees from both the ATM operator and the bank, and provide information on fee structures.",
+    "source": "atm_support"
+  },
+  {
+    "rule": "**Rule 5: Direct Customers to Official Resources**: When providing information on ATM locations or compatibility, agents must direct customers to official bank resources, such as the bank's website or mobile app, for the most up-to-date and accurate information on ATM locations and fees.",
+    "source": "atm_support"
+  }
+]

@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue type "automatic_top_up":
+
+- **Rule 1: Acknowledge and Confirm**: The agent must acknowledge the customer's query and confirm if their account is eligible for the auto-top up feature, which allows customers to automatically top up their account when the balance falls below a certain threshold.
+
+- **Rule 2: Explain Auto-Top Up Policies**: The agent must explain the auto-top up policies, including the minimum balance required to trigger an auto top-up, the maximum amount that can be topped up automatically, and any associated fees or charges.
+
+- **Rule 3: Provide Instructions**: The agent must provide step-by-step instructions on how to enable or disable the auto-top up feature, which may involve logging into the customer's online banking platform or mobile app, navigating to the account settings, and selecting the auto-top up option.
+
+- **Rule 4: Clarify Limits and Restrictions**: The agent must clarify the limits and restrictions on auto-top up, including the maximum number of times an auto top-up can occur within a certain period, and any daily or monthly limits on the amount that can be topped up.
+
+- **Rule 5: Offer Alternative Solutions**: The agent must offer alternative solutions or options if the customer is not eligible for the auto-top up feature or if they prefer not to use it, such as manual top-ups, scheduling future top-ups, or setting up recurring transfers from another account.

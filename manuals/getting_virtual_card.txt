@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue of getting a virtual card:
+
+- The agent must first confirm the customer's eligibility for a virtual card by verifying their account type and status, and ensure that virtual card services are available for their account.
+
+- The agent must clearly explain to the customer what a virtual card is, its benefits, and its uses, before proceeding with the customer's request.
+
+- To facilitate the process, the agent must guide the customer to access the virtual card through the bank's mobile app or online banking platform, if available, and provide step-by-step instructions if needed.
+
+- If the customer is eligible but unable to access the virtual card through self-service channels, the agent must assist the customer in generating a virtual card through the bank's system, ensuring that all necessary security protocols are followed.
+
+- The agent must document the customer's request and resolution in the bank's CRM system, including any relevant details such as the customer's account information and virtual card details, to ensure accurate record-keeping and future reference.

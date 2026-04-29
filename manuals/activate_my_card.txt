@@ -1,0 +1,22 @@
+Here are 5 clear rules for agents handling the issue type "activate_my_card":
+
+- The agent must verify the customer's identity and ensure they are the authorized cardholder before providing assistance with activating their card.
+
+- The agent must inform the customer that they can activate their card using one of the following methods: 
+  (1) calling the automated phone system at [insert phone number], 
+  (2) using the bank's mobile app, 
+  (3) visiting the bank's website at [insert website URL], 
+  or (4) calling the customer service number and following the agent's guidance.
+
+- If the customer is having trouble activating their card, the agent must troubleshoot the issue by asking specific questions, such as: 
+  (1) Has the customer tried activating the card before? 
+  (2) Are they entering the correct card information? 
+  (3) Is their account in good standing?
+
+- The agent must provide clear instructions on what information the customer needs to activate their card, which may include: 
+  (1) the card number, 
+  (2) the card expiration date, 
+  (3) the card verification value (CVV), 
+  and (4) their date of birth and/or address.
+
+- If the customer's card activation issue cannot be resolved through troubleshooting or guidance, the agent must escalate the issue to a senior agent or a specialized card support team, and provide the customer with a reference number or a callback option for further assistance.

@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Card Status**: The agent must check the customer's card status in the banking system to determine if the card is active, expired, or blocked before proceeding with troubleshooting.",
+    "source": "card_not_working"
+  },
+  {
+    "rule": "**Gather Error Information**: The agent must ask the customer to provide specific details about the error they are experiencing, such as the type of transaction they are trying to make, the location and type of machine or terminal being used, and any error messages received.",
+    "source": "card_not_working"
+  },
+  {
+    "rule": "**Troubleshoot Common Issues**: The agent must troubleshoot common issues that may be causing the card to not work, such as checking if the card has been damaged, if the PIN is correct, or if there are sufficient funds in the account.",
+    "source": "card_not_working"
+  },
+  {
+    "rule": "**Escalate to Card Services if Necessary**: If the agent is unable to resolve the issue through troubleshooting, they must escalate the issue to the card services team to investigate further and potentially reissue a new card.",
+    "source": "card_not_working"
+  },
+  {
+    "rule": "**Document and Follow-up**: The agent must document the customer's issue and the resolution provided in the banking system's customer interaction log, and follow up with the customer to ensure that the issue has been fully resolved and that they are able to use their card successfully.",
+    "source": "card_not_working"
+  }
+]

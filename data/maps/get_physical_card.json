@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Rule 1: Acknowledge and Apologize**: The agent must acknowledge the customer's concern and apologize for the inconvenience caused by not receiving their PIN or being unable to locate it. This sets a positive tone for the rest of the interaction.",
+    "source": "get_physical_card"
+  },
+  {
+    "rule": "**Rule 2: Verify Customer Information**: Before providing any information or assistance, the agent must verify the customer's identity and account information to ensure they are speaking with the authorized account holder.",
+    "source": "get_physical_card"
+  },
+  {
+    "rule": "**Rule 3: Explain PIN Delivery Process**: The agent must clearly explain the PIN delivery process to the customer, which typically includes informing them that the PIN is mailed separately from the physical card, and that it may take 3-5 business days to arrive. The agent should also advise the customer to check their mailbox and junk mail.",
+    "source": "get_physical_card"
+  },
+  {
+    "rule": "**Rule 4: Offer Solutions or Alternatives**: Depending on the customer's situation, the agent must offer solutions or alternatives, such as re-sending the PIN, providing a temporary PIN, or offering to expedite shipping of a replacement PIN. The agent should also inform the customer of any associated fees or requirements.",
+    "source": "get_physical_card"
+  },
+  {
+    "rule": "**Rule 5: Document and Follow-up**: The agent must document the customer's concern and the resolution provided in the customer's account records. If a follow-up action is required, such as re-sending a PIN, the agent must ensure that the task is assigned to the relevant team and that the customer is informed of the expected timeline for resolution.",
+    "source": "get_physical_card"
+  }
+]

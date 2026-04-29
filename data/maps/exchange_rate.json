@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Rule 1: Provide a clear definition of exchange rate**: Agents must clearly explain that the exchange rate is the rate at which one currency can be exchanged for another, and that it may fluctuate frequently due to market conditions.",
+    "source": "exchange_rate"
+  },
+  {
+    "rule": "**Rule 2: Inform customers of current exchange rates**: Agents must inform customers that current exchange rates can be found on the bank's website, mobile app, or through a customer service representative, and provide the specific rate if available.",
+    "source": "exchange_rate"
+  },
+  {
+    "rule": "**Rule 3: Explain factors that affect exchange rates**: Agents must explain that exchange rates are affected by market conditions, economic indicators, and other external factors, and that the bank does not control these fluctuations.",
+    "source": "exchange_rate"
+  },
+  {
+    "rule": "**Rule 4: Direct customers to resources for exchange rate information**: Agents must direct customers to the bank's website, mobile app, or other reliable resources for the most up-to-date exchange rate information, and provide instructions on how to access this information.",
+    "source": "exchange_rate"
+  },
+  {
+    "rule": "**Rule 5: Clarify that exchange rates may vary depending on transaction type and amount**: Agents must clarify that exchange rates may vary depending on the type of transaction (e.g. cash, wire transfer, foreign transaction), the amount being transferred, and other factors, and that the bank's exchange rates may differ from those of third-party providers.",
+    "source": "exchange_rate"
+  }
+]

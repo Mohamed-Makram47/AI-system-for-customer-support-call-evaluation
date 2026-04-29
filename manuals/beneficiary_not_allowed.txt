@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue type "beneficiary_not_allowed":
+
+- **Verify Beneficiary Information**: Before proceeding with the customer's inquiry, confirm the beneficiary's name, account number, and any other relevant details to ensure accuracy and understand the reason for the transfer failure.
+
+- **Check Beneficiary Restrictions**: Inform the customer that certain beneficiaries may not be allowed due to regulatory or internal policies, such as sanctions, anti-money laundering (AML) restrictions, or Know Your Customer (KYC) requirements, and explain that these restrictions are in place to protect the customer and the bank.
+
+- **Review Transaction History and Limits**: Review the customer's transaction history to identify any patterns or limits that may be causing the transfer to fail, and inform the customer of any daily, weekly, or monthly transfer limits that may apply.
+
+- **Explain Cryptocurrency and Other Restrictions**: Clearly explain to customers that certain transactions, such as buying cryptocurrency, may not be allowed due to regulatory or internal policies, and provide alternative solutions or options if available.
+
+- **Escalate to Specialist if Necessary**: If the issue cannot be resolved through standard troubleshooting, escalate the issue to a specialist, such as a compliance officer or a technical expert, to ensure that the customer's inquiry is thoroughly investigated and resolved in a timely manner.

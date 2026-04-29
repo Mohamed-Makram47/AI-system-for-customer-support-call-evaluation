@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue type "transaction_charged_twice":
+
+- **Verify the duplicate charge**: Before taking any action, the agent must verify that the customer has indeed been charged twice for the same transaction by checking the customer's account history and transaction records.
+
+- **Determine the cause of the duplicate charge**: The agent must investigate and determine the cause of the duplicate charge, such as a processing error, a merchant error, or potential fraudulent activity.
+
+- **Reverse the duplicate charge**: If the duplicate charge is confirmed and not a result of a legitimate transaction, the agent must reverse the duplicate charge and credit the customer's account within one business day.
+
+- **Provide a clear explanation to the customer**: The agent must provide a clear and concise explanation to the customer regarding the cause of the duplicate charge, the actions taken to resolve the issue, and any additional steps the customer needs to take.
+
+- **Escalate to supervisor or specialist if necessary**: If the agent is unable to resolve the issue or if the customer is not satisfied with the resolution, the agent must escalate the issue to a supervisor or a specialist, such as a fraud investigator, for further assistance and resolution.

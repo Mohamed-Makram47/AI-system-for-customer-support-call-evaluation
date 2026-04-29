@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue type "top_up_by_card_charge":
+
+- When a customer inquires about the fees associated with adding money to their card, the agent must clearly state that a [insert percentage/ fixed amount] fee applies for top-ups made using a debit or credit card, and provide the exact fee amount.
+
+- If a customer asks about the best way to add money to their card, the agent must explain the available top-up options, including bank transfer, and provide a comparison of the associated fees and processing times.
+
+- When a customer specifically asks about international card top-ups, the agent must inform them that an additional [insert percentage/ fixed amount] fee applies for international card transactions, on top of the standard top-up fee, and provide the total fee amount.
+
+- If a customer inquires about alternatives to adding money via card, the agent must suggest bank transfer as an option and provide instructions on how to set it up, highlighting that bank transfers are [insert fee-free/ lower-fee] compared to card top-ups.
+
+- When providing information on top-up fees, the agent must proactively offer to provide a detailed breakdown of the fees and any other relevant terms and conditions, and ensure that the customer understands the information before concluding the call.

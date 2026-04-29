@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "When a customer requests to top up their account using a bank transfer, the agent must inform them that they can do so by initiating a transfer from another account held at the same bank or a different bank, and provide the customer with the account details (e.g. account number, routing number, etc.) required to complete the transfer.",
+    "source": "transfer_into_account"
+  },
+  {
+    "rule": "If the customer is transferring funds from an account held at a different bank, the agent must advise them that they may need to use online banking, mobile banking, or visit a branch of the other bank to initiate the transfer, and that the transfer may take 1-3 business days to process.",
+    "source": "transfer_into_account"
+  },
+  {
+    "rule": "The agent must verify the customer's account information, including the account number and any other relevant details, to ensure that the transfer is being made to the correct account.",
+    "source": "transfer_into_account"
+  },
+  {
+    "rule": "If the customer is having trouble initiating the transfer, the agent must offer to provide additional guidance on the process, including providing instructions on how to use online banking or mobile banking to initiate the transfer, or offering to assist with generating a transfer slip or other documentation required for the transfer.",
+    "source": "transfer_into_account"
+  },
+  {
+    "rule": "The agent must not provide any account or routing numbers directly to the customer for transfers into their account, but rather provide general information on how to obtain this information, such as by logging into their online banking platform or contacting the bank's customer service department.",
+    "source": "transfer_into_account"
+  }
+]

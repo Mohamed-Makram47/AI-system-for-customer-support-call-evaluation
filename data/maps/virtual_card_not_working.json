@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Card Details**: The agent must verify that the customer has entered the correct virtual card details, including the card number, expiration date, and CVV, and that the card has not been previously used or expired.",
+    "source": "virtual_card_not_working"
+  },
+  {
+    "rule": "**Check Merchant Compatibility**: The agent must confirm that the merchant or online platform the customer is trying to use the virtual card with supports virtual cards and does not have specific restrictions on disposable or virtual cards.",
+    "source": "virtual_card_not_working"
+  },
+  {
+    "rule": "**Review Transaction Limits**: The agent must review the customer's account and virtual card transaction limits to ensure that the attempted transaction does not exceed these limits, which may prevent the virtual card from working.",
+    "source": "virtual_card_not_working"
+  },
+  {
+    "rule": "**Determine Card Status**: The agent must investigate the status of the virtual card, checking if it has been cancelled, flagged for suspicious activity, or has been used for a non-compliant transaction, which may render it unusable.",
+    "source": "virtual_card_not_working"
+  },
+  {
+    "rule": "**Recurring Payment Restrictions**: The agent must inform the customer that disposable virtual cards are typically not suitable for recurring monthly payments, as they can only be used once, and offer alternative solutions, such as a physical card or a different type of virtual card designed for recurring payments.",
+    "source": "virtual_card_not_working"
+  }
+]

@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling exchange charge queries:
+
+- **Acknowledge and Empathize**: The agent must acknowledge the customer's concern and show empathy towards their query, e.g., "I understand you're concerned about potential fees associated with exchanging currencies. I'd be happy to help clarify our policies for you."
+
+- **Provide Clear Information on Fees**: The agent must clearly explain our currency exchange fee structure, including any applicable charges, margins, or rates. The agent should provide specific examples or refer the customer to a reliable resource (e.g., our website) for more information.
+
+- **Check for Eligibility for Discounts or Waivers**: The agent must verify if the customer is eligible for any discounts or waivers on exchange charges, such as frequent exchange customers or premium account holders.
+
+- **Transparency on Total Costs**: The agent must ensure the customer understands the total cost of the exchange, including any fees, and provide a clear breakdown of the costs involved.
+
+- **Escalate Complex Queries**: If the customer query is complex or outside of the agent's knowledge, the agent must escalate the issue to a senior representative or a specialized team, such as a currency exchange expert, to provide a more detailed and accurate response.

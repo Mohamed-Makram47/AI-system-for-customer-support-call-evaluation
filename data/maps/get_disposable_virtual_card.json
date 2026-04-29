@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Rule 1: Acknowledge and Empathize**: The agent must acknowledge the customer's query and express empathy towards their request, ensuring the customer feels heard and understood.",
+    "source": "get_disposable_virtual_card"
+  },
+  {
+    "rule": "**Rule 2: Explain Eligibility and Availability**: The agent must inform the customer that disposable virtual cards are available for eligible customers, and explain that the feature can be accessed through our mobile app or website, depending on the bank's current offerings.",
+    "source": "get_disposable_virtual_card"
+  },
+  {
+    "rule": "**Rule 3: Provide Step-by-Step Instructions**: The agent must provide clear, step-by-step instructions on how to request and obtain a disposable virtual card, including any necessary navigation through the app or website, and any required verification or authentication processes.",
+    "source": "get_disposable_virtual_card"
+  },
+  {
+    "rule": "**Rule 4: Clarify Usage and Limitations**: The agent must clearly explain the usage and limitations of disposable virtual cards, including any specific merchants or transactions that may not be supported, and any applicable fees or expiration dates.",
+    "source": "get_disposable_virtual_card"
+  },
+  {
+    "rule": "**Rule 5: Offer Additional Resources and Follow-up**: The agent must offer additional resources, such as user guides or FAQs, and provide an opportunity for the customer to follow up if they need further assistance or have additional questions, ensuring that the customer's issue is fully resolved.",
+    "source": "get_disposable_virtual_card"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Rule 1: Empathize and Acknowledge**: Agents must acknowledge the customer's frustration and empathize with their situation, ensuring a positive tone and de-escalating any potential conflict. This can be done by saying, \"I understand how frustrating it can be when our system doesn't recognize your identity. I'm here to help you resolve this issue.\"",
+    "source": "unable_to_verify_identity"
+  },
+  {
+    "rule": "**Rule 2: Gather Information**: Agents must ask the customer to provide their name, account number (if applicable), and a detailed description of the issue they are experiencing with the identity verification process. This information will help the agent to better understand the problem and provide a more accurate solution.",
+    "source": "unable_to_verify_identity"
+  },
+  {
+    "rule": "**Rule 3: Troubleshoot and Provide Guidance**: Agents must walk the customer through basic troubleshooting steps, such as ensuring their camera is working properly, the lighting is good, and they are holding their ID correctly. Agents should also provide guidance on how to properly use the identity verification app or system, and offer alternative solutions if necessary.",
+    "source": "unable_to_verify_identity"
+  },
+  {
+    "rule": "**Rule 4: Escalate if Necessary**: If the customer's issue persists and cannot be resolved through basic troubleshooting, agents must escalate the issue to a senior agent or a specialized team (e.g. technical support) for further assistance. The agent should inform the customer that their issue is being escalated and provide an estimated timeframe for resolution.",
+    "source": "unable_to_verify_identity"
+  },
+  {
+    "rule": "**Rule 5: Document and Follow-up**: Agents must document the customer's issue and the resolution provided in the customer's account records. Agents should also follow up with the customer to ensure that their issue has been fully resolved and that they are satisfied with the outcome. If the issue is not resolved, agents should provide a clear plan for next steps and a timeline for resolution.",
+    "source": "unable_to_verify_identity"
+  }
+]

@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue type "verify_my_identity":
+
+- **Clearly explain the verification process**: Agents must provide a clear and concise explanation of the identity verification process, including the types of documents required (e.g. government-issued ID, proof of address) and the methods used to verify the customer's identity (e.g. video verification, document upload).
+
+- **Request specific documents**: Agents must inform customers of the specific documents required for verification, which may include a valid government-issued ID (e.g. driver's license, passport) and proof of address (e.g. utility bill, bank statement), and ensure that the documents are not expired or more than 30 days old.
+
+- **Emphasize security and confidentiality**: Agents must reassure customers that their personal and financial information is protected and that the bank takes reasonable steps to prevent identity theft and fraud, in accordance with relevant regulations and industry standards.
+
+- **Provide guidance on document upload or transmission**: Agents must provide customers with instructions on how to upload or transmit their documents securely, such as through a secure online portal or by mailing or faxing the documents to a specific address.
+
+- **Escalate complex cases**: Agents must escalate cases where customers are unable to provide required documents or if there are discrepancies in the information provided, to a senior agent or a specialized team for further review and assistance.

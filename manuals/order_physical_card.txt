@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue type "order_physical_card":
+
+- **Acknowledge and Empathize**: The agent must acknowledge the customer's request and express empathy for their need for a physical card. This can be done by responding with a phrase such as "I understand you'd like to receive a physical card" or "I'd be happy to help you with that".
+
+- **Verify Customer Eligibility**: The agent must verify that the customer is eligible for a physical card, checking that they have a valid virtual card or account and that their account is in good standing.
+
+- **Explain Card Delivery Process**: The agent must clearly explain the process for delivering a physical card to the customer, including any required shipping information, estimated delivery times, and any associated fees.
+
+- **Offer Alternative Solutions (if applicable)**: The agent must offer alternative solutions or options for receiving a physical card, such as expedited shipping or in-person pickup at a local branch (if available).
+
+- **Document and Close**: The agent must document the customer's request and the resolution provided, and close the issue by confirming with the customer that their request has been fulfilled or that they have a clear understanding of the next steps.

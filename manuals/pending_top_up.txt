@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling pending top-up issues:
+
+- **Acknowledge and Empathize**: Agents must acknowledge the customer's concern and express empathy in their response, e.g., "I understand that waiting for a top-up to go through can be frustrating. I'm here to help you with that."
+
+- **Check Top-up Status**: Agents must verify the status of the top-up by checking the customer's account and transaction history to determine the cause of the pending status.
+
+- **Provide Timeframe Information**: Agents must inform the customer of the standard timeframe for top-up processing, which is typically [insert timeframe, e.g., 1-2 hours, 1-3 business days]. Agents should also advise the customer that this timeframe may vary depending on the payment method or other factors.
+
+- **Investigate and Resolve**: If the top-up has been pending for an extended period, agents must investigate the issue further by checking for any potential issues with the payment method, account restrictions, or other technical issues. Agents should work to resolve the issue as quickly as possible.
+
+- **Escalate if Necessary**: If the agent is unable to resolve the issue or if the customer is not satisfied with the explanation, agents must escalate the issue to a senior agent or a specialized team, such as a technical support team, to ensure prompt resolution.

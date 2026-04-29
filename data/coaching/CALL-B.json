@@ -1,0 +1,27 @@
+{
+  "call_id": "CALL-B",
+  "fine_label_predicted": "cancel_transfer",
+  "classifier_match": true,
+  "verdict": "violation",
+  "violations_count": 2,
+  "strengths": [
+    "The agent eventually followed the correct procedures to cancel the transfer and provided a resolution to the customer.",
+    "The agent listened to the customer's concern and adjusted their approach accordingly.",
+    "The agent corrected themselves and provided accurate information later in the conversation."
+  ],
+  "improvements": [
+    "The agent needs to check the status of the transfer before providing a response to the customer.",
+    "The agent should follow established procedures for reversing or canceling transfers, including raising a recall request immediately.",
+    "The agent should provide accurate and clear information from the beginning of the conversation."
+  ],
+  "rephrasing": [
+    {
+      "original": "Once a transfer is sent, nothing can be done",
+      "better": "I'd be happy to help you with that. Can you please tell me more about the transfer you'd like to cancel? I'll check the status and see what options are available."
+    },
+    {
+      "original": "The agent did not offer to raise a recall request until the customer pointed out the issue",
+      "better": "I'd like to assist you with canceling this transfer. To do that, I'll need to raise a recall request. Can you please confirm the transfer details so I can proceed?"
+    }
+  ]
+}

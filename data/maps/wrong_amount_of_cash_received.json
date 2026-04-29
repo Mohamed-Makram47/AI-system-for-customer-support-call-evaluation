@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Customer Information**: The agent must verify the customer's account information and transaction details to ensure they are speaking with the correct customer and to understand the context of the issue.",
+    "source": "wrong_amount_of_cash_received"
+  },
+  {
+    "rule": "**Gather Transaction Details**: The agent must request and gather specific details about the transaction, including the date and time of the transaction, the amount requested to be withdrawn, and the amount received (or not received) by the customer.",
+    "source": "wrong_amount_of_cash_received"
+  },
+  {
+    "rule": "**Check ATM or Transaction Records**: The agent must check the ATM or transaction records to determine if the customer's account was debited for the correct amount and if there were any technical issues or limitations that may have caused the incorrect amount of cash to be dispensed.",
+    "source": "wrong_amount_of_cash_received"
+  },
+  {
+    "rule": "**Escalate to Investigation if Necessary**: If the agent cannot resolve the issue immediately or if the customer disputes the transaction, the agent must escalate the issue to a supervisor or investigator for further review and resolution.",
+    "source": "wrong_amount_of_cash_received"
+  },
+  {
+    "rule": "**Provide a Resolution or Next Steps**: The agent must provide a clear explanation of the resolution or next steps to the customer, which may include re-issuing the correct amount of cash, reversing the transaction, or providing additional information or documentation to support further investigation.",
+    "source": "wrong_amount_of_cash_received"
+  }
+]

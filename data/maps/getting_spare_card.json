@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Spare Card Eligibility**: The customer must be the primary account holder or have joint account access to request additional cards. Agents should verify the customer's account ownership and access level before proceeding with the request.",
+    "source": "getting_spare_card"
+  },
+  {
+    "rule": "**Card Limit and Fees**: Agents should inform customers that there is a maximum limit of [X] cards per account, and that additional cards may incur a fee of [Y]. The fee and limit may vary depending on the account type and product.",
+    "source": "getting_spare_card"
+  },
+  {
+    "rule": "**Additional Card Requirements**: To request a spare card, customers must provide identification and verification information, such as their name, address, and date of birth. Agents should ensure that the customer's information matches the account records.",
+    "source": "getting_spare_card"
+  },
+  {
+    "rule": "**Card Types and Options**: Agents should explain to customers the types of cards available, such as debit, credit, or prepaid cards, and the options for card design, delivery, and activation. Agents should also inform customers about any specific requirements or restrictions for certain card types.",
+    "source": "getting_spare_card"
+  },
+  {
+    "rule": "**Authorization and Consent**: Before issuing a spare card, agents must obtain explicit consent from the customer regarding the card details, including the cardholder's name, address, and any associated fees. Agents should document the customer's consent and any specific instructions or requests.",
+    "source": "getting_spare_card"
+  }
+]

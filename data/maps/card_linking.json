@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Card Status**: Before providing instructions, verify that the customer's card is not already linked to their account and that it has not been previously cancelled or reported lost/stolen.",
+    "source": "card_linking"
+  },
+  {
+    "rule": "**Provide App-Based Instructions**: Inform customers that they can link their card to their account through the mobile app, and provide step-by-step instructions on how to do so, including navigating to the \"Add Card\" or \"Link Card\" section.",
+    "source": "card_linking"
+  },
+  {
+    "rule": "**Explain Card Activation**: Clearly explain to customers that they need to activate their card before it can be linked to their account, and provide instructions on how to activate it, if necessary.",
+    "source": "card_linking"
+  },
+  {
+    "rule": "**Handle Re-Activation of Previously Cancelled Cards**: If a customer reports finding a previously cancelled card, inform them that they need to request re-activation of the card through the call center, and provide instructions on how to do so.",
+    "source": "card_linking"
+  },
+  {
+    "rule": "**Escalate Complex Issues**: If a customer is experiencing technical issues or difficulties linking their card through the app, offer to escalate the issue to a technical support specialist or a senior agent for further assistance.",
+    "source": "card_linking"
+  }
+]

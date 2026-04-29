@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Acknowledge and Apologize**: The agent must acknowledge the customer's concern and apologize for any inconvenience caused by the cash withdrawal charge. This sets a positive tone for the rest of the conversation and shows empathy towards the customer.",
+    "source": "cash_withdrawal_charge"
+  },
+  {
+    "rule": "**Explain the Charge**: The agent must clearly explain the reason for the cash withdrawal charge, including any relevant fees or policies that may apply. This includes informing the customer about any foreign transaction fees, ATM operator fees, or other charges that may have been incurred.",
+    "source": "cash_withdrawal_charge"
+  },
+  {
+    "rule": "**Check for Foreign Transaction Fees**: If the customer withdrew cash from an ATM outside of their home country or in a foreign currency, the agent must check if a foreign transaction fee applies and explain this to the customer.",
+    "source": "cash_withdrawal_charge"
+  },
+  {
+    "rule": "**Verify Customer's Account Type and Limits**: The agent must verify the customer's account type and check if their account has any specific limits or restrictions that may have triggered the charge. This includes checking if the customer has exceeded their daily withdrawal limit or if their account type incurs specific fees.",
+    "source": "cash_withdrawal_charge"
+  },
+  {
+    "rule": "**Offer Solutions and Next Steps**: The agent must offer solutions and next steps to the customer, such as providing information on how to avoid similar charges in the future, or offering to waive or refund the charge if applicable. The agent must also provide clear instructions on how to proceed and ensure the customer is satisfied with the resolution.",
+    "source": "cash_withdrawal_charge"
+  }
+]

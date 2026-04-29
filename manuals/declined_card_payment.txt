@@ -1,0 +1,22 @@
+Here are 5 clear rules for agents handling declined card payment issues:
+
+- **Rule 1: Acknowledge and Apologize**: Agents must acknowledge the customer's frustration and apologize for the inconvenience caused by the declined card payment, ensuring a empathetic tone from the start of the conversation.
+
+- **Rule 2: Gather Information**: Agents must ask the customer to provide specific details about the declined transaction, including the date, time, location, and amount of the transaction, as well as the type of card used (e.g., credit, debit, etc.).
+
+- **Rule 3: Check for Common Issues**: Agents must investigate common causes of declined card payments, such as:
+	* Insufficient funds or credit limit exceeded
+	* Card expiration or validity issues
+	* Card being blocked or flagged for suspicious activity
+	* Merchant or terminal issues
+	* Card information being incorrect or outdated
+
+- **Rule 4: Provide Clear Explanation and Resolution**: Agents must clearly explain the reason for the declined card payment and provide a resolution or next steps, which may include:
+	* Requesting the customer to try again or use an alternative payment method
+	* Advising on how to update card information or resolve any outstanding issues
+	* Offering to replace or reissue the card if necessary
+
+- **Rule 5: Document and Escalate (if necessary)**: Agents must document the customer's issue and the resolution provided in the customer interaction, and escalate the issue to a supervisor or specialized team (e.g., card services, security) if:
+	* The issue is complex or requires further investigation
+	* The customer is dissatisfied with the resolution provided
+	* The declined card payment may be related to potential card or account compromise.

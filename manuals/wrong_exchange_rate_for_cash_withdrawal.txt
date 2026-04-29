@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue of wrong exchange rate for cash withdrawal:
+
+- **Verify the customer's transaction details**: Agents must request and verify the customer's transaction details, including the date, location, and amount of the cash withdrawal, to ensure they are discussing the correct transaction.
+
+- **Explain the exchange rate used**: Agents must clearly explain the exchange rate used for the cash withdrawal, including any applicable fees or charges, and provide a breakdown of the calculation to help the customer understand the transaction.
+
+- **Check for rate discrepancies**: Agents must investigate and verify whether the exchange rate used was correct, taking into account any rate fluctuations, weekend or holiday rates, and ATM-specific rates, to determine if a rate discrepancy occurred.
+
+- **Provide rate information for future transactions**: Agents must inform customers of the current exchange rates and any applicable fees or charges for future cash withdrawals, and provide guidance on how to access this information, such as through the bank's website or mobile app.
+
+- **Escalate and waive fees if necessary**: Agents must escalate the issue to a supervisor or specialized team if the customer was indeed charged an incorrect exchange rate, and have the authority to waive any applicable fees or charges, or provide a one-time courtesy credit, as per the bank's policies and procedures.

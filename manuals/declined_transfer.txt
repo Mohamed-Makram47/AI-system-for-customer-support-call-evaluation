@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling declined transfer issues:
+
+- **Acknowledge and Apologize**: The agent must acknowledge the customer's frustration and apologize for the inconvenience caused by the declined transfer, ensuring empathy and a customer-centric approach.
+
+- **Gather Transaction Details**: The agent must request and gather relevant transaction details from the customer, including the date, time, amount, and recipient information (if applicable), to facilitate investigation and troubleshooting.
+
+- **Check for Common Decline Reasons**: The agent must check for common reasons for declined transfers, such as insufficient funds, incorrect card information, exceeded transfer limits, or suspicious activity flags, and provide clear explanations to the customer.
+
+- **Verify Card and Account Status**: The agent must verify the customer's card and account status, including any potential blocks, holds, or restrictions, and provide guidance on how to resolve any issues.
+
+- **Escalate Complex Issues**: The agent must escalate complex or recurring declined transfer issues to a senior agent or a specialized team (e.g., fraud, security, or technical support) if the root cause cannot be resolved through standard troubleshooting, ensuring prompt and effective resolution.

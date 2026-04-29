@@ -1,0 +1,20 @@
+Here are 5 clear rules for agents handling transfer timing issues:
+
+- **Rule 1: Acknowledge and Empathize**: Agents must acknowledge the customer's concern and express empathy in their response, e.g., "I understand you're eager to receive your transfer, and I'm here to help you with the timing."
+
+- **Rule 2: Request Transfer Details**: Agents must request specific details about the transfer, including the origin and destination countries, transfer amount, and transfer type (e.g., wire, ACH, or online transfer), to provide an accurate estimate of the transfer timing.
+
+- **Rule 3: Provide Clear Timing Information**: Agents must provide clear and accurate information on the transfer timing based on the customer's specific transfer details, including:
+	+ Same-day, next-day, or multi-day transfers
+	+ Cut-off times for same-day processing
+	+ Any applicable holds or delays
+
+- **Rule 4: Explain Transfer Processing**: Agents must explain the general transfer processing steps and how they impact timing, such as:
+	+ Sender's bank processing time
+	+ Intermediate bank processing time (if applicable)
+	+ Recipient's bank processing time
+
+- **Rule 5: Offer Additional Resources**: Agents must offer additional resources or next steps, such as:
+	+ Tracking information (if available)
+	+ A follow-up call or email with an update on the transfer status
+	+ A reference to the bank's website or transfer guide for more information on transfer timing and processing.

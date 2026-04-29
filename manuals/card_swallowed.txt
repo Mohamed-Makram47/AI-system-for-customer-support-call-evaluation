@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue of a card being swallowed by an ATM:
+
+- **Acknowledge and Empathize**: The agent must acknowledge the customer's concern and express empathy for the inconvenience caused, ensuring the customer feels heard and understood.
+
+- **Gather Information**: The agent must collect relevant details from the customer, including the location of the ATM, the type of card, and any error messages displayed on the ATM screen, to facilitate further investigation and resolution.
+
+- **Advise Immediate Action**: The agent must inform the customer that if the ATM is still available, they should not attempt to use it again and instead contact the bank's customer service or visit a nearby branch for assistance; if the ATM is no longer accessible, the agent will guide the customer on the next steps.
+
+- **Escalate and Document**: The agent must escalate the issue to the bank's ATM incident team or relevant department to report the card as lost/stolen and request retrieval or replacement, and document the incident in the bank's system for future reference and follow-up.
+
+- **Provide Resolution and Follow-up**: The agent must provide the customer with a clear resolution, such as a replacement card or instructions on how to obtain one, and offer to follow up on the status of the retrieved card or provide a timeline for receiving a replacement card, ensuring the customer is satisfied with the outcome.

@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Clearly explain the purpose of identity verification**: Agents must inform customers that verifying their identity is a regulatory requirement to prevent identity theft, money laundering, and other financial crimes, and that it helps to protect their account and financial information.",
+    "source": "why_verify_identity"
+  },
+  {
+    "rule": "**Emphasize the importance of compliance with regulations**: Agents must mention that identity verification is a mandatory process required by laws and regulations, such as the USA PATRIOT Act, Anti-Money Laundering (AML) laws, and the Financial Crimes Enforcement Network (FinCEN) guidelines, and that the bank is obligated to comply with these regulations.",
+    "source": "why_verify_identity"
+  },
+  {
+    "rule": "**Provide a clear description of the verification process**: Agents must walk customers through the verification process, explaining what information and documents are required, such as a valid government-issued ID, social security number, or date of birth, and how the information will be used and protected.",
+    "source": "why_verify_identity"
+  },
+  {
+    "rule": "**Address concerns about data security and confidentiality**: Agents must reassure customers that the bank takes the security and confidentiality of their personal and financial information seriously, and that the information collected during the verification process will only be used for verification purposes and will be protected in accordance with the bank's privacy policy.",
+    "source": "why_verify_identity"
+  },
+  {
+    "rule": "**Offer alternatives or accommodations when possible**: Agents must be aware of alternative verification methods or accommodations that may be available for customers who are having difficulty completing the verification process, such as providing additional documentation or using a different verification method, and offer these options to customers when applicable.",
+    "source": "why_verify_identity"
+  }
+]

@@ -1,0 +1,13 @@
+**Neutral Issue Policy Manual for Call Center Agents**
+
+When handling neutral issue types, agents must follow these guidelines to ensure compliance and provide excellent customer service:
+
+- **Rule 1: Acknowledge and Empathize**: Agents must acknowledge the customer's concern and show empathy within the first 30 seconds of the conversation. This can be done by using phrases such as "I understand your concern" or "I apologize that you're experiencing this issue."
+
+- **Rule 2: Gather Information**: Agents must gather all necessary information to understand the issue, including account information, issue description, and any relevant details. This information must be documented in the customer's account notes for future reference.
+
+- **Rule 3: Provide Clear Explanations**: Agents must provide clear and concise explanations of the issue, the cause, and any next steps. If the issue is not resolvable immediately, agents must provide a clear timeline for resolution and follow-up.
+
+- **Rule 4: Follow Scripted Responses**: Agents must follow scripted responses for neutral issue types, which can be found in the call center's knowledge base. These scripted responses ensure consistency and compliance with regulatory requirements.
+
+- **Rule 5: Escalate if Necessary**: Agents must escalate the issue to a supervisor or specialized team if the issue cannot be resolved within the agent's authority or if the issue requires additional expertise. Agents must also escalate if the customer requests to speak with a supervisor or if the issue involves a sensitive or confidential topic.

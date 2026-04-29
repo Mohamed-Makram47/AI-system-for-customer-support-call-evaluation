@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue type "top_up_by_bank_transfer_charge":
+
+- When a customer inquires about fees associated with topping up via bank transfer, the agent must clearly state that there are no fees charged by our bank for topping up via bank transfer.
+
+- If the customer specifically asks about SWIFT transfer fees, the agent must inform them that SWIFT transfers are subject to a fee, which currently ranges from $20 to $50, depending on the transfer amount and destination.
+
+- When a customer asks about SEPA transfer fees, the agent must respond that SEPA transfers are free of charge for customers based in the European Economic Area (EEA).
+
+- If a customer inquires about the cost of topping up by transfer, the agent must provide a clear and concise answer, stating that there are no fees for standard bank transfers, but may mention potential fees charged by the customer's external bank.
+
+- When a customer asks about fees for bank transfers to top up their account, the agent must advise them to check with their external bank for any potential fees they may charge, and confirm that our bank does not charge any fees for receiving bank transfers.

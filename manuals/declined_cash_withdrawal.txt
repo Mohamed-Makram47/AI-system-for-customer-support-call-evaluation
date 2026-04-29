@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling declined cash withdrawal issues:
+
+- **Verify Account Balance**: Before proceeding with the investigation, agents must verify the customer's account balance to ensure that there are sufficient funds available for withdrawal.
+
+- **Check for Card Issues**: Agents must check if the customer's card is valid, not expired, and not blocked or flagged for suspicious activity, and inform the customer of any issues found.
+
+- **Investigate ATM and Transaction Issues**: Agents must investigate if there were any issues with the ATM machine used, such as technical problems or out-of-order status, and also check if there were any issues with the transaction itself, such as incorrect PIN entry or daily limit exceeded.
+
+- **Review Account Restrictions and Holds**: Agents must review the customer's account for any restrictions or holds that may be preventing the withdrawal, such as a hold on funds due to a pending transaction or a restriction on international transactions.
+
+- **Escalate to Specialist if Necessary**: If the issue cannot be resolved through basic troubleshooting, agents must escalate the issue to a specialist, such as a card services representative or a fraud investigator, to further investigate and resolve the issue.

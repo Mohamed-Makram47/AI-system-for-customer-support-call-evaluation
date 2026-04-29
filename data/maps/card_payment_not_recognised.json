@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Rule 1: Acknowledge and Empathize**: The agent must acknowledge the customer's concern and express empathy in their initial response, e.g., \"I understand your concern about the unfamiliar payment on your account, and I'm here to help you resolve it.\"",
+    "source": "card_payment_not_recognised"
+  },
+  {
+    "rule": "**Rule 2: Gather Information**: The agent must ask the customer to provide details about the unfamiliar payment, including the date, amount, and description of the transaction, and verify the customer's identity through standard authentication procedures.",
+    "source": "card_payment_not_recognised"
+  },
+  {
+    "rule": "**Rule 3: Investigate and Flag**: The agent must investigate the payment in question using available tools and resources, and flag the account for potential fraud if necessary, ensuring that all relevant parties are notified and taking steps to prevent further unauthorized transactions.",
+    "source": "card_payment_not_recognised"
+  },
+  {
+    "rule": "**Rule 4: Provide Resolution Options**: The agent must provide the customer with clear resolution options, which may include reversing the transaction, issuing a new card, or providing additional security measures, and ensure that the customer understands the next steps and any required actions.",
+    "source": "card_payment_not_recognised"
+  },
+  {
+    "rule": "**Rule 5: Document and Escalate (if necessary)**: The agent must document the customer's concern, the investigation, and the resolution in the customer's account records, and escalate the issue to a supervisor or specialized fraud team if the customer confirms that the transaction was unauthorized or if there are indications of potential account compromise.",
+    "source": "card_payment_not_recognised"
+  }
+]

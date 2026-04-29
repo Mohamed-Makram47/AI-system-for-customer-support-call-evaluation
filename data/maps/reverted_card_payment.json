@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify the transaction status**: Before proceeding with the customer's inquiry, the agent must verify the status of the transaction in question, checking if the payment was indeed reverted and if the funds have been returned to the customer's account.",
+    "source": "reverted_card_payment"
+  },
+  {
+    "rule": "**Determine the reason for the reversion**: The agent must investigate and determine the reason for the reversion, which may include checking with the merchant, reviewing transaction logs, or contacting the payment processor to understand why the payment was reverted.",
+    "source": "reverted_card_payment"
+  },
+  {
+    "rule": "**Check for duplicate or partial refunds**: The agent must verify if a refund or partial refund has been processed, and if so, ensure that the customer has received the correct amount, taking into account any applicable fees or charges.",
+    "source": "reverted_card_payment"
+  },
+  {
+    "rule": "**Escalate to supervisor or specialist if necessary**: If the agent is unable to resolve the issue or if the customer is disputing the reversion, the agent must escalate the issue to a supervisor or a specialized team, such as a fraud or payment disputes team, to ensure prompt and accurate resolution.",
+    "source": "reverted_card_payment"
+  },
+  {
+    "rule": "**Provide clear explanations and next steps**: The agent must clearly explain the reason for the reversion, the current status of the transaction, and any necessary next steps to the customer, ensuring that the customer understands the resolution and any actions they need to take to resolve the issue.",
+    "source": "reverted_card_payment"
+  }
+]

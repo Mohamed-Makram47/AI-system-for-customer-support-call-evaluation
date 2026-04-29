@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Customer Identity**: Before processing the account termination request, agents must verify the customer's identity by asking for their name, date of birth, and account information to ensure they are speaking with the account holder.",
+    "source": "terminate_account"
+  },
+  {
+    "rule": "**Provide Clear Instructions**: Agents must provide the customer with clear instructions on how to terminate their account, which may include visiting a branch, mailing a written request, or completing an online form, and ensure the customer understands the next steps.",
+    "source": "terminate_account"
+  },
+  {
+    "rule": "**Explain Consequences and Alternatives**: Agents must inform the customer of the consequences of terminating their account, such as any potential fees, loss of automatic payments or deposits, and impact on credit scores, and offer alternative solutions, such as account modifications or suspension, if applicable.",
+    "source": "terminate_account"
+  },
+  {
+    "rule": "**Document the Request**: Agents must document the customer's request to terminate their account in the customer's account records, including the reason for termination (if provided), and ensure that the account is marked for closure.",
+    "source": "terminate_account"
+  },
+  {
+    "rule": "**Escalate to Supervisor (if necessary)**: If the customer is dissatisfied with the service or has a complaint, agents must escalate the issue to a supervisor or a specialized team, such as a complaints department, to ensure prompt resolution and maintain customer satisfaction.",
+    "source": "terminate_account"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Customer Identity**: Before assisting with PIN unblocking, agents must verify the customer's identity through a series of security questions, such as their name, date of birth, account information, and address, to ensure they are speaking with the account holder.",
+    "source": "pin_blocked"
+  },
+  {
+    "rule": "**Explain PIN Block Policy**: Agents must clearly explain to the customer that their PIN has been blocked due to excessive incorrect attempts and that this is a security measure to protect their account from unauthorized access.",
+    "source": "pin_blocked"
+  },
+  {
+    "rule": "**Provide Unblocking Options**: Agents must inform the customer of the available options to unblock their PIN, which may include:",
+    "source": "pin_blocked"
+  },
+  {
+    "rule": "**Guide Customer through Unblocking Process**: Agents must walk the customer through the chosen unblocking process, providing step-by-step instructions and answering any questions they may have. If the customer is unable to complete the process, the agent must offer assistance and escalate the issue if necessary.",
+    "source": "pin_blocked"
+  },
+  {
+    "rule": "**Document and Follow-up**: Agents must document the customer's issue and the resolution provided in their system, and follow up with the customer to ensure that their PIN has been successfully unblocked and that they are able to access their account without issues.",
+    "source": "pin_blocked"
+  }
+]

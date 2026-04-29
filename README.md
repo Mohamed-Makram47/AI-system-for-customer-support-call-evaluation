@@ -77,9 +77,9 @@ Phase 6 — Web Dashboard (React / Streamlit)                                  �
 
 **Phase 4 — RAG Policy Validation**
 - 78 FAISS indexes pre-built, one per issue type
+- Manuals grounded in real Banking77 customer utterances (10 examples per class)
 - Embedding model: `all-MiniLM-L6-v2` (sentence-transformers)
-- Retrieves top-k most relevant policy rules per agent utterance
-- LLM (Groq / Llama 3) evaluates each utterance: violation or compliant + reason
+- Call-level evaluation: single LLM call per conversation with deduplicated policy retrieval
 
 **Phase 5 — Scoring + Coaching Generation**
 - Aggregates RAG verdicts into a per-call compliance score

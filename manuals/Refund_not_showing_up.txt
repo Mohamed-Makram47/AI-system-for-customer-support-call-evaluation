@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling Refund_not_showing_up issues:
+
+- **Verify Customer Information**: Before assisting the customer, agents must verify their identity and account information to ensure they are speaking with the correct person and have access to the relevant account details.
+
+- **Gather Refund Details**: Agents must request and document the following information from the customer: the date of the original purchase, the date of the refund request, the refund amount, and the method of refund (e.g., credit card, bank transfer, store credit). This information will help agents investigate the issue.
+
+- **Check Refund Status**: Agents must check the status of the refund using the customer's account information and the details gathered in the previous step. This may involve checking with the merchant, reviewing transaction history, or verifying with the customer's bank.
+
+- **Escalate if Necessary**: If the refund is not showing up and the agent cannot resolve the issue immediately, they must escalate the case to a senior agent or a specialized refund team. This may include cases where the refund is taking longer than expected, the customer has not received the refund, or there are discrepancies in the refund amount.
+
+- **Provide Clear Next Steps**: Agents must clearly communicate the next steps to the customer, including any additional information or documentation required, estimated timelines for resolution, and a reference number or case ID for future follow-up. Agents must also ensure that the customer understands what to expect and when they can expect a resolution.

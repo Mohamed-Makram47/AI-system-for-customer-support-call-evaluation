@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling pending card payment issues:
+
+- **Acknowledge and Empathize**: The agent must acknowledge the customer's concern and express empathy in their response, e.g., "I understand your concern about the pending payment on your card. I'm here to help you resolve this issue."
+
+- **Explain the Pending Payment Process**: The agent must explain to the customer that a pending payment means the transaction is being processed and has not yet been completed, and that it may take 2-3 business days to clear, depending on the payment method and the bank's processing time.
+
+- **Provide a Timeline for Resolution**: The agent must provide a specific timeline for when the payment is expected to be processed and completed, e.g., "Most card payments take 2-3 business days to process. If it's been longer than that, we may need to investigate further."
+
+- **Troubleshoot and Investigate**: The agent must troubleshoot and investigate the issue by checking the customer's account and transaction history to determine if there are any issues or errors that may be causing the delay, and provide a clear explanation to the customer.
+
+- **Escalate if Necessary**: The agent must escalate the issue to a supervisor or a specialized team if the payment has been pending for an unusually long time (e.g., more than 5 business days) or if the customer is not satisfied with the explanation provided, to ensure that the issue is resolved promptly and to the customer's satisfaction.

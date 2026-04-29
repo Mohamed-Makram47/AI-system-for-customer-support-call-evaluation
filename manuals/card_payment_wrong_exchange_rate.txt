@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue type: card_payment_wrong_exchange_rate:
+
+- **Verify the customer's purchase details**: Agents must request and verify the customer's purchase date, amount, and currency used for the transaction in question to ensure accurate investigation.
+
+- **Check the exchange rate applied**: Agents must investigate and verify the exchange rate applied to the customer's transaction using the bank's internal systems or tools, such as rate charts or transaction logs.
+
+- **Compare with the correct exchange rate**: Agents must compare the exchange rate applied to the customer's transaction with the correct exchange rate that was in effect at the time of the transaction, which can be found using reliable sources such as rate charts, market data, or other bank records.
+
+- **Determine the overcharge amount**: If the agent finds that the wrong exchange rate was applied, they must calculate the overcharge amount by finding the difference between the amount charged and the amount that would have been charged using the correct exchange rate.
+
+- **Escalate and rectify within 2 business days**: Agents must escalate the issue to their supervisor or a specialized team if necessary, and work to rectify the issue within 2 business days by processing a correction transaction, issuing a refund, or providing a clear explanation to the customer on why the exchange rate applied was correct.

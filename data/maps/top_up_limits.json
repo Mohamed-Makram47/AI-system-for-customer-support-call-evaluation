@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Rule 1: Inform customers of standard top-up limits**: Agents must inform customers that there are standard top-up limits in place, which vary depending on the type of card or account. These limits are in place to prevent excessive transactions and ensure customer safety.",
+    "source": "top_up_limits"
+  },
+  {
+    "rule": "**Rule 2: Provide specific top-up limit information**: Agents must provide customers with specific information on the top-up limits applicable to their card or account. This includes the maximum amount that can be topped up per transaction and the daily/weekly/monthly limits.",
+    "source": "top_up_limits"
+  },
+  {
+    "rule": "**Rule 3: Clarify that custom top-up limits are not available**: Agents must clearly communicate to customers that they cannot create their own custom top-up limits. However, they can offer alternatives, such as splitting transactions into smaller amounts, subject to the standard top-up limits.",
+    "source": "top_up_limits"
+  },
+  {
+    "rule": "**Rule 4: Explain the implications of frequent top-ups**: Agents must advise customers that frequent top-ups, especially those exceeding the standard limits, may trigger additional security checks, account restrictions, or even account closure.",
+    "source": "top_up_limits"
+  },
+  {
+    "rule": "**Rule 5: Escalate requests for exceptions to senior teams**: Agents must escalate any customer requests for exceptions to the standard top-up limits to senior teams or specialized units, which will review and respond to these requests on a case-by-case basis, in accordance with the bank's policies and regulatory requirements.",
+    "source": "top_up_limits"
+  }
+]

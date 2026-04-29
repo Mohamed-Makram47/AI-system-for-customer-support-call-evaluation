@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "When a customer inquires about their top-up verification code, the agent must inform them that the code is typically sent to their registered mobile number or email address via an automated system, and it is usually a 6-digit code.",
+    "source": "verify_top_up"
+  },
+  {
+    "rule": "The agent must advise the customer to check their SMS or email inbox, including their spam or junk folder, for a message with the subject \"Top-up Verification Code\" or a similar phrase, and to ensure they are looking for a code specifically related to their top-up transaction.",
+    "source": "verify_top_up"
+  },
+  {
+    "rule": "If the customer is still unable to locate the code, the agent must offer to re-send the code to the customer's registered mobile number or email address, and confirm with the customer that they have received it.",
+    "source": "verify_top_up"
+  },
+  {
+    "rule": "The agent must emphasize to the customer that the verification code is a one-time password (OTP) and is only valid for a short period of time (usually 30 minutes), and that they should not share the code with anyone.",
+    "source": "verify_top_up"
+  },
+  {
+    "rule": "Under no circumstances should the agent provide the customer with the verification code directly or assist them in bypassing the verification process; instead, the agent must guide the customer through the standard verification process and ensure that all security protocols are followed.",
+    "source": "verify_top_up"
+  }
+]

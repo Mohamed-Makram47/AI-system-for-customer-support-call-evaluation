@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Customer Information**: Before assisting the customer, agents must verify their identity and account information to ensure they are speaking with the authorized account holder, using standard verification procedures.",
+    "source": "top_up_failed"
+  },
+  {
+    "rule": "**Gather Details on the Failed Top-up**: Agents must ask customers to provide specific details about the failed top-up attempt, including the date and time of the attempt, the payment method used (e.g., credit/debit card, bank account), and the exact error message received (if any).",
+    "source": "top_up_failed"
+  },
+  {
+    "rule": "**Troubleshoot Common Issues**: Agents must troubleshoot common issues that may have caused the top-up to fail, such as:",
+    "source": "top_up_failed"
+  },
+  {
+    "rule": "**Escalate to Specialist if Necessary**: If the agent is unable to resolve the issue or if the customer requests a more detailed investigation, the agent must escalate the issue to a specialist (e.g., a technical support agent or a senior customer service representative) who can further investigate and resolve the issue.",
+    "source": "top_up_failed"
+  },
+  {
+    "rule": "**Document and Resolve**: Agents must document the root cause of the failed top-up and the resolution provided to the customer, and ensure that the customer's top-up is successfully processed or reapplied if possible, and provide a clear explanation of the next steps to the customer.",
+    "source": "top_up_failed"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Rule 1: Acknowledge and Apologize**: Agents must acknowledge the customer's frustration and apologize for the inconvenience caused by the declined card payment, ensuring a empathetic tone from the start of the conversation.",
+    "source": "declined_card_payment"
+  },
+  {
+    "rule": "**Rule 2: Gather Information**: Agents must ask the customer to provide specific details about the declined transaction, including the date, time, location, and amount of the transaction, as well as the type of card used (e.g., credit, debit, etc.).",
+    "source": "declined_card_payment"
+  },
+  {
+    "rule": "**Rule 3: Check for Common Issues**: Agents must investigate common causes of declined card payments, such as:",
+    "source": "declined_card_payment"
+  },
+  {
+    "rule": "**Rule 4: Provide Clear Explanation and Resolution**: Agents must clearly explain the reason for the declined card payment and provide a resolution or next steps, which may include:",
+    "source": "declined_card_payment"
+  },
+  {
+    "rule": "**Rule 5: Document and Escalate (if necessary)**: Agents must document the customer's issue and the resolution provided in the customer interaction, and escalate the issue to a supervisor or specialized team (e.g., card services, security) if:",
+    "source": "declined_card_payment"
+  }
+]

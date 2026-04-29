@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Rule 1: Acknowledge and Empathize**: The agent must acknowledge the customer's concern and express empathy for the mistake, ensuring the customer feels heard and understood.",
+    "source": "cancel_transfer"
+  },
+  {
+    "rule": "**Rule 2: Verify Transaction Details**: The agent must verify the transaction details, including the date, amount, and recipient account information, to ensure they are working with the correct transaction and to prevent errors.",
+    "source": "cancel_transfer"
+  },
+  {
+    "rule": "**Rule 3: Check Transfer Status**: The agent must check the status of the transfer to determine if it has already been processed or if it is still pending, as this will impact the possibility of cancellation or reversal.",
+    "source": "cancel_transfer"
+  },
+  {
+    "rule": "**Rule 4: Follow Established Reversal Procedures**: The agent must follow the bank's established procedures for reversing or canceling transfers, which may include submitting a reversal request or contacting a supervisor for assistance, and clearly explain the next steps to the customer.",
+    "source": "cancel_transfer"
+  },
+  {
+    "rule": "**Rule 5: Communicate Clearly and Transparently**: The agent must communicate clearly and transparently with the customer about the outcome, including any potential fees or limitations, and provide a clear explanation of what can or cannot be done to cancel or reverse the transfer.",
+    "source": "cancel_transfer"
+  }
+]

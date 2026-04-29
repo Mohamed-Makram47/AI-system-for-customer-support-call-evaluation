@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "The agent must inform the customer that they can order a new card before the current one expires, and it's recommended to do so 1-2 months in advance to avoid any disruptions in service.",
+    "source": "card_about_to_expire"
+  },
+  {
+    "rule": "The agent must advise the customer that they do not need to visit a branch to order a new card, and that they can do so by calling the call center, using the bank's website, or through the bank's mobile app, if available.",
+    "source": "card_about_to_expire"
+  },
+  {
+    "rule": "The agent must explain to the customer that they will need to provide their current card details, identification, and address verification to facilitate the new card issuance, and that the bank will guide them through the process.",
+    "source": "card_about_to_expire"
+  },
+  {
+    "rule": "The agent must inform the customer that once the new card is issued, the old card will be automatically deactivated on the expiration date, and that they should continue to use the new card for transactions.",
+    "source": "card_about_to_expire"
+  },
+  {
+    "rule": "The agent must offer to expedite the shipping of the new card, if possible, and provide the customer with an estimated delivery timeframe, which may vary depending on their location and the bank's shipping policies.",
+    "source": "card_about_to_expire"
+  }
+]

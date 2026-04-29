@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Acknowledge and Apologize**: The agent must acknowledge the customer's concern and apologize for the inconvenience caused by the transfer fee charged, regardless of the outcome of the investigation.",
+    "source": "transfer_fee_charged"
+  },
+  {
+    "rule": "**Verify Transfer Details**: The agent must verify the transfer details, including the transfer amount, recipient's information, transfer method (e.g., online, mobile, or in-branch), and the date of the transfer, to understand the context of the fee charged.",
+    "source": "transfer_fee_charged"
+  },
+  {
+    "rule": "**Explain Fee Structure**: The agent must clearly explain the transfer fee structure and the specific reason for the fee charged, including any applicable currency conversion fees, intermediary bank fees, or other charges, to ensure the customer understands the breakdown of the fees.",
+    "source": "transfer_fee_charged"
+  },
+  {
+    "rule": "**Investigate and Correct**: If the customer disputes the fee or claims it was incorrect, the agent must investigate the matter, check the transfer records, and correct the error if necessary, ensuring that the customer is not incorrectly charged.",
+    "source": "transfer_fee_charged"
+  },
+  {
+    "rule": "**Provide Resolution and Next Steps**: The agent must provide a clear resolution to the customer's issue, which may include a refund of the fee, a transfer of the missing amount, or guidance on how to avoid similar fees in the future, and clearly outline the next steps to ensure the customer's satisfaction and resolution.",
+    "source": "transfer_fee_charged"
+  }
+]

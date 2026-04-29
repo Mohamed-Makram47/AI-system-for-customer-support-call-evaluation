@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue type "extra_charge_on_statement":
+
+- **Rule 1: Acknowledge and Apologize**: Agents must acknowledge the customer's concern and apologize for the inconvenience caused by the unexplained charge, regardless of the customer's tone or language.
+
+- **Rule 2: Verify Customer Information**: Agents must verify the customer's identity and account information before investigating the charge, to ensure they are looking at the correct account and transaction.
+
+- **Rule 3: Investigate and Explain the Charge**: Agents must investigate the charge and provide a clear explanation to the customer, checking for any pending transactions, fees, or other legitimate charges that may have caused the extra charge.
+
+- **Rule 4: Refund or Reverse if Unauthorized**: If the investigation determines that the charge is unauthorized or an error, agents must process a refund or reversal of the charge promptly, and confirm with the customer that the issue is resolved.
+
+- **Rule 5: Document and Escalate if Necessary**: Agents must document the customer's concern, the investigation, and the resolution in the customer's account records, and escalate the issue to a supervisor or specialized team if the charge cannot be explained or if the customer is not satisfied with the resolution.

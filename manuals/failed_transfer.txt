@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling failed transfer issues:
+
+- **Acknowledge and Empathize**: The agent must acknowledge the customer's frustration and show empathy in their response, e.g., "I apologize for the inconvenience you're experiencing with your transfer" or "I understand how frustrating it must be to have your transfer rejected multiple times."
+
+- **Gather Transaction Details**: The agent must request and gather relevant transaction details from the customer, including the date and time of the transfer, the amount being transferred, the recipient's information (if applicable), and the error message received (if any).
+
+- **Troubleshoot Common Issues**: The agent must troubleshoot common issues that may be causing the transfer to fail, such as insufficient funds, incorrect recipient information, daily transfer limits, or technical issues with the payment method.
+
+- **Check for System Outages or Maintenance**: The agent must check if there are any system outages or scheduled maintenance that may be affecting the transfer process, and provide an explanation if this is the case.
+
+- **Escalate to Specialist if Necessary**: The agent must escalate the issue to a specialist or a more senior agent if the customer provides additional information that suggests a more complex issue, or if the agent is unable to resolve the issue through basic troubleshooting, and provide a clear explanation to the customer of the next steps.

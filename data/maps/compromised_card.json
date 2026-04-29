@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Rule 1: Acknowledge and Empathize**: The agent must acknowledge the customer's concern and express empathy in their response, e.g., \"I understand your concern about possible unauthorized transactions on your account, and I'm here to help.\"",
+    "source": "compromised_card"
+  },
+  {
+    "rule": "**Rule 2: Gather Information**: The agent must ask the customer to provide specific details about the suspected unauthorized transactions, including the date and amount of the transactions, and any other relevant information.",
+    "source": "compromised_card"
+  },
+  {
+    "rule": "**Rule 3: Flag Account for Fraud**: The agent must immediately flag the customer's account for potential fraud and take steps to prevent further unauthorized transactions, such as blocking the card or placing a hold on the account.",
+    "source": "compromised_card"
+  },
+  {
+    "rule": "**Rule 4: Provide Next Steps**: The agent must clearly explain the next steps to the customer, including:",
+    "source": "compromised_card"
+  },
+  {
+    "rule": "**Rule 5: Document and Escalate**: The agent must document the customer's concern and the actions taken in the customer's account records, and escalate the issue to a supervisor or specialized fraud team if necessary, to ensure a thorough investigation and resolution.",
+    "source": "compromised_card"
+  }
+]

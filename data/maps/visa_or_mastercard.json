@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "When a customer inquires about the types of cards offered, the agent must inform them that both Visa and Mastercard are available, and that card type is not guaranteed and is determined by the bank's policies and procedures.",
+    "source": "visa_or_mastercard"
+  },
+  {
+    "rule": "If a customer expresses a preference for either Visa or Mastercard, the agent must acknowledge their preference and explain that while they can make a note of it, the bank cannot guarantee the issuance of a specific card type.",
+    "source": "visa_or_mastercard"
+  },
+  {
+    "rule": "When a customer asks if they can choose between Visa and Mastercard, the agent must respond that card selection is not an option and that the bank will issue the card that is available and suitable for the customer's account.",
+    "source": "visa_or_mastercard"
+  },
+  {
+    "rule": "If a customer receives a different card than requested, the agent must apologize for the inconvenience, explain that card type is determined by the bank, and offer to verify the reason for the card type issued.",
+    "source": "visa_or_mastercard"
+  },
+  {
+    "rule": "Agents must not make any commitments or promises to customers regarding the issuance of a specific card type, and must instead provide a standard response that emphasizes the bank's policies and procedures for determining card types, and encourage customers to contact the bank if they have further concerns.",
+    "source": "visa_or_mastercard"
+  }
+]

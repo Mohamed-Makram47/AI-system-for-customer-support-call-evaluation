@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue type: card_payment_fee_charged:
+
+- **Acknowledge and Apologize**: The agent must acknowledge the customer's concern and apologize for the inconvenience caused by the unexpected fee, ensuring a empathetic tone from the start of the conversation.
+
+- **Explain Fee Policy**: The agent must clearly explain the bank's policy on card payment fees, including any specific instances that may result in a fee being charged, and provide information on where the customer can find this information (e.g., website, app, or account documentation).
+
+- **Verify Transaction Details**: The agent must verify the transaction details with the customer, including the payment method, amount, and date, to ensure accuracy and understand the context of the fee.
+
+- **Check for Fee Waivers or Exemptions**: The agent must check if the customer is eligible for any fee waivers or exemptions, such as a specific account type or loyalty program, and provide guidance on how to avoid future fees.
+
+- **Provide Refund or Credit, if Applicable**: If the agent determines that the fee was charged in error or is not applicable, they must provide a refund or credit to the customer's account, and confirm the correction with the customer to ensure their satisfaction.

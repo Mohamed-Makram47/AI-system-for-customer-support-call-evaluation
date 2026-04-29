@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue of lost or stolen cards:
+
+- **Immediate Card Block**: Upon receiving a customer's report of a lost or stolen card, the agent must immediately block the card to prevent any unauthorized transactions, regardless of the customer's request for a new card or not.
+
+- **Verify Customer Identity**: Before providing any further assistance, the agent must verify the customer's identity through their account information, security questions, or other approved authentication methods to ensure they are speaking with the actual cardholder.
+
+- **Provide Clear Instructions**: The agent must clearly instruct the customer on the next steps, which include blocking the card, ordering a replacement card, and potentially filing a police report if the card was stolen, and provide a timeframe for receiving the new card.
+
+- **Expedite Replacement Card**: For customers who request a replacement card, the agent must expedite the shipping of the new card, if possible, especially for customers who are traveling or in urgent need of a new card.
+
+- **Document Customer Report**: The agent must document the customer's report of a lost or stolen card in the customer's account records, including the date and time of the report, the reason for the report, and any actions taken, such as blocking the card and ordering a replacement.

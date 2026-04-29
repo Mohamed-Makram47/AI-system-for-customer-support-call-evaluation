@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue of receiving money:
+
+- **Verify Customer's Account Settings**: Before providing guidance on receiving money, agents must verify the customer's current account settings, including their account type and any existing payment configurations, to ensure they are eligible to receive funds.
+
+- **Explain Receiving Money in Local Currency**: Agents must inform customers that they can receive money in their local currency (e.g. GBP) without any additional configuration, but if they need to receive money in another currency, they may need to configure their account accordingly.
+
+- **Clarify Transfer Options**: Agents must explain to customers that they can receive money from friends or family through various transfer options, such as online banking, mobile banking, or in-person at a branch, and provide guidance on the associated fees and limits.
+
+- **Discuss Salary Payment Configurations**: If a customer is receiving a salary in a foreign currency, agents must advise them to configure their account to accept international payments and provide guidance on how to do so, including any required documentation or forms.
+
+- **Provide Instructions on Sharing Account Details**: Agents must instruct customers on how to share their account details with the sender, including their account number, sort code, and any other required information, and emphasize the importance of only sharing account details with trusted individuals or organizations.

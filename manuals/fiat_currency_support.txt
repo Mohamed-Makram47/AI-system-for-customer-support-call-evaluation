@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue of fiat currency support:
+
+- **Rule 1: Provide a clear list of supported fiat currencies**: Agents must provide customers with a clear and accurate list of fiat currencies supported by the organization. This list may include, but is not limited to, major currencies such as USD, EUR, GBP, JPY, and others.
+
+- **Rule 2: Confirm multi-currency support**: Agents must confirm to customers whether their accounts can hold multiple types of fiat currencies and explain any associated requirements or limitations.
+
+- **Rule 3: Explain exchange capabilities**: Agents must explain to customers which fiat currencies can be exchanged for one another, and provide information on any exchange fees or rates that may apply.
+
+- **Rule 4: Address country-specific currency support**: Agents must inform customers which countries' currencies are supported by the organization and provide guidance on any regulatory or compliance requirements that may impact currency support.
+
+- **Rule 5: Provide transparency on currency limitations**: Agents must clearly communicate to customers any limitations or restrictions on holding or exchanging specific fiat currencies, including any requirements for verification, reporting, or compliance with anti-money laundering (AML) and know-your-customer (KYC) regulations.

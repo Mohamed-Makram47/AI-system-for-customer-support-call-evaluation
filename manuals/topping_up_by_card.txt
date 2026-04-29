@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue type "topping_up_by_card":
+
+- **Verify Customer's Top-up Transaction**: The agent must verify if the customer's top-up transaction was successful or not by checking the transaction history and the account balance. If the transaction was successful, but the funds are not visible in the account, the agent must investigate further.
+
+- **Check for Reversal or Refund**: The agent must check if a reversal or refund was processed for the top-up transaction, which could explain why the funds are not visible in the account. If a reversal or refund was processed, the agent must explain the reason to the customer.
+
+- **Confirm Card and Account Eligibility**: The agent must confirm if the customer's card and account are eligible for top-up transactions. Some cards or accounts may have restrictions or limitations on top-up transactions, and the agent must inform the customer of these restrictions.
+
+- **Explain Top-up Processing Time**: The agent must explain to the customer that top-up transactions may take a few minutes to process, and the funds may not be immediately visible in the account. The agent must advise the customer to wait for a reasonable amount of time (e.g., 10-15 minutes) before contacting the call center again.
+
+- **Escalate to Supervisor if Necessary**: The agent must escalate the issue to a supervisor if the customer is still experiencing issues with their top-up transaction, and the agent is unable to resolve the issue. The supervisor will investigate the issue further and provide a resolution to the customer.

@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue type "top_up_by_cash_or_cheque":
+
+- When a customer inquires about topping up their account with cash, inform them that cash deposits are accepted at our bank's physical branches, and provide them with the nearest branch location and operating hours.
+
+- When a customer asks about topping up their account with a cheque, confirm that we accept cheques for top-ups and inform them that they need to endorse the cheque and mail it to our lockbox address, which can be provided upon request.
+
+- If a customer is having trouble finding the option to top up with cash or cheque on our website or mobile app, offer to walk them through the steps or provide a detailed guide on how to access the top-up feature.
+
+- When a customer inquires about the process of topping up with a cheque, clearly explain that they need to write their account number on the cheque, endorse it, and mail it to our lockbox address, and that the funds will be credited to their account within 3-5 business days.
+
+- If a customer specifically asks about alternative payment options for topping up their account, inform them that we also accept electronic funds transfer (EFT) and debit card transactions, and provide them with the relevant details and instructions on how to use these options.

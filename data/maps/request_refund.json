@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Customer Eligibility**: Before proceeding with a refund request, agents must verify that the customer is eligible for a refund according to the bank's policies and the specific product or service terms. This includes checking if the customer has already received the product or service, and if the refund request is within the allowed timeframe.",
+    "source": "request_refund"
+  },
+  {
+    "rule": "**Gather Required Information**: Agents must collect and document all necessary information related to the refund request, including the date of purchase, product or service details, and reason for the refund. This information will be used to facilitate the refund process and ensure accuracy.",
+    "source": "request_refund"
+  },
+  {
+    "rule": "**Explain Refund Process and Timeline**: Agents must clearly explain the refund process and timeline to the customer, including any potential fees or deductions that may apply. This includes informing the customer of any required documentation or next steps to complete the refund.",
+    "source": "request_refund"
+  },
+  {
+    "rule": "**Escalate Complex Issues**: If the refund request involves a complex issue, such as a disputed transaction or a product that has already been used, agents must escalate the issue to a senior representative or a specialized team for further review and resolution.",
+    "source": "request_refund"
+  },
+  {
+    "rule": "**Provide Refund Confirmation**: Once the refund has been processed, agents must provide the customer with a confirmation of the refund, including the refund amount, date, and method of payment. This ensures that the customer has a clear understanding of the refund status and can verify that the refund has been received.",
+    "source": "request_refund"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "The agent must verify the customer's identity and ensure they are the authorized cardholder before providing assistance with activating their card.",
+    "source": "activate_my_card"
+  },
+  {
+    "rule": "The agent must inform the customer that they can activate their card using one of the following methods:",
+    "source": "activate_my_card"
+  },
+  {
+    "rule": "If the customer is having trouble activating their card, the agent must troubleshoot the issue by asking specific questions, such as:",
+    "source": "activate_my_card"
+  },
+  {
+    "rule": "The agent must provide clear instructions on what information the customer needs to activate their card, which may include:",
+    "source": "activate_my_card"
+  },
+  {
+    "rule": "If the customer's card activation issue cannot be resolved through troubleshooting or guidance, the agent must escalate the issue to a senior agent or a specialized card support team, and provide the customer with a reference number or a callback option for further assistance.",
+    "source": "activate_my_card"
+  }
+]

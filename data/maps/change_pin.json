@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Rule 1: Verify Customer Eligibility**: Before assisting with a PIN change, agents must verify that the customer is eligible to change their PIN through our channels. This includes checking that the customer's account is active and that they have not exceeded the maximum number of PIN attempts.",
+    "source": "change_pin"
+  },
+  {
+    "rule": "**Rule 2: Inform Customers of Available Channels**: Agents must inform customers that they can change their PIN through our mobile banking app, online banking platform, or at an ATM. However, agents must also clarify that not all ATMs support PIN changes and provide guidance on which ones do.",
+    "source": "change_pin"
+  },
+  {
+    "rule": "**Rule 3: Provide Step-by-Step Instructions**: Agents must provide customers with step-by-step instructions on how to change their PIN through the specified channel. For example, if changing through the mobile banking app, agents must guide the customer through the app's navigation and confirmation process.",
+    "source": "change_pin"
+  },
+  {
+    "rule": "**Rule 4: Emphasize Security Best Practices**: Agents must remind customers to choose a new PIN that is unique and not easily guessable. Additionally, agents must advise customers to avoid using the same PIN across multiple accounts or cards.",
+    "source": "change_pin"
+  },
+  {
+    "rule": "**Rule 5: Document Customer Requests and Outcomes**: Agents must document all customer requests to change their PIN, including the channel used and any issues encountered during the process. This documentation must include the outcome of the request, whether successful or not, and any follow-up actions required.",
+    "source": "change_pin"
+  }
+]

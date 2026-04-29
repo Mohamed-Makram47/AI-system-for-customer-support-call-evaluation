@@ -1,0 +1,12 @@
+{
+  "call_id": "CALL-A",
+  "fine_label_predicted": "lost_or_stolen_card",
+  "classifier_match": true,
+  "verdict": "violation",
+  "violations_count": 1,
+  "strengths": [
+    "(parse error — raw response below)"
+  ],
+  "improvements": [],
+  "rephrasing": []
+}

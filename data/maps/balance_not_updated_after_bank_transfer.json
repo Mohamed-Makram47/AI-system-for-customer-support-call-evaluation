@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Transfer Details**: The agent must request and verify the customer's transfer details, including the date and time of the transfer, the amount transferred, and the account details of the sender and recipient, to ensure accuracy and understand the transaction.",
+    "source": "balance_not_updated_after_bank_transfer"
+  },
+  {
+    "rule": "**Check Transfer Processing Times**: The agent must inform the customer of the standard processing times for bank transfers, which may vary depending on the type of transfer (domestic or international), the sender's bank, and the transfer method (e.g., wire transfer, ACH). For example, international transfers may take 2-5 business days, while domestic transfers may take 1-2 business days.",
+    "source": "balance_not_updated_after_bank_transfer"
+  },
+  {
+    "rule": "**Investigate Potential Delays**: If the transfer was made within the standard processing time frame, the agent must investigate potential delays, such as weekends, holidays, or issues with the sender's bank. The agent should also check if the transfer was made via a third-party service, such as a money transfer company.",
+    "source": "balance_not_updated_after_bank_transfer"
+  },
+  {
+    "rule": "**Provide Resolution or Escalation**: If the transfer was made within the standard processing time frame and there are no potential delays, the agent must provide a resolution, such as confirming that the transfer is being processed and will be reflected in the customer's account soon. If the issue cannot be resolved, the agent must escalate the issue to a senior agent or a specialized team, such as a transfer investigation team.",
+    "source": "balance_not_updated_after_bank_transfer"
+  },
+  {
+    "rule": "**Document and Follow-up**: The agent must document the customer's concern, the investigation, and the resolution in the customer's account records. The agent should also offer to follow up with the customer within a specified timeframe (e.g., 24-48 hours) to confirm that the transfer has been processed and the balance has been updated.",
+    "source": "balance_not_updated_after_bank_transfer"
+  }
+]

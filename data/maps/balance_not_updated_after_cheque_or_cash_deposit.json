@@ -1,0 +1,58 @@
+[
+  {
+    "rule": "**Acknowledge and Empathize**: The agent must acknowledge the customer's concern and express empathy in their initial response, e.g., \"I understand your concern about the missing deposit, and I'm here to help you resolve the issue.\"",
+    "source": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "rule": "**Gather Transaction Details**: The agent must request and verify the following details from the customer:",
+    "source": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "rule": "Type of deposit (cheque or cash)",
+    "source": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "rule": "Date of deposit",
+    "source": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "rule": "Deposit amount",
+    "source": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "rule": "Branch or ATM where the deposit was made (if applicable)",
+    "source": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "rule": "**Check Processing Timelines**: The agent must inform the customer of the standard processing timelines for cheque and cash deposits:",
+    "source": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "rule": "Cheque deposits: 2-3 business days for funds to be available",
+    "source": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "rule": "Cash deposits: Immediate or next business day for funds to be available",
+    "source": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "rule": "**Investigate and Provide Status Update**: The agent must investigate the status of the deposit by checking the customer's account history and transaction records. The agent must provide a clear update on the status of the deposit, including:",
+    "source": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "rule": "If the deposit has been processed and the funds are available",
+    "source": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "rule": "If the deposit is still pending and an estimated timeframe for availability",
+    "source": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "rule": "If there are any issues or holds on the account",
+    "source": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "rule": "**Escalate and Resolve**: If the agent is unable to resolve the issue or provide a satisfactory explanation, they must escalate the issue to a senior agent or a specialized team (e.g., deposit resolution team) for further investigation and resolution. The agent must ensure that the customer receives a clear resolution or a follow-up contact with a specific timeline.",
+    "source": "balance_not_updated_after_cheque_or_cash_deposit"
+  }
+]

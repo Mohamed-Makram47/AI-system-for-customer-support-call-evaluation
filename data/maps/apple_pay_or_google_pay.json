@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Customer's Payment Method**: Before troubleshooting, verify that the customer's American Express card is properly set up in Apple Pay or Google Pay and that it is eligible for top-up transactions.",
+    "source": "apple_pay_or_google_pay"
+  },
+  {
+    "rule": "**Check Top-up Eligibility**: Inform the customer that top-up services may not be supported on all devices or payment methods, and confirm that their device (e.g. Apple Watch) and payment method (e.g. American Express) are eligible for top-up transactions.",
+    "source": "apple_pay_or_google_pay"
+  },
+  {
+    "rule": "**Troubleshoot Google Pay Issues**: If the customer is experiencing issues with Google Pay, ask them to check that their Google Pay account is properly linked to their bank account and that the top-up service is supported by their bank.",
+    "source": "apple_pay_or_google_pay"
+  },
+  {
+    "rule": "**American Express Card Limitations**: If the customer is using an American Express card with Apple Pay, inform them that some American Express cards may have limitations or restrictions on top-up transactions, and offer to verify the specific card details to confirm eligibility.",
+    "source": "apple_pay_or_google_pay"
+  },
+  {
+    "rule": "**Escalate to Technical Support if Necessary**: If the customer's issue persists after troubleshooting, offer to escalate the issue to technical support for further assistance, and provide the customer with a clear explanation of the next steps and expected resolution timeframe.",
+    "source": "apple_pay_or_google_pay"
+  }
+]

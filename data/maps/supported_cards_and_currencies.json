@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "When a customer inquires about supported cards for topping up their account, the agent must inform them that we support major credit and debit cards, including Visa, Mastercard, American Express, and Maestro.",
+    "source": "supported_cards_and_currencies"
+  },
+  {
+    "rule": "The agent must specify that we accept credit and debit cards from most countries, including the US, UK, and other major economies, but may not accept cards from certain countries due to regulatory or technical restrictions.",
+    "source": "supported_cards_and_currencies"
+  },
+  {
+    "rule": "When asked about supported currencies, the agent must explain that we accept a wide range of currencies, including USD, EUR, GBP, and many others, but the exact list of currencies may vary depending on the customer's location and local regulations.",
+    "source": "supported_cards_and_currencies"
+  },
+  {
+    "rule": "If a customer specifically asks about using a particular type of card (e.g. American Express) or a card from a specific country, the agent must verify the information and provide a clear answer, either confirming that the card is supported or explaining why it is not.",
+    "source": "supported_cards_and_currencies"
+  },
+  {
+    "rule": "The agent must also inform the customer that they can check our website or mobile app for the most up-to-date and accurate information on supported cards and currencies, and provide the URL or app store link if requested.",
+    "source": "supported_cards_and_currencies"
+  }
+]

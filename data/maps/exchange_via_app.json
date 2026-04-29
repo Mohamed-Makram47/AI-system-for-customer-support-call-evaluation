@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "The agent must confirm whether the customer's account is enabled for international transactions and currency exchange before providing instructions on how to exchange currencies via the app.",
+    "source": "exchange_via_app"
+  },
+  {
+    "rule": "The agent must inform the customer that to exchange currencies via the app, they need to log in to their account, navigate to the \"Payments\" or \"Transfers\" section, select the \"Exchange\" or \"Currency Exchange\" option, and follow the on-screen prompts to choose the currencies and amount to exchange.",
+    "source": "exchange_via_app"
+  },
+  {
+    "rule": "The agent must advise the customer to check the app for the list of available currencies and exchange rates, and that the rates may be subject to change.",
+    "source": "exchange_via_app"
+  },
+  {
+    "rule": "The agent must remind the customer that they may be required to verify their identity and comply with anti-money laundering (AML) regulations for certain transactions, and provide guidance on what to expect during the verification process.",
+    "source": "exchange_via_app"
+  },
+  {
+    "rule": "The agent must provide the customer with a clear estimate of the processing time for the exchange transaction, and inform them that they will receive a confirmation notification via the app or email once the transaction is complete.",
+    "source": "exchange_via_app"
+  }
+]

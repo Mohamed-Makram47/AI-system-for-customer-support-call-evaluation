@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Customer's Card Details**: The agent must verify the customer's card details, including the card number, expiration date, and PIN, to ensure that the contactless feature is enabled and the card is not expired or blocked.",
+    "source": "contactless_not_working"
+  },
+  {
+    "rule": "**Troubleshooting Steps**: The agent must walk the customer through basic troubleshooting steps, such as checking if the card is inserted correctly, if the terminal is contactless-enabled, and if the customer has exceeded the daily spending limit or has sufficient funds.",
+    "source": "contactless_not_working"
+  },
+  {
+    "rule": "**Check for Card Block or Suspension**: The agent must check if the customer's card has been blocked or suspended due to suspicious activity, and if so, guide the customer on the next steps to reactivate the card.",
+    "source": "contactless_not_working"
+  },
+  {
+    "rule": "**Contactless Payment Settings**: The agent must verify that the customer's contactless payment settings are correct, including checking if the card has been registered for contactless payments and if the customer has opted out of contactless payments.",
+    "source": "contactless_not_working"
+  },
+  {
+    "rule": "**Escalation to Specialist if Necessary**: The agent must escalate the issue to a specialist or a technical support team if the customer's contactless issue persists after troubleshooting and verification, or if the issue is related to a technical problem with the terminal or payment network.",
+    "source": "contactless_not_working"
+  }
+]

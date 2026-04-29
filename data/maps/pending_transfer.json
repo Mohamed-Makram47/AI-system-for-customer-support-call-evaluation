@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Acknowledge and Empathize**: Agents must acknowledge the customer's concern and express empathy in their response, e.g., \"I understand your frustration with the transfer still being pending\" or \"I apologize for the delay in your transfer.\"",
+    "source": "pending_transfer"
+  },
+  {
+    "rule": "**Gather Transfer Details**: Agents must request and verify the transfer details, including the transfer date, amount, recipient's account details, and transfer type (e.g., domestic or international), to investigate the issue.",
+    "source": "pending_transfer"
+  },
+  {
+    "rule": "**Provide Processing Timeframes**: Agents must provide the customer with the standard processing timeframes for their specific transfer type, e.g., \"For domestic transfers, it typically takes 1-2 business days to process\" or \"International transfers can take 3-5 business days to process.\"",
+    "source": "pending_transfer"
+  },
+  {
+    "rule": "**Investigate and Check Status**: Agents must investigate the transfer status by checking the transaction history, verifying if the transfer has been processed, and checking for any potential issues that may have caused the delay.",
+    "source": "pending_transfer"
+  },
+  {
+    "rule": "**Escalate if Necessary**: Agents must escalate the issue to a senior agent or a specialized team if the transfer is significantly delayed (e.g., more than 5 business days for domestic transfers) or if the customer provides evidence of an error on the bank's part, to ensure prompt resolution and customer satisfaction.",
+    "source": "pending_transfer"
+  }
+]

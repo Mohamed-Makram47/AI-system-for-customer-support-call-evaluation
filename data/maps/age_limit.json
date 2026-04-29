@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Minimum Age Requirement**: The minimum age to open a bank account is 18 years old, except for minors who can open a joint account with a parent or guardian. Agents must verify the customer's age and relationship to the account holder if they are under 18.",
+    "source": "age_limit"
+  },
+  {
+    "rule": "**Account Types for Minors**: For customers under 18, agents can offer youth savings accounts or joint accounts with a parent or guardian. Agents must explain the features and benefits of these accounts and ensure that the parent or guardian understands their role and responsibilities.",
+    "source": "age_limit"
+  },
+  {
+    "rule": "**Identification Requirements**: To open an account for a minor, agents must obtain identification and proof of address for both the minor and the parent or guardian. Agents must also verify the identity of the parent or guardian and ensure they have the authority to act on behalf of the minor.",
+    "source": "age_limit"
+  },
+  {
+    "rule": "**Parental Consent**: Agents must obtain parental consent to open an account for a minor. This can be done by having the parent or guardian sign the account opening form or by verifying their consent through a phone call or in-person meeting.",
+    "source": "age_limit"
+  },
+  {
+    "rule": "**Product Disclosure**: Agents must provide clear and concise information about the account features, fees, and terms to customers inquiring about opening an account for themselves or a minor. Agents must also ensure that customers understand any limitations or restrictions on the account, such as minimum balance requirements or limited transactions.",
+    "source": "age_limit"
+  }
+]

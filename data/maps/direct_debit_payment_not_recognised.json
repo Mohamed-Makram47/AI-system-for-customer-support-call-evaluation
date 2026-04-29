@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Customer Identity**: Before assisting the customer, agents must verify their identity using their name, account number, and other security questions to ensure they are speaking with the account holder.",
+    "source": "direct_debit_payment_not_recognised"
+  },
+  {
+    "rule": "**Gather Transaction Details**: Agents must request and document the customer's concerns, including the date and amount of the disputed direct debit transaction, and any relevant information about the transaction, such as the merchant's name or reference number.",
+    "source": "direct_debit_payment_not_recognised"
+  },
+  {
+    "rule": "**Check for Authorized Direct Debits**: Agents must check the customer's account to see if there are any authorized direct debits set up, and if the disputed transaction matches any of them. If it does, agents must explain the details to the customer and provide guidance on how to manage their direct debits.",
+    "source": "direct_debit_payment_not_recognised"
+  },
+  {
+    "rule": "**Initiate Dispute Process**: If the customer does not recognize the direct debit transaction and it does not match any authorized direct debits, agents must initiate the dispute process by requesting the customer to provide a written authorization to dispute the transaction, and then submitting the dispute to the relevant payment processor or bank.",
+    "source": "direct_debit_payment_not_recognised"
+  },
+  {
+    "rule": "**Provide Next Steps and Escalation**: Agents must clearly explain the next steps to the customer, including any additional information or documentation required, and provide escalation paths if the issue cannot be resolved immediately, such as referring the customer to a specialized team or providing a timeline for resolution.",
+    "source": "direct_debit_payment_not_recognised"
+  }
+]

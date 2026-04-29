@@ -1,0 +1,22 @@
+[
+  {
+    "rule": "**Verify Customer Identity**: Before assisting the customer with resetting their passcode, the agent must verify the customer's identity through a series of security questions or by checking the customer's account information to ensure they are speaking with the account holder.",
+    "source": "passcode_forgotten"
+  },
+  {
+    "rule": "**Provide Passcode Reset Options**: The agent must inform the customer of the available options for resetting their passcode, which may include receiving a one-time password (OTP) via phone or email, answering security questions, or visiting a branch location.",
+    "source": "passcode_forgotten"
+  },
+  {
+    "rule": "**Guide Customer Through Passcode Reset Process**: The agent must walk the customer through the passcode reset process, which may involve sending an OTP to the customer's registered phone or email, and have the customer provide the OTP or answer security questions to authenticate their identity.",
+    "source": "passcode_forgotten"
+  },
+  {
+    "rule": "**Ensure Passcode Security**: The agent must remind the customer to choose a new passcode that meets the bank's security requirements, such as a minimum length and complexity, and advise the customer not to share their passcode with anyone.",
+    "source": "passcode_forgotten"
+  },
+  {
+    "rule": "**Document and Escalate if Necessary**: The agent must document the customer's issue and the resolution in the bank's system, and escalate the issue to a supervisor or specialist if the customer is unable to reset their passcode or if there are any concerns about the customer's account security.",
+    "source": "passcode_forgotten"
+  }
+]

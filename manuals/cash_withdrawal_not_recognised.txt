@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue type "cash_withdrawal_not_recognised":
+
+- **Verify Customer Identity**: Before taking any action, agents must verify the customer's identity through their standard authentication process, which may include asking for their name, date of birth, account information, and/or security questions.
+
+- **Acknowledge and Apologize**: Agents must acknowledge the customer's concern and apologize for the inconvenience caused by the unauthorized withdrawal, showing empathy and a customer-centric tone.
+
+- **Gather Transaction Details**: Agents must request and gather detailed information about the disputed transaction, including the date, time, and location of the withdrawal, as well as the amount withdrawn, to facilitate further investigation.
+
+- **Immediately Block Account/Card (if necessary)**: If the customer confirms that the withdrawal was not made by them, the agent must immediately block the account or card to prevent further unauthorized transactions, and offer to replace the card or provide a new one.
+
+- **Escalate to Investigation Team**: Agents must escalate the issue to the investigation team or a specialized unit (e.g. fraud team) to conduct a thorough investigation into the unauthorized withdrawal, and provide the customer with a reference number or a point of contact for follow-up.

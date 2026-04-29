@@ -1,0 +1,23 @@
+{
+  "call_id": "CALL-003",
+  "fine_label_predicted": "card_not_working",
+  "classifier_match": false,
+  "violations_count": 1,
+  "good_turns_count": 2,
+  "strengths": [
+    "The agent empathized with the customer by saying 'I'm sorry to hear that. Let me look into your account right away.'",
+    "The agent provided a clear resolution to the issue by clearing the flag and reactivating the card.",
+    "The agent offered additional guidance by recommending the customer enable transaction notifications in the app."
+  ],
+  "improvements": [
+    "The agent should check the card's status and limits using internal systems before making assumptions about the card being blocked.",
+    "The agent should avoid making statements that may come across as accusatory or assumptive.",
+    "The agent should focus on providing clear and concise explanations for the issue and the resolution."
+  ],
+  "rephrasing": [
+    {
+      "original": "It looks like the transaction was flagged by our fraud system. To be honest, your spending pattern looked suspicious so the system just blocks cards like yours automatically.",
+      "better": "I've checked on your account and it appears that the transaction was flagged by our fraud system. I'm going to investigate further and clear the flag to reactivate your card."
+    }
+  ]
+}

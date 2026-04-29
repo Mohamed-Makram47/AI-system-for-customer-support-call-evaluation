@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue type "card_arrival":
+
+- **Acknowledge and Empathize**: The agent must acknowledge the customer's concern and express empathy for the inconvenience caused by the delay in receiving their card. This can be done by stating, "I understand that it's frustrating to wait for your card, and I'm here to help."
+
+- **Check Card Status**: The agent must check the status of the card shipment using the customer's account information and our internal systems to determine if the card has been mailed and when it was sent.
+
+- **Provide Estimated Delivery Timeframe**: Based on the card status, the agent must provide the customer with an estimated delivery timeframe, which is typically 7-10 business days from the date of mailing. If the card was mailed via expedited shipping, the agent must inform the customer of the expected delivery timeframe for that service.
+
+- **Offer Assistance with Tracking or Replacement**: If the customer is still within the estimated delivery timeframe, the agent must offer to assist with tracking the package or provide information on how to track the package. If the customer is outside the estimated delivery timeframe, the agent must offer to replace the card and provide a new one.
+
+- **Document and Escalate if Necessary**: The agent must document the customer's concern and the resolution provided in our internal systems. If the customer is not satisfied with the resolution or if there are concerns about the card being lost in delivery, the agent must escalate the issue to a supervisor or a specialized team for further investigation and resolution.

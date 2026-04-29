@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue type "country_support":
+
+- **Rule 1: Check Eligibility**: Before providing any information, agents must verify the customer's country of residence and check if our bank's products or services, specifically cards, are available in that country.
+
+- **Rule 2: Provide Country-Specific Information**: Agents must provide accurate and up-to-date information on the countries where our bank's cards are available, which currently includes the United Kingdom and may not be available in all countries, including those in the European Union or the United States.
+
+- **Rule 3: Clarify Non-Supported Countries**: If a customer inquires about getting a card while residing in a country where our bank's cards are not available, agents must clearly communicate that our cards are not offered to residents of that country.
+
+- **Rule 4: Refer to Official Resources**: Agents should direct customers to our bank's official website or other publicly available resources for information on countries where our products or services are available, to ensure transparency and consistency.
+
+- **Rule 5: Document and Escalate if Needed**: Agents must document the customer's query and response in our system and escalate to a supervisor or specialized team if the customer requests additional information or if there are exceptional circumstances that require further review.

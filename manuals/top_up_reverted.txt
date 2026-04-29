@@ -1,0 +1,11 @@
+Here are 5 clear rules for agents handling the issue type "top_up_reverted":
+
+- **Acknowledge and Empathize**: The agent must acknowledge the customer's concern and express empathy in their response, e.g., "I understand that you're concerned about your top-up being reverted. I'm here to help you resolve this issue."
+
+- **Gather Transaction Details**: The agent must request and verify the customer's transaction details, including the date and amount of the top-up, the payment method used, and the account details. This information is necessary to investigate the issue.
+
+- **Check for Reversal Reason**: The agent must check the reason for the top-up reversal, e.g., due to an invalid payment method, insufficient funds, or technical issues. This information will help the agent to provide a clear explanation to the customer.
+
+- **Provide Clear Explanation and Resolution**: Based on the investigation, the agent must provide a clear explanation to the customer on why their top-up was reverted and offer a resolution, e.g., re-processing the top-up, refunding the amount, or providing instructions on how to complete the top-up successfully.
+
+- **Escalate if Necessary**: If the agent is unable to resolve the issue or if the customer is not satisfied with the explanation, the agent must escalate the issue to a senior agent or a specialized team, e.g., the fraud team or technical support, to ensure that the issue is thoroughly investigated and resolved.
