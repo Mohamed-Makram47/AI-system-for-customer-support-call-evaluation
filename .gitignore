@@ -1,6 +1,7 @@
 # Model weights — too large for GitHub (440MB)
 issue_type_classification_model/model/model.safetensors
 issue_type_classification_model2/model/dual_head_model.pt
+issue_type_classification_model3/model/best_roberta.pt
 
 # Private files — contain tokens
 issue_type_classification_model/inference/upload_to_hf.py
