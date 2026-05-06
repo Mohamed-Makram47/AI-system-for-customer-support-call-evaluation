@@ -36,9 +36,9 @@ When a call ends, the system automatically:
 ```
 Call Recording
       ↓
-Phase 1 — Speech-to-Text + Speaker Diarization (Whisper + pyannote.audio)  🔄 In Progress
+Phase 1 — Speech-to-Text + Speaker Diarization (Whisper + pyannote.audio)  ✅ Done
       ↓
-Phase 2 — Rule-Based Behavioral Metrics (Talking ratio, interruptions, silences)  ⬜ Planned
+Phase 2 — Rule-Based Behavioral Metrics (Talking ratio, interruptions, silences)  🔄 In Progress
       ↓
 Phase 3 — Deep Learning Evaluation
       ├── 3A: Customer Sentiment (RoBERTa — 3 class)                        🔄 In Progress
