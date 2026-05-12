@@ -7,6 +7,7 @@ from pathlib import Path
 from src.classifier import ClassifierPipeline
 from src.runtime_rag import RAGEvaluator
 from src.transcripts import TRANSCRIPTS
+from src.scoring import score_all_calls
 
 DIVIDER      = "=" * 70
 RESULTS_PATH = Path("data/results.json")
@@ -95,6 +96,9 @@ def main():
         encoding="utf-8",
     )
     print(f"\n  Results saved to: {RESULTS_PATH.resolve()}")
+
+    print("\n[Scoring] Computing call quality scores...")
+    score_all_calls("data/results.json", TRANSCRIPTS)
 
 
 if __name__ == "__main__":
