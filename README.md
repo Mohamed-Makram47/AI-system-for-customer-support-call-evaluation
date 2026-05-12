@@ -76,17 +76,20 @@ Phase 6 — Web Dashboard (React / Streamlit)                                  �
 - Model on HuggingFace: [Mohamed-Makram47/banking-issue-classifier](https://huggingface.co/Mohamed-Makram47/banking-issue-classifier)
 
 **Phase 4 — RAG Policy Validation**
-- 78 FAISS indexes pre-built, one per issue type
-- Manuals grounded in real Banking77 customer utterances (10 examples per class)
-- Embedding model: `all-MiniLM-L6-v2` (sentence-transformers)
-- Call-level evaluation: single LLM call per conversation with deduplicated policy retrieval
+- 78 class-scoped FAISS indexes — one per fine issue class
+- Policy manuals grounded in real Banking77 customer queries (10 examples per class)
+- Embedding model: `all-MiniLM-L6-v2` (sentence-transformers, runs locally)
+- Call-level evaluation: full conversation sent to LLM in one prompt
+- Handles self-corrections — agent fixing a mistake is not penalised
+- Output: violation verdict + violated policy + evidence + reason + confidence
 
 **Phase 5 — Scoring + Coaching Generation**
-- Aggregates RAG verdicts into a per-call compliance score
-- LLM generates structured coaching reports per call:
-  - Policy violations with explanation
-  - Agent strengths
-  - Suggested alternative phrasing for failed interactions
+- Weighted quality score (0–100): policy compliance 50% · issue resolution 30% · communication 20%
+- LLM judges whether the agent successfully resolved the customer's issue
+- Dismissive language detection for communication scoring
+- Grade: A (90–100) · B (75–89) · C (60–74) · D (below 60)
+- Coaching report per call: strengths · improvements · suggested rephrasing
+- Output saved to `data/coaching/{call_id}.json`
 
 ---
 
