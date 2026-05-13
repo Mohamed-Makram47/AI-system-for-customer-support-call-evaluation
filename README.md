@@ -54,6 +54,31 @@ Phase 6 — Web Dashboard (React / Streamlit)                                  �
 
 ---
 
+## Project Structure
+
+| Folder | Phase | Description | Status |
+|--------|-------|-------------|--------|
+| `phase1_audio_to_text/` | Phase 1 | Speech-to-text + speaker diarization (Whisper + pyannote) | ✅ Done |
+| `issue_type_classification_model/` | Phase 3 | Issue classification — DualHead RoBERTa (78 classes) | ✅ Done |
+| `phase4_5_rag_coaching/` | Phase 4 & 5 | RAG compliance evaluation + scoring + coaching | ✅ Done |
+
+---
+
+## End-to-End Pipeline Test
+
+A real 4-minute 40-second banking call was recorded, transcribed through Phase 1,
+classified through Phase 3, and evaluated through Phase 4 & 5.
+
+- Real audio recorded by the team
+- Two banking issues in one call: `lost_or_stolen_card` + `card_payment_fee_charged`
+- Automatic topic shift detection using embedding similarity
+- Self-correction correctly handled by call-level LLM evaluation
+- Final scores: Segment 1–3 (B/C), Segment 4 (D — violation), Segment 5 (A — recovery)
+
+Test files: `test_data/real_call_analysis.json` · `test_data/real_call_transcript.txt`
+
+---
+
 ## Current Progress
 
 | Phase | Description | Status |
