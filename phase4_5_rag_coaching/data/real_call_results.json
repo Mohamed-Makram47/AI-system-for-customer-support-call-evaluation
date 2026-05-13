@@ -1,44 +1,182 @@
 [
   {
-    "call_id": "REAL-Part-1",
+    "call_id": "REAL-Segment-1",
     "fine_label_expected": "lost_or_stolen_card",
     "fine_label_predicted": "lost_or_stolen_card",
     "classifier_match": true,
     "verdict": "ok",
     "violations": [],
-    "overall_summary": "The agent followed the relevant policies and procedures for handling a lost or stolen card report, verifying the customer's identity, blocking the card, and providing clear instructions on the next steps.",
+    "overall_summary": "The agent started the conversation professionally and began verifying the customer's identity, which is a required step, but did not complete the verification or provide assistance yet.",
     "confidence": "High",
     "score": {
-      "call_id": "REAL-Part-1",
+      "call_id": "REAL-Segment-1",
       "policy_compliance": 100.0,
       "issue_resolution": {
-        "resolved": true,
-        "reason": "The agent successfully resolved the customer's issue by blocking the lost/stolen card, verifying recent transactions, raising a fraud investigation reference, and providing a clear next step for a replacement card.",
-        "score": 100
+        "resolved": false,
+        "reason": "The agent only verified the customer's identity and did not take any action or provide a solution to the lost or stolen card issue.",
+        "score": 40
       },
       "communication": {
         "score": 100,
         "note": "No communication violations detected."
       },
-      "final_score": 100.0,
-      "grade": "A"
+      "final_score": 82.0,
+      "grade": "B"
     }
   },
   {
-    "call_id": "REAL-Part-2",
-    "fine_label_expected": "card_payment_fee_charged",
-    "fine_label_predicted": "extra_charge_on_statement",
-    "classifier_match": false,
-    "verdict": "ok",
-    "violations": [],
-    "overall_summary": "The agent provided a clear explanation of the fee, acknowledged the customer's frustration, and took steps to rectify the situation by raising a goodwill refund request, demonstrating an empathetic and compliant approach.",
+    "call_id": "REAL-Segment-2",
+    "fine_label_expected": "unable_to_verify_identity",
+    "fine_label_predicted": "unable_to_verify_identity",
+    "classifier_match": true,
+    "verdict": "violation",
+    "violations": [
+      {
+        "turn": 2,
+        "violated_policy": "Rule 2: Gather Information",
+        "evidence": "The agent claims to have verified the customer's identity without gathering any information.",
+        "reason": "The agent does not ask for the customer's name, account number, or a description of the issue with the identity verification process."
+      },
+      {
+        "turn": 2,
+        "violated_policy": "Rule 1: Empathize and Acknowledge",
+        "evidence": "The agent does not acknowledge the customer's frustration or empathize with their situation.",
+        "reason": "The agent does not use a phrase to acknowledge the customer's frustration or empathize with their situation, such as 'I understand how frustrating it can be when our system doesn't recognize your identity.'"
+      }
+    ],
+    "overall_summary": "The agent failed to gather necessary information and empathize with the customer before verifying their identity.",
     "confidence": "High",
     "score": {
-      "call_id": "REAL-Part-2",
+      "call_id": "REAL-Segment-2",
+      "policy_compliance": 77.8,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "(extracted via regex)",
+        "score": 40
+      },
+      "communication": {
+        "score": 70,
+        "note": "Violations present but no dismissive language found."
+      },
+      "final_score": 64.9,
+      "grade": "C"
+    }
+  },
+  {
+    "call_id": "REAL-Segment-3",
+    "fine_label_expected": "card_payment_not_recognised",
+    "fine_label_predicted": "card_payment_not_recognised",
+    "classifier_match": true,
+    "verdict": "violation",
+    "violations": [
+      {
+        "turn": 2,
+        "violated_policy": "Rule 2: Gather Information",
+        "evidence": "The agent stated 'I don't see any unauthorized transactions after that point' without confirming the customer's concern or gathering information about the unfamiliar payment.",
+        "reason": "The agent failed to gather information about the unfamiliar payment."
+      },
+      {
+        "turn": 3,
+        "violated_policy": "Rule 5: Document and Escalate (if necessary)",
+        "evidence": "The agent mentioned raising a fraud investigation reference but did not explicitly confirm the customer's concern or verify the unauthorized transaction.",
+        "reason": "The agent may not have properly documented or escalated the issue."
+      },
+      {
+        "turn": 4,
+        "violated_policy": "Rule 4: Provide Resolution Options",
+        "evidence": "The agent provided a reference number (FRD-SLASH-2026-8812) but did not clearly explain the next steps or resolution options to the customer.",
+        "reason": "The agent did not provide clear resolution options."
+      }
+    ],
+    "overall_summary": "The agent did not fully adhere to the required policies, specifically in gathering information, documenting and escalating the issue, and providing clear resolution options.",
+    "confidence": "High",
+    "score": {
+      "call_id": "REAL-Segment-3",
+      "policy_compliance": 50.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent took action, provided a solution, and gave clear next steps, including raising a fraud investigation, issuing a replacement card, and providing a reference number.",
+        "score": 100
+      },
+      "communication": {
+        "score": 70,
+        "note": "Violations present but no dismissive language found."
+      },
+      "final_score": 69.0,
+      "grade": "C"
+    }
+  },
+  {
+    "call_id": "REAL-Segment-4",
+    "fine_label_expected": "card_payment_fee_charged",
+    "fine_label_predicted": "card_payment_fee_charged",
+    "classifier_match": true,
+    "verdict": "violation",
+    "violations": [
+      {
+        "turn": 1,
+        "violated_policy": "Acknowledge and Apologize",
+        "evidence": "The agent does not acknowledge or apologize for the customer's concern.",
+        "reason": "The agent immediately starts explaining the fee policy without showing empathy or apologizing for the inconvenience."
+      },
+      {
+        "turn": 2,
+        "violated_policy": "Explain Fee Policy",
+        "evidence": "The agent mentions that the fees are 'clearly listed in the terms and conditions' but does not provide specific details about the fee policy or where the customer can find this information.",
+        "reason": "The explanation is brief and does not offer additional context or guidance."
+      },
+      {
+        "turn": 3,
+        "violated_policy": "Check for Fee Waivers or Exemptions",
+        "evidence": "The agent does not check if the customer is eligible for any fee waivers or exemptions.",
+        "reason": "The agent does not explore any possible exceptions or waivers."
+      },
+      {
+        "turn": 4,
+        "violated_policy": "Provide Refund or Credit, if Applicable",
+        "evidence": "The agent states 'There's really nothing we can do about it' without exploring if the fee was charged in error.",
+        "reason": "The agent does not consider providing a refund or credit."
+      },
+      {
+        "turn": 5,
+        "violated_policy": "Verify Transaction Details",
+        "evidence": "The agent does not verify the transaction details with the customer.",
+        "reason": "The conversation lacks verification of transaction details."
+      }
+    ],
+    "overall_summary": "The agent failed to follow several policies, including acknowledging and apologizing, fully explaining the fee policy, checking for fee waivers or exemptions, verifying transaction details, and providing a refund or credit if applicable.",
+    "confidence": "High",
+    "score": {
+      "call_id": "REAL-Segment-4",
+      "policy_compliance": 0.0,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "(extracted via regex)",
+        "score": 40
+      },
+      "communication": {
+        "score": 40,
+        "note": "Dismissive language detected: 'nothing we can do'."
+      },
+      "final_score": 20.0,
+      "grade": "D"
+    }
+  },
+  {
+    "call_id": "REAL-Segment-5",
+    "fine_label_expected": "extra_charge_on_statement",
+    "fine_label_predicted": "extra_charge_on_statement",
+    "classifier_match": true,
+    "verdict": "ok",
+    "violations": [],
+    "overall_summary": "The agent handled the customer's concern about an extra charge on their statement in a professional and compliant manner, acknowledging and apologizing for the issue, investigating and explaining the charge, and escalating a goodwill refund request on the customer's behalf.",
+    "confidence": "High",
+    "score": {
+      "call_id": "REAL-Segment-5",
       "policy_compliance": 100.0,
       "issue_resolution": {
         "resolved": true,
-        "reason": "The agent successfully resolved the customer's issue by taking action to raise a goodwill refund request, providing clear next steps, and ensuring the customer knew what to expect.",
+        "reason": "The agent successfully resolved the customer's issue by taking action to raise a goodwill refund request for the extra charge, providing clear next steps, and ensuring the customer would receive an email confirmation within 24 hours.",
         "score": 100
       },
       "communication": {

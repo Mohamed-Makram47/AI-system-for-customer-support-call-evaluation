@@ -1,0 +1,87 @@
+Call Duration: 280.06s | Language: en
+============================================================
+
+[7.90s → 11.30s] Agent: Thank you for calling the National Bank customer support.
+[11.62s → 12.26s] Agent: My name is Omar.
+[12.58s → 13.44s] Agent: How can I help you today?
+[14.42s → 16.02s] Customer: Hi Omar, my name is Sarah.
+[16.44s → 17.04s] Customer: I'm really weird.
+[17.26s → 18.68s] Customer: I think my card was stolen.
+[19.20s → 22.60s] Customer: I was at the mall this afternoon and they can't find it anywhere.
+[23.02s → 24.66s] Customer: I checked my bag three times.
+[25.46s → 27.00s] Agent: I'm sorry to hear that Sarah.
+[27.58s → 28.74s] Agent: That must be very stressful.
+[28.74s → 29.76s] Agent: Don't worry.
+[30.20s → 32.24s] Agent: I'm going to help you right away.
+[32.78s → 34.62s] Agent: First, let me verify your identity.
+[35.28s → 40.54s] Agent: Can you please confirm your date of birth and last four digits of your account number?
+[41.34s → 41.92s] Customer: Sure.
+[42.56s → 51.60s] Customer: My date of birth is the 15th of March 1995 and the last four digits are 7742.
+[55.20s → 56.24s] Agent: Thank you Sarah.
+[56.24s → 58.90s] Agent: I've verified your identity successfully.
+[59.74s → 64.50s] Agent: I'm going to block your card immediately to prevent any unauthorized transactions.
+[66.38s → 67.02s] Agent: Done.
+[67.84s → 70.48s] Agent: Your card has been blocked as of right now.
+[70.80s → 71.74s] Agent: No one can use it.
+[73.20s → 74.64s] Customer: Oh, thank goodness.
+[75.10s → 78.16s] Customer: Are there any suspicious transactions I should know about?
+[79.28s → 81.66s] Agent: Let me check your recent transactions.
+[83.44s → 89.96s] Agent: I can see your last transaction was at a coffee shop at 2.15pm today for 45 pounds.
+[90.46s → 91.62s] Agent: Does that sound like you?
+[92.56s → 93.86s] Customer: Yes, that was me.
+[94.34s → 96.46s] Customer: That was just before I realized it was nothing.
+[97.56s → 98.16s] Agent: Good.
+[98.66s → 104.52s] Agent: I don't see any unauthorized transactions after that point.
+[104.94s → 108.44s] Agent: I'm also going to raise a fraud investigation reference for you.
+[109.04s → 118.06s] Agent: Your reference number is FRD-SLASH-2026-8812.
+[120.76s → 126.02s] Agent: You'll receive a replacement card within three to five working days and will send it to your
+[126.02s → 127.08s] Agent: registered address.
+[128.44s → 129.20s] Customer: Perfect.
+[129.52s → 130.02s] Customer: Thank you.
+[130.58s → 135.06s] Customer: Actually while I have you, I noticed something on my statement last week.
+[135.06s → 139.14s] Customer: I was charged a fee of 75 pounds on a card payment.
+[139.54s → 142.98s] Customer: I met online and I have no idea what it's for.
+[143.12s → 144.68s] Customer: Nobody told me about this fee.
+[145.94s → 146.94s] Agent: I understand.
+[147.62s → 153.24s] Agent: These kind of fees are completely standard and they are clearly listed in the terms and
+[153.24s → 156.26s] Agent: conditions that you agreed to when you opened your account.
+[156.72s → 158.50s] Agent: There's really nothing we can do about it.
+[158.82s → 160.98s] Agent: It's a contractual charge.
+[161.90s → 165.58s] Customer: But I was never informed about this specific fee.
+[166.16s → 168.14s] Customer: 75 pounds is a lot of money.
+[168.32s → 169.92s] Customer: I feel like I should have been told.
+[171.08s → 173.72s] Agent: I completely understand your frustration, Sarah.
+[174.20s → 177.82s] Agent: And I sincerely apologize that it wasn't communicated clearly to you.
+[178.32s → 180.84s] Agent: That's not the experience we want you to have.
+[181.18s → 185.26s] Agent: Let me pull up the transaction right now and take a proper look at it.
+[187.64s → 189.12s] Agent: I can see the charge.
+[189.48s → 194.76s] Agent: It appears to be a foreign currency conversion fee applied to your online purchase.
+[195.50s → 203.68s] Agent: I completely agree that this shouldn't have been disclosed more clearly at the time of
+[203.68s → 204.28s] Agent: the transaction.
+[205.98s → 207.68s] Customer: So what can you do about it?
+[208.34s → 212.06s] Agent: I'm going to raise a goodwill refund request on your behalf.
+[212.06s → 219.98s] Agent: I can't guarantee it will be approved, but given that the fee wasn't clearly communicated,
+[220.48s → 223.64s] Agent: I will escalate it with a note explaining the situation.
+[224.24s → 228.06s] Agent: You'll receive an email confirmation within 24 hours with the outcome.
+[229.06s → 229.86s] Customer: That's fair.
+[230.00s → 230.44s] Customer: Thank you.
+[230.54s → 232.24s] Customer: I appreciate you looking into it.
+[232.96s → 233.68s] Agent: Of course.
+[234.22s → 238.86s] Agent: So just to summarize what we've done today, I've blocked your stolen card immediately,
+[238.86s → 245.42s] Agent: raised fraud reference, FRD-2026-8812.
+[245.90s → 250.44s] Agent: And your replacement card will arrive in three to five working days.
+[251.10s → 259.58s] Agent: I've also raised a goodwill refund request for the 75 pounds fee.
+[260.26s → 263.22s] Agent: And you'll hear back by email within 24 hours.
+[263.66s → 265.66s] Agent: Is there anything else I can help you with today?
+[266.34s → 268.12s] Customer: No, that covers everything.
+[268.12s → 269.26s] Customer: Thank you so much, Omar.
+[269.62s → 270.62s] Customer: You were really helpful.
+[271.36s → 273.44s] Agent: Thank you for calling National Bank, Sarah.
+[273.84s → 275.14s] Agent: I hope your day gets better.
+[275.44s → 276.54s] Agent: Take care and goodbye.
+[277.42s → 277.74s] Customer: Goodbye.
+
+--- Long Silences ---
+  51.6s → 55.2s (3.6s gap)
+  118.06s → 120.76s (2.7s gap)
+  185.26s → 187.64s (2.38s gap)

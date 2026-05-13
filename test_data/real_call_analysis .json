@@ -1,0 +1,505 @@
+{
+  "audio_file": "/kaggle/input/datasets/ahmedosama7/gp-audio-calls/real_call.wav",
+  "duration_seconds": 280.06,
+  "language": "en",
+  "transcript": [
+    {
+      "start_time": 7.9,
+      "end_time": 11.3,
+      "speaker": "Agent",
+      "text": "Thank you for calling the National Bank customer support."
+    },
+    {
+      "start_time": 11.62,
+      "end_time": 12.26,
+      "speaker": "Agent",
+      "text": "My name is Omar."
+    },
+    {
+      "start_time": 12.58,
+      "end_time": 13.44,
+      "speaker": "Agent",
+      "text": "How can I help you today?"
+    },
+    {
+      "start_time": 14.42,
+      "end_time": 16.02,
+      "speaker": "Customer",
+      "text": "Hi Omar, my name is Sarah."
+    },
+    {
+      "start_time": 16.44,
+      "end_time": 17.04,
+      "speaker": "Customer",
+      "text": "I'm really weird."
+    },
+    {
+      "start_time": 17.26,
+      "end_time": 18.68,
+      "speaker": "Customer",
+      "text": "I think my card was stolen."
+    },
+    {
+      "start_time": 19.2,
+      "end_time": 22.6,
+      "speaker": "Customer",
+      "text": "I was at the mall this afternoon and they can't find it anywhere."
+    },
+    {
+      "start_time": 23.02,
+      "end_time": 24.66,
+      "speaker": "Customer",
+      "text": "I checked my bag three times."
+    },
+    {
+      "start_time": 25.46,
+      "end_time": 27.0,
+      "speaker": "Agent",
+      "text": "I'm sorry to hear that Sarah."
+    },
+    {
+      "start_time": 27.58,
+      "end_time": 28.74,
+      "speaker": "Agent",
+      "text": "That must be very stressful."
+    },
+    {
+      "start_time": 28.74,
+      "end_time": 29.76,
+      "speaker": "Agent",
+      "text": "Don't worry."
+    },
+    {
+      "start_time": 30.2,
+      "end_time": 32.24,
+      "speaker": "Agent",
+      "text": "I'm going to help you right away."
+    },
+    {
+      "start_time": 32.78,
+      "end_time": 34.62,
+      "speaker": "Agent",
+      "text": "First, let me verify your identity."
+    },
+    {
+      "start_time": 35.28,
+      "end_time": 40.54,
+      "speaker": "Agent",
+      "text": "Can you please confirm your date of birth and last four digits of your account number?"
+    },
+    {
+      "start_time": 41.34,
+      "end_time": 41.92,
+      "speaker": "Customer",
+      "text": "Sure."
+    },
+    {
+      "start_time": 42.56,
+      "end_time": 51.6,
+      "speaker": "Customer",
+      "text": "My date of birth is the 15th of March 1995 and the last four digits are 7742."
+    },
+    {
+      "start_time": 55.2,
+      "end_time": 56.24,
+      "speaker": "Agent",
+      "text": "Thank you Sarah."
+    },
+    {
+      "start_time": 56.24,
+      "end_time": 58.9,
+      "speaker": "Agent",
+      "text": "I've verified your identity successfully."
+    },
+    {
+      "start_time": 59.74,
+      "end_time": 64.5,
+      "speaker": "Agent",
+      "text": "I'm going to block your card immediately to prevent any unauthorized transactions."
+    },
+    {
+      "start_time": 66.38,
+      "end_time": 67.02,
+      "speaker": "Agent",
+      "text": "Done."
+    },
+    {
+      "start_time": 67.84,
+      "end_time": 70.48,
+      "speaker": "Agent",
+      "text": "Your card has been blocked as of right now."
+    },
+    {
+      "start_time": 70.8,
+      "end_time": 71.74,
+      "speaker": "Agent",
+      "text": "No one can use it."
+    },
+    {
+      "start_time": 73.2,
+      "end_time": 74.64,
+      "speaker": "Customer",
+      "text": "Oh, thank goodness."
+    },
+    {
+      "start_time": 75.1,
+      "end_time": 78.16,
+      "speaker": "Customer",
+      "text": "Are there any suspicious transactions I should know about?"
+    },
+    {
+      "start_time": 79.28,
+      "end_time": 81.66,
+      "speaker": "Agent",
+      "text": "Let me check your recent transactions."
+    },
+    {
+      "start_time": 83.44,
+      "end_time": 89.96,
+      "speaker": "Agent",
+      "text": "I can see your last transaction was at a coffee shop at 2.15pm today for 45 pounds."
+    },
+    {
+      "start_time": 90.46,
+      "end_time": 91.62,
+      "speaker": "Agent",
+      "text": "Does that sound like you?"
+    },
+    {
+      "start_time": 92.56,
+      "end_time": 93.86,
+      "speaker": "Customer",
+      "text": "Yes, that was me."
+    },
+    {
+      "start_time": 94.34,
+      "end_time": 96.46,
+      "speaker": "Customer",
+      "text": "That was just before I realized it was nothing."
+    },
+    {
+      "start_time": 97.56,
+      "end_time": 98.16,
+      "speaker": "Agent",
+      "text": "Good."
+    },
+    {
+      "start_time": 98.66,
+      "end_time": 104.52,
+      "speaker": "Agent",
+      "text": "I don't see any unauthorized transactions after that point."
+    },
+    {
+      "start_time": 104.94,
+      "end_time": 108.44,
+      "speaker": "Agent",
+      "text": "I'm also going to raise a fraud investigation reference for you."
+    },
+    {
+      "start_time": 109.04,
+      "end_time": 118.06,
+      "speaker": "Agent",
+      "text": "Your reference number is FRD-SLASH-2026-8812."
+    },
+    {
+      "start_time": 120.76,
+      "end_time": 126.02,
+      "speaker": "Agent",
+      "text": "You'll receive a replacement card within three to five working days and will send it to your"
+    },
+    {
+      "start_time": 126.02,
+      "end_time": 127.08,
+      "speaker": "Agent",
+      "text": "registered address."
+    },
+    {
+      "start_time": 128.44,
+      "end_time": 129.2,
+      "speaker": "Customer",
+      "text": "Perfect."
+    },
+    {
+      "start_time": 129.52,
+      "end_time": 130.02,
+      "speaker": "Customer",
+      "text": "Thank you."
+    },
+    {
+      "start_time": 130.58,
+      "end_time": 135.06,
+      "speaker": "Customer",
+      "text": "Actually while I have you, I noticed something on my statement last week."
+    },
+    {
+      "start_time": 135.06,
+      "end_time": 139.14,
+      "speaker": "Customer",
+      "text": "I was charged a fee of 75 pounds on a card payment."
+    },
+    {
+      "start_time": 139.54,
+      "end_time": 142.98,
+      "speaker": "Customer",
+      "text": "I met online and I have no idea what it's for."
+    },
+    {
+      "start_time": 143.12,
+      "end_time": 144.68,
+      "speaker": "Customer",
+      "text": "Nobody told me about this fee."
+    },
+    {
+      "start_time": 145.94,
+      "end_time": 146.94,
+      "speaker": "Agent",
+      "text": "I understand."
+    },
+    {
+      "start_time": 147.62,
+      "end_time": 153.24,
+      "speaker": "Agent",
+      "text": "These kind of fees are completely standard and they are clearly listed in the terms and"
+    },
+    {
+      "start_time": 153.24,
+      "end_time": 156.26,
+      "speaker": "Agent",
+      "text": "conditions that you agreed to when you opened your account."
+    },
+    {
+      "start_time": 156.72,
+      "end_time": 158.5,
+      "speaker": "Agent",
+      "text": "There's really nothing we can do about it."
+    },
+    {
+      "start_time": 158.82,
+      "end_time": 160.98,
+      "speaker": "Agent",
+      "text": "It's a contractual charge."
+    },
+    {
+      "start_time": 161.9,
+      "end_time": 165.58,
+      "speaker": "Customer",
+      "text": "But I was never informed about this specific fee."
+    },
+    {
+      "start_time": 166.16,
+      "end_time": 168.14,
+      "speaker": "Customer",
+      "text": "75 pounds is a lot of money."
+    },
+    {
+      "start_time": 168.32,
+      "end_time": 169.92,
+      "speaker": "Customer",
+      "text": "I feel like I should have been told."
+    },
+    {
+      "start_time": 171.08,
+      "end_time": 173.72,
+      "speaker": "Agent",
+      "text": "I completely understand your frustration, Sarah."
+    },
+    {
+      "start_time": 174.2,
+      "end_time": 177.82,
+      "speaker": "Agent",
+      "text": "And I sincerely apologize that it wasn't communicated clearly to you."
+    },
+    {
+      "start_time": 178.32,
+      "end_time": 180.84,
+      "speaker": "Agent",
+      "text": "That's not the experience we want you to have."
+    },
+    {
+      "start_time": 181.18,
+      "end_time": 185.26,
+      "speaker": "Agent",
+      "text": "Let me pull up the transaction right now and take a proper look at it."
+    },
+    {
+      "start_time": 187.64,
+      "end_time": 189.12,
+      "speaker": "Agent",
+      "text": "I can see the charge."
+    },
+    {
+      "start_time": 189.48,
+      "end_time": 194.76,
+      "speaker": "Agent",
+      "text": "It appears to be a foreign currency conversion fee applied to your online purchase."
+    },
+    {
+      "start_time": 195.5,
+      "end_time": 203.68,
+      "speaker": "Agent",
+      "text": "I completely agree that this shouldn't have been disclosed more clearly at the time of"
+    },
+    {
+      "start_time": 203.68,
+      "end_time": 204.28,
+      "speaker": "Agent",
+      "text": "the transaction."
+    },
+    {
+      "start_time": 205.98,
+      "end_time": 207.68,
+      "speaker": "Customer",
+      "text": "So what can you do about it?"
+    },
+    {
+      "start_time": 208.34,
+      "end_time": 212.06,
+      "speaker": "Agent",
+      "text": "I'm going to raise a goodwill refund request on your behalf."
+    },
+    {
+      "start_time": 212.06,
+      "end_time": 219.98,
+      "speaker": "Agent",
+      "text": "I can't guarantee it will be approved, but given that the fee wasn't clearly communicated,"
+    },
+    {
+      "start_time": 220.48,
+      "end_time": 223.64,
+      "speaker": "Agent",
+      "text": "I will escalate it with a note explaining the situation."
+    },
+    {
+      "start_time": 224.24,
+      "end_time": 228.06,
+      "speaker": "Agent",
+      "text": "You'll receive an email confirmation within 24 hours with the outcome."
+    },
+    {
+      "start_time": 229.06,
+      "end_time": 229.86,
+      "speaker": "Customer",
+      "text": "That's fair."
+    },
+    {
+      "start_time": 230.0,
+      "end_time": 230.44,
+      "speaker": "Customer",
+      "text": "Thank you."
+    },
+    {
+      "start_time": 230.54,
+      "end_time": 232.24,
+      "speaker": "Customer",
+      "text": "I appreciate you looking into it."
+    },
+    {
+      "start_time": 232.96,
+      "end_time": 233.68,
+      "speaker": "Agent",
+      "text": "Of course."
+    },
+    {
+      "start_time": 234.22,
+      "end_time": 238.86,
+      "speaker": "Agent",
+      "text": "So just to summarize what we've done today, I've blocked your stolen card immediately,"
+    },
+    {
+      "start_time": 238.86,
+      "end_time": 245.42,
+      "speaker": "Agent",
+      "text": "raised fraud reference, FRD-2026-8812."
+    },
+    {
+      "start_time": 245.9,
+      "end_time": 250.44,
+      "speaker": "Agent",
+      "text": "And your replacement card will arrive in three to five working days."
+    },
+    {
+      "start_time": 251.1,
+      "end_time": 259.58,
+      "speaker": "Agent",
+      "text": "I've also raised a goodwill refund request for the 75 pounds fee."
+    },
+    {
+      "start_time": 260.26,
+      "end_time": 263.22,
+      "speaker": "Agent",
+      "text": "And you'll hear back by email within 24 hours."
+    },
+    {
+      "start_time": 263.66,
+      "end_time": 265.66,
+      "speaker": "Agent",
+      "text": "Is there anything else I can help you with today?"
+    },
+    {
+      "start_time": 266.34,
+      "end_time": 268.12,
+      "speaker": "Customer",
+      "text": "No, that covers everything."
+    },
+    {
+      "start_time": 268.12,
+      "end_time": 269.26,
+      "speaker": "Customer",
+      "text": "Thank you so much, Omar."
+    },
+    {
+      "start_time": 269.62,
+      "end_time": 270.62,
+      "speaker": "Customer",
+      "text": "You were really helpful."
+    },
+    {
+      "start_time": 271.36,
+      "end_time": 273.44,
+      "speaker": "Agent",
+      "text": "Thank you for calling National Bank, Sarah."
+    },
+    {
+      "start_time": 273.84,
+      "end_time": 275.14,
+      "speaker": "Agent",
+      "text": "I hope your day gets better."
+    },
+    {
+      "start_time": 275.44,
+      "end_time": 276.54,
+      "speaker": "Agent",
+      "text": "Take care and goodbye."
+    },
+    {
+      "start_time": 277.42,
+      "end_time": 277.74,
+      "speaker": "Customer",
+      "text": "Goodbye."
+    }
+  ],
+  "silences": [
+    {
+      "from": 51.6,
+      "to": 55.2,
+      "duration": 3.6
+    },
+    {
+      "from": 118.06,
+      "to": 120.76,
+      "duration": 2.7
+    },
+    {
+      "from": 185.26,
+      "to": 187.64,
+      "duration": 2.38
+    }
+  ],
+  "summary": {
+    "total_segments": 79,
+    "agent_segments": 51,
+    "customer_segments": 28,
+    "long_silences": 3,
+    "total_turns": 79
+  }
+}

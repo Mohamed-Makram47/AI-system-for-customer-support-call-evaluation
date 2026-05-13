@@ -29,24 +29,39 @@ def assess_resolution(agent_turns: list[str], fine_label: str) -> dict:
     )
 
     client = Groq(api_key=GROQ_API_KEY)
-    response = client.chat.completions.create(
-        model=GROQ_MODEL,
-        messages=[{"role": "user", "content": prompt}],
-        temperature=0.2,
-        max_tokens=150,
-    )
+    parsed = None
 
-    raw = response.choices[0].message.content.strip()
-    if raw.startswith("```"):
-        raw = raw.split("```")[1]
-        if raw.startswith("json"):
-            raw = raw[4:]
-        raw = raw.strip()
+    for attempt in range(1, 4):
+        response = client.chat.completions.create(
+            model=GROQ_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.2,
+            max_tokens=150,
+        )
 
-    try:
-        parsed = json.loads(raw)
-    except json.JSONDecodeError:
-        parsed = {"resolved": False, "reason": "(parse error)"}
+        raw = response.choices[0].message.content.strip()
+        if raw.startswith("```"):
+            raw = raw.split("```")[1]
+            if raw.startswith("json"):
+                raw = raw[4:]
+            raw = raw.strip()
+
+        try:
+            parsed = json.loads(raw)
+            break                           # success — exit retry loop
+        except json.JSONDecodeError:
+            print(f"  [assess_resolution] attempt {attempt}/3 failed to parse JSON — retrying...")
+            parsed = None
+
+    if parsed is None:
+        # Try regex extraction as last resort
+        import re
+        match = re.search(r'"resolved"\s*:\s*(true|false)', raw, re.IGNORECASE)
+        if match:
+            resolved_val = match.group(1).lower() == "true"
+            parsed = {"resolved": resolved_val, "reason": "(extracted via regex)"}
+        else:
+            parsed = {"resolved": False, "reason": "(parse error after 3 attempts)"}
 
     resolved = bool(parsed.get("resolved", False))
     return {
