@@ -1,0 +1,52 @@
+[
+  {
+    "call_id": "REAL-Part-1",
+    "fine_label_expected": "lost_or_stolen_card",
+    "fine_label_predicted": "lost_or_stolen_card",
+    "classifier_match": true,
+    "verdict": "ok",
+    "violations": [],
+    "overall_summary": "The agent followed the relevant policies and procedures for handling a lost or stolen card report, verifying the customer's identity, blocking the card, and providing clear instructions on the next steps.",
+    "confidence": "High",
+    "score": {
+      "call_id": "REAL-Part-1",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent successfully resolved the customer's issue by blocking the lost/stolen card, verifying recent transactions, raising a fraud investigation reference, and providing a clear next step for a replacement card.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "No communication violations detected."
+      },
+      "final_score": 100.0,
+      "grade": "A"
+    }
+  },
+  {
+    "call_id": "REAL-Part-2",
+    "fine_label_expected": "card_payment_fee_charged",
+    "fine_label_predicted": "extra_charge_on_statement",
+    "classifier_match": false,
+    "verdict": "ok",
+    "violations": [],
+    "overall_summary": "The agent provided a clear explanation of the fee, acknowledged the customer's frustration, and took steps to rectify the situation by raising a goodwill refund request, demonstrating an empathetic and compliant approach.",
+    "confidence": "High",
+    "score": {
+      "call_id": "REAL-Part-2",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent successfully resolved the customer's issue by taking action to raise a goodwill refund request, providing clear next steps, and ensuring the customer knew what to expect.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "No communication violations detected."
+      },
+      "final_score": 100.0,
+      "grade": "A"
+    }
+  }
+]
