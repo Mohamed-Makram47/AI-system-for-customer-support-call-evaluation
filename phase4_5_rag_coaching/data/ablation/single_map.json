@@ -1,0 +1,1598 @@
+[
+  {
+    "text": "The agent must verify the customer's identity and ensure they are the authorized cardholder before providing assistance with activating their card.",
+    "source_class": "activate_my_card"
+  },
+  {
+    "text": "The agent must inform the customer that they can activate their card using one of the following methods:",
+    "source_class": "activate_my_card"
+  },
+  {
+    "text": "If the customer is having trouble activating their card, the agent must troubleshoot the issue by asking specific questions, such as:",
+    "source_class": "activate_my_card"
+  },
+  {
+    "text": "The agent must provide clear instructions on what information the customer needs to activate their card, which may include:",
+    "source_class": "activate_my_card"
+  },
+  {
+    "text": "If the customer's card activation issue cannot be resolved through troubleshooting or guidance, the agent must escalate the issue to a senior agent or a specialized card support team, and provide the customer with a reference number or a callback option for further assistance.",
+    "source_class": "activate_my_card"
+  },
+  {
+    "text": "**Minimum Age Requirement**: The minimum age to open a bank account is 18 years old, except for minors who can open a joint account with a parent or guardian. Agents must verify the customer's age and relationship to the account holder if they are under 18.",
+    "source_class": "age_limit"
+  },
+  {
+    "text": "**Account Types for Minors**: For customers under 18, agents can offer youth savings accounts or joint accounts with a parent or guardian. Agents must explain the features and benefits of these accounts and ensure that the parent or guardian understands their role and responsibilities.",
+    "source_class": "age_limit"
+  },
+  {
+    "text": "**Identification Requirements**: To open an account for a minor, agents must obtain identification and proof of address for both the minor and the parent or guardian. Agents must also verify the identity of the parent or guardian and ensure they have the authority to act on behalf of the minor.",
+    "source_class": "age_limit"
+  },
+  {
+    "text": "**Parental Consent**: Agents must obtain parental consent to open an account for a minor. This can be done by having the parent or guardian sign the account opening form or by verifying their consent through a phone call or in-person meeting.",
+    "source_class": "age_limit"
+  },
+  {
+    "text": "**Product Disclosure**: Agents must provide clear and concise information about the account features, fees, and terms to customers inquiring about opening an account for themselves or a minor. Agents must also ensure that customers understand any limitations or restrictions on the account, such as minimum balance requirements or limited transactions.",
+    "source_class": "age_limit"
+  },
+  {
+    "text": "**Verify Customer's Payment Method**: Before troubleshooting, verify that the customer's American Express card is properly set up in Apple Pay or Google Pay and that it is eligible for top-up transactions.",
+    "source_class": "apple_pay_or_google_pay"
+  },
+  {
+    "text": "**Check Top-up Eligibility**: Inform the customer that top-up services may not be supported on all devices or payment methods, and confirm that their device (e.g. Apple Watch) and payment method (e.g. American Express) are eligible for top-up transactions.",
+    "source_class": "apple_pay_or_google_pay"
+  },
+  {
+    "text": "**Troubleshoot Google Pay Issues**: If the customer is experiencing issues with Google Pay, ask them to check that their Google Pay account is properly linked to their bank account and that the top-up service is supported by their bank.",
+    "source_class": "apple_pay_or_google_pay"
+  },
+  {
+    "text": "**American Express Card Limitations**: If the customer is using an American Express card with Apple Pay, inform them that some American Express cards may have limitations or restrictions on top-up transactions, and offer to verify the specific card details to confirm eligibility.",
+    "source_class": "apple_pay_or_google_pay"
+  },
+  {
+    "text": "**Escalate to Technical Support if Necessary**: If the customer's issue persists after troubleshooting, offer to escalate the issue to technical support for further assistance, and provide the customer with a clear explanation of the next steps and expected resolution timeframe.",
+    "source_class": "apple_pay_or_google_pay"
+  },
+  {
+    "text": "**Rule 1: Identify Compatible ATMs**: When a customer asks about using their card at an ATM, the agent must inform them that their card can be used at any ATM that displays the Mastercard logo, regardless of the bank that operates the ATM.",
+    "source_class": "atm_support"
+  },
+  {
+    "text": "**Rule 2: Provide ATM Locator Information**: If a customer asks to find an ATM around them, the agent should provide information on how to use the bank's online ATM locator tool or mobile app to find nearby ATMs that accept their card.",
+    "source_class": "atm_support"
+  },
+  {
+    "text": "**Rule 3: Clarify Card Acceptance**: When a customer inquires about whether their card is accepted by ATMs, the agent must confirm that their card is a Mastercard and therefore accepted at any ATM that displays the Mastercard logo.",
+    "source_class": "atm_support"
+  },
+  {
+    "text": "**Rule 4: Address Out-of-Network ATM Fees**: If a customer asks about using an ATM from a different bank, the agent must inform them that using an out-of-network ATM may incur fees from both the ATM operator and the bank, and provide information on fee structures.",
+    "source_class": "atm_support"
+  },
+  {
+    "text": "**Rule 5: Direct Customers to Official Resources**: When providing information on ATM locations or compatibility, agents must direct customers to official bank resources, such as the bank's website or mobile app, for the most up-to-date and accurate information on ATM locations and fees.",
+    "source_class": "atm_support"
+  },
+  {
+    "text": "**Rule 1: Acknowledge and Confirm**: The agent must acknowledge the customer's query and confirm if their account is eligible for the auto-top up feature, which allows customers to automatically top up their account when the balance falls below a certain threshold.",
+    "source_class": "automatic_top_up"
+  },
+  {
+    "text": "**Rule 2: Explain Auto-Top Up Policies**: The agent must explain the auto-top up policies, including the minimum balance required to trigger an auto top-up, the maximum amount that can be topped up automatically, and any associated fees or charges.",
+    "source_class": "automatic_top_up"
+  },
+  {
+    "text": "**Rule 3: Provide Instructions**: The agent must provide step-by-step instructions on how to enable or disable the auto-top up feature, which may involve logging into the customer's online banking platform or mobile app, navigating to the account settings, and selecting the auto-top up option.",
+    "source_class": "automatic_top_up"
+  },
+  {
+    "text": "**Rule 4: Clarify Limits and Restrictions**: The agent must clarify the limits and restrictions on auto-top up, including the maximum number of times an auto top-up can occur within a certain period, and any daily or monthly limits on the amount that can be topped up.",
+    "source_class": "automatic_top_up"
+  },
+  {
+    "text": "**Rule 5: Offer Alternative Solutions**: The agent must offer alternative solutions or options if the customer is not eligible for the auto-top up feature or if they prefer not to use it, such as manual top-ups, scheduling future top-ups, or setting up recurring transfers from another account.",
+    "source_class": "automatic_top_up"
+  },
+  {
+    "text": "**Verify Transfer Details**: The agent must request and verify the customer's transfer details, including the date and time of the transfer, the amount transferred, and the account details of the sender and recipient, to ensure accuracy and understand the transaction.",
+    "source_class": "balance_not_updated_after_bank_transfer"
+  },
+  {
+    "text": "**Check Transfer Processing Times**: The agent must inform the customer of the standard processing times for bank transfers, which may vary depending on the type of transfer (domestic or international), the sender's bank, and the transfer method (e.g., wire transfer, ACH). For example, international transfers may take 2-5 business days, while domestic transfers may take 1-2 business days.",
+    "source_class": "balance_not_updated_after_bank_transfer"
+  },
+  {
+    "text": "**Investigate Potential Delays**: If the transfer was made within the standard processing time frame, the agent must investigate potential delays, such as weekends, holidays, or issues with the sender's bank. The agent should also check if the transfer was made via a third-party service, such as a money transfer company.",
+    "source_class": "balance_not_updated_after_bank_transfer"
+  },
+  {
+    "text": "**Provide Resolution or Escalation**: If the transfer was made within the standard processing time frame and there are no potential delays, the agent must provide a resolution, such as confirming that the transfer is being processed and will be reflected in the customer's account soon. If the issue cannot be resolved, the agent must escalate the issue to a senior agent or a specialized team, such as a transfer investigation team.",
+    "source_class": "balance_not_updated_after_bank_transfer"
+  },
+  {
+    "text": "**Document and Follow-up**: The agent must document the customer's concern, the investigation, and the resolution in the customer's account records. The agent should also offer to follow up with the customer within a specified timeframe (e.g., 24-48 hours) to confirm that the transfer has been processed and the balance has been updated.",
+    "source_class": "balance_not_updated_after_bank_transfer"
+  },
+  {
+    "text": "**Acknowledge and Empathize**: The agent must acknowledge the customer's concern and express empathy in their initial response, e.g., \"I understand your concern about the missing deposit, and I'm here to help you resolve the issue.\"",
+    "source_class": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "text": "**Gather Transaction Details**: The agent must request and verify the following details from the customer:",
+    "source_class": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "text": "Type of deposit (cheque or cash)",
+    "source_class": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "text": "Date of deposit",
+    "source_class": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "text": "Deposit amount",
+    "source_class": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "text": "Branch or ATM where the deposit was made (if applicable)",
+    "source_class": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "text": "**Check Processing Timelines**: The agent must inform the customer of the standard processing timelines for cheque and cash deposits:",
+    "source_class": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "text": "Cheque deposits: 2-3 business days for funds to be available",
+    "source_class": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "text": "Cash deposits: Immediate or next business day for funds to be available",
+    "source_class": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "text": "**Investigate and Provide Status Update**: The agent must investigate the status of the deposit by checking the customer's account history and transaction records. The agent must provide a clear update on the status of the deposit, including:",
+    "source_class": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "text": "If the deposit has been processed and the funds are available",
+    "source_class": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "text": "If the deposit is still pending and an estimated timeframe for availability",
+    "source_class": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "text": "If there are any issues or holds on the account",
+    "source_class": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "text": "**Escalate and Resolve**: If the agent is unable to resolve the issue or provide a satisfactory explanation, they must escalate the issue to a senior agent or a specialized team (e.g., deposit resolution team) for further investigation and resolution. The agent must ensure that the customer receives a clear resolution or a follow-up contact with a specific timeline.",
+    "source_class": "balance_not_updated_after_cheque_or_cash_deposit"
+  },
+  {
+    "text": "**Verify Beneficiary Information**: Before proceeding with the customer's inquiry, confirm the beneficiary's name, account number, and any other relevant details to ensure accuracy and understand the reason for the transfer failure.",
+    "source_class": "beneficiary_not_allowed"
+  },
+  {
+    "text": "**Check Beneficiary Restrictions**: Inform the customer that certain beneficiaries may not be allowed due to regulatory or internal policies, such as sanctions, anti-money laundering (AML) restrictions, or Know Your Customer (KYC) requirements, and explain that these restrictions are in place to protect the customer and the bank.",
+    "source_class": "beneficiary_not_allowed"
+  },
+  {
+    "text": "**Review Transaction History and Limits**: Review the customer's transaction history to identify any patterns or limits that may be causing the transfer to fail, and inform the customer of any daily, weekly, or monthly transfer limits that may apply.",
+    "source_class": "beneficiary_not_allowed"
+  },
+  {
+    "text": "**Explain Cryptocurrency and Other Restrictions**: Clearly explain to customers that certain transactions, such as buying cryptocurrency, may not be allowed due to regulatory or internal policies, and provide alternative solutions or options if available.",
+    "source_class": "beneficiary_not_allowed"
+  },
+  {
+    "text": "**Escalate to Specialist if Necessary**: If the issue cannot be resolved through standard troubleshooting, escalate the issue to a specialist, such as a compliance officer or a technical expert, to ensure that the customer's inquiry is thoroughly investigated and resolved in a timely manner.",
+    "source_class": "beneficiary_not_allowed"
+  },
+  {
+    "text": "**Rule 1: Acknowledge and Empathize**: The agent must acknowledge the customer's concern and express empathy for the mistake, ensuring the customer feels heard and understood.",
+    "source_class": "cancel_transfer"
+  },
+  {
+    "text": "**Rule 2: Verify Transaction Details**: The agent must verify the transaction details, including the date, amount, and recipient account information, to ensure they are working with the correct transaction and to prevent errors.",
+    "source_class": "cancel_transfer"
+  },
+  {
+    "text": "**Rule 3: Check Transfer Status**: The agent must check the status of the transfer to determine if it has already been processed or if it is still pending, as this will impact the possibility of cancellation or reversal.",
+    "source_class": "cancel_transfer"
+  },
+  {
+    "text": "**Rule 4: Follow Established Reversal Procedures**: The agent must follow the bank's established procedures for reversing or canceling transfers, which may include submitting a reversal request or contacting a supervisor for assistance, and clearly explain the next steps to the customer.",
+    "source_class": "cancel_transfer"
+  },
+  {
+    "text": "**Rule 5: Communicate Clearly and Transparently**: The agent must communicate clearly and transparently with the customer about the outcome, including any potential fees or limitations, and provide a clear explanation of what can or cannot be done to cancel or reverse the transfer.",
+    "source_class": "cancel_transfer"
+  },
+  {
+    "text": "The agent must inform the customer that they can order a new card before the current one expires, and it's recommended to do so 1-2 months in advance to avoid any disruptions in service.",
+    "source_class": "card_about_to_expire"
+  },
+  {
+    "text": "The agent must advise the customer that they do not need to visit a branch to order a new card, and that they can do so by calling the call center, using the bank's website, or through the bank's mobile app, if available.",
+    "source_class": "card_about_to_expire"
+  },
+  {
+    "text": "The agent must explain to the customer that they will need to provide their current card details, identification, and address verification to facilitate the new card issuance, and that the bank will guide them through the process.",
+    "source_class": "card_about_to_expire"
+  },
+  {
+    "text": "The agent must inform the customer that once the new card is issued, the old card will be automatically deactivated on the expiration date, and that they should continue to use the new card for transactions.",
+    "source_class": "card_about_to_expire"
+  },
+  {
+    "text": "The agent must offer to expedite the shipping of the new card, if possible, and provide the customer with an estimated delivery timeframe, which may vary depending on their location and the bank's shipping policies.",
+    "source_class": "card_about_to_expire"
+  },
+  {
+    "text": "**Clearly explain card acceptance**: The agent must inform the customer that their card (e.g. debit/credit card) is widely accepted at millions of merchants worldwide, including online and offline businesses, but acceptance may vary depending on the specific card type (e.g. Visa, Mastercard, etc.).",
+    "source_class": "card_acceptance"
+  },
+  {
+    "text": "**Provide examples of commonly accepted merchants**: The agent should provide examples of commonly accepted merchants, such as retail stores, restaurants, hotels, and online marketplaces, to help customers understand the scope of card acceptance.",
+    "source_class": "card_acceptance"
+  },
+  {
+    "text": "**Disclose any limitations on card acceptance**: The agent must disclose any limitations on card acceptance, such as certain types of businesses (e.g. real estate, gambling) or geographic regions (e.g. some countries or regions may not accept certain card types), and provide alternative solutions or resources if available.",
+    "source_class": "card_acceptance"
+  },
+  {
+    "text": "**Direct customers to acceptance resources**: The agent should direct customers to resources that can help them determine card acceptance at specific merchants or locations, such as the card issuer's website, mobile app, or customer service number, or online tools like merchant locator services.",
+    "source_class": "card_acceptance"
+  },
+  {
+    "text": "**Avoid making absolute statements**: The agent must avoid making absolute statements, such as \"your card is accepted everywhere\" or \"your card is not accepted anywhere\", and instead provide balanced and accurate information about card acceptance, highlighting both the widespread acceptance and any potential limitations.",
+    "source_class": "card_acceptance"
+  },
+  {
+    "text": "**Acknowledge and Empathize**: The agent must acknowledge the customer's concern and express empathy for the inconvenience caused by the delay in receiving their card. This can be done by stating, \"I understand that it's frustrating to wait for your card, and I'm here to help.\"",
+    "source_class": "card_arrival"
+  },
+  {
+    "text": "**Check Card Status**: The agent must check the status of the card shipment using the customer's account information and our internal systems to determine if the card has been mailed and when it was sent.",
+    "source_class": "card_arrival"
+  },
+  {
+    "text": "**Provide Estimated Delivery Timeframe**: Based on the card status, the agent must provide the customer with an estimated delivery timeframe, which is typically 7-10 business days from the date of mailing. If the card was mailed via expedited shipping, the agent must inform the customer of the expected delivery timeframe for that service.",
+    "source_class": "card_arrival"
+  },
+  {
+    "text": "**Offer Assistance with Tracking or Replacement**: If the customer is still within the estimated delivery timeframe, the agent must offer to assist with tracking the package or provide information on how to track the package. If the customer is outside the estimated delivery timeframe, the agent must offer to replace the card and provide a new one.",
+    "source_class": "card_arrival"
+  },
+  {
+    "text": "**Document and Escalate if Necessary**: The agent must document the customer's concern and the resolution provided in our internal systems. If the customer is not satisfied with the resolution or if there are concerns about the card being lost in delivery, the agent must escalate the issue to a supervisor or a specialized team for further investigation and resolution.",
+    "source_class": "card_arrival"
+  },
+  {
+    "text": "**Provide a standard delivery timeframe**: Agents must inform customers that the standard delivery timeframe for cards is 7-10 business days within the continental US and 10-14 business days for Alaska, Hawaii, and international destinations. Agents should clarify that this timeframe may vary depending on the customer's location and shipping carrier.",
+    "source_class": "card_delivery_estimate"
+  },
+  {
+    "text": "**Do not provide expedited shipping guarantees**: Agents are not authorized to guarantee expedited shipping or delivery within a specific timeframe (e.g., 2 days) unless the customer has been offered and paid for expedited shipping services. Agents should not make promises that may create unrealistic expectations.",
+    "source_class": "card_delivery_estimate"
+  },
+  {
+    "text": "**Explain the card delivery process**: Agents must explain to customers that once the card is processed and shipped, it will be delivered via a shipping carrier (e.g., USPS, UPS, FedEx) and that tracking information will be provided. Agents should also inform customers that they can track the status of their shipment.",
+    "source_class": "card_delivery_estimate"
+  },
+  {
+    "text": "**No exceptions for special delivery requests**: Agents are not authorized to accommodate special delivery requests (e.g., delivering on a specific date) unless approved by a supervisor or manager. Agents should politely inform customers that they cannot make exceptions to the standard delivery policy.",
+    "source_class": "card_delivery_estimate"
+  },
+  {
+    "text": "**Escalate urgent requests to a supervisor**: If a customer requests expedited shipping or has an urgent need for their card, agents must escalate the issue to a supervisor or manager for review and possible resolution. The supervisor will assess the situation and determine if an exception can be made or if alternative solutions are available.",
+    "source_class": "card_delivery_estimate"
+  },
+  {
+    "text": "**Verify Card Status**: Before providing instructions, verify that the customer's card is not already linked to their account and that it has not been previously cancelled or reported lost/stolen.",
+    "source_class": "card_linking"
+  },
+  {
+    "text": "**Provide App-Based Instructions**: Inform customers that they can link their card to their account through the mobile app, and provide step-by-step instructions on how to do so, including navigating to the \"Add Card\" or \"Link Card\" section.",
+    "source_class": "card_linking"
+  },
+  {
+    "text": "**Explain Card Activation**: Clearly explain to customers that they need to activate their card before it can be linked to their account, and provide instructions on how to activate it, if necessary.",
+    "source_class": "card_linking"
+  },
+  {
+    "text": "**Handle Re-Activation of Previously Cancelled Cards**: If a customer reports finding a previously cancelled card, inform them that they need to request re-activation of the card through the call center, and provide instructions on how to do so.",
+    "source_class": "card_linking"
+  },
+  {
+    "text": "**Escalate Complex Issues**: If a customer is experiencing technical issues or difficulties linking their card through the app, offer to escalate the issue to a technical support specialist or a senior agent for further assistance.",
+    "source_class": "card_linking"
+  },
+  {
+    "text": "**Verify Card Status**: The agent must check the customer's card status in the banking system to determine if the card is active, expired, or blocked before proceeding with troubleshooting.",
+    "source_class": "card_not_working"
+  },
+  {
+    "text": "**Gather Error Information**: The agent must ask the customer to provide specific details about the error they are experiencing, such as the type of transaction they are trying to make, the location and type of machine or terminal being used, and any error messages received.",
+    "source_class": "card_not_working"
+  },
+  {
+    "text": "**Troubleshoot Common Issues**: The agent must troubleshoot common issues that may be causing the card to not work, such as checking if the card has been damaged, if the PIN is correct, or if there are sufficient funds in the account.",
+    "source_class": "card_not_working"
+  },
+  {
+    "text": "**Escalate to Card Services if Necessary**: If the agent is unable to resolve the issue through troubleshooting, they must escalate the issue to the card services team to investigate further and potentially reissue a new card.",
+    "source_class": "card_not_working"
+  },
+  {
+    "text": "**Document and Follow-up**: The agent must document the customer's issue and the resolution provided in the banking system's customer interaction log, and follow up with the customer to ensure that the issue has been fully resolved and that they are able to use their card successfully.",
+    "source_class": "card_not_working"
+  },
+  {
+    "text": "**Acknowledge and Apologize**: The agent must acknowledge the customer's concern and apologize for the inconvenience caused by the unexpected fee, ensuring a empathetic tone from the start of the conversation.",
+    "source_class": "card_payment_fee_charged"
+  },
+  {
+    "text": "**Explain Fee Policy**: The agent must clearly explain the bank's policy on card payment fees, including any specific instances that may result in a fee being charged, and provide information on where the customer can find this information (e.g., website, app, or account documentation).",
+    "source_class": "card_payment_fee_charged"
+  },
+  {
+    "text": "**Verify Transaction Details**: The agent must verify the transaction details with the customer, including the payment method, amount, and date, to ensure accuracy and understand the context of the fee.",
+    "source_class": "card_payment_fee_charged"
+  },
+  {
+    "text": "**Check for Fee Waivers or Exemptions**: The agent must check if the customer is eligible for any fee waivers or exemptions, such as a specific account type or loyalty program, and provide guidance on how to avoid future fees.",
+    "source_class": "card_payment_fee_charged"
+  },
+  {
+    "text": "**Provide Refund or Credit, if Applicable**: If the agent determines that the fee was charged in error or is not applicable, they must provide a refund or credit to the customer's account, and confirm the correction with the customer to ensure their satisfaction.",
+    "source_class": "card_payment_fee_charged"
+  },
+  {
+    "text": "**Rule 1: Acknowledge and Empathize**: The agent must acknowledge the customer's concern and express empathy in their initial response, e.g., \"I understand your concern about the unfamiliar payment on your account, and I'm here to help you resolve it.\"",
+    "source_class": "card_payment_not_recognised"
+  },
+  {
+    "text": "**Rule 2: Gather Information**: The agent must ask the customer to provide details about the unfamiliar payment, including the date, amount, and description of the transaction, and verify the customer's identity through standard authentication procedures.",
+    "source_class": "card_payment_not_recognised"
+  },
+  {
+    "text": "**Rule 3: Investigate and Flag**: The agent must investigate the payment in question using available tools and resources, and flag the account for potential fraud if necessary, ensuring that all relevant parties are notified and taking steps to prevent further unauthorized transactions.",
+    "source_class": "card_payment_not_recognised"
+  },
+  {
+    "text": "**Rule 4: Provide Resolution Options**: The agent must provide the customer with clear resolution options, which may include reversing the transaction, issuing a new card, or providing additional security measures, and ensure that the customer understands the next steps and any required actions.",
+    "source_class": "card_payment_not_recognised"
+  },
+  {
+    "text": "**Rule 5: Document and Escalate (if necessary)**: The agent must document the customer's concern, the investigation, and the resolution in the customer's account records, and escalate the issue to a supervisor or specialized fraud team if the customer confirms that the transaction was unauthorized or if there are indications of potential account compromise.",
+    "source_class": "card_payment_not_recognised"
+  },
+  {
+    "text": "**Verify the customer's purchase details**: Agents must request and verify the customer's purchase date, amount, and currency used for the transaction in question to ensure accurate investigation.",
+    "source_class": "card_payment_wrong_exchange_rate"
+  },
+  {
+    "text": "**Check the exchange rate applied**: Agents must investigate and verify the exchange rate applied to the customer's transaction using the bank's internal systems or tools, such as rate charts or transaction logs.",
+    "source_class": "card_payment_wrong_exchange_rate"
+  },
+  {
+    "text": "**Compare with the correct exchange rate**: Agents must compare the exchange rate applied to the customer's transaction with the correct exchange rate that was in effect at the time of the transaction, which can be found using reliable sources such as rate charts, market data, or other bank records.",
+    "source_class": "card_payment_wrong_exchange_rate"
+  },
+  {
+    "text": "**Determine the overcharge amount**: If the agent finds that the wrong exchange rate was applied, they must calculate the overcharge amount by finding the difference between the amount charged and the amount that would have been charged using the correct exchange rate.",
+    "source_class": "card_payment_wrong_exchange_rate"
+  },
+  {
+    "text": "**Escalate and rectify within 2 business days**: Agents must escalate the issue to their supervisor or a specialized team if necessary, and work to rectify the issue within 2 business days by processing a correction transaction, issuing a refund, or providing a clear explanation to the customer on why the exchange rate applied was correct.",
+    "source_class": "card_payment_wrong_exchange_rate"
+  },
+  {
+    "text": "**Acknowledge and Empathize**: The agent must acknowledge the customer's concern and express empathy for the inconvenience caused, ensuring the customer feels heard and understood.",
+    "source_class": "card_swallowed"
+  },
+  {
+    "text": "**Gather Information**: The agent must collect relevant details from the customer, including the location of the ATM, the type of card, and any error messages displayed on the ATM screen, to facilitate further investigation and resolution.",
+    "source_class": "card_swallowed"
+  },
+  {
+    "text": "**Advise Immediate Action**: The agent must inform the customer that if the ATM is still available, they should not attempt to use it again and instead contact the bank's customer service or visit a nearby branch for assistance; if the ATM is no longer accessible, the agent will guide the customer on the next steps.",
+    "source_class": "card_swallowed"
+  },
+  {
+    "text": "**Escalate and Document**: The agent must escalate the issue to the bank's ATM incident team or relevant department to report the card as lost/stolen and request retrieval or replacement, and document the incident in the bank's system for future reference and follow-up.",
+    "source_class": "card_swallowed"
+  },
+  {
+    "text": "**Provide Resolution and Follow-up**: The agent must provide the customer with a clear resolution, such as a replacement card or instructions on how to obtain one, and offer to follow up on the status of the retrieved card or provide a timeline for receiving a replacement card, ensuring the customer is satisfied with the outcome.",
+    "source_class": "card_swallowed"
+  },
+  {
+    "text": "**Acknowledge and Apologize**: The agent must acknowledge the customer's concern and apologize for any inconvenience caused by the cash withdrawal charge. This sets a positive tone for the rest of the conversation and shows empathy towards the customer.",
+    "source_class": "cash_withdrawal_charge"
+  },
+  {
+    "text": "**Explain the Charge**: The agent must clearly explain the reason for the cash withdrawal charge, including any relevant fees or policies that may apply. This includes informing the customer about any foreign transaction fees, ATM operator fees, or other charges that may have been incurred.",
+    "source_class": "cash_withdrawal_charge"
+  },
+  {
+    "text": "**Check for Foreign Transaction Fees**: If the customer withdrew cash from an ATM outside of their home country or in a foreign currency, the agent must check if a foreign transaction fee applies and explain this to the customer.",
+    "source_class": "cash_withdrawal_charge"
+  },
+  {
+    "text": "**Verify Customer's Account Type and Limits**: The agent must verify the customer's account type and check if their account has any specific limits or restrictions that may have triggered the charge. This includes checking if the customer has exceeded their daily withdrawal limit or if their account type incurs specific fees.",
+    "source_class": "cash_withdrawal_charge"
+  },
+  {
+    "text": "**Offer Solutions and Next Steps**: The agent must offer solutions and next steps to the customer, such as providing information on how to avoid similar charges in the future, or offering to waive or refund the charge if applicable. The agent must also provide clear instructions on how to proceed and ensure the customer is satisfied with the resolution.",
+    "source_class": "cash_withdrawal_charge"
+  },
+  {
+    "text": "**Verify Customer Identity**: Before taking any action, agents must verify the customer's identity through their standard authentication process, which may include asking for their name, date of birth, account information, and/or security questions.",
+    "source_class": "cash_withdrawal_not_recognised"
+  },
+  {
+    "text": "**Acknowledge and Apologize**: Agents must acknowledge the customer's concern and apologize for the inconvenience caused by the unauthorized withdrawal, showing empathy and a customer-centric tone.",
+    "source_class": "cash_withdrawal_not_recognised"
+  },
+  {
+    "text": "**Gather Transaction Details**: Agents must request and gather detailed information about the disputed transaction, including the date, time, and location of the withdrawal, as well as the amount withdrawn, to facilitate further investigation.",
+    "source_class": "cash_withdrawal_not_recognised"
+  },
+  {
+    "text": "**Immediately Block Account/Card (if necessary)**: If the customer confirms that the withdrawal was not made by them, the agent must immediately block the account or card to prevent further unauthorized transactions, and offer to replace the card or provide a new one.",
+    "source_class": "cash_withdrawal_not_recognised"
+  },
+  {
+    "text": "**Escalate to Investigation Team**: Agents must escalate the issue to the investigation team or a specialized unit (e.g. fraud team) to conduct a thorough investigation into the unauthorized withdrawal, and provide the customer with a reference number or a point of contact for follow-up.",
+    "source_class": "cash_withdrawal_not_recognised"
+  },
+  {
+    "text": "**Rule 1: Verify Customer Eligibility**: Before assisting with a PIN change, agents must verify that the customer is eligible to change their PIN through our channels. This includes checking that the customer's account is active and that they have not exceeded the maximum number of PIN attempts.",
+    "source_class": "change_pin"
+  },
+  {
+    "text": "**Rule 2: Inform Customers of Available Channels**: Agents must inform customers that they can change their PIN through our mobile banking app, online banking platform, or at an ATM. However, agents must also clarify that not all ATMs support PIN changes and provide guidance on which ones do.",
+    "source_class": "change_pin"
+  },
+  {
+    "text": "**Rule 3: Provide Step-by-Step Instructions**: Agents must provide customers with step-by-step instructions on how to change their PIN through the specified channel. For example, if changing through the mobile banking app, agents must guide the customer through the app's navigation and confirmation process.",
+    "source_class": "change_pin"
+  },
+  {
+    "text": "**Rule 4: Emphasize Security Best Practices**: Agents must remind customers to choose a new PIN that is unique and not easily guessable. Additionally, agents must advise customers to avoid using the same PIN across multiple accounts or cards.",
+    "source_class": "change_pin"
+  },
+  {
+    "text": "**Rule 5: Document Customer Requests and Outcomes**: Agents must document all customer requests to change their PIN, including the channel used and any issues encountered during the process. This documentation must include the outcome of the request, whether successful or not, and any follow-up actions required.",
+    "source_class": "change_pin"
+  },
+  {
+    "text": "**Rule 1: Acknowledge and Empathize**: The agent must acknowledge the customer's concern and express empathy in their response, e.g., \"I understand your concern about possible unauthorized transactions on your account, and I'm here to help.\"",
+    "source_class": "compromised_card"
+  },
+  {
+    "text": "**Rule 2: Gather Information**: The agent must ask the customer to provide specific details about the suspected unauthorized transactions, including the date and amount of the transactions, and any other relevant information.",
+    "source_class": "compromised_card"
+  },
+  {
+    "text": "**Rule 3: Flag Account for Fraud**: The agent must immediately flag the customer's account for potential fraud and take steps to prevent further unauthorized transactions, such as blocking the card or placing a hold on the account.",
+    "source_class": "compromised_card"
+  },
+  {
+    "text": "**Rule 4: Provide Next Steps**: The agent must clearly explain the next steps to the customer, including:",
+    "source_class": "compromised_card"
+  },
+  {
+    "text": "**Rule 5: Document and Escalate**: The agent must document the customer's concern and the actions taken in the customer's account records, and escalate the issue to a supervisor or specialized fraud team if necessary, to ensure a thorough investigation and resolution.",
+    "source_class": "compromised_card"
+  },
+  {
+    "text": "**Verify Customer's Card Details**: The agent must verify the customer's card details, including the card number, expiration date, and PIN, to ensure that the contactless feature is enabled and the card is not expired or blocked.",
+    "source_class": "contactless_not_working"
+  },
+  {
+    "text": "**Troubleshooting Steps**: The agent must walk the customer through basic troubleshooting steps, such as checking if the card is inserted correctly, if the terminal is contactless-enabled, and if the customer has exceeded the daily spending limit or has sufficient funds.",
+    "source_class": "contactless_not_working"
+  },
+  {
+    "text": "**Check for Card Block or Suspension**: The agent must check if the customer's card has been blocked or suspended due to suspicious activity, and if so, guide the customer on the next steps to reactivate the card.",
+    "source_class": "contactless_not_working"
+  },
+  {
+    "text": "**Contactless Payment Settings**: The agent must verify that the customer's contactless payment settings are correct, including checking if the card has been registered for contactless payments and if the customer has opted out of contactless payments.",
+    "source_class": "contactless_not_working"
+  },
+  {
+    "text": "**Escalation to Specialist if Necessary**: The agent must escalate the issue to a specialist or a technical support team if the customer's contactless issue persists after troubleshooting and verification, or if the issue is related to a technical problem with the terminal or payment network.",
+    "source_class": "contactless_not_working"
+  },
+  {
+    "text": "**Rule 1: Check Eligibility**: Before providing any information, agents must verify the customer's country of residence and check if our bank's products or services, specifically cards, are available in that country.",
+    "source_class": "country_support"
+  },
+  {
+    "text": "**Rule 2: Provide Country-Specific Information**: Agents must provide accurate and up-to-date information on the countries where our bank's cards are available, which currently includes the United Kingdom and may not be available in all countries, including those in the European Union or the United States.",
+    "source_class": "country_support"
+  },
+  {
+    "text": "**Rule 3: Clarify Non-Supported Countries**: If a customer inquires about getting a card while residing in a country where our bank's cards are not available, agents must clearly communicate that our cards are not offered to residents of that country.",
+    "source_class": "country_support"
+  },
+  {
+    "text": "**Rule 4: Refer to Official Resources**: Agents should direct customers to our bank's official website or other publicly available resources for information on countries where our products or services are available, to ensure transparency and consistency.",
+    "source_class": "country_support"
+  },
+  {
+    "text": "**Rule 5: Document and Escalate if Needed**: Agents must document the customer's query and response in our system and escalate to a supervisor or specialized team if the customer requests additional information or if there are exceptional circumstances that require further review.",
+    "source_class": "country_support"
+  },
+  {
+    "text": "**Rule 1: Acknowledge and Apologize**: Agents must acknowledge the customer's frustration and apologize for the inconvenience caused by the declined card payment, ensuring a empathetic tone from the start of the conversation.",
+    "source_class": "declined_card_payment"
+  },
+  {
+    "text": "**Rule 2: Gather Information**: Agents must ask the customer to provide specific details about the declined transaction, including the date, time, location, and amount of the transaction, as well as the type of card used (e.g., credit, debit, etc.).",
+    "source_class": "declined_card_payment"
+  },
+  {
+    "text": "**Rule 3: Check for Common Issues**: Agents must investigate common causes of declined card payments, such as:",
+    "source_class": "declined_card_payment"
+  },
+  {
+    "text": "**Rule 4: Provide Clear Explanation and Resolution**: Agents must clearly explain the reason for the declined card payment and provide a resolution or next steps, which may include:",
+    "source_class": "declined_card_payment"
+  },
+  {
+    "text": "**Rule 5: Document and Escalate (if necessary)**: Agents must document the customer's issue and the resolution provided in the customer interaction, and escalate the issue to a supervisor or specialized team (e.g., card services, security) if:",
+    "source_class": "declined_card_payment"
+  },
+  {
+    "text": "**Verify Account Balance**: Before proceeding with the investigation, agents must verify the customer's account balance to ensure that there are sufficient funds available for withdrawal.",
+    "source_class": "declined_cash_withdrawal"
+  },
+  {
+    "text": "**Check for Card Issues**: Agents must check if the customer's card is valid, not expired, and not blocked or flagged for suspicious activity, and inform the customer of any issues found.",
+    "source_class": "declined_cash_withdrawal"
+  },
+  {
+    "text": "**Investigate ATM and Transaction Issues**: Agents must investigate if there were any issues with the ATM machine used, such as technical problems or out-of-order status, and also check if there were any issues with the transaction itself, such as incorrect PIN entry or daily limit exceeded.",
+    "source_class": "declined_cash_withdrawal"
+  },
+  {
+    "text": "**Review Account Restrictions and Holds**: Agents must review the customer's account for any restrictions or holds that may be preventing the withdrawal, such as a hold on funds due to a pending transaction or a restriction on international transactions.",
+    "source_class": "declined_cash_withdrawal"
+  },
+  {
+    "text": "**Escalate to Specialist if Necessary**: If the issue cannot be resolved through basic troubleshooting, agents must escalate the issue to a specialist, such as a card services representative or a fraud investigator, to further investigate and resolve the issue.",
+    "source_class": "declined_cash_withdrawal"
+  },
+  {
+    "text": "**Acknowledge and Apologize**: The agent must acknowledge the customer's frustration and apologize for the inconvenience caused by the declined transfer, ensuring empathy and a customer-centric approach.",
+    "source_class": "declined_transfer"
+  },
+  {
+    "text": "**Gather Transaction Details**: The agent must request and gather relevant transaction details from the customer, including the date, time, amount, and recipient information (if applicable), to facilitate investigation and troubleshooting.",
+    "source_class": "declined_transfer"
+  },
+  {
+    "text": "**Check for Common Decline Reasons**: The agent must check for common reasons for declined transfers, such as insufficient funds, incorrect card information, exceeded transfer limits, or suspicious activity flags, and provide clear explanations to the customer.",
+    "source_class": "declined_transfer"
+  },
+  {
+    "text": "**Verify Card and Account Status**: The agent must verify the customer's card and account status, including any potential blocks, holds, or restrictions, and provide guidance on how to resolve any issues.",
+    "source_class": "declined_transfer"
+  },
+  {
+    "text": "**Escalate Complex Issues**: The agent must escalate complex or recurring declined transfer issues to a senior agent or a specialized team (e.g., fraud, security, or technical support) if the root cause cannot be resolved through standard troubleshooting, ensuring prompt and effective resolution.",
+    "source_class": "declined_transfer"
+  },
+  {
+    "text": "**Verify Customer Identity**: Before assisting the customer, agents must verify their identity using their name, account number, and other security questions to ensure they are speaking with the account holder.",
+    "source_class": "direct_debit_payment_not_recognised"
+  },
+  {
+    "text": "**Gather Transaction Details**: Agents must request and document the customer's concerns, including the date and amount of the disputed direct debit transaction, and any relevant information about the transaction, such as the merchant's name or reference number.",
+    "source_class": "direct_debit_payment_not_recognised"
+  },
+  {
+    "text": "**Check for Authorized Direct Debits**: Agents must check the customer's account to see if there are any authorized direct debits set up, and if the disputed transaction matches any of them. If it does, agents must explain the details to the customer and provide guidance on how to manage their direct debits.",
+    "source_class": "direct_debit_payment_not_recognised"
+  },
+  {
+    "text": "**Initiate Dispute Process**: If the customer does not recognize the direct debit transaction and it does not match any authorized direct debits, agents must initiate the dispute process by requesting the customer to provide a written authorization to dispute the transaction, and then submitting the dispute to the relevant payment processor or bank.",
+    "source_class": "direct_debit_payment_not_recognised"
+  },
+  {
+    "text": "**Provide Next Steps and Escalation**: Agents must clearly explain the next steps to the customer, including any additional information or documentation required, and provide escalation paths if the issue cannot be resolved immediately, such as referring the customer to a specialized team or providing a timeline for resolution.",
+    "source_class": "direct_debit_payment_not_recognised"
+  },
+  {
+    "text": "**Transaction Limit**: Disposable cards have a daily transaction limit of $5,000 and a maximum of 10 transactions per card. Agents must inform customers of this limit and explain that it cannot be exceeded.",
+    "source_class": "disposable_card_limits"
+  },
+  {
+    "text": "**Multiple Card Requests**: Customers are allowed to request a maximum of 5 disposable cards per day. Agents must verify the customer's identity and ensure that the request is not suspicious or violating any regulatory requirements.",
+    "source_class": "disposable_card_limits"
+  },
+  {
+    "text": "**Card Usage Restrictions**: Disposable cards can only be used for online transactions and are not accepted for in-person or mail-order transactions. Agents must advise customers of this restriction and explain that attempting to use the card for unauthorized transactions may result in card suspension or closure.",
+    "source_class": "disposable_card_limits"
+  },
+  {
+    "text": "**Virtual Card Limitations**: Virtual disposable cards have the same transaction limits as physical disposable cards ($5,000 daily limit and 10 transactions per card). However, virtual cards may not be accepted by certain merchants due to their specific payment processing systems. Agents must inform customers of this possibility and offer alternative payment solutions if needed.",
+    "source_class": "disposable_card_limits"
+  },
+  {
+    "text": "**Exceeding Limits**: If a customer needs to exceed the daily transaction limit or requires more than 5 disposable cards per day, agents must escalate the request to a supervisor or specialized team for review and approval. The agent must document the customer's request and the reason for exceeding the limit, and await further instructions from the supervisor or specialized team.",
+    "source_class": "disposable_card_limits"
+  },
+  {
+    "text": "**Verify Customer Identity**: Before making any changes to a customer's personal details, agents must verify the customer's identity through a two-factor authentication process, which includes asking for their date of birth, address, and/or account information.",
+    "source_class": "edit_personal_details"
+  },
+  {
+    "text": "**Use Official Channels**: Agents can only update personal details through official banking channels, such as our online banking platform, mobile banking app, or through a verified phone call with a customer service representative. Agents must not provide instructions on how to make unauthorized changes.",
+    "source_class": "edit_personal_details"
+  },
+  {
+    "text": "**Required Documentation**: For certain changes, such as name updates due to marriage or divorce, agents must inform customers that supporting documentation (e.g., marriage certificate, divorce decree) is required to process the change. Agents must provide clear instructions on how to submit the documentation.",
+    "source_class": "edit_personal_details"
+  },
+  {
+    "text": "**Data Accuracy and Completeness**: Agents must ensure that all updated personal details are accurate and complete. This includes verifying the customer's new address, phone number, or other details to prevent errors or potential identity theft.",
+    "source_class": "edit_personal_details"
+  },
+  {
+    "text": "**Compliance and Regulatory Adherence**: Agents must adhere to relevant regulatory requirements, such as the Gramm-Leach-Bliley Act (GLBA) and the Fair Credit Reporting Act (FCRA), when handling personal detail updates. This includes maintaining confidentiality and not disclosing sensitive customer information to unauthorized parties.",
+    "source_class": "edit_personal_details"
+  },
+  {
+    "text": "**Acknowledge and Empathize**: The agent must acknowledge the customer's concern and show empathy towards their query, e.g., \"I understand you're concerned about potential fees associated with exchanging currencies. I'd be happy to help clarify our policies for you.\"",
+    "source_class": "exchange_charge"
+  },
+  {
+    "text": "**Provide Clear Information on Fees**: The agent must clearly explain our currency exchange fee structure, including any applicable charges, margins, or rates. The agent should provide specific examples or refer the customer to a reliable resource (e.g., our website) for more information.",
+    "source_class": "exchange_charge"
+  },
+  {
+    "text": "**Check for Eligibility for Discounts or Waivers**: The agent must verify if the customer is eligible for any discounts or waivers on exchange charges, such as frequent exchange customers or premium account holders.",
+    "source_class": "exchange_charge"
+  },
+  {
+    "text": "**Transparency on Total Costs**: The agent must ensure the customer understands the total cost of the exchange, including any fees, and provide a clear breakdown of the costs involved.",
+    "source_class": "exchange_charge"
+  },
+  {
+    "text": "**Escalate Complex Queries**: If the customer query is complex or outside of the agent's knowledge, the agent must escalate the issue to a senior representative or a specialized team, such as a currency exchange expert, to provide a more detailed and accurate response.",
+    "source_class": "exchange_charge"
+  },
+  {
+    "text": "**Rule 1: Provide a clear definition of exchange rate**: Agents must clearly explain that the exchange rate is the rate at which one currency can be exchanged for another, and that it may fluctuate frequently due to market conditions.",
+    "source_class": "exchange_rate"
+  },
+  {
+    "text": "**Rule 2: Inform customers of current exchange rates**: Agents must inform customers that current exchange rates can be found on the bank's website, mobile app, or through a customer service representative, and provide the specific rate if available.",
+    "source_class": "exchange_rate"
+  },
+  {
+    "text": "**Rule 3: Explain factors that affect exchange rates**: Agents must explain that exchange rates are affected by market conditions, economic indicators, and other external factors, and that the bank does not control these fluctuations.",
+    "source_class": "exchange_rate"
+  },
+  {
+    "text": "**Rule 4: Direct customers to resources for exchange rate information**: Agents must direct customers to the bank's website, mobile app, or other reliable resources for the most up-to-date exchange rate information, and provide instructions on how to access this information.",
+    "source_class": "exchange_rate"
+  },
+  {
+    "text": "**Rule 5: Clarify that exchange rates may vary depending on transaction type and amount**: Agents must clarify that exchange rates may vary depending on the type of transaction (e.g. cash, wire transfer, foreign transaction), the amount being transferred, and other factors, and that the bank's exchange rates may differ from those of third-party providers.",
+    "source_class": "exchange_rate"
+  },
+  {
+    "text": "The agent must confirm whether the customer's account is enabled for international transactions and currency exchange before providing instructions on how to exchange currencies via the app.",
+    "source_class": "exchange_via_app"
+  },
+  {
+    "text": "The agent must inform the customer that to exchange currencies via the app, they need to log in to their account, navigate to the \"Payments\" or \"Transfers\" section, select the \"Exchange\" or \"Currency Exchange\" option, and follow the on-screen prompts to choose the currencies and amount to exchange.",
+    "source_class": "exchange_via_app"
+  },
+  {
+    "text": "The agent must advise the customer to check the app for the list of available currencies and exchange rates, and that the rates may be subject to change.",
+    "source_class": "exchange_via_app"
+  },
+  {
+    "text": "The agent must remind the customer that they may be required to verify their identity and comply with anti-money laundering (AML) regulations for certain transactions, and provide guidance on what to expect during the verification process.",
+    "source_class": "exchange_via_app"
+  },
+  {
+    "text": "The agent must provide the customer with a clear estimate of the processing time for the exchange transaction, and inform them that they will receive a confirmation notification via the app or email once the transaction is complete.",
+    "source_class": "exchange_via_app"
+  },
+  {
+    "text": "**Rule 1: Acknowledge and Apologize**: Agents must acknowledge the customer's concern and apologize for the inconvenience caused by the unexplained charge, regardless of the customer's tone or language.",
+    "source_class": "extra_charge_on_statement"
+  },
+  {
+    "text": "**Rule 2: Verify Customer Information**: Agents must verify the customer's identity and account information before investigating the charge, to ensure they are looking at the correct account and transaction.",
+    "source_class": "extra_charge_on_statement"
+  },
+  {
+    "text": "**Rule 3: Investigate and Explain the Charge**: Agents must investigate the charge and provide a clear explanation to the customer, checking for any pending transactions, fees, or other legitimate charges that may have caused the extra charge.",
+    "source_class": "extra_charge_on_statement"
+  },
+  {
+    "text": "**Rule 4: Refund or Reverse if Unauthorized**: If the investigation determines that the charge is unauthorized or an error, agents must process a refund or reversal of the charge promptly, and confirm with the customer that the issue is resolved.",
+    "source_class": "extra_charge_on_statement"
+  },
+  {
+    "text": "**Rule 5: Document and Escalate if Necessary**: Agents must document the customer's concern, the investigation, and the resolution in the customer's account records, and escalate the issue to a supervisor or specialized team if the charge cannot be explained or if the customer is not satisfied with the resolution.",
+    "source_class": "extra_charge_on_statement"
+  },
+  {
+    "text": "**Acknowledge and Empathize**: The agent must acknowledge the customer's frustration and show empathy in their response, e.g., \"I apologize for the inconvenience you're experiencing with your transfer\" or \"I understand how frustrating it must be to have your transfer rejected multiple times.\"",
+    "source_class": "failed_transfer"
+  },
+  {
+    "text": "**Gather Transaction Details**: The agent must request and gather relevant transaction details from the customer, including the date and time of the transfer, the amount being transferred, the recipient's information (if applicable), and the error message received (if any).",
+    "source_class": "failed_transfer"
+  },
+  {
+    "text": "**Troubleshoot Common Issues**: The agent must troubleshoot common issues that may be causing the transfer to fail, such as insufficient funds, incorrect recipient information, daily transfer limits, or technical issues with the payment method.",
+    "source_class": "failed_transfer"
+  },
+  {
+    "text": "**Check for System Outages or Maintenance**: The agent must check if there are any system outages or scheduled maintenance that may be affecting the transfer process, and provide an explanation if this is the case.",
+    "source_class": "failed_transfer"
+  },
+  {
+    "text": "**Escalate to Specialist if Necessary**: The agent must escalate the issue to a specialist or a more senior agent if the customer provides additional information that suggests a more complex issue, or if the agent is unable to resolve the issue through basic troubleshooting, and provide a clear explanation to the customer of the next steps.",
+    "source_class": "failed_transfer"
+  },
+  {
+    "text": "**Rule 1: Provide a clear list of supported fiat currencies**: Agents must provide customers with a clear and accurate list of fiat currencies supported by the organization. This list may include, but is not limited to, major currencies such as USD, EUR, GBP, JPY, and others.",
+    "source_class": "fiat_currency_support"
+  },
+  {
+    "text": "**Rule 2: Confirm multi-currency support**: Agents must confirm to customers whether their accounts can hold multiple types of fiat currencies and explain any associated requirements or limitations.",
+    "source_class": "fiat_currency_support"
+  },
+  {
+    "text": "**Rule 3: Explain exchange capabilities**: Agents must explain to customers which fiat currencies can be exchanged for one another, and provide information on any exchange fees or rates that may apply.",
+    "source_class": "fiat_currency_support"
+  },
+  {
+    "text": "**Rule 4: Address country-specific currency support**: Agents must inform customers which countries' currencies are supported by the organization and provide guidance on any regulatory or compliance requirements that may impact currency support.",
+    "source_class": "fiat_currency_support"
+  },
+  {
+    "text": "**Rule 5: Provide transparency on currency limitations**: Agents must clearly communicate to customers any limitations or restrictions on holding or exchanging specific fiat currencies, including any requirements for verification, reporting, or compliance with anti-money laundering (AML) and know-your-customer (KYC) regulations.",
+    "source_class": "fiat_currency_support"
+  },
+  {
+    "text": "**Rule 1: Acknowledge and Empathize**: The agent must acknowledge the customer's query and express empathy towards their request, ensuring the customer feels heard and understood.",
+    "source_class": "get_disposable_virtual_card"
+  },
+  {
+    "text": "**Rule 2: Explain Eligibility and Availability**: The agent must inform the customer that disposable virtual cards are available for eligible customers, and explain that the feature can be accessed through our mobile app or website, depending on the bank's current offerings.",
+    "source_class": "get_disposable_virtual_card"
+  },
+  {
+    "text": "**Rule 3: Provide Step-by-Step Instructions**: The agent must provide clear, step-by-step instructions on how to request and obtain a disposable virtual card, including any necessary navigation through the app or website, and any required verification or authentication processes.",
+    "source_class": "get_disposable_virtual_card"
+  },
+  {
+    "text": "**Rule 4: Clarify Usage and Limitations**: The agent must clearly explain the usage and limitations of disposable virtual cards, including any specific merchants or transactions that may not be supported, and any applicable fees or expiration dates.",
+    "source_class": "get_disposable_virtual_card"
+  },
+  {
+    "text": "**Rule 5: Offer Additional Resources and Follow-up**: The agent must offer additional resources, such as user guides or FAQs, and provide an opportunity for the customer to follow up if they need further assistance or have additional questions, ensuring that the customer's issue is fully resolved.",
+    "source_class": "get_disposable_virtual_card"
+  },
+  {
+    "text": "**Rule 1: Acknowledge and Apologize**: The agent must acknowledge the customer's concern and apologize for the inconvenience caused by not receiving their PIN or being unable to locate it. This sets a positive tone for the rest of the interaction.",
+    "source_class": "get_physical_card"
+  },
+  {
+    "text": "**Rule 2: Verify Customer Information**: Before providing any information or assistance, the agent must verify the customer's identity and account information to ensure they are speaking with the authorized account holder.",
+    "source_class": "get_physical_card"
+  },
+  {
+    "text": "**Rule 3: Explain PIN Delivery Process**: The agent must clearly explain the PIN delivery process to the customer, which typically includes informing them that the PIN is mailed separately from the physical card, and that it may take 3-5 business days to arrive. The agent should also advise the customer to check their mailbox and junk mail.",
+    "source_class": "get_physical_card"
+  },
+  {
+    "text": "**Rule 4: Offer Solutions or Alternatives**: Depending on the customer's situation, the agent must offer solutions or alternatives, such as re-sending the PIN, providing a temporary PIN, or offering to expedite shipping of a replacement PIN. The agent should also inform the customer of any associated fees or requirements.",
+    "source_class": "get_physical_card"
+  },
+  {
+    "text": "**Rule 5: Document and Follow-up**: The agent must document the customer's concern and the resolution provided in the customer's account records. If a follow-up action is required, such as re-sending a PIN, the agent must ensure that the task is assigned to the relevant team and that the customer is informed of the expected timeline for resolution.",
+    "source_class": "get_physical_card"
+  },
+  {
+    "text": "**Spare Card Eligibility**: The customer must be the primary account holder or have joint account access to request additional cards. Agents should verify the customer's account ownership and access level before proceeding with the request.",
+    "source_class": "getting_spare_card"
+  },
+  {
+    "text": "**Card Limit and Fees**: Agents should inform customers that there is a maximum limit of [X] cards per account, and that additional cards may incur a fee of [Y]. The fee and limit may vary depending on the account type and product.",
+    "source_class": "getting_spare_card"
+  },
+  {
+    "text": "**Additional Card Requirements**: To request a spare card, customers must provide identification and verification information, such as their name, address, and date of birth. Agents should ensure that the customer's information matches the account records.",
+    "source_class": "getting_spare_card"
+  },
+  {
+    "text": "**Card Types and Options**: Agents should explain to customers the types of cards available, such as debit, credit, or prepaid cards, and the options for card design, delivery, and activation. Agents should also inform customers about any specific requirements or restrictions for certain card types.",
+    "source_class": "getting_spare_card"
+  },
+  {
+    "text": "**Authorization and Consent**: Before issuing a spare card, agents must obtain explicit consent from the customer regarding the card details, including the cardholder's name, address, and any associated fees. Agents should document the customer's consent and any specific instructions or requests.",
+    "source_class": "getting_spare_card"
+  },
+  {
+    "text": "The agent must first confirm the customer's eligibility for a virtual card by verifying their account type and status, and ensure that virtual card services are available for their account.",
+    "source_class": "getting_virtual_card"
+  },
+  {
+    "text": "The agent must clearly explain to the customer what a virtual card is, its benefits, and its uses, before proceeding with the customer's request.",
+    "source_class": "getting_virtual_card"
+  },
+  {
+    "text": "To facilitate the process, the agent must guide the customer to access the virtual card through the bank's mobile app or online banking platform, if available, and provide step-by-step instructions if needed.",
+    "source_class": "getting_virtual_card"
+  },
+  {
+    "text": "If the customer is eligible but unable to access the virtual card through self-service channels, the agent must assist the customer in generating a virtual card through the bank's system, ensuring that all necessary security protocols are followed.",
+    "source_class": "getting_virtual_card"
+  },
+  {
+    "text": "The agent must document the customer's request and resolution in the bank's CRM system, including any relevant details such as the customer's account information and virtual card details, to ensure accurate record-keeping and future reference.",
+    "source_class": "getting_virtual_card"
+  },
+  {
+    "text": "**Immediate Card Block**: Upon receiving a customer's report of a lost or stolen card, the agent must immediately block the card to prevent any unauthorized transactions, regardless of the customer's request for a new card or not.",
+    "source_class": "lost_or_stolen_card"
+  },
+  {
+    "text": "**Verify Customer Identity**: Before providing any further assistance, the agent must verify the customer's identity through their account information, security questions, or other approved authentication methods to ensure they are speaking with the actual cardholder.",
+    "source_class": "lost_or_stolen_card"
+  },
+  {
+    "text": "**Provide Clear Instructions**: The agent must clearly instruct the customer on the next steps, which include blocking the card, ordering a replacement card, and potentially filing a police report if the card was stolen, and provide a timeframe for receiving the new card.",
+    "source_class": "lost_or_stolen_card"
+  },
+  {
+    "text": "**Expedite Replacement Card**: For customers who request a replacement card, the agent must expedite the shipping of the new card, if possible, especially for customers who are traveling or in urgent need of a new card.",
+    "source_class": "lost_or_stolen_card"
+  },
+  {
+    "text": "**Document Customer Report**: The agent must document the customer's report of a lost or stolen card in the customer's account records, including the date and time of the report, the reason for the report, and any actions taken, such as blocking the card and ordering a replacement.",
+    "source_class": "lost_or_stolen_card"
+  },
+  {
+    "text": "**Verify Customer Identity**: Before providing assistance, agents must verify the customer's identity through their account information, such as account number, date of birth, or address, to ensure they are speaking with the account owner.",
+    "source_class": "lost_or_stolen_phone"
+  },
+  {
+    "text": "**Flag Account for Potential Fraud**: If a customer reports their phone stolen or lost, agents must flag their account for potential fraud to prevent any unauthorized transactions, and advise the customer to monitor their account activity closely.",
+    "source_class": "lost_or_stolen_phone"
+  },
+  {
+    "text": "**Disable Mobile Banking Access**: Agents must assist the customer in disabling mobile banking access to their account from the lost or stolen phone, and provide guidance on how to access their account through alternative channels, such as online banking or visiting a branch.",
+    "source_class": "lost_or_stolen_phone"
+  },
+  {
+    "text": "**Provide Guidance on Card Usage**: If the customer's phone contained their card information, agents must provide guidance on how to use their card, such as requesting a replacement card or using an alternative payment method.",
+    "source_class": "lost_or_stolen_phone"
+  },
+  {
+    "text": "**Document and Escalate if Necessary**: Agents must document the customer's issue and resolution in their system, and escalate the issue to a supervisor or specialized team if the customer requests additional assistance, such as replacing a card or reporting suspicious activity on their account.",
+    "source_class": "lost_or_stolen_phone"
+  },
+  {
+    "text": "**Rule 1: Acknowledge and Empathize**: Agents must acknowledge the customer's concern and show empathy within the first 30 seconds of the conversation. This can be done by using phrases such as \"I understand your concern\" or \"I apologize that you're experiencing this issue.\"",
+    "source_class": "neutral"
+  },
+  {
+    "text": "**Rule 2: Gather Information**: Agents must gather all necessary information to understand the issue, including account information, issue description, and any relevant details. This information must be documented in the customer's account notes for future reference.",
+    "source_class": "neutral"
+  },
+  {
+    "text": "**Rule 3: Provide Clear Explanations**: Agents must provide clear and concise explanations of the issue, the cause, and any next steps. If the issue is not resolvable immediately, agents must provide a clear timeline for resolution and follow-up.",
+    "source_class": "neutral"
+  },
+  {
+    "text": "**Rule 4: Follow Scripted Responses**: Agents must follow scripted responses for neutral issue types, which can be found in the call center's knowledge base. These scripted responses ensure consistency and compliance with regulatory requirements.",
+    "source_class": "neutral"
+  },
+  {
+    "text": "**Rule 5: Escalate if Necessary**: Agents must escalate the issue to a supervisor or specialized team if the issue cannot be resolved within the agent's authority or if the issue requires additional expertise. Agents must also escalate if the customer requests to speak with a supervisor or if the issue involves a sensitive or confidential topic.",
+    "source_class": "neutral"
+  },
+  {
+    "text": "**Acknowledge and Empathize**: The agent must acknowledge the customer's request and express empathy for their need for a physical card. This can be done by responding with a phrase such as \"I understand you'd like to receive a physical card\" or \"I'd be happy to help you with that\".",
+    "source_class": "order_physical_card"
+  },
+  {
+    "text": "**Verify Customer Eligibility**: The agent must verify that the customer is eligible for a physical card, checking that they have a valid virtual card or account and that their account is in good standing.",
+    "source_class": "order_physical_card"
+  },
+  {
+    "text": "**Explain Card Delivery Process**: The agent must clearly explain the process for delivering a physical card to the customer, including any required shipping information, estimated delivery times, and any associated fees.",
+    "source_class": "order_physical_card"
+  },
+  {
+    "text": "**Offer Alternative Solutions (if applicable)**: The agent must offer alternative solutions or options for receiving a physical card, such as expedited shipping or in-person pickup at a local branch (if available).",
+    "source_class": "order_physical_card"
+  },
+  {
+    "text": "**Document and Close**: The agent must document the customer's request and the resolution provided, and close the issue by confirming with the customer that their request has been fulfilled or that they have a clear understanding of the next steps.",
+    "source_class": "order_physical_card"
+  },
+  {
+    "text": "**Verify Customer Identity**: Before assisting the customer with resetting their passcode, the agent must verify the customer's identity through a series of security questions or by checking the customer's account information to ensure they are speaking with the account holder.",
+    "source_class": "passcode_forgotten"
+  },
+  {
+    "text": "**Provide Passcode Reset Options**: The agent must inform the customer of the available options for resetting their passcode, which may include receiving a one-time password (OTP) via phone or email, answering security questions, or visiting a branch location.",
+    "source_class": "passcode_forgotten"
+  },
+  {
+    "text": "**Guide Customer Through Passcode Reset Process**: The agent must walk the customer through the passcode reset process, which may involve sending an OTP to the customer's registered phone or email, and have the customer provide the OTP or answer security questions to authenticate their identity.",
+    "source_class": "passcode_forgotten"
+  },
+  {
+    "text": "**Ensure Passcode Security**: The agent must remind the customer to choose a new passcode that meets the bank's security requirements, such as a minimum length and complexity, and advise the customer not to share their passcode with anyone.",
+    "source_class": "passcode_forgotten"
+  },
+  {
+    "text": "**Document and Escalate if Necessary**: The agent must document the customer's issue and the resolution in the bank's system, and escalate the issue to a supervisor or specialist if the customer is unable to reset their passcode or if there are any concerns about the customer's account security.",
+    "source_class": "passcode_forgotten"
+  },
+  {
+    "text": "**Acknowledge and Empathize**: The agent must acknowledge the customer's concern and express empathy in their response, e.g., \"I understand your concern about the pending payment on your card. I'm here to help you resolve this issue.\"",
+    "source_class": "pending_card_payment"
+  },
+  {
+    "text": "**Explain the Pending Payment Process**: The agent must explain to the customer that a pending payment means the transaction is being processed and has not yet been completed, and that it may take 2-3 business days to clear, depending on the payment method and the bank's processing time.",
+    "source_class": "pending_card_payment"
+  },
+  {
+    "text": "**Provide a Timeline for Resolution**: The agent must provide a specific timeline for when the payment is expected to be processed and completed, e.g., \"Most card payments take 2-3 business days to process. If it's been longer than that, we may need to investigate further.\"",
+    "source_class": "pending_card_payment"
+  },
+  {
+    "text": "**Troubleshoot and Investigate**: The agent must troubleshoot and investigate the issue by checking the customer's account and transaction history to determine if there are any issues or errors that may be causing the delay, and provide a clear explanation to the customer.",
+    "source_class": "pending_card_payment"
+  },
+  {
+    "text": "**Escalate if Necessary**: The agent must escalate the issue to a supervisor or a specialized team if the payment has been pending for an unusually long time (e.g., more than 5 business days) or if the customer is not satisfied with the explanation provided, to ensure that the issue is resolved promptly and to the customer's satisfaction.",
+    "source_class": "pending_card_payment"
+  },
+  {
+    "text": "When a customer inquires about a pending cash withdrawal, the agent must first verify the customer's identity and account information to ensure they are speaking with the account holder.",
+    "source_class": "pending_cash_withdrawal"
+  },
+  {
+    "text": "The agent must then check the customer's account history to confirm the status of the pending transaction, including the date, time, and amount of the withdrawal, and provide a clear explanation of what \"pending\" means: that the transaction is being processed and has not yet been finalized.",
+    "source_class": "pending_cash_withdrawal"
+  },
+  {
+    "text": "If the customer reports that they have already received the cash but the transaction is still showing as pending, the agent must inform them that it may take up to 2-3 business days for the transaction to be fully processed and updated in their account, but if the customer provides proof of withdrawal (e.g. a receipt), the agent can escalate the issue to investigate a potential error.",
+    "source_class": "pending_cash_withdrawal"
+  },
+  {
+    "text": "If the customer's account balance appears to be incorrect due to a pending cash withdrawal, the agent must advise them that their available balance may not reflect the pending transaction, and provide guidance on when the balance will be updated; the agent must also offer to provide a detailed breakdown of the customer's account activity.",
+    "source_class": "pending_cash_withdrawal"
+  },
+  {
+    "text": "If the customer reports a technical issue with the ATM (e.g. the machine did not dispense cash, or the transaction took too long), the agent must inform them that they should contact the ATM operator or the bank's customer service team to report the issue, and provide the customer with a reference number or incident report for follow-up, if applicable.",
+    "source_class": "pending_cash_withdrawal"
+  },
+  {
+    "text": "**Acknowledge and Empathize**: Agents must acknowledge the customer's concern and express empathy in their response, e.g., \"I understand that waiting for a top-up to go through can be frustrating. I'm here to help you with that.\"",
+    "source_class": "pending_top_up"
+  },
+  {
+    "text": "**Check Top-up Status**: Agents must verify the status of the top-up by checking the customer's account and transaction history to determine the cause of the pending status.",
+    "source_class": "pending_top_up"
+  },
+  {
+    "text": "**Provide Timeframe Information**: Agents must inform the customer of the standard timeframe for top-up processing, which is typically [insert timeframe, e.g., 1-2 hours, 1-3 business days]. Agents should also advise the customer that this timeframe may vary depending on the payment method or other factors.",
+    "source_class": "pending_top_up"
+  },
+  {
+    "text": "**Investigate and Resolve**: If the top-up has been pending for an extended period, agents must investigate the issue further by checking for any potential issues with the payment method, account restrictions, or other technical issues. Agents should work to resolve the issue as quickly as possible.",
+    "source_class": "pending_top_up"
+  },
+  {
+    "text": "**Escalate if Necessary**: If the agent is unable to resolve the issue or if the customer is not satisfied with the explanation, agents must escalate the issue to a senior agent or a specialized team, such as a technical support team, to ensure prompt resolution.",
+    "source_class": "pending_top_up"
+  },
+  {
+    "text": "**Acknowledge and Empathize**: Agents must acknowledge the customer's concern and express empathy in their response, e.g., \"I understand your frustration with the transfer still being pending\" or \"I apologize for the delay in your transfer.\"",
+    "source_class": "pending_transfer"
+  },
+  {
+    "text": "**Gather Transfer Details**: Agents must request and verify the transfer details, including the transfer date, amount, recipient's account details, and transfer type (e.g., domestic or international), to investigate the issue.",
+    "source_class": "pending_transfer"
+  },
+  {
+    "text": "**Provide Processing Timeframes**: Agents must provide the customer with the standard processing timeframes for their specific transfer type, e.g., \"For domestic transfers, it typically takes 1-2 business days to process\" or \"International transfers can take 3-5 business days to process.\"",
+    "source_class": "pending_transfer"
+  },
+  {
+    "text": "**Investigate and Check Status**: Agents must investigate the transfer status by checking the transaction history, verifying if the transfer has been processed, and checking for any potential issues that may have caused the delay.",
+    "source_class": "pending_transfer"
+  },
+  {
+    "text": "**Escalate if Necessary**: Agents must escalate the issue to a senior agent or a specialized team if the transfer is significantly delayed (e.g., more than 5 business days for domestic transfers) or if the customer provides evidence of an error on the bank's part, to ensure prompt resolution and customer satisfaction.",
+    "source_class": "pending_transfer"
+  },
+  {
+    "text": "**Verify Customer Identity**: Before assisting with PIN unblocking, agents must verify the customer's identity through a series of security questions, such as their name, date of birth, account information, and address, to ensure they are speaking with the account holder.",
+    "source_class": "pin_blocked"
+  },
+  {
+    "text": "**Explain PIN Block Policy**: Agents must clearly explain to the customer that their PIN has been blocked due to excessive incorrect attempts and that this is a security measure to protect their account from unauthorized access.",
+    "source_class": "pin_blocked"
+  },
+  {
+    "text": "**Provide Unblocking Options**: Agents must inform the customer of the available options to unblock their PIN, which may include:",
+    "source_class": "pin_blocked"
+  },
+  {
+    "text": "**Guide Customer through Unblocking Process**: Agents must walk the customer through the chosen unblocking process, providing step-by-step instructions and answering any questions they may have. If the customer is unable to complete the process, the agent must offer assistance and escalate the issue if necessary.",
+    "source_class": "pin_blocked"
+  },
+  {
+    "text": "**Document and Follow-up**: Agents must document the customer's issue and the resolution provided in their system, and follow up with the customer to ensure that their PIN has been successfully unblocked and that they are able to access their account without issues.",
+    "source_class": "pin_blocked"
+  },
+  {
+    "text": "**Verify Customer's Account Settings**: Before providing guidance on receiving money, agents must verify the customer's current account settings, including their account type and any existing payment configurations, to ensure they are eligible to receive funds.",
+    "source_class": "receiving_money"
+  },
+  {
+    "text": "**Explain Receiving Money in Local Currency**: Agents must inform customers that they can receive money in their local currency (e.g. GBP) without any additional configuration, but if they need to receive money in another currency, they may need to configure their account accordingly.",
+    "source_class": "receiving_money"
+  },
+  {
+    "text": "**Clarify Transfer Options**: Agents must explain to customers that they can receive money from friends or family through various transfer options, such as online banking, mobile banking, or in-person at a branch, and provide guidance on the associated fees and limits.",
+    "source_class": "receiving_money"
+  },
+  {
+    "text": "**Discuss Salary Payment Configurations**: If a customer is receiving a salary in a foreign currency, agents must advise them to configure their account to accept international payments and provide guidance on how to do so, including any required documentation or forms.",
+    "source_class": "receiving_money"
+  },
+  {
+    "text": "**Provide Instructions on Sharing Account Details**: Agents must instruct customers on how to share their account details with the sender, including their account number, sort code, and any other required information, and emphasize the importance of only sharing account details with trusted individuals or organizations.",
+    "source_class": "receiving_money"
+  },
+  {
+    "text": "**Verify Customer Information**: Before assisting the customer, agents must verify their identity and account information to ensure they are speaking with the correct person and have access to the relevant account details.",
+    "source_class": "Refund_not_showing_up"
+  },
+  {
+    "text": "**Gather Refund Details**: Agents must request and document the following information from the customer: the date of the original purchase, the date of the refund request, the refund amount, and the method of refund (e.g., credit card, bank transfer, store credit). This information will help agents investigate the issue.",
+    "source_class": "Refund_not_showing_up"
+  },
+  {
+    "text": "**Check Refund Status**: Agents must check the status of the refund using the customer's account information and the details gathered in the previous step. This may involve checking with the merchant, reviewing transaction history, or verifying with the customer's bank.",
+    "source_class": "Refund_not_showing_up"
+  },
+  {
+    "text": "**Escalate if Necessary**: If the refund is not showing up and the agent cannot resolve the issue immediately, they must escalate the case to a senior agent or a specialized refund team. This may include cases where the refund is taking longer than expected, the customer has not received the refund, or there are discrepancies in the refund amount.",
+    "source_class": "Refund_not_showing_up"
+  },
+  {
+    "text": "**Provide Clear Next Steps**: Agents must clearly communicate the next steps to the customer, including any additional information or documentation required, estimated timelines for resolution, and a reference number or case ID for future follow-up. Agents must also ensure that the customer understands what to expect and when they can expect a resolution.",
+    "source_class": "Refund_not_showing_up"
+  },
+  {
+    "text": "**Verify Customer Eligibility**: Before proceeding with a refund request, agents must verify that the customer is eligible for a refund according to the bank's policies and the specific product or service terms. This includes checking if the customer has already received the product or service, and if the refund request is within the allowed timeframe.",
+    "source_class": "request_refund"
+  },
+  {
+    "text": "**Gather Required Information**: Agents must collect and document all necessary information related to the refund request, including the date of purchase, product or service details, and reason for the refund. This information will be used to facilitate the refund process and ensure accuracy.",
+    "source_class": "request_refund"
+  },
+  {
+    "text": "**Explain Refund Process and Timeline**: Agents must clearly explain the refund process and timeline to the customer, including any potential fees or deductions that may apply. This includes informing the customer of any required documentation or next steps to complete the refund.",
+    "source_class": "request_refund"
+  },
+  {
+    "text": "**Escalate Complex Issues**: If the refund request involves a complex issue, such as a disputed transaction or a product that has already been used, agents must escalate the issue to a senior representative or a specialized team for further review and resolution.",
+    "source_class": "request_refund"
+  },
+  {
+    "text": "**Provide Refund Confirmation**: Once the refund has been processed, agents must provide the customer with a confirmation of the refund, including the refund amount, date, and method of payment. This ensures that the customer has a clear understanding of the refund status and can verify that the refund has been received.",
+    "source_class": "request_refund"
+  },
+  {
+    "text": "**Verify the transaction status**: Before proceeding with the customer's inquiry, the agent must verify the status of the transaction in question, checking if the payment was indeed reverted and if the funds have been returned to the customer's account.",
+    "source_class": "reverted_card_payment"
+  },
+  {
+    "text": "**Determine the reason for the reversion**: The agent must investigate and determine the reason for the reversion, which may include checking with the merchant, reviewing transaction logs, or contacting the payment processor to understand why the payment was reverted.",
+    "source_class": "reverted_card_payment"
+  },
+  {
+    "text": "**Check for duplicate or partial refunds**: The agent must verify if a refund or partial refund has been processed, and if so, ensure that the customer has received the correct amount, taking into account any applicable fees or charges.",
+    "source_class": "reverted_card_payment"
+  },
+  {
+    "text": "**Escalate to supervisor or specialist if necessary**: If the agent is unable to resolve the issue or if the customer is disputing the reversion, the agent must escalate the issue to a supervisor or a specialized team, such as a fraud or payment disputes team, to ensure prompt and accurate resolution.",
+    "source_class": "reverted_card_payment"
+  },
+  {
+    "text": "**Provide clear explanations and next steps**: The agent must clearly explain the reason for the reversion, the current status of the transaction, and any necessary next steps to the customer, ensuring that the customer understands the resolution and any actions they need to take to resolve the issue.",
+    "source_class": "reverted_card_payment"
+  },
+  {
+    "text": "When a customer inquires about supported cards for topping up their account, the agent must inform them that we support major credit and debit cards, including Visa, Mastercard, American Express, and Maestro.",
+    "source_class": "supported_cards_and_currencies"
+  },
+  {
+    "text": "The agent must specify that we accept credit and debit cards from most countries, including the US, UK, and other major economies, but may not accept cards from certain countries due to regulatory or technical restrictions.",
+    "source_class": "supported_cards_and_currencies"
+  },
+  {
+    "text": "When asked about supported currencies, the agent must explain that we accept a wide range of currencies, including USD, EUR, GBP, and many others, but the exact list of currencies may vary depending on the customer's location and local regulations.",
+    "source_class": "supported_cards_and_currencies"
+  },
+  {
+    "text": "If a customer specifically asks about using a particular type of card (e.g. American Express) or a card from a specific country, the agent must verify the information and provide a clear answer, either confirming that the card is supported or explaining why it is not.",
+    "source_class": "supported_cards_and_currencies"
+  },
+  {
+    "text": "The agent must also inform the customer that they can check our website or mobile app for the most up-to-date and accurate information on supported cards and currencies, and provide the URL or app store link if requested.",
+    "source_class": "supported_cards_and_currencies"
+  },
+  {
+    "text": "**Verify Customer Identity**: Before processing the account termination request, agents must verify the customer's identity by asking for their name, date of birth, and account information to ensure they are speaking with the account holder.",
+    "source_class": "terminate_account"
+  },
+  {
+    "text": "**Provide Clear Instructions**: Agents must provide the customer with clear instructions on how to terminate their account, which may include visiting a branch, mailing a written request, or completing an online form, and ensure the customer understands the next steps.",
+    "source_class": "terminate_account"
+  },
+  {
+    "text": "**Explain Consequences and Alternatives**: Agents must inform the customer of the consequences of terminating their account, such as any potential fees, loss of automatic payments or deposits, and impact on credit scores, and offer alternative solutions, such as account modifications or suspension, if applicable.",
+    "source_class": "terminate_account"
+  },
+  {
+    "text": "**Document the Request**: Agents must document the customer's request to terminate their account in the customer's account records, including the reason for termination (if provided), and ensure that the account is marked for closure.",
+    "source_class": "terminate_account"
+  },
+  {
+    "text": "**Escalate to Supervisor (if necessary)**: If the customer is dissatisfied with the service or has a complaint, agents must escalate the issue to a supervisor or a specialized team, such as a complaints department, to ensure prompt resolution and maintain customer satisfaction.",
+    "source_class": "terminate_account"
+  },
+  {
+    "text": "When a customer inquires about fees associated with topping up via bank transfer, the agent must clearly state that there are no fees charged by our bank for topping up via bank transfer.",
+    "source_class": "top_up_by_bank_transfer_charge"
+  },
+  {
+    "text": "If the customer specifically asks about SWIFT transfer fees, the agent must inform them that SWIFT transfers are subject to a fee, which currently ranges from $20 to $50, depending on the transfer amount and destination.",
+    "source_class": "top_up_by_bank_transfer_charge"
+  },
+  {
+    "text": "When a customer asks about SEPA transfer fees, the agent must respond that SEPA transfers are free of charge for customers based in the European Economic Area (EEA).",
+    "source_class": "top_up_by_bank_transfer_charge"
+  },
+  {
+    "text": "If a customer inquires about the cost of topping up by transfer, the agent must provide a clear and concise answer, stating that there are no fees for standard bank transfers, but may mention potential fees charged by the customer's external bank.",
+    "source_class": "top_up_by_bank_transfer_charge"
+  },
+  {
+    "text": "When a customer asks about fees for bank transfers to top up their account, the agent must advise them to check with their external bank for any potential fees they may charge, and confirm that our bank does not charge any fees for receiving bank transfers.",
+    "source_class": "top_up_by_bank_transfer_charge"
+  },
+  {
+    "text": "When a customer inquires about the fees associated with adding money to their card, the agent must clearly state that a [insert percentage/ fixed amount] fee applies for top-ups made using a debit or credit card, and provide the exact fee amount.",
+    "source_class": "top_up_by_card_charge"
+  },
+  {
+    "text": "If a customer asks about the best way to add money to their card, the agent must explain the available top-up options, including bank transfer, and provide a comparison of the associated fees and processing times.",
+    "source_class": "top_up_by_card_charge"
+  },
+  {
+    "text": "When a customer specifically asks about international card top-ups, the agent must inform them that an additional [insert percentage/ fixed amount] fee applies for international card transactions, on top of the standard top-up fee, and provide the total fee amount.",
+    "source_class": "top_up_by_card_charge"
+  },
+  {
+    "text": "If a customer inquires about alternatives to adding money via card, the agent must suggest bank transfer as an option and provide instructions on how to set it up, highlighting that bank transfers are [insert fee-free/ lower-fee] compared to card top-ups.",
+    "source_class": "top_up_by_card_charge"
+  },
+  {
+    "text": "When providing information on top-up fees, the agent must proactively offer to provide a detailed breakdown of the fees and any other relevant terms and conditions, and ensure that the customer understands the information before concluding the call.",
+    "source_class": "top_up_by_card_charge"
+  },
+  {
+    "text": "When a customer inquires about topping up their account with cash, inform them that cash deposits are accepted at our bank's physical branches, and provide them with the nearest branch location and operating hours.",
+    "source_class": "top_up_by_cash_or_cheque"
+  },
+  {
+    "text": "When a customer asks about topping up their account with a cheque, confirm that we accept cheques for top-ups and inform them that they need to endorse the cheque and mail it to our lockbox address, which can be provided upon request.",
+    "source_class": "top_up_by_cash_or_cheque"
+  },
+  {
+    "text": "If a customer is having trouble finding the option to top up with cash or cheque on our website or mobile app, offer to walk them through the steps or provide a detailed guide on how to access the top-up feature.",
+    "source_class": "top_up_by_cash_or_cheque"
+  },
+  {
+    "text": "When a customer inquires about the process of topping up with a cheque, clearly explain that they need to write their account number on the cheque, endorse it, and mail it to our lockbox address, and that the funds will be credited to their account within 3-5 business days.",
+    "source_class": "top_up_by_cash_or_cheque"
+  },
+  {
+    "text": "If a customer specifically asks about alternative payment options for topping up their account, inform them that we also accept electronic funds transfer (EFT) and debit card transactions, and provide them with the relevant details and instructions on how to use these options.",
+    "source_class": "top_up_by_cash_or_cheque"
+  },
+  {
+    "text": "**Verify Customer Information**: Before assisting the customer, agents must verify their identity and account information to ensure they are speaking with the authorized account holder, using standard verification procedures.",
+    "source_class": "top_up_failed"
+  },
+  {
+    "text": "**Gather Details on the Failed Top-up**: Agents must ask customers to provide specific details about the failed top-up attempt, including the date and time of the attempt, the payment method used (e.g., credit/debit card, bank account), and the exact error message received (if any).",
+    "source_class": "top_up_failed"
+  },
+  {
+    "text": "**Troubleshoot Common Issues**: Agents must troubleshoot common issues that may have caused the top-up to fail, such as:",
+    "source_class": "top_up_failed"
+  },
+  {
+    "text": "**Escalate to Specialist if Necessary**: If the agent is unable to resolve the issue or if the customer requests a more detailed investigation, the agent must escalate the issue to a specialist (e.g., a technical support agent or a senior customer service representative) who can further investigate and resolve the issue.",
+    "source_class": "top_up_failed"
+  },
+  {
+    "text": "**Document and Resolve**: Agents must document the root cause of the failed top-up and the resolution provided to the customer, and ensure that the customer's top-up is successfully processed or reapplied if possible, and provide a clear explanation of the next steps to the customer.",
+    "source_class": "top_up_failed"
+  },
+  {
+    "text": "**Rule 1: Inform customers of standard top-up limits**: Agents must inform customers that there are standard top-up limits in place, which vary depending on the type of card or account. These limits are in place to prevent excessive transactions and ensure customer safety.",
+    "source_class": "top_up_limits"
+  },
+  {
+    "text": "**Rule 2: Provide specific top-up limit information**: Agents must provide customers with specific information on the top-up limits applicable to their card or account. This includes the maximum amount that can be topped up per transaction and the daily/weekly/monthly limits.",
+    "source_class": "top_up_limits"
+  },
+  {
+    "text": "**Rule 3: Clarify that custom top-up limits are not available**: Agents must clearly communicate to customers that they cannot create their own custom top-up limits. However, they can offer alternatives, such as splitting transactions into smaller amounts, subject to the standard top-up limits.",
+    "source_class": "top_up_limits"
+  },
+  {
+    "text": "**Rule 4: Explain the implications of frequent top-ups**: Agents must advise customers that frequent top-ups, especially those exceeding the standard limits, may trigger additional security checks, account restrictions, or even account closure.",
+    "source_class": "top_up_limits"
+  },
+  {
+    "text": "**Rule 5: Escalate requests for exceptions to senior teams**: Agents must escalate any customer requests for exceptions to the standard top-up limits to senior teams or specialized units, which will review and respond to these requests on a case-by-case basis, in accordance with the bank's policies and regulatory requirements.",
+    "source_class": "top_up_limits"
+  },
+  {
+    "text": "**Acknowledge and Empathize**: The agent must acknowledge the customer's concern and express empathy in their response, e.g., \"I understand that you're concerned about your top-up being reverted. I'm here to help you resolve this issue.\"",
+    "source_class": "top_up_reverted"
+  },
+  {
+    "text": "**Gather Transaction Details**: The agent must request and verify the customer's transaction details, including the date and amount of the top-up, the payment method used, and the account details. This information is necessary to investigate the issue.",
+    "source_class": "top_up_reverted"
+  },
+  {
+    "text": "**Check for Reversal Reason**: The agent must check the reason for the top-up reversal, e.g., due to an invalid payment method, insufficient funds, or technical issues. This information will help the agent to provide a clear explanation to the customer.",
+    "source_class": "top_up_reverted"
+  },
+  {
+    "text": "**Provide Clear Explanation and Resolution**: Based on the investigation, the agent must provide a clear explanation to the customer on why their top-up was reverted and offer a resolution, e.g., re-processing the top-up, refunding the amount, or providing instructions on how to complete the top-up successfully.",
+    "source_class": "top_up_reverted"
+  },
+  {
+    "text": "**Escalate if Necessary**: If the agent is unable to resolve the issue or if the customer is not satisfied with the explanation, the agent must escalate the issue to a senior agent or a specialized team, e.g., the fraud team or technical support, to ensure that the issue is thoroughly investigated and resolved.",
+    "source_class": "top_up_reverted"
+  },
+  {
+    "text": "**Verify Customer's Top-up Transaction**: The agent must verify if the customer's top-up transaction was successful or not by checking the transaction history and the account balance. If the transaction was successful, but the funds are not visible in the account, the agent must investigate further.",
+    "source_class": "topping_up_by_card"
+  },
+  {
+    "text": "**Check for Reversal or Refund**: The agent must check if a reversal or refund was processed for the top-up transaction, which could explain why the funds are not visible in the account. If a reversal or refund was processed, the agent must explain the reason to the customer.",
+    "source_class": "topping_up_by_card"
+  },
+  {
+    "text": "**Confirm Card and Account Eligibility**: The agent must confirm if the customer's card and account are eligible for top-up transactions. Some cards or accounts may have restrictions or limitations on top-up transactions, and the agent must inform the customer of these restrictions.",
+    "source_class": "topping_up_by_card"
+  },
+  {
+    "text": "**Explain Top-up Processing Time**: The agent must explain to the customer that top-up transactions may take a few minutes to process, and the funds may not be immediately visible in the account. The agent must advise the customer to wait for a reasonable amount of time (e.g., 10-15 minutes) before contacting the call center again.",
+    "source_class": "topping_up_by_card"
+  },
+  {
+    "text": "**Escalate to Supervisor if Necessary**: The agent must escalate the issue to a supervisor if the customer is still experiencing issues with their top-up transaction, and the agent is unable to resolve the issue. The supervisor will investigate the issue further and provide a resolution to the customer.",
+    "source_class": "topping_up_by_card"
+  },
+  {
+    "text": "**Verify the duplicate charge**: Before taking any action, the agent must verify that the customer has indeed been charged twice for the same transaction by checking the customer's account history and transaction records.",
+    "source_class": "transaction_charged_twice"
+  },
+  {
+    "text": "**Determine the cause of the duplicate charge**: The agent must investigate and determine the cause of the duplicate charge, such as a processing error, a merchant error, or potential fraudulent activity.",
+    "source_class": "transaction_charged_twice"
+  },
+  {
+    "text": "**Reverse the duplicate charge**: If the duplicate charge is confirmed and not a result of a legitimate transaction, the agent must reverse the duplicate charge and credit the customer's account within one business day.",
+    "source_class": "transaction_charged_twice"
+  },
+  {
+    "text": "**Provide a clear explanation to the customer**: The agent must provide a clear and concise explanation to the customer regarding the cause of the duplicate charge, the actions taken to resolve the issue, and any additional steps the customer needs to take.",
+    "source_class": "transaction_charged_twice"
+  },
+  {
+    "text": "**Escalate to supervisor or specialist if necessary**: If the agent is unable to resolve the issue or if the customer is not satisfied with the resolution, the agent must escalate the issue to a supervisor or a specialist, such as a fraud investigator, for further assistance and resolution.",
+    "source_class": "transaction_charged_twice"
+  },
+  {
+    "text": "**Acknowledge and Apologize**: The agent must acknowledge the customer's concern and apologize for the inconvenience caused by the transfer fee charged, regardless of the outcome of the investigation.",
+    "source_class": "transfer_fee_charged"
+  },
+  {
+    "text": "**Verify Transfer Details**: The agent must verify the transfer details, including the transfer amount, recipient's information, transfer method (e.g., online, mobile, or in-branch), and the date of the transfer, to understand the context of the fee charged.",
+    "source_class": "transfer_fee_charged"
+  },
+  {
+    "text": "**Explain Fee Structure**: The agent must clearly explain the transfer fee structure and the specific reason for the fee charged, including any applicable currency conversion fees, intermediary bank fees, or other charges, to ensure the customer understands the breakdown of the fees.",
+    "source_class": "transfer_fee_charged"
+  },
+  {
+    "text": "**Investigate and Correct**: If the customer disputes the fee or claims it was incorrect, the agent must investigate the matter, check the transfer records, and correct the error if necessary, ensuring that the customer is not incorrectly charged.",
+    "source_class": "transfer_fee_charged"
+  },
+  {
+    "text": "**Provide Resolution and Next Steps**: The agent must provide a clear resolution to the customer's issue, which may include a refund of the fee, a transfer of the missing amount, or guidance on how to avoid similar fees in the future, and clearly outline the next steps to ensure the customer's satisfaction and resolution.",
+    "source_class": "transfer_fee_charged"
+  },
+  {
+    "text": "When a customer requests to top up their account using a bank transfer, the agent must inform them that they can do so by initiating a transfer from another account held at the same bank or a different bank, and provide the customer with the account details (e.g. account number, routing number, etc.) required to complete the transfer.",
+    "source_class": "transfer_into_account"
+  },
+  {
+    "text": "If the customer is transferring funds from an account held at a different bank, the agent must advise them that they may need to use online banking, mobile banking, or visit a branch of the other bank to initiate the transfer, and that the transfer may take 1-3 business days to process.",
+    "source_class": "transfer_into_account"
+  },
+  {
+    "text": "The agent must verify the customer's account information, including the account number and any other relevant details, to ensure that the transfer is being made to the correct account.",
+    "source_class": "transfer_into_account"
+  },
+  {
+    "text": "If the customer is having trouble initiating the transfer, the agent must offer to provide additional guidance on the process, including providing instructions on how to use online banking or mobile banking to initiate the transfer, or offering to assist with generating a transfer slip or other documentation required for the transfer.",
+    "source_class": "transfer_into_account"
+  },
+  {
+    "text": "The agent must not provide any account or routing numbers directly to the customer for transfers into their account, but rather provide general information on how to obtain this information, such as by logging into their online banking platform or contacting the bank's customer service department.",
+    "source_class": "transfer_into_account"
+  },
+  {
+    "text": "**Verify Transfer Details**: Before investigating the issue, agents must verify the transfer details with the customer, including the date and time of the transfer, the recipient's account number, and the transfer amount, to ensure accuracy and confirm that the transfer was initiated correctly.",
+    "source_class": "transfer_not_received_by_recipient"
+  },
+  {
+    "text": "**Check Transfer Status**: Agents must check the status of the transfer using the bank's systems and tools, such as tracking the transfer ID or transaction reference number, to determine if the transfer is still pending, processed, or failed.",
+    "source_class": "transfer_not_received_by_recipient"
+  },
+  {
+    "text": "**Provide Estimated Timeframes**: Agents must provide customers with estimated timeframes for when the transfer should arrive in the recipient's account, based on the type of transfer (e.g. domestic, international), the payment method, and the bank's processing times.",
+    "source_class": "transfer_not_received_by_recipient"
+  },
+  {
+    "text": "**Escalate to Investigation**: If the transfer is outside of the expected timeframe or if the customer provides evidence that the recipient has not received the funds, agents must escalate the issue to a specialized investigation team or a senior agent to conduct a thorough review of the transfer and resolve the issue.",
+    "source_class": "transfer_not_received_by_recipient"
+  },
+  {
+    "text": "**Communicate Clearly and Empathetically**: Agents must communicate clearly and empathetically with customers, providing regular updates on the status of the investigation and the expected resolution timeframe, and ensuring that customers understand the next steps and any additional information required to resolve the issue.",
+    "source_class": "transfer_not_received_by_recipient"
+  },
+  {
+    "text": "**Rule 1: Acknowledge and Empathize**: Agents must acknowledge the customer's concern and express empathy in their response, e.g., \"I understand you're eager to receive your transfer, and I'm here to help you with the timing.\"",
+    "source_class": "transfer_timing"
+  },
+  {
+    "text": "**Rule 2: Request Transfer Details**: Agents must request specific details about the transfer, including the origin and destination countries, transfer amount, and transfer type (e.g., wire, ACH, or online transfer), to provide an accurate estimate of the transfer timing.",
+    "source_class": "transfer_timing"
+  },
+  {
+    "text": "**Rule 3: Provide Clear Timing Information**: Agents must provide clear and accurate information on the transfer timing based on the customer's specific transfer details, including:",
+    "source_class": "transfer_timing"
+  },
+  {
+    "text": "**Rule 4: Explain Transfer Processing**: Agents must explain the general transfer processing steps and how they impact timing, such as:",
+    "source_class": "transfer_timing"
+  },
+  {
+    "text": "**Rule 5: Offer Additional Resources**: Agents must offer additional resources or next steps, such as:",
+    "source_class": "transfer_timing"
+  },
+  {
+    "text": "**Rule 1: Empathize and Acknowledge**: Agents must acknowledge the customer's frustration and empathize with their situation, ensuring a positive tone and de-escalating any potential conflict. This can be done by saying, \"I understand how frustrating it can be when our system doesn't recognize your identity. I'm here to help you resolve this issue.\"",
+    "source_class": "unable_to_verify_identity"
+  },
+  {
+    "text": "**Rule 2: Gather Information**: Agents must ask the customer to provide their name, account number (if applicable), and a detailed description of the issue they are experiencing with the identity verification process. This information will help the agent to better understand the problem and provide a more accurate solution.",
+    "source_class": "unable_to_verify_identity"
+  },
+  {
+    "text": "**Rule 3: Troubleshoot and Provide Guidance**: Agents must walk the customer through basic troubleshooting steps, such as ensuring their camera is working properly, the lighting is good, and they are holding their ID correctly. Agents should also provide guidance on how to properly use the identity verification app or system, and offer alternative solutions if necessary.",
+    "source_class": "unable_to_verify_identity"
+  },
+  {
+    "text": "**Rule 4: Escalate if Necessary**: If the customer's issue persists and cannot be resolved through basic troubleshooting, agents must escalate the issue to a senior agent or a specialized team (e.g. technical support) for further assistance. The agent should inform the customer that their issue is being escalated and provide an estimated timeframe for resolution.",
+    "source_class": "unable_to_verify_identity"
+  },
+  {
+    "text": "**Rule 5: Document and Follow-up**: Agents must document the customer's issue and the resolution provided in the customer's account records. Agents should also follow up with the customer to ensure that their issue has been fully resolved and that they are satisfied with the outcome. If the issue is not resolved, agents should provide a clear plan for next steps and a timeline for resolution.",
+    "source_class": "unable_to_verify_identity"
+  },
+  {
+    "text": "**Clearly explain the verification process**: Agents must provide a clear and concise explanation of the identity verification process, including the types of documents required (e.g. government-issued ID, proof of address) and the methods used to verify the customer's identity (e.g. video verification, document upload).",
+    "source_class": "verify_my_identity"
+  },
+  {
+    "text": "**Request specific documents**: Agents must inform customers of the specific documents required for verification, which may include a valid government-issued ID (e.g. driver's license, passport) and proof of address (e.g. utility bill, bank statement), and ensure that the documents are not expired or more than 30 days old.",
+    "source_class": "verify_my_identity"
+  },
+  {
+    "text": "**Emphasize security and confidentiality**: Agents must reassure customers that their personal and financial information is protected and that the bank takes reasonable steps to prevent identity theft and fraud, in accordance with relevant regulations and industry standards.",
+    "source_class": "verify_my_identity"
+  },
+  {
+    "text": "**Provide guidance on document upload or transmission**: Agents must provide customers with instructions on how to upload or transmit their documents securely, such as through a secure online portal or by mailing or faxing the documents to a specific address.",
+    "source_class": "verify_my_identity"
+  },
+  {
+    "text": "**Escalate complex cases**: Agents must escalate cases where customers are unable to provide required documents or if there are discrepancies in the information provided, to a senior agent or a specialized team for further review and assistance.",
+    "source_class": "verify_my_identity"
+  },
+  {
+    "text": "**Rule 1: Empathize and Acknowledge**: The agent must acknowledge the customer's concern and express empathy, stating \"I understand your concern about verifying the source of funds\" or a similar phrase, to show that they are actively listening and care about the customer's issue.",
+    "source_class": "verify_source_of_funds"
+  },
+  {
+    "text": "**Rule 2: Check Transaction History**: The agent must inform the customer that they can view their transaction history through their online banking platform, mobile banking app, or by visiting a branch, and offer to guide them on how to access it, if needed.",
+    "source_class": "verify_source_of_funds"
+  },
+  {
+    "text": "**Rule 3: Explain Source of Funds Information**: The agent must explain to the customer that the source of funds information can be found in the transaction details section of their account statement or transaction history, which may include information such as the origin of the transfer, payment method, or sender's details.",
+    "source_class": "verify_source_of_funds"
+  },
+  {
+    "text": "**Rule 4: Provide Additional Resources**: The agent must provide the customer with additional resources, such as a user guide or tutorial on how to access and understand their transaction history, or offer to send a summary of the information to their email or mail, if requested.",
+    "source_class": "verify_source_of_funds"
+  },
+  {
+    "text": "**Rule 5: Escalate Complex Issues**: The agent must escalate complex issues related to verifying the source of funds, such as suspicious transactions or unclear origins, to a senior agent or a specialized team, such as a fraud investigation unit, and inform the customer that their issue has been escalated and provide a timeline for resolution.",
+    "source_class": "verify_source_of_funds"
+  },
+  {
+    "text": "When a customer inquires about their top-up verification code, the agent must inform them that the code is typically sent to their registered mobile number or email address via an automated system, and it is usually a 6-digit code.",
+    "source_class": "verify_top_up"
+  },
+  {
+    "text": "The agent must advise the customer to check their SMS or email inbox, including their spam or junk folder, for a message with the subject \"Top-up Verification Code\" or a similar phrase, and to ensure they are looking for a code specifically related to their top-up transaction.",
+    "source_class": "verify_top_up"
+  },
+  {
+    "text": "If the customer is still unable to locate the code, the agent must offer to re-send the code to the customer's registered mobile number or email address, and confirm with the customer that they have received it.",
+    "source_class": "verify_top_up"
+  },
+  {
+    "text": "The agent must emphasize to the customer that the verification code is a one-time password (OTP) and is only valid for a short period of time (usually 30 minutes), and that they should not share the code with anyone.",
+    "source_class": "verify_top_up"
+  },
+  {
+    "text": "Under no circumstances should the agent provide the customer with the verification code directly or assist them in bypassing the verification process; instead, the agent must guide the customer through the standard verification process and ensure that all security protocols are followed.",
+    "source_class": "verify_top_up"
+  },
+  {
+    "text": "**Verify Card Details**: The agent must verify that the customer has entered the correct virtual card details, including the card number, expiration date, and CVV, and that the card has not been previously used or expired.",
+    "source_class": "virtual_card_not_working"
+  },
+  {
+    "text": "**Check Merchant Compatibility**: The agent must confirm that the merchant or online platform the customer is trying to use the virtual card with supports virtual cards and does not have specific restrictions on disposable or virtual cards.",
+    "source_class": "virtual_card_not_working"
+  },
+  {
+    "text": "**Review Transaction Limits**: The agent must review the customer's account and virtual card transaction limits to ensure that the attempted transaction does not exceed these limits, which may prevent the virtual card from working.",
+    "source_class": "virtual_card_not_working"
+  },
+  {
+    "text": "**Determine Card Status**: The agent must investigate the status of the virtual card, checking if it has been cancelled, flagged for suspicious activity, or has been used for a non-compliant transaction, which may render it unusable.",
+    "source_class": "virtual_card_not_working"
+  },
+  {
+    "text": "**Recurring Payment Restrictions**: The agent must inform the customer that disposable virtual cards are typically not suitable for recurring monthly payments, as they can only be used once, and offer alternative solutions, such as a physical card or a different type of virtual card designed for recurring payments.",
+    "source_class": "virtual_card_not_working"
+  },
+  {
+    "text": "When a customer inquires about the types of cards offered, the agent must inform them that both Visa and Mastercard are available, and that card type is not guaranteed and is determined by the bank's policies and procedures.",
+    "source_class": "visa_or_mastercard"
+  },
+  {
+    "text": "If a customer expresses a preference for either Visa or Mastercard, the agent must acknowledge their preference and explain that while they can make a note of it, the bank cannot guarantee the issuance of a specific card type.",
+    "source_class": "visa_or_mastercard"
+  },
+  {
+    "text": "When a customer asks if they can choose between Visa and Mastercard, the agent must respond that card selection is not an option and that the bank will issue the card that is available and suitable for the customer's account.",
+    "source_class": "visa_or_mastercard"
+  },
+  {
+    "text": "If a customer receives a different card than requested, the agent must apologize for the inconvenience, explain that card type is determined by the bank, and offer to verify the reason for the card type issued.",
+    "source_class": "visa_or_mastercard"
+  },
+  {
+    "text": "Agents must not make any commitments or promises to customers regarding the issuance of a specific card type, and must instead provide a standard response that emphasizes the bank's policies and procedures for determining card types, and encourage customers to contact the bank if they have further concerns.",
+    "source_class": "visa_or_mastercard"
+  },
+  {
+    "text": "**Clearly explain the purpose of identity verification**: Agents must inform customers that verifying their identity is a regulatory requirement to prevent identity theft, money laundering, and other financial crimes, and that it helps to protect their account and financial information.",
+    "source_class": "why_verify_identity"
+  },
+  {
+    "text": "**Emphasize the importance of compliance with regulations**: Agents must mention that identity verification is a mandatory process required by laws and regulations, such as the USA PATRIOT Act, Anti-Money Laundering (AML) laws, and the Financial Crimes Enforcement Network (FinCEN) guidelines, and that the bank is obligated to comply with these regulations.",
+    "source_class": "why_verify_identity"
+  },
+  {
+    "text": "**Provide a clear description of the verification process**: Agents must walk customers through the verification process, explaining what information and documents are required, such as a valid government-issued ID, social security number, or date of birth, and how the information will be used and protected.",
+    "source_class": "why_verify_identity"
+  },
+  {
+    "text": "**Address concerns about data security and confidentiality**: Agents must reassure customers that the bank takes the security and confidentiality of their personal and financial information seriously, and that the information collected during the verification process will only be used for verification purposes and will be protected in accordance with the bank's privacy policy.",
+    "source_class": "why_verify_identity"
+  },
+  {
+    "text": "**Offer alternatives or accommodations when possible**: Agents must be aware of alternative verification methods or accommodations that may be available for customers who are having difficulty completing the verification process, such as providing additional documentation or using a different verification method, and offer these options to customers when applicable.",
+    "source_class": "why_verify_identity"
+  },
+  {
+    "text": "**Verify Customer Information**: The agent must verify the customer's account information and transaction details to ensure they are speaking with the correct customer and to understand the context of the issue.",
+    "source_class": "wrong_amount_of_cash_received"
+  },
+  {
+    "text": "**Gather Transaction Details**: The agent must request and gather specific details about the transaction, including the date and time of the transaction, the amount requested to be withdrawn, and the amount received (or not received) by the customer.",
+    "source_class": "wrong_amount_of_cash_received"
+  },
+  {
+    "text": "**Check ATM or Transaction Records**: The agent must check the ATM or transaction records to determine if the customer's account was debited for the correct amount and if there were any technical issues or limitations that may have caused the incorrect amount of cash to be dispensed.",
+    "source_class": "wrong_amount_of_cash_received"
+  },
+  {
+    "text": "**Escalate to Investigation if Necessary**: If the agent cannot resolve the issue immediately or if the customer disputes the transaction, the agent must escalate the issue to a supervisor or investigator for further review and resolution.",
+    "source_class": "wrong_amount_of_cash_received"
+  },
+  {
+    "text": "**Provide a Resolution or Next Steps**: The agent must provide a clear explanation of the resolution or next steps to the customer, which may include re-issuing the correct amount of cash, reversing the transaction, or providing additional information or documentation to support further investigation.",
+    "source_class": "wrong_amount_of_cash_received"
+  },
+  {
+    "text": "**Verify the customer's transaction details**: Agents must request and verify the customer's transaction details, including the date, location, and amount of the cash withdrawal, to ensure they are discussing the correct transaction.",
+    "source_class": "wrong_exchange_rate_for_cash_withdrawal"
+  },
+  {
+    "text": "**Explain the exchange rate used**: Agents must clearly explain the exchange rate used for the cash withdrawal, including any applicable fees or charges, and provide a breakdown of the calculation to help the customer understand the transaction.",
+    "source_class": "wrong_exchange_rate_for_cash_withdrawal"
+  },
+  {
+    "text": "**Check for rate discrepancies**: Agents must investigate and verify whether the exchange rate used was correct, taking into account any rate fluctuations, weekend or holiday rates, and ATM-specific rates, to determine if a rate discrepancy occurred.",
+    "source_class": "wrong_exchange_rate_for_cash_withdrawal"
+  },
+  {
+    "text": "**Provide rate information for future transactions**: Agents must inform customers of the current exchange rates and any applicable fees or charges for future cash withdrawals, and provide guidance on how to access this information, such as through the bank's website or mobile app.",
+    "source_class": "wrong_exchange_rate_for_cash_withdrawal"
+  },
+  {
+    "text": "**Escalate and waive fees if necessary**: Agents must escalate the issue to a supervisor or specialized team if the customer was indeed charged an incorrect exchange rate, and have the authority to waive any applicable fees or charges, or provide a one-time courtesy credit, as per the bank's policies and procedures.",
+    "source_class": "wrong_exchange_rate_for_cash_withdrawal"
+  }
+]
