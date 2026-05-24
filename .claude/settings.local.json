@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(C:/v311/Scripts/python main.py)",
+      "Bash(C:/v311/Scripts/python -m src.ablation_single_utterance)",
+      "Bash(C:/v311/Scripts/python -m src.ablation_single_faiss)",
+      "Bash(C:/v311/Scripts/python -m src.ablation_class_utterance)",
+      "Bash(C:/v311/Scripts/python -m src.ablation_whole_call)"
+    ]
+  }
+}

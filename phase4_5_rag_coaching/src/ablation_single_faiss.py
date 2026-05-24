@@ -27,6 +27,9 @@ ABLATION_DIR        = Path("data/ablation")
 SINGLE_INDEX_PATH   = ABLATION_DIR / "single_index.faiss"
 SINGLE_MAP_PATH     = ABLATION_DIR / "single_map.json"
 SINGLE_RESULTS_PATH = ABLATION_DIR / "single_faiss_results.json"
+SINGLE_UTT_PATH     = ABLATION_DIR / "single_utterance_results.json"
+WHOLE_RESULTS_PATH  = ABLATION_DIR / "whole_call_results.json"
+CLASS_UTT_PATH      = ABLATION_DIR / "class_utterance_results.json"
 TRANSCRIPTS_DIR     = Path("data/transcripts")
 CLASS_RESULTS_PATH  = Path("data/results.json")
 
@@ -101,14 +104,13 @@ def _retrieve_single(utterance, embedder, index, policy_map):
 
 
 def _evaluate_call_single(agent_turns, intent, embedder, index, policy_map, client):
-    all_rules: dict[str, float] = {}
-    for turn in agent_turns:
-        for r in _retrieve_single(turn, embedder, index, policy_map):
-            all_rules[r["rule"]] = max(all_rules.get(r["rule"], 0.0), r["score"])
+    # True call-level retrieval: concatenate ALL agent turns, ONE FAISS query.
+    concatenated = " ".join(agent_turns)
+    retrieved    = _retrieve_single(concatenated, embedder, index, policy_map)
 
-    if all_rules:
-        rules_text = "\n".join(f"- {rule}" for rule in all_rules)
-        confidence = "High" if max(all_rules.values()) >= SIMILARITY_THRESHOLD else "Low"
+    if retrieved:
+        rules_text = "\n".join(f"- {r['rule']}" for r in retrieved)
+        confidence = "High" if max(r["score"] for r in retrieved) >= SIMILARITY_THRESHOLD else "Low"
     else:
         rules_text = "(no relevant policies retrieved above threshold)"
         confidence = "Low"
@@ -153,7 +155,7 @@ def _evaluate_call_single(agent_turns, intent, embedder, index, policy_map, clie
         "violations":      parsed.get("violations", []),
         "overall_summary": parsed.get("overall_summary", ""),
         "confidence":      confidence,
-        "rules_retrieved": len(all_rules),
+        "rules_retrieved": len(retrieved),
     }
 
 
@@ -214,12 +216,14 @@ def run_single_faiss_eval(embedder, index, policy_map, client):
 
 
 def _load_transcript_metadata():
-    planted_map, quality_map = {}, {}
+    planted_map, quality_map, turn_count_map = {}, {}, {}
     for fpath in TRANSCRIPTS_DIR.glob("*.json"):
-        t = json.loads(fpath.read_text(encoding="utf-8"))
-        planted_map[t["call_id"]] = t["planted_violations"]
-        quality_map[t["call_id"]] = t["quality_level"]
-    return planted_map, quality_map
+        t   = json.loads(fpath.read_text(encoding="utf-8"))
+        cid = t["call_id"]
+        planted_map[cid]    = t["planted_violations"]
+        quality_map[cid]    = t["quality_level"]
+        turn_count_map[cid] = sum(1 for u in t["transcript"] if u["speaker"] == "agent")
+    return planted_map, quality_map, turn_count_map
 
 
 def _avg(values):
@@ -228,79 +232,215 @@ def _avg(values):
     return f"{round(sum(values) / len(values), 1)}%"
 
 
-def compare_results(class_results, single_results):
-    planted_map, quality_map = _load_transcript_metadata()
+def _count_early_violations(results: list, turn_count_map: dict) -> int:
+    """Violations flagged at turn <= floor(total_agent_turns / 2)."""
+    count = 0
+    for r in results:
+        cid   = r["call_id"]
+        total = turn_count_map.get(cid, 0)
+        half  = max(1, total // 2)
+        for v in r.get("violations", []):
+            turn_num = v.get("turn")
+            if isinstance(turn_num, int) and turn_num <= half:
+                count += 1
+    return count
 
-    cs_violations = sum(len(r["violations"]) for r in class_results)
-    cs_fp = sum(
-        1 for r in class_results
-        if r["verdict"] == "violation" and len(planted_map.get(r["call_id"], [])) == 0
-    )
-    cs_compliance = [r["score"]["policy_compliance"] for r in class_results if "score" in r]
-    cs_good = [
-        r["score"]["policy_compliance"]
-        for r in class_results
-        if "score" in r and quality_map.get(r["call_id"]) == "good"
-    ]
-    cs_bad = [
-        r["score"]["policy_compliance"]
-        for r in class_results
-        if "score" in r and quality_map.get(r["call_id"]) == "bad"
-    ]
 
-    sf_violations = sum(len(r["violations"]) for r in single_results)
-    sf_fp = sum(
-        1 for r in single_results
-        if r["verdict"] == "violation" and len(planted_map.get(r["call_id"], [])) == 0
-    )
-    sf_compliance = [r["policy_compliance"] for r in single_results]
-    sf_good = [
-        r["policy_compliance"]
-        for r in single_results
-        if quality_map.get(r["call_id"]) == "good"
-    ]
-    sf_bad = [
-        r["policy_compliance"]
-        for r in single_results
-        if quality_map.get(r["call_id"]) == "bad"
-    ]
+def _classification_metrics(results: list, planted_map: dict) -> dict:
+    """Call-level binary classification metrics.
+    TP = flagged violation on a call with planted violations
+    FP = flagged violation on a clean call
+    FN = missed violation on a call with planted violations
+    TN = correctly cleared a clean call
+    """
+    if not results:
+        return {k: "N/A" for k in
+                ["tp", "fp", "fn", "tn",
+                 "precision", "recall", "f1",
+                 "good_acc", "bad_acc"]}
 
-    W, COL = 28, 14
-    divider = "-" * W + "+" + "-" * (COL + 2) + "+" + "-" * (COL + 1)
-    top     = "=" * (W + COL * 2 + 6)
+    tp = fp = fn = tn = 0
+    for r in results:
+        has_violations = len(planted_map.get(r["call_id"], [])) > 0
+        flagged        = r.get("verdict") == "violation"
+        if   flagged     and     has_violations: tp += 1
+        elif flagged     and not has_violations: fp += 1
+        elif not flagged and     has_violations: fn += 1
+        else:                                    tn += 1
 
+    precision = round(tp / (tp + fp), 3) if (tp + fp) > 0 else 0.0
+    recall    = round(tp / (tp + fn), 3) if (tp + fn) > 0 else 0.0
+    f1        = round(2 * precision * recall / (precision + recall), 3) \
+                if (precision + recall) > 0 else 0.0
+    good_acc  = round(tn / (tn + fp), 3) if (tn + fp) > 0 else 0.0
+    bad_acc   = recall  # TP / (TP + FN) — identical formula, clearer name
+
+    return {
+        "tp": tp, "fp": fp, "fn": fn, "tn": tn,
+        "precision": precision, "recall": recall, "f1": f1,
+        "good_acc": good_acc, "bad_acc": bad_acc,
+    }
+
+
+def compare_results(sf_results, su_results, wc_results, cu_results, fs_results):
+    """5-column ablation table — two sections.
+    sf = Single+Call   su = Single+Utterance
+    wc = Class+Call    cu = Class+Utterance (controlled, ground-truth intent)
+    fs = Full System   (segmented pipeline, data/results.json)
+    """
+    planted_map, quality_map, turn_count_map = _load_transcript_metadata()
+
+    def _get_comp(r, use_score_key):
+        if use_score_key:
+            s = r.get("score")
+            return s["policy_compliance"] if isinstance(s, dict) else None
+        return r.get("policy_compliance")
+
+    def _metrics(results, use_score_key=False):
+        violations = sum(len(r.get("violations", [])) for r in results)
+        fp = sum(
+            1 for r in results
+            if r.get("verdict") == "violation"
+            and len(planted_map.get(r["call_id"], [])) == 0
+        )
+        comps  = [(r["call_id"], _get_comp(r, use_score_key)) for r in results]
+        all_c  = [c for _, c in comps if c is not None]
+        good_c = [c for cid, c in comps if c is not None and quality_map.get(cid) == "good"]
+        bad_c  = [c for cid, c in comps if c is not None and quality_map.get(cid) == "bad"]
+        early  = _count_early_violations(results, turn_count_map)
+        return violations, fp, all_c, good_c, bad_c, early
+
+    sf = _metrics(sf_results)
+    su = _metrics(su_results)
+    wc = _metrics(wc_results)
+    cu = _metrics(cu_results)                       # ground-truth intent, flat policy_compliance
+    fs = _metrics(fs_results, use_score_key=True)   # full pipeline, nested score dict
+
+    W, COL = 26, 12
+    sep = "-" * W + ("+" + "-" * (COL + 2)) * 5
+    top = "=" * (W + (COL + 3) * 5)
+
+    # ------------------------------------------------------------------
+    # TABLE 1 — retrieval & compliance metrics (unchanged)
+    # ------------------------------------------------------------------
     print()
     print(top)
-    print("  ABLATION STUDY -- Experiment 1: Index Scope")
-    print(f"  Class-Scoped FAISS ({len(class_results)} calls)  vs  Single FAISS ({len(single_results)} calls)")
+    print("  ABLATION STUDY — 2x2 Controlled + Full System")
+    print("  Table 1: Retrieval & Compliance Metrics")
     print(top)
-    print(f"{'Metric':<{W}}| {'Class-Scoped':>{COL}} | {'Single FAISS':>{COL}}")
-    print(divider)
+    print(
+        f"{'Metric':<{W}}"
+        f"| {'Single+Call':>{COL}} "
+        f"| {'Single+Utt':>{COL}} "
+        f"| {'Class+Call':>{COL}} "
+        f"| {'Class+Utt':>{COL}} "
+        f"| {'Full System':>{COL}}"
+    )
+    print(sep)
 
-    rows = [
-        ("Violations Caught",      cs_violations,       sf_violations),
-        ("False Positives",        cs_fp,               sf_fp),
-        ("Avg Compliance Score",   _avg(cs_compliance), _avg(sf_compliance)),
-        ("Avg Score (good calls)", _avg(cs_good),       _avg(sf_good)),
-        ("Avg Score (bad calls)",  _avg(cs_bad),        _avg(sf_bad)),
+    rows1 = [
+        ("Violations Caught",       sf[0], su[0], wc[0], cu[0], fs[0]),
+        ("False Positives",         sf[1], su[1], wc[1], cu[1], fs[1]),
+        ("Avg Compliance Score",    _avg(sf[2]), _avg(su[2]), _avg(wc[2]), _avg(cu[2]), _avg(fs[2])),
+        ("Avg Score (good calls)",  _avg(sf[3]), _avg(su[3]), _avg(wc[3]), _avg(cu[3]), _avg(fs[3])),
+        ("Avg Score (bad calls)",   _avg(sf[4]), _avg(su[4]), _avg(wc[4]), _avg(cu[4]), _avg(fs[4])),
+        ("Early Violations Caught", sf[5], su[5], wc[5], cu[5], fs[5]),
     ]
-    for label, cs_val, sf_val in rows:
-        print(f"{label:<{W}}| {str(cs_val):>{COL}} | {str(sf_val):>{COL}}")
+    for label, v1, v2, v3, v4, v5 in rows1:
+        print(f"{label:<{W}}| {str(v1):>{COL}} | {str(v2):>{COL}} | {str(v3):>{COL}} | {str(v4):>{COL}} | {str(v5):>{COL}}")
 
     print(top)
     print()
     print("Notes:")
-    print("  Metric = policy_compliance: (clean turns / total turns) x 100")
+    print("  Single+Call  : monolithic FAISS, whole-call query  -> single_faiss_results.json")
+    print("  Single+Utt   : monolithic FAISS, per-utterance query -> single_utterance_results.json")
+    print("  Class+Call   : class-scoped FAISS, whole-call query -> whole_call_results.json")
+    print("  Class+Utt    : class-scoped FAISS, per-utterance query (ground truth) -> class_utterance_results.json")
+    print("  Full System  : class-scoped FAISS, per-utterance query -> data/results.json")
+    print("  Compliance   = (clean turns / total turns) x 100")
     print("  False Positive = violation verdict on a call with no planted violations")
-    print(f"  Good calls n={len(cs_good)} (class-scoped) / {len(sf_good)} (single)")
-    print(f"  Bad  calls n={len(cs_bad)} (class-scoped) / {len(sf_bad)} (single)")
+    print("  Early Violation = flagged at turn <= floor(total_agent_turns / 2)")
+    print("  Full System uses automatic topic segmentation + per-segment classification.")
+    print("  All other columns use ground truth intent labels with no segmentation")
+    print("  -- controlled ablation conditions.")
+    n_good = len(sf[3]) or len(su[3]) or len(wc[3]) or len(cu[3]) or len(fs[3])
+    n_bad  = len(sf[4]) or len(su[4]) or len(wc[4]) or len(cu[4]) or len(fs[4])
+    print(f"  n(good calls) = {n_good}  |  n(bad calls) = {n_bad}")
+
+    # ------------------------------------------------------------------
+    # TABLE 2 — call-level classification metrics
+    # ------------------------------------------------------------------
+    sf_cm = _classification_metrics(sf_results, planted_map)
+    su_cm = _classification_metrics(su_results, planted_map)
+    wc_cm = _classification_metrics(wc_results, planted_map)
+    cu_cm = _classification_metrics(cu_results, planted_map)
+    fs_cm = _classification_metrics(fs_results, planted_map)
+
+    def _f(v):
+        """Format metric value: int -> str, float -> 3 dp, N/A -> N/A."""
+        if v == "N/A":
+            return "N/A"
+        if isinstance(v, int):
+            return str(v)
+        return f"{v:.3f}"
+
+    print()
+    print(top)
+    print("  Table 2: Call-Level Classification Metrics")
+    print(top)
+    print(
+        f"{'Metric':<{W}}"
+        f"| {'Single+Call':>{COL}} "
+        f"| {'Single+Utt':>{COL}} "
+        f"| {'Class+Call':>{COL}} "
+        f"| {'Class+Utt':>{COL}} "
+        f"| {'Full System':>{COL}}"
+    )
+    print(sep)
+
+    rows2 = [
+        ("TP",             sf_cm["tp"],        su_cm["tp"],        wc_cm["tp"],        cu_cm["tp"],        fs_cm["tp"]),
+        ("FP",             sf_cm["fp"],        su_cm["fp"],        wc_cm["fp"],        cu_cm["fp"],        fs_cm["fp"]),
+        ("FN",             sf_cm["fn"],        su_cm["fn"],        wc_cm["fn"],        cu_cm["fn"],        fs_cm["fn"]),
+        ("TN",             sf_cm["tn"],        su_cm["tn"],        wc_cm["tn"],        cu_cm["tn"],        fs_cm["tn"]),
+        ("Precision",      sf_cm["precision"], su_cm["precision"], wc_cm["precision"], cu_cm["precision"], fs_cm["precision"]),
+        ("Recall",         sf_cm["recall"],    su_cm["recall"],    wc_cm["recall"],    cu_cm["recall"],    fs_cm["recall"]),
+        ("F1 Score",       sf_cm["f1"],        su_cm["f1"],        wc_cm["f1"],        cu_cm["f1"],        fs_cm["f1"]),
+        ("Good Call Acc.", sf_cm["good_acc"],  su_cm["good_acc"],  wc_cm["good_acc"],  cu_cm["good_acc"],  fs_cm["good_acc"]),
+        ("Bad Call Acc.",  sf_cm["bad_acc"],   su_cm["bad_acc"],   wc_cm["bad_acc"],   cu_cm["bad_acc"],   fs_cm["bad_acc"]),
+    ]
+    for label, v1, v2, v3, v4, v5 in rows2:
+        print(f"{label:<{W}}| {_f(v1):>{COL}} | {_f(v2):>{COL}} | {_f(v3):>{COL}} | {_f(v4):>{COL}} | {_f(v5):>{COL}}")
+
+    print(top)
+
+    # Summary — best per key metric across all 5 columns
+    col_names = ["Single+Call", "Single+Utt", "Class+Call", "Class+Utt", "Full System"]
+    cms       = [sf_cm, su_cm, wc_cm, cu_cm, fs_cm]
+
+    def _best(key):
+        valid = [(col_names[i], cm[key]) for i, cm in enumerate(cms)
+                 if isinstance(cm[key], float)]
+        if not valid:
+            return "N/A", "N/A"
+        name, val = max(valid, key=lambda x: x[1])
+        return name, f"{val:.3f}"
+
+    bf_name, bf_val = _best("f1")
+    br_name, br_val = _best("recall")
+    bp_name, bp_val = _best("precision")
+
+    print()
+    print(f"  Best F1       : {bf_name} ({bf_val})")
+    print(f"  Best Recall   : {br_name} ({br_val})")
+    print(f"  Best Precision: {bp_name} ({bp_val})")
     print()
 
 
 def main():
     DIVIDER = "=" * 60
     print(DIVIDER)
-    print("  Ablation Study -- Experiment 1: Single FAISS Index")
+    print("  Ablation Study -- Full 2x2 Controlled + Full System")
     print(DIVIDER)
 
     print("\n[1/3] Loading embedding model and Groq client...")
@@ -313,16 +453,42 @@ def main():
     index, policy_map = build_single_index(embedder)
     print(f"      Index size: {index.ntotal} vectors")
 
-    print("\n[3/3] Running evaluation with single FAISS index...")
-    single_results = run_single_faiss_eval(embedder, index, policy_map, client)
+    print("\n[3/3] Running Single+Call evaluation...")
+    sf_results = run_single_faiss_eval(embedder, index, policy_map, client)
 
-    print("\nLoading class-scoped results from data/results.json...")
-    if not CLASS_RESULTS_PATH.exists():
-        print("ERROR: data/results.json not found. Run main.py first.")
-        return
-    class_results = json.loads(CLASS_RESULTS_PATH.read_text(encoding="utf-8"))
+    su_results, wc_results, cu_results, fs_results = [], [], [], []
+    missing = []
 
-    compare_results(class_results, single_results)
+    if SINGLE_UTT_PATH.exists():
+        su_results = json.loads(SINGLE_UTT_PATH.read_text(encoding="utf-8"))
+        print(f"\nLoaded Single+Utterance results ({len(su_results)} calls)")
+    else:
+        missing.append(f"  Single+Utt  : run ablation_single_utterance.py -> {SINGLE_UTT_PATH}")
+
+    if WHOLE_RESULTS_PATH.exists():
+        wc_results = json.loads(WHOLE_RESULTS_PATH.read_text(encoding="utf-8"))
+        print(f"Loaded Class+Call results ({len(wc_results)} calls)")
+    else:
+        missing.append(f"  Class+Call  : run ablation_whole_call.py -> {WHOLE_RESULTS_PATH}")
+
+    if CLASS_UTT_PATH.exists():
+        cu_results = json.loads(CLASS_UTT_PATH.read_text(encoding="utf-8"))
+        print(f"Loaded Class+Utterance (controlled) results ({len(cu_results)} calls)")
+    else:
+        missing.append(f"  Class+Utt   : run ablation_class_utterance.py -> {CLASS_UTT_PATH}")
+
+    if CLASS_RESULTS_PATH.exists():
+        fs_results = json.loads(CLASS_RESULTS_PATH.read_text(encoding="utf-8"))
+        print(f"Loaded Full System results ({len(fs_results)} calls)")
+    else:
+        missing.append(f"  Full System : run main.py -> {CLASS_RESULTS_PATH}")
+
+    if missing:
+        print("\n[WARNING] Missing result files -- those columns will show N/A:")
+        for m in missing:
+            print(m)
+
+    compare_results(sf_results, su_results, wc_results, cu_results, fs_results)
 
 
 if __name__ == "__main__":
