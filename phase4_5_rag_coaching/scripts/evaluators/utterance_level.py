@@ -7,7 +7,9 @@ import time
 
 from config import GROQ_EXPERIMENT_MODEL as GROQ_MODEL
 
-def evaluate(utterances: list[dict], fine_label: str, policies_text: str, client) -> dict:
+def evaluate(utterances: list[dict], fine_label: str, policies_text: str, client, model=None) -> dict:
+    if model is None:
+        model = GROQ_MODEL
     """
     Evaluates the conversation utterance by utterance by sending each 
     customer-agent pair to the Groq LLM model.
@@ -62,7 +64,7 @@ def evaluate(utterances: list[dict], fine_label: str, policies_text: str, client
         for attempt in range(1, 10):
             try:
                 response = client.chat.completions.create(
-                    model=GROQ_MODEL,
+                    model=model,
                     messages=[{"role": "user", "content": prompt}],
                     temperature=0.1,
                     max_tokens=500,

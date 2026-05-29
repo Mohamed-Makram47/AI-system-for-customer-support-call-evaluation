@@ -12,10 +12,10 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 import faiss
 import numpy as np
-from groq import Groq
+from openai import OpenAI
 from sentence_transformers import SentenceTransformer
 
-from config import GROQ_API_KEY, EMBEDDING_MODEL
+from config import OPENROUTER_API_KEY, OPENROUTER_BASE_URL, EMBEDDING_MODEL
 from scripts.transcripts import TRANSCRIPTS
 from src.classifier import ClassifierPipeline
 from scripts.retrievers import single_faiss
@@ -45,7 +45,10 @@ def main():
 
     # Load components
     embedder   = SentenceTransformer(EMBEDDING_MODEL)
-    client     = Groq(api_key=GROQ_API_KEY)
+    client = OpenAI(
+        api_key=OPENROUTER_API_KEY,
+        base_url=OPENROUTER_BASE_URL,
+    )
     classifier = ClassifierPipeline()
 
     total_violations = 0
@@ -68,7 +71,8 @@ def main():
 
         # 2) Evaluate using utterance-level
         result = utterance_level.evaluate(
-            utterances, predicted_label, policies, client
+            utterances, predicted_label, policies, client,
+            model="meta-llama/llama-4-scout-17b-16e-instruct"
         )
 
         verdict_display = result.get("verdict", "ERROR").upper()

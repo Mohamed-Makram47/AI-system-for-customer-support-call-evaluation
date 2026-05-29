@@ -9,9 +9,8 @@ from pathlib import Path
 # Adjust system path to import modules from parent directory
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from groq import Groq
-
-from config import GROQ_API_KEY
+from openai import OpenAI
+from config import OPENROUTER_API_KEY, OPENROUTER_BASE_URL
 from scripts.transcripts import TRANSCRIPTS
 from src.classifier import ClassifierPipeline
 from scripts.retrievers import class_scoped
@@ -29,7 +28,10 @@ def main():
     print(DIVIDER)
 
     # Load components
-    client     = Groq(api_key=GROQ_API_KEY)
+    client = OpenAI(
+        api_key=OPENROUTER_API_KEY,
+        base_url=OPENROUTER_BASE_URL,
+    )
     classifier = ClassifierPipeline()
 
     total_violations = 0
@@ -51,7 +53,8 @@ def main():
 
         # 2) Evaluate using utterance-level
         result = utterance_level.evaluate(
-            utterances, predicted_label, policies, client
+            utterances, predicted_label, policies, client,
+            model="meta-llama/llama-4-scout-17b-16e-instruct"
         )
 
         verdict_display = result.get("verdict", "ERROR").upper()
