@@ -4,7 +4,7 @@ Reusable call-level evaluation function.
 import json
 import time
 
-from config import GROQ_MODEL
+from config import GROQ_EXPERIMENT_MODEL as GROQ_MODEL
 
 def evaluate(utterances, fine_label, policies_text, client):
     """

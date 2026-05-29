@@ -5,7 +5,7 @@ Evaluates each customer+agent turn pair individually, then aggregates.
 import json
 import time
 
-from config import GROQ_MODEL
+from config import GROQ_EXPERIMENT_MODEL as GROQ_MODEL
 
 def evaluate(utterances: list[dict], fine_label: str, policies_text: str, client) -> dict:
     """
