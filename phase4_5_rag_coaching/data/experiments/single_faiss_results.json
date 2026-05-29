@@ -1,0 +1,1204 @@
+[
+  {
+    "call_id": "balance_not_updated_ambiguous_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 7,
+        "violated_policy": "24-48 hours to confirm that the transfer has been processed and the balance has been updated",
+        "evidence": "The agent did not provide a clear timeframe for the transfer to be processed and did not offer to check on the status or escalate the issue.",
+        "reason": "The agent did not follow the policy to provide a clear timeframe for resolution."
+      }
+    ],
+    "overall_summary": "The agent failed to provide a clear resolution or follow-up plan for the customer's issue with their transfer not being reflected in their balance.",
+    "rules_retrieved": 1
+  },
+  {
+    "call_id": "balance_not_updated_bad_1",
+    "fine_label_predicted": "balance_not_updated_after_cheque_or_cash_deposit",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 3,
+        "violated_policy": "Acknowledge and Empathize",
+        "evidence": "The agent did not acknowledge the customer's concern or express empathy.",
+        "reason": "The agent's response was dismissive and did not address the customer's concern."
+      },
+      {
+        "turn": 5,
+        "violated_policy": "Check Transfer Processing Times",
+        "evidence": "The agent did not provide clear information about the processing times for the transfer.",
+        "reason": "The agent's response was vague and did not provide specific information about the processing times."
+      },
+      {
+        "turn": 7,
+        "violated_policy": "Verify Transfer Details",
+        "evidence": "The agent did not request or verify the customer's transfer details.",
+        "reason": "The agent did not ask for any details about the transfer."
+      },
+      {
+        "turn": 11,
+        "violated_policy": "Investigate and Provide Status Update",
+        "evidence": "The agent did not investigate the status of the deposit or provide a clear update.",
+        "reason": "The agent simply told the customer to wait without providing any further information."
+      }
+    ],
+    "overall_summary": "The agent failed to acknowledge the customer's concern, provide clear information about processing times, verify transfer details, and investigate the status of the deposit, leading to an unresolved issue.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "balance_not_updated_good_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent effectively resolved the customer's issue by verifying transfer details, checking processing times, and providing a clear next step, resulting in a satisfactory outcome.",
+    "rules_retrieved": 2
+  },
+  {
+    "call_id": "balance_not_updated_good_2",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent effectively resolved the customer's issue with their incoming transfer, providing clear explanations and a clear next step if the issue persists.",
+    "rules_retrieved": 0
+  },
+  {
+    "call_id": "balance_not_updated_incomplete_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 9,
+        "violated_policy": "Verify Transfer Details, Check Transfer Status, Provide Estimated Timeframes",
+        "evidence": "The agent did not verify transfer details, check transfer status, or provide estimated timeframes.",
+        "reason": "The agent did not take sufficient steps to investigate the issue and provide a resolution before transferring the customer to the transfers team."
+      },
+      {
+        "turn": 7,
+        "violated_policy": "Provide Resolution or Escalation",
+        "evidence": "The agent escalated the issue to the transfers team without providing a resolution or estimated timeframe.",
+        "reason": "The agent did not provide a sufficient resolution or escalation path before transferring the customer."
+      }
+    ],
+    "overall_summary": "The agent did not adequately investigate the customer's issue or provide a sufficient resolution before transferring them to a specialized team, potentially leading to a longer resolution time for the customer.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "balance_not_updated_noise_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent effectively resolved the customer's issue by verifying the incoming transfer and providing a clear resolution, assuring the customer that the transfer will clear in time to cover the direct debit.",
+    "rules_retrieved": 0
+  },
+  {
+    "call_id": "balance_not_updated_recovery_2",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "The agent initially suggested an issue with the BACS payment but quickly corrected it, providing a clear explanation and resolving the customer's concern.",
+    "violations": [
+      {
+        "turn": 5,
+        "violated_policy": "Accurate Information",
+        "evidence": "The agent suggested an issue with the BACS payment",
+        "reason": "The agent made an incorrect assumption about the payment issue"
+      }
+    ],
+    "overall_summary": "The agent effectively resolved the customer's concern, provided clear information, and recovered from an initial incorrect assumption.",
+    "rules_retrieved": 0
+  },
+  {
+    "call_id": "balance_not_updated_recovery_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "The agent initially failed to empathize with the customer but recovered by apologizing and providing a clear explanation.",
+    "violations": [
+      {
+        "turn": 2,
+        "violated_policy": "Acknowledge and Empathize",
+        "evidence": "The agent did not acknowledge or empathize with the customer's concern in their initial response.",
+        "reason": "The agent's initial response was neutral and did not acknowledge the customer's concern."
+      }
+    ],
+    "overall_summary": "The agent recovered from an initial mistake and provided a clear explanation and resolution to the customer's issue, resulting in a satisfactory outcome.",
+    "rules_retrieved": 2
+  },
+  {
+    "call_id": "cancel_transfer_ambiguous_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "The agent took initiative to log the issue and provided a clear next step for the customer.",
+    "violations": [],
+    "overall_summary": "The agent handled the call professionally, taking steps to address the customer's concern about a misdirected payment, although the issue remained unresolved at the end of the call.",
+    "rules_retrieved": 0
+  },
+  {
+    "call_id": "cancel_transfer_bad_1",
+    "fine_label_predicted": "cancel_transfer",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 3,
+        "violated_policy": "Rule 1: Acknowledge and Empathize",
+        "evidence": "The agent did not acknowledge the customer's concern or express empathy for the mistake.",
+        "reason": "The agent's response was abrupt and did not show understanding for the customer's situation."
+      },
+      {
+        "turn": 3,
+        "violated_policy": "Rule 2: Verify Transaction Details",
+        "evidence": "The agent did not verify the transaction details with the customer.",
+        "reason": "The agent did not ask for or confirm the transaction details, such as date, amount, or recipient account information."
+      },
+      {
+        "turn": 3,
+        "violated_policy": "Rule 3: Check Transfer Status",
+        "evidence": "The agent did not check the status of the transfer.",
+        "reason": "Although the agent mentioned that the transfer had processed, it was not clear if they checked the status thoroughly."
+      },
+      {
+        "turn": 7,
+        "violated_policy": "Rule 4: Follow Established Reversal Procedures",
+        "evidence": "The agent did not follow established procedures for reversing or canceling transfers.",
+        "reason": "The agent did not offer to raise a recall or follow any established procedures for canceling a transfer."
+      },
+      {
+        "turn": 9,
+        "violated_policy": "Rule 5: Communicate Clearly and Transparently",
+        "evidence": "The agent did not communicate clearly and transparently with the customer about the outcome.",
+        "reason": "The agent's response was dismissive and did not provide a clear explanation of what can or cannot be done to cancel or reverse the transfer."
+      }
+    ],
+    "overall_summary": "The agent failed to provide a satisfactory resolution to the customer's issue, not following established procedures for handling transfer cancellations and not communicating clearly and transparently with the customer.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "cancel_transfer_good_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "The agent provided a clear resolution and escalation path for the customer.",
+    "violations": [],
+    "overall_summary": "The agent effectively handled the customer's urgent request to recall a mistaken transfer, providing a clear resolution and next steps.",
+    "rules_retrieved": 2
+  },
+  {
+    "call_id": "cancel_transfer_good_2",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent effectively handled the customer's issue, providing a clear resolution and reassurance, and ensured the customer that the funds would be returned within 48 hours.",
+    "rules_retrieved": 0
+  },
+  {
+    "call_id": "cancel_transfer_incomplete_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 2,
+        "violated_policy": "Rule 1: Acknowledge and Empathize",
+        "evidence": "The agent did not explicitly acknowledge or empathize with the customer's concern.",
+        "reason": "The agent's response was brief and did not show empathy."
+      },
+      {
+        "turn": 3,
+        "violated_policy": "Rule 2: Verify Transaction Details",
+        "evidence": "The agent did not verify the transaction details, such as date, amount, and recipient account information.",
+        "reason": "The agent only asked for the customer's name."
+      },
+      {
+        "turn": 5,
+        "violated_policy": "Rule 3: Check Transfer Status",
+        "evidence": "Although the agent claimed to have looked at the transfer, it was unclear if they checked the status.",
+        "reason": "The agent did not explicitly state the status of the transfer."
+      }
+    ],
+    "overall_summary": "The agent's performance was inadequate as they failed to acknowledge and empathize with the customer, verify transaction details, and clearly check the transfer status, ultimately not providing a clear resolution to the customer's urgent issue.",
+    "rules_retrieved": 1
+  },
+  {
+    "call_id": "cancel_transfer_noise_1",
+    "fine_label_predicted": "cancel_transfer",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent successfully assisted the customer in recalling a transfer with an incorrect account number and provided clear information on the next steps and expected outcome.",
+    "rules_retrieved": 0
+  },
+  {
+    "call_id": "cancel_transfer_recovery_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "The agent successfully raised a recall request and provided additional guidance for the customer to expedite recovery.",
+    "violations": [],
+    "overall_summary": "The agent initially missed an opportunity to offer a recall request but quickly corrected the mistake, ultimately providing a satisfactory outcome for the customer.",
+    "rules_retrieved": 0
+  },
+  {
+    "call_id": "cancel_transfer_recovery_2",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "The agent initially failed to mention the recall request option but quickly corrected it and successfully raised the recall request.",
+    "violations": [
+      {
+        "turn": 5,
+        "violated_policy": "not informing customer about recall request option",
+        "evidence": "The agent didn't mention recall request option initially",
+        "reason": "The agent provided incomplete information initially"
+      }
+    ],
+    "overall_summary": "The agent provided a successful outcome to the customer's issue, correcting an initial mistake and following through with the recall request.",
+    "rules_retrieved": 0
+  },
+  {
+    "call_id": "card_arrival_ambiguous_1",
+    "fine_label_predicted": "card_arrival",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 7,
+        "violated_policy": "Provide Estimated Delivery Timeframe",
+        "evidence": "The agent did not provide an estimated delivery timeframe.",
+        "reason": "The agent only mentioned that the card was dispatched and that it 'probably' was still in the post, without providing a specific timeframe."
+      },
+      {
+        "turn": 9,
+        "violated_policy": "Offer Assistance with Tracking or Replacement",
+        "evidence": "The agent did not offer to assist with tracking or provide information on how to track the package.",
+        "reason": "The agent simply stated that they don't offer tracking on standard card deliveries."
+      },
+      {
+        "turn": 1,
+        "violated_policy": "Acknowledge and Empathize",
+        "evidence": "The agent did not acknowledge the customer's concern or express empathy.",
+        "reason": "The agent's initial response was a standard greeting without acknowledging the customer's issue."
+      }
+    ],
+    "overall_summary": "The agent failed to provide an estimated delivery timeframe, offer assistance with tracking or replacement, and acknowledge the customer's concern, leading to an unresolved violation.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "card_arrival_bad_1",
+    "fine_label_predicted": "card_arrival",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 3,
+        "violated_policy": "Provide Estimated Delivery Timeframe",
+        "evidence": "The agent stated 'Cards usually take two to three weeks' which is not a specific enough timeframe and not in line with the policy of 7-10 business days.",
+        "reason": "The agent did not provide a clear estimated delivery timeframe based on the card status."
+      },
+      {
+        "turn": 5,
+        "violated_policy": "Acknowledge and Empathize",
+        "evidence": "The agent did not acknowledge the customer's concern or express empathy for the inconvenience caused by the delay.",
+        "reason": "The agent did not show understanding or empathy for the customer's frustration."
+      },
+      {
+        "turn": 6,
+        "violated_policy": "Check Card Status",
+        "evidence": "The agent did not check the status of the card shipment using the customer's account information and internal systems.",
+        "reason": "The agent did not attempt to look up the card status to determine if it had been mailed and when."
+      },
+      {
+        "turn": 7,
+        "violated_policy": "Offer Assistance with Tracking or Replacement",
+        "evidence": "The agent told the customer to go to a branch to check the address, rather than offering to assist with tracking or providing information on how to track the package.",
+        "reason": "The agent did not offer assistance with tracking or replacement."
+      }
+    ],
+    "overall_summary": "The agent failed to follow policies for handling card arrival issues, including not providing a clear estimated delivery timeframe, not acknowledging and empathizing with the customer, not checking the card status, and not offering assistance with tracking or replacement.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "card_arrival_bad_2",
+    "fine_label_predicted": "card_arrival",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 2,
+        "violated_policy": "Acknowledge and Empathize",
+        "evidence": "The agent did not acknowledge the customer's concern or express empathy.",
+        "reason": "The agent's response was neutral and did not show understanding or apology for the customer's frustration."
+      },
+      {
+        "turn": 7,
+        "violated_policy": "Check Card Status",
+        "evidence": "The agent only stated that the card system shows it was sent, but did not provide detailed information about when it was sent or where it was sent.",
+        "reason": "The agent did not thoroughly investigate the card status to provide a clear answer to the customer."
+      },
+      {
+        "turn": 9,
+        "violated_policy": "Acknowledge and Empathize",
+        "evidence": "The agent responded with 'These things get delayed all the time, not our problem', which shows a lack of empathy and ownership.",
+        "reason": "The agent's response came across as dismissive and unhelpful."
+      },
+      {
+        "turn": 13,
+        "violated_policy": "Acknowledge and Empathize",
+        "evidence": "The agent did not offer any further assistance or alternatives, and simply stated the rules.",
+        "reason": "The agent did not provide a resolution or show willingness to help the customer."
+      }
+    ],
+    "overall_summary": "The agent failed to acknowledge and empathize with the customer's concern, did not thoroughly investigate the card status, and provided unhelpful responses throughout the call.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "card_arrival_good_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent provided excellent service, resolving the customer's concern about a delayed card arrival by verifying the shipment status, confirming the correct address, and offering a follow-up plan.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "card_arrival_good_2",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent provided excellent service, resolving the customer's concern about a delayed card arrival in a timely and empathetic manner.",
+    "rules_retrieved": 3
+  },
+  {
+    "call_id": "card_arrival_incomplete_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 9,
+        "violated_policy": "Acknowledge and Empathize",
+        "evidence": "The agent did not acknowledge the customer's concern or express empathy for the delay.",
+        "reason": "The agent did not provide a clear acknowledgement or empathy statement."
+      },
+      {
+        "turn": 11,
+        "violated_policy": "Provide Estimated Delivery Timeframe",
+        "evidence": "The agent did not provide an estimated delivery timeframe or any tracking information.",
+        "reason": "The agent transferred the customer without providing any additional information."
+      },
+      {
+        "turn": 11,
+        "violated_policy": "Offer Assistance with Tracking or Replacement",
+        "evidence": "The agent did not offer to assist with tracking the package or provide information on how to track the package.",
+        "reason": "The agent transferred the customer without providing any additional assistance."
+      },
+      {
+        "turn": 11,
+        "violated_policy": "Explain the card delivery process",
+        "evidence": "The agent did not explain the card delivery process or provide any shipping information.",
+        "reason": "The agent transferred the customer without providing any additional information."
+      },
+      {
+        "turn": 11,
+        "violated_policy": "Offer Alternative Solutions (if applicable)",
+        "evidence": "The agent did not offer any alternative solutions or options for receiving a physical card.",
+        "reason": "The agent transferred the customer without providing any additional assistance."
+      }
+    ],
+    "overall_summary": "The agent failed to follow the required policies for handling card arrival issues, specifically in acknowledging and empathizing with the customer, providing an estimated delivery timeframe, offering assistance with tracking or replacement, explaining the card delivery process, and offering alternative solutions.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "card_arrival_noise_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent effectively resolved the customer's issue with their bank card not arriving, provided a clear explanation of the status, and offered a solution for a replacement if needed, demonstrating a good understanding of the customer's concern and providing a satisfactory outcome.",
+    "rules_retrieved": 0
+  },
+  {
+    "call_id": "card_arrival_recovery_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent provided a satisfactory resolution to the customer's issue, verifying their identity, checking the card status, and providing a clear estimated delivery timeframe, as well as offering a solution if the card doesn't arrive by the expected date.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "card_blocked_ambiguous_1",
+    "fine_label_predicted": "card_not_working",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 5,
+        "violated_policy": "Verify Card Status",
+        "evidence": "The agent only mentioned a 'flag' on the card without explicitly checking the card status",
+        "reason": "The agent did not clearly verify the card status"
+      },
+      {
+        "turn": 7,
+        "violated_policy": "Gather Error Information",
+        "evidence": "The agent did not ask for specific details about the error",
+        "reason": "The agent did not gather sufficient error information"
+      },
+      {
+        "turn": 9,
+        "violated_policy": "Escalate to Specialist if Necessary",
+        "evidence": "The agent mentioned escalating but did not provide clear next steps",
+        "reason": "The agent did not properly escalate the issue"
+      }
+    ],
+    "overall_summary": "The agent did not fully resolve the customer's issue with their card not working and did not follow all necessary policies for handling card_not_working issues.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "card_blocked_ambiguous_2",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "The agent successfully addressed the customer's issue by submitting a request to remove the flag on their card.",
+    "violations": [],
+    "overall_summary": "The agent effectively handled the customer's concern about their blocked card by verifying the card status, providing information about the temporary restriction, and submitting a request to lift the flag, allowing the customer to use their card within a short timeframe.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "card_blocked_bad_1",
+    "fine_label_predicted": "contactless_not_working",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 5,
+        "violated_policy": "Verify Customer's Card Details",
+        "evidence": "The agent did not verify the customer's card details, including the card number, expiration date, and PIN.",
+        "reason": "The agent jumped to the conclusion that the card had stopped working and suggested the customer come into a branch."
+      },
+      {
+        "turn": 5,
+        "violated_policy": "Check for Card Block or Suspension",
+        "evidence": "The agent did not check if the customer's card had been blocked or suspended due to suspicious activity.",
+        "reason": "The agent did not investigate the cause of the card not working."
+      },
+      {
+        "turn": 7,
+        "violated_policy": "Troubleshooting Steps",
+        "evidence": "The agent did not walk the customer through basic troubleshooting steps, such as checking if the terminal was contactless-enabled.",
+        "reason": "The agent dismissed the customer's attempts to troubleshoot and suggested coming into a branch."
+      },
+      {
+        "turn": 9,
+        "violated_policy": "Escalation to Specialist if Necessary",
+        "evidence": "The agent did not escalate the issue to a specialist or technical support team.",
+        "reason": "The agent did not take further action to resolve the issue."
+      }
+    ],
+    "overall_summary": "The agent failed to adequately troubleshoot and resolve the customer's issue with their contactless card, instead suggesting they come into a branch without further investigation.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "card_blocked_good_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent effectively resolved the customer's issue with their declined card by identifying the cause, removing the fraud hold, and adding a travel note to prevent future issues.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "card_blocked_incomplete_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 2,
+        "violated_policy": "Acknowledge and Empathize",
+        "evidence": "The agent did not explicitly acknowledge and empathize with the customer's concern",
+        "reason": "The agent did not use a phrase similar to 'I understand that it's frustrating to have your card blocked, and I'm here to help.'"
+      }
+    ],
+    "overall_summary": "The agent handled the call efficiently but failed to provide a clear acknowledgement and empathy statement to the customer.",
+    "rules_retrieved": 1
+  },
+  {
+    "call_id": "card_blocked_noise_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent effectively resolved the customer's issue with their card being declined, verified the transactions, lifted the fraud hold, and added a geographic travel note to prevent future issues.",
+    "rules_retrieved": 0
+  },
+  {
+    "call_id": "card_blocked_recovery_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 2,
+        "violated_policy": "Rule 1: Acknowledge and Apologize",
+        "evidence": "The agent did not acknowledge the customer's frustration and apologize for the inconvenience caused by the declined card payment in their initial response.",
+        "reason": "The agent's initial response was standard, but did not express empathy or apology."
+      }
+    ],
+    "overall_summary": "The agent effectively resolved the customer's issue with their declined debit card, but initially missed acknowledging and apologizing for the customer's frustration.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "disputed_charge_bad_1",
+    "fine_label_predicted": "direct_debit_payment_not_recognised",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 1,
+        "violated_policy": "Verify Customer Identity",
+        "evidence": "The agent did not verify the customer's identity before assisting them.",
+        "reason": "The agent did not ask for the customer's name, account number, or other security questions to ensure they were speaking with the account holder."
+      },
+      {
+        "turn": 5,
+        "violated_policy": "Check for Authorized Direct Debits",
+        "evidence": "The agent did not check if there were any authorized direct debits set up on the customer's account.",
+        "reason": "The agent only mentioned that the payment went through normally with no flags, but did not investigate further to see if the customer had authorized the direct debit."
+      },
+      {
+        "turn": 9,
+        "violated_policy": "Initiate Dispute Process",
+        "evidence": "The agent did not initiate the dispute process immediately.",
+        "reason": "The agent told the customer that they would need to send a paper form, which takes up to ten working days to arrive, or go into a branch, instead of offering to assist with the dispute over the phone."
+      },
+      {
+        "turn": 11,
+        "violated_policy": "Provide Next Steps and Escalation",
+        "evidence": "The agent did not provide clear next steps or escalation paths to the customer.",
+        "reason": "The agent simply stated that they could not assist with the dispute over the phone and that it was their process, without offering any alternatives or explanations."
+      }
+    ],
+    "overall_summary": "The agent failed to follow the required policies for handling the issue type 'direct_debit_payment_not_recognised', resulting in an unresolved violation at the end of the call.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "disputed_charge_bad_2",
+    "fine_label_predicted": "extra_charge_on_statement",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 7,
+        "violated_policy": "Rule 3: Investigate and Explain the Charge",
+        "evidence": "The agent provided a generic explanation about delayed billing from travel companies without investigating further.",
+        "reason": "The agent did not provide a clear explanation for the charge."
+      },
+      {
+        "turn": 11,
+        "violated_policy": "Rule 1: Acknowledge and Apologize",
+        "evidence": "The agent did not apologize for the inconvenience caused by the unexplained charge.",
+        "reason": "The agent did not acknowledge and apologize for the customer's concern."
+      },
+      {
+        "turn": 11,
+        "violated_policy": "Rule 4: Refund or Reverse if Unauthorized",
+        "evidence": "The agent did not offer to refund or reverse the charge despite the customer's dispute.",
+        "reason": "The agent did not take action to resolve the issue."
+      },
+      {
+        "turn": 13,
+        "violated_policy": "Rule 5: Document and Escalate if Necessary",
+        "evidence": "The agent did not document or escalate the issue, instead ended the call.",
+        "reason": "The agent did not properly document or escalate the issue."
+      }
+    ],
+    "overall_summary": "The agent failed to properly investigate, apologize, and resolve the customer's dispute regarding the unauthorized charge.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "disputed_charge_good_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent efficiently handled the customer's concern, promptly raised a dispute, and provided clear instructions on the investigation process, resulting in a satisfactory outcome.",
+    "rules_retrieved": 0
+  },
+  {
+    "call_id": "disputed_charge_good_2",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent provided a satisfactory resolution to the customer's concern about an unfamiliar payment, demonstrating empathy and following the required procedures.",
+    "rules_retrieved": 1
+  },
+  {
+    "call_id": "disputed_charge_incomplete_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent handled the call professionally, resolving the customer's concern by transferring them to the disputes team, and provided a clear explanation of the potential wait.",
+    "rules_retrieved": 1
+  },
+  {
+    "call_id": "disputed_charge_noise_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent effectively resolved the customer's issue by raising a dispute, provisionally refunding the charge, and offering to block the card and replace it, resulting in a satisfactory outcome for the customer.",
+    "rules_retrieved": 0
+  },
+  {
+    "call_id": "disputed_charge_recovery_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "The agent corrected the procedural error by re-verifying the customer's identity before proceeding with the account details.",
+    "violations": [
+      {
+        "turn": 5,
+        "violated_policy": "Verification of Customer Identity",
+        "evidence": "The agent accessed account details before verifying the customer's identity.",
+        "reason": "The agent initially failed to verify the customer's identity before accessing account details, but quickly corrected the mistake."
+      }
+    ],
+    "overall_summary": "The agent effectively resolved the customer's issue, provided a provisional refund, and corrected an initial procedural error, resulting in a satisfactory outcome.",
+    "rules_retrieved": 0
+  },
+  {
+    "call_id": "card_blocked_good_2",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent effectively resolved the customer's issue with their blocked card, provided a temporary solution with Google Pay, and ensured a new card would be sent promptly.",
+    "rules_retrieved": 4
+  },
+  {
+    "call_id": "failed_card_payment_ambiguous_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "The agent attempted a system refresh which may resolve the issue.",
+    "violations": [
+      {
+        "turn": 5,
+        "violated_policy": "Review Account Restrictions and Holds",
+        "evidence": "The agent did not explicitly review account restrictions or holds.",
+        "reason": "The agent did not thoroughly investigate potential restrictions or holds on the account."
+      },
+      {
+        "turn": 9,
+        "violated_policy": "Escalate to Specialist if Necessary",
+        "evidence": "The agent did not escalate the issue to a specialist despite being unsure of the cause.",
+        "reason": "The agent did not consider escalating the issue to a specialist for further investigation."
+      }
+    ],
+    "overall_summary": "The agent attempted basic troubleshooting steps and a system refresh, but did not thoroughly investigate potential account restrictions or consider escalating the issue to a specialist.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "failed_card_payment_bad_1",
+    "fine_label_predicted": "declined_transfer",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 2,
+        "violated_policy": "Acknowledge and Apologize",
+        "evidence": "The agent did not acknowledge the customer's frustration or apologize for the inconvenience",
+        "reason": "The agent did not show empathy or a customer-centric approach"
+      },
+      {
+        "turn": 3,
+        "violated_policy": "Gather Transaction Details",
+        "evidence": "The agent did not request or gather relevant transaction details from the customer",
+        "reason": "The agent did not ask for specific details about the declined transactions"
+      },
+      {
+        "turn": 11,
+        "violated_policy": "Rule 4: Provide Clear Explanation and Resolution",
+        "evidence": "The agent did not provide a clear explanation or resolution and simply stated 'I don't see anything I can fix. Sorry.'",
+        "reason": "The agent did not offer any further assistance or alternatives"
+      }
+    ],
+    "overall_summary": "The agent failed to acknowledge the customer's frustration, gather transaction details, and provide a clear explanation and resolution, leading to an unresolved issue.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "failed_card_payment_bad_2",
+    "fine_label_predicted": "neutral",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 7,
+        "violated_policy": "Verify Card Status",
+        "evidence": "The agent did not check the customer's card status in the banking system",
+        "reason": "The agent jumped to the conclusion that the recipient's account was the problem without verifying the card status"
+      },
+      {
+        "turn": 11,
+        "violated_policy": "Troubleshoot Common Issues",
+        "evidence": "The agent did not troubleshoot common issues that may be causing the card to not work",
+        "reason": "The agent simply told the customer to try again in a few hours without providing any additional assistance"
+      }
+    ],
+    "overall_summary": "The agent failed to adequately verify the customer's card status and troubleshoot common issues, leading to an unresolved issue at the end of the call.",
+    "rules_retrieved": 3
+  },
+  {
+    "call_id": "failed_card_payment_good_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent provided a clear explanation and resolution to the customer's issue, empathized with their frustration, and ensured that their card and account were fine, effectively resolving the issue.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "failed_card_payment_good_2",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent effectively resolved the customer's issue with their card being declined for an international online purchase by identifying the cause, whitelisting international e-commerce for the account, and providing additional recommendations for security.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "failed_card_payment_incomplete_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "The agent recovered by escalating the issue to the card security team and providing a reasonable explanation for the transfer.",
+    "violations": [
+      {
+        "turn": 5,
+        "violated_policy": "If the customer's card activation issue cannot be resolved through troubleshooting or guidance, the agent must escalate the issue to a senior agent or a specialized card support team, and provide the customer with a reference number or a callback option for further assistance.",
+        "evidence": "The agent did not provide a reference number immediately, but rather stated that 'They'll generate one.'",
+        "reason": "The agent did not fully comply with the policy, but the issue was escalated and a reference number was promised."
+      },
+      {
+        "turn": 1,
+        "violated_policy": "Rule 1: Acknowledge and Empathize",
+        "evidence": "The agent did not acknowledge the customer's concern or express empathy in their initial response.",
+        "reason": "The agent's initial response was a standard greeting, but did not acknowledge the customer's urgent situation."
+      }
+    ],
+    "overall_summary": "The agent effectively escalated the issue to the card security team, but could have provided a more empathetic initial response and clearer guidance on the reference number.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "failed_card_payment_noise_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent effectively resolved the customer's issues with their debit card, resetting the contactless limit and updating the email address for 3D Secure verification, and ensured both problems were resolved by the end of the call.",
+    "rules_retrieved": 0
+  },
+  {
+    "call_id": "failed_card_payment_recovery_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent effectively resolved the customer's issue with their declined card by identifying the root cause, updating their mobile number, and providing a clear explanation, ensuring a successful outcome.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "disputed_charge_ambiguous_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 7,
+        "violated_policy": "Provide Refund or Credit, if Applicable",
+        "evidence": "The agent did not provide a refund or credit to the customer's account.",
+        "reason": "The agent mentioned that a refund would depend on the merchant's policy and suggested the customer raise it with them directly."
+      },
+      {
+        "turn": 11,
+        "violated_policy": "Escalate if Necessary",
+        "evidence": "The agent did not escalate the case to a senior agent or a specialized refund team.",
+        "reason": "The agent only noted a dispute and did not take further action to ensure a resolution."
+      }
+    ],
+    "overall_summary": "The agent's performance was inadequate as they failed to provide a refund or credit to the customer's account and did not escalate the case to a senior agent or a specialized refund team.",
+    "rules_retrieved": 2
+  },
+  {
+    "call_id": "transfer_not_received_bad_2",
+    "fine_label_predicted": "neutral",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 3,
+        "violated_policy": "g.",
+        "evidence": "The agent did not acknowledge the customer's concern or express empathy in their initial response.",
+        "reason": "The agent's initial response was 'Who are you?' which did not address the customer's concern."
+      },
+      {
+        "turn": 7,
+        "violated_policy": "g.",
+        "evidence": "The agent told the customer to wait a few more days without offering to investigate further or provide additional assistance.",
+        "reason": "The agent did not offer to investigate further or provide additional assistance when the customer reported a payment that was sent three days ago had not been received."
+      },
+      {
+        "turn": 13,
+        "violated_policy": "Rule 1: Acknowledge and Empathize",
+        "evidence": "The agent's final response was 'Sorry, not much else I can do.' which did not provide a clear resolution or next steps.",
+        "reason": "The agent did not provide a clear resolution or next steps, and their final response seemed dismissive of the customer's concerns."
+      }
+    ],
+    "overall_summary": "The agent's performance was inadequate as they failed to acknowledge and empathize with the customer's concern, did not investigate further, and provided a dismissive final response.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "transfer_not_received_ambiguous_1",
+    "fine_label_predicted": "transfer_not_received_by_recipient",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 7,
+        "violated_policy": "Provide Estimated Timeframes",
+        "evidence": "The agent mentioned 24-48 hours, but didn't provide a clear update on the status of the transfer or confirm if it was processed",
+        "reason": "The agent didn't provide a clear estimated timeframe for when the transfer would arrive in the recipient's account"
+      },
+      {
+        "turn": 13,
+        "violated_policy": "Provide Resolution or Escalation",
+        "evidence": "The agent didn't provide a clear resolution or escalation plan, and instead told the customer to 'just wait for now'",
+        "reason": "The agent didn't provide a clear next step or resolution for the customer"
+      },
+      {
+        "turn": 1,
+        "violated_policy": "Verify Transfer Details",
+        "evidence": "The agent didn't verify the transfer details with the customer, such as the date and time of the transfer, recipient's account number, and transfer amount",
+        "reason": "The agent didn't verify the transfer details with the customer before investigating the issue"
+      }
+    ],
+    "overall_summary": "The agent failed to verify transfer details, provide estimated timeframes, and provide a clear resolution or escalation plan, leading to an unresolved issue at the end of the call.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "transfer_not_received_bad_1",
+    "fine_label_predicted": "transfer_not_received_by_recipient",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 5,
+        "violated_policy": "Check Transfer Status",
+        "evidence": "The agent did not check the transfer status using the bank's systems and tools.",
+        "reason": "The agent stated that 'not much I can do' and did not attempt to investigate further."
+      },
+      {
+        "turn": 7,
+        "violated_policy": "Escalate to Investigation",
+        "evidence": "The agent did not escalate the issue to a specialized investigation team or a senior agent.",
+        "reason": "The agent told the customer to wait two weeks before intervening."
+      },
+      {
+        "turn": 11,
+        "violated_policy": "Verify Transfer Details",
+        "evidence": "The agent suggested that the customer may have entered the wrong details without verifying them first.",
+        "reason": "The agent did not verify the transfer details with the customer before suggesting this possibility."
+      }
+    ],
+    "overall_summary": "The agent failed to adequately investigate the issue, provide estimated timeframes, or escalate the issue to a specialized team, leading to an unresolved issue for the customer.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "transfer_not_received_good_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 7,
+        "violated_policy": "Provide Resolution or Escalation",
+        "evidence": "The agent did not provide a clear resolution or escalation for the issue, only recommending that the customer and her sister contact the receiving bank and providing a payment trace reference.",
+        "reason": "The agent did not provide a clear next step or estimated timeframe for resolving the issue."
+      },
+      {
+        "turn": 7,
+        "violated_policy": "Check Transfer Details",
+        "evidence": "The agent did not ask if the transfer was made via a third-party service.",
+        "reason": "The agent missed a crucial step in investigating the issue."
+      }
+    ],
+    "overall_summary": "The agent's performance was inadequate as they failed to provide a clear resolution or escalation for the issue and missed a crucial step in investigating the transfer details.",
+    "rules_retrieved": 3
+  },
+  {
+    "call_id": "transfer_not_received_good_2",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent effectively handled the customer's concern about a missing bank transfer, verified the customer's identity, raised a formal payment trace, and provided a clear follow-up plan.",
+    "rules_retrieved": 1
+  },
+  {
+    "call_id": "transfer_not_received_incomplete_1",
+    "fine_label_predicted": "transfer_not_received_by_recipient",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 9,
+        "violated_policy": "Provide Estimated Timeframes",
+        "evidence": "The agent did not provide an estimated timeframe for when the transfer should arrive in the recipient's account.",
+        "reason": "The agent transferred the customer to the international team without providing an estimated timeframe."
+      },
+      {
+        "turn": 9,
+        "violated_policy": "Provide Processing Timeframes",
+        "evidence": "The agent did not provide the standard processing timeframes for international transfers.",
+        "reason": "The agent did not provide any information about the typical processing time for international transfers."
+      },
+      {
+        "turn": 6,
+        "violated_policy": "Verify Transfer Details",
+        "evidence": "The agent did not verify the transfer details with the customer, including the date and time of the transfer, the recipient's account number, and the transfer amount.",
+        "reason": "The agent did not ask for or confirm the transfer details before transferring the customer."
+      }
+    ],
+    "overall_summary": "The agent failed to verify transfer details, provide estimated timeframes, and provide processing timeframes, and transferred the customer to the international team without resolving the issue.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "transfer_not_received_noise_1",
+    "fine_label_predicted": "transfer_not_received_by_recipient",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent effectively handled the customer's concern about a transfer not received by the recipient, verifying transfer details, checking the transfer status, and providing a clear next step by raising a payment trace.",
+    "rules_retrieved": 3
+  },
+  {
+    "call_id": "transfer_not_received_recovery_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "The agent initially provided incorrect guidance but quickly corrected the issue, raised a payment trace, and provided a resolution timeframe.",
+    "violations": [
+      {
+        "turn": 5,
+        "violated_policy": "escalation procedure",
+        "evidence": "The agent initially told the customer to have their landlord wait, which was incorrect given the timeframe.",
+        "reason": "The agent did not immediately initiate a payment trace when the customer reported the issue was still unresolved."
+      },
+      {
+        "turn": 6,
+        "violated_policy": "escalation procedure",
+        "evidence": "The agent was informed the customer had been given incorrect advice previously but did not correct it immediately.",
+        "reason": "The agent should have taken immediate action to correct the previous advice and initiate a trace."
+      }
+    ],
+    "overall_summary": "The agent's final performance was satisfactory as they corrected their initial mistake, effectively resolved the issue by raising a payment trace, and provided clear next steps to the customer.",
+    "rules_retrieved": 0
+  },
+  {
+    "call_id": "wrong_amount_of_cash_received_ambiguous_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 7,
+        "violated_policy": "If the customer reports a technical issue with the ATM (e. g. the machine did not dispense cash, or the transaction took too long), the agent must inform them that they should contact the ATM operator or the bank's customer service team to report the issue, and provide the customer with a reference number or incident report for follow-up, if applicable.",
+        "evidence": "The agent did not inform the customer to contact the ATM operator or provide a reference number.",
+        "reason": "The agent only made a note and did not follow the required procedure for handling technical issues with ATMs."
+      },
+      {
+        "turn": 7,
+        "violated_policy": "5 clear rules for agents handling declined cash withdrawal issues: Verify Account Balance",
+        "evidence": "The agent did not verify the customer's account balance before proceeding with the investigation.",
+        "reason": "The agent did not follow the required procedure for handling declined cash withdrawal issues."
+      },
+      {
+        "turn": 7,
+        "violated_policy": "5 clear rules for agents handling declined cash withdrawal issues: Check for Card Issues",
+        "evidence": "The agent did not check if the customer's card is valid, not expired, and not blocked or flagged for suspicious activity.",
+        "reason": "The agent did not follow the required procedure for handling declined cash withdrawal issues."
+      },
+      {
+        "turn": 7,
+        "violated_policy": "5 clear rules for agents handling declined cash withdrawal issues: Investigate ATM and Transaction Issues",
+        "evidence": "The agent did not investigate if there were any issues with the ATM machine used or the transaction itself.",
+        "reason": "The agent did not follow the required procedure for handling declined cash withdrawal issues."
+      }
+    ],
+    "overall_summary": "The agent failed to follow the required procedures for handling technical issues with ATMs and declined cash withdrawal issues, resulting in an unresolved violation.",
+    "rules_retrieved": 2
+  },
+  {
+    "call_id": "wrong_amount_of_cash_received_bad_1",
+    "fine_label_predicted": "wrong_amount_of_cash_received",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 3,
+        "violated_policy": "Verify Customer Information",
+        "evidence": "The agent did not verify the customer's account information and transaction details.",
+        "reason": "The agent did not ask for or confirm the customer's account information or transaction details before responding to the customer's concern."
+      },
+      {
+        "turn": 7,
+        "violated_policy": "Check ATM or Transaction Records",
+        "evidence": "The agent did not attempt to check the ATM or transaction records to determine if the customer's account was debited for the correct amount.",
+        "reason": "The agent told the customer that without a receipt, there's not much they can do, instead of exploring other options."
+      },
+      {
+        "turn": 9,
+        "violated_policy": "Check ATM or Transaction Records",
+        "evidence": "The agent mentioned that CCTV audits are done quarterly, not on individual reports, which implies they did not investigate further.",
+        "reason": "The agent did not offer to investigate the issue further or provide an alternative solution."
+      }
+    ],
+    "overall_summary": "The agent failed to adequately address the customer's concern about receiving the wrong amount of cash from an ATM, did not verify customer information, and did not attempt to investigate the issue further.",
+    "rules_retrieved": 5
+  },
+  {
+    "call_id": "wrong_amount_of_cash_received_good_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent effectively handled the customer's concern, provided a clear explanation of the process, and ensured the issue was documented and likely to be resolved in the customer's favour.",
+    "rules_retrieved": 0
+  },
+  {
+    "call_id": "wrong_amount_of_cash_received_good_2",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent effectively handled the customer's concern about a cash machine shortchanging them, verifying customer information, gathering transaction details, and taking steps to investigate and potentially refund the discrepancy.",
+    "rules_retrieved": 2
+  },
+  {
+    "call_id": "wrong_amount_of_cash_received_incomplete_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent handled the call effectively, empathizing with the customer, gathering necessary information, and transferring the customer to the ATM disputes team to resolve the issue of receiving an incorrect amount of cash from an ATM.",
+    "rules_retrieved": 3
+  },
+  {
+    "call_id": "wrong_amount_of_cash_received_incomplete_2",
+    "fine_label_predicted": "neutral",
+    "verdict": "violation",
+    "recovered": false,
+    "recovery_note": "",
+    "violations": [
+      {
+        "turn": 13,
+        "violated_policy": "Provide a reference number or incident ID immediately upon request",
+        "evidence": "The customer requested a reference number in turn 12, but the agent stated that a reference will be generated when the specialist team calls back in turn 13.",
+        "reason": "The agent did not provide a reference number or incident ID immediately upon request"
+      }
+    ],
+    "overall_summary": "The agent's overall performance was inadequate as they failed to provide a reference number or incident ID to the customer upon request, leaving the issue unresolved at the end of the call.",
+    "rules_retrieved": 0
+  },
+  {
+    "call_id": "wrong_amount_of_cash_received_noise_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "",
+    "violations": [],
+    "overall_summary": "The agent effectively resolved the customer's issue with the ATM cash discrepancy, providing a clear explanation of the next steps and ensuring the customer did not need to take further action.",
+    "rules_retrieved": 0
+  },
+  {
+    "call_id": "wrong_amount_of_cash_received_recovery_1",
+    "fine_label_predicted": "neutral",
+    "verdict": "ok",
+    "recovered": true,
+    "recovery_note": "The agent initially provided incorrect information but quickly corrected it and effectively resolved the issue.",
+    "violations": [
+      {
+        "turn": 5,
+        "violated_policy": "Acknowledge and Empathize, Advise Immediate Action",
+        "evidence": "The agent did not empathize with the customer and incorrectly advised visiting the branch.",
+        "reason": "Initial incorrect advice and lack of empathy"
+      }
+    ],
+    "overall_summary": "The agent's final performance was satisfactory as they corrected their mistake, gathered necessary information, and effectively resolved the customer's issue with the ATM withdrawal.",
+    "rules_retrieved": 2
+  }
+]

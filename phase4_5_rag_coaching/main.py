@@ -18,13 +18,13 @@ def main():
     print("  Phase 4 RAG — Compliance Evaluator")
     print(DIVIDER)
 
-    print("\n[1/2] Loading classifier...")
+    print("\n[1/3] Loading classifier...")
     classifier = ClassifierPipeline()
 
-    print("\n[2/2] Loading RAG evaluator...")
+    print("\n[2/3] Loading RAG evaluator...")
     evaluator = RAGEvaluator()
 
-    print(f"\nLoaded. Running {len(TRANSCRIPTS)} transcripts.\n")
+    print(f"\n[3/3] Running {len(TRANSCRIPTS)} transcripts.\n")
 
     total_violations = 0
     all_results      = []
@@ -65,13 +65,10 @@ def main():
         print(f"  Predicted: {predicted_label}  [{match_icon}]")
         print(DIVIDER)
 
-        agent_turns = [u["text"] for u in utterances if u["speaker"] == "agent"]
         result      = evaluator.evaluate_call(utterances, predicted_label)
 
         print(f"  Verdict  : {result['verdict'].upper()}")
         print(f"  Summary  : {result['overall_summary']}")
-        print(f"  Confidence: {result['confidence']}")
-        print(f"  Rules used: {result['rules_retrieved']}")
         if result["violations"]:
             for v in result["violations"]:
                 print(f"\n  !! VIOLATION (turn {v.get('turn')})")
@@ -92,7 +89,6 @@ def main():
             "recovery_note":        result.get("recovery_note", ""),
             "violations":           result["violations"],
             "overall_summary":      result["overall_summary"],
-            "confidence":           result["confidence"],
         })
 
         print()
