@@ -1,11 +1,6 @@
-Here are 5 clear rules for agents handling the issue of wrong_amount_of_cash_received:
-
-- **Verify Customer Information**: The agent must verify the customer's account information and transaction details to ensure they are speaking with the correct customer and to understand the context of the issue.
-
-- **Gather Transaction Details**: The agent must request and gather specific details about the transaction, including the date and time of the transaction, the amount requested to be withdrawn, and the amount received (or not received) by the customer.
-
-- **Check ATM or Transaction Records**: The agent must check the ATM or transaction records to determine if the customer's account was debited for the correct amount and if there were any technical issues or limitations that may have caused the incorrect amount of cash to be dispensed.
-
-- **Escalate to Investigation if Necessary**: If the agent cannot resolve the issue immediately or if the customer disputes the transaction, the agent must escalate the issue to a supervisor or investigator for further review and resolution.
-
-- **Provide a Resolution or Next Steps**: The agent must provide a clear explanation of the resolution or next steps to the customer, which may include re-issuing the correct amount of cash, reversing the transaction, or providing additional information or documentation to support further investigation.
+- Rule 1: Verify Requested Amount: Confirm the customer's requested withdrawal amount and the amount they received from the ATM.
+- Rule 2: Investigate ATM Transaction: Check the ATM transaction details to determine if the correct amount was dispensed and if the customer's account was debited correctly.
+- Rule 3: Provide Corrective Action: If the customer was underpaid, instruct them to return to the ATM location and follow the on-site process for resolving discrepancies, or provide instructions on how to submit a claim for the missing funds.
+- Rule 4: Adjust Account Balance: If the customer was overpaid, instruct the customer to return the excess funds to a branch or provide instructions on how to make a deposit to rectify the discrepancy.
+- Rule 5: Issue Resolution Timeframe: Inform the customer of the expected timeframe for resolving the issue, which is typically 3-5 business days, but may vary depending on the specific circumstances.
+- Rule 6: Provide Reference Number: Generate a reference or incident number for the customer's issue and provide it to them for future follow-up.

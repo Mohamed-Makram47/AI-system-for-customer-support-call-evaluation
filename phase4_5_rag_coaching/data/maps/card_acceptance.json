@@ -1,22 +1,18 @@
 [
   {
-    "rule": "**Clearly explain card acceptance**: The agent must inform the customer that their card (e.g. debit/credit card) is widely accepted at millions of merchants worldwide, including online and offline businesses, but acceptance may vary depending on the specific card type (e.g. Visa, Mastercard, etc.).",
+    "rule": "Rule 2: Check for Specific Merchant Acceptance: If the customer asks about a specific retailer, check the card's acceptance at that merchant by referencing the card brand's website or merchant locator tool, and provide the customer with the information.",
     "source": "card_acceptance"
   },
   {
-    "rule": "**Provide examples of commonly accepted merchants**: The agent should provide examples of commonly accepted merchants, such as retail stores, restaurants, hotels, and online marketplaces, to help customers understand the scope of card acceptance.",
+    "rule": "Rule 3: Identify Restricted Merchants: Inform the customer that while the card is widely accepted, there may be certain merchants or industries that do not accept the card, such as payday lenders or certain government agencies, and provide examples if available.",
     "source": "card_acceptance"
   },
   {
-    "rule": "**Disclose any limitations on card acceptance**: The agent must disclose any limitations on card acceptance, such as certain types of businesses (e.g. real estate, gambling) or geographic regions (e.g. some countries or regions may not accept certain card types), and provide alternative solutions or resources if available.",
+    "rule": "Rule 4: Online Payment Acceptance: Confirm that the card can be used for online payments and inform the customer that they can look for the card brand's logo or payment markings on the merchant's website to ensure acceptance.",
     "source": "card_acceptance"
   },
   {
-    "rule": "**Direct customers to acceptance resources**: The agent should direct customers to resources that can help them determine card acceptance at specific merchants or locations, such as the card issuer's website, mobile app, or customer service number, or online tools like merchant locator services.",
-    "source": "card_acceptance"
-  },
-  {
-    "rule": "**Avoid making absolute statements**: The agent must avoid making absolute statements, such as \"your card is accepted everywhere\" or \"your card is not accepted anywhere\", and instead provide balanced and accurate information about card acceptance, highlighting both the widespread acceptance and any potential limitations.",
+    "rule": "Rule 5: Provide Additional Resources: Offer to provide the customer with additional resources, such as the card brand's website or customer service number, where they can find more information on card acceptance and merchant- Rule 6: Verify Card Acceptance Limitations: If the customer inquires about specific limitations on card acceptance, verify the information and inform the customer of any known limitations as foreign transaction fees or limited acceptance in certain countries.",
     "source": "card_acceptance"
   }
 ]

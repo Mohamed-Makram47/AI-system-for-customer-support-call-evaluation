@@ -1,11 +1,11 @@
-Here are 5 clear rules for agents handling reverted card payment issues:
+- Rule 1: Verify Reversal Reason: Check the customer's account and transaction history to determine the reason for the reverted card payment and provide the reason to the customer.
 
-- **Verify the transaction status**: Before proceeding with the customer's inquiry, the agent must verify the status of the transaction in question, checking if the payment was indeed reverted and if the funds have been returned to the customer's account.
+- Rule 2: Check for Duplicate Transactions: Verify if a duplicate transaction was processed and inform the customer if the reverted payment was due to a duplicate transaction.
 
-- **Determine the reason for the reversion**: The agent must investigate and determine the reason for the reversion, which may include checking with the merchant, reviewing transaction logs, or contacting the payment processor to understand why the payment was reverted.
+- Rule 3: Provide Reversal Details: Provide the customer with details of the reverted payment, including the date, amount, and reference number of the original transaction.
 
-- **Check for duplicate or partial refunds**: The agent must verify if a refund or partial refund has been processed, and if so, ensure that the customer has received the correct amount, taking into account any applicable fees or charges.
+- Rule 4: Investigate Potential Issues: If the reason for the reverted payment is not clear, investigate potential issues such as expired or blocked cards, and inform the customer of the findings.
 
-- **Escalate to supervisor or specialist if necessary**: If the agent is unable to resolve the issue or if the customer is disputing the reversion, the agent must escalate the issue to a supervisor or a specialized team, such as a fraud or payment disputes team, to ensure prompt and accurate resolution.
+- Rule 5: Offer Solution or Next Steps: Based on the reason for the reverted payment, offer a solution or next steps to the customer, such as re-processing the payment or replacing the card.
 
-- **Provide clear explanations and next steps**: The agent must clearly explain the reason for the reversion, the current status of the transaction, and any necessary next steps to the customer, ensuring that the customer understands the resolution and any actions they need to take to resolve the issue.
+- Rule 6: Explain Reversal Timing: Explain to the customer why the reverted payment may have taken some time to reflect in their account, and provide a timeline for when the funds will be available.

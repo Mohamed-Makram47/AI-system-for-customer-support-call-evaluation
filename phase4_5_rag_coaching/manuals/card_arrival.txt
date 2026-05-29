@@ -1,11 +1,11 @@
-Here are 5 clear rules for agents handling the issue type "card_arrival":
+- Rule 1: Provide Delivery Timeline: The agent must inform the customer that the standard delivery time for a replacement card is 7-10 business days and provide an estimated delivery date based on the mailing date.
 
-- **Acknowledge and Empathize**: The agent must acknowledge the customer's concern and express empathy for the inconvenience caused by the delay in receiving their card. This can be done by stating, "I understand that it's frustrating to wait for your card, and I'm here to help."
+- Rule 2: Expedite Card Delivery Check: The agent must check if expedited shipping is available for the customer's card type and inform the customer of the additional cost and benefits.
 
-- **Check Card Status**: The agent must check the status of the card shipment using the customer's account information and our internal systems to determine if the card has been mailed and when it was sent.
+- Rule 3: Track Card Delivery: The agent must provide the customer with tracking information, including the shipping carrier and tracking number, if available.
 
-- **Provide Estimated Delivery Timeframe**: Based on the card status, the agent must provide the customer with an estimated delivery timeframe, which is typically 7-10 business days from the date of mailing. If the card was mailed via expedited shipping, the agent must inform the customer of the expected delivery timeframe for that service.
+- Rule 4: Investigate Delayed Delivery: If the customer reports not receiving the card within 10 business days of the mailing date, the agent must investigate the status of the card and provide an update on the cause of the delay.
 
-- **Offer Assistance with Tracking or Replacement**: If the customer is still within the estimated delivery timeframe, the agent must offer to assist with tracking the package or provide information on how to track the package. If the customer is outside the estimated delivery timeframe, the agent must offer to replace the card and provide a new one.
+- Rule 5: Offer Alternative Delivery Options: The agent must offer alternative delivery options, such as expedited shipping or pickup at a local branch, if available.
 
-- **Document and Escalate if Necessary**: The agent must document the customer's concern and the resolution provided in our internal systems. If the customer is not satisfied with the resolution or if there are concerns about the card being lost in delivery, the agent must escalate the issue to a supervisor or a specialized team for further investigation and resolution.
+- Rule 6: Provide Card Status Update: The agent must check the status of the card in the system and provide an update to the customer on the current status, including any issues that may have caused a delay.

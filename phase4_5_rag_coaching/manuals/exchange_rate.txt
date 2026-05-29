@@ -1,11 +1,13 @@
-Here are 5 clear rules for agents handling exchange rate queries:
+- Rule 1: Provide Exchange Rate Source: Inform the customer that exchange rates are sourced from a reputable third-party provider, such as Bloomberg or Reuters, and provide the specific provider's name.
 
-- **Rule 1: Provide a clear definition of exchange rate**: Agents must clearly explain that the exchange rate is the rate at which one currency can be exchanged for another, and that it may fluctuate frequently due to market conditions.
+- Rule 2: Explain Exchange Rate Calculation: Clearly explain to the customer that exchange rates for transfers are calculated based on the current market rate at the time of the transfer, and may include a markup or margin.
 
-- **Rule 2: Inform customers of current exchange rates**: Agents must inform customers that current exchange rates can be found on the bank's website, mobile app, or through a customer service representative, and provide the specific rate if available.
+- Rule 3: Disclose Exchange Rate Policy: Provide the customer with a detailed explanation of the bank's exchange rate policy, including any applicable fees, markups, or margins.
 
-- **Rule 3: Explain factors that affect exchange rates**: Agents must explain that exchange rates are affected by market conditions, economic indicators, and other external factors, and that the bank does not control these fluctuations.
+- Rule 4: Quote Specific Exchange Rate: Provide the customer with the specific exchange rate being applied to their transaction, including the rate and any associated fees.
 
-- **Rule 4: Direct customers to resources for exchange rate information**: Agents must direct customers to the bank's website, mobile app, or other reliable resources for the most up-to-date exchange rate information, and provide instructions on how to access this information.
+- Rule 5: Describe Exchange Rate Basis: Explain to the customer the basis for determining the exchange rate, such as the interbank rate or a specific currency benchmark.
 
-- **Rule 5: Clarify that exchange rates may vary depending on transaction type and amount**: Agents must clarify that exchange rates may vary depending on the type of transaction (e.g. cash, wire transfer, foreign transaction), the amount being transferred, and other factors, and that the bank's exchange rates may differ from those of third-party providers.
+- Rule 6: Provide Context on App Exchange Rates: Inform the customer that exchange rates on the app are indicative and may vary depending on the time of day, market conditions, and other factors.
+
+- Rule 7: Refer to Published Rates: Direct the customer to where they can find published exchange rates on the bank's website or mobile app, if applicable.

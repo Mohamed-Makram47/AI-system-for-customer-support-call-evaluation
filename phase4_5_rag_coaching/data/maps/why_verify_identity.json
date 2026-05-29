@@ -1,22 +1,30 @@
 [
   {
-    "rule": "**Clearly explain the purpose of identity verification**: Agents must inform customers that verifying their identity is a regulatory requirement to prevent identity theft, money laundering, and other financial crimes, and that it helps to protect their account and financial information.",
+    "rule": "Rule 1: Provide Verification Purpose: The agent must clearly explain that verifying identity is required by regulatory requirements to prevent identity theft and ensure the security of the customer's account, and that it's a standard procedure for all customers.",
     "source": "why_verify_identity"
   },
   {
-    "rule": "**Emphasize the importance of compliance with regulations**: Agents must mention that identity verification is a mandatory process required by laws and regulations, such as the USA PATRIOT Act, Anti-Money Laundering (AML) laws, and the Financial Crimes Enforcement Network (FinCEN) guidelines, and that the bank is obligated to comply with these regulations.",
+    "rule": "Rule 2: Cite Specific Regulation: When asked why verification is necessary, the agent must mention that it's a requirement under the USA PATRIOT Act and/or other relevant anti-money laundering regulations.",
     "source": "why_verify_identity"
   },
   {
-    "rule": "**Provide a clear description of the verification process**: Agents must walk customers through the verification process, explaining what information and documents are required, such as a valid government-issued ID, social security number, or date of birth, and how the information will be used and protected.",
+    "rule": "Rule 3: Offer Alternative Verification Methods: If a customer expresses concern or refusal to use a specific method for verification (e.g., voice biometrics, answering security questions), the agent must offer at least two alternative methods for verification that are available and compliant with internal policies.",
     "source": "why_verify_identity"
   },
   {
-    "rule": "**Address concerns about data security and confidentiality**: Agents must reassure customers that the bank takes the security and confidentiality of their personal and financial information seriously, and that the information collected during the verification process will only be used for verification purposes and will be protected in accordance with the bank's privacy policy.",
+    "rule": "Rule 4: Explain Account Limitations: The agent must inform customers that they may not be able to fully access certain account features or services until their identity is verified.",
     "source": "why_verify_identity"
   },
   {
-    "rule": "**Offer alternatives or accommodations when possible**: Agents must be aware of alternative verification methods or accommodations that may be available for customers who are having difficulty completing the verification process, such as providing additional documentation or using a different verification method, and offer these options to customers when applicable.",
+    "rule": "Rule 5: Provide Verification Timeline: When a customer inquires about the status of their verification, the agent must provide a clear timeline for when the verification process will be completed and when the customer can expect to have full access to their account.",
+    "source": "why_verify_identity"
+  },
+  {
+    "rule": "Rule 6: Refusal Protocol: If a customer refuses to verify their identity, the agent must inform them of the potential consequences, such as limited account access or account closure, as per the bank's policy.",
+    "source": "why_verify_identity"
+  },
+  {
+    "rule": "Rule 7: Confirm Verification Completion: Once verification is completed, the agent must confirm with the customer that their identity has been successfully verified and that they now have full access to their account and its features.",
     "source": "why_verify_identity"
   }
 ]

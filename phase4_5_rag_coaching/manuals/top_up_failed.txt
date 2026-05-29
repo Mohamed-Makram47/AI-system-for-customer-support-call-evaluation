@@ -1,15 +1,11 @@
-Here are 5 clear rules for agents handling the issue type "top_up_failed":
+- Rule 1: Verify Top-up Attempt: The agent must ask the customer for the date and time of the top-up attempt and the method used (e.g., online, mobile app, or at a store) to verify the details of the failed top-up.
 
-- **Verify Customer Information**: Before assisting the customer, agents must verify their identity and account information to ensure they are speaking with the authorized account holder, using standard verification procedures.
+- Rule 2: Check Top-up Status: The agent must check the status of the top-up in the customer's account to determine if it was successfully processed or not.
 
-- **Gather Details on the Failed Top-up**: Agents must ask customers to provide specific details about the failed top-up attempt, including the date and time of the attempt, the payment method used (e.g., credit/debit card, bank account), and the exact error message received (if any).
+- Rule 3: Run a Top-up History: The agent must run a history of the customer's top-up transactions for the past 30 days to identify any recurring issues or patterns.
 
-- **Troubleshoot Common Issues**: Agents must troubleshoot common issues that may have caused the top-up to fail, such as:
-	* Insufficient funds
-	* Invalid or expired payment method
-	* Daily/weekly/monthly top-up limits reached
-	* Technical issues with the payment processing system
+- Rule 4: Troubleshoot Card Decline: If the customer's card is being declined during the top-up attempt, the agent must ask the customer if they have sufficient funds and if their card is not expired, and then provide guidance on resolving the card decline issue.
 
-- **Escalate to Specialist if Necessary**: If the agent is unable to resolve the issue or if the customer requests a more detailed investigation, the agent must escalate the issue to a specialist (e.g., a technical support agent or a senior customer service representative) who can further investigate and resolve the issue.
+- Rule 5: Offer Alternative Top-up Methods: The agent must offer alternative top-up methods to the customer, such as using a different card or a different payment method, if the primary method is not working.
 
-- **Document and Resolve**: Agents must document the root cause of the failed top-up and the resolution provided to the customer, and ensure that the customer's top-up is successfully processed or reapplied if possible, and provide a clear explanation of the next steps to the customer.
+- Rule 6: Provide Refund Information: If the top-up failed and the customer is still experiencing issues, the agent must provide information on how to initiate a refund for the failed top-up transaction.

@@ -1,22 +1,22 @@
 [
   {
-    "rule": "**Rule 1: Provide a clear list of supported fiat currencies**: Agents must provide customers with a clear and accurate list of fiat currencies supported by the organization. This list may include, but is not limited to, major currencies such as USD, EUR, GBP, JPY, and others.",
+    "rule": "Rule 2: Identify Multiple Currency Support: Inform the customer that multiple currencies can be held in their account, but exchanges are subject to certain terms and conditions.",
     "source": "fiat_currency_support"
   },
   {
-    "rule": "**Rule 2: Confirm multi-currency support**: Agents must confirm to customers whether their accounts can hold multiple types of fiat currencies and explain any associated requirements or limitations.",
+    "rule": "Rule 3: Specify Exchange Currencies: Confirm whether the customer's requested currency (e.g., EUR) is supported for exchange and provide information on exchange rates if applicable.",
     "source": "fiat_currency_support"
   },
   {
-    "rule": "**Rule 3: Explain exchange capabilities**: Agents must explain to customers which fiat currencies can be exchanged for one another, and provide information on any exchange fees or rates that may apply.",
+    "rule": "Rule 4: Clarify Holding and Exchange Options: Clearly explain the difference between holding and exchanging fiat currencies and provide guidance on which currencies are eligible for each option.",
     "source": "fiat_currency_support"
   },
   {
-    "rule": "**Rule 4: Address country-specific currency support**: Agents must inform customers which countries' currencies are supported by the organization and provide guidance on any regulatory or compliance requirements that may impact currency support.",
+    "rule": "Rule 5: Provide Currency Exchange Capability: If the customer inquires about exchanging a specific currency (e.g., EUR), confirm if the service supports such exchanges and guide on the process.",
     "source": "fiat_currency_support"
   },
   {
-    "rule": "**Rule 5: Provide transparency on currency limitations**: Agents must clearly communicate to customers any limitations or restrictions on holding or exchanging specific fiat currencies, including any requirements for verification, reporting, or compliance with anti-money laundering (AML) and know-your-customer (KYC) regulations.",
+    "rule": "Rule 6: Confirm Fiat Currency Usage: Verify and inform the customer about the types of fiat currencies used for transactions and services provided by the bank.",
     "source": "fiat_currency_support"
   }
 ]

@@ -1,22 +1,26 @@
 [
   {
-    "rule": "**Verify Customer Eligibility**: Before proceeding with a refund request, agents must verify that the customer is eligible for a refund according to the bank's policies and the specific product or service terms. This includes checking if the customer has already received the product or service, and if the refund request is within the allowed timeframe.",
+    "rule": "Rule 1: Verify Purchase Details: Verify the customer's purchase details, including the date, amount, and description of the transaction, before proceeding with the refund request.",
     "source": "request_refund"
   },
   {
-    "rule": "**Gather Required Information**: Agents must collect and document all necessary information related to the refund request, including the date of purchase, product or service details, and reason for the refund. This information will be used to facilitate the refund process and ensure accuracy.",
+    "rule": "Rule 2: Check Refund Eligibility: Check the refund policy and eligibility criteria for the specific product or service purchased, and inform the customer of any conditions or restrictions.",
     "source": "request_refund"
   },
   {
-    "rule": "**Explain Refund Process and Timeline**: Agents must clearly explain the refund process and timeline to the customer, including any potential fees or deductions that may apply. This includes informing the customer of any required documentation or next steps to complete the refund.",
+    "rule": "Rule 3: Provide Refund Process Information: Provide the customer with clear instructions on the refund process, including any required documentation, return shipping, or next steps.",
     "source": "request_refund"
   },
   {
-    "rule": "**Escalate Complex Issues**: If the refund request involves a complex issue, such as a disputed transaction or a product that has already been used, agents must escalate the issue to a senior representative or a specialized team for further review and resolution.",
+    "rule": "Rule 4: Initiate Refund or Return Process: If eligible, initiate the refund or return process immediately, and provide the customer with a reference number or confirmation of the process.",
     "source": "request_refund"
   },
   {
-    "rule": "**Provide Refund Confirmation**: Once the refund has been processed, agents must provide the customer with a confirmation of the refund, including the refund amount, date, and method of payment. This ensures that the customer has a clear understanding of the refund status and can verify that the refund has been received.",
+    "rule": "Rule 5: Explain Refund Timeline: Explain the estimated timeline for processing the refund, including any relevant deadlines or expectations for receiving the refund.",
+    "source": "request_refund"
+  },
+  {
+    "rule": "Rule 6: Offer Cancellation or Reversal: If the customer requests a refund for a recent transaction, offer to cancel or reverse the transaction if possible, and provide a confirmation of the cancellation or reversal.",
     "source": "request_refund"
   }
 ]

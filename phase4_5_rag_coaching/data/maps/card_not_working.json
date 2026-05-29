@@ -1,22 +1,30 @@
 [
   {
-    "rule": "**Verify Card Status**: The agent must check the customer's card status in the banking system to determine if the card is active, expired, or blocked before proceeding with troubleshooting.",
+    "rule": "Rule 1: Check Card Status: Verify the card status by checking if the card is active, expired, or blocked, and provide the reason to the customer.",
     "source": "card_not_working"
   },
   {
-    "rule": "**Gather Error Information**: The agent must ask the customer to provide specific details about the error they are experiencing, such as the type of transaction they are trying to make, the location and type of machine or terminal being used, and any error messages received.",
+    "rule": "Rule 2: Verify Card Details: Confirm the card details with the customer, including the card number, expiration date, and CVV, to ensure accuracy.",
     "source": "card_not_working"
   },
   {
-    "rule": "**Troubleshoot Common Issues**: The agent must troubleshoot common issues that may be causing the card to not work, such as checking if the card has been damaged, if the PIN is correct, or if there are sufficient funds in the account.",
+    "rule": "Rule 3: Perform Card Test: Conduct a test transaction or check the card's magnetic stripe or chip for damage to identify potential issues.",
     "source": "card_not_working"
   },
   {
-    "rule": "**Escalate to Card Services if Necessary**: If the agent is unable to resolve the issue through troubleshooting, they must escalate the issue to the card services team to investigate further and potentially reissue a new card.",
+    "rule": "Rule 4: Provide Replacement Guidance: If the card is damaged or expired, provide the customer with guidance on how to obtain a replacement card, including any required documentation.",
     "source": "card_not_working"
   },
   {
-    "rule": "**Document and Follow-up**: The agent must document the customer's issue and the resolution provided in the banking system's customer interaction log, and follow up with the customer to ensure that the issue has been fully resolved and that they are able to use their card successfully.",
+    "rule": "Rule 5: Investigate Potential Blocks: Check if the card has been blocked due to suspicious activity and provide the customer with information on how to resolve the issue.",
+    "source": "card_not_working"
+  },
+  {
+    "rule": "Rule 6: Offer Alternative Solutions: If the card is not working, offer alternative payment solutions, such as a replacement card, digital wallet, or other payment methods.",
+    "source": "card_not_working"
+  },
+  {
+    "rule": "Rule 7: Provide Card Validity Information: Inform the customer of the card's validity period, including the expiration date and any conditions that may affect its use.",
     "source": "card_not_working"
   }
 ]

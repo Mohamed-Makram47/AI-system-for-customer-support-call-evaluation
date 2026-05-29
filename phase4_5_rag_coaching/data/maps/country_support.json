@@ -1,22 +1,26 @@
 [
   {
-    "rule": "**Rule 1: Check Eligibility**: Before providing any information, agents must verify the customer's country of residence and check if our bank's products or services, specifically cards, are available in that country.",
+    "rule": "Rule 1: Provide Country Support Information: Provide a list of countries where the bank operates and offers services, which includes the UK and some other specified countries.",
     "source": "country_support"
   },
   {
-    "rule": "**Rule 2: Provide Country-Specific Information**: Agents must provide accurate and up-to-date information on the countries where our bank's cards are available, which currently includes the United Kingdom and may not be available in all countries, including those in the European Union or the United States.",
+    "rule": "Rule 2: Clarify Card Eligibility: Inform customers whether they are eligible for a card based on their country of residence, and specify any requirements or restrictions.",
     "source": "country_support"
   },
   {
-    "rule": "**Rule 3: Clarify Non-Supported Countries**: If a customer inquires about getting a card while residing in a country where our bank's cards are not available, agents must clearly communicate that our cards are not offered to residents of that country.",
+    "rule": "Rule 3: Specify Supported Regions: Clearly state which regions (e.g. EU, US, etc.) are supported for account and card services.",
     "source": "country_support"
   },
   {
-    "rule": "**Rule 4: Refer to Official Resources**: Agents should direct customers to our bank's official website or other publicly available resources for information on countries where our products or services are available, to ensure transparency and consistency.",
+    "rule": "Rule 4: Direct Customer to Resources: Provide customers with a link or reference to a webpage or document that lists all countries where the bank offers services.",
     "source": "country_support"
   },
   {
-    "rule": "**Rule 5: Document and Escalate if Needed**: Agents must document the customer's query and response in our system and escalate to a supervisor or specialized team if the customer requests additional information or if there are exceptional circumstances that require further review.",
+    "rule": "Rule 5: Confirm Non-UK Card Availability: If a customer asks about getting a card outside the UK, confirm whether non-UK residents can obtain a card and provide any additional information required.",
+    "source": "country_support"
+  },
+  {
+    "rule": "Rule 6: Verify Country-Specific Services: Verify and inform customers about country-specific services, if any, and advise on any limitations or restrictions that may apply.",
     "source": "country_support"
   }
 ]

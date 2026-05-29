@@ -1,22 +1,26 @@
 [
   {
-    "rule": "**Clearly explain the verification process**: Agents must provide a clear and concise explanation of the identity verification process, including the types of documents required (e.g. government-issued ID, proof of address) and the methods used to verify the customer's identity (e.g. video verification, document upload).",
+    "rule": "Rule 1: Provide Document Requirements: Inform the customer of the required documents for identity verification, which include a government-issued ID (such as a driver's license, passport, or state ID) and a utility bill or bank statement with their name and address.",
     "source": "verify_my_identity"
   },
   {
-    "rule": "**Request specific documents**: Agents must inform customers of the specific documents required for verification, which may include a valid government-issued ID (e.g. driver's license, passport) and proof of address (e.g. utility bill, bank statement), and ensure that the documents are not expired or more than 30 days old.",
+    "rule": "Rule 2: Explain Verification Process: Describe the identity verification process to the customer, including how their documents will be reviewed and what information will be verified.",
     "source": "verify_my_identity"
   },
   {
-    "rule": "**Emphasize security and confidentiality**: Agents must reassure customers that their personal and financial information is protected and that the bank takes reasonable steps to prevent identity theft and fraud, in accordance with relevant regulations and industry standards.",
+    "rule": "Rule 3: List Acceptable Documents: Provide the customer with a list of acceptable documents to prove their identity, such as a driver's license, passport, state ID, utility bill, or bank statement.",
     "source": "verify_my_identity"
   },
   {
-    "rule": "**Provide guidance on document upload or transmission**: Agents must provide customers with instructions on how to upload or transmit their documents securely, such as through a secure online portal or by mailing or faxing the documents to a specific address.",
+    "rule": "Rule 4: Offer Guidance on Filling Out Forms: If necessary, guide the customer on how to fill out any required forms for identity verification, ensuring they understand what information is required.",
     "source": "verify_my_identity"
   },
   {
-    "rule": "**Escalate complex cases**: Agents must escalate cases where customers are unable to provide required documents or if there are discrepancies in the information provided, to a senior agent or a specialized team for further review and assistance.",
+    "rule": "Rule 5: Confirm Verification Methods: Inform the customer how their identity will be verified, such as through a database check or review of uploaded documents.",
+    "source": "verify_my_identity"
+  },
+  {
+    "rule": "Rule 6: Provide Additional Resources: If the customer is unsure about the verification process, offer additional resources, such as a website or phone number, where they can find more information.",
     "source": "verify_my_identity"
   }
 ]

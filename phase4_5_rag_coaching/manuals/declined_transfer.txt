@@ -1,11 +1,11 @@
-Here are 5 clear rules for agents handling declined transfer issues:
+- Rule 1: Check Transfer Details: Verify the transfer details provided by the customer, including the recipient's account number, sort code, and transfer amount, and confirm if they match the customer's records.
 
-- **Acknowledge and Apologize**: The agent must acknowledge the customer's frustration and apologize for the inconvenience caused by the declined transfer, ensuring empathy and a customer-centric approach.
+- Rule 2: Investigate Decline Reason: Use the banking system's decline codes to identify the reason for the declined transfer and provide a clear explanation to the customer.
 
-- **Gather Transaction Details**: The agent must request and gather relevant transaction details from the customer, including the date, time, amount, and recipient information (if applicable), to facilitate investigation and troubleshooting.
+- Rule 3: Check Daily Transfer Limits: Inform the customer of their daily transfer limits and verify if the transfer amount exceeds these limits.
 
-- **Check for Common Decline Reasons**: The agent must check for common reasons for declined transfers, such as insufficient funds, incorrect card information, exceeded transfer limits, or suspicious activity flags, and provide clear explanations to the customer.
+- Rule 4: Verify Account Status: Check if the customer's account or the recipient's account is frozen, blocked, or has any restrictions that may be causing the transfer to be declined.
 
-- **Verify Card and Account Status**: The agent must verify the customer's card and account status, including any potential blocks, holds, or restrictions, and provide guidance on how to resolve any issues.
+- Rule 5: Review Recent Transfers: Review the customer's recent transfer history to identify any patterns or repeated issues that may be causing the transfers to be declined.
 
-- **Escalate Complex Issues**: The agent must escalate complex or recurring declined transfer issues to a senior agent or a specialized team (e.g., fraud, security, or technical support) if the root cause cannot be resolved through standard troubleshooting, ensuring prompt and effective resolution.
+- Rule 6: Provide Decline Reason and Resolution: Provide the customer with a clear reason for the declined transfer and offer a resolution, such as retrying the transfer or providing alternative payment options.

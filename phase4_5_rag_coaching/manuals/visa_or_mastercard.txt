@@ -1,11 +1,11 @@
-Here are 5 clear rules for agents handling the issue type "visa_or_mastercard":
+- Rule 1: Determine Eligibility for Both Cards: If a customer asks if they can get both a Visa and MasterCard, inform them that our bank offers the option to have multiple cards, but they must meet specific eligibility criteria, and provide a brief overview of the criteria.
 
-- When a customer inquires about the types of cards offered, the agent must inform them that both Visa and Mastercard are available, and that card type is not guaranteed and is determined by the bank's policies and procedures.
+- Rule 2: Explain Card Choice Availability: If a customer inquires about choosing between Visa and MasterCard, respond that our bank typically issues a Visa card by default, but customers can request a MasterCard if preferred, and offer to check if a MasterCard is available.
 
-- If a customer expresses a preference for either Visa or Mastercard, the agent must acknowledge their preference and explain that while they can make a note of it, the bank cannot guarantee the issuance of a specific card type.
+- Rule 3: Provide Card Type Information: If a customer asks if it matters which card they use (Visa or MasterCard), explain that both cards have similar functionality and acceptance worldwide but highlight any differences in benefits, rewards, or fees associated with each card.
 
-- When a customer asks if they can choose between Visa and Mastercard, the agent must respond that card selection is not an option and that the bank will issue the card that is available and suitable for the customer's account.
+- Rule 4: Process Card Preference Change: If a customer explicitly requests a MasterCard instead of or in addition to their current Visa card, verify their eligibility for the card type, check availability, and inform them of any additional requirements or benefits.
 
-- If a customer receives a different card than requested, the agent must apologize for the inconvenience, explain that card type is determined by the bank, and offer to verify the reason for the card type issued.
+- Rule 5: Inform About Available Card Types: If a customer asks what type of card we issue (Visa or MasterCard), respond that we offer both Visa and MasterCard, and provide a brief description of each.
 
-- Agents must not make any commitments or promises to customers regarding the issuance of a specific card type, and must instead provide a standard response that emphasizes the bank's policies and procedures for determining card types, and encourage customers to contact the bank if they have further concerns.
+- Rule 6: Handle Multiple Card Requests: If a customer requests both a Visa and a MasterCard, assess their eligibility for multiple cards, explain the benefits and any potential limitations of having both, and guide them through the application or request process if applicable.

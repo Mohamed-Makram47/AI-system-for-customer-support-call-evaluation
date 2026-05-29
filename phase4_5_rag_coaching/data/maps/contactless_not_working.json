@@ -1,22 +1,26 @@
 [
   {
-    "rule": "**Verify Customer's Card Details**: The agent must verify the customer's card details, including the card number, expiration date, and PIN, to ensure that the contactless feature is enabled and the card is not expired or blocked.",
+    "rule": "Rule 1: Check Contactless Settings: Verify if the customer's contactless payment settings are enabled and correctly configured on their card or account.",
     "source": "contactless_not_working"
   },
   {
-    "rule": "**Troubleshooting Steps**: The agent must walk the customer through basic troubleshooting steps, such as checking if the card is inserted correctly, if the terminal is contactless-enabled, and if the customer has exceeded the daily spending limit or has sufficient funds.",
+    "rule": "Rule 2: Troubleshoot Contactless Issue: Guide the customer through basic troubleshooting steps, including checking if their card is inserted correctly, if the terminal is contactless-enabled, and if the customer has sufficient balance.",
     "source": "contactless_not_working"
   },
   {
-    "rule": "**Check for Card Block or Suspension**: The agent must check if the customer's card has been blocked or suspended due to suspicious activity, and if so, guide the customer on the next steps to reactivate the card.",
+    "rule": "Rule 3: Request Card Details: Request the customer to provide their card details, including the card number and expiration date, to investigate the issue further.",
     "source": "contactless_not_working"
   },
   {
-    "rule": "**Contactless Payment Settings**: The agent must verify that the customer's contactless payment settings are correct, including checking if the card has been registered for contactless payments and if the customer has opted out of contactless payments.",
+    "rule": "Rule 4: Check for Card Replacement: If the customer's contactless payment is not working, check if their card is due for replacement or if it has been reported lost or stolen.",
     "source": "contactless_not_working"
   },
   {
-    "rule": "**Escalation to Specialist if Necessary**: The agent must escalate the issue to a specialist or a technical support team if the customer's contactless issue persists after troubleshooting and verification, or if the issue is related to a technical problem with the terminal or payment network.",
+    "rule": "Rule 5: Provide New Card Information: If the customer's card needs to be replaced, provide information on how to obtain a new card, including any associated fees or charges.",
+    "source": "contactless_not_working"
+  },
+  {
+    "rule": "Rule 6: Verify Contactless Payment Issues: If the customer reports that their contactless payment issue persists across multiple locations, verify if there are any known issues with the customer's account or card that could be causing the problem.",
     "source": "contactless_not_working"
   }
 ]

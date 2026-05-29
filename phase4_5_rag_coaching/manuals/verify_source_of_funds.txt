@@ -1,11 +1,11 @@
-Here are 5 clear rules for agents handling the issue of verifying the source of funds:
+- Rule 1: Verify Customer Identity: Before providing information on the source of funds, verify the customer's identity using their name, date of birth, and account information.
 
-- **Rule 1: Empathize and Acknowledge**: The agent must acknowledge the customer's concern and express empathy, stating "I understand your concern about verifying the source of funds" or a similar phrase, to show that they are actively listening and care about the customer's issue.
+- Rule 2: Request Transaction Details: Ask the customer to provide specific details about the transaction in question, including the date, amount, and type of transaction.
 
-- **Rule 2: Check Transaction History**: The agent must inform the customer that they can view their transaction history through their online banking platform, mobile banking app, or by visiting a branch, and offer to guide them on how to access it, if needed.
+- Rule 3: Check Transaction History: Retrieve and review the customer's transaction history to identify the source of the funds, and provide a summary of the findings to the customer.
 
-- **Rule 3: Explain Source of Funds Information**: The agent must explain to the customer that the source of funds information can be found in the transaction details section of their account statement or transaction history, which may include information such as the origin of the transfer, payment method, or sender's details.
+- Rule 4: Provide Source of Funds Information: If the source of funds is identified, provide clear and concise information to the customer about the origin of the funds, including the sender's name and account information, if available.
 
-- **Rule 4: Provide Additional Resources**: The agent must provide the customer with additional resources, such as a user guide or tutorial on how to access and understand their transaction history, or offer to send a summary of the information to their email or mail, if requested.
+- Rule 5: Offer Additional Resources: If the source of funds is not immediately apparent, offer to provide additional resources or guidance to help the customer track the origin of the funds, such as a list of recent transactions or a reference to online banking tools.
 
-- **Rule 5: Escalate Complex Issues**: The agent must escalate complex issues related to verifying the source of funds, such as suspicious transactions or unclear origins, to a senior agent or a specialized team, such as a fraud investigation unit, and inform the customer that their issue has been escalated and provide a timeline for resolution.
+- Rule 6: Refer to Compliance Documentation: If the customer is requesting information on the source of funds for compliance or regulatory purposes, refer them to the relevant documentation, such as anti-money laundering (AML) or know-your-customer (KYC) policies.

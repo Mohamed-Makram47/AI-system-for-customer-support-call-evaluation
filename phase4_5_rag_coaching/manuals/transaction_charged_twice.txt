@@ -1,11 +1,11 @@
-Here are 5 clear rules for agents handling the issue type "transaction_charged_twice":
+1: Verify Duplicate Transaction: Check the customer's account history to confirm if the duplicate transaction exists and identify the original and duplicate transactions.
 
-- **Verify the duplicate charge**: Before taking any action, the agent must verify that the customer has indeed been charged twice for the same transaction by checking the customer's account history and transaction records.
+- Rule 2: Initiate Reversal Request: If the duplicate transaction is confirmed, initiate a reversal request for the duplicate transaction immediately.
 
-- **Determine the cause of the duplicate charge**: The agent must investigate and determine the cause of the duplicate charge, such as a processing error, a merchant error, or potential fraudulent activity.
+- Rule 3: Provide Reversal Timeline: Inform the customer that the reversal process typically takes 3-5 business days and provide a timeline for when they can expect the credit to appear in their account.
 
-- **Reverse the duplicate charge**: If the duplicate charge is confirmed and not a result of a legitimate transaction, the agent must reverse the duplicate charge and credit the customer's account within one business day.
+- Rule: Offer Credit Confirmation: Offer to verify with the customer that the reversal has been processed and the credit has been applied to.
 
-- **Provide a clear explanation to the customer**: The agent must provide a clear and concise explanation to the customer regarding the cause of the duplicate charge, the actions taken to resolve the issue, and any additional steps the customer needs to take.
+- Rule 5: Provide Duplicate Transaction Explanation: Explain to the customer that the duplicate transaction may have occurred due to technical issues, merchant error, or other factors do not speculate on the cause.
 
-- **Escalate to supervisor or specialist if necessary**: If the agent is unable to resolve the issue or if the customer is not satisfied with the resolution, the agent must escalate the issue to a supervisor or a specialist, such as a fraud investigator, for further assistance and resolution.
+- Rule 6: Refund Acceleration: If the customer requests expedited refund, inform them that the standard reversal process is being followed and provide information

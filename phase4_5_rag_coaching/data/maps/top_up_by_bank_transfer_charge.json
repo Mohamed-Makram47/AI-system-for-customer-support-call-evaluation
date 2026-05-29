@@ -1,22 +1,26 @@
 [
   {
-    "rule": "When a customer inquires about fees associated with topping up via bank transfer, the agent must clearly state that there are no fees charged by our bank for topping up via bank transfer.",
+    "rule": "Rule 1: Provide Transfer Fee Information: The agent must inform the customer of the applicable fee for topping up their account via bank transfer, quoting the exact fee amount.",
     "source": "top_up_by_bank_transfer_charge"
   },
   {
-    "rule": "If the customer specifically asks about SWIFT transfer fees, the agent must inform them that SWIFT transfers are subject to a fee, which currently ranges from $20 to $50, depending on the transfer amount and destination.",
+    "rule": "Rule 2: Clarify SEPA Transfer Charges: If the customer inquires about SEPA transfers, the agent must confirm whether a charge applies and provide the exact fee amount.",
     "source": "top_up_by_bank_transfer_charge"
   },
   {
-    "rule": "When a customer asks about SEPA transfer fees, the agent must respond that SEPA transfers are free of charge for customers based in the European Economic Area (EEA).",
+    "rule": "Rule 3: Disclose SWIFT Transfer Option: If the customer asks about transferring from SWIFT, the agent must inform them if this option is available for topping up their account and provide the associated fee.",
     "source": "top_up_by_bank_transfer_charge"
   },
   {
-    "rule": "If a customer inquires about the cost of topping up by transfer, the agent must provide a clear and concise answer, stating that there are no fees for standard bank transfers, but may mention potential fees charged by the customer's external bank.",
+    "rule": "Rule 4: Confirm No Charge for Receiving: The agent must inform the customer that there is no charge for receiving money via bank transfer (SEPA or otherwise) into their account.",
     "source": "top_up_by_bank_transfer_charge"
   },
   {
-    "rule": "When a customer asks about fees for bank transfers to top up their account, the agent must advise them to check with their external bank for any potential fees they may charge, and confirm that our bank does not charge any fees for receiving bank transfers.",
+    "rule": "Rule 5: Quote Transfer Costs: If the customer asks about the cost of transferring, the agent must provide the exact cost, including any applicable fees.",
+    "source": "top_up_by_bank_transfer_charge"
+  },
+  {
+    "rule": "Rule 6: Address Receiving Money Fees: If the customer inquires about fees for receiving money, the agent must explicitly state that there are no fees for receiving money via bank transfer.",
     "source": "top_up_by_bank_transfer_charge"
   }
 ]

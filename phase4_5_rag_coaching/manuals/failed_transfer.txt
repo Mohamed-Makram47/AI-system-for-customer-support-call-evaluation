@@ -1,11 +1,11 @@
-Here are 5 clear rules for agents handling failed transfer issues:
+- Rule 1: Verify Transfer Details: The agent must verify the customer's transfer details, including the recipient's account number, sort code, and payment amount, to ensure accuracy and identify potential causes of the failed transfer.
 
-- **Acknowledge and Empathize**: The agent must acknowledge the customer's frustration and show empathy in their response, e.g., "I apologize for the inconvenience you're experiencing with your transfer" or "I understand how frustrating it must be to have your transfer rejected multiple times."
+- Rule 2: Check Transfer Limits: The agent must check if the customer has exceeded their daily or monthly transfer limits, and inform them of the limits and any available options to increase or adjust the limits.
 
-- **Gather Transaction Details**: The agent must request and gather relevant transaction details from the customer, including the date and time of the transfer, the amount being transferred, the recipient's information (if applicable), and the error message received (if any).
+- Rule 3: Investigate Recipient Bank Issues: The agent must investigate if the recipient bank is experiencing issues or has rejected the transfer, and provide the customer with information on the recipient bank's status and any required next steps.
 
-- **Troubleshoot Common Issues**: The agent must troubleshoot common issues that may be causing the transfer to fail, such as insufficient funds, incorrect recipient information, daily transfer limits, or technical issues with the payment method.
+- Rule 4: Review Account Status: The agent must review the customer's account status to ensure there are sufficient funds and no holds or blocks on the account that may be causing the transfer to fail.
 
-- **Check for System Outages or Maintenance**: The agent must check if there are any system outages or scheduled maintenance that may be affecting the transfer process, and provide an explanation if this is the case.
+- Rule 5: Provide Error Codes or Reasons: The agent must provide the customer with specific error codes or reasons for the failed transfer, if available, and explain the steps to resolve the issue.
 
-- **Escalate to Specialist if Necessary**: The agent must escalate the issue to a specialist or a more senior agent if the customer provides additional information that suggests a more complex issue, or if the agent is unable to resolve the issue through basic troubleshooting, and provide a clear explanation to the customer of the next steps.
+- Rule 6: Offer Alternative Transfer Options: The agent must offer alternative transfer options, such as a standard transfer or a different payment method, if the customer's preferred transfer method is not available.

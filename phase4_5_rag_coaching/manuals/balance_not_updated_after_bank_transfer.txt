@@ -1,11 +1,11 @@
-Here are 5 clear rules for agents handling the issue type "balance_not_updated_after_bank_transfer":
+- Rule 1: Verify Transfer Details: The agent must verify the transfer details, including the date, amount, and sender's account information, to ensure the transfer was successfully initiated.
 
-- **Verify Transfer Details**: The agent must request and verify the customer's transfer details, including the date and time of the transfer, the amount transferred, and the account details of the sender and recipient, to ensure accuracy and understand the transaction.
+- Rule 2: Check Transfer Status: The agent must check the status of the transfer and confirm if it has been processed and cleared.
 
-- **Check Transfer Processing Times**: The agent must inform the customer of the standard processing times for bank transfers, which may vary depending on the type of transfer (domestic or international), the sender's bank, and the transfer method (e.g., wire transfer, ACH). For example, international transfers may take 2-5 business days, while domestic transfers may take 1-2 business days.
+- Rule 3: Provide Transfer Timeline: The agent must provide the customer with the expected timeline for the transfer to be reflected in their account, based on the transfer method and originating bank.
 
-- **Investigate Potential Delays**: If the transfer was made within the standard processing time frame, the agent must investigate potential delays, such as weekends, holidays, or issues with the sender's bank. The agent should also check if the transfer was made via a third-party service, such as a money transfer company.
+- Rule 4: Investigate Transfer Discrepancy: If the transfer is confirmed to have been processed but not reflected in the customer's account, the agent must investigate the discrepancy and review any potential holds or issues.
 
-- **Provide Resolution or Escalation**: If the transfer was made within the standard processing time frame and there are no potential delays, the agent must provide a resolution, such as confirming that the transfer is being processed and will be reflected in the customer's account soon. If the issue cannot be resolved, the agent must escalate the issue to a senior agent or a specialized team, such as a transfer investigation team.
+- Rule 5: Offer Alternative Verification: If the transfer details are not found in the customer's account, the agent must offer to verify the transfer through alternative means, such as contacting the originating bank.
 
-- **Document and Follow-up**: The agent must document the customer's concern, the investigation, and the resolution in the customer's account records. The agent should also offer to follow up with the customer within a specified timeframe (e.g., 24-48 hours) to confirm that the transfer has been processed and the balance has been updated.
+- Rule 6: Provide Tracking Information: If available, the agent must provide the customer with tracking information, such as the Faster Payment Service (FPS) reference number, to facilitate tracking of the transfer.

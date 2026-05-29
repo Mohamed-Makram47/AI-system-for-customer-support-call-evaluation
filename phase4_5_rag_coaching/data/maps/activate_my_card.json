@@ -1,22 +1,26 @@
 [
   {
-    "rule": "The agent must verify the customer's identity and ensure they are the authorized cardholder before providing assistance with activating their card.",
+    "rule": "Rule 1: Verify Customer Identity: Verify the customer's identity by asking for their name, date of birth, and card details (last 4 digits) before proceeding with card activation.",
     "source": "activate_my_card"
   },
   {
-    "rule": "The agent must inform the customer that they can activate their card using one of the following methods:",
+    "rule": "Rule 2: Provide Activation Options: Inform the customer of the available card activation options, such as automated phone system, online banking, or assisted activation through the call center.",
     "source": "activate_my_card"
   },
   {
-    "rule": "If the customer is having trouble activating their card, the agent must troubleshoot the issue by asking specific questions, such as:",
+    "rule": "Rule 3: Activate Card: If the customer requests assisted activation, activate the card immediately using the banking system's card activation tool and confirm the activation with the customer.",
     "source": "activate_my_card"
   },
   {
-    "rule": "The agent must provide clear instructions on what information the customer needs to activate their card, which may include:",
+    "rule": "Rule 4: Provide Activation Confirmation and Instructions: Provide the customer with clear instructions on how to use their activated card and confirm that the card is ready for use.",
     "source": "activate_my_card"
   },
   {
-    "rule": "If the customer's card activation issue cannot be resolved through troubleshooting or guidance, the agent must escalate the issue to a senior agent or a specialized card support team, and provide the customer with a reference number or a callback option for further assistance.",
+    "rule": "Rule 5: Inform on Additional Requirements: If required, inform the customer if any additional information or documentation, such as photo ID, is needed to complete the card activation process.",
+    "source": "activate_my_card"
+  },
+  {
+    "rule": "Rule 6: Offer Troubleshooting: If the card activation is unsuccessful, troubleshoot the issue with the customer to identify the cause and provide a solution or alternatives.",
     "source": "activate_my_card"
   }
 ]

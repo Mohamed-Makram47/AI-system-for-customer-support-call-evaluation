@@ -1,22 +1,26 @@
 [
   {
-    "rule": "The agent must first confirm the customer's eligibility for a virtual card by verifying their account type and status, and ensure that virtual card services are available for their account.",
+    "rule": "Rule 1: Define Virtual Card: Provide a clear definition of a virtual card, explaining that it is a digital version of a physical card, when a customer asks \"what is a virtual card\" or \"how do I get a virtual card\".",
     "source": "getting_virtual_card"
   },
   {
-    "rule": "The agent must clearly explain to the customer what a virtual card is, its benefits, and its uses, before proceeding with the customer's request.",
+    "rule": "Rule 2: Check Eligibility: Verify if the customer is eligible for a virtual card by checking their account status and card issuance criteria.",
     "source": "getting_virtual_card"
   },
   {
-    "rule": "To facilitate the process, the agent must guide the customer to access the virtual card through the bank's mobile app or online banking platform, if available, and provide step-by-step instructions if needed.",
+    "rule": "Rule 3: Instant Virtual Card Issuance: If the customer has lost their card and needs to place an online order, provide instructions on how to instantly issue a virtual card through the bank's mobile app or website.",
     "source": "getting_virtual_card"
   },
   {
-    "rule": "If the customer is eligible but unable to access the virtual card through self-service channels, the agent must assist the customer in generating a virtual card through the bank's system, ensuring that all necessary security protocols are followed.",
+    "rule": "Rule 4: Guide Virtual Card Setup: Walk the customer through the step-by-step process of setting up a virtual card on their device, including downloading and activating the card.",
     "source": "getting_virtual_card"
   },
   {
-    "rule": "The agent must document the customer's request and resolution in the bank's CRM system, including any relevant details such as the customer's account information and virtual card details, to ensure accurate record-keeping and future reference.",
+    "rule": "Rule 5: Provide Virtual Card Details: Once the virtual card is issued, provide the customer with the card details, including the card number, expiration date, and security code.",
+    "source": "getting_virtual_card"
+  },
+  {
+    "rule": "Rule 6: Offer Alternative Channels: If the customer is unable to access the virtual card through the mobile app or website, offer alternative channels, such as visiting a branch or contacting the bank's customer service.",
     "source": "getting_virtual_card"
   }
 ]

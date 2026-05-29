@@ -1,22 +1,26 @@
 [
   {
-    "rule": "**Verify Customer Identity**: Before assisting with PIN unblocking, agents must verify the customer's identity through a series of security questions, such as their name, date of birth, account information, and address, to ensure they are speaking with the account holder.",
+    "rule": "Rule 1: Verify PIN Block Status: The agent must verify the customer's PIN block status by checking the account details to confirm if the PIN is indeed blocked due to incorrect attempts.",
     "source": "pin_blocked"
   },
   {
-    "rule": "**Explain PIN Block Policy**: Agents must clearly explain to the customer that their PIN has been blocked due to excessive incorrect attempts and that this is a security measure to protect their account from unauthorized access.",
+    "rule": "Rule 2: Inform PIN Try Limits: The agent must inform the customer of the remaining PIN try limits and the process to unblock the PIN, if applicable.",
     "source": "pin_blocked"
   },
   {
-    "rule": "**Provide Unblocking Options**: Agents must inform the customer of the available options to unblock their PIN, which may include:",
+    "rule": "Rule 3: Provide Unblock Options: The agent must provide the customer with options to unblock their PIN, such as visiting a branch or using a self-service terminal, if available.",
     "source": "pin_blocked"
   },
   {
-    "rule": "**Guide Customer through Unblocking Process**: Agents must walk the customer through the chosen unblocking process, providing step-by-step instructions and answering any questions they may have. If the customer is unable to complete the process, the agent must offer assistance and escalate the issue if necessary.",
+    "rule": "Rule 4: Explain Consequence of Incorrect Attempts: The agent must explain to the customer that if they exceed the maximum allowed PIN attempts, their card will be blocked, and they will need to contact the bank to unblock it.",
     "source": "pin_blocked"
   },
   {
-    "rule": "**Document and Follow-up**: Agents must document the customer's issue and the resolution provided in their system, and follow up with the customer to ensure that their PIN has been successfully unblocked and that they are able to access their account without issues.",
+    "rule": "Rule 5: Offer Alternative Solutions: The agent must offer alternative solutions to the customer, such as a temporary PIN reset or a new PIN issuance, if the customer is unable to unblock their PIN through self-service channels.",
+    "source": "pin_blocked"
+  },
+  {
+    "rule": "Rule 6: Provide Branch Information: The agent must provide the customer with information on the nearest branch location and hours of operation, if the customer needs to visit a branch to unblock their PIN.",
     "source": "pin_blocked"
   }
 ]

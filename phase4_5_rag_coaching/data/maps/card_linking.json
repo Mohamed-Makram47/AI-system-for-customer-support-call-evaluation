@@ -1,22 +1,26 @@
 [
   {
-    "rule": "**Verify Card Status**: Before providing instructions, verify that the customer's card is not already linked to their account and that it has not been previously cancelled or reported lost/stolen.",
+    "rule": "Rule 1: Verify Card Status: Check the customer's card status to determine if it is active, inactive, or pending replacement.",
     "source": "card_linking"
   },
   {
-    "rule": "**Provide App-Based Instructions**: Inform customers that they can link their card to their account through the mobile app, and provide step-by-step instructions on how to do so, including navigating to the \"Add Card\" or \"Link Card\" section.",
+    "rule": "Rule 2: Provide Linking Instructions: If the card is active, provide the customer with step-by-step instructions on how to link the card to the app, including navigating to the app's card management section and entering the card details.",
     "source": "card_linking"
   },
   {
-    "rule": "**Explain Card Activation**: Clearly explain to customers that they need to activate their card before it can be linked to their account, and provide instructions on how to activate it, if necessary.",
+    "rule": "Rule 3: Reactivate Card: If the card was previously reported lost or stolen and is now found, reactivate the card in the system and confirm with the customer that it is now active.",
     "source": "card_linking"
   },
   {
-    "rule": "**Handle Re-Activation of Previously Cancelled Cards**: If a customer reports finding a previously cancelled card, inform them that they need to request re-activation of the card through the call center, and provide instructions on how to do so.",
+    "rule": "Rule 4: New Card Linking: If the customer has a new card, verify the card details and link the new card to the app on behalf of the customer or provide instructions on how to do so themselves.",
     "source": "card_linking"
   },
   {
-    "rule": "**Escalate Complex Issues**: If a customer is experiencing technical issues or difficulties linking their card through the app, offer to escalate the issue to a technical support specialist or a senior agent for further assistance.",
+    "rule": "Rule 5: Locate Linked Cards: If the customer is inquiring about a card that has already been received, check the app and account to locate the linked card and provide the customer with information on how to access it.",
+    "source": "card_linking"
+  },
+  {
+    "rule": "Rule 6: Update Card Status: Update the customer's card status in the system to reflect that it has been found and reactivated, if applicable.",
     "source": "card_linking"
   }
 ]

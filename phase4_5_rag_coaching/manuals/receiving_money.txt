@@ -1,11 +1,11 @@
-Here are 5 clear rules for agents handling the issue of receiving money:
+- Rule 1: Verify Receiving Options: Inform the customer of the available options to receive money, including bank transfer, online payment services, and in-person deposit.
 
-- **Verify Customer's Account Settings**: Before providing guidance on receiving money, agents must verify the customer's current account settings, including their account type and any existing payment configurations, to ensure they are eligible to receive funds.
+- Rule 2: Explain Currency Handling: If the customer inquires about receiving payment in another currency, explain that the bank can hold and manage multiple currencies, but conversion fees may apply.
 
-- **Explain Receiving Money in Local Currency**: Agents must inform customers that they can receive money in their local currency (e.g. GBP) without any additional configuration, but if they need to receive money in another currency, they may need to configure their account accordingly.
+- Rule 3: Provide Sender Instructions: If the customer asks how a friend or third party can send them money, provide instructions on how to set up a payment, including providing the customer's account details.
 
-- **Clarify Transfer Options**: Agents must explain to customers that they can receive money from friends or family through various transfer options, such as online banking, mobile banking, or in-person at a branch, and provide guidance on the associated fees and limits.
+- Rule 4: Check Currency Configuration: If the customer's salary is in a foreign currency (e.g., GBP), verify if the customer's account is configured to receive international payments and if any additional setup is required.
 
-- **Discuss Salary Payment Configurations**: If a customer is receiving a salary in a foreign currency, agents must advise them to configure their account to accept international payments and provide guidance on how to do so, including any required documentation or forms.
+- Rule 5: Payroll Setup Guidance: If the customer inquires about receiving their payroll, provide guidance on what information the customer needs to provide to their employer to set up direct deposit.
 
-- **Provide Instructions on Sharing Account Details**: Agents must instruct customers on how to share their account details with the sender, including their account number, sort code, and any other required information, and emphasize the importance of only sharing account details with trusted individuals or organizations.
+- Rule 6: Distinguish Between Payment Methods: If the customer asks about receiving money from a friend versus receiving a salary, clearly explain the differences in processing and any applicable fees or requirements.

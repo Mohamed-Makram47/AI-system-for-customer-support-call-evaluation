@@ -1,22 +1,62 @@
 [
   {
-    "rule": "**Rule 1: Acknowledge and Empathize**: Agents must acknowledge the customer's concern and express empathy in their response, e.g., \"I understand you're eager to receive your transfer, and I'm here to help you with the timing.\"",
+    "rule": "Rule 1: Provide Transfer Timing Framework: The agent must provide the customer with a clear explanation of the transfer timing framework, which includes:",
     "source": "transfer_timing"
   },
   {
-    "rule": "**Rule 2: Request Transfer Details**: Agents must request specific details about the transfer, including the origin and destination countries, transfer amount, and transfer type (e.g., wire, ACH, or online transfer), to provide an accurate estimate of the transfer timing.",
+    "rule": "Same-day or next-day transfers for domestic US transactions",
     "source": "transfer_timing"
   },
   {
-    "rule": "**Rule 3: Provide Clear Timing Information**: Agents must provide clear and accurate information on the transfer timing based on the customer's specific transfer details, including:",
+    "rule": "2-5 business days for non-domestic US transactions (e.g., Europe, China)",
     "source": "transfer_timing"
   },
   {
-    "rule": "**Rule 4: Explain Transfer Processing**: Agents must explain the general transfer processing steps and how they impact timing, such as:",
+    "rule": "Cut-off times for same-day processing (e.g., 4 pm EST)",
     "source": "transfer_timing"
   },
   {
-    "rule": "**Rule 5: Offer Additional Resources**: Agents must offer additional resources or next steps, such as:",
+    "rule": "Rule 2: Quote Specific Transfer Times: The agent must quote specific transfer times based on the origin and destination of the transfer,",
+    "source": "transfer_timing"
+  },
+  {
+    "rule": "US domestic: same-day or 1 business day",
+    "source": "transfer_timing"
+  },
+  {
+    "rule": "Europe: 2-3 business days",
+    "source": "transfer_timing"
+  },
+  {
+    "rule": "China: 3-5 business days",
+    "source": "transfer_timing"
+  },
+  {
+    "rule": "Rule 3: Identify Expedited Transfer Options: If the customer requests faster transfer options, the agent must identify and explain available expedited transfer services,",
+    "source": "transfer_timing"
+  },
+  {
+    "rule": "e.g., same-day or next-day transfers for an additional fee",
+    "source": "transfer_timing"
+  },
+  {
+    "rule": "Rule 4: Provide Cut-off Times: The agent must inform the customer of the cut-off times for same-day processing and how it affects their transfer,",
+    "source": "transfer_timing"
+  },
+  {
+    "rule": "e.g., transfers initiated after 4 pm EST will be processed the next business day",
+    "source": "transfer_timing"
+  },
+  {
+    "rule": "Rule 5: Clarify Weekend and Holiday Processing: The agent must clarify how weekends and holidays affect transfer processing times,",
+    "source": "transfer_timing"
+  },
+  {
+    "rule": "e.g., transfers initiated on a Friday may not be processed until Monday",
+    "source": "transfer_timing"
+  },
+  {
+    "rule": "Rule 6: Offer Tracking Information: If the transfer is still pending, the agent must offer to provide tracking information or a reference number to help the customer track the status of their transfer.",
     "source": "transfer_timing"
   }
 ]

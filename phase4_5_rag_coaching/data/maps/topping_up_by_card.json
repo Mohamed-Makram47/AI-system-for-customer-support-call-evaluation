@@ -1,22 +1,26 @@
 [
   {
-    "rule": "**Verify Customer's Top-up Transaction**: The agent must verify if the customer's top-up transaction was successful or not by checking the transaction history and the account balance. If the transaction was successful, but the funds are not visible in the account, the agent must investigate further.",
+    "rule": "Rule 1: Verify Card Eligibility: When a customer asks about topping up by card, verify if the card type (credit/debit) is eligible for topping up and inform the customer accordingly.",
     "source": "topping_up_by_card"
   },
   {
-    "rule": "**Check for Reversal or Refund**: The agent must check if a reversal or refund was processed for the top-up transaction, which could explain why the funds are not visible in the account. If a reversal or refund was processed, the agent must explain the reason to the customer.",
+    "rule": "Rule 2: Explain Top-up Process: Provide a clear, step-by-step explanation of the top-up by card process, including any required information or security measures.",
     "source": "topping_up_by_card"
   },
   {
-    "rule": "**Confirm Card and Account Eligibility**: The agent must confirm if the customer's card and account are eligible for top-up transactions. Some cards or accounts may have restrictions or limitations on top-up transactions, and the agent must inform the customer of these restrictions.",
+    "rule": "Rule 3: Confirm Transaction Details: When a customer reports a successful top-up attempt but no funds are visible, confirm the transaction details, including date, time, amount, and card used.",
     "source": "topping_up_by_card"
   },
   {
-    "rule": "**Explain Top-up Processing Time**: The agent must explain to the customer that top-up transactions may take a few minutes to process, and the funds may not be immediately visible in the account. The agent must advise the customer to wait for a reasonable amount of time (e.g., 10-15 minutes) before contacting the call center again.",
+    "rule": "Rule 4: Check for Duplicate Transactions: If a customer reports a missing top-up, check the customer's account for duplicate transactions or multiple attempts at topping up.",
     "source": "topping_up_by_card"
   },
   {
-    "rule": "**Escalate to Supervisor if Necessary**: The agent must escalate the issue to a supervisor if the customer is still experiencing issues with their top-up transaction, and the agent is unable to resolve the issue. The supervisor will investigate the issue further and provide a resolution to the customer.",
+    "rule": "Rule 5: Provide Top-up Limits: Inform customers about the daily, weekly, or monthly limits for topping up by card, if applicable.",
+    "source": "topping_up_by_card"
+  },
+  {
+    "rule": "Rule 6: Advise on Card Security: When a customer inquires about adding others to their account for top-ups, advise on the importance of card security and the bank's policies regarding account access and authorization.",
     "source": "topping_up_by_card"
   }
 ]

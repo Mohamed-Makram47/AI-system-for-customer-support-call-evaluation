@@ -1,11 +1,11 @@
-Here are 5 clear rules for agents handling declined cash withdrawal issues:
+- Rule 1: Check Account Status for Holds or Blocks: Verify if there are any holds or blocks on the customer's account that may be preventing the cash withdrawal.
 
-- **Verify Account Balance**: Before proceeding with the investigation, agents must verify the customer's account balance to ensure that there are sufficient funds available for withdrawal.
+- Rule 2: Verify Daily Withdrawal Limit: Confirm if the customer has exceeded their daily withdrawal limit, and provide the current limit if requested.
 
-- **Check for Card Issues**: Agents must check if the customer's card is valid, not expired, and not blocked or flagged for suspicious activity, and inform the customer of any issues found.
+- Rule 3: Check Card Expiration and Status: Verify the customer's card expiration date and check if the card is active and not blocked or expired.
 
-- **Investigate ATM and Transaction Issues**: Agents must investigate if there were any issues with the ATM machine used, such as technical problems or out-of-order status, and also check if there were any issues with the transaction itself, such as incorrect PIN entry or daily limit exceeded.
+- Rule 4: Investigate ATM-Specific Issues: Ask the customer for the ATM location and verify if there are any issues with that specific ATM or if it's out of service.
 
-- **Review Account Restrictions and Holds**: Agents must review the customer's account for any restrictions or holds that may be preventing the withdrawal, such as a hold on funds due to a pending transaction or a restriction on international transactions.
+- Rule 5: Review Recent Transactions: Review the customer's recent transactions to identify any suspicious activity that may have triggered a block or hold on their account.
 
-- **Escalate to Specialist if Necessary**: If the issue cannot be resolved through basic troubleshooting, agents must escalate the issue to a specialist, such as a card services representative or a fraud investigator, to further investigate and resolve the issue.
+- Rule 6: Provide ATM Transaction Details: Provide the customer with details of their ATM transaction, including the date, time, and location of the transaction, if available.

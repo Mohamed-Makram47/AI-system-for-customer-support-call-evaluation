@@ -1,22 +1,26 @@
 [
   {
-    "rule": "**Acknowledge and Apologize**: The agent must acknowledge the customer's concern and apologize for the inconvenience caused by the unexpected fee, ensuring a empathetic tone from the start of the conversation.",
+    "rule": "Rule 1: Verify Card Payment Fee: Confirm if the customer was charged a card payment fee and verify the transaction details to ensure the fee was indeed applied.",
     "source": "card_payment_fee_charged"
   },
   {
-    "rule": "**Explain Fee Policy**: The agent must clearly explain the bank's policy on card payment fees, including any specific instances that may result in a fee being charged, and provide information on where the customer can find this information (e.g., website, app, or account documentation).",
+    "rule": "Rule 2: Explain Card Payment Fee Policy: Provide a clear explanation of the card payment fee policy, including the circumstances under which the fee is charged and the amount of the fee.",
     "source": "card_payment_fee_charged"
   },
   {
-    "rule": "**Verify Transaction Details**: The agent must verify the transaction details with the customer, including the payment method, amount, and date, to ensure accuracy and understand the context of the fee.",
+    "rule": "Rule 3: Check for Fee Waivers: Determine if the customer is eligible for a fee waiver and process the waiver if applicable.",
     "source": "card_payment_fee_charged"
   },
   {
-    "rule": "**Check for Fee Waivers or Exemptions**: The agent must check if the customer is eligible for any fee waivers or exemptions, such as a specific account type or loyalty program, and provide guidance on how to avoid future fees.",
+    "rule": "Rule 4: Refund Card Payment Fee: If the customer was incorrectly charged a card payment fee, initiate a refund of the fee and update the customer's account accordingly.",
     "source": "card_payment_fee_charged"
   },
   {
-    "rule": "**Provide Refund or Credit, if Applicable**: If the agent determines that the fee was charged in error or is not applicable, they must provide a refund or credit to the customer's account, and confirm the correction with the customer to ensure their satisfaction.",
+    "rule": "Rule 5: Provide Transaction Details: Provide the customer with detailed information about the transaction, including the date, amount, and breakdown of charges.",
+    "source": "card_payment_fee_charged"
+  },
+  {
+    "rule": "Rule 6: Review and Correct Errors: Review the transaction to ensure that the card payment fee was correctly applied and correct any errors if necessary.",
     "source": "card_payment_fee_charged"
   }
 ]

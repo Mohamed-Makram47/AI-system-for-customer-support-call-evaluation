@@ -1,22 +1,26 @@
 [
   {
-    "rule": "**Rule 1: Verify Customer Eligibility**: Before assisting with a PIN change, agents must verify that the customer is eligible to change their PIN through our channels. This includes checking that the customer's account is active and that they have not exceeded the maximum number of PIN attempts.",
+    "rule": "Rule 1: Inform ATM Availability: Inform the customer that they can change their PIN at an ATM that accepts PIN changes, typically those with a \"PIN Services\" or \"PIN Change\" option.",
     "source": "change_pin"
   },
   {
-    "rule": "**Rule 2: Inform Customers of Available Channels**: Agents must inform customers that they can change their PIN through our mobile banking app, online banking platform, or at an ATM. However, agents must also clarify that not all ATMs support PIN changes and provide guidance on which ones do.",
+    "rule": "Rule 2: Provide ATM Locator: Provide the customer with instructions on how to find an ATM that allows PIN changes, such as using the bank's website or mobile app to locate nearby ATMs.",
     "source": "change_pin"
   },
   {
-    "rule": "**Rule 3: Provide Step-by-Step Instructions**: Agents must provide customers with step-by-step instructions on how to change their PIN through the specified channel. For example, if changing through the mobile banking app, agents must guide the customer through the app's navigation and confirmation process.",
+    "rule": "Rule 3: Explain International PIN Change: Inform the customer that they can change their PIN at an ATM abroad, but only if the ATM accepts their card type and has PIN change capabilities.",
     "source": "change_pin"
   },
   {
-    "rule": "**Rule 4: Emphasize Security Best Practices**: Agents must remind customers to choose a new PIN that is unique and not easily guessable. Additionally, agents must advise customers to avoid using the same PIN across multiple accounts or cards.",
+    "rule": "Rule 4: Direct to Customer Care for Complex Issues: If the customer is unable to find an ATM or is having issues with their PIN, direct them to contact customer care for further assistance.",
     "source": "change_pin"
   },
   {
-    "rule": "**Rule 5: Document Customer Requests and Outcomes**: Agents must document all customer requests to change their PIN, including the channel used and any issues encountered during the process. This documentation must include the outcome of the request, whether successful or not, and any follow-up actions required.",
+    "rule": "Rule 5: Provide PIN Change Instructions: Provide the customer with step-by-step instructions on how to change their PIN at an ATM, including inserting their card, selecting the PIN change option, and following the on-screen prompts.",
+    "source": "change_pin"
+  },
+  {
+    "rule": "Rule 6: Clarify Online PIN Change: Inform the customer that they cannot change their PIN online, but can do so at an ATM or by visiting a branch.",
     "source": "change_pin"
   }
 ]

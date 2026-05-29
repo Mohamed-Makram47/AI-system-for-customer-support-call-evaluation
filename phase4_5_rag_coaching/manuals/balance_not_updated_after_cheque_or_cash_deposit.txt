@@ -1,20 +1,13 @@
-Here are 5 clear rules for agents handling the issue of balance not updated after cheque or cash deposit:
+- Rule 1: Verify Deposit Details: The agent must verify the deposit details, including the type of deposit (cheque or cash), date of deposit, and deposit amount, to ensure accuracy and identify potential causes of the delay.
 
-- **Acknowledge and Empathize**: The agent must acknowledge the customer's concern and express empathy in their initial response, e.g., "I understand your concern about the missing deposit, and I'm here to help you resolve the issue."
+- Rule 2: Check Hold Periods: The agent must check if the deposit is subject to a hold period, and if so, inform the customer of the expected availability date based on the bank's hold policies.
 
-- **Gather Transaction Details**: The agent must request and verify the following details from the customer: 
-  - Type of deposit (cheque or cash)
-  - Date of deposit
-  - Deposit amount
-  - Branch or ATM where the deposit was made (if applicable)
+- Rule 3: Investigate Transaction Status: The agent must investigate the transaction status by checking the bank's transaction records, and provide the customer with an update on the status of their deposit.
 
-- **Check Processing Timelines**: The agent must inform the customer of the standard processing timelines for cheque and cash deposits:
-  - Cheque deposits: 2-3 business days for funds to be available
-  - Cash deposits: Immediate or next business day for funds to be available
+- Rule 4: Provide Timeline for Resolution: The agent must provide a clear timeline for when the deposit will be reflected in the customer's account, or when a resolution can be expected, based on the bank's policies and procedures.
 
-- **Investigate and Provide Status Update**: The agent must investigate the status of the deposit by checking the customer's account history and transaction records. The agent must provide a clear update on the status of the deposit, including:
-  - If the deposit has been processed and the funds are available
-  - If the deposit is still pending and an estimated timeframe for availability
-  - If there are any issues or holds on the account
+- Rule 5: Offer Alternative Verification: The agent must offer to verify the deposit details with the customer, by requesting the customer to provide a receipt or other proof of deposit, if available.
 
-- **Escalate and Resolve**: If the agent is unable to resolve the issue or provide a satisfactory explanation, they must escalate the issue to a senior agent or a specialized team (e.g., deposit resolution team) for further investigation and resolution. The agent must ensure that the customer receives a clear resolution or a follow-up contact with a specific timeline.
+- Rule 6: Identify Potential Causes: The agent must identify potential causes of the delay, such as weekends, holidays, or technical issues, and explain them to the customer.
+
+- Rule 7: Provide Follow-up Steps: The agent must provide the customer with follow-up steps, such as contacting the bank again at a later time or visiting a branch, if the issue is not resolved during the call.

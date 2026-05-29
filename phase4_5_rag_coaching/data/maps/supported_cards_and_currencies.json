@@ -1,22 +1,26 @@
 [
   {
-    "rule": "When a customer inquires about supported cards for topping up their account, the agent must inform them that we support major credit and debit cards, including Visa, Mastercard, American Express, and Maestro.",
+    "rule": "Rule 1: Verify Supported Card Types: Inform the customer that we support Visa, Mastercard, and Maestro cards, but not American Express, for topping up their account.",
     "source": "supported_cards_and_currencies"
   },
   {
-    "rule": "The agent must specify that we accept credit and debit cards from most countries, including the US, UK, and other major economies, but may not accept cards from certain countries due to regulatory or technical restrictions.",
+    "rule": "Rule 2: List Accepted Currencies: Provide the customer with a list of supported currencies for adding money to their account, which includes USD, EUR, GBP, and others.",
     "source": "supported_cards_and_currencies"
   },
   {
-    "rule": "When asked about supported currencies, the agent must explain that we accept a wide range of currencies, including USD, EUR, GBP, and many others, but the exact list of currencies may vary depending on the customer's location and local regulations.",
+    "rule": "Rule 3: Check Card Eligibility: If a customer asks about using a specific card, verify that the card type (e.g., American Express) is not supported for topping up their account and offer alternative payment methods.",
     "source": "supported_cards_and_currencies"
   },
   {
-    "rule": "If a customer specifically asks about using a particular type of card (e.g. American Express) or a card from a specific country, the agent must verify the information and provide a clear answer, either confirming that the card is supported or explaining why it is not.",
+    "rule": "Rule 4: Provide Alternative Payment Methods: If a customer's card is not supported, offer alternative payment methods, such as bank transfer or another card type.",
     "source": "supported_cards_and_currencies"
   },
   {
-    "rule": "The agent must also inform the customer that they can check our website or mobile app for the most up-to-date and accurate information on supported cards and currencies, and provide the URL or app store link if requested.",
+    "rule": "Rule 5: Confirm Card Details: If a customer inquires about using a specific card, confirm that the card details (e.g., card type and currency) are correct and provide guidance on how to proceed with the supported card.",
+    "source": "supported_cards_and_currencies"
+  },
+  {
+    "rule": "Rule 6: Inform of Unsupported Cards: Clearly inform customers that American Express cards are not accepted for adding money to their account and provide a reason or alternative.",
     "source": "supported_cards_and_currencies"
   }
 ]

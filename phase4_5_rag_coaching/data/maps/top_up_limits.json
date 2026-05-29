@@ -1,22 +1,26 @@
 [
   {
-    "rule": "**Rule 1: Inform customers of standard top-up limits**: Agents must inform customers that there are standard top-up limits in place, which vary depending on the type of card or account. These limits are in place to prevent excessive transactions and ensure customer safety.",
+    "rule": "Rule 1: Verify Current Top-up Limits: Provide the customer with their current top-up limit based on their account type and any existing limits.",
     "source": "top_up_limits"
   },
   {
-    "rule": "**Rule 2: Provide specific top-up limit information**: Agents must provide customers with specific information on the top-up limits applicable to their card or account. This includes the maximum amount that can be topped up per transaction and the daily/weekly/monthly limits.",
+    "rule": "Rule 2: Quote Maximum Top-up Amount: Inform the customer of the maximum top-up amount allowed per transaction and per day, as per the bank's policies.",
     "source": "top_up_limits"
   },
   {
-    "rule": "**Rule 3: Clarify that custom top-up limits are not available**: Agents must clearly communicate to customers that they cannot create their own custom top-up limits. However, they can offer alternatives, such as splitting transactions into smaller amounts, subject to the standard top-up limits.",
+    "rule": "Rule 3: Check for Temporary Top-up Limits: Verify if there are any temporary or promotional top-up limits that may be applicable to the customer's account.",
     "source": "top_up_limits"
   },
   {
-    "rule": "**Rule 4: Explain the implications of frequent top-ups**: Agents must advise customers that frequent top-ups, especially those exceeding the standard limits, may trigger additional security checks, account restrictions, or even account closure.",
+    "rule": "Rule 4: Explain Top-up Limit Determination: Explain to the customer how their top-up limit was determined and what factors may influence any potential changes to their limit.",
     "source": "top_up_limits"
   },
   {
-    "rule": "**Rule 5: Escalate requests for exceptions to senior teams**: Agents must escalate any customer requests for exceptions to the standard top-up limits to senior teams or specialized units, which will review and respond to these requests on a case-by-case basis, in accordance with the bank's policies and regulatory requirements.",
+    "rule": "Rule 5: Provide Information on Increasing Top-up Limits: If the customer requests to increase their top-up limit, provide information on the process and required documentation, if applicable.",
+    "source": "top_up_limits"
+  },
+  {
+    "rule": "Rule 6: Clarify Frequency of Top-ups: Inform the customer of any restrictions on the frequency of top-ups, including the minimum time interval between top-ups.",
     "source": "top_up_limits"
   }
 ]

@@ -1,22 +1,26 @@
 [
   {
-    "rule": "**Verify Customer Identity**: Before providing assistance, agents must verify the customer's identity through their account information, such as account number, date of birth, or address, to ensure they are speaking with the account owner.",
+    "rule": "Rule 1: Suspend Account Access: The agent must suspend the customer's account access through the mobile app to prevent unauthorized access, and inform the customer that they will be contacted to verify identity before access is restored.",
     "source": "lost_or_stolen_phone"
   },
   {
-    "rule": "**Flag Account for Potential Fraud**: If a customer reports their phone stolen or lost, agents must flag their account for potential fraud to prevent any unauthorized transactions, and advise the customer to monitor their account activity closely.",
+    "rule": "Rule 2: Block Device: The agent must block the customer's device from accessing the mobile app and inform the customer that they can request a new device to be registered.",
     "source": "lost_or_stolen_phone"
   },
   {
-    "rule": "**Disable Mobile Banking Access**: Agents must assist the customer in disabling mobile banking access to their account from the lost or stolen phone, and provide guidance on how to access their account through alternative channels, such as online banking or visiting a branch.",
+    "rule": "Rule 3: Card Blocking: If the customer reports that their phone was lost or stolen and also had their card with them, the agent must block the card immediately to prevent unauthorized transactions.",
     "source": "lost_or_stolen_phone"
   },
   {
-    "rule": "**Provide Guidance on Card Usage**: If the customer's phone contained their card information, agents must provide guidance on how to use their card, such as requesting a replacement card or using an alternative payment method.",
+    "rule": "Rule 4: Provide Alternative Access: The agent must offer alternative access methods to the customer, such as phone banking or visiting a branch, to enable them to manage their account.",
     "source": "lost_or_stolen_phone"
   },
   {
-    "rule": "**Document and Escalate if Necessary**: Agents must document the customer's issue and resolution in their system, and escalate the issue to a supervisor or specialized team if the customer requests additional assistance, such as replacing a card or reporting suspicious activity on their account.",
+    "rule": "Rule 5: Inform Customer of Responsibility: The agent must inform the customer that they are responsible for reporting the lost or stolen phone to their local authorities and providing proof of report to the bank if required.",
+    "source": "lost_or_stolen_phone"
+  },
+  {
+    "rule": "Rule 6: Provide Replacement App Access: The agent must provide instructions to the customer on how to request a new device to be registered or have their account reactivated on a new device.",
     "source": "lost_or_stolen_phone"
   }
 ]

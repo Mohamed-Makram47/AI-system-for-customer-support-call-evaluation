@@ -1,11 +1,11 @@
-Here are 5 clear rules for agents handling the issue type "cash_withdrawal_not_recognised":
+- Rule 1: Verify Transaction Details: The agent must verify the customer's identity and ask for specific details about the unrecognized cash withdrawal, including the date, amount, and location of the transaction.
 
-- **Verify Customer Identity**: Before taking any action, agents must verify the customer's identity through their standard authentication process, which may include asking for their name, date of birth, account information, and/or security questions.
+- Rule 2: Check for Card Compromise: The agent must ask the customer if they have reported their card lost or stolen and if they have any evidence that their card information may have been compromised.
 
-- **Acknowledge and Apologize**: Agents must acknowledge the customer's concern and apologize for the inconvenience caused by the unauthorized withdrawal, showing empathy and a customer-centric tone.
+- Rule 3: Block Card and Prevent Further Transactions: If the customer confirms that the transaction was unauthorized, the agent must immediately block the customer's card to prevent further transactions.
 
-- **Gather Transaction Details**: Agents must request and gather detailed information about the disputed transaction, including the date, time, and location of the withdrawal, as well as the amount withdrawn, to facilitate further investigation.
+- Rule 4: Initiate Investigation: The agent must inform the customer that an investigation will be initiated to determine the cause of the unauthorized transaction and provide a case reference number or a similar identifier.
 
-- **Immediately Block Account/Card (if necessary)**: If the customer confirms that the withdrawal was not made by them, the agent must immediately block the account or card to prevent further unauthorized transactions, and offer to replace the card or provide a new one.
+- Rule 5: Provide Temporary Refund: If the customer is disputing a recent transaction, the agent must offer a temporary refund of the disputed amount while the investigation is ongoing, if applicable and in accordance with company policies.
 
-- **Escalate to Investigation Team**: Agents must escalate the issue to the investigation team or a specialized unit (e.g. fraud team) to conduct a thorough investigation into the unauthorized withdrawal, and provide the customer with a reference number or a point of contact for follow-up.
+- Rule 6: Explain Monitoring Process: The agent must explain to the customer that they will be monitored for future suspicious activity and that they will be contacted with the results of the investigation.

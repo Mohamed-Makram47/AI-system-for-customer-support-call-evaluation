@@ -1,22 +1,26 @@
 [
   {
-    "rule": "**Acknowledge and Empathize**: Agents must acknowledge the customer's concern and express empathy in their response, e.g., \"I understand that waiting for a top-up to go through can be frustrating. I'm here to help you with that.\"",
+    "rule": "Rule 1: Pending Top-up Explanation: Provide a clear explanation to the customer that a top-up is pending because it is being processed and has not yet been completed, and that it usually takes a few minutes to a few hours to complete, but can take longer in some cases.",
     "source": "pending_top_up"
   },
   {
-    "rule": "**Check Top-up Status**: Agents must verify the status of the top-up by checking the customer's account and transaction history to determine the cause of the pending status.",
+    "rule": "Rule 2: Top-up Status Check: Inform the customer that they can check the status of their top-up by logging into their online banking account or mobile banking app, and provide the exact steps to do so.",
     "source": "pending_top_up"
   },
   {
-    "rule": "**Provide Timeframe Information**: Agents must inform the customer of the standard timeframe for top-up processing, which is typically [insert timeframe, e.g., 1-2 hours, 1-3 business days]. Agents should also advise the customer that this timeframe may vary depending on the payment method or other factors.",
+    "rule": "Rule 3: Pending Top-up Investigation: If the customer reports that their top-up has been pending for an unusual amount of time (e.g. more than 2 hours), ask the customer for their top-up transaction reference number and investigate the status of the top-up with the payment processing team.",
     "source": "pending_top_up"
   },
   {
-    "rule": "**Investigate and Resolve**: If the top-up has been pending for an extended period, agents must investigate the issue further by checking for any potential issues with the payment method, account restrictions, or other technical issues. Agents should work to resolve the issue as quickly as possible.",
+    "rule": "Rule 4: Top-up Retry or Cancellation: If the customer requests assistance with a pending top-up, offer to attempt a retry of the top-up transaction or cancel the pending top-up and provide guidance on how to re-initiate the top-up.",
     "source": "pending_top_up"
   },
   {
-    "rule": "**Escalate if Necessary**: If the agent is unable to resolve the issue or if the customer is not satisfied with the explanation, agents must escalate the issue to a senior agent or a specialized team, such as a technical support team, to ensure prompt resolution.",
+    "rule": "Rule 5: Provide Estimated Resolution Time: Provide an estimated timeframe for when the pending top-up will be completed, based on the customer's specific situation and the bank's processing times.",
+    "source": "pending_top_up"
+  },
+  {
+    "rule": "Rule 6: Escalation to Specialist: If the customer is a new customer and their top-up is still pending after explanation and investigation, escalate the issue to a specialist who can review the customer's account and top-up transaction to resolve the issue.",
     "source": "pending_top_up"
   }
 ]

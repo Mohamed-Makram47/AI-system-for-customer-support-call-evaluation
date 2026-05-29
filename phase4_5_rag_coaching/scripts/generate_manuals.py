@@ -4,20 +4,19 @@ src/generate_manuals.py — Generate policy manuals using real Banking77 example
 import json
 import os
 import random
-import time
 from pathlib import Path
 
-from groq import Groq
+from openai import OpenAI
 from datasets import load_dataset
 
-from config import GROQ_API_KEY, GROQ_MODEL, MANUALS_DIR
+from config import OPENROUTER_API_KEY, OPENROUTER_BASE_URL, MANUALS_DIR
 
 os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
 
 MANUALS_PATH = Path(MANUALS_DIR)
 ID2FINE_PATH = Path("model/id2fine.json")
 SAMPLE_SIZE = 10
-DELAY = 0.5
+MODEL = "meta-llama/llama-4-scout-17b-16e-instruct"
 
 
 def build_banking77_lookup() -> dict:
@@ -34,23 +33,32 @@ def _normalize(name: str) -> str:
 
 
 def _make_prompt(fine_label: str, examples: list) -> str:
+    examples_section = ""
     if examples:
         examples_text = "\n".join(f"- {ex}" for ex in examples)
-        return (
-            f"You are a banking call center compliance expert.\n"
-            f"Here are real customer queries for the issue type: {fine_label}\n\n"
-            f"Real examples:\n{examples_text}\n\n"
-            f"Based on these real queries, write a policy manual for agents handling this issue.\n"
-            f"Write exactly 5 clear rules the agent must follow.\n"
-            f"Each rule on its own line starting with a dash.\n"
-            f"Be specific and practical."
-        )
+        examples_section = f"Real customer queries for this issue:\n{examples_text}\n\n"
+
     return (
-        f"You are a banking call center compliance expert.\n"
-        f"Write a policy manual for agents handling the issue type: {fine_label}\n\n"
-        f"Write exactly 5 clear rules the agent must follow.\n"
-        f"Each rule on its own line starting with a dash.\n"
-        f"Be specific and practical."
+        f"You are a banking call center compliance expert.\n\n"
+        f"Write a policy manual for agents handling: {fine_label}\n\n"
+        f"{examples_section}"
+        f"Write between 4 and 7 rules depending on the complexity of this issue.\n\n"
+        f"Each rule must:\n"
+        f"- Describe a SPECIFIC action the agent must take for THIS issue type\n"
+        f"- Be measurable — someone can clearly tell if the agent did it or not\n"
+        f"- Be unique to {fine_label} — not a generic rule that applies to all calls\n\n"
+        f"DO NOT write rules about:\n"
+        f"- Generic empathy or acknowledgment ('acknowledge the customer')\n"
+        f"- Generic documentation ('document in account notes')\n"
+        f"- Generic escalation ('escalate to supervisor if needed')\n"
+        f"- Generic communication style ('communicate clearly')\n"
+        f"- Customer consent or agreement ('obtain customer agreement')\n\n"
+        f"GOOD rule example for cancel_transfer:\n"
+        f"'- Rule 1: Initiate Recall Request: If transfer is still pending, "
+        f"initiate a Faster Payment recall immediately and give customer a reference number.'\n\n"
+        f"BAD rule example: '- Rule 1: Acknowledge and Empathize: Acknowledge the customer.'\n\n"
+        f"Output ONLY the rules. No intro sentence. No conclusion sentence.\n"
+        f"Format: each rule on its own line starting with '- Rule N: Rule Name: description'"
     )
 
 
@@ -64,7 +72,7 @@ def generate_manuals() -> None:
     )
     MANUALS_PATH.mkdir(parents=True, exist_ok=True)
 
-    client = Groq(api_key=GROQ_API_KEY)
+    client = OpenAI(api_key=OPENROUTER_API_KEY, base_url=OPENROUTER_BASE_URL)
     total = len(fine_labels)
 
     for i, fine_label in enumerate(fine_labels, start=1):
@@ -78,7 +86,7 @@ def generate_manuals() -> None:
         prompt = _make_prompt(fine_label, examples)
 
         response = client.chat.completions.create(
-            model=GROQ_MODEL,
+            model=MODEL,
             messages=[{"role": "user", "content": prompt}],
             temperature=0.3,
             max_tokens=400,
@@ -89,9 +97,6 @@ def generate_manuals() -> None:
         (MANUALS_PATH / f"{safe_name}.txt").write_text(manual, encoding="utf-8")
 
         print(f"[{i:02d}/{total}] OK  {fine_label}")
-
-        if i < total:
-            time.sleep(DELAY)
 
     print(f"\nDone. {total} manuals saved to {MANUALS_PATH.resolve()}")
 

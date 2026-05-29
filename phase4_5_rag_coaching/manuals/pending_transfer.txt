@@ -1,11 +1,11 @@
-Here are 5 clear rules for agents handling pending transfer issues:
+- Rule 1: Check Transfer Status: Verify the current status of the pending transfer by checking the transfer details in the customer's account records.
 
-- **Acknowledge and Empathize**: Agents must acknowledge the customer's concern and express empathy in their response, e.g., "I understand your frustration with the transfer still being pending" or "I apologize for the delay in your transfer."
+- Rule 2: Provide Transfer Timeframe: Inform the customer of the estimated timeframe for the transfer to complete, based on the transfer type (e.g., domestic, international, EU), and specify that it may take up to 3-5 business days for international transfers and 1-2 business days for domestic transfers.
 
-- **Gather Transfer Details**: Agents must request and verify the transfer details, including the transfer date, amount, recipient's account details, and transfer type (e.g., domestic or international), to investigate the issue.
+- Rule 3: Verify Customer Information: Confirm with the customer that the account information, including the recipient's account details, is correct and matches the information on file.
 
-- **Provide Processing Timeframes**: Agents must provide the customer with the standard processing timeframes for their specific transfer type, e.g., "For domestic transfers, it typically takes 1-2 business days to process" or "International transfers can take 3-5 business days to process."
+- Rule 4: Investigate Transfer Delay: If the transfer has been pending for an extended period (more than 5 business days for domestic transfers or 10 business days for international transfers), investigate the cause of the delay and provide a detailed explanation to the customer.
 
-- **Investigate and Check Status**: Agents must investigate the transfer status by checking the transaction history, verifying if the transfer has been processed, and checking for any potential issues that may have caused the delay.
+- Rule 5: Offer Additional Assistance: If the customer is still experiencing issues with the transfer, offer to research the transfer further or provide additional assistance, such as contacting the recipient's bank or providing a reference number for the transfer.
 
-- **Escalate if Necessary**: Agents must escalate the issue to a senior agent or a specialized team if the transfer is significantly delayed (e.g., more than 5 business days for domestic transfers) or if the customer provides evidence of an error on the bank's part, to ensure prompt resolution and customer satisfaction.
+- Rule 6: Provide Tracking Information: If available, provide the customer with tracking information, such as a transfer reference number or a tracking URL, to allow them to monitor the status of the transfer.

@@ -1,22 +1,26 @@
 [
   {
-    "rule": "**Verify Customer Identity**: Before making any changes to a customer's personal details, agents must verify the customer's identity through a two-factor authentication process, which includes asking for their date of birth, address, and/or account information.",
+    "rule": "Rule 1: Verify Customer Identity: The agent must ask the customer for their current name, date of birth, and address to verify their identity before making any changes to their personal details.",
     "source": "edit_personal_details"
   },
   {
-    "rule": "**Use Official Channels**: Agents can only update personal details through official banking channels, such as our online banking platform, mobile banking app, or through a verified phone call with a customer service representative. Agents must not provide instructions on how to make unauthorized changes.",
+    "rule": "Rule 2: Update Customer Information: If the customer requests to update their personal details, the agent must use the system's designated update feature to change the customer's information, ensuring that all required fields are completed accurately.",
     "source": "edit_personal_details"
   },
   {
-    "rule": "**Required Documentation**: For certain changes, such as name updates due to marriage or divorce, agents must inform customers that supporting documentation (e.g., marriage certificate, divorce decree) is required to process the change. Agents must provide clear instructions on how to submit the documentation.",
+    "rule": "Rule 3: Validate New Information: The agent must validate the new information provided by the customer, such as a new name, address, or phone number, to ensure accuracy and completeness.",
     "source": "edit_personal_details"
   },
   {
-    "rule": "**Data Accuracy and Completeness**: Agents must ensure that all updated personal details are accurate and complete. This includes verifying the customer's new address, phone number, or other details to prevent errors or potential identity theft.",
+    "rule": "Rule 4: Provide Confirmation: After updating the customer's personal details, the agent must provide the customer with a confirmation of the changes made, including the updated information.",
     "source": "edit_personal_details"
   },
   {
-    "rule": "**Compliance and Regulatory Adherence**: Agents must adhere to relevant regulatory requirements, such as the Gramm-Leach-Bliley Act (GLBA) and the Fair Credit Reporting Act (FCRA), when handling personal detail updates. This includes maintaining confidentiality and not disclosing sensitive customer information to unauthorized parties.",
+    "rule": "Rule 5: Inform Customer of Effective Date: If applicable, the agent must inform the customer of the effective date of the changes to their personal details, such as when a name change will be reflected on their account.",
+    "source": "edit_personal_details"
+  },
+  {
+    "rule": "Rule 6: Retain Audit Trail: The agent must ensure that all updates to the customer's personal details are recorded and retained in the system's audit trail, if available.",
     "source": "edit_personal_details"
   }
 ]

@@ -1,22 +1,30 @@
 [
   {
-    "rule": "When a customer inquires about their top-up verification code, the agent must inform them that the code is typically sent to their registered mobile number or email address via an automated system, and it is usually a 6-digit code.",
+    "rule": "Rule 1: Provide Verification Process Overview: The agent must provide a clear explanation of the verification process for top-up cards, including the required steps and any necessary documentation.",
     "source": "verify_top_up"
   },
   {
-    "rule": "The agent must advise the customer to check their SMS or email inbox, including their spam or junk folder, for a message with the subject \"Top-up Verification Code\" or a similar phrase, and to ensure they are looking for a code specifically related to their top-up transaction.",
+    "rule": "Rule 2: Check for Existing Verification: The agent must verify if the customer's top-up card has already been verified by checking the customer's account or transaction history.",
     "source": "verify_top_up"
   },
   {
-    "rule": "If the customer is still unable to locate the code, the agent must offer to re-send the code to the customer's registered mobile number or email address, and confirm with the customer that they have received it.",
+    "rule": "Rule 3: Guide Customer to Verification Method: The agent must guide the customer to the correct method for verifying their top-up card, such as providing instructions on how to use the bank's mobile app or website.",
     "source": "verify_top_up"
   },
   {
-    "rule": "The agent must emphasize to the customer that the verification code is a one-time password (OTP) and is only valid for a short period of time (usually 30 minutes), and that they should not share the code with anyone.",
+    "rule": "Rule 4: Retrieve Verification Code: If the customer is unable to find their top-up verification code, the agent must offer to retrieve the code or provide instructions on how to obtain a replacement code.",
     "source": "verify_top_up"
   },
   {
-    "rule": "Under no circumstances should the agent provide the customer with the verification code directly or assist them in bypassing the verification process; instead, the agent must guide the customer through the standard verification process and ensure that all security protocols are followed.",
+    "rule": "Rule 5: Explain Verification Requirements: The agent must clearly explain why top-ups require verification and what specific information or documentation is required for the verification process.",
+    "source": "verify_top_up"
+  },
+  {
+    "rule": "Rule 6: Authenticate Top-up Card: The agent must walk the customer through the authentication process for their top-up card, including any required security questions or one-time passwords.",
+    "source": "verify_top_up"
+  },
+  {
+    "rule": "Rule 7: Confirm Verification Completion: The agent must confirm with the customer that the top-up card has been successfully verified and provide any relevant details or next steps.",
     "source": "verify_top_up"
   }
 ]

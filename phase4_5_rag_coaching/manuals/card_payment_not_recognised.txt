@@ -1,11 +1,11 @@
-Here are 5 clear rules for agents handling the issue type "card_payment_not_recognised":
+- Rule 1: Verify Transaction Details: The agent must verify the transaction details with the customer, including the date, amount, and merchant name, to ensure accurate identification of the disputed transaction.
 
-- **Rule 1: Acknowledge and Empathize**: The agent must acknowledge the customer's concern and express empathy in their initial response, e.g., "I understand your concern about the unfamiliar payment on your account, and I'm here to help you resolve it."
+- Rule 2: Check for Recent Transactions: The agent must review the customer's recent transactions with them to confirm if the disputed transaction is indeed unfamiliar.
 
-- **Rule 2: Gather Information**: The agent must ask the customer to provide details about the unfamiliar payment, including the date, amount, and description of the transaction, and verify the customer's identity through standard authentication procedures.
+- Rule 3: Dispute Transaction: If the customer confirms the transaction is unauthorized, the agent must dispute the transaction with the card network and initiate an investigation.
 
-- **Rule 3: Investigate and Flag**: The agent must investigate the payment in question using available tools and resources, and flag the account for potential fraud if necessary, ensuring that all relevant parties are notified and taking steps to prevent further unauthorized transactions.
+- Rule 4: Provide Dispute Resolution Timeline: The agent must inform the customer of the dispute resolution timeline, including when they can expect a refund or update on the investigation.
 
-- **Rule 4: Provide Resolution Options**: The agent must provide the customer with clear resolution options, which may include reversing the transaction, issuing a new card, or providing additional security measures, and ensure that the customer understands the next steps and any required actions.
+- Rule 5: Offer Additional Security Measures: The agent must offer to enable additional security measures, such as transaction alerts or two-factor authentication, to prevent similar incidents in the future.
 
-- **Rule 5: Document and Escalate (if necessary)**: The agent must document the customer's concern, the investigation, and the resolution in the customer's account records, and escalate the issue to a supervisor or specialized fraud team if the customer confirms that the transaction was unauthorized or if there are indications of potential account compromise.
+- Rule 6: Document Merchant Information: The agent must document the merchant information, including the name and any available contact details, in the customer's account notes for future reference.

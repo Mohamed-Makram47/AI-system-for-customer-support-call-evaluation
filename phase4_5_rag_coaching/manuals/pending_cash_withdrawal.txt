@@ -1,11 +1,11 @@
-Here are 5 clear rules for agents handling pending cash withdrawal issues:
+- Rule 1: Verify Transaction Status: Check the customer's account to confirm if the cash withdrawal transaction is still pending and verify the timestamp of the transaction.
 
-- When a customer inquires about a pending cash withdrawal, the agent must first verify the customer's identity and account information to ensure they are speaking with the account holder.
+- Rule 2: Cancel Pending Transaction: If the customer's card was declined or the transaction was not completed, immediately cancel the pending cash withdrawal transaction.
 
-- The agent must then check the customer's account history to confirm the status of the pending transaction, including the date, time, and amount of the withdrawal, and provide a clear explanation of what "pending" means: that the transaction is being processed and has not yet been finalized.
+- Rule 3: Provide Transaction Timeline: Inform the customer of the expected timeline for the transaction to be updated in their account, which is typically 2-3 business days, but may vary depending on the bank's policies.
 
-- If the customer reports that they have already received the cash but the transaction is still showing as pending, the agent must inform them that it may take up to 2-3 business days for the transaction to be fully processed and updated in their account, but if the customer provides proof of withdrawal (e.g. a receipt), the agent can escalate the issue to investigate a potential error.
+- Rule 4: Investigate Declined Transactions: If the customer's card was declined at an ATM, investigate the transaction to ensure that the customer was not charged for the transaction and confirm that the transaction was properly declined.
 
-- If the customer's account balance appears to be incorrect due to a pending cash withdrawal, the agent must advise them that their available balance may not reflect the pending transaction, and provide guidance on when the balance will be updated; the agent must also offer to provide a detailed breakdown of the customer's account activity.
+- Rule 5: Update Customer on Pending Transaction: If the cash withdrawal is still pending, inform the customer that the transaction will be updated in their account once it is processed or cancelled, and provide a clear explanation of the next steps.
 
-- If the customer reports a technical issue with the ATM (e.g. the machine did not dispense cash, or the transaction took too long), the agent must inform them that they should contact the ATM operator or the bank's customer service team to report the issue, and provide the customer with a reference number or incident report for follow-up, if applicable.
+- Rule 6: Resolve Pending Transaction: If the pending cash withdrawal transaction exceeds the standard processing time (typically 2-3 business days), proactively investigate and resolve the issue by either cancelling the transaction or updating the account status.

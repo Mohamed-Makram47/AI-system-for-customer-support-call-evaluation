@@ -1,11 +1,13 @@
-Here are 5 clear rules for agents handling the issue of disposable card limits:
+- Rule 1: Verify Eligibility: The agent must verify if the customer is eligible for a disposable virtual card by checking their account status and tier level.
 
-- **Transaction Limit**: Disposable cards have a daily transaction limit of $5,000 and a maximum of 10 transactions per card. Agents must inform customers of this limit and explain that it cannot be exceeded.
+- Rule 2: Explain Disposable Card Limits: The agent must provide a clear explanation of the limits and restrictions associated with disposable virtual cards, including transaction limits and validity periods.
 
-- **Multiple Card Requests**: Customers are allowed to request a maximum of 5 disposable cards per day. Agents must verify the customer's identity and ensure that the request is not suspicious or violating any regulatory requirements.
+- Rule 3: Provide Transaction Limits: The agent must inform the customer of the maximum number of transactions allowed with a disposable virtual card.
 
-- **Card Usage Restrictions**: Disposable cards can only be used for online transactions and are not accepted for in-person or mail-order transactions. Agents must advise customers of this restriction and explain that attempting to use the card for unauthorized transactions may result in card suspension or closure.
+- Rule 4: Explain Multiple Card Policy: The agent must advise the customer on the maximum number of disposable virtual cards they can have at one time and any restrictions on issuing new cards.
 
-- **Virtual Card Limitations**: Virtual disposable cards have the same transaction limits as physical disposable cards ($5,000 daily limit and 10 transactions per card). However, virtual cards may not be accepted by certain merchants due to their specific payment processing systems. Agents must inform customers of this possibility and offer alternative payment solutions if needed.
+- Rule 5: Disclose Fees and Terms: The agent must disclose any applicable fees, terms, and conditions associated with disposable virtual cards.
 
-- **Exceeding Limits**: If a customer needs to exceed the daily transaction limit or requires more than 5 disposable cards per day, agents must escalate the request to a supervisor or specialized team for review and approval. The agent must document the customer's request and the reason for exceeding the limit, and await further instructions from the supervisor or specialized team.
+- Rule 6: Compare with Premium Benefits: If the customer is not a premium customer, the agent must explain the differences in virtual card benefits between their current tier and the premium tier.
+
+- Rule 7: Offer Upgrade Information: If the customer inquires about premium benefits, the agent must provide information on how to upgrade to a premium account to access additional virtual card features.

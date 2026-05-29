@@ -1,22 +1,26 @@
 [
   {
-    "rule": "**Acknowledge and Apologize**: The agent must acknowledge the customer's concern and apologize for the inconvenience caused by the transfer fee charged, regardless of the outcome of the investigation.",
+    "rule": "Rule 1: Verify Transfer Details: The agent must verify the transfer details, including the transfer amount, date, and recipient information, to ensure accuracy and identify potential causes of the transfer fee.",
     "source": "transfer_fee_charged"
   },
   {
-    "rule": "**Verify Transfer Details**: The agent must verify the transfer details, including the transfer amount, recipient's information, transfer method (e.g., online, mobile, or in-branch), and the date of the transfer, to understand the context of the fee charged.",
+    "rule": "Rule 2: Check Fee Waivers: The agent must check if the customer has any active fee waivers or exemptions on their account that may apply to international transfers.",
     "source": "transfer_fee_charged"
   },
   {
-    "rule": "**Explain Fee Structure**: The agent must clearly explain the transfer fee structure and the specific reason for the fee charged, including any applicable currency conversion fees, intermediary bank fees, or other charges, to ensure the customer understands the breakdown of the fees.",
+    "rule": "Rule 3: Explain Transfer Fee Policy: The agent must clearly explain the bank's transfer fee policy, including any applicable fees for international transactions, and provide the customer with a detailed breakdown of the fee charged.",
     "source": "transfer_fee_charged"
   },
   {
-    "rule": "**Investigate and Correct**: If the customer disputes the fee or claims it was incorrect, the agent must investigate the matter, check the transfer records, and correct the error if necessary, ensuring that the customer is not incorrectly charged.",
+    "rule": "Rule 4: Investigate Discrepancies: If the customer reports a discrepancy in the transfer amount received, the agent must investigate the issue by checking the transfer records and contacting the recipient's bank (if necessary) to resolve the issue.",
     "source": "transfer_fee_charged"
   },
   {
-    "rule": "**Provide Resolution and Next Steps**: The agent must provide a clear resolution to the customer's issue, which may include a refund of the fee, a transfer of the missing amount, or guidance on how to avoid similar fees in the future, and clearly outline the next steps to ensure the customer's satisfaction and resolution.",
+    "rule": "Rule 5: Provide Transfer Fee Exemptions: The agent must inform the customer about any transfer fee exemptions or waivers that may be available for specific types of transfers (e.g., online purchases) or for customers with specific account types.",
+    "source": "transfer_fee_charged"
+  },
+  {
+    "rule": "Rule 6: Review Account Settings: The agent must review the customer's account settings to determine if there are any changes to their account that may have triggered the transfer fee, such as changes to their international transaction privileges.",
     "source": "transfer_fee_charged"
   }
 ]

@@ -1,22 +1,26 @@
 [
   {
-    "rule": "**Rule 1: Acknowledge and Empathize**: Agents must acknowledge the customer's concern and show empathy within the first 30 seconds of the conversation. This can be done by using phrases such as \"I understand your concern\" or \"I apologize that you're experiencing this issue.\"",
+    "rule": "Rule 1: Verify Neutral Status: The agent must verify if the customer's account is indeed neutral by checking the account status in the banking system before providing any assistance.",
     "source": "neutral"
   },
   {
-    "rule": "**Rule 2: Gather Information**: Agents must gather all necessary information to understand the issue, including account information, issue description, and any relevant details. This information must be documented in the customer's account notes for future reference.",
+    "rule": "Rule 2: Identify Root Cause: The agent must ask the customer a minimum of two questions to identify the reason for the neutral status and document the root cause in the account notes.",
     "source": "neutral"
   },
   {
-    "rule": "**Rule 3: Provide Clear Explanations**: Agents must provide clear and concise explanations of the issue, the cause, and any next steps. If the issue is not resolvable immediately, agents must provide a clear timeline for resolution and follow-up.",
+    "rule": "Rule 3: Provide Neutral Status Explanation: The agent must provide a clear explanation of what \"neutral\" means in the context of their account, including the implications and potential reasons for the status.",
     "source": "neutral"
   },
   {
-    "rule": "**Rule 4: Follow Scripted Responses**: Agents must follow scripted responses for neutral issue types, which can be found in the call center's knowledge base. These scripted responses ensure consistency and compliance with regulatory requirements.",
+    "rule": "Rule 4: Offer Resolution Options: The agent must present the customer with at least two potential resolution options to resolve the neutral status, if applicable.",
     "source": "neutral"
   },
   {
-    "rule": "**Rule 5: Escalate if Necessary**: Agents must escalate the issue to a supervisor or specialized team if the issue cannot be resolved within the agent's authority or if the issue requires additional expertise. Agents must also escalate if the customer requests to speak with a supervisor or if the issue involves a sensitive or confidential topic.",
+    "rule": "Rule 5: Validate Customer Information: The agent must validate the customer's identification information, including name, address, and date of birth, to ensure they are speaking with the correct account holder.",
+    "source": "neutral"
+  },
+  {
+    "rule": "Rule 6: Check for System Errors: The agent must check the banking system for any system errors or flags that may be contributing to the neutral status and address them accordingly.",
     "source": "neutral"
   }
 ]

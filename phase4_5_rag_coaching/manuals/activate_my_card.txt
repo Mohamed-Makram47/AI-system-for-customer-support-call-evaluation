@@ -1,22 +1,11 @@
-Here are 5 clear rules for agents handling the issue type "activate_my_card":
+- Rule 1: Verify Customer Identity: Verify the customer's identity by asking for their name, date of birth, and card details (last 4 digits) before proceeding with card activation.
 
-- The agent must verify the customer's identity and ensure they are the authorized cardholder before providing assistance with activating their card.
+- Rule 2: Provide Activation Options: Inform the customer of the available card activation options, such as automated phone system, online banking, or assisted activation through the call center.
 
-- The agent must inform the customer that they can activate their card using one of the following methods: 
-  (1) calling the automated phone system at [insert phone number], 
-  (2) using the bank's mobile app, 
-  (3) visiting the bank's website at [insert website URL], 
-  or (4) calling the customer service number and following the agent's guidance.
+- Rule 3: Activate Card: If the customer requests assisted activation, activate the card immediately using the banking system's card activation tool and confirm the activation with the customer.
 
-- If the customer is having trouble activating their card, the agent must troubleshoot the issue by asking specific questions, such as: 
-  (1) Has the customer tried activating the card before? 
-  (2) Are they entering the correct card information? 
-  (3) Is their account in good standing?
+- Rule 4: Provide Activation Confirmation and Instructions: Provide the customer with clear instructions on how to use their activated card and confirm that the card is ready for use.
 
-- The agent must provide clear instructions on what information the customer needs to activate their card, which may include: 
-  (1) the card number, 
-  (2) the card expiration date, 
-  (3) the card verification value (CVV), 
-  and (4) their date of birth and/or address.
+- Rule 5: Inform on Additional Requirements: If required, inform the customer if any additional information or documentation, such as photo ID, is needed to complete the card activation process.
 
-- If the customer's card activation issue cannot be resolved through troubleshooting or guidance, the agent must escalate the issue to a senior agent or a specialized card support team, and provide the customer with a reference number or a callback option for further assistance.
+- Rule 6: Offer Troubleshooting: If the card activation is unsuccessful, troubleshoot the issue with the customer to identify the cause and provide a solution or alternatives.
