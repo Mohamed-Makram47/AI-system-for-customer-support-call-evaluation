@@ -43,7 +43,7 @@ def evaluate(utterances: list[dict], fine_label: str, policies_text: str, client
     overall_verdict = "ok"
     
     for i, exch in enumerate(exchanges):
-        time.sleep(4)
+        time.sleep(1)
         prompt = (
             f"You are a banking call center QA evaluator.\n"
             f"Issue class: {fine_label}\n\n"
