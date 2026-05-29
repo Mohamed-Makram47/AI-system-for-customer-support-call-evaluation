@@ -8,8 +8,6 @@ import time
 from config import GROQ_EXPERIMENT_MODEL as GROQ_MODEL
 
 def evaluate(utterances: list[dict], fine_label: str, policies_text: str, client, model=None) -> dict:
-    if model is None:
-        model = GROQ_MODEL
     """
     Evaluates the conversation utterance by utterance by sending each 
     customer-agent pair to the Groq LLM model.
@@ -23,6 +21,8 @@ def evaluate(utterances: list[dict], fine_label: str, policies_text: str, client
     Returns:
         dict: Evaluation results containing verdict, recovered, recovery_note, violations, and overall summary.
     """
+    if model is None:
+        model = GROQ_MODEL
     exchanges = []
     current_customer_text = None
     

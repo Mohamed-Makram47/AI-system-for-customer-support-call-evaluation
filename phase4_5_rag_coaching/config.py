@@ -11,6 +11,10 @@ GROQ_API_KEY: str = os.getenv("GROQ_API_KEY", "")
 GROQ_MODEL: str = "meta-llama/llama-4-scout-17b-16e-instruct"
 GROQ_EXPERIMENT_MODEL: str = "llama-3.1-8b-instant"
 
+# OpenRouter API
+OPENROUTER_API_KEY: str = os.getenv("OPENROUTER_API_KEY", "")
+OPENROUTER_BASE_URL: str = "https://openrouter.ai/api/v1"
+
 # FAISS / Retrieval
 SIMILARITY_THRESHOLD: float = float(os.getenv("SIMILARITY_THRESHOLD", "0.45"))
 TOP_K: int = int(os.getenv("TOP_K", "5"))
