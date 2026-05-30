@@ -30,6 +30,7 @@ EXPERIMENTS_DIR = _PROJECT_ROOT / "data" / "experiments"
 
 # Quality levels that carry planted violations (skip good, noise, recovery)
 EVAL_QUALITY_LEVELS = {"bad", "ambiguous", "incomplete"}
+CLEAN_QUALITY_LEVELS = {"good", "noise", "recovery"}
 
 DIVIDER = "=" * 70
 MAX_RETRIES = 3
@@ -56,6 +57,18 @@ def load_transcripts() -> dict:
             data = json.load(fh)
         quality = data.get("quality_level", "")
         if quality in EVAL_QUALITY_LEVELS:
+            transcripts[data["call_id"]] = data
+    return transcripts
+
+
+def load_clean_transcripts() -> dict:
+    """Load transcripts with no planted violations (good/noise/recovery)."""
+    transcripts: dict = {}
+    for path in sorted(TRANSCRIPTS_DIR.glob("*.json")):
+        with open(path, "r", encoding="utf-8") as fh:
+            data = json.load(fh)
+        quality = data.get("quality_level", "")
+        if quality in CLEAN_QUALITY_LEVELS:
             transcripts[data["call_id"]] = data
     return transcripts
 
@@ -244,6 +257,26 @@ def main() -> None:
         print(f"           TP={tp}  FP={fp}  FN={fn}  "
               f"P={p:.2f}  R={r:.2f}  F1={f:.2f}")
 
+    # --- Clean-call FP analysis ---
+    clean_transcripts = load_clean_transcripts()
+    clean_fp_calls = 0
+    clean_fp_violations = 0
+    clean_call_details = []
+
+    for call_id, transcript in sorted(clean_transcripts.items()):
+        result = results_by_id.get(call_id)
+        if result is None:
+            continue
+        violations = result.get("violations", [])
+        if violations:
+            clean_fp_calls += 1
+            clean_fp_violations += len(violations)
+            clean_call_details.append({
+                "call_id": call_id,
+                "quality_level": transcript.get("quality_level"),
+                "false_positive_violations": len(violations),
+            })
+
     # Overall metrics
     precision = total_tp / (total_tp + total_fp) if (total_tp + total_fp) > 0 else 0.0
     recall = total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0.0
@@ -266,6 +299,12 @@ def main() -> None:
     print(f"  Precision       : {precision:.4f}")
     print(f"  Recall          : {recall:.4f}")
     print(f"  F1              : {f1:.4f}")
+    print()
+    print(f"  --- Clean-Call False Positive Rate ---")
+    print(f"  Clean calls total   : {len(clean_transcripts)}")
+    print(f"  Clean calls flagged : {clean_fp_calls}")
+    print(f"  Clean call FP rate  : {clean_fp_calls / len(clean_transcripts):.2%}" if len(clean_transcripts) > 0 else "  Clean call FP rate  : 0.00%")
+    print(f"  Total FP violations : {clean_fp_violations}")
     print(DIVIDER)
 
     # Save output
@@ -279,6 +318,13 @@ def main() -> None:
         "recall": round(recall, 4),
         "f1": round(f1, 4),
         "per_call": per_call,
+        "clean_call_fp_rate": {
+            "clean_calls_total": len(clean_transcripts),
+            "clean_calls_flagged": clean_fp_calls,
+            "fp_rate": round(clean_fp_calls / len(clean_transcripts), 4) if clean_transcripts else 0.0,
+            "total_fp_violations": clean_fp_violations,
+            "details": clean_call_details,
+        },
     }
 
     stem = results_path.stem
