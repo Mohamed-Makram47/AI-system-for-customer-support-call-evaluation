@@ -100,20 +100,30 @@ def ask_llm_match(
         "or 'NO_MATCH' if none match."
     )
 
-    for attempt in range(1, MAX_RETRIES + 1):
+    import time
+    for attempt in range(1, 10):
         try:
+            time.sleep(2.0)  # Pacing to respect the 30 RPM rate limit
             response = client.chat.completions.create(
                 model=MODEL,
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.0,
             )
             return response.choices[0].message.content.strip()
-        except (ConnectionError, OSError, groq.APIConnectionError,
-                groq.APITimeoutError) as exc:
-            if attempt == MAX_RETRIES:
-                print(f"    [!] Connection failed after {MAX_RETRIES} retries: {exc}")
-                return "NO_MATCH"
-            print(f"    [!] Connection error (attempt {attempt}): {exc}. Retrying…")
+        except Exception as exc:
+            if "rate_limit" in str(exc).lower() or "429" in str(exc) or (
+                hasattr(exc, "status_code") and exc.status_code == 429
+            ):
+                sleep_time = min(60, 2 ** attempt * 5)
+                print(f"    [!] Rate limit hit. Sleeping {sleep_time}s (attempt {attempt}/9)...")
+                time.sleep(sleep_time)
+            elif isinstance(exc, (ConnectionError, OSError, groq.APIConnectionError, groq.APITimeoutError)):
+                if attempt == 9:
+                    print(f"    [!] Connection failed after 9 retries: {exc}")
+                    return "NO_MATCH"
+                print(f"    [!] Connection error (attempt {attempt}): {exc}. Retrying…")
+            else:
+                raise exc
 
 
 def match_violations(
