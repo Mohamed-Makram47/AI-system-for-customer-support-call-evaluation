@@ -1,11 +1,11 @@
-- Rule 1: Verify Customer Identity: Verify the customer's identity by asking for their name, date of birth, and card details (last 4 digits) before proceeding with card activation.
+- activate_my_card:R1 — Verify Customer Identity: Verify the customer's identity by asking for their name, date of birth, and card details (last 4 digits) before proceeding with card activation.
 
-- Rule 2: Provide Activation Options: Inform the customer of the available card activation options, such as automated phone system, online banking, or assisted activation through the call center.
+- activate_my_card:R2 — Provide Activation Options: Inform the customer of the available card activation options, such as automated phone system, online banking, or assisted activation through the call center.
 
-- Rule 3: Activate Card: If the customer requests assisted activation, activate the card immediately using the banking system's card activation tool and confirm the activation with the customer.
+- activate_my_card:R3 — Activate Card: If the customer requests assisted activation, activate the card immediately using the banking system's card activation tool and confirm the activation with the customer.
 
-- Rule 4: Provide Activation Confirmation and Instructions: Provide the customer with clear instructions on how to use their activated card and confirm that the card is ready for use.
+- activate_my_card:R4 — Provide Activation Confirmation and Instructions: Provide the customer with clear instructions on how to use their activated card and confirm that the card is ready for use.
 
-- Rule 5: Inform on Additional Requirements: If required, inform the customer if any additional information or documentation, such as photo ID, is needed to complete the card activation process.
+- activate_my_card:R5 — Inform on Additional Requirements: If required, inform the customer if any additional information or documentation, such as photo ID, is needed to complete the card activation process.
 
-- Rule 6: Offer Troubleshooting: If the card activation is unsuccessful, troubleshoot the issue with the customer to identify the cause and provide a solution or alternatives.
+- activate_my_card:R6 — Offer Troubleshooting: If the card activation is unsuccessful, troubleshoot the issue with the customer to identify the cause and provide a solution or alternatives.

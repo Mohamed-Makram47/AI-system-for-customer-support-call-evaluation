@@ -1,13 +1,13 @@
-- Rule 1: Verify Customer Intent: The agent must ask the customer to confirm their intent to terminate the account, using the phrase "Just to confirm, you would like to permanently close and terminate your account with us, correct?"
+- terminate_account:R1 — Verify Customer Intent: The agent must ask the customer to confirm their intent to terminate the account, using the phrase "Just to confirm, you would like to permanently close and terminate your account with us, correct?"
 
-- Rule 2: Provide Account Closure Information: The agent must inform the customer that terminating the account will result in all associated accounts, services, and automatic payments being cancelled, and provide the customer with a clear explanation of any potential fees or consequences.
+- terminate_account:R2 — Provide Account Closure Information: The agent must inform the customer that terminating the account will result in all associated accounts, services, and automatic payments being cancelled, and provide the customer with a clear explanation of any potential fees or consequences.
 
-- Rule 3: Process Account Termination: The agent must process the account termination request in the banking system, marking the account for closure and ensuring that all associated services and automatic payments are cancelled.
+- terminate_account:R3 — Process Account Termination: The agent must process the account termination request in the banking system, marking the account for closure and ensuring that all associated services and automatic payments are cancelled.
 
-- Rule 4: Confirm Data Removal: The agent must inform the customer that their personal and account information will be deleted or purged in accordance with company policies and regulatory requirements.
+- terminate_account:R4 — Confirm Data Removal: The agent must inform the customer that their personal and account information will be deleted or purged in accordance with company policies and regulatory requirements.
 
-- Rule 5: Provide Final Confirmation: The agent must provide the customer with a final confirmation of the account termination, including a reference number or a confirmation code, and confirm that the account will be closed.
+- terminate_account:R5 — Provide Final Confirmation: The agent must provide the customer with a final confirmation of the account termination, including a reference number or a confirmation code, and confirm that the account will be closed.
 
-- Rule 6: Offer Alternative Services: The agent must offer the customer information on alternative banking services or products that may meet their needs, if applicable.
+- terminate_account:R6 — Offer Alternative Services: The agent must offer the customer information on alternative banking services or products that may meet their needs, if applicable.
 
-- Rule 7: Update Customer Records: The agent must update the customer's records to reflect the account termination, and ensure that all relevant systems are notified of the change.
+- terminate_account:R7 — Update Customer Records: The agent must update the customer's records to reflect the account termination, and ensure that all relevant systems are notified of the change.

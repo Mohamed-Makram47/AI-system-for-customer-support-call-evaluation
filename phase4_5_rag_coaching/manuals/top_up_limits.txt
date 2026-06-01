@@ -1,11 +1,11 @@
-- Rule 1: Verify Current Top-up Limits: Provide the customer with their current top-up limit based on their account type and any existing limits.
+- top_up_limits:R1 — Verify Current Top-up Limits: Provide the customer with their current top-up limit based on their account type and any existing limits.
 
-- Rule 2: Quote Maximum Top-up Amount: Inform the customer of the maximum top-up amount allowed per transaction and per day, as per the bank's policies.
+- top_up_limits:R2 — Quote Maximum Top-up Amount: Inform the customer of the maximum top-up amount allowed per transaction and per day, as per the bank's policies.
 
-- Rule 3: Check for Temporary Top-up Limits: Verify if there are any temporary or promotional top-up limits that may be applicable to the customer's account.
+- top_up_limits:R3 — Check for Temporary Top-up Limits: Verify if there are any temporary or promotional top-up limits that may be applicable to the customer's account.
 
-- Rule 4: Explain Top-up Limit Determination: Explain to the customer how their top-up limit was determined and what factors may influence any potential changes to their limit.
+- top_up_limits:R4 — Explain Top-up Limit Determination: Explain to the customer how their top-up limit was determined and what factors may influence any potential changes to their limit.
 
-- Rule 5: Provide Information on Increasing Top-up Limits: If the customer requests to increase their top-up limit, provide information on the process and required documentation, if applicable.
+- top_up_limits:R5 — Provide Information on Increasing Top-up Limits: If the customer requests to increase their top-up limit, provide information on the process and required documentation, if applicable.
 
-- Rule 6: Clarify Frequency of Top-ups: Inform the customer of any restrictions on the frequency of top-ups, including the minimum time interval between top-ups.
+- top_up_limits:R6 — Clarify Frequency of Top-ups: Inform the customer of any restrictions on the frequency of top-ups, including the minimum time interval between top-ups.

@@ -1,11 +1,11 @@
-- Rule 1: Provide Delivery Timeline: The agent must inform the customer that the standard delivery time for a replacement card is 7-10 business days and provide an estimated delivery date based on the mailing date.
+- card_arrival:R1 — Provide Delivery Timeline: The agent must inform the customer that the standard delivery time for a replacement card is 7-10 business days and provide an estimated delivery date based on the mailing date.
 
-- Rule 2: Expedite Card Delivery Check: The agent must check if expedited shipping is available for the customer's card type and inform the customer of the additional cost and benefits.
+- card_arrival:R2 — Expedite Card Delivery Check: The agent must check if expedited shipping is available for the customer's card type and inform the customer of the additional cost and benefits.
 
-- Rule 3: Track Card Delivery: The agent must provide the customer with tracking information, including the shipping carrier and tracking number, if available.
+- card_arrival:R3 — Track Card Delivery: The agent must provide the customer with tracking information, including the shipping carrier and tracking number, if available.
 
-- Rule 4: Investigate Delayed Delivery: If the customer reports not receiving the card within 10 business days of the mailing date, the agent must investigate the status of the card and provide an update on the cause of the delay.
+- card_arrival:R4 — Investigate Delayed Delivery: If the customer reports not receiving the card within 10 business days of the mailing date, the agent must investigate the status of the card and provide an update on the cause of the delay.
 
-- Rule 5: Offer Alternative Delivery Options: The agent must offer alternative delivery options, such as expedited shipping or pickup at a local branch, if available.
+- card_arrival:R5 — Offer Alternative Delivery Options: The agent must offer alternative delivery options, such as expedited shipping or pickup at a local branch, if available.
 
-- Rule 6: Provide Card Status Update: The agent must check the status of the card in the system and provide an update to the customer on the current status, including any issues that may have caused a delay.
+- card_arrival:R6 — Provide Card Status Update: The agent must check the status of the card in the system and provide an update to the customer on the current status, including any issues that may have caused a delay.

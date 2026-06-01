@@ -1,11 +1,11 @@
-- Rule 1: Immediate Card Block: Upon customer reporting their card as lost or stolen, immediately block the card to prevent unauthorized transactions.
+- lost_or_stolen_card:R1 — Immediate Card Block: Upon customer reporting their card as lost or stolen, immediately block the card to prevent unauthorized transactions.
 
-- Rule 2: Provide Replacement Card Information: Inform the customer that a replacement card will be issued and provide an estimated timeframe for delivery.
+- lost_or_stolen_card:R2 — Provide Replacement Card Information: Inform the customer that a replacement card will be issued and provide an estimated timeframe for delivery.
 
-- Rule 3: Verify Customer Identity: Verify the customer's identity through security questions or other authentication methods before proceeding with card replacement.
+- lost_or_stolen_card:R3 — Verify Customer Identity: Verify the customer's identity through security questions or other authentication methods before proceeding with card replacement.
 
-- Rule 4: Offer Temporary Card or Alternative Payment Methods: Offer the customer a temporary card, if available, or alternative payment methods, such as a digital wallet or expedited card delivery.
+- lost_or_stolen_card:R4 — Offer Temporary Card or Alternative Payment Methods: Offer the customer a temporary card, if available, or alternative payment methods, such as a digital wallet or expedited card delivery.
 
-- Rule 5: Provide Fraud Protection Information: Inform the customer about the bank's fraud protection policies and procedures, including any potential liability for unauthorized transactions.
+- lost_or_stolen_card:R5 — Provide Fraud Protection Information: Inform the customer about the bank's fraud protection policies and procedures, including any potential liability for unauthorized transactions.
 
-- Rule 6: Generate Incident Report: Generate an incident report or log the lost/stolen card incident in the customer's account notes, including the date and time of the report.
+- lost_or_stolen_card:R6 — Generate Incident Report: Generate an incident report or log the lost/stolen card incident in the customer's account notes, including the date and time of the report.

@@ -1,11 +1,11 @@
-- Rule 1: Verify Transaction Details: The agent must verify the customer's identity and ask for specific details about the unrecognized cash withdrawal, including the date, amount, and location of the transaction.
+- cash_withdrawal_not_recognised:R1 — Verify Transaction Details: The agent must verify the customer's identity and ask for specific details about the unrecognized cash withdrawal, including the date, amount, and location of the transaction.
 
-- Rule 2: Check for Card Compromise: The agent must ask the customer if they have reported their card lost or stolen and if they have any evidence that their card information may have been compromised.
+- cash_withdrawal_not_recognised:R2 — Check for Card Compromise: The agent must ask the customer if they have reported their card lost or stolen and if they have any evidence that their card information may have been compromised.
 
-- Rule 3: Block Card and Prevent Further Transactions: If the customer confirms that the transaction was unauthorized, the agent must immediately block the customer's card to prevent further transactions.
+- cash_withdrawal_not_recognised:R3 — Block Card and Prevent Further Transactions: If the customer confirms that the transaction was unauthorized, the agent must immediately block the customer's card to prevent further transactions.
 
-- Rule 4: Initiate Investigation: The agent must inform the customer that an investigation will be initiated to determine the cause of the unauthorized transaction and provide a case reference number or a similar identifier.
+- cash_withdrawal_not_recognised:R4 — Initiate Investigation: The agent must inform the customer that an investigation will be initiated to determine the cause of the unauthorized transaction and provide a case reference number or a similar identifier.
 
-- Rule 5: Provide Temporary Refund: If the customer is disputing a recent transaction, the agent must offer a temporary refund of the disputed amount while the investigation is ongoing, if applicable and in accordance with company policies.
+- cash_withdrawal_not_recognised:R5 — Provide Temporary Refund: If the customer is disputing a recent transaction, the agent must offer a temporary refund of the disputed amount while the investigation is ongoing, if applicable and in accordance with company policies.
 
-- Rule 6: Explain Monitoring Process: The agent must explain to the customer that they will be monitored for future suspicious activity and that they will be contacted with the results of the investigation.
+- cash_withdrawal_not_recognised:R6 — Explain Monitoring Process: The agent must explain to the customer that they will be monitored for future suspicious activity and that they will be contacted with the results of the investigation.

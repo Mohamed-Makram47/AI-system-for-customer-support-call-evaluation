@@ -1,11 +1,11 @@
-- Rule 1: Provide Transfer Methods: The agent must provide the customer with a list of available methods for transferring money into their account, including bank transfer, wire transfer, and online payment services.
+- transfer_into_account:R1 — Provide Transfer Methods: The agent must provide the customer with a list of available methods for transferring money into their account, including bank transfer, wire transfer, and online payment services.
 
-- Rule 2: Explain Bank Transfer Process: The agent must explain the step-by-step process for transferring money into the customer's account using a bank transfer, including any required information such as account numbers and routing numbers.
+- transfer_into_account:R2 — Explain Bank Transfer Process: The agent must explain the step-by-step process for transferring money into the customer's account using a bank transfer, including any required information such as account numbers and routing numbers.
 
-- Rule 3: Offer Assistance with Transfer Forms: If the customer requests assistance with completing a transfer form, the agent must provide guidance on how to fill out the form and offer to answer any questions the customer may have.
+- transfer_into_account:R3 — Offer Assistance with Transfer Forms: If the customer requests assistance with completing a transfer form, the agent must provide guidance on how to fill out the form and offer to answer any questions the customer may have.
 
-- Rule 4: Verify Transfer Fees and Limits: The agent must inform the customer of any fees associated with transferring money into their account and provide information on transfer limits, if applicable.
+- transfer_into_account:R4 — Verify Transfer Fees and Limits: The agent must inform the customer of any fees associated with transferring money into their account and provide information on transfer limits, if applicable.
 
-- Rule 5: Provide Instructions for Online Transfers: If the customer is able to transfer money online, the agent must provide instructions on how to do so, including the website or mobile app to use and any required login credentials.
+- transfer_into_account:R5 — Provide Instructions for Online Transfers: If the customer is able to transfer money online, the agent must provide instructions on how to do so, including the website or mobile app to use and any required login credentials.
 
-- Rule 6: Confirm Transfer Details: Before completing the call, the agent must confirm with the customer that they have all the necessary information to complete the transfer, including account numbers and transfer amounts.
+- transfer_into_account:R6 — Confirm Transfer Details: Before completing the call, the agent must confirm with the customer that they have all the necessary information to complete the transfer, including account numbers and transfer amounts.

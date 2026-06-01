@@ -1,11 +1,11 @@
-- Rule 1: Check Account Status for Holds or Blocks: Verify if there are any holds or blocks on the customer's account that may be preventing the cash withdrawal.
+- declined_cash_withdrawal:R1 — Check Account Status for Holds or Blocks: Verify if there are any holds or blocks on the customer's account that may be preventing the cash withdrawal.
 
-- Rule 2: Verify Daily Withdrawal Limit: Confirm if the customer has exceeded their daily withdrawal limit, and provide the current limit if requested.
+- declined_cash_withdrawal:R2 — Verify Daily Withdrawal Limit: Confirm if the customer has exceeded their daily withdrawal limit, and provide the current limit if requested.
 
-- Rule 3: Check Card Expiration and Status: Verify the customer's card expiration date and check if the card is active and not blocked or expired.
+- declined_cash_withdrawal:R3 — Check Card Expiration and Status: Verify the customer's card expiration date and check if the card is active and not blocked or expired.
 
-- Rule 4: Investigate ATM-Specific Issues: Ask the customer for the ATM location and verify if there are any issues with that specific ATM or if it's out of service.
+- declined_cash_withdrawal:R4 — Investigate ATM-Specific Issues: Ask the customer for the ATM location and verify if there are any issues with that specific ATM or if it's out of service.
 
-- Rule 5: Review Recent Transactions: Review the customer's recent transactions to identify any suspicious activity that may have triggered a block or hold on their account.
+- declined_cash_withdrawal:R5 — Review Recent Transactions: Review the customer's recent transactions to identify any suspicious activity that may have triggered a block or hold on their account.
 
-- Rule 6: Provide ATM Transaction Details: Provide the customer with details of their ATM transaction, including the date, time, and location of the transaction, if available.
+- declined_cash_withdrawal:R6 — Provide ATM Transaction Details: Provide the customer with details of their ATM transaction, including the date, time, and location of the transaction, if available.

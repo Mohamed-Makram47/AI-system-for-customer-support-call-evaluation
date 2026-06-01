@@ -1,13 +1,13 @@
-- Rule 1: Provide Exchange Rate Source: Inform the customer that exchange rates are sourced from a reputable third-party provider, such as Bloomberg or Reuters, and provide the specific provider's name.
+- exchange_rate:R1 — Provide Exchange Rate Source: Inform the customer that exchange rates are sourced from a reputable third-party provider, such as Bloomberg or Reuters, and provide the specific provider's name.
 
-- Rule 2: Explain Exchange Rate Calculation: Clearly explain to the customer that exchange rates for transfers are calculated based on the current market rate at the time of the transfer, and may include a markup or margin.
+- exchange_rate:R2 — Explain Exchange Rate Calculation: Clearly explain to the customer that exchange rates for transfers are calculated based on the current market rate at the time of the transfer, and may include a markup or margin.
 
-- Rule 3: Disclose Exchange Rate Policy: Provide the customer with a detailed explanation of the bank's exchange rate policy, including any applicable fees, markups, or margins.
+- exchange_rate:R3 — Disclose Exchange Rate Policy: Provide the customer with a detailed explanation of the bank's exchange rate policy, including any applicable fees, markups, or margins.
 
-- Rule 4: Quote Specific Exchange Rate: Provide the customer with the specific exchange rate being applied to their transaction, including the rate and any associated fees.
+- exchange_rate:R4 — Quote Specific Exchange Rate: Provide the customer with the specific exchange rate being applied to their transaction, including the rate and any associated fees.
 
-- Rule 5: Describe Exchange Rate Basis: Explain to the customer the basis for determining the exchange rate, such as the interbank rate or a specific currency benchmark.
+- exchange_rate:R5 — Describe Exchange Rate Basis: Explain to the customer the basis for determining the exchange rate, such as the interbank rate or a specific currency benchmark.
 
-- Rule 6: Provide Context on App Exchange Rates: Inform the customer that exchange rates on the app are indicative and may vary depending on the time of day, market conditions, and other factors.
+- exchange_rate:R6 — Provide Context on App Exchange Rates: Inform the customer that exchange rates on the app are indicative and may vary depending on the time of day, market conditions, and other factors.
 
-- Rule 7: Refer to Published Rates: Direct the customer to where they can find published exchange rates on the bank's website or mobile app, if applicable.
+- exchange_rate:R7 — Refer to Published Rates: Direct the customer to where they can find published exchange rates on the bank's website or mobile app, if applicable.

@@ -1,11 +1,11 @@
-- Rule 1: Provide Transfer Fee Information: The agent must inform the customer of the applicable fee for topping up their account via bank transfer, quoting the exact fee amount.
+- top_up_by_bank_transfer_charge:R1 — Provide Transfer Fee Information: The agent must inform the customer of the applicable fee for topping up their account via bank transfer, quoting the exact fee amount.
 
-- Rule 2: Clarify SEPA Transfer Charges: If the customer inquires about SEPA transfers, the agent must confirm whether a charge applies and provide the exact fee amount.
+- top_up_by_bank_transfer_charge:R2 — Clarify SEPA Transfer Charges: If the customer inquires about SEPA transfers, the agent must confirm whether a charge applies and provide the exact fee amount.
 
-- Rule 3: Disclose SWIFT Transfer Option: If the customer asks about transferring from SWIFT, the agent must inform them if this option is available for topping up their account and provide the associated fee.
+- top_up_by_bank_transfer_charge:R3 — Disclose SWIFT Transfer Option: If the customer asks about transferring from SWIFT, the agent must inform them if this option is available for topping up their account and provide the associated fee.
 
-- Rule 4: Confirm No Charge for Receiving: The agent must inform the customer that there is no charge for receiving money via bank transfer (SEPA or otherwise) into their account.
+- top_up_by_bank_transfer_charge:R4 — Confirm No Charge for Receiving: The agent must inform the customer that there is no charge for receiving money via bank transfer (SEPA or otherwise) into their account.
 
-- Rule 5: Quote Transfer Costs: If the customer asks about the cost of transferring, the agent must provide the exact cost, including any applicable fees.
+- top_up_by_bank_transfer_charge:R5 — Quote Transfer Costs: If the customer asks about the cost of transferring, the agent must provide the exact cost, including any applicable fees.
 
-- Rule 6: Address Receiving Money Fees: If the customer inquires about fees for receiving money, the agent must explicitly state that there are no fees for receiving money via bank transfer.
+- top_up_by_bank_transfer_charge:R6 — Address Receiving Money Fees: If the customer inquires about fees for receiving money, the agent must explicitly state that there are no fees for receiving money via bank transfer.

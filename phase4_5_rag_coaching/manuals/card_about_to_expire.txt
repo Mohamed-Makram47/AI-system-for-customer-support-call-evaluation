@@ -1,11 +1,11 @@
-- Rule 1: Check Expiration Date: Verify the customer's card expiration date and confirm if a replacement card has been mailed or if the customer needs to request a new one.
+- card_about_to_expire:R1 — Check Expiration Date: Verify the customer's card expiration date and confirm if a replacement card has been mailed or if the customer needs to request a new one.
 
-- Rule 2: Inform Replacement Process: Provide the customer with information on the process to obtain a new card, including any required actions, expected delivery time, and potential fees.
+- card_about_to_expire:R2 — Inform Replacement Process: Provide the customer with information on the process to obtain a new card, including any required actions, expected delivery time, and potential fees.
 
-- Rule 3: Expedite Replacement Card: If the customer's card is expiring within a specified timeframe (e.g., 7-10 days), offer to expedite the replacement card shipping process, if available.
+- card_about_to_expire:R3 — Expedite Replacement Card: If the customer's card is expiring within a specified timeframe (e.g., 7-10 days), offer to expedite the replacement card shipping process, if available.
 
-- Rule 4: International Card Shipping: If the customer requests to have a new card sent to a country outside of their primary residence (e.g., China), inform them of any additional requirements, fees, or restrictions and provide instructions on how to proceed.
+- card_about_to_expire:R4 — International Card Shipping: If the customer requests to have a new card sent to a country outside of their primary residence (e.g., China), inform them of any additional requirements, fees, or restrictions and provide instructions on how to proceed.
 
-- Rule 5: Auto-Reissue Notification: Inform customers that they do not need to request a new card before it expires, as an automatic replacement card will be mailed to them before the expiration date.
+- card_about_to_expire:R5 — Auto-Reissue Notification: Inform customers that they do not need to request a new card before it expires, as an automatic replacement card will be mailed to them before the expiration date.
 
-- Rule 6: Post-Expiration Steps: If the customer's card has already expired, provide instructions on how to activate a replacement card, if one has been mailed, or guide them on the process to request a new card.
+- card_about_to_expire:R6 — Post-Expiration Steps: If the customer's card has already expired, provide instructions on how to activate a replacement card, if one has been mailed, or guide them on the process to request a new card.

@@ -1,11 +1,11 @@
-Rule 1: List Supported Currencies: Provide the customer with a list of supported fiat currencies for holding and exchange, which includes USD, EUR, GBP, JPY, and AUD.
+- fiat_currency_support:R1 — List Supported Currencies: Provide the customer with a list of supported fiat currencies for holding and exchange, which includes USD, EUR, GBP, JPY, and AUD.
 
-- Rule 2: Identify Multiple Currency Support: Inform the customer that multiple currencies can be held in their account, but exchanges are subject to certain terms and conditions.
+- fiat_currency_support:R2 — Identify Multiple Currency Support: Inform the customer that multiple currencies can be held in their account, but exchanges are subject to certain terms and conditions.
 
-- Rule 3: Specify Exchange Currencies: Confirm whether the customer's requested currency (e.g., EUR) is supported for exchange and provide information on exchange rates if applicable.
+- fiat_currency_support:R3 — Specify Exchange Currencies: Confirm whether the customer's requested currency (e.g., EUR) is supported for exchange and provide information on exchange rates if applicable.
 
-- Rule 4: Clarify Holding and Exchange Options: Clearly explain the difference between holding and exchanging fiat currencies and provide guidance on which currencies are eligible for each option.
+- fiat_currency_support:R4 — Clarify Holding and Exchange Options: Clearly explain the difference between holding and exchanging fiat currencies and provide guidance on which currencies are eligible for each option.
 
-- Rule 5: Provide Currency Exchange Capability: If the customer inquires about exchanging a specific currency (e.g., EUR), confirm if the service supports such exchanges and guide on the process.
+- fiat_currency_support:R5 — Provide Currency Exchange Capability: If the customer inquires about exchanging a specific currency (e.g., EUR), confirm if the service supports such exchanges and guide on the process.
 
-- Rule 6: Confirm Fiat Currency Usage: Verify and inform the customer about the types of fiat currencies used for transactions and services provided by the bank.
+- fiat_currency_support:R6 — Confirm Fiat Currency Usage: Verify and inform the customer about the types of fiat currencies used for transactions and services provided by the bank.

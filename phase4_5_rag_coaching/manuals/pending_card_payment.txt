@@ -1,11 +1,11 @@
-- Rule 1: Pending Payment Explanation: Provide a clear explanation to the customer that a pending payment means the transaction is being processed and has not yet been fully cleared, and that it may take 2-3 business days to complete.
+- pending_card_payment:R1 — Pending Payment Explanation: Provide a clear explanation to the customer that a pending payment means the transaction is being processed and has not yet been fully cleared, and that it may take 2-3 business days to complete.
 
-- Rule 2: Pending Duration Inquiry: If the customer inquires about the duration of the pending payment, inform them that the standard processing time for card payments is 2-3 business days, but may vary depending on the bank or card issuer.
+- pending_card_payment:R2 — Pending Duration Inquiry: If the customer inquires about the duration of the pending payment, inform them that the standard processing time for card payments is 2-3 business days, but may vary depending on the bank or card issuer.
 
-- Rule 3: Investigation of Delayed Payment: If the customer's payment has been pending for more than 5 business days, initiate an investigation by checking the transaction status in the system and verify if there are any holds or issues on the card.
+- pending_card_payment:R3 — Investigation of Delayed Payment: If the customer's payment has been pending for more than 5 business days, initiate an investigation by checking the transaction status in the system and verify if there are any holds or issues on the card.
 
-- Rule 4: Provide Estimated Resolution Time: If the investigation reveals a delay, provide the customer with an estimated time for when the payment will be processed, and offer to follow up with them if the issue is not resolved within that timeframe.
+- pending_card_payment:R4 — Provide Estimated Resolution Time: If the investigation reveals a delay, provide the customer with an estimated time for when the payment will be processed, and offer to follow up with them if the issue is not resolved within that timeframe.
 
-- Rule 5: Transaction Details Disclosure: Disclose to the customer the transaction details, including the date, amount, and merchant information, to help them understand the pending payment.
+- pending_card_payment:R5 — Transaction Details Disclosure: Disclose to the customer the transaction details, including the date, amount, and merchant information, to help them understand the pending payment.
 
-- Rule 6: Follow-up Action: If the agent is unable to resolve the issue during the call, inform the customer that they will follow up with them within a specified timeframe (e.g., 24-48 hours) to provide an update on the status of their payment.
+- pending_card_payment:R6 — Follow-up Action: If the agent is unable to resolve the issue during the call, inform the customer that they will follow up with them within a specified timeframe (e.g., 24-48 hours) to provide an update on the status of their payment.

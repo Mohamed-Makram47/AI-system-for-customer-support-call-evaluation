@@ -1,11 +1,11 @@
-Rule 1: Verify Virtual Card Status: Check the customer's virtual card status in the system and verify if it is active, valid, and not expired.
+- virtual_card_not_working:R1 — Verify Virtual Card Status: Check the customer's virtual card status in the system and verify if it is active, valid, and not expired.
 
-- Rule 2: Check Merchant Restrictions: Inform the customer that virtual cards may have restrictions on usage with certain merchants or for specific transactions, and verify if the merchant is a supported one.
+- virtual_card_not_working:R2 — Check Merchant Restrictions: Inform the customer that virtual cards may have restrictions on usage with certain merchants or for specific transactions, and verify if the merchant is a supported one.
 
-- Rule 3: Review Transaction Limits: Check and inform the customer of the daily, weekly, or monthly transaction limits on their virtual card and confirm if the attempted transaction exceeds these limits.
+- virtual_card_not_working:R3 — Review Transaction Limits: Check and inform the customer of the daily, weekly, or monthly transaction limits on their virtual card and confirm if the attempted transaction exceeds these limits.
 
-- Rule 4: Validate Card Details: Verify that the customer has entered the correct virtual card details, including the card number, expiration date, and CVV, and re-provide the details if necessary.
+- virtual_card_not_working:R4 — Validate Card Details: Verify that the customer has entered the correct virtual card details, including the card number, expiration date, and CVV, and re-provide the details if necessary.
 
-- Rule 5: Check for Multiple Use Restrictions: Inform the customer if their virtual card is a single-use card and explain that it cannot be used for multiple transactions.
+- virtual_card_not_working:R5 — Check for Multiple Use Restrictions: Inform the customer if their virtual card is a single-use card and explain that it cannot be used for multiple transactions.
 
-- Rule 6: Regenerate Virtual Card: Offer to regenerate a new virtual card if the existing one is not working, and guide the customer through the process.
+- virtual_card_not_working:R6 — Regenerate Virtual Card: Offer to regenerate a new virtual card if the existing one is not working, and guide the customer through the process.

@@ -1,11 +1,11 @@
-- Rule 1: Verify Apple Watch Compatibility: If the customer asks about using their Apple watch to make a transaction or top-up, the agent must confirm that Apple Pay is compatible with the customer's Apple watch and provide instructions on how to use it.
+- apple_pay_or_google_pay:R1 — Verify Apple Watch Compatibility: If the customer asks about using their Apple watch to make a transaction or top-up, the agent must confirm that Apple Pay is compatible with the customer's Apple watch and provide instructions on how to use it.
 
-- Rule 2: Provide Google Pay Top-up Options: If the customer inquires about topping up their Google Pay account, the agent must inform them of the available top-up options, including supported currencies and any associated fees.
+- apple_pay_or_google_pay:R2 — Provide Google Pay Top-up Options: If the customer inquires about topping up their Google Pay account, the agent must inform them of the available top-up options, including supported currencies and any associated fees.
 
-- Rule 3: Check Google Pay Top-up Eligibility: If the customer's Google Pay top-up is not working, the agent must verify the customer's account status and ensure that they are eligible for top-ups.
+- apple_pay_or_google_pay:R3 — Check Google Pay Top-up Eligibility: If the customer's Google Pay top-up is not working, the agent must verify the customer's account status and ensure that they are eligible for top-ups.
 
-- Rule 4: Guide Apple Pay or Google Pay Transactions: If the customer asks about using Apple Pay or Google Pay for a specific transaction (e.g., filling a gas tank), the agent must provide step-by-step instructions on how to complete the transaction using the respective service.
+- apple_pay_or_google_pay:R4 — Guide Apple Pay or Google Pay Transactions: If the customer asks about using Apple Pay or Google Pay for a specific transaction (e.g., filling a gas tank), the agent must provide step-by-step instructions on how to complete the transaction using the respective service.
 
-- Rule 5: Troubleshoot Google Pay Top-up Issues: If the customer's Google Pay top-up is not working, the agent must troubleshoot the issue by checking for any errors, expired cards, or insufficient funds.
+- apple_pay_or_google_pay:R5 — Troubleshoot Google Pay Top-up Issues: If the customer's Google Pay top-up is not working, the agent must troubleshoot the issue by checking for any errors, expired cards, or insufficient funds.
 
-- Rule 6: Inform about Multi-Transaction Support: If the customer asks about combining Google Pay and top-up transactions, the agent must inform them about the possibility of linking multiple transactions and provide guidance on how to do so.
+- apple_pay_or_google_pay:R6 — Inform about Multi-Transaction Support: If the customer asks about combining Google Pay and top-up transactions, the agent must inform them about the possibility of linking multiple transactions and provide guidance on how to do so.

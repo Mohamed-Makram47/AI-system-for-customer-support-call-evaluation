@@ -1,11 +1,11 @@
-- Rule 1: Verify Purchase Details: Verify the customer's purchase details, including the date, amount, and description of the transaction, before proceeding with the refund request.
+- request_refund:R1 — Verify Purchase Details: Verify the customer's purchase details, including the date, amount, and description of the transaction, before proceeding with the refund request.
 
-- Rule 2: Check Refund Eligibility: Check the refund policy and eligibility criteria for the specific product or service purchased, and inform the customer of any conditions or restrictions.
+- request_refund:R2 — Check Refund Eligibility: Check the refund policy and eligibility criteria for the specific product or service purchased, and inform the customer of any conditions or restrictions.
 
-- Rule 3: Provide Refund Process Information: Provide the customer with clear instructions on the refund process, including any required documentation, return shipping, or next steps.
+- request_refund:R3 — Provide Refund Process Information: Provide the customer with clear instructions on the refund process, including any required documentation, return shipping, or next steps.
 
-- Rule 4: Initiate Refund or Return Process: If eligible, initiate the refund or return process immediately, and provide the customer with a reference number or confirmation of the process.
+- request_refund:R4 — Initiate Refund or Return Process: If eligible, initiate the refund or return process immediately, and provide the customer with a reference number or confirmation of the process.
 
-- Rule 5: Explain Refund Timeline: Explain the estimated timeline for processing the refund, including any relevant deadlines or expectations for receiving the refund.
+- request_refund:R5 — Explain Refund Timeline: Explain the estimated timeline for processing the refund, including any relevant deadlines or expectations for receiving the refund.
 
-- Rule 6: Offer Cancellation or Reversal: If the customer requests a refund for a recent transaction, offer to cancel or reverse the transaction if possible, and provide a confirmation of the cancellation or reversal.
+- request_refund:R6 — Offer Cancellation or Reversal: If the customer requests a refund for a recent transaction, offer to cancel or reverse the transaction if possible, and provide a confirmation of the cancellation or reversal.

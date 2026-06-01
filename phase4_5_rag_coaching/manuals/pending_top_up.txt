@@ -1,11 +1,11 @@
-- Rule 1: Pending Top-up Explanation: Provide a clear explanation to the customer that a top-up is pending because it is being processed and has not yet been completed, and that it usually takes a few minutes to a few hours to complete, but can take longer in some cases.
+- pending_top_up:R1 — Pending Top-up Explanation: Provide a clear explanation to the customer that a top-up is pending because it is being processed and has not yet been completed, and that it usually takes a few minutes to a few hours to complete, but can take longer in some cases.
 
-- Rule 2: Top-up Status Check: Inform the customer that they can check the status of their top-up by logging into their online banking account or mobile banking app, and provide the exact steps to do so.
+- pending_top_up:R2 — Top-up Status Check: Inform the customer that they can check the status of their top-up by logging into their online banking account or mobile banking app, and provide the exact steps to do so.
 
-- Rule 3: Pending Top-up Investigation: If the customer reports that their top-up has been pending for an unusual amount of time (e.g. more than 2 hours), ask the customer for their top-up transaction reference number and investigate the status of the top-up with the payment processing team.
+- pending_top_up:R3 — Pending Top-up Investigation: If the customer reports that their top-up has been pending for an unusual amount of time (e.g. more than 2 hours), ask the customer for their top-up transaction reference number and investigate the status of the top-up with the payment processing team.
 
-- Rule 4: Top-up Retry or Cancellation: If the customer requests assistance with a pending top-up, offer to attempt a retry of the top-up transaction or cancel the pending top-up and provide guidance on how to re-initiate the top-up.
+- pending_top_up:R4 — Top-up Retry or Cancellation: If the customer requests assistance with a pending top-up, offer to attempt a retry of the top-up transaction or cancel the pending top-up and provide guidance on how to re-initiate the top-up.
 
-- Rule 5: Provide Estimated Resolution Time: Provide an estimated timeframe for when the pending top-up will be completed, based on the customer's specific situation and the bank's processing times.
+- pending_top_up:R5 — Provide Estimated Resolution Time: Provide an estimated timeframe for when the pending top-up will be completed, based on the customer's specific situation and the bank's processing times.
 
-- Rule 6: Escalation to Specialist: If the customer is a new customer and their top-up is still pending after explanation and investigation, escalate the issue to a specialist who can review the customer's account and top-up transaction to resolve the issue.
+- pending_top_up:R6 — Escalation to Specialist: If the customer is a new customer and their top-up is still pending after explanation and investigation, escalate the issue to a specialist who can review the customer's account and top-up transaction to resolve the issue.

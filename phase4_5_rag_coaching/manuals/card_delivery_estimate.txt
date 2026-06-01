@@ -1,11 +1,11 @@
-- Rule 1: Provide Delivery Time Frame: Inform the customer of the estimated delivery time frame for card delivery to the US, which is 7-10 business days.
+- card_delivery_estimate:R1 — Provide Delivery Time Frame: Inform the customer of the estimated delivery time frame for card delivery to the US, which is 7-10 business days.
 
-- Rule 2: Check on Expedited Shipping Options: If the customer requests expedited delivery or needs the card as soon as possible, check if expedited shipping options are available and provide the customer with the associated costs and delivery time frame.
+- card_delivery_estimate:R2 — Check on Expedited Shipping Options: If the customer requests expedited delivery or needs the card as soon as possible, check if expedited shipping options are available and provide the customer with the associated costs and delivery time frame.
 
-- Rule 3: Offer Tracking Information: If the card has already been shipped, provide the customer with tracking information, if available, to allow them to track the status of their card.
+- card_delivery_estimate:R3 — Offer Tracking Information: If the card has already been shipped, provide the customer with tracking information, if available, to allow them to track the status of their card.
 
-- Rule 4: Provide Specific Delivery Date: If a specific delivery date is requested, check if it is possible to provide a specific delivery date and confirm it with the customer, or provide a range of dates.
+- card_delivery_estimate:R4 — Provide Specific Delivery Date: If a specific delivery date is requested, check if it is possible to provide a specific delivery date and confirm it with the customer, or provide a range of dates.
 
-- Rule 5: Refer to Customer Service for Further Assistance: If the customer requests a specific delivery date that cannot be met or has further questions, refer them to the customer service team for further assistance.
+- card_delivery_estimate:R5 — Refer to Customer Service for Further Assistance: If the customer requests a specific delivery date that cannot be met or has further questions, refer them to the customer service team for further assistance.
 
-- Rule 6: Verify Customer Address: If the customer inquires about delivery time and there are address discrepancies, verify the customer's address to ensure accurate delivery information.
+- card_delivery_estimate:R6 — Verify Customer Address: If the customer inquires about delivery time and there are address discrepancies, verify the customer's address to ensure accurate delivery information.

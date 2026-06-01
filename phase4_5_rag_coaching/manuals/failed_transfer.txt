@@ -1,11 +1,11 @@
-- Rule 1: Verify Transfer Details: The agent must verify the customer's transfer details, including the recipient's account number, sort code, and payment amount, to ensure accuracy and identify potential causes of the failed transfer.
+- failed_transfer:R1 — Verify Transfer Details: The agent must verify the customer's transfer details, including the recipient's account number, sort code, and payment amount, to ensure accuracy and identify potential causes of the failed transfer.
 
-- Rule 2: Check Transfer Limits: The agent must check if the customer has exceeded their daily or monthly transfer limits, and inform them of the limits and any available options to increase or adjust the limits.
+- failed_transfer:R2 — Check Transfer Limits: The agent must check if the customer has exceeded their daily or monthly transfer limits, and inform them of the limits and any available options to increase or adjust the limits.
 
-- Rule 3: Investigate Recipient Bank Issues: The agent must investigate if the recipient bank is experiencing issues or has rejected the transfer, and provide the customer with information on the recipient bank's status and any required next steps.
+- failed_transfer:R3 — Investigate Recipient Bank Issues: The agent must investigate if the recipient bank is experiencing issues or has rejected the transfer, and provide the customer with information on the recipient bank's status and any required next steps.
 
-- Rule 4: Review Account Status: The agent must review the customer's account status to ensure there are sufficient funds and no holds or blocks on the account that may be causing the transfer to fail.
+- failed_transfer:R4 — Review Account Status: The agent must review the customer's account status to ensure there are sufficient funds and no holds or blocks on the account that may be causing the transfer to fail.
 
-- Rule 5: Provide Error Codes or Reasons: The agent must provide the customer with specific error codes or reasons for the failed transfer, if available, and explain the steps to resolve the issue.
+- failed_transfer:R5 — Provide Error Codes or Reasons: The agent must provide the customer with specific error codes or reasons for the failed transfer, if available, and explain the steps to resolve the issue.
 
-- Rule 6: Offer Alternative Transfer Options: The agent must offer alternative transfer options, such as a standard transfer or a different payment method, if the customer's preferred transfer method is not available.
+- failed_transfer:R6 — Offer Alternative Transfer Options: The agent must offer alternative transfer options, such as a standard transfer or a different payment method, if the customer's preferred transfer method is not available.

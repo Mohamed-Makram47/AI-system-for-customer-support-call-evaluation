@@ -1,11 +1,11 @@
-- Rule 1: Provide Age Limit Information: If the customer asks about the age limit for using the service or opening an account, provide the specific age limit (e.g., 18 years old) and clarify that individuals under that age are not eligible for the service.
+- age_limit:R1 — Provide Age Limit Information: If the customer asks about the age limit for using the service or opening an account, provide the specific age limit (e.g., 18 years old) and clarify that individuals under that age are not eligible for the service.
 
-- Rule 2: Offer Alternative Accounts: If the customer inquires about opening an account for their child, inform them about available account options for minors (e.g., custodial accounts, youth savings accounts) and provide details on eligibility requirements.
+- age_limit:R2 — Offer Alternative Accounts: If the customer inquires about opening an account for their child, inform them about available account options for minors (e.g., custodial accounts, youth savings accounts) and provide details on eligibility requirements.
 
-- Rule 3: Verify Age for Account Eligibility: If the customer asks about opening an account for a child or inquires about the youngest age for an account, verify the child's age and inform the customer whether they are eligible for a minor account or need to wait until they reach the minimum age requirement.
+- age_limit:R3 — Verify Age for Account Eligibility: If the customer asks about opening an account for a child or inquires about the youngest age for an account, verify the child's age and inform the customer whether they are eligible for a minor account or need to wait until they reach the minimum age requirement.
 
-- Rule 4: Direct to Youth Account Resources: If the customer asks about accounts for children or wants to open an account for their kids, provide information about youth account products, such as links to the bank's website or offer to mail brochures.
+- age_limit:R4 — Direct to Youth Account Resources: If the customer asks about accounts for children or wants to open an account for their kids, provide information about youth account products, such as links to the bank's website or offer to mail brochures.
 
-- Rule 5: Clarify Grandparent or Guardian Accounts: If a grandparent or guardian asks about opening an account for a minor, clarify that they may be able to open a custodial account or other type of account for the child, subject to specific requirements and regulations.
+- age_limit:R5 — Clarify Grandparent or Guardian Accounts: If a grandparent or guardian asks about opening an account for a minor, clarify that they may be able to open a custodial account or other type of account for the child, subject to specific requirements and regulations.
 
-- Rule 6: Provide Parent/Guardian Account Options: If a parent or guardian inquires about opening an account for their child, provide information on account options that require a parent or guardian as a co-signor or account holder.
+- age_limit:R6 — Provide Parent/Guardian Account Options: If a parent or guardian inquires about opening an account for their child, provide information on account options that require a parent or guardian as a co-signor or account holder.

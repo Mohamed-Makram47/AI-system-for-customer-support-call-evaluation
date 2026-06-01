@@ -1,11 +1,11 @@
-- Rule 1: Identify Extra Charge: The agent must ask the customer for the specific date and amount of the extra charge mentioned on their statement to verify the charge details.
+- extra_charge_on_statement:R1 — Identify Extra Charge: The agent must ask the customer for the specific date and amount of the extra charge mentioned on their statement to verify the charge details.
 
-- Rule 2: Investigate Charge Reason: The agent must investigate the charge by checking the customer's account history and transaction records to determine the cause of the extra charge.
+- extra_charge_on_statement:R2 — Investigate Charge Reason: The agent must investigate the charge by checking the customer's account history and transaction records to determine the cause of the extra charge.
 
-- Rule 3: Explain Extra Charge: If the extra charge is identified as a standard bank fee (e.g., overdraft, ATM, or minimum balance fee), the agent must clearly explain the fee type, its amount, and the reason for it.
+- extra_charge_on_statement:R3 — Explain Extra Charge: If the extra charge is identified as a standard bank fee (e.g., overdraft, ATM, or minimum balance fee), the agent must clearly explain the fee type, its amount, and the reason for it.
 
-- Rule 4: Refund or Waive: If the extra charge is identified as an incorrect or unauthorized charge, the agent must immediately process a refund or waiver of the charge, if applicable.
+- extra_charge_on_statement:R4 — Refund or Waive: If the extra charge is identified as an incorrect or unauthorized charge, the agent must immediately process a refund or waiver of the charge, if applicable.
 
-- Rule 5: Provide Transaction Details: The agent must provide the customer with detailed information about the transaction that incurred the extra charge, including the date, time, and location of the transaction.
+- extra_charge_on_statement:R5 — Provide Transaction Details: The agent must provide the customer with detailed information about the transaction that incurred the extra charge, including the date, time, and location of the transaction.
 
-- Rule 6: Check for Recurring Charges: The agent must check if there are any recurring charges or subscriptions associated with the account that could be causing the extra charge and advise the customer accordingly.
+- extra_charge_on_statement:R6 — Check for Recurring Charges: The agent must check if there are any recurring charges or subscriptions associated with the account that could be causing the extra charge and advise the customer accordingly.

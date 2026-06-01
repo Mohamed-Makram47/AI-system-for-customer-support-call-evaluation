@@ -1,11 +1,11 @@
-- Rule 1: Verify Top-up Attempt: The agent must ask the customer for the date and time of the top-up attempt and the method used (e.g., online, mobile app, or at a store) to verify the details of the failed top-up.
+- top_up_failed:R1 — Verify Top-up Attempt: The agent must ask the customer for the date and time of the top-up attempt and the method used (e.g., online, mobile app, or at a store) to verify the details of the failed top-up.
 
-- Rule 2: Check Top-up Status: The agent must check the status of the top-up in the customer's account to determine if it was successfully processed or not.
+- top_up_failed:R2 — Check Top-up Status: The agent must check the status of the top-up in the customer's account to determine if it was successfully processed or not.
 
-- Rule 3: Run a Top-up History: The agent must run a history of the customer's top-up transactions for the past 30 days to identify any recurring issues or patterns.
+- top_up_failed:R3 — Run a Top-up History: The agent must run a history of the customer's top-up transactions for the past 30 days to identify any recurring issues or patterns.
 
-- Rule 4: Troubleshoot Card Decline: If the customer's card is being declined during the top-up attempt, the agent must ask the customer if they have sufficient funds and if their card is not expired, and then provide guidance on resolving the card decline issue.
+- top_up_failed:R4 — Troubleshoot Card Decline: If the customer's card is being declined during the top-up attempt, the agent must ask the customer if they have sufficient funds and if their card is not expired, and then provide guidance on resolving the card decline issue.
 
-- Rule 5: Offer Alternative Top-up Methods: The agent must offer alternative top-up methods to the customer, such as using a different card or a different payment method, if the primary method is not working.
+- top_up_failed:R5 — Offer Alternative Top-up Methods: The agent must offer alternative top-up methods to the customer, such as using a different card or a different payment method, if the primary method is not working.
 
-- Rule 6: Provide Refund Information: If the top-up failed and the customer is still experiencing issues, the agent must provide information on how to initiate a refund for the failed top-up transaction.
+- top_up_failed:R6 — Provide Refund Information: If the top-up failed and the customer is still experiencing issues, the agent must provide information on how to initiate a refund for the failed top-up transaction.

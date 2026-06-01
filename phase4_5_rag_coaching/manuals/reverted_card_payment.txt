@@ -1,11 +1,11 @@
-- Rule 1: Verify Reversal Reason: Check the customer's account and transaction history to determine the reason for the reverted card payment and provide the reason to the customer.
+- reverted_card_payment:R1 — Verify Reversal Reason: Check the customer's account and transaction history to determine the reason for the reverted card payment and provide the reason to the customer.
 
-- Rule 2: Check for Duplicate Transactions: Verify if a duplicate transaction was processed and inform the customer if the reverted payment was due to a duplicate transaction.
+- reverted_card_payment:R2 — Check for Duplicate Transactions: Verify if a duplicate transaction was processed and inform the customer if the reverted payment was due to a duplicate transaction.
 
-- Rule 3: Provide Reversal Details: Provide the customer with details of the reverted payment, including the date, amount, and reference number of the original transaction.
+- reverted_card_payment:R3 — Provide Reversal Details: Provide the customer with details of the reverted payment, including the date, amount, and reference number of the original transaction.
 
-- Rule 4: Investigate Potential Issues: If the reason for the reverted payment is not clear, investigate potential issues such as expired or blocked cards, and inform the customer of the findings.
+- reverted_card_payment:R4 — Investigate Potential Issues: If the reason for the reverted payment is not clear, investigate potential issues such as expired or blocked cards, and inform the customer of the findings.
 
-- Rule 5: Offer Solution or Next Steps: Based on the reason for the reverted payment, offer a solution or next steps to the customer, such as re-processing the payment or replacing the card.
+- reverted_card_payment:R5 — Offer Solution or Next Steps: Based on the reason for the reverted payment, offer a solution or next steps to the customer, such as re-processing the payment or replacing the card.
 
-- Rule 6: Explain Reversal Timing: Explain to the customer why the reverted payment may have taken some time to reflect in their account, and provide a timeline for when the funds will be available.
+- reverted_card_payment:R6 — Explain Reversal Timing: Explain to the customer why the reverted payment may have taken some time to reflect in their account, and provide a timeline for when the funds will be available.

@@ -1,11 +1,11 @@
-- Rule 1: Verify Eligibility: Check if the customer for a spare card based on their account type and existing card holdings.
+- getting_spare_card:R1 — Verify Eligibility: Check if the customer for a spare card based on their account type and existing card holdings.
 
-- Rule 2: Inform Card Limit: Advise the customer of the maximum number of cards allowed on their account.
+- getting_spare_card:R2 — Inform Card Limit: Advise the customer of the maximum number of cards allowed on their account.
 
-- Rule 3: Disclose Fees: Clearly inform the customer if there are any fees associated with issuing additional cards.
+- getting_spare_card:R3 — Disclose Fees: Clearly inform the customer if there are any fees associated with issuing additional cards.
 
-- Rule 4: Process Spare Card Request: If the customer is eligible and has requested a spare card, initiate the process for issuing a new card.
+- getting_spare_card:R4 — Process Spare Card Request: If the customer is eligible and has requested a spare card, initiate the process for issuing a new card.
 
  5: Provide Timeline: Inform the customer of the estimated timeframe for receiving the spare card.
 
-- Rule 6: Record Card Request: Update the customer's account records to reflect the request and issuance of the spare card.
+- getting_spare_card:R6 — Record Card Request: Update the customer's account records to reflect the request and issuance of the spare card.

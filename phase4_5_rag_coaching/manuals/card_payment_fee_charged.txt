@@ -1,11 +1,11 @@
-- Rule 1: Verify Card Payment Fee: Confirm if the customer was charged a card payment fee and verify the transaction details to ensure the fee was indeed applied.
+- card_payment_fee_charged:R1 — Verify Card Payment Fee: Confirm if the customer was charged a card payment fee and verify the transaction details to ensure the fee was indeed applied.
 
-- Rule 2: Explain Card Payment Fee Policy: Provide a clear explanation of the card payment fee policy, including the circumstances under which the fee is charged and the amount of the fee.
+- card_payment_fee_charged:R2 — Explain Card Payment Fee Policy: Provide a clear explanation of the card payment fee policy, including the circumstances under which the fee is charged and the amount of the fee.
 
-- Rule 3: Check for Fee Waivers: Determine if the customer is eligible for a fee waiver and process the waiver if applicable.
+- card_payment_fee_charged:R3 — Check for Fee Waivers: Determine if the customer is eligible for a fee waiver and process the waiver if applicable.
 
-- Rule 4: Refund Card Payment Fee: If the customer was incorrectly charged a card payment fee, initiate a refund of the fee and update the customer's account accordingly.
+- card_payment_fee_charged:R4 — Refund Card Payment Fee: If the customer was incorrectly charged a card payment fee, initiate a refund of the fee and update the customer's account accordingly.
 
-- Rule 5: Provide Transaction Details: Provide the customer with detailed information about the transaction, including the date, amount, and breakdown of charges.
+- card_payment_fee_charged:R5 — Provide Transaction Details: Provide the customer with detailed information about the transaction, including the date, amount, and breakdown of charges.
 
-- Rule 6: Review and Correct Errors: Review the transaction to ensure that the card payment fee was correctly applied and correct any errors if necessary.
+- card_payment_fee_charged:R6 — Review and Correct Errors: Review the transaction to ensure that the card payment fee was correctly applied and correct any errors if necessary.

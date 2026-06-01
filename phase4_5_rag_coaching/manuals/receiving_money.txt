@@ -1,11 +1,11 @@
-- Rule 1: Verify Receiving Options: Inform the customer of the available options to receive money, including bank transfer, online payment services, and in-person deposit.
+- receiving_money:R1 — Verify Receiving Options: Inform the customer of the available options to receive money, including bank transfer, online payment services, and in-person deposit.
 
-- Rule 2: Explain Currency Handling: If the customer inquires about receiving payment in another currency, explain that the bank can hold and manage multiple currencies, but conversion fees may apply.
+- receiving_money:R2 — Explain Currency Handling: If the customer inquires about receiving payment in another currency, explain that the bank can hold and manage multiple currencies, but conversion fees may apply.
 
-- Rule 3: Provide Sender Instructions: If the customer asks how a friend or third party can send them money, provide instructions on how to set up a payment, including providing the customer's account details.
+- receiving_money:R3 — Provide Sender Instructions: If the customer asks how a friend or third party can send them money, provide instructions on how to set up a payment, including providing the customer's account details.
 
-- Rule 4: Check Currency Configuration: If the customer's salary is in a foreign currency (e.g., GBP), verify if the customer's account is configured to receive international payments and if any additional setup is required.
+- receiving_money:R4 — Check Currency Configuration: If the customer's salary is in a foreign currency (e.g., GBP), verify if the customer's account is configured to receive international payments and if any additional setup is required.
 
-- Rule 5: Payroll Setup Guidance: If the customer inquires about receiving their payroll, provide guidance on what information the customer needs to provide to their employer to set up direct deposit.
+- receiving_money:R5 — Payroll Setup Guidance: If the customer inquires about receiving their payroll, provide guidance on what information the customer needs to provide to their employer to set up direct deposit.
 
-- Rule 6: Distinguish Between Payment Methods: If the customer asks about receiving money from a friend versus receiving a salary, clearly explain the differences in processing and any applicable fees or requirements.
+- receiving_money:R6 — Distinguish Between Payment Methods: If the customer asks about receiving money from a friend versus receiving a salary, clearly explain the differences in processing and any applicable fees or requirements.

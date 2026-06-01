@@ -1,11 +1,11 @@
-- Rule 1: Provide ATM Network Information: Inform the customer of the specific ATM networks that are compatible with their card, such as Allpoint, Plus, or Cirrus.
+- atm_support:R1 — Provide ATM Network Information: Inform the customer of the specific ATM networks that are compatible with their card, such as Allpoint, Plus, or Cirrus.
 
-- Rule 2: Offer ATM Locator Tool: Direct the customer to use the bank's online ATM locator tool or mobile app to find nearby ATMs that accept their card.
+- atm_support:R2 — Offer ATM Locator Tool: Direct the customer to use the bank's online ATM locator tool or mobile app to find nearby ATMs that accept their card.
 
-- Rule 3: Identify Compatible ATMs: If the customer has a specific ATM in mind, verify whether that ATM is compatible with their card by checking the ATM's logo against the networks their card is part of.
+- atm_support:R3 — Identify Compatible ATMs: If the customer has a specific ATM in mind, verify whether that ATM is compatible with their card by checking the ATM's logo against the networks their card is part of.
 
-- Rule 4: Disclose Potential Fees: Inform the customer that using an out-of-network ATM may incur fees from both the ATM operator and the bank.
+- atm_support:R4 — Disclose Potential Fees: Inform the customer that using an out-of-network ATM may incur fees from both the ATM operator and the bank.
 
-- Rule 5: Provide Alternative Solutions: If the customer is having trouble finding an ATM, suggest alternative solutions such as withdrawing cash at a bank branch or using a debit card at a retail store.
+- atm_support:R5 — Provide Alternative Solutions: If the customer is having trouble finding an ATM, suggest alternative solutions such as withdrawing cash at a bank branch or using a debit card at a retail store.
 
-- Rule 6: Confirm International Compatibility: If the customer plans to travel abroad, confirm whether their card is compatible with international ATM networks and provide information on any foreign transaction fees.
+- atm_support:R6 — Confirm International Compatibility: If the customer plans to travel abroad, confirm whether their card is compatible with international ATM networks and provide information on any foreign transaction fees.

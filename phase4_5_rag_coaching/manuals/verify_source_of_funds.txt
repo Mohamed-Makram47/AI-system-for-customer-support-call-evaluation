@@ -1,11 +1,11 @@
-- Rule 1: Verify Customer Identity: Before providing information on the source of funds, verify the customer's identity using their name, date of birth, and account information.
+- verify_source_of_funds:R1 — Verify Customer Identity: Before providing information on the source of funds, verify the customer's identity using their name, date of birth, and account information.
 
-- Rule 2: Request Transaction Details: Ask the customer to provide specific details about the transaction in question, including the date, amount, and type of transaction.
+- verify_source_of_funds:R2 — Request Transaction Details: Ask the customer to provide specific details about the transaction in question, including the date, amount, and type of transaction.
 
-- Rule 3: Check Transaction History: Retrieve and review the customer's transaction history to identify the source of the funds, and provide a summary of the findings to the customer.
+- verify_source_of_funds:R3 — Check Transaction History: Retrieve and review the customer's transaction history to identify the source of the funds, and provide a summary of the findings to the customer.
 
-- Rule 4: Provide Source of Funds Information: If the source of funds is identified, provide clear and concise information to the customer about the origin of the funds, including the sender's name and account information, if available.
+- verify_source_of_funds:R4 — Provide Source of Funds Information: If the source of funds is identified, provide clear and concise information to the customer about the origin of the funds, including the sender's name and account information, if available.
 
-- Rule 5: Offer Additional Resources: If the source of funds is not immediately apparent, offer to provide additional resources or guidance to help the customer track the origin of the funds, such as a list of recent transactions or a reference to online banking tools.
+- verify_source_of_funds:R5 — Offer Additional Resources: If the source of funds is not immediately apparent, offer to provide additional resources or guidance to help the customer track the origin of the funds, such as a list of recent transactions or a reference to online banking tools.
 
-- Rule 6: Refer to Compliance Documentation: If the customer is requesting information on the source of funds for compliance or regulatory purposes, refer them to the relevant documentation, such as anti-money laundering (AML) or know-your-customer (KYC) policies.
+- verify_source_of_funds:R6 — Refer to Compliance Documentation: If the customer is requesting information on the source of funds for compliance or regulatory purposes, refer them to the relevant documentation, such as anti-money laundering (AML) or know-your-customer (KYC) policies.

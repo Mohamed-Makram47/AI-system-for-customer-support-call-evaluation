@@ -1,11 +1,11 @@
-- Rule 1: Verify Auto Top-Up Availability: The agent must confirm if the customer has auto top-up enabled on their account and provide information on how it works.
+- automatic_top_up:R1 — Verify Auto Top-Up Availability: The agent must confirm if the customer has auto top-up enabled on their account and provide information on how it works.
 
-- Rule 2: Explain Auto Top-Up Threshold: The agent must explain the threshold at which the auto top-up feature is triggered and how it adds funds to the customer's account.
+- automatic_top_up:R2 — Explain Auto Top-Up Threshold: The agent must explain the threshold at which the auto top-up feature is triggered and how it adds funds to the customer's account.
 
-- Rule 3: Provide Interval Options: If the customer requests auto top-up for travel, the agent must provide information on available interval options for automatic top-ups (e.g., daily, weekly).
+- automatic_top_up:R3 — Provide Interval Options: If the customer requests auto top-up for travel, the agent must provide information on available interval options for automatic top-ups (e.g., daily, weekly).
 
-- Rule 4: Discuss Limit Options: The agent must inform the customer about the option to set a limit on auto top-up transactions and guide them on how to configure it.
+- automatic_top_up:R4 — Discuss Limit Options: The agent must inform the customer about the option to set a limit on auto top-up transactions and guide them on how to configure it.
 
-- Rule 5: Locate Auto Top-Up Feature: If the customer inquires about the location of the auto-top up option, the agent must provide clear instructions on where to find it in the customer's online banking platform or mobile app.
+- automatic_top_up:R5 — Locate Auto Top-Up Feature: If the customer inquires about the location of the auto-top up option, the agent must provide clear instructions on where to find it in the customer's online banking platform or mobile app.
 
-- Rule 6: Activate Auto Top-Up: If the customer requests activation of auto top-up, the agent must assist them in enabling the feature or provide instructions on how to do it themselves.
+- automatic_top_up:R6 — Activate Auto Top-Up: If the customer requests activation of auto top-up, the agent must assist them in enabling the feature or provide instructions on how to do it themselves.

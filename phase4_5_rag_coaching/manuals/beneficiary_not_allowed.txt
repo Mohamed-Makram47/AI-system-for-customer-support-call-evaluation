@@ -1,11 +1,11 @@
-- Rule 1: Verify Beneficiary Status: Check if the beneficiary is eligible to receive transfers and confirm if they are an approved payee.
+- beneficiary_not_allowed:R1 — Verify Beneficiary Status: Check if the beneficiary is eligible to receive transfers and confirm if they are an approved payee.
 
-- Rule 2: Check Transfer Limits: Verify if the customer has exceeded their daily/ monthly transfer limits to the beneficiary.
+- beneficiary_not_allowed:R2 — Check Transfer Limits: Verify if the customer has exceeded their daily/ monthly transfer limits to the beneficiary.
 
-- Rule 3: Identify Beneficiary Restrictions: Determine if there are any restrictions on the beneficiary account that prevent transfers.
+- beneficiary_not_allowed:R3 — Identify Beneficiary Restrictions: Determine if there are any restrictions on the beneficiary account that prevent transfers.
 
-- Rule 4: Validate Beneficiary Information: Confirm if the beneficiary information provided by the customer is accurate and matches the records.
+- beneficiary_not_allowed:R4 — Validate Beneficiary Information: Confirm if the beneficiary information provided by the customer is accurate and matches the records.
 
-- Rule 5: Provide Reason for Transfer Failure: Inform the customer of the specific reason for the transfer failure, such as "Beneficiary not approved" or "Transfer limit exceeded".
+- beneficiary_not_allowed:R5 — Provide Reason for Transfer Failure: Inform the customer of the specific reason for the transfer failure, such as "Beneficiary not approved" or "Transfer limit exceeded".
 
-- Rule 6: Offer Alternative Solutions: Suggest alternative solutions to the customer, such as adding the beneficiary as an approved payee or waiting for the transfer limit to reset.
+- beneficiary_not_allowed:R6 — Offer Alternative Solutions: Suggest alternative solutions to the customer, such as adding the beneficiary as an approved payee or waiting for the transfer limit to reset.

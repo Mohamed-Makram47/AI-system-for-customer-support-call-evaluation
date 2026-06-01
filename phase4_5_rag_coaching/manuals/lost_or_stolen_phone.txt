@@ -1,11 +1,11 @@
-- Rule 1: Suspend Account Access: The agent must suspend the customer's account access through the mobile app to prevent unauthorized access, and inform the customer that they will be contacted to verify identity before access is restored.
+- lost_or_stolen_phone:R1 — Suspend Account Access: The agent must suspend the customer's account access through the mobile app to prevent unauthorized access, and inform the customer that they will be contacted to verify identity before access is restored.
 
-- Rule 2: Block Device: The agent must block the customer's device from accessing the mobile app and inform the customer that they can request a new device to be registered.
+- lost_or_stolen_phone:R2 — Block Device: The agent must block the customer's device from accessing the mobile app and inform the customer that they can request a new device to be registered.
 
-- Rule 3: Card Blocking: If the customer reports that their phone was lost or stolen and also had their card with them, the agent must block the card immediately to prevent unauthorized transactions.
+- lost_or_stolen_phone:R3 — Card Blocking: If the customer reports that their phone was lost or stolen and also had their card with them, the agent must block the card immediately to prevent unauthorized transactions.
 
-- Rule 4: Provide Alternative Access: The agent must offer alternative access methods to the customer, such as phone banking or visiting a branch, to enable them to manage their account.
+- lost_or_stolen_phone:R4 — Provide Alternative Access: The agent must offer alternative access methods to the customer, such as phone banking or visiting a branch, to enable them to manage their account.
 
-- Rule 5: Inform Customer of Responsibility: The agent must inform the customer that they are responsible for reporting the lost or stolen phone to their local authorities and providing proof of report to the bank if required.
+- lost_or_stolen_phone:R5 — Inform Customer of Responsibility: The agent must inform the customer that they are responsible for reporting the lost or stolen phone to their local authorities and providing proof of report to the bank if required.
 
-- Rule 6: Provide Replacement App Access: The agent must provide instructions to the customer on how to request a new device to be registered or have their account reactivated on a new device.
+- lost_or_stolen_phone:R6 — Provide Replacement App Access: The agent must provide instructions to the customer on how to request a new device to be registered or have their account reactivated on a new device.

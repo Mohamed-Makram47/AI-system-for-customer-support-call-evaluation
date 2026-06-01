@@ -1,11 +1,11 @@
-- Rule 1: Check Contactless Settings: Verify if the customer's contactless payment settings are enabled and correctly configured on their card or account.
+- contactless_not_working:R1 — Check Contactless Settings: Verify if the customer's contactless payment settings are enabled and correctly configured on their card or account.
 
-- Rule 2: Troubleshoot Contactless Issue: Guide the customer through basic troubleshooting steps, including checking if their card is inserted correctly, if the terminal is contactless-enabled, and if the customer has sufficient balance.
+- contactless_not_working:R2 — Troubleshoot Contactless Issue: Guide the customer through basic troubleshooting steps, including checking if their card is inserted correctly, if the terminal is contactless-enabled, and if the customer has sufficient balance.
 
-- Rule 3: Request Card Details: Request the customer to provide their card details, including the card number and expiration date, to investigate the issue further.
+- contactless_not_working:R3 — Request Card Details: Request the customer to provide their card details, including the card number and expiration date, to investigate the issue further.
 
-- Rule 4: Check for Card Replacement: If the customer's contactless payment is not working, check if their card is due for replacement or if it has been reported lost or stolen.
+- contactless_not_working:R4 — Check for Card Replacement: If the customer's contactless payment is not working, check if their card is due for replacement or if it has been reported lost or stolen.
 
-- Rule 5: Provide New Card Information: If the customer's card needs to be replaced, provide information on how to obtain a new card, including any associated fees or charges.
+- contactless_not_working:R5 — Provide New Card Information: If the customer's card needs to be replaced, provide information on how to obtain a new card, including any associated fees or charges.
 
-- Rule 6: Verify Contactless Payment Issues: If the customer reports that their contactless payment issue persists across multiple locations, verify if there are any known issues with the customer's account or card that could be causing the problem.
+- contactless_not_working:R6 — Verify Contactless Payment Issues: If the customer reports that their contactless payment issue persists across multiple locations, verify if there are any known issues with the customer's account or card that could be causing the problem.

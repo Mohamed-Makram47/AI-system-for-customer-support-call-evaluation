@@ -1,13 +1,13 @@
-- Rule 1: Provide Verification Purpose: The agent must clearly explain that verifying identity is required by regulatory requirements to prevent identity theft and ensure the security of the customer's account, and that it's a standard procedure for all customers.
+- why_verify_identity:R1 — Provide Verification Purpose: The agent must clearly explain that verifying identity is required by regulatory requirements to prevent identity theft and ensure the security of the customer's account, and that it's a standard procedure for all customers.
 
-- Rule 2: Cite Specific Regulation: When asked why verification is necessary, the agent must mention that it's a requirement under the USA PATRIOT Act and/or other relevant anti-money laundering regulations.
+- why_verify_identity:R2 — Cite Specific Regulation: When asked why verification is necessary, the agent must mention that it's a requirement under the USA PATRIOT Act and/or other relevant anti-money laundering regulations.
 
-- Rule 3: Offer Alternative Verification Methods: If a customer expresses concern or refusal to use a specific method for verification (e.g., voice biometrics, answering security questions), the agent must offer at least two alternative methods for verification that are available and compliant with internal policies.
+- why_verify_identity:R3 — Offer Alternative Verification Methods: If a customer expresses concern or refusal to use a specific method for verification (e.g., voice biometrics, answering security questions), the agent must offer at least two alternative methods for verification that are available and compliant with internal policies.
 
-- Rule 4: Explain Account Limitations: The agent must inform customers that they may not be able to fully access certain account features or services until their identity is verified.
+- why_verify_identity:R4 — Explain Account Limitations: The agent must inform customers that they may not be able to fully access certain account features or services until their identity is verified.
 
-- Rule 5: Provide Verification Timeline: When a customer inquires about the status of their verification, the agent must provide a clear timeline for when the verification process will be completed and when the customer can expect to have full access to their account.
+- why_verify_identity:R5 — Provide Verification Timeline: When a customer inquires about the status of their verification, the agent must provide a clear timeline for when the verification process will be completed and when the customer can expect to have full access to their account.
 
-- Rule 6: Refusal Protocol: If a customer refuses to verify their identity, the agent must inform them of the potential consequences, such as limited account access or account closure, as per the bank's policy.
+- why_verify_identity:R6 — Refusal Protocol: If a customer refuses to verify their identity, the agent must inform them of the potential consequences, such as limited account access or account closure, as per the bank's policy.
 
-- Rule 7: Confirm Verification Completion: Once verification is completed, the agent must confirm with the customer that their identity has been successfully verified and that they now have full access to their account and its features.
+- why_verify_identity:R7 — Confirm Verification Completion: Once verification is completed, the agent must confirm with the customer that their identity has been successfully verified and that they now have full access to their account and its features.

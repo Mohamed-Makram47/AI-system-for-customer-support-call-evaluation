@@ -1,13 +1,13 @@
-- Rule 1: Verify Eligibility: The agent must verify if the customer is eligible for a disposable virtual card by checking their account status and tier level.
+- disposable_card_limits:R1 — Verify Eligibility: The agent must verify if the customer is eligible for a disposable virtual card by checking their account status and tier level.
 
-- Rule 2: Explain Disposable Card Limits: The agent must provide a clear explanation of the limits and restrictions associated with disposable virtual cards, including transaction limits and validity periods.
+- disposable_card_limits:R2 — Explain Disposable Card Limits: The agent must provide a clear explanation of the limits and restrictions associated with disposable virtual cards, including transaction limits and validity periods.
 
-- Rule 3: Provide Transaction Limits: The agent must inform the customer of the maximum number of transactions allowed with a disposable virtual card.
+- disposable_card_limits:R3 — Provide Transaction Limits: The agent must inform the customer of the maximum number of transactions allowed with a disposable virtual card.
 
-- Rule 4: Explain Multiple Card Policy: The agent must advise the customer on the maximum number of disposable virtual cards they can have at one time and any restrictions on issuing new cards.
+- disposable_card_limits:R4 — Explain Multiple Card Policy: The agent must advise the customer on the maximum number of disposable virtual cards they can have at one time and any restrictions on issuing new cards.
 
-- Rule 5: Disclose Fees and Terms: The agent must disclose any applicable fees, terms, and conditions associated with disposable virtual cards.
+- disposable_card_limits:R5 — Disclose Fees and Terms: The agent must disclose any applicable fees, terms, and conditions associated with disposable virtual cards.
 
-- Rule 6: Compare with Premium Benefits: If the customer is not a premium customer, the agent must explain the differences in virtual card benefits between their current tier and the premium tier.
+- disposable_card_limits:R6 — Compare with Premium Benefits: If the customer is not a premium customer, the agent must explain the differences in virtual card benefits between their current tier and the premium tier.
 
-- Rule 7: Offer Upgrade Information: If the customer inquires about premium benefits, the agent must provide information on how to upgrade to a premium account to access additional virtual card features.
+- disposable_card_limits:R7 — Offer Upgrade Information: If the customer inquires about premium benefits, the agent must provide information on how to upgrade to a premium account to access additional virtual card features.

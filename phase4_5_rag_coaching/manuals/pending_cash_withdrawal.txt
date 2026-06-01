@@ -1,11 +1,11 @@
-- Rule 1: Verify Transaction Status: Check the customer's account to confirm if the cash withdrawal transaction is still pending and verify the timestamp of the transaction.
+- pending_cash_withdrawal:R1 — Verify Transaction Status: Check the customer's account to confirm if the cash withdrawal transaction is still pending and verify the timestamp of the transaction.
 
-- Rule 2: Cancel Pending Transaction: If the customer's card was declined or the transaction was not completed, immediately cancel the pending cash withdrawal transaction.
+- pending_cash_withdrawal:R2 — Cancel Pending Transaction: If the customer's card was declined or the transaction was not completed, immediately cancel the pending cash withdrawal transaction.
 
-- Rule 3: Provide Transaction Timeline: Inform the customer of the expected timeline for the transaction to be updated in their account, which is typically 2-3 business days, but may vary depending on the bank's policies.
+- pending_cash_withdrawal:R3 — Provide Transaction Timeline: Inform the customer of the expected timeline for the transaction to be updated in their account, which is typically 2-3 business days, but may vary depending on the bank's policies.
 
-- Rule 4: Investigate Declined Transactions: If the customer's card was declined at an ATM, investigate the transaction to ensure that the customer was not charged for the transaction and confirm that the transaction was properly declined.
+- pending_cash_withdrawal:R4 — Investigate Declined Transactions: If the customer's card was declined at an ATM, investigate the transaction to ensure that the customer was not charged for the transaction and confirm that the transaction was properly declined.
 
-- Rule 5: Update Customer on Pending Transaction: If the cash withdrawal is still pending, inform the customer that the transaction will be updated in their account once it is processed or cancelled, and provide a clear explanation of the next steps.
+- pending_cash_withdrawal:R5 — Update Customer on Pending Transaction: If the cash withdrawal is still pending, inform the customer that the transaction will be updated in their account once it is processed or cancelled, and provide a clear explanation of the next steps.
 
-- Rule 6: Resolve Pending Transaction: If the pending cash withdrawal transaction exceeds the standard processing time (typically 2-3 business days), proactively investigate and resolve the issue by either cancelling the transaction or updating the account status.
+- pending_cash_withdrawal:R6 — Resolve Pending Transaction: If the pending cash withdrawal transaction exceeds the standard processing time (typically 2-3 business days), proactively investigate and resolve the issue by either cancelling the transaction or updating the account status.

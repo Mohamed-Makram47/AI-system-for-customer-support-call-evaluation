@@ -1,13 +1,13 @@
-- Rule 1: Verify Deposit Details: The agent must verify the deposit details, including the type of deposit (cheque or cash), date of deposit, and deposit amount, to ensure accuracy and identify potential causes of the delay.
+- balance_not_updated_after_cheque_or_cash_deposit:R1 — Verify Deposit Details: The agent must verify the deposit details, including the type of deposit (cheque or cash), date of deposit, and deposit amount, to ensure accuracy and identify potential causes of the delay.
 
-- Rule 2: Check Hold Periods: The agent must check if the deposit is subject to a hold period, and if so, inform the customer of the expected availability date based on the bank's hold policies.
+- balance_not_updated_after_cheque_or_cash_deposit:R2 — Check Hold Periods: The agent must check if the deposit is subject to a hold period, and if so, inform the customer of the expected availability date based on the bank's hold policies.
 
-- Rule 3: Investigate Transaction Status: The agent must investigate the transaction status by checking the bank's transaction records, and provide the customer with an update on the status of their deposit.
+- balance_not_updated_after_cheque_or_cash_deposit:R3 — Investigate Transaction Status: The agent must investigate the transaction status by checking the bank's transaction records, and provide the customer with an update on the status of their deposit.
 
-- Rule 4: Provide Timeline for Resolution: The agent must provide a clear timeline for when the deposit will be reflected in the customer's account, or when a resolution can be expected, based on the bank's policies and procedures.
+- balance_not_updated_after_cheque_or_cash_deposit:R4 — Provide Timeline for Resolution: The agent must provide a clear timeline for when the deposit will be reflected in the customer's account, or when a resolution can be expected, based on the bank's policies and procedures.
 
-- Rule 5: Offer Alternative Verification: The agent must offer to verify the deposit details with the customer, by requesting the customer to provide a receipt or other proof of deposit, if available.
+- balance_not_updated_after_cheque_or_cash_deposit:R5 — Offer Alternative Verification: The agent must offer to verify the deposit details with the customer, by requesting the customer to provide a receipt or other proof of deposit, if available.
 
-- Rule 6: Identify Potential Causes: The agent must identify potential causes of the delay, such as weekends, holidays, or technical issues, and explain them to the customer.
+- balance_not_updated_after_cheque_or_cash_deposit:R6 — Identify Potential Causes: The agent must identify potential causes of the delay, such as weekends, holidays, or technical issues, and explain them to the customer.
 
-- Rule 7: Provide Follow-up Steps: The agent must provide the customer with follow-up steps, such as contacting the bank again at a later time or visiting a branch, if the issue is not resolved during the call.
+- balance_not_updated_after_cheque_or_cash_deposit:R7 — Provide Follow-up Steps: The agent must provide the customer with follow-up steps, such as contacting the bank again at a later time or visiting a branch, if the issue is not resolved during the call.

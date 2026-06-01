@@ -1,11 +1,11 @@
-- Rule 1: Verify Card Status: Confirm with the customer if the card was indeed retained by the ATM and not picked up by them, and clarify that the card is no longer in their possession.
+- card_swallowed:R1 — Verify Card Status: Confirm with the customer if the card was indeed retained by the ATM and not picked up by them, and clarify that the card is no longer in their possession.
 
-- Rule 2: Advise on Card Retrieval: Inform the customer that they should not attempt to retrieve their card from the ATM and that they need to contact the bank for assistance.
+- card_swallowed:R2 — Advise on Card Retrieval: Inform the customer that they should not attempt to retrieve their card from the ATM and that they need to contact the bank for assistance.
 
-- Rule 3: Provide Replacement Card Information: Explain to the customer the process for obtaining a replacement card, including any required documentation and potential fees.
+- card_swallowed:R3 — Provide Replacement Card Information: Explain to the customer the process for obtaining a replacement card, including any required documentation and potential fees.
 
-- Rule 4: Check for Blocked Card: Verify if the card was blocked due to suspected fraud or other security reasons and provide information on the next steps.
+- card_swallowed:R4 — Check for Blocked Card: Verify if the card was blocked due to suspected fraud or other security reasons and provide information on the next steps.
 
-- Rule 5: Offer Alternative Solutions: If the customer needs immediate access to funds, offer alternative solutions such as a cash advance or a debit card block removal.
+- card_swallowed:R5 — Offer Alternative Solutions: If the customer needs immediate access to funds, offer alternative solutions such as a cash advance or a debit card block removal.
 
-- Rule 6: Provide Incident Details: Request and document details of the incident, including the location and time of the transaction, and the ATM's response.
+- card_swallowed:R6 — Provide Incident Details: Request and document details of the incident, including the location and time of the transaction, and the ATM's response.

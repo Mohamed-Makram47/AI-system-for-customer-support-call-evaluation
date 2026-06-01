@@ -1,11 +1,11 @@
-- Rule 1: Provide App Navigation: Provide the customer with step-by-step instructions on how to navigate the app to access the currency exchange feature.
+- exchange_via_app:R1 — Provide App Navigation: Provide the customer with step-by-step instructions on how to navigate the app to access the currency exchange feature.
 
-- Rule 2: Confirm Exchange Availability: Inform the customer if the app supports exchanging the specific currencies they are inquiring about.
+- exchange_via_app:R2 — Confirm Exchange Availability: Inform the customer if the app supports exchanging the specific currencies they are inquiring about.
 
-- Rule 3: Quote Exchange Rates: Provide the customer with the current exchange rate for the specific currency pair they are inquiring about, if available.
+- exchange_via_app:R3 — Quote Exchange Rates: Provide the customer with the current exchange rate for the specific currency pair they are inquiring about, if available.
 
-- Rule 4: Guide Through Exchange Process: Walk the customer through the in-app process to complete the currency exchange, including any necessary screens or buttons to click.
+- exchange_via_app:R4 — Guide Through Exchange Process: Walk the customer through the in-app process to complete the currency exchange, including any necessary screens or buttons to click.
 
-- Rule 5: Verify Transaction Details: Confirm with the customer the details of the exchange transaction, including the amount to be exchanged and the resulting currency balance.
+- exchange_via_app:R5 — Verify Transaction Details: Confirm with the customer the details of the exchange transaction, including the amount to be exchanged and the resulting currency balance.
 
-- Rule 6: Provide Additional Resources: Offer to provide the customer with additional resources, such as in-app tutorials or online support articles, for future reference.
+- exchange_via_app:R6 — Provide Additional Resources: Offer to provide the customer with additional resources, such as in-app tutorials or online support articles, for future reference.

@@ -1,11 +1,11 @@
 1: Verify Duplicate Transaction: Check the customer's account history to confirm if the duplicate transaction exists and identify the original and duplicate transactions.
 
-- Rule 2: Initiate Reversal Request: If the duplicate transaction is confirmed, initiate a reversal request for the duplicate transaction immediately.
+- transaction_charged_twice:R2 — Initiate Reversal Request: If the duplicate transaction is confirmed, initiate a reversal request for the duplicate transaction immediately.
 
-- Rule 3: Provide Reversal Timeline: Inform the customer that the reversal process typically takes 3-5 business days and provide a timeline for when they can expect the credit to appear in their account.
+- transaction_charged_twice:R3 — Provide Reversal Timeline: Inform the customer that the reversal process typically takes 3-5 business days and provide a timeline for when they can expect the credit to appear in their account.
 
 - Rule: Offer Credit Confirmation: Offer to verify with the customer that the reversal has been processed and the credit has been applied to.
 
-- Rule 5: Provide Duplicate Transaction Explanation: Explain to the customer that the duplicate transaction may have occurred due to technical issues, merchant error, or other factors do not speculate on the cause.
+- transaction_charged_twice:R5 — Provide Duplicate Transaction Explanation: Explain to the customer that the duplicate transaction may have occurred due to technical issues, merchant error, or other factors do not speculate on the cause.
 
-- Rule 6: Refund Acceleration: If the customer requests expedited refund, inform them that the standard reversal process is being followed and provide information
+- transaction_charged_twice:R6 — Refund Acceleration: If the customer requests expedited refund, inform them that the standard reversal process is being followed and provide information

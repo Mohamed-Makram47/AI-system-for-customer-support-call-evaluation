@@ -1,11 +1,11 @@
-- Rule 1: Verify Customer Understanding: The agent must ask the customer to re-explain the issue they are experiencing with verifying their identity, to ensure the agent understands the specific problem.
+- unable_to_verify_identity:R1 — Verify Customer Understanding: The agent must ask the customer to re-explain the issue they are experiencing with verifying their identity, to ensure the agent understands the specific problem.
 
-- Rule 2: Offer Alternative Verification Methods: The agent must inform the customer of at least two alternative methods or documents that can be used to verify their identity, if the current method is not working.
+- unable_to_verify_identity:R2 — Offer Alternative Verification Methods: The agent must inform the customer of at least two alternative methods or documents that can be used to verify their identity, if the current method is not working.
 
-- Rule 3: Explain Verification Process: The agent must provide a clear explanation of the identity verification process and what specific information or actions are required from the customer to successfully verify their identity.
+- unable_to_verify_identity:R3 — Explain Verification Process: The agent must provide a clear explanation of the identity verification process and what specific information or actions are required from the customer to successfully verify their identity.
 
-- Rule 4: Provide Resolution Timeline: The agent must provide the customer with a specific timeline or timeframe for when they can expect to have their identity verified, or when they can expect a follow-up on their issue.
+- unable_to_verify_identity:R4 — Provide Resolution Timeline: The agent must provide the customer with a specific timeline or timeframe for when they can expect to have their identity verified, or when they can expect a follow-up on their issue.
 
-- Rule 5: Utilize Specialized Support: If the customer is still having trouble verifying their identity after trying alternative methods, the agent must offer to escalate the issue to a specialized support team or an identity verification expert.
+- unable_to_verify_identity:R5 — Utilize Specialized Support: If the customer is still having trouble verifying their identity after trying alternative methods, the agent must offer to escalate the issue to a specialized support team or an identity verification expert.
 
-- Rule 6: Manual Verification Option: The agent must inform the customer that a manual verification process may be available, and provide information on what that process entails and any potential delays.
+- unable_to_verify_identity:R6 — Manual Verification Option: The agent must inform the customer that a manual verification process may be available, and provide information on what that process entails and any potential delays.

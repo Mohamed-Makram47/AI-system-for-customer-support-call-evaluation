@@ -1,20 +1,20 @@
-- Rule 1: Provide Transfer Timing Framework: The agent must provide the customer with a clear explanation of the transfer timing framework, which includes: 
+- transfer_timing:R1 — Provide Transfer Timing Framework: The agent must provide the customer with a clear explanation of the transfer timing framework, which includes: 
     - Same-day or next-day transfers for domestic US transactions
     - 2-5 business days for non-domestic US transactions (e.g., Europe, China)
     - Cut-off times for same-day processing (e.g., 4 pm EST)
 
-- Rule 2: Quote Specific Transfer Times: The agent must quote specific transfer times based on the origin and destination of the transfer, 
+- transfer_timing:R2 — Quote Specific Transfer Times: The agent must quote specific transfer times based on the origin and destination of the transfer, 
     - US domestic: same-day or 1 business day
     - Europe: 2-3 business days
     - China: 3-5 business days
 
-- Rule 3: Identify Expedited Transfer Options: If the customer requests faster transfer options, the agent must identify and explain available expedited transfer services, 
+- transfer_timing:R3 — Identify Expedited Transfer Options: If the customer requests faster transfer options, the agent must identify and explain available expedited transfer services, 
     - e.g., same-day or next-day transfers for an additional fee
 
-- Rule 4: Provide Cut-off Times: The agent must inform the customer of the cut-off times for same-day processing and how it affects their transfer, 
+- transfer_timing:R4 — Provide Cut-off Times: The agent must inform the customer of the cut-off times for same-day processing and how it affects their transfer, 
     - e.g., transfers initiated after 4 pm EST will be processed the next business day
 
-- Rule 5: Clarify Weekend and Holiday Processing: The agent must clarify how weekends and holidays affect transfer processing times, 
+- transfer_timing:R5 — Clarify Weekend and Holiday Processing: The agent must clarify how weekends and holidays affect transfer processing times, 
     - e.g., transfers initiated on a Friday may not be processed until Monday
 
-- Rule 6: Offer Tracking Information: If the transfer is still pending, the agent must offer to provide tracking information or a reference number to help the customer track the status of their transfer.
+- transfer_timing:R6 — Offer Tracking Information: If the transfer is still pending, the agent must offer to provide tracking information or a reference number to help the customer track the status of their transfer.

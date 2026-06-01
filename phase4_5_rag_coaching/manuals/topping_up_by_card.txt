@@ -1,11 +1,11 @@
-- Rule 1: Verify Card Eligibility: When a customer asks about topping up by card, verify if the card type (credit/debit) is eligible for topping up and inform the customer accordingly.
+- topping_up_by_card:R1 — Verify Card Eligibility: When a customer asks about topping up by card, verify if the card type (credit/debit) is eligible for topping up and inform the customer accordingly.
 
-- Rule 2: Explain Top-up Process: Provide a clear, step-by-step explanation of the top-up by card process, including any required information or security measures.
+- topping_up_by_card:R2 — Explain Top-up Process: Provide a clear, step-by-step explanation of the top-up by card process, including any required information or security measures.
 
-- Rule 3: Confirm Transaction Details: When a customer reports a successful top-up attempt but no funds are visible, confirm the transaction details, including date, time, amount, and card used.
+- topping_up_by_card:R3 — Confirm Transaction Details: When a customer reports a successful top-up attempt but no funds are visible, confirm the transaction details, including date, time, amount, and card used.
 
-- Rule 4: Check for Duplicate Transactions: If a customer reports a missing top-up, check the customer's account for duplicate transactions or multiple attempts at topping up.
+- topping_up_by_card:R4 — Check for Duplicate Transactions: If a customer reports a missing top-up, check the customer's account for duplicate transactions or multiple attempts at topping up.
 
-- Rule 5: Provide Top-up Limits: Inform customers about the daily, weekly, or monthly limits for topping up by card, if applicable.
+- topping_up_by_card:R5 — Provide Top-up Limits: Inform customers about the daily, weekly, or monthly limits for topping up by card, if applicable.
 
-- Rule 6: Advise on Card Security: When a customer inquires about adding others to their account for top-ups, advise on the importance of card security and the bank's policies regarding account access and authorization.
+- topping_up_by_card:R6 — Advise on Card Security: When a customer inquires about adding others to their account for top-ups, advise on the importance of card security and the bank's policies regarding account access and authorization.

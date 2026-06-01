@@ -1,13 +1,13 @@
-- Rule 1: Check Card Status: Verify the card status by checking if the card is active, expired, or blocked, and provide the reason to the customer.
+- card_not_working:R1 — Check Card Status: Verify the card status by checking if the card is active, expired, or blocked, and provide the reason to the customer.
 
-- Rule 2: Verify Card Details: Confirm the card details with the customer, including the card number, expiration date, and CVV, to ensure accuracy.
+- card_not_working:R2 — Verify Card Details: Confirm the card details with the customer, including the card number, expiration date, and CVV, to ensure accuracy.
 
-- Rule 3: Perform Card Test: Conduct a test transaction or check the card's magnetic stripe or chip for damage to identify potential issues.
+- card_not_working:R3 — Perform Card Test: Conduct a test transaction or check the card's magnetic stripe or chip for damage to identify potential issues.
 
-- Rule 4: Provide Replacement Guidance: If the card is damaged or expired, provide the customer with guidance on how to obtain a replacement card, including any required documentation.
+- card_not_working:R4 — Provide Replacement Guidance: If the card is damaged or expired, provide the customer with guidance on how to obtain a replacement card, including any required documentation.
 
-- Rule 5: Investigate Potential Blocks: Check if the card has been blocked due to suspicious activity and provide the customer with information on how to resolve the issue.
+- card_not_working:R5 — Investigate Potential Blocks: Check if the card has been blocked due to suspicious activity and provide the customer with information on how to resolve the issue.
 
-- Rule 6: Offer Alternative Solutions: If the card is not working, offer alternative payment solutions, such as a replacement card, digital wallet, or other payment methods.
+- card_not_working:R6 — Offer Alternative Solutions: If the card is not working, offer alternative payment solutions, such as a replacement card, digital wallet, or other payment methods.
 
-- Rule 7: Provide Card Validity Information: Inform the customer of the card's validity period, including the expiration date and any conditions that may affect its use.
+- card_not_working:R7 — Provide Card Validity Information: Inform the customer of the card's validity period, including the expiration date and any conditions that may affect its use.

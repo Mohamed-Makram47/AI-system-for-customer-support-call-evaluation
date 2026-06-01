@@ -1,11 +1,11 @@
-- Rule 1: Verify Top-up Status: Check the customer's top-up transaction history to confirm if the top-up was indeed reverted and verify the reason for the reversal, if available.
+- top_up_reverted:R1 — Verify Top-up Status: Check the customer's top-up transaction history to confirm if the top-up was indeed reverted and verify the reason for the reversal, if available.
 
-- Rule 2: Identify Reversal Reason: Investigate and retrieve the specific reason for the top-up reversal, such as insufficient funds, technical issue, or security concerns, and provide it to the customer.
+- top_up_reverted:R2 — Identify Reversal Reason: Investigate and retrieve the specific reason for the top-up reversal, such as insufficient funds, technical issue, or security concerns, and provide it to the customer.
 
-- Rule 3: Check for Duplicate Transactions: Verify if a duplicate top-up transaction was processed, which may have caused the original transaction to be reverted, and advise the customer accordingly.
+- top_up_reverted:R3 — Check for Duplicate Transactions: Verify if a duplicate top-up transaction was processed, which may have caused the original transaction to be reverted, and advise the customer accordingly.
 
-- Rule 4: Provide Re-top-up Guidance: If the top-up reversal was due to a technical issue or error, provide the customer with guidance on how to successfully re-initiate the top-up transaction, if applicable.
+- top_up_reverted:R4 — Provide Re-top-up Guidance: If the top-up reversal was due to a technical issue or error, provide the customer with guidance on how to successfully re-initiate the top-up transaction, if applicable.
 
-- Rule 5: Offer Alternative Solutions: If the top-up reversal was due to a security concern or suspicious activity, offer alternative solutions, such as re-initiating the top-up through a different channel or providing additional verification.
+- top_up_reverted:R5 — Offer Alternative Solutions: If the top-up reversal was due to a security concern or suspicious activity, offer alternative solutions, such as re-initiating the top-up through a different channel or providing additional verification.
 
-- Rule 6: Explain Reversal Impact: Clearly explain to the customer the impact of the top-up reversal on their account, including any potential effects on their available balance or transaction history.
+- top_up_reverted:R6 — Explain Reversal Impact: Clearly explain to the customer the impact of the top-up reversal on their account, including any potential effects on their available balance or transaction history.

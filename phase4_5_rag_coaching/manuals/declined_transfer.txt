@@ -1,11 +1,11 @@
-- Rule 1: Check Transfer Details: Verify the transfer details provided by the customer, including the recipient's account number, sort code, and transfer amount, and confirm if they match the customer's records.
+- declined_transfer:R1 — Check Transfer Details: Verify the transfer details provided by the customer, including the recipient's account number, sort code, and transfer amount, and confirm if they match the customer's records.
 
-- Rule 2: Investigate Decline Reason: Use the banking system's decline codes to identify the reason for the declined transfer and provide a clear explanation to the customer.
+- declined_transfer:R2 — Investigate Decline Reason: Use the banking system's decline codes to identify the reason for the declined transfer and provide a clear explanation to the customer.
 
-- Rule 3: Check Daily Transfer Limits: Inform the customer of their daily transfer limits and verify if the transfer amount exceeds these limits.
+- declined_transfer:R3 — Check Daily Transfer Limits: Inform the customer of their daily transfer limits and verify if the transfer amount exceeds these limits.
 
-- Rule 4: Verify Account Status: Check if the customer's account or the recipient's account is frozen, blocked, or has any restrictions that may be causing the transfer to be declined.
+- declined_transfer:R4 — Verify Account Status: Check if the customer's account or the recipient's account is frozen, blocked, or has any restrictions that may be causing the transfer to be declined.
 
-- Rule 5: Review Recent Transfers: Review the customer's recent transfer history to identify any patterns or repeated issues that may be causing the transfers to be declined.
+- declined_transfer:R5 — Review Recent Transfers: Review the customer's recent transfer history to identify any patterns or repeated issues that may be causing the transfers to be declined.
 
-- Rule 6: Provide Decline Reason and Resolution: Provide the customer with a clear reason for the declined transfer and offer a resolution, such as retrying the transfer or providing alternative payment options.
+- declined_transfer:R6 — Provide Decline Reason and Resolution: Provide the customer with a clear reason for the declined transfer and offer a resolution, such as retrying the transfer or providing alternative payment options.

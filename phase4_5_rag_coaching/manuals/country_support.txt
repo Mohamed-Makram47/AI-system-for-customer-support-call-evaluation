@@ -1,11 +1,11 @@
-- Rule 1: Provide Country Support Information: Provide a list of countries where the bank operates and offers services, which includes the UK and some other specified countries.
+- country_support:R1 — Provide Country Support Information: Provide a list of countries where the bank operates and offers services, which includes the UK and some other specified countries.
 
-- Rule 2: Clarify Card Eligibility: Inform customers whether they are eligible for a card based on their country of residence, and specify any requirements or restrictions.
+- country_support:R2 — Clarify Card Eligibility: Inform customers whether they are eligible for a card based on their country of residence, and specify any requirements or restrictions.
 
-- Rule 3: Specify Supported Regions: Clearly state which regions (e.g. EU, US, etc.) are supported for account and card services.
+- country_support:R3 — Specify Supported Regions: Clearly state which regions (e.g. EU, US, etc.) are supported for account and card services.
 
-- Rule 4: Direct Customer to Resources: Provide customers with a link or reference to a webpage or document that lists all countries where the bank offers services.
+- country_support:R4 — Direct Customer to Resources: Provide customers with a link or reference to a webpage or document that lists all countries where the bank offers services.
 
-- Rule 5: Confirm Non-UK Card Availability: If a customer asks about getting a card outside the UK, confirm whether non-UK residents can obtain a card and provide any additional information required.
+- country_support:R5 — Confirm Non-UK Card Availability: If a customer asks about getting a card outside the UK, confirm whether non-UK residents can obtain a card and provide any additional information required.
 
-- Rule 6: Verify Country-Specific Services: Verify and inform customers about country-specific services, if any, and advise on any limitations or restrictions that may apply.
+- country_support:R6 — Verify Country-Specific Services: Verify and inform customers about country-specific services, if any, and advise on any limitations or restrictions that may apply.

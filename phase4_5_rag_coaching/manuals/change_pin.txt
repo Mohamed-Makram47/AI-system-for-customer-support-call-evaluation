@@ -1,11 +1,11 @@
-- Rule 1: Inform ATM Availability: Inform the customer that they can change their PIN at an ATM that accepts PIN changes, typically those with a "PIN Services" or "PIN Change" option.
+- change_pin:R1 — Inform ATM Availability: Inform the customer that they can change their PIN at an ATM that accepts PIN changes, typically those with a "PIN Services" or "PIN Change" option.
 
-- Rule 2: Provide ATM Locator: Provide the customer with instructions on how to find an ATM that allows PIN changes, such as using the bank's website or mobile app to locate nearby ATMs.
+- change_pin:R2 — Provide ATM Locator: Provide the customer with instructions on how to find an ATM that allows PIN changes, such as using the bank's website or mobile app to locate nearby ATMs.
 
-- Rule 3: Explain International PIN Change: Inform the customer that they can change their PIN at an ATM abroad, but only if the ATM accepts their card type and has PIN change capabilities.
+- change_pin:R3 — Explain International PIN Change: Inform the customer that they can change their PIN at an ATM abroad, but only if the ATM accepts their card type and has PIN change capabilities.
 
-- Rule 4: Direct to Customer Care for Complex Issues: If the customer is unable to find an ATM or is having issues with their PIN, direct them to contact customer care for further assistance.
+- change_pin:R4 — Direct to Customer Care for Complex Issues: If the customer is unable to find an ATM or is having issues with their PIN, direct them to contact customer care for further assistance.
 
-- Rule 5: Provide PIN Change Instructions: Provide the customer with step-by-step instructions on how to change their PIN at an ATM, including inserting their card, selecting the PIN change option, and following the on-screen prompts.
+- change_pin:R5 — Provide PIN Change Instructions: Provide the customer with step-by-step instructions on how to change their PIN at an ATM, including inserting their card, selecting the PIN change option, and following the on-screen prompts.
 
-- Rule 6: Clarify Online PIN Change: Inform the customer that they cannot change their PIN online, but can do so at an ATM or by visiting a branch.
+- change_pin:R6 — Clarify Online PIN Change: Inform the customer that they cannot change their PIN online, but can do so at an ATM or by visiting a branch.

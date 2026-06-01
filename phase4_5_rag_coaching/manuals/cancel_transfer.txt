@@ -1,6 +1,6 @@
-- Rule 1: Initiate Recall Request: If transfer is still pending, initiate a Faster Payment recall immediately and give customer a reference number.
-- Rule 2: Check Transfer Status: Verify if the transfer has been processed or is still pending before taking further action.
-- Rule 3: Provide Cancellation Timeframe: Inform the customer that cancellations may only be possible if the transfer is still pending and has not been processed.
-- Rule 4: Offer Alternative Solution: If the transfer cannot be cancelled, offer an alternative solution such as a refund or a new transfer to the correct account.
-- Rule 5: Explain Irreversibility: Clearly explain to the customer that once a transfer is processed, it may be irreversible and that they may need to contact the recipient to request a refund.
-- Rule 6: Retrieve Transfer Details: Retrieve the transfer details, including the transfer amount, date, and recipient account information, to facilitate the cancellation or recall process.
+- cancel_transfer:R1 — Initiate Recall Request: If transfer is still pending, initiate a Faster Payment recall immediately and give customer a reference number.
+- cancel_transfer:R2 — Check Transfer Status: Verify if the transfer has been processed or is still pending before taking further action.
+- cancel_transfer:R3 — Provide Cancellation Timeframe: Inform the customer that cancellations may only be possible if the transfer is still pending and has not been processed.
+- cancel_transfer:R4 — Offer Alternative Solution: If the transfer cannot be cancelled, offer an alternative solution such as a refund or a new transfer to the correct account.
+- cancel_transfer:R5 — Explain Irreversibility: Clearly explain to the customer that once a transfer is processed, it may be irreversible and that they may need to contact the recipient to request a refund.
+- cancel_transfer:R6 — Retrieve Transfer Details: Retrieve the transfer details, including the transfer amount, date, and recipient account information, to facilitate the cancellation or recall process.

@@ -1,11 +1,11 @@
-- Rule 1: Verify Customer Identity: The agent must ask the customer for their current name, date of birth, and address to verify their identity before making any changes to their personal details.
+- edit_personal_details:R1 — Verify Customer Identity: The agent must ask the customer for their current name, date of birth, and address to verify their identity before making any changes to their personal details.
 
-- Rule 2: Update Customer Information: If the customer requests to update their personal details, the agent must use the system's designated update feature to change the customer's information, ensuring that all required fields are completed accurately.
+- edit_personal_details:R2 — Update Customer Information: If the customer requests to update their personal details, the agent must use the system's designated update feature to change the customer's information, ensuring that all required fields are completed accurately.
 
-- Rule 3: Validate New Information: The agent must validate the new information provided by the customer, such as a new name, address, or phone number, to ensure accuracy and completeness.
+- edit_personal_details:R3 — Validate New Information: The agent must validate the new information provided by the customer, such as a new name, address, or phone number, to ensure accuracy and completeness.
 
-- Rule 4: Provide Confirmation: After updating the customer's personal details, the agent must provide the customer with a confirmation of the changes made, including the updated information.
+- edit_personal_details:R4 — Provide Confirmation: After updating the customer's personal details, the agent must provide the customer with a confirmation of the changes made, including the updated information.
 
-- Rule 5: Inform Customer of Effective Date: If applicable, the agent must inform the customer of the effective date of the changes to their personal details, such as when a name change will be reflected on their account.
+- edit_personal_details:R5 — Inform Customer of Effective Date: If applicable, the agent must inform the customer of the effective date of the changes to their personal details, such as when a name change will be reflected on their account.
 
-- Rule 6: Retain Audit Trail: The agent must ensure that all updates to the customer's personal details are recorded and retained in the system's audit trail, if available.
+- edit_personal_details:R6 — Retain Audit Trail: The agent must ensure that all updates to the customer's personal details are recorded and retained in the system's audit trail, if available.

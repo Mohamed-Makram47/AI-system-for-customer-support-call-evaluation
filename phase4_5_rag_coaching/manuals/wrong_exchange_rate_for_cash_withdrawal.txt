@@ -1,11 +1,11 @@
-- Rule 1: Verify Exchange Rate: The agent must verify the exchange rate used for the cash withdrawal by checking the transaction details and comparing it with the exchange rate applicable on the date of the transaction.
+- wrong_exchange_rate_for_cash_withdrawal:R1 — Verify Exchange Rate: The agent must verify the exchange rate used for the cash withdrawal by checking the transaction details and comparing it with the exchange rate applicable on the date of the transaction.
 
-- Rule 2: Obtain Transaction Details: The agent must obtain the transaction date, location, and amount withdrawn from the customer to investigate the wrong exchange rate issue.
+- wrong_exchange_rate_for_cash_withdrawal:R2 — Obtain Transaction Details: The agent must obtain the transaction date, location, and amount withdrawn from the customer to investigate the wrong exchange rate issue.
 
-- Rule 3: Check Historical Rates: The agent must check the historical exchange rates for the specific currency on the date of the transaction to confirm if the rate applied was correct or not.
+- wrong_exchange_rate_for_cash_withdrawal:R3 — Check Historical Rates: The agent must check the historical exchange rates for the specific currency on the date of the transaction to confirm if the rate applied was correct or not.
 
-- Rule 4: Provide Correct Exchange Rate Explanation: If the agent finds that the wrong exchange rate was applied, they must explain to the customer the correct exchange rate that should have been applied and the difference in the amount.
+- wrong_exchange_rate_for_cash_withdrawal:R4 — Provide Correct Exchange Rate Explanation: If the agent finds that the wrong exchange rate was applied, they must explain to the customer the correct exchange rate that should have been applied and the difference in the amount.
 
-- Rule 5: Adjust Transaction if Necessary: If the agent confirms that the wrong exchange rate was applied, they must offer to adjust the transaction and provide the customer with the correct amount, or provide instructions on how to proceed with the adjustment.
+- wrong_exchange_rate_for_cash_withdrawal:R5 — Adjust Transaction if Necessary: If the agent confirms that the wrong exchange rate was applied, they must offer to adjust the transaction and provide the customer with the correct amount, or provide instructions on how to proceed with the adjustment.
 
-- Rule 6: Inform Customer of Next Steps: The agent must inform the customer of the next steps to resolve the issue, including any additional information or documentation required, and provide a timeline for resolution.
+- wrong_exchange_rate_for_cash_withdrawal:R6 — Inform Customer of Next Steps: The agent must inform the customer of the next steps to resolve the issue, including any additional information or documentation required, and provide a timeline for resolution.

@@ -1,11 +1,11 @@
-- Rule 1: Verify Transfer Details: The agent must verify the transfer details, including the transfer amount, date, and recipient information, to ensure accuracy and identify potential causes of the transfer fee.
+- transfer_fee_charged:R1 — Verify Transfer Details: The agent must verify the transfer details, including the transfer amount, date, and recipient information, to ensure accuracy and identify potential causes of the transfer fee.
 
-- Rule 2: Check Fee Waivers: The agent must check if the customer has any active fee waivers or exemptions on their account that may apply to international transfers.
+- transfer_fee_charged:R2 — Check Fee Waivers: The agent must check if the customer has any active fee waivers or exemptions on their account that may apply to international transfers.
 
-- Rule 3: Explain Transfer Fee Policy: The agent must clearly explain the bank's transfer fee policy, including any applicable fees for international transactions, and provide the customer with a detailed breakdown of the fee charged.
+- transfer_fee_charged:R3 — Explain Transfer Fee Policy: The agent must clearly explain the bank's transfer fee policy, including any applicable fees for international transactions, and provide the customer with a detailed breakdown of the fee charged.
 
-- Rule 4: Investigate Discrepancies: If the customer reports a discrepancy in the transfer amount received, the agent must investigate the issue by checking the transfer records and contacting the recipient's bank (if necessary) to resolve the issue.
+- transfer_fee_charged:R4 — Investigate Discrepancies: If the customer reports a discrepancy in the transfer amount received, the agent must investigate the issue by checking the transfer records and contacting the recipient's bank (if necessary) to resolve the issue.
 
-- Rule 5: Provide Transfer Fee Exemptions: The agent must inform the customer about any transfer fee exemptions or waivers that may be available for specific types of transfers (e.g., online purchases) or for customers with specific account types.
+- transfer_fee_charged:R5 — Provide Transfer Fee Exemptions: The agent must inform the customer about any transfer fee exemptions or waivers that may be available for specific types of transfers (e.g., online purchases) or for customers with specific account types.
 
-- Rule 6: Review Account Settings: The agent must review the customer's account settings to determine if there are any changes to their account that may have triggered the transfer fee, such as changes to their international transaction privileges.
+- transfer_fee_charged:R6 — Review Account Settings: The agent must review the customer's account settings to determine if there are any changes to their account that may have triggered the transfer fee, such as changes to their international transaction privileges.

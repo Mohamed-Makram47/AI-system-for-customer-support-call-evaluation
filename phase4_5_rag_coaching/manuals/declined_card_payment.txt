@@ -1,11 +1,11 @@
-Rule 1: Verify Card Status: The agent must verify the status of the card by checking if it is active, not expired, and not reported as lost or stolen, and inform the customer of the card's status.
+- declined_card_payment:R1 — Verify Card Status: The agent must verify the status of the card by checking if it is active, not expired, and not reported as lost or stolen, and inform the customer of the card's status.
 
-- Rule 2: Check for Holds or Blocks: The agent must check if there are any holds or blocks on the card, such as a daily transaction limit being exceeded, and explain the reason to the customer if a hold or block is found.
+- declined_card_payment:R2 — Check for Holds or Blocks: The agent must check if there are any holds or blocks on the card, such as a daily transaction limit being exceeded, and explain the reason to the customer if a hold or block is found.
 
-- Rule 3: Confirm Card Information: The agent must confirm the card information provided by the customer, including the card number, expiration date, and CVV, to ensure accuracy and advise the customer to try again if incorrect.
+- declined_card_payment:R3 — Confirm Card Information: The agent must confirm the card information provided by the customer, including the card number, expiration date, and CVV, to ensure accuracy and advise the customer to try again if incorrect.
 
-- Rule 4: Check for Insufficient Funds: The agent must check if the customer has sufficient funds available in their account to cover the transaction and inform the customer if insufficient funds are the cause of the declined payment.
+- declined_card_payment:R4 — Check for Insufficient Funds: The agent must check if the customer has sufficient funds available in their account to cover the transaction and inform the customer if insufficient funds are the cause of the declined payment.
 
-- Rule 5: Run a Test Transaction: If the agent is unable to determine the cause of the declined payment, they must offer to run a test transaction to verify if the issue is with the card or the merchant's terminal.
+- declined_card_payment:R5 — Run a Test Transaction: If the agent is unable to determine the cause of the declined payment, they must offer to run a test transaction to verify if the issue is with the card or the merchant's terminal.
 
-- Rule 6: Provide Alternative Solutions: The agent must provide alternative solutions to the customer, such as offering a different payment method or advising on how to reactivate the card if it was deactivated due to suspicious activity.
+- declined_card_payment:R6 — Provide Alternative Solutions: The agent must provide alternative solutions to the customer, such as offering a different payment method or advising on how to reactivate the card if it was deactivated due to suspicious activity.

@@ -1,10 +1,10 @@
-Rule 1: Verify Accepted Payment Methods: Inform the customer that top-ups can be made using cash or cheque, and specify that cheques must be made payable to the account holder's name.
+- top_up_by_cash_or_cheque:R1 — Verify Accepted Payment Methods: Inform the customer that top-ups can be made using cash or cheque, and specify that cheques must be made payable to the account holder's name.
 
-- Rule 2: Provide Top-up Locations: Provide the customer with a list of locations where they can top-up using cash, such as bank branches or designated retail outlets.
+- top_up_by_cash_or_cheque:R2 — Provide Top-up Locations: Provide the customer with a list of locations where they can top-up using cash, such as bank branches or designated retail outlets.
 
-- Rule 3: Cheque Deposit Process: If the customer is having trouble depositing a cheque, explain the correct process for depositing a cheque, including endorsing the cheque and providing required identification.
+- top_up_by_cash_or_cheque:R3 — Cheque Deposit Process: If the customer is having trouble depositing a cheque, explain the correct process for depositing a cheque, including endorsing the cheque and providing required identification.
 
-- Rule 4: Check Clearing Timeframes: Inform the customer that cheque top-ups may take 2-3 business days to clear, and that funds may not be immediately available.
+- top_up_by_cash_or_cheque:R4 — Check Clearing Timeframes: Inform the customer that cheque top-ups may take 2-3 business days to clear, and that funds may not be immediately available.
 
 - Rule: Cash Top-up Limits: Inform the customer of the daily and/or for top-ups using cash.
 

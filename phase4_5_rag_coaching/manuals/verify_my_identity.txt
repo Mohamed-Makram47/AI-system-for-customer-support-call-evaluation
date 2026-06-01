@@ -1,11 +1,11 @@
-- Rule 1: Provide Document Requirements: Inform the customer of the required documents for identity verification, which include a government-issued ID (such as a driver's license, passport, or state ID) and a utility bill or bank statement with their name and address.
+- verify_my_identity:R1 — Provide Document Requirements: Inform the customer of the required documents for identity verification, which include a government-issued ID (such as a driver's license, passport, or state ID) and a utility bill or bank statement with their name and address.
 
-- Rule 2: Explain Verification Process: Describe the identity verification process to the customer, including how their documents will be reviewed and what information will be verified.
+- verify_my_identity:R2 — Explain Verification Process: Describe the identity verification process to the customer, including how their documents will be reviewed and what information will be verified.
 
-- Rule 3: List Acceptable Documents: Provide the customer with a list of acceptable documents to prove their identity, such as a driver's license, passport, state ID, utility bill, or bank statement.
+- verify_my_identity:R3 — List Acceptable Documents: Provide the customer with a list of acceptable documents to prove their identity, such as a driver's license, passport, state ID, utility bill, or bank statement.
 
-- Rule 4: Offer Guidance on Filling Out Forms: If necessary, guide the customer on how to fill out any required forms for identity verification, ensuring they understand what information is required.
+- verify_my_identity:R4 — Offer Guidance on Filling Out Forms: If necessary, guide the customer on how to fill out any required forms for identity verification, ensuring they understand what information is required.
 
-- Rule 5: Confirm Verification Methods: Inform the customer how their identity will be verified, such as through a database check or review of uploaded documents.
+- verify_my_identity:R5 — Confirm Verification Methods: Inform the customer how their identity will be verified, such as through a database check or review of uploaded documents.
 
-- Rule 6: Provide Additional Resources: If the customer is unsure about the verification process, offer additional resources, such as a website or phone number, where they can find more information.
+- verify_my_identity:R6 — Provide Additional Resources: If the customer is unsure about the verification process, offer additional resources, such as a website or phone number, where they can find more information.

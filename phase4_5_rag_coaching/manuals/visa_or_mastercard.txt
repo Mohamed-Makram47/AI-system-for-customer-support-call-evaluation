@@ -1,11 +1,11 @@
-- Rule 1: Determine Eligibility for Both Cards: If a customer asks if they can get both a Visa and MasterCard, inform them that our bank offers the option to have multiple cards, but they must meet specific eligibility criteria, and provide a brief overview of the criteria.
+- visa_or_mastercard:R1 — Determine Eligibility for Both Cards: If a customer asks if they can get both a Visa and MasterCard, inform them that our bank offers the option to have multiple cards, but they must meet specific eligibility criteria, and provide a brief overview of the criteria.
 
-- Rule 2: Explain Card Choice Availability: If a customer inquires about choosing between Visa and MasterCard, respond that our bank typically issues a Visa card by default, but customers can request a MasterCard if preferred, and offer to check if a MasterCard is available.
+- visa_or_mastercard:R2 — Explain Card Choice Availability: If a customer inquires about choosing between Visa and MasterCard, respond that our bank typically issues a Visa card by default, but customers can request a MasterCard if preferred, and offer to check if a MasterCard is available.
 
-- Rule 3: Provide Card Type Information: If a customer asks if it matters which card they use (Visa or MasterCard), explain that both cards have similar functionality and acceptance worldwide but highlight any differences in benefits, rewards, or fees associated with each card.
+- visa_or_mastercard:R3 — Provide Card Type Information: If a customer asks if it matters which card they use (Visa or MasterCard), explain that both cards have similar functionality and acceptance worldwide but highlight any differences in benefits, rewards, or fees associated with each card.
 
-- Rule 4: Process Card Preference Change: If a customer explicitly requests a MasterCard instead of or in addition to their current Visa card, verify their eligibility for the card type, check availability, and inform them of any additional requirements or benefits.
+- visa_or_mastercard:R4 — Process Card Preference Change: If a customer explicitly requests a MasterCard instead of or in addition to their current Visa card, verify their eligibility for the card type, check availability, and inform them of any additional requirements or benefits.
 
-- Rule 5: Inform About Available Card Types: If a customer asks what type of card we issue (Visa or MasterCard), respond that we offer both Visa and MasterCard, and provide a brief description of each.
+- visa_or_mastercard:R5 — Inform About Available Card Types: If a customer asks what type of card we issue (Visa or MasterCard), respond that we offer both Visa and MasterCard, and provide a brief description of each.
 
-- Rule 6: Handle Multiple Card Requests: If a customer requests both a Visa and a MasterCard, assess their eligibility for multiple cards, explain the benefits and any potential limitations of having both, and guide them through the application or request process if applicable.
+- visa_or_mastercard:R6 — Handle Multiple Card Requests: If a customer requests both a Visa and a MasterCard, assess their eligibility for multiple cards, explain the benefits and any potential limitations of having both, and guide them through the application or request process if applicable.

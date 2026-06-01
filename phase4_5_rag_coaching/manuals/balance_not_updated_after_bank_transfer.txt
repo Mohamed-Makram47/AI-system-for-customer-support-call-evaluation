@@ -1,11 +1,11 @@
-- Rule 1: Verify Transfer Details: The agent must verify the transfer details, including the date, amount, and sender's account information, to ensure the transfer was successfully initiated.
+- balance_not_updated_after_bank_transfer:R1 — Verify Transfer Details: The agent must verify the transfer details, including the date, amount, and sender's account information, to ensure the transfer was successfully initiated.
 
-- Rule 2: Check Transfer Status: The agent must check the status of the transfer and confirm if it has been processed and cleared.
+- balance_not_updated_after_bank_transfer:R2 — Check Transfer Status: The agent must check the status of the transfer and confirm if it has been processed and cleared.
 
-- Rule 3: Provide Transfer Timeline: The agent must provide the customer with the expected timeline for the transfer to be reflected in their account, based on the transfer method and originating bank.
+- balance_not_updated_after_bank_transfer:R3 — Provide Transfer Timeline: The agent must provide the customer with the expected timeline for the transfer to be reflected in their account, based on the transfer method and originating bank.
 
-- Rule 4: Investigate Transfer Discrepancy: If the transfer is confirmed to have been processed but not reflected in the customer's account, the agent must investigate the discrepancy and review any potential holds or issues.
+- balance_not_updated_after_bank_transfer:R4 — Investigate Transfer Discrepancy: If the transfer is confirmed to have been processed but not reflected in the customer's account, the agent must investigate the discrepancy and review any potential holds or issues.
 
-- Rule 5: Offer Alternative Verification: If the transfer details are not found in the customer's account, the agent must offer to verify the transfer through alternative means, such as contacting the originating bank.
+- balance_not_updated_after_bank_transfer:R5 — Offer Alternative Verification: If the transfer details are not found in the customer's account, the agent must offer to verify the transfer through alternative means, such as contacting the originating bank.
 
-- Rule 6: Provide Tracking Information: If available, the agent must provide the customer with tracking information, such as the Faster Payment Service (FPS) reference number, to facilitate tracking of the transfer.
+- balance_not_updated_after_bank_transfer:R6 — Provide Tracking Information: If available, the agent must provide the customer with tracking information, such as the Faster Payment Service (FPS) reference number, to facilitate tracking of the transfer.

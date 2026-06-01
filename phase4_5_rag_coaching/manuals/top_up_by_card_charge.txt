@@ -1,11 +1,11 @@
-- Rule 1: Disclose Top-up Fees: Inform the customer of any fees associated with topping up by card, specifying whether the fee applies to domestic or international cards.
+- top_up_by_card_charge:R1 — Disclose Top-up Fees: Inform the customer of any fees associated with topping up by card, specifying whether the fee applies to domestic or international cards.
 
-- Rule 2: Provide Fee Structure: Clearly explain the fee structure for top-ups by card, including any percentage-based fees or flat rates, and specify if fees vary by card type or region.
+- top_up_by_card_charge:R2 — Provide Fee Structure: Clearly explain the fee structure for top-ups by card, including any percentage-based fees or flat rates, and specify if fees vary by card type or region.
 
-- Rule 3: Compare Payment Methods: If inquired about alternative payment methods, provide information on fees associated with bank transfers for top-ups, and compare these to the card top-up fees.
+- top_up_by_card_charge:R3 — Compare Payment Methods: If inquired about alternative payment methods, provide information on fees associated with bank transfers for top-ups, and compare these to the card top-up fees.
 
-- Rule 4: Specify No Additional Charges for European Cards: If the customer inquires about using a European bank card, explicitly state whether there are any additional charges for this compared to domestic cards.
+- top_up_by_card_charge:R4 — Specify No Additional Charges for European Cards: If the customer inquires about using a European bank card, explicitly state whether there are any additional charges for this compared to domestic cards.
 
-- Rule 5: Clarify US Card Fees: If the customer asks about fees for using a US card, provide the specific fee amount or range applicable to US cards for top-ups.
+- top_up_by_card_charge:R5 — Clarify US Card Fees: If the customer asks about fees for using a US card, provide the specific fee amount or range applicable to US cards for top-ups.
 
-- Rule 6: International Card Fee Disclosure: Inform customers if there are any fees for adding money to an international card and specify the amount or how it is calculated.
+- top_up_by_card_charge:R6 — International Card Fee Disclosure: Inform customers if there are any fees for adding money to an international card and specify the amount or how it is calculated.

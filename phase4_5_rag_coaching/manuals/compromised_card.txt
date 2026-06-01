@@ -1,11 +1,11 @@
-- Rule 1: Verify Card Compromise: Ask the customer a series of 3-5 security questions to verify their identity and ensure they are the authorized cardholder.
+- compromised_card:R1 — Verify Card Compromise: Ask the customer a series of 3-5 security questions to verify their identity and ensure they are the authorized cardholder.
 
-- Rule 2: Flag Account for Compromise: Immediately flag the customer's account for potential compromise and update the account notes to reflect the reported issue.
+- compromised_card:R2 — Flag Account for Compromise: Immediately flag the customer's account for potential compromise and update the account notes to reflect the reported issue.
 
-- Rule 3: Cancel and Reissue Card: Offer to cancel the compromised card and reissue a new one, explaining the process and any associated fees or requirements.
+- compromised_card:R3 — Cancel and Reissue Card: Offer to cancel the compromised card and reissue a new one, explaining the process and any associated fees or requirements.
 
-- Rule 4: Dispute Transactions: If the customer reports unauthorized transactions, initiate a dispute process and provide a reference number or a timeline for resolution.
+- compromised_card:R4 — Dispute Transactions: If the customer reports unauthorized transactions, initiate a dispute process and provide a reference number or a timeline for resolution.
 
-- Rule 5: Provide Fraud Guidance: Inform the customer about potential next steps to prevent further unauthorized activity, such as monitoring their account and reporting any suspicious activity.
+- compromised_card:R5 — Provide Fraud Guidance: Inform the customer about potential next steps to prevent further unauthorized activity, such as monitoring their account and reporting any suspicious activity.
 
-- Rule 6: Initiate Investigation: If the customer reports a specific incident of card theft or data breach, initiate an investigation and provide a timeframe for resolution or follow-up.
+- compromised_card:R6 — Initiate Investigation: If the customer reports a specific incident of card theft or data breach, initiate an investigation and provide a timeframe for resolution or follow-up.

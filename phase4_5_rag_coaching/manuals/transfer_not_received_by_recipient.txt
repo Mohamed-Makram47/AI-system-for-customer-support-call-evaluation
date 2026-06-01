@@ -1,11 +1,11 @@
-Rule 1: Verify Transfer Details: The agent must verify the transfer details, including the recipient's account information, transfer amount, and to ensure accuracy and confirm if the transfer was successfully processed.
+- transfer_not_received_by_recipient:R1 — Verify Transfer Details: The agent must verify the transfer details, including the recipient's account information, transfer amount, and to ensure accuracy and confirm if the transfer was successfully processed.
 
-- Rule 2: Check Transfer Status: The agent must check the transfer status in the system and inform the customer if the transfer is still pending, processed, or failed, and provide an estimated timeframe for completion.
+- transfer_not_received_by_recipient:R2 — Check Transfer Status: The agent must check the transfer status in the system and inform the customer if the transfer is still pending, processed, or failed, and provide an estimated timeframe for completion.
 
-- Rule 3: Provide Transfer Timeline: The agent must customer with the standard processing timeframe for the type of transfer made (e.g-day, next-day, or 2-3 business days) and explain any potential delays.
+- transfer_not_received_by_recipient:R3 — Provide Transfer Timeline: The agent must customer with the standard processing timeframe for the type of transfer made (e.g-day, next-day, or 2-3 business days) and explain any potential delays.
 
 - Rule ate Delays: If the transfer was initiated more than the standard ago, the agent must investigate by checking for any holds or issues on the recipient's account, or the transfer process.
 
-- Rule 5: Offer Trace or Research: If the transfer is still not received after investigation, the agent must offer to conduct trace or research to locate the funds and provide an update to the customer.
+- transfer_not_received_by_recipient:R5 — Offer Trace or Research: If the transfer is still not received after investigation, the agent must offer to conduct trace or research to locate the funds and provide an update to the customer.
 
-- Rule 6: Provide Recipient's Bank Information: If requested, the agent must inform the customer if the recipient's bank information is correct and if any issues on the recipient's bank's end that may be causing the delay.
+- transfer_not_received_by_recipient:R6 — Provide Recipient's Bank Information: If requested, the agent must inform the customer if the recipient's bank information is correct and if any issues on the recipient's bank's end that may be causing the delay.

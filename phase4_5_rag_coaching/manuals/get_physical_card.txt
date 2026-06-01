@@ -1,11 +1,11 @@
-- Rule 1: Provide PIN Information: Inform the customer that the PIN is sent in a separate message, usually within 1-2 business days of receiving the physical card, and provide guidance on how to set up the PIN.
+- get_physical_card:R1 — Provide PIN Information: Inform the customer that the PIN is sent in a separate message, usually within 1-2 business days of receiving the physical card, and provide guidance on how to set up the PIN.
 
-- Rule 2: Clarify PIN Delivery: Clearly explain to the customer that the PIN is not sent with the physical card and that it will be received separately.
+- get_physical_card:R2 — Clarify PIN Delivery: Clearly explain to the customer that the PIN is not sent with the physical card and that it will be received separately.
 
-- Rule 3: Guide PIN Setup: Instruct the customer on how to set up their card PIN, directing them to call a specific phone number or use a specific online platform.
+- get_physical_card:R3 — Guide PIN Setup: Instruct the customer on how to set up their card PIN, directing them to call a specific phone number or use a specific online platform.
 
-- Rule 4: PIN Retrieval: If the customer has already received their physical card, provide instructions on how to retrieve their PIN, such as calling a specific phone number or visiting a website.
+- get_physical_card:R4 — PIN Retrieval: If the customer has already received their physical card, provide instructions on how to retrieve their PIN, such as calling a specific phone number or visiting a website.
 
-- Rule 5: PIN Details: Provide detailed information about the PIN, including its length, format, and any specific requirements for creation.
+- get_physical_card:R5 — PIN Details: Provide detailed information about the PIN, including its length, format, and any specific requirements for creation.
 
-- Rule 6: Alternative PIN Request: If the customer is unable to locate their PIN, offer to assist with requesting a new PIN to be sent to them.
+- get_physical_card:R6 — Alternative PIN Request: If the customer is unable to locate their PIN, offer to assist with requesting a new PIN to be sent to them.

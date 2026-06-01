@@ -1,11 +1,11 @@
-- Rule 1: Verify Transaction Details: The agent must verify the transaction details, including the date, amount, and currency of the transaction, to ensure accuracy and identify the correct exchange rate applied.
+- card_payment_wrong_exchange_rate:R1 — Verify Transaction Details: The agent must verify the transaction details, including the date, amount, and currency of the transaction, to ensure accuracy and identify the correct exchange rate applied.
 
-- Rule 2: Check Exchange Rate: The agent must check the exchange rate applied to the transaction against the interbank exchange rate or the rate provided by the card network (e.g., Visa, Mastercard) on the date of the transaction.
+- card_payment_wrong_exchange_rate:R2 — Check Exchange Rate: The agent must check the exchange rate applied to the transaction against the interbank exchange rate or the rate provided by the card network (e.g., Visa, Mastercard) on the date of the transaction.
 
-- Rule 3: Compare with Official Rates: The agent must compare the exchange rate applied to the transaction with the official exchange rate published by the relevant card network or financial institution on the date of the transaction.
+- card_payment_wrong_exchange_rate:R3 — Compare with Official Rates: The agent must compare the exchange rate applied to the transaction with the official exchange rate published by the relevant card network or financial institution on the date of the transaction.
 
-- Rule 4: Adjust Transaction if Necessary: If the agent determines that the exchange rate applied was incorrect, they must initiate an adjustment to the transaction to reflect the correct exchange rate and ensure the customer is reimbursed or charged the correct amount.
+- card_payment_wrong_exchange_rate:R4 — Adjust Transaction if Necessary: If the agent determines that the exchange rate applied was incorrect, they must initiate an adjustment to the transaction to reflect the correct exchange rate and ensure the customer is reimbursed or charged the correct amount.
 
-- Rule 5: Provide Rate Explanation: The agent must provide a clear explanation to the customer of the exchange rate applied, the correct exchange rate, and any adjustments made to the transaction, including any fees associated with the correction.
+- card_payment_wrong_exchange_rate:R5 — Provide Rate Explanation: The agent must provide a clear explanation to the customer of the exchange rate applied, the correct exchange rate, and any adjustments made to the transaction, including any fees associated with the correction.
 
-- Rule 6: Offer Rate Difference Refund: If the agent determines that the customer was overcharged due to an incorrect exchange rate, they must offer to refund the difference to the customer's account within a reasonable timeframe.
+- card_payment_wrong_exchange_rate:R6 — Offer Rate Difference Refund: If the agent determines that the customer was overcharged due to an incorrect exchange rate, they must offer to refund the difference to the customer's account within a reasonable timeframe.

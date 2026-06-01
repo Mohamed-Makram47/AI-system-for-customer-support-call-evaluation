@@ -1,11 +1,11 @@
-- Rule 1: Verify Direct Debit Details: The agent must verify the customer's account information and the details of the disputed direct debit, including the date, amount, and merchant name, and confirm with the customer that they did not authorize the transaction.
+- direct_debit_payment_not_recognised:R1 — Verify Direct Debit Details: The agent must verify the customer's account information and the details of the disputed direct debit, including the date, amount, and merchant name, and confirm with the customer that they did not authorize the transaction.
 
-- Rule 2: Check for Mandate Information: The agent must check if a direct debit mandate exists for the disputed transaction and retrieve the mandate details, if available.
+- direct_debit_payment_not_recognised:R2 — Check for Mandate Information: The agent must check if a direct debit mandate exists for the disputed transaction and retrieve the mandate details, if available.
 
-- Rule 3: Initiate Investigation: The agent must inform the customer that an investigation will be initiated to determine the cause of the unauthorized direct debit and provide a timeline for resolution.
+- direct_debit_payment_not_recognised:R3 — Initiate Investigation: The agent must inform the customer that an investigation will be initiated to determine the cause of the unauthorized direct debit and provide a timeline for resolution.
 
-- Rule 4: Provide Refund Information: The agent must inform the customer that a refund will be processed for the disputed amount, if applicable, and provide details on the refund process and timeline.
+- direct_debit_payment_not_recognised:R4 — Provide Refund Information: The agent must inform the customer that a refund will be processed for the disputed amount, if applicable, and provide details on the refund process and timeline.
 
-- Rule 5: Notify Customer of Next Steps: The agent must notify the customer of the next steps in the investigation process, including any additional information required from the customer or the expected resolution timeframe.
+- direct_debit_payment_not_recognised:R5 — Notify Customer of Next Steps: The agent must notify the customer of the next steps in the investigation process, including any additional information required from the customer or the expected resolution timeframe.
 
-- Rule 6: Update Customer's Direct Debit Alerts: The agent must offer to update the customer's direct debit alerts to notify them of future transactions and provide instructions on how to do so.
+- direct_debit_payment_not_recognised:R6 — Update Customer's Direct Debit Alerts: The agent must offer to update the customer's direct debit alerts to notify them of future transactions and provide instructions on how to do so.

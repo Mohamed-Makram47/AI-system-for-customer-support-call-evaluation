@@ -1,6 +1,6 @@
-- Rule 1: Verify Requested Amount: Confirm the customer's requested withdrawal amount and the amount they received from the ATM.
-- Rule 2: Investigate ATM Transaction: Check the ATM transaction details to determine if the correct amount was dispensed and if the customer's account was debited correctly.
-- Rule 3: Provide Corrective Action: If the customer was underpaid, instruct them to return to the ATM location and follow the on-site process for resolving discrepancies, or provide instructions on how to submit a claim for the missing funds.
-- Rule 4: Adjust Account Balance: If the customer was overpaid, instruct the customer to return the excess funds to a branch or provide instructions on how to make a deposit to rectify the discrepancy.
-- Rule 5: Issue Resolution Timeframe: Inform the customer of the expected timeframe for resolving the issue, which is typically 3-5 business days, but may vary depending on the specific circumstances.
-- Rule 6: Provide Reference Number: Generate a reference or incident number for the customer's issue and provide it to them for future follow-up.
+- wrong_amount_of_cash_received:R1 — Verify Requested Amount: Confirm the customer's requested withdrawal amount and the amount they received from the ATM.
+- wrong_amount_of_cash_received:R2 — Investigate ATM Transaction: Check the ATM transaction details to determine if the correct amount was dispensed and if the customer's account was debited correctly.
+- wrong_amount_of_cash_received:R3 — Provide Corrective Action: If the customer was underpaid, instruct them to return to the ATM location and follow the on-site process for resolving discrepancies, or provide instructions on how to submit a claim for the missing funds.
+- wrong_amount_of_cash_received:R4 — Adjust Account Balance: If the customer was overpaid, instruct the customer to return the excess funds to a branch or provide instructions on how to make a deposit to rectify the discrepancy.
+- wrong_amount_of_cash_received:R5 — Issue Resolution Timeframe: Inform the customer of the expected timeframe for resolving the issue, which is typically 3-5 business days, but may vary depending on the specific circumstances.
+- wrong_amount_of_cash_received:R6 — Provide Reference Number: Generate a reference or incident number for the customer's issue and provide it to them for future follow-up.

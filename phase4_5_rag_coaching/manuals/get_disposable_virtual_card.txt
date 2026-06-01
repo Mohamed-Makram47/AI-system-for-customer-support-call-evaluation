@@ -1,13 +1,13 @@
-- Rule 1: Verify Eligibility: The agent must verify if the customer is eligible for a disposable virtual card by checking their account status and card issuance history.
+- get_disposable_virtual_card:R1 — Verify Eligibility: The agent must verify if the customer is eligible for a disposable virtual card by checking their account status and card issuance history.
 
-- Rule 2: Explain Disposable Virtual Card: The agent must provide a clear explanation of what a disposable virtual card is, its uses, and its limitations.
+- get_disposable_virtual_card:R2 — Explain Disposable Virtual Card: The agent must provide a clear explanation of what a disposable virtual card is, its uses, and its limitations.
 
-- Rule 3: Provide Card Details: The agent must provide the customer with details on how to obtain a disposable virtual card, including any required mobile app or online banking actions.
+- get_disposable_virtual_card:R3 — Provide Card Details: The agent must provide the customer with details on how to obtain a disposable virtual card, including any required mobile app or online banking actions.
 
-- Rule 4: Inform Deposit Options: The agent must inform the customer of the available options for depositing funds into their disposable virtual card, such as linked bank accounts or mobile deposit.
+- get_disposable_virtual_card:R4 — Inform Deposit Options: The agent must inform the customer of the available options for depositing funds into their disposable virtual card, such as linked bank accounts or mobile deposit.
 
-- Rule 5: Guide Mobile App Usage: If the customer inquires about using the mobile app with a disposable virtual card, the agent must provide step-by-step instructions on how to add and use the card within the app.
+- get_disposable_virtual_card:R5 — Guide Mobile App Usage: If the customer inquires about using the mobile app with a disposable virtual card, the agent must provide step-by-step instructions on how to add and use the card within the app.
 
-- Rule 6: Check Card Availability: The agent must check the availability of disposable virtual cards for the customer's specific account type and inform them of any restrictions or requirements.
+- get_disposable_virtual_card:R6 — Check Card Availability: The agent must check the availability of disposable virtual cards for the customer's specific account type and inform them of any restrictions or requirements.
 
-- Rule 7: Provide Card Limitations: The agent must inform the customer of any limitations or expiration dates associated with the disposable virtual card.
+- get_disposable_virtual_card:R7 — Provide Card Limitations: The agent must inform the customer of any limitations or expiration dates associated with the disposable virtual card.

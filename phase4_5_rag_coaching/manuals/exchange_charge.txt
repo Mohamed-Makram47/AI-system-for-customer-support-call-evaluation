@@ -1,11 +1,11 @@
-- Rule 1: Disclose Exchange Fee: The agent must clearly state the exchange fee charged by the bank for exchanging foreign currencies, including any markup or commission applied to the exchange rate.
+- exchange_charge:R1 — Disclose Exchange Fee: The agent must clearly state the exchange fee charged by the bank for exchanging foreign currencies, including any markup or commission applied to the exchange rate.
 
-- Rule 2: Provide Exchange Rate Information: The agent must provide the current exchange rate used for the currency exchange, if requested by the customer.
+- exchange_charge:R2 — Provide Exchange Rate Information: The agent must provide the current exchange rate used for the currency exchange, if requested by the customer.
 
-- Rule 3: Inform of Additional Charges: The agent must inform the customer of any additional charges or fees associated with exchanging foreign currencies, such as transfer fees or receiving fees.
+- exchange_charge:R3 — Inform of Additional Charges: The agent must inform the customer of any additional charges or fees associated with exchanging foreign currencies, such as transfer fees or receiving fees.
 
-- Rule 4: Quote Total Cost: The agent must quote the total cost of the exchange, including the exchange fee and any additional charges, if the customer requests a quote.
+- exchange_charge:R4 — Quote Total Cost: The agent must quote the total cost of the exchange, including the exchange fee and any additional charges, if the customer requests a quote.
 
-- Rule 5: Frequency Discount Inquiry: If the customer inquires about a discount for frequent currency exchanges, the agent must inform them that discounts are not available but offer to review their account history to see if they qualify for any special programs.
+- exchange_charge:R5 — Frequency Discount Inquiry: If the customer inquires about a discount for frequent currency exchanges, the agent must inform them that discounts are not available but offer to review their account history to see if they qualify for any special programs.
 
-- Rule 6: Fee Waiver Exception: If the customer is a premium or loyalty program member, the agent must check if they are eligible for a fee waiver or reduction and apply it if applicable.
+- exchange_charge:R6 — Fee Waiver Exception: If the customer is a premium or loyalty program member, the agent must check if they are eligible for a fee waiver or reduction and apply it if applicable.

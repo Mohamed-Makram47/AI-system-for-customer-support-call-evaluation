@@ -1,13 +1,13 @@
-- Rule 1: Verify Fee Type: Confirm if the customer was charged a cash withdrawal fee by checking the transaction details and specifying the type of fee.
+- cash_withdrawal_charge:R1 — Verify Fee Type: Confirm if the customer was charged a cash withdrawal fee by checking the transaction details and specifying the type of fee.
 
-- Rule 2: Check Fee Waiver Eligibility: Inform the customer if they are eligible for fee waivers based on their account type or package.
+- cash_withdrawal_charge:R2 — Check Fee Waiver Eligibility: Inform the customer if they are eligible for fee waivers based on their account type or package.
 
-- Rule 3: Explain Fee Structure: Clearly explain the cash withdrawal fee structure, including any applicable limits or conditions.
+- cash_withdrawal_charge:R3 — Explain Fee Structure: Clearly explain the cash withdrawal fee structure, including any applicable limits or conditions.
 
-- Rule 4: Identify ATM Type: Determine if the customer used an out-of-network ATM and explain the associated fees.
+- cash_withdrawal_charge:R4 — Identify ATM Type: Determine if the customer used an out-of-network ATM and explain the associated fees.
 
-- Rule 5: Review Account Terms: Review the customer's account terms and conditions to confirm if cash withdrawals are subject to fees.
+- cash_withdrawal_charge:R5 — Review Account Terms: Review the customer's account terms and conditions to confirm if cash withdrawals are subject to fees.
 
-- Rule 6: Provide Transaction Details: Provide the customer with detailed information about the transaction, including the date, time, location, and amount of the withdrawal.
+- cash_withdrawal_charge:R6 — Provide Transaction Details: Provide the customer with detailed information about the transaction, including the date, time, location, and amount of the withdrawal.
 
-- Rule 7: Offer Alternative Solutions: Offer alternative solutions or account options that may reduce or eliminate cash withdrawal fees.
+- cash_withdrawal_charge:R7 — Offer Alternative Solutions: Offer alternative solutions or account options that may reduce or eliminate cash withdrawal fees.

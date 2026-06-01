@@ -1,6 +1,6 @@
-- Rule 1: Define Virtual Card: Provide a clear definition of a virtual card, explaining that it is a digital version of a physical card, when a customer asks "what is a virtual card" or "how do I get a virtual card".
-- Rule 2: Check Eligibility: Verify if the customer is eligible for a virtual card by checking their account status and card issuance criteria.
-- Rule 3: Instant Virtual Card Issuance: If the customer has lost their card and needs to place an online order, provide instructions on how to instantly issue a virtual card through the bank's mobile app or website.
-- Rule 4: Guide Virtual Card Setup: Walk the customer through the step-by-step process of setting up a virtual card on their device, including downloading and activating the card.
-- Rule 5: Provide Virtual Card Details: Once the virtual card is issued, provide the customer with the card details, including the card number, expiration date, and security code.
-- Rule 6: Offer Alternative Channels: If the customer is unable to access the virtual card through the mobile app or website, offer alternative channels, such as visiting a branch or contacting the bank's customer service.
+- getting_virtual_card:R1 — Define Virtual Card: Provide a clear definition of a virtual card, explaining that it is a digital version of a physical card, when a customer asks "what is a virtual card" or "how do I get a virtual card".
+- getting_virtual_card:R2 — Check Eligibility: Verify if the customer is eligible for a virtual card by checking their account status and card issuance criteria.
+- getting_virtual_card:R3 — Instant Virtual Card Issuance: If the customer has lost their card and needs to place an online order, provide instructions on how to instantly issue a virtual card through the bank's mobile app or website.
+- getting_virtual_card:R4 — Guide Virtual Card Setup: Walk the customer through the step-by-step process of setting up a virtual card on their device, including downloading and activating the card.
+- getting_virtual_card:R5 — Provide Virtual Card Details: Once the virtual card is issued, provide the customer with the card details, including the card number, expiration date, and security code.
+- getting_virtual_card:R6 — Offer Alternative Channels: If the customer is unable to access the virtual card through the mobile app or website, offer alternative channels, such as visiting a branch or contacting the bank's customer service.

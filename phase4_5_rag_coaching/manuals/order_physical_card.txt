@@ -1,11 +1,11 @@
-- Rule 1: Verify Eligibility: The agent must check the customer's account status and verify if they are eligible to order a physical card, and inform the customer of their eligibility.
+- order_physical_card:R1 — Verify Eligibility: The agent must check the customer's account status and verify if they are eligible to order a physical card, and inform the customer of their eligibility.
 
-- Rule 2: Explain Physical Card Options: The agent must explain the types of physical cards available (e.g., debit, credit, prepaid) and their associated fees, if any.
+- order_physical_card:R2 — Explain Physical Card Options: The agent must explain the types of physical cards available (e.g., debit, credit, prepaid) and their associated fees, if any.
 
-- Rule 3: Provide Card Delivery Information: The agent must inform the customer about the card delivery process, including estimated delivery times, delivery locations (e.g., home, branch), and any associated delivery fees.
+- order_physical_card:R3 — Provide Card Delivery Information: The agent must inform the customer about the card delivery process, including estimated delivery times, delivery locations (e.g., home, branch), and any associated delivery fees.
 
-- Rule 4: Guide Customer Through Ordering Process: The agent must walk the customer through the steps to order a physical card, including providing the necessary information (e.g., address, identification) and any required documentation.
+- order_physical_card:R4 — Guide Customer Through Ordering Process: The agent must walk the customer through the steps to order a physical card, including providing the necessary information (e.g., address, identification) and any required documentation.
 
-- Rule 5: Confirm Card Details: The agent must confirm the customer's understanding of the physical card details, including the card type, delivery address, and any associated fees.
+- order_physical_card:R5 — Confirm Card Details: The agent must confirm the customer's understanding of the physical card details, including the card type, delivery address, and any associated fees.
 
-- Rule 6: Provide Tracking Information: If applicable, the agent must provide the customer with tracking information for the physical card shipment.
+- order_physical_card:R6 — Provide Tracking Information: If applicable, the agent must provide the customer with tracking information for the physical card shipment.

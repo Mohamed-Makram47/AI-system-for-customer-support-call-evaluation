@@ -1,11 +1,11 @@
-- Rule 1: Verify Refund Status: Check the customer's account and transaction history to confirm if the refund has been processed and provide the customer with the refund status.
+- Refund_not_showing_up:R1 — Verify Refund Status: Check the customer's account and transaction history to confirm if the refund has been processed and provide the customer with the refund status.
 
-- Rule 2: Track Seller Refund: If the customer was advised to request a refund from the seller, contact the seller to track the refund status and provide an update to the customer.
+- Refund_not_showing_up:R2 — Track Seller Refund: If the customer was advised to request a refund from the seller, contact the seller to track the refund status and provide an update to the customer.
 
-- Rule 3: Check Statement: Review the customer's account statement to verify if the refund has been credited and provide the customer with the statement details.
+- Refund_not_showing_up:R3 — Check Statement: Review the customer's account statement to verify if the refund has been credited and provide the customer with the statement details.
 
-- Rule 4: Provide Refund Timeline: Inform the customer of the expected refund timeline, including the number of business days it takes for the refund to be processed and credited to their account.
+- Refund_not_showing_up:R4 — Provide Refund Timeline: Inform the customer of the expected refund timeline, including the number of business days it takes for the refund to be processed and credited to their account.
 
-- Rule 5: Investigate Missing Refund: If the refund is still missing, initiate an investigation to determine the cause of the delay and provide the customer with a resolution or an estimated timeframe for the refund to be processed.
+- Refund_not_showing_up:R5 — Investigate Missing Refund: If the refund is still missing, initiate an investigation to determine the cause of the delay and provide the customer with a resolution or an estimated timeframe for the refund to be processed.
 
-- Rule 6: Offer Refund Reversal Check: If the refund was re-credited to the customer's account, verify if a reversal was processed and provide the customer with the details of the reversal transaction.
+- Refund_not_showing_up:R6 — Offer Refund Reversal Check: If the refund was re-credited to the customer's account, verify if a reversal was processed and provide the customer with the details of the reversal transaction.

@@ -1,11 +1,11 @@
-- Rule 1: Verify PIN Block Status: The agent must verify the customer's PIN block status by checking the account details to confirm if the PIN is indeed blocked due to incorrect attempts.
+- pin_blocked:R1 — Verify PIN Block Status: The agent must verify the customer's PIN block status by checking the account details to confirm if the PIN is indeed blocked due to incorrect attempts.
 
-- Rule 2: Inform PIN Try Limits: The agent must inform the customer of the remaining PIN try limits and the process to unblock the PIN, if applicable.
+- pin_blocked:R2 — Inform PIN Try Limits: The agent must inform the customer of the remaining PIN try limits and the process to unblock the PIN, if applicable.
 
-- Rule 3: Provide Unblock Options: The agent must provide the customer with options to unblock their PIN, such as visiting a branch or using a self-service terminal, if available.
+- pin_blocked:R3 — Provide Unblock Options: The agent must provide the customer with options to unblock their PIN, such as visiting a branch or using a self-service terminal, if available.
 
-- Rule 4: Explain Consequence of Incorrect Attempts: The agent must explain to the customer that if they exceed the maximum allowed PIN attempts, their card will be blocked, and they will need to contact the bank to unblock it.
+- pin_blocked:R4 — Explain Consequence of Incorrect Attempts: The agent must explain to the customer that if they exceed the maximum allowed PIN attempts, their card will be blocked, and they will need to contact the bank to unblock it.
 
-- Rule 5: Offer Alternative Solutions: The agent must offer alternative solutions to the customer, such as a temporary PIN reset or a new PIN issuance, if the customer is unable to unblock their PIN through self-service channels.
+- pin_blocked:R5 — Offer Alternative Solutions: The agent must offer alternative solutions to the customer, such as a temporary PIN reset or a new PIN issuance, if the customer is unable to unblock their PIN through self-service channels.
 
-- Rule 6: Provide Branch Information: The agent must provide the customer with information on the nearest branch location and hours of operation, if the customer needs to visit a branch to unblock their PIN.
+- pin_blocked:R6 — Provide Branch Information: The agent must provide the customer with information on the nearest branch location and hours of operation, if the customer needs to visit a branch to unblock their PIN.
