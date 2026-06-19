@@ -2276,8 +2276,8 @@
       document.getElementById('r-score').textContent = finalScore;
       const ring = document.getElementById('ring');
       const glow = document.getElementById('ring-glow');
-      ring.className = 'ring-fill ' + col;
-      glow.className = 'ring-glow ' + col;
+      ring.setAttribute('class', 'ring-fill ' + col);
+      glow.setAttribute('class', 'ring-glow ' + col);
       setTimeout(() => {
         const offset = circ * (1 - finalScore / 100);
         ring.style.strokeDasharray = circ;
@@ -2509,6 +2509,18 @@
       // Reset score number color
       const scoreEl = document.getElementById('r-score');
       if (scoreEl) scoreEl.style.color = '';
+
+      // Reset score ring
+      const ring = document.getElementById('ring');
+      const glow = document.getElementById('ring-glow');
+      if (ring) {
+        ring.setAttribute('class', 'ring-fill col-red');
+        ring.style.strokeDashoffset = '377';
+      }
+      if (glow) {
+        glow.setAttribute('class', 'ring-glow col-red');
+        glow.style.strokeDashoffset = '377';
+      }
 
       // Remove grade badge pulse
       const gradeEl = document.getElementById('r-grade');
