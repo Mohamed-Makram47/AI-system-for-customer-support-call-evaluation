@@ -118,27 +118,35 @@
       margin-top: 1px;
     }
 
-    .nav-dots {
+    .step-chips {
       display: flex;
-      gap: 6px;
       align-items: center;
+      gap: 6px;
     }
-
-    .dot {
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      background: var(--gray3);
-      transition: all .3s;
+    .chip {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+      font-family: var(--mono);
+      padding: 4px 10px;
+      border-radius: 20px;
+      border: 1px solid rgba(255,255,255,0.08);
+      color: var(--gray2);
+      transition: all .2s;
     }
-
-    .dot.active {
-      background: var(--red);
-      box-shadow: 0 0 8px var(--red-glow);
+    .chip.active {
+      color: var(--white);
+      border-color: rgba(255,255,255,0.25);
+      background: rgba(255,255,255,0.06);
     }
-
-    .dot.done {
-      background: var(--gray2);
+    .chip.done {
+      color: var(--gray2);
+      border-color: rgba(255,255,255,0.06);
+    }
+    .chip-sep {
+      color: var(--gray3);
+      font-size: 11px;
     }
 
     /* ── SCREENS ── */
@@ -167,7 +175,7 @@
     }
 
     .upload-eyebrow {
-      font-size: 10px;
+      font-size: 11px;
       font-weight: 700;
       letter-spacing: .15em;
       text-transform: uppercase;
@@ -200,7 +208,7 @@
     }
 
     .upload-sub {
-      font-size: 13px;
+      font-size: 14px;
       color: var(--gray1);
       margin-bottom: 2rem;
       line-height: 1.6;
@@ -264,7 +272,7 @@
     }
 
     .dz-hint {
-      font-size: 11px;
+      font-size: 12px;
       color: var(--gray1);
       font-family: var(--mono);
     }
@@ -313,7 +321,7 @@
     }
 
     .pill-id {
-      font-size: 10px;
+      font-size: 11px;
       color: var(--gray1);
       font-family: var(--mono);
       margin-top: 2px;
@@ -322,7 +330,7 @@
     .pill-ok {
       margin-left: auto;
       color: var(--green);
-      font-size: 10px;
+      font-size: 11px;
       font-weight: 700;
       letter-spacing: .06em;
       font-family: var(--mono);
@@ -334,7 +342,7 @@
     }
 
     .pipe-label {
-      font-size: 9px;
+      font-size: 11px;
       font-weight: 700;
       letter-spacing: .12em;
       text-transform: uppercase;
@@ -382,7 +390,7 @@
     }
 
     .pipe-name {
-      font-size: 9px;
+      font-size: 11px;
       color: var(--gray2);
       line-height: 1.4;
     }
@@ -396,7 +404,7 @@
       border-radius: 5px;
       padding: 15px;
       font-family: var(--font);
-      font-size: 12px;
+      font-size: 13px;
       font-weight: 700;
       letter-spacing: .1em;
       text-transform: uppercase;
@@ -434,7 +442,7 @@
     }
 
     .load-eyebrow {
-      font-size: 10px;
+      font-size: 11px;
       font-weight: 700;
       letter-spacing: .15em;
       text-transform: uppercase;
@@ -461,7 +469,7 @@
     }
 
     .load-callid {
-      font-size: 11px;
+      font-size: 12px;
       color: var(--gray1);
       font-family: var(--mono);
       margin-bottom: 2.5rem;
@@ -573,20 +581,29 @@
     }
 
     .st-name {
-      font-size: 12px;
+      font-size: 13px;
       font-weight: 600;
       color: var(--white);
     }
 
     .st-detail {
-      font-size: 10px;
+      font-size: 11px;
       color: var(--gray2);
       font-family: var(--mono);
-      margin-top: 2px;
+      margin-top: 3px;
+      line-height: 1.4;
+      transition: color .3s;
+    }
+
+    .stage.running .st-detail {
+      color: var(--amber);
+    }
+    .stage.done .st-detail {
+      color: var(--green);
     }
 
     .st-status {
-      font-size: 9px;
+      font-size: 11px;
       font-weight: 700;
       letter-spacing: .08em;
       text-transform: uppercase;
@@ -641,13 +658,30 @@
     }
 
     .res-callid-label {
-      font-size: 9px;
+      font-size: 11px;
       font-weight: 700;
       letter-spacing: .12em;
       text-transform: uppercase;
       color: var(--gray2);
       font-family: var(--mono);
       margin-bottom: 3px;
+    }
+
+    .grade-lbl {
+      font-size: 10px;
+      font-family: var(--mono);
+      color: var(--gray2);
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+
+    .grade-status {
+      font-size: 11px;
+      font-family: var(--mono);
+      margin-top: 6px;
+      letter-spacing: .04em;
+      text-align: center;
+      transition: color .4s;
     }
 
     .res-callid {
@@ -665,7 +699,7 @@
     }
 
     .bdg {
-      font-size: 9px;
+      font-size: 10px;
       font-weight: 700;
       letter-spacing: .06em;
       padding: 4px 10px;
@@ -744,7 +778,7 @@
     }
 
     .sec-label {
-      font-size: 9px;
+      font-size: 11px;
       font-weight: 700;
       letter-spacing: .12em;
       text-transform: uppercase;
@@ -821,7 +855,7 @@
     }
 
     .score-den {
-      font-size: 9px;
+      font-size: 10px;
       color: var(--gray2);
       font-family: var(--mono);
       margin-top: 1px;
@@ -873,7 +907,7 @@
     }
 
     .grade-lbl {
-      font-size: 10px;
+      font-size: 11px;
       color: var(--gray2);
       letter-spacing: .06em;
       text-transform: uppercase;
@@ -903,7 +937,7 @@
     }
 
     .sub-val {
-      font-size: 10px;
+      font-size: 11px;
       font-family: var(--mono);
       color: var(--gray1);
     }
@@ -951,8 +985,40 @@
       margin-bottom: 0;
     }
 
+    .viol-item.clickable {
+      cursor: pointer;
+      transition: background .2s, border-color .2s;
+    }
+    .viol-item.clickable:hover {
+      background: rgba(232, 16, 46, 0.1);
+      border-color: rgba(232, 16, 46, 0.3);
+    }
+    .viol-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 10px;
+    }
+    .viol-turn-chip {
+      font-size: 9px;
+      font-family: var(--mono);
+      color: var(--gray2);
+      border: 1px solid var(--border2);
+      padding: 2px 6px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+    @keyframes turn-flash {
+      0% { box-shadow: 0 0 0 0 transparent; }
+      20% { box-shadow: 0 0 20px 4px var(--red-glow); }
+      100% { box-shadow: 0 0 0 0 transparent; }
+    }
+    .flash-turn {
+      animation: turn-flash .6s ease-out;
+    }
+
     .viol-policy {
-      font-size: 10px;
+      font-size: 12px;
       font-weight: 700;
       color: var(--red);
       margin-bottom: 3px;
@@ -960,28 +1026,103 @@
     }
 
     .viol-evidence {
-      font-size: 10px;
+      font-size: 12px;
       color: var(--gray1);
       line-height: 1.5;
     }
 
-    .no-viol {
+    /* ── COMPLIANT STATE ── */
+    .compliant-hero {
       text-align: center;
-      padding: 1.5rem 0;
+      padding: 1.25rem .75rem 1rem;
+      margin-bottom: 1rem;
+      background: rgba(0, 217, 126, 0.05);
+      border: 1px solid rgba(0, 217, 126, 0.15);
+      border-radius: 6px;
+      position: relative;
+      overflow: hidden;
     }
-
-    .no-viol-icon {
+    .compliant-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(
+        ellipse 80% 60% at 50% 0%,
+        rgba(0, 217, 126, 0.08) 0%,
+        transparent 70%
+      );
+      pointer-events: none;
+    }
+    .compliant-check {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: rgba(0, 217, 126, 0.12);
+      border: 1px solid rgba(0, 217, 126, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto .75rem;
+      box-shadow: 0 0 20px rgba(0, 217, 126, 0.15);
+    }
+    .compliant-check svg {
+      width: 22px;
+      height: 22px;
+      stroke: var(--green);
+      fill: none;
+      stroke-width: 2.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .compliant-title {
+      font-size: 14px;
+      font-weight: 700;
       color: var(--green);
-      font-size: 24px;
-      margin-bottom: .4rem;
+      letter-spacing: .03em;
+      margin-bottom: 4px;
     }
-
-    .no-viol-text {
+    .compliant-sub {
       font-size: 11px;
-      color: var(--green);
-      font-weight: 600;
-      letter-spacing: .04em;
+      color: rgba(0, 217, 126, 0.6);
       font-family: var(--mono);
+    }
+    .compliant-stats {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .cstat {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 10px;
+      background: rgba(0, 217, 126, 0.04);
+      border: 1px solid rgba(0, 217, 126, 0.1);
+      border-radius: 4px;
+    }
+    .cstat-label {
+      font-size: 11px;
+      color: var(--gray1);
+    }
+    .cstat-val {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--green);
+      font-family: var(--mono);
+    }
+    @keyframes grade-pulse {
+      0%, 100% { box-shadow: 0 0 20px rgba(0, 217, 126, 0.25); }
+      50%       { box-shadow: 0 0 32px rgba(0, 217, 126, 0.45); }
+    }
+    .grade-badge.pulse-green {
+      animation: grade-pulse 2.5s ease-in-out infinite;
+    }
+    @keyframes fade-up {
+      from { opacity: 0; transform: translateY(6px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .anim-in {
+      animation: fade-up .35s ease forwards;
     }
 
     /* RIGHT */
@@ -992,24 +1133,126 @@
       background: var(--bg);
     }
 
-    .transcript-panel {
-      flex: 1;
-      overflow-y: auto;
-      padding: 1.5rem 2rem;
-    }
+  /* ── TAB BAR ── */
+  .tab-bar {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg2);
+    padding: 0 1.5rem;
+    gap: 0;
+    flex-shrink: 0;
+  }
+  .tab {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 0 1rem;
+    height: 44px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .03em;
+    color: var(--gray2);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: color .15s, border-color .15s;
+    white-space: nowrap;
+    user-select: none;
+    position: relative;
+    top: 1px;
+  }
+  .tab:hover {
+    color: var(--gray1);
+  }
+  .tab.active {
+    color: var(--white);
+    border-bottom-color: var(--red);
+  }
+  .tab--dev {
+    margin-left: auto;
+    font-size: 10px;
+    color: var(--gray3);
+    border-left: 1px solid var(--border);
+    padding-left: 1.25rem;
+    letter-spacing: .06em;
+  }
+  .tab--dev:hover { color: var(--gray2); }
+  .tab--dev.active { color: var(--gray1); border-bottom-color: var(--gray2); }
+  .tab-icon {
+    font-size: 13px;
+  }
+  .tab-badge-count {
+    font-size: 9px;
+    font-weight: 700;
+    font-family: var(--mono);
+    padding: 1px 5px;
+    border-radius: 10px;
+    background: var(--green-dim);
+    color: var(--green);
+    border: 1px solid rgba(0, 217, 126, 0.25);
+    display: none;
+  }
+  .tab-badge-count--warn {
+    background: var(--amber-dim);
+    color: var(--amber);
+    border-color: rgba(246, 166, 35, 0.25);
+  }
+  .tab-badge-count.show {
+    display: inline-block;
+  }
 
-    .transcript-panel::-webkit-scrollbar {
-      width: 4px;
-    }
+  /* ── TAB PANELS ── */
+  .tab-panels {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+  }
+  .tab-panel {
+    position: absolute;
+    inset: 0;
+    overflow-y: auto;
+    display: none;
+    padding: 1.25rem 1.5rem;
+  }
+  .tab-panel.active {
+    display: block;
+  }
+  .tab-panel::-webkit-scrollbar {
+    width: 4px;
+  }
+  .tab-panel::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .tab-panel::-webkit-scrollbar-thumb {
+    background: var(--border2);
+    border-radius: 2px;
+  }
 
-    .transcript-panel::-webkit-scrollbar-track {
-      background: transparent;
-    }
-
-    .transcript-panel::-webkit-scrollbar-thumb {
-      background: var(--border2);
-      border-radius: 2px;
-    }
+  /* ── JSON TAB ── */
+  .json-hint {
+    font-size: 11px;
+    color: var(--gray2);
+    font-family: var(--mono);
+    margin-bottom: .75rem;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .json-hint-arrow {
+    color: var(--amber);
+  }
+  .json-pre {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1rem;
+    font-family: var(--mono);
+    font-size: 11px;
+    line-height: 1.7;
+    color: var(--gray1);
+    overflow-x: auto;
+    white-space: pre;
+  }
 
     .panel-header {
       display: flex;
@@ -1019,7 +1262,7 @@
     }
 
     .panel-label {
-      font-size: 9px;
+      font-size: 11px;
       font-weight: 700;
       letter-spacing: .12em;
       text-transform: uppercase;
@@ -1036,7 +1279,7 @@
       display: flex;
       align-items: center;
       gap: 4px;
-      font-size: 9px;
+      font-size: 11px;
       color: var(--gray2);
       font-family: var(--mono);
     }
@@ -1101,7 +1344,7 @@
       border: 1px solid var(--border);
       border-radius: 4px;
       padding: 9px 13px;
-      font-size: 12px;
+      font-size: 13px;
       color: var(--white);
       line-height: 1.65;
       transition: border-color .2s;
@@ -1114,7 +1357,7 @@
     }
 
     .turn-spk {
-      font-size: 8px;
+      font-size: 10px;
       font-weight: 700;
       letter-spacing: .1em;
       text-transform: uppercase;
@@ -1134,7 +1377,7 @@
       background: var(--red-dim);
       color: var(--red);
       border: 1px solid rgba(232, 16, 46, 0.3);
-      font-size: 8px;
+      font-size: 10px;
       font-weight: 700;
       letter-spacing: .08em;
       text-transform: uppercase;
@@ -1145,23 +1388,6 @@
     }
 
     /* COACHING */
-    .coaching-panel {
-      border-top: 1px solid var(--border);
-      background: var(--bg2);
-      padding: 1.25rem 2rem;
-      overflow-y: auto;
-      max-height: 300px;
-      flex-shrink: 0;
-    }
-
-    .coaching-panel::-webkit-scrollbar {
-      width: 4px;
-    }
-
-    .coaching-panel::-webkit-scrollbar-thumb {
-      background: var(--border2);
-      border-radius: 2px;
-    }
 
     .coach-grid {
       display: grid;
@@ -1172,7 +1398,7 @@
     .coach-section {}
 
     .coach-sec-title {
-      font-size: 9px;
+      font-size: 11px;
       font-weight: 700;
       letter-spacing: .1em;
       text-transform: uppercase;
@@ -1223,7 +1449,7 @@
     }
 
     .coach-list li {
-      font-size: 10px;
+      font-size: 12px;
       color: var(--gray1);
       line-height: 1.55;
       padding-left: 12px;
@@ -1261,7 +1487,7 @@
     }
 
     .rephrase-orig {
-      font-size: 10px;
+      font-size: 12px;
       color: var(--gray2);
       font-style: italic;
       margin-bottom: 4px;
@@ -1269,14 +1495,14 @@
     }
 
     .rephrase-arrow {
-      font-size: 9px;
+      font-size: 11px;
       color: var(--gray2);
       margin-bottom: 3px;
       font-family: var(--mono);
     }
 
     .rephrase-better {
-      font-size: 10px;
+      font-size: 12px;
       color: var(--green);
       font-weight: 600;
       line-height: 1.5;
@@ -1301,7 +1527,7 @@
       border-radius: 4px;
       padding: 7px 14px;
       font-family: var(--font);
-      font-size: 10px;
+      font-size: 11px;
       font-weight: 700;
       letter-spacing: .08em;
       text-transform: uppercase;
@@ -1335,7 +1561,7 @@
       border-radius: 4px;
       padding: 7px 14px;
       font-family: var(--font);
-      font-size: 10px;
+      font-size: 11px;
       font-weight: 700;
       letter-spacing: .08em;
       text-transform: uppercase;
@@ -1378,7 +1604,7 @@
     }
 
     .footer-sub {
-      font-size: 9px;
+      font-size: 11px;
       color: var(--gray2);
       letter-spacing: .04em;
       text-transform: uppercase;
@@ -1406,7 +1632,7 @@
     }
 
     .footer-ejust {
-      font-size: 8px;
+      font-size: 10px;
       font-weight: 700;
       letter-spacing: .12em;
       text-transform: uppercase;
@@ -1419,7 +1645,7 @@
     }
 
     .footer-team-label {
-      font-size: 9px;
+      font-size: 11px;
       font-weight: 700;
       letter-spacing: .1em;
       text-transform: uppercase;
@@ -1429,7 +1655,7 @@
     }
 
     .footer-names {
-      font-size: 10px;
+      font-size: 12px;
       color: var(--gray1);
       line-height: 1.7;
     }
@@ -1440,7 +1666,7 @@
     }
 
     .footer-supervisor {
-      font-size: 9px;
+      font-size: 11px;
       color: var(--gray2);
       margin-top: 3px;
       font-family: var(--mono);
@@ -1511,10 +1737,12 @@
         <div class="nav-sub">Egypt Japan University of Science &amp; Technology</div>
       </div>
     </div>
-    <div class="nav-dots">
-      <div class="dot active" id="d1"></div>
-      <div class="dot" id="d2"></div>
-      <div class="dot" id="d3"></div>
+    <div class="step-chips">
+      <span class="chip" id="d1">Upload</span>
+      <span class="chip-sep">›</span>
+      <span class="chip" id="d2">Analysing</span>
+      <span class="chip-sep">›</span>
+      <span class="chip" id="d3">Results</span>
     </div>
   </nav>
 
@@ -1593,7 +1821,7 @@
             </svg></div>
           <div class="st-info">
             <div class="st-name">Speech-to-Text + Diarization</div>
-            <div class="st-detail">Whisper STT · ahmedosamaa/CallScript-Diarizer</div>
+            <div class="st-detail" id="sd1">Waiting to start…</div>
           </div>
           <div class="st-status" id="ss1">Waiting</div>
         </div>
@@ -1605,7 +1833,7 @@
             </svg></div>
           <div class="st-info">
             <div class="st-name">Intent Classification</div>
-            <div class="st-detail">DualHead RoBERTa-large · SBERT ensemble · 78 fine intents</div>
+            <div class="st-detail" id="sd2">Waiting for transcript…</div>
           </div>
           <div class="st-status" id="ss2">Waiting</div>
         </div>
@@ -1617,7 +1845,7 @@
             </svg></div>
           <div class="st-info">
             <div class="st-name">RAG Policy Validation</div>
-            <div class="st-detail">FAISS · all-MiniLM-L6-v2 · Llama-4 Scout Judge</div>
+            <div class="st-detail" id="sd3">Waiting for intent result…</div>
           </div>
           <div class="st-status" id="ss3">Waiting</div>
         </div>
@@ -1629,7 +1857,7 @@
             </svg></div>
           <div class="st-info">
             <div class="st-name">Scoring &amp; Coaching Report</div>
-            <div class="st-detail">Compliance grading · Personalised recommendations</div>
+            <div class="st-detail" id="sd4">Waiting for policy results…</div>
           </div>
           <div class="st-status" id="ss4">Waiting</div>
         </div>
@@ -1669,6 +1897,7 @@
           <div class="grade-wrap">
             <div class="grade-badge col-red" id="r-grade">—</div>
             <div class="grade-lbl">Overall Grade</div>
+            <div class="grade-status" id="r-grade-status"></div>
           </div>
         </div>
 
@@ -1705,35 +1934,57 @@
 
       <!-- RIGHT -->
       <div class="right-col">
-        <div class="transcript-panel">
-          <div class="panel-header">
-            <div class="panel-label">// call transcript</div>
-            <div class="legend">
-              <div class="leg-item">
-                <div class="leg-dot ag"></div>Agent
-              </div>
-              <div class="leg-item">
-                <div class="leg-dot cx"></div>Customer
-              </div>
-              <div class="leg-item">
-                <div class="leg-dot vl"></div>Violation
+        <!-- TAB BAR -->
+        <div class="tab-bar">
+          <div class="tab" id="tab-coaching" onclick="switchTab('coaching')">
+            <span class="tab-icon">✦</span>
+            Coaching
+            <span class="tab-badge-count" id="coaching-tab-badge"></span>
+          </div>
+          <div class="tab active" id="tab-transcript" onclick="switchTab('transcript')">
+            <span class="tab-icon">≡</span>
+            Transcript
+          </div>
+          <div class="tab tab--dev" id="tab-json" onclick="switchTab('json')">
+            <span class="tab-icon">{ }</span>
+            Raw JSON
+          </div>
+        </div>
+
+        <!-- TAB PANELS -->
+        <div class="tab-panels">
+          <div class="tab-panel active" id="panel-transcript">
+            <div class="panel-header">
+              <div class="panel-label">// call transcript</div>
+              <div class="legend">
+                <div class="leg-item"><div class="leg-dot ag"></div>Agent</div>
+                <div class="leg-item"><div class="leg-dot cx"></div>Customer</div>
+                <div class="leg-item"><div class="leg-dot vl"></div>Violation</div>
               </div>
             </div>
+            <div id="r-transcript"></div>
           </div>
-          <div id="r-transcript"></div>
+
+          <div class="tab-panel" id="panel-coaching">
+            <div class="coach-grid" id="r-coaching"></div>
+          </div>
+
+          <div class="tab-panel" id="panel-json">
+            <div class="json-hint">
+              <span class="json-hint-arrow">↓</span>
+              Full evaluation payload — use Download JSON in the footer to save
+            </div>
+            <pre class="json-pre" id="r-json-pre"></pre>
+          </div>
         </div>
 
-        <div class="coaching-panel">
-          <div class="panel-label" style="margin-bottom:1rem">// coaching report</div>
-          <div class="coach-grid" id="r-coaching"></div>
-        </div>
-
+        <!-- FOOTER -->
         <div class="res-footer">
           <button class="btn-dl" id="btn-dl">
-            <svg viewBox="0 0 24 24">
-              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
-              <polyline points="7 10 12 15 17 10" />
-              <line x1="12" y1="15" x2="12" y2="3" />
+            <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
             </svg>
             Download JSON
           </button>
@@ -1778,10 +2029,29 @@
       document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
       document.getElementById(id).classList.add('active');
     }
+    function switchTab(name) {
+      ['transcript', 'coaching', 'json'].forEach(t => {
+        document.getElementById('tab-' + t).classList.toggle('active', t === name);
+        document.getElementById('panel-' + t).classList.toggle('active', t === name);
+      });
+    }
+    function scrollToTurn(n) {
+      switchTab('transcript');
+      const turns = document.querySelectorAll('#r-transcript .turn');
+      const target = turns[n - 1];
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        const bubble = target.querySelector('.turn-bubble');
+        if (bubble) {
+          bubble.classList.add('flash-turn');
+          setTimeout(() => bubble.classList.remove('flash-turn'), 600);
+        }
+      }
+    }
     function setDots(n) {
       [1, 2, 3].forEach(i => {
-        const d = document.getElementById('d' + i);
-        d.className = 'dot' + (i === n ? ' active' : i < n ? ' done' : '');
+        const el = document.getElementById('d' + i);
+        el.className = 'chip' + (i === n ? ' active' : i < n ? ' done' : '');
       });
     }
     function toast(msg, ms = 4000) {
@@ -1831,24 +2101,65 @@
     btnStart.addEventListener('click', () => { if (currentCallId) startLoading(); });
 
     // ── LOADING ──
+    const STAGE_MESSAGES = [
+      {
+        running: 'Transcribing audio · processing speech…',
+        done:    null   // filled dynamically from API response
+      },
+      {
+        running: 'Classifying intent across 78 categories…',
+        done:    null   // filled from result
+      },
+      {
+        running: 'Retrieving policy rules · querying LLM judge…',
+        done:    null   // filled from result
+      },
+      {
+        running: 'Generating score and coaching report…',
+        done:    null   // filled from result
+      }
+    ];
+
     function startLoading() {
-      show('s-loading'); setDots(2);
+      show('s-loading');
+      setDots(2);
       document.getElementById('load-callid').textContent = '> ' + currentCallId;
+
+      // Reset all stage detail text to waiting state
+      document.getElementById('sd1').textContent = 'Waiting to start…';
+      document.getElementById('sd2').textContent = 'Waiting for transcript…';
+      document.getElementById('sd3').textContent = 'Waiting for intent result…';
+      document.getElementById('sd4').textContent = 'Waiting for policy results…';
+
       const durations = [2600, 1800, 3000, 2000];
-      const pcts = [22, 48, 75, 100];
+      const pcts      = [22,   48,   75,   100];
       let i = 0;
+
       function next() {
         if (i >= 4) { fetchAndRender(); return; }
-        const st = document.getElementById('st' + (i + 1));
-        const ss = document.getElementById('ss' + (i + 1));
-        st.className = 'stage running'; ss.textContent = 'Running';
-        document.getElementById('load-bar').style.width = (pcts[i] - 18) + '%';
+
+        const st  = document.getElementById('st'  + (i + 1));
+        const ss  = document.getElementById('ss'  + (i + 1));
+        const sd  = document.getElementById('sd'  + (i + 1));
+
+        st.className     = 'stage running';
+        ss.textContent   = 'Running';
+        sd.textContent   = STAGE_MESSAGES[i].running;
+
+        document.getElementById('load-bar').style.width =
+          (pcts[i] - 18) + '%';
+
         setTimeout(() => {
-          st.className = 'stage done'; ss.textContent = 'Done';
+          st.className   = 'stage done';
+          ss.textContent = 'Done';
+          // Done message: use dynamic value if set, else fallback
+          sd.textContent = STAGE_MESSAGES[i].done || '✓ Complete';
           document.getElementById('load-bar').style.width = pcts[i] + '%';
-          i++; setTimeout(next, 250);
+          i++;
+          setTimeout(next, 250);
         }, durations[i]);
       }
+
       next();
     }
 
@@ -1866,6 +2177,70 @@
         const transcript = await trR.json();
         const coaching = coR.ok ? await coR.json() : null;
         fullData = { result, transcript, coaching };
+
+        // Back-fill stage done messages with real data
+        const tr = transcript;
+        const re = result;
+
+        const speakerCount = tr.speaker_count
+          ?? (tr.transcript
+            ? [...new Set(tr.transcript.map(t => t.speaker))].length
+            : null);
+        const turnCount    = tr.transcript?.length ?? null;
+        const duration     = tr.duration_seconds
+          ? Math.floor(tr.duration_seconds / 60) + 'm '
+            + (tr.duration_seconds % 60) + 's'
+          : null;
+
+        STAGE_MESSAGES[0].done = [
+          speakerCount ? `Detected ${speakerCount} speakers` : null,
+          turnCount    ? `${turnCount} turns`                : null,
+          duration     ? duration                            : null
+        ].filter(Boolean).join(' · ') || '✓ Transcription complete';
+
+        const fineLabel    = re.fine_label_expected || tr.intent || null;
+        const confidence   = re.intent_confidence
+          ? Math.round(re.intent_confidence * 100) + '% confidence'
+          : null;
+
+        STAGE_MESSAGES[1].done = fineLabel
+          ? ['Matched →', fineLabel.replace(/_/g, ' '),
+             confidence ? `(${confidence})` : '']
+              .filter(Boolean).join(' ')
+          : '✓ Intent classified';
+
+        const violCount  = (re.violations || []).length;
+        const rulesCount = re.rules_checked ?? null;
+
+        STAGE_MESSAGES[2].done = [
+          rulesCount  ? `Checked ${rulesCount} rules` : null,
+          violCount === 0
+            ? 'No violations found'
+            : `${violCount} violation${violCount !== 1 ? 's' : ''} flagged`
+        ].filter(Boolean).join(' · ') || '✓ Validation complete';
+
+        const finalScore = Math.round(re.score?.final_score || 0);
+        const grade      = re.score?.grade || null;
+        const coachCount = (coaching?.strengths?.length    || 0)
+                         + (coaching?.improvements?.length || 0)
+                         + (coaching?.rephrasing?.length   || 0);
+
+        STAGE_MESSAGES[3].done = [
+          finalScore ? `Score: ${finalScore}/100` : null,
+          grade      ? `Grade ${grade}`           : null,
+          coachCount ? `${coachCount} coaching items` : null
+        ].filter(Boolean).join(' · ') || '✓ Report complete';
+
+        // Update any stages already showing '✓ Complete'
+        // with the real done message
+        [1, 2, 3, 4].forEach(n => {
+          const st = document.getElementById('st' + n);
+          const sd = document.getElementById('sd' + n);
+          if (st.classList.contains('done') && STAGE_MESSAGES[n-1].done) {
+            sd.textContent = STAGE_MESSAGES[n-1].done;
+          }
+        });
+
         renderResults(result, transcript, coaching);
       } catch (err) {
         toast('Error: ' + err.message);
@@ -1876,6 +2251,7 @@
     // ── RENDER ──
     function renderResults(result, transcript, coaching) {
       show('s-results'); setDots(3);
+      switchTab('transcript');
 
       // Top bar
       document.getElementById('r-callid').textContent = result.call_id || currentCallId;
@@ -1914,6 +2290,27 @@
       gb.textContent = grade;
       gb.className = 'grade-badge ' + col;
 
+      const gs = document.getElementById('r-grade-status');
+      if (finalScore >= 85) {
+        gs.textContent = "Meets compliance standard";
+        gs.style.color = "var(--green)";
+      } else if (finalScore >= 65) {
+        gs.textContent = "Borderline — review recommended";
+        gs.style.color = "var(--amber)";
+      } else {
+        gs.textContent = "Below threshold — review required";
+        gs.style.color = "var(--red)";
+      }
+
+      const leftCol = document.querySelector('.left-col');
+      if (finalScore >= 85) {
+        leftCol.style.background = 'linear-gradient(180deg, rgba(0,217,126,0.03) 0%, transparent 300px)';
+      } else if (finalScore >= 65) {
+        leftCol.style.background = 'linear-gradient(180deg, rgba(246,166,35,0.04) 0%, transparent 300px)';
+      } else {
+        leftCol.style.background = '';
+      }
+
       // Sub bars
       function setSub(idVal, idBar, val) {
         const v = Math.round(val || 0);
@@ -1930,14 +2327,61 @@
       // Violations
       const viols = result.violations || [];
       const vContainer = document.getElementById('r-violations');
+
       if (!viols.length) {
-        vContainer.innerHTML = `<div class="no-viol"><div class="no-viol-icon">✓</div><div class="no-viol-text">No violations detected</div></div>`;
+        // ── Compliant state ──
+        // 1. Turn the score number green
+        document.getElementById('r-score').style.color = 'var(--green)';
+
+        // 2. Pulse the grade badge
+        const gradeBadge = document.getElementById('r-grade');
+        gradeBadge.classList.add('pulse-green');
+
+        // 3. Update section label
+        const secLabel = vContainer.closest('.sec')
+          ?.querySelector('.sec-label');
+        if (secLabel) secLabel.textContent = '// call compliance';
+
+        // 4. Build the compliant hero block
+        const policyVal  = Math.round(score.policy_compliance || 0);
+        const resVal     = Math.round(score.issue_resolution?.score || 0);
+        const commVal    = Math.round(score.communication?.score || 0);
+
+        vContainer.innerHTML = `
+          <div class="compliant-hero anim-in">
+            <div class="compliant-check">
+              <svg viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"/>
+              </svg>
+            </div>
+            <div class="compliant-title">Fully Compliant</div>
+            <div class="compliant-sub">0 violations · all policies met</div>
+          </div>
+          <div class="compliant-stats anim-in">
+            <div class="cstat">
+              <span class="cstat-label">Policy Compliance</span>
+              <span class="cstat-val">${policyVal}/100</span>
+            </div>
+            <div class="cstat">
+              <span class="cstat-label">Issue Resolution</span>
+              <span class="cstat-val">${resVal}/100</span>
+            </div>
+            <div class="cstat">
+              <span class="cstat-label">Communication</span>
+              <span class="cstat-val">${commVal}/100</span>
+            </div>
+          </div>
+        `;
       } else {
+        // ── Violation state (existing behaviour, unchanged) ──
         vContainer.innerHTML = viols.map(v => `
-      <div class="viol-item">
-        <div class="viol-policy">${v.violated_policy || v.rule || '—'}</div>
-        <div class="viol-evidence">${v.evidence || v.reason || '—'}</div>
-      </div>`).join('');
+          <div class="viol-item ${v.turn ? 'clickable' : ''}" ${v.turn ? `onclick="scrollToTurn(${v.turn})"` : ''}>
+            <div class="viol-header">
+              <div class="viol-policy">${v.violated_policy || v.rule || '—'}</div>
+              ${v.turn ? `<div class="viol-turn-chip">Turn #${v.turn}</div>` : ''}
+            </div>
+            <div class="viol-evidence">${v.evidence || v.reason || '—'}</div>
+          </div>`).join('');
       }
 
       // Transcript
@@ -2007,6 +2451,30 @@
         }
       }
 
+      // JSON tab
+      if (fullData) {
+        document.getElementById('r-json-pre').textContent =
+          JSON.stringify(fullData, null, 2);
+      }
+
+      // Coaching tab badge
+      const badge = document.getElementById('coaching-tab-badge');
+      if (viols.length > 0) {
+        badge.textContent = viols.length + (viols.length === 1 ? ' issue' : ' issues');
+        badge.className = 'tab-badge-count tab-badge-count--warn show';
+      } else {
+        const coachingItemCount =
+          (coaching?.strengths?.length || 0) +
+          (coaching?.improvements?.length || 0) +
+          (coaching?.rephrasing?.length || 0);
+        if (coachingItemCount > 0) {
+          badge.textContent = coachingItemCount;
+          badge.className = 'tab-badge-count show';
+        } else {
+          badge.className = 'tab-badge-count';
+        }
+      }
+
       // Download
       document.getElementById('btn-dl').onclick = () => {
         const blob = new Blob([JSON.stringify(fullData, null, 2)], { type: 'application/json' });
@@ -2025,8 +2493,46 @@
       [1, 2, 3, 4].forEach(i => {
         document.getElementById('st' + i).className = 'stage';
         document.getElementById('ss' + i).textContent = 'Waiting';
+        // reset detail to waiting message
+        const waitingMessages = [
+          'Waiting to start…',
+          'Waiting for transcript…',
+          'Waiting for intent result…',
+          'Waiting for policy results…'
+        ];
+        document.getElementById('sd' + i).textContent = waitingMessages[i - 1];
       });
+
+      // Also reset STAGE_MESSAGES done values
+      STAGE_MESSAGES.forEach(s => s.done = null);
+
+      // Reset score number color
+      const scoreEl = document.getElementById('r-score');
+      if (scoreEl) scoreEl.style.color = '';
+
+      // Remove grade badge pulse
+      const gradeEl = document.getElementById('r-grade');
+      if (gradeEl) gradeEl.classList.remove('pulse-green');
+
+      const leftCol = document.querySelector('.left-col');
+      if (leftCol) leftCol.style.background = '';
+      
+      const gs = document.getElementById('r-grade-status');
+      if (gs) {
+        gs.textContent = '';
+        gs.style.color = '';
+      }
+
+      // Reset section label back to default
+      const vContainer = document.getElementById('r-violations');
+      if (vContainer) {
+        const secLabel = vContainer.closest('.sec')
+          ?.querySelector('.sec-label');
+        if (secLabel) secLabel.textContent = '// policy violations';
+      }
+
       document.getElementById('load-bar').style.width = '0%';
+      switchTab('transcript');
       show('s-upload'); setDots(1);
     }
   </script>
