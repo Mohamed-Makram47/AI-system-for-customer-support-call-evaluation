@@ -37,7 +37,22 @@
         "reason": "The agent did not take further action to resolve the issue."
       }
     ],
-    "overall_summary": "The agent failed to adequately verify transfer details, check transfer status, provide a clear timeline, and investigate the discrepancy, leading to an unresolved issue."
+    "overall_summary": "The agent failed to adequately verify transfer details, check transfer status, provide a clear timeline, and investigate the discrepancy, leading to an unresolved issue.",
+    "score": {
+      "call_id": "balance_not_updated_ambiguous_1",
+      "policy_compliance": 16.7,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not take action, provide a solution, or give clear next steps to resolve the issue of the balance not updating after a bank transfer.",
+        "score": 40
+      },
+      "communication": {
+        "score": 70,
+        "note": "The agent's responses were somewhat dismissive and lacking in empathy, but still polite and professional."
+      },
+      "final_score": 34.3,
+      "grade": "D"
+    }
   },
   {
     "call_id": "balance_not_updated_bad_1",
@@ -71,7 +86,22 @@
         "reason": "The agent stated they don't do that unless it's been missing for three working days."
       }
     ],
-    "overall_summary": "The agent failed to adequately address the customer's concerns regarding the delayed update of their account balance after a bank transfer, neglecting to verify transfer details, check transfer status, provide a clear timeline, investigate discrepancies, or offer tracking information."
+    "overall_summary": "The agent failed to adequately address the customer's concerns regarding the delayed update of their account balance after a bank transfer, neglecting to verify transfer details, check transfer status, provide a clear timeline, investigate discrepancies, or offer tracking information.",
+    "score": {
+      "call_id": "balance_not_updated_bad_1",
+      "policy_compliance": 33.3,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not take action or provide a clear solution, instead advising the customer to wait without offering any further assistance.",
+        "score": 40
+      },
+      "communication": {
+        "score": 40,
+        "note": "The agent's responses came across as dismissive and unhelpful, with a tone that seemed to imply the customer's issue was not a priority."
+      },
+      "final_score": 36.7,
+      "grade": "D"
+    }
   },
   {
     "call_id": "balance_not_updated_good_1",
@@ -80,7 +110,22 @@
     "recovered": true,
     "recovery_note": "",
     "violations": [],
-    "overall_summary": "The agent effectively addressed the customer's concern about the delayed update of their account balance after a bank transfer, providing a clear explanation and a plan for follow-up."
+    "overall_summary": "The agent effectively addressed the customer's concern about the delayed update of their account balance after a bank transfer, providing a clear explanation and a plan for follow-up.",
+    "score": {
+      "call_id": "balance_not_updated_good_1",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not provide a clear resolution, only suggesting to call back if the issue persists by 5 PM.",
+        "score": 40
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent was professional, empathetic, and clear in their communication, providing a reasonable explanation and next steps."
+      },
+      "final_score": 82.0,
+      "grade": "B"
+    }
   },
   {
     "call_id": "balance_not_updated_good_2",
@@ -89,7 +134,22 @@
     "recovered": true,
     "recovery_note": "The agent successfully verified the transfer details, checked the transfer status, and provided a timeline for the transfer to be reflected in the customer's account.",
     "violations": [],
-    "overall_summary": "The agent effectively resolved the customer's issue by verifying the transfer details, checking the transfer status, and providing a timeline for the transfer to be reflected in the customer's account, ultimately ensuring the customer was satisfied with the outcome."
+    "overall_summary": "The agent effectively resolved the customer's issue by verifying the transfer details, checking the transfer status, and providing a timeline for the transfer to be reflected in the customer's account, ultimately ensuring the customer was satisfied with the outcome.",
+    "score": {
+      "call_id": "balance_not_updated_good_2",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent provided a clear explanation of the transfer process, checked the account, and offered next steps for if the issue persists.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent was professional, empathetic, and clear in their communication, providing a helpful and reassuring interaction."
+      },
+      "final_score": 100.0,
+      "grade": "A"
+    }
   },
   {
     "call_id": "balance_not_updated_incomplete_1",
@@ -135,7 +195,22 @@
         "reason": "The agent did not provide any tracking information to facilitate tracking of the transfer."
       }
     ],
-    "overall_summary": "The agent failed to follow the required policies and procedures for handling a transfer discrepancy, instead transferring the customer to the transfers team without attempting to verify or investigate the issue."
+    "overall_summary": "The agent failed to follow the required policies and procedures for handling a transfer discrepancy, instead transferring the customer to the transfers team without attempting to verify or investigate the issue.",
+    "score": {
+      "call_id": "balance_not_updated_incomplete_1",
+      "policy_compliance": 0.0,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not resolve the issue, but instead transferred the customer to another team without providing a clear solution or next steps.",
+        "score": 40
+      },
+      "communication": {
+        "score": 70,
+        "note": "The agent's communication was professional and empathetic, but could improve on providing more clarity on the next steps and not dismissing the customer's concern too quickly."
+      },
+      "final_score": 26.0,
+      "grade": "D"
+    }
   },
   {
     "call_id": "balance_not_updated_noise_1",
@@ -144,7 +219,22 @@
     "recovered": true,
     "recovery_note": "",
     "violations": [],
-    "overall_summary": "The agent effectively addressed the customer's concern about a missing transfer, provided a clear explanation of the transfer status, and offered a plan for further investigation if needed."
+    "overall_summary": "The agent effectively addressed the customer's concern about a missing transfer, provided a clear explanation of the transfer status, and offered a plan for further investigation if needed.",
+    "score": {
+      "call_id": "balance_not_updated_noise_1",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not confirm if the customer's balance was updated after the bank transfer and only provided a general expectation of when the transfer would clear.",
+        "score": 40
+      },
+      "communication": {
+        "score": 70,
+        "note": "The agent's communication was professional and clear, but lacked empathy and did not fully address the customer's concern."
+      },
+      "final_score": 76.0,
+      "grade": "B"
+    }
   },
   {
     "call_id": "balance_not_updated_recovery_2",
@@ -160,7 +250,22 @@
         "reason": "The agent did not follow Rule 1, but the issue was resolved through other means."
       }
     ],
-    "overall_summary": "The agent effectively resolved the customer's concern by providing a clear explanation for the delay in updating their balance, despite an initial misstep."
+    "overall_summary": "The agent effectively resolved the customer's concern by providing a clear explanation for the delay in updating their balance, despite an initial misstep.",
+    "score": {
+      "call_id": "balance_not_updated_recovery_2",
+      "policy_compliance": 80.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent provided a clear explanation and a solution to the customer's issue, confirming the expected arrival time of the salary payment.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear, showing understanding and apologizing for the initial implication of a problem."
+      },
+      "final_score": 90.0,
+      "grade": "A"
+    }
   },
   {
     "call_id": "balance_not_updated_recovery_1",
@@ -176,7 +281,22 @@
         "reason": "The agent did not ask for the deposit details in the initial turns."
       }
     ],
-    "overall_summary": "The agent provided a satisfactory resolution to the customer's issue, verifying the deposit details, checking hold periods, and providing a clear timeline for resolution."
+    "overall_summary": "The agent provided a satisfactory resolution to the customer's issue, verifying the deposit details, checking hold periods, and providing a clear timeline for resolution.",
+    "score": {
+      "call_id": "balance_not_updated_recovery_1",
+      "policy_compliance": 80.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent provided a clear explanation for the delay in updating the balance and offered a specific next step to escalate the issue if not resolved by 4 PM.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear, showing a willingness to help and apologize for the initial procedural mistake."
+      },
+      "final_score": 90.0,
+      "grade": "A"
+    }
   },
   {
     "call_id": "cancel_transfer_ambiguous_1",
@@ -210,7 +330,22 @@
         "reason": "The agent did not retrieve and provide the transfer details, including a reference number, to the customer."
       }
     ],
-    "overall_summary": "The agent's performance was inadequate as they failed to follow key policies for handling a misdirected payment, including verifying transfer status, initiating a recall request correctly, providing a cancellation timeframe, and retrieving transfer details."
+    "overall_summary": "The agent's performance was inadequate as they failed to follow key policies for handling a misdirected payment, including verifying transfer status, initiating a recall request correctly, providing a cancellation timeframe, and retrieving transfer details.",
+    "score": {
+      "call_id": "cancel_transfer_ambiguous_1",
+      "policy_compliance": 42.9,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not provide a clear resolution or next steps beyond suggesting to 'leave it a day and see what happens' and potentially calling back.",
+        "score": 40
+      },
+      "communication": {
+        "score": 70,
+        "note": "The agent's communication was generally professional but lacked empathy and clear explanations, with some uncertainty and vague suggestions."
+      },
+      "final_score": 47.4,
+      "grade": "D"
+    }
   },
   {
     "call_id": "cancel_transfer_bad_1",
@@ -250,7 +385,22 @@
         "reason": "The agent did not offer a more helpful alternative solution."
       }
     ],
-    "overall_summary": "The agent failed to adequately address the customer's concerns and did not follow the bank's policies for handling transfer cancellations."
+    "overall_summary": "The agent failed to adequately address the customer's concerns and did not follow the bank's policies for handling transfer cancellations.",
+    "score": {
+      "call_id": "cancel_transfer_bad_1",
+      "policy_compliance": 16.7,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not provide a solution or clear next steps to resolve the customer's issue with canceling a transfer.",
+        "score": 40
+      },
+      "communication": {
+        "score": 40,
+        "note": "The agent's responses came across as dismissive and unhelpful, using phrases like 'That's how Faster Payments works' and 'They'll tell you the same thing. Sorry.'"
+      },
+      "final_score": 28.3,
+      "grade": "D"
+    }
   },
   {
     "call_id": "cancel_transfer_good_1",
@@ -259,7 +409,22 @@
     "recovered": true,
     "recovery_note": "The agent successfully initiated a recall request and provided the customer with a reference number.",
     "violations": [],
-    "overall_summary": "The agent handled the call effectively, providing a clear explanation of the situation and taking prompt action to initiate a recall request, ultimately meeting the customer's urgent needs."
+    "overall_summary": "The agent handled the call effectively, providing a clear explanation of the situation and taking prompt action to initiate a recall request, ultimately meeting the customer's urgent needs.",
+    "score": {
+      "call_id": "cancel_transfer_good_1",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent took action to raise a recall request and provided clear next steps for the customer to take in parallel.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear, showing understanding of the urgency and providing helpful information."
+      },
+      "final_score": 100.0,
+      "grade": "A"
+    }
   },
   {
     "call_id": "cancel_transfer_good_2",
@@ -268,7 +433,22 @@
     "recovered": true,
     "recovery_note": "",
     "violations": [],
-    "overall_summary": "The agent effectively handled the call, initiating a recall request and providing a reference number, and clearly explaining the process and timeframe for the return of funds."
+    "overall_summary": "The agent effectively handled the call, initiating a recall request and providing a reference number, and clearly explaining the process and timeframe for the return of funds.",
+    "score": {
+      "call_id": "cancel_transfer_good_2",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent successfully initiated a recall of the transfer and provided a clear next step for the return of funds.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear throughout the conversation."
+      },
+      "final_score": 100.0,
+      "grade": "A"
+    }
   },
   {
     "call_id": "cancel_transfer_incomplete_1",
@@ -308,7 +488,22 @@
         "reason": "The agent only retrieved the transfer amount."
       }
     ],
-    "overall_summary": "The agent failed to follow the policies for canceling a transfer, resulting in an unresolved issue for the customer."
+    "overall_summary": "The agent failed to follow the policies for canceling a transfer, resulting in an unresolved issue for the customer.",
+    "score": {
+      "call_id": "cancel_transfer_incomplete_1",
+      "policy_compliance": 16.7,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent was unable to resolve the issue and instead promised a callback with details within the hour.",
+        "score": 40
+      },
+      "communication": {
+        "score": 70,
+        "note": "The agent was professional and empathetic, but the communication was somewhat unclear and lacked a specific solution or next steps beyond a promised callback."
+      },
+      "final_score": 34.3,
+      "grade": "D"
+    }
   },
   {
     "call_id": "cancel_transfer_noise_1",
@@ -317,7 +512,22 @@
     "recovered": true,
     "recovery_note": "The agent successfully initiated a recall request and provided a reference number.",
     "violations": [],
-    "overall_summary": "The agent effectively handled the call, initiated a recall request, and provided clear explanations to the customer, resulting in a successful outcome."
+    "overall_summary": "The agent effectively handled the call, initiated a recall request, and provided clear explanations to the customer, resulting in a successful outcome.",
+    "score": {
+      "call_id": "cancel_transfer_noise_1",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent successfully initiated a recall request for the transfer and provided clear next steps.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear throughout the conversation."
+      },
+      "final_score": 100.0,
+      "grade": "A"
+    }
   },
   {
     "call_id": "cancel_transfer_recovery_1",
@@ -339,7 +549,22 @@
         "reason": "The agent should have provided the customer with information about the cancellation timeframe."
       }
     ],
-    "overall_summary": "The agent initially made a mistake by not offering a recall request and not providing the customer with information about the cancellation timeframe, but quickly corrected it and initiated the recall process, ultimately resolving the issue."
+    "overall_summary": "The agent initially made a mistake by not offering a recall request and not providing the customer with information about the cancellation timeframe, but quickly corrected it and initiated the recall process, ultimately resolving the issue.",
+    "score": {
+      "call_id": "cancel_transfer_recovery_1",
+      "policy_compliance": 66.7,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent successfully resolved the customer's issue by raising a formal recall request and providing clear next steps.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear, showing a high level of customer care and a willingness to correct their own mistakes."
+      },
+      "final_score": 83.3,
+      "grade": "B"
+    }
   },
   {
     "call_id": "cancel_transfer_recovery_2",
@@ -355,7 +580,22 @@
         "reason": "The agent initially failed to follow the policy but later corrected it."
       }
     ],
-    "overall_summary": "The agent's overall performance was satisfactory as they corrected their initial mistake, provided the necessary information, and successfully initiated the recall process."
+    "overall_summary": "The agent's overall performance was satisfactory as they corrected their initial mistake, provided the necessary information, and successfully initiated the recall process.",
+    "score": {
+      "call_id": "cancel_transfer_recovery_2",
+      "policy_compliance": 85.7,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent successfully initiated a recall for the transfer and provided clear next steps.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent was professional, empathetic, and clear throughout the conversation, showing improvement from an initial mistake."
+      },
+      "final_score": 92.9,
+      "grade": "A"
+    }
   },
   {
     "call_id": "card_arrival_ambiguous_1",
@@ -389,7 +629,22 @@
         "reason": "The agent did not provide alternative delivery options, such as expedited shipping or pickup at a local branch."
       }
     ],
-    "overall_summary": "The agent failed to provide essential information and support to the customer regarding their delayed debit card, including delivery timeline, tracking, and alternative options."
+    "overall_summary": "The agent failed to provide essential information and support to the customer regarding their delayed debit card, including delivery timeline, tracking, and alternative options.",
+    "score": {
+      "call_id": "card_arrival_ambiguous_1",
+      "policy_compliance": 33.3,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not provide a solution or clear next steps beyond suggesting a callback, which was somewhat vague.",
+        "score": 40
+      },
+      "communication": {
+        "score": 70,
+        "note": "The agent's tone was generally professional but could have shown more empathy and offered a more concrete next step."
+      },
+      "final_score": 42.7,
+      "grade": "D"
+    }
   },
   {
     "call_id": "card_arrival_bad_1",
@@ -429,7 +684,22 @@
         "reason": "The agent did not offer alternative delivery options, such as expedited shipping or pickup at a local branch."
       }
     ],
-    "overall_summary": "The agent failed to provide accurate delivery timeline information, investigate the delayed delivery, provide tracking information, offer alternative delivery options, and provide a card status update, resulting in an unresolved issue for the customer."
+    "overall_summary": "The agent failed to provide accurate delivery timeline information, investigate the delayed delivery, provide tracking information, offer alternative delivery options, and provide a card status update, resulting in an unresolved issue for the customer.",
+    "score": {
+      "call_id": "card_arrival_bad_1",
+      "policy_compliance": 0.0,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not take action or provide a solution, only suggesting the customer wait or seek information elsewhere.",
+        "score": 40
+      },
+      "communication": {
+        "score": 70,
+        "note": "The agent's responses were somewhat unhelpful and dismissive, but polite and professional in tone."
+      },
+      "final_score": 26.0,
+      "grade": "D"
+    }
   },
   {
     "call_id": "card_arrival_bad_2",
@@ -469,7 +739,22 @@
         "evidence": "The agent did not provide a detailed update on the card status."
       }
     ],
-    "overall_summary": "The agent failed to provide essential information and resolve the customer's issue regarding the delayed card arrival."
+    "overall_summary": "The agent failed to provide essential information and resolve the customer's issue regarding the delayed card arrival.",
+    "score": {
+      "call_id": "card_arrival_bad_2",
+      "policy_compliance": 14.3,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not take action, provide a solution, or give clear next steps to resolve the customer's issue with their card arrival.",
+        "score": 40
+      },
+      "communication": {
+        "score": 40,
+        "note": "The agent's communication was dismissive and unhelpful, using phrases like 'not our problem' and providing unprofessional responses."
+      },
+      "final_score": 27.1,
+      "grade": "D"
+    }
   },
   {
     "call_id": "card_arrival_good_1",
@@ -503,7 +788,22 @@
         "reason": "The agent did not offer alternative delivery options."
       }
     ],
-    "overall_summary": "The agent partially resolved the customer's issue but failed to follow several policies, including providing the correct delivery timeline, tracking information, and alternative delivery options."
+    "overall_summary": "The agent partially resolved the customer's issue but failed to follow several policies, including providing the correct delivery timeline, tracking information, and alternative delivery options.",
+    "score": {
+      "call_id": "card_arrival_good_1",
+      "policy_compliance": 33.3,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent provided a clear solution and next steps for the customer to take if the card doesn't arrive by Thursday.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent was professional, empathetic, and clear in their communication, providing a helpful and courteous response to the customer's issue."
+      },
+      "final_score": 66.7,
+      "grade": "C"
+    }
   },
   {
     "call_id": "card_arrival_good_2",
@@ -531,7 +831,22 @@
         "reason": "The agent did not discuss expedited shipping options with the customer."
       }
     ],
-    "overall_summary": "The agent partially resolved the customer's concern but failed to fully comply with multiple policies regarding card delivery timelines, tracking, and expedited shipping options."
+    "overall_summary": "The agent partially resolved the customer's concern but failed to fully comply with multiple policies regarding card delivery timelines, tracking, and expedited shipping options.",
+    "score": {
+      "call_id": "card_arrival_good_2",
+      "policy_compliance": 50.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent provided a clear explanation of the card arrival process, verified the customer's address, and offered a solution for if the card doesn't arrive within a specified timeframe.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent was professional, empathetic, and clear in their communication, providing a helpful and reassuring interaction."
+      },
+      "final_score": 75.0,
+      "grade": "B"
+    }
   },
   {
     "call_id": "card_arrival_incomplete_1",
@@ -566,7 +881,22 @@
         "evidence": "The agent did not provide a detailed update on the current status of the card."
       }
     ],
-    "overall_summary": "The agent failed to provide essential information and support to the customer regarding their delayed card arrival, instead transferring the customer to the card services team without resolving the issue."
+    "overall_summary": "The agent failed to provide essential information and support to the customer regarding their delayed card arrival, instead transferring the customer to the card services team without resolving the issue.",
+    "score": {
+      "call_id": "card_arrival_incomplete_1",
+      "policy_compliance": 16.7,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not provide a solution or clear next steps, instead transferring the customer to another team without explanation.",
+        "score": 40
+      },
+      "communication": {
+        "score": 70,
+        "note": "The agent's communication was mostly professional but lacked empathy and clear explanations, leaving the customer uncertain about the next steps."
+      },
+      "final_score": 34.3,
+      "grade": "D"
+    }
   },
   {
     "call_id": "card_arrival_noise_1",
@@ -601,7 +931,22 @@
         "evidence": "The agent didn't check or inform the customer about expedited shipping options."
       }
     ],
-    "overall_summary": "The agent failed to fully address the customer's concerns by not providing a clear delivery timeline, tracking information, investigating delayed delivery, offering alternative delivery options, or informing about expedited shipping."
+    "overall_summary": "The agent failed to fully address the customer's concerns by not providing a clear delivery timeline, tracking information, investigating delayed delivery, offering alternative delivery options, or informing about expedited shipping.",
+    "score": {
+      "call_id": "card_arrival_noise_1",
+      "policy_compliance": 16.7,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent checked the status of the card dispatch, provided a clear expectation for delivery, and offered a clear next step if the card doesn't arrive.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear throughout the conversation."
+      },
+      "final_score": 58.3,
+      "grade": "D"
+    }
   },
   {
     "call_id": "card_arrival_recovery_1",
@@ -610,7 +955,22 @@
     "recovered": true,
     "recovery_note": "",
     "violations": [],
-    "overall_summary": "The agent provided a satisfactory resolution to the customer's inquiry about a delayed replacement card, offering a clear timeline and next steps."
+    "overall_summary": "The agent provided a satisfactory resolution to the customer's inquiry about a delayed replacement card, offering a clear timeline and next steps.",
+    "score": {
+      "call_id": "card_arrival_recovery_1",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent provided a clear solution and next steps, including adding a note to the customer's account to prevent re-explanation if they call back.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear throughout the conversation."
+      },
+      "final_score": 100.0,
+      "grade": "A"
+    }
   },
   {
     "call_id": "card_blocked_ambiguous_1",
@@ -638,7 +998,22 @@
         "reason": "The agent didn't provide a suitable alternative solution."
       }
     ],
-    "overall_summary": "The agent failed to provide a clear explanation of the card status, didn't investigate the reason for the block, and didn't offer a concrete solution to resolve the issue."
+    "overall_summary": "The agent failed to provide a clear explanation of the card status, didn't investigate the reason for the block, and didn't offer a concrete solution to resolve the issue.",
+    "score": {
+      "call_id": "card_blocked_ambiguous_1",
+      "policy_compliance": 62.5,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not provide a definitive solution or clear next steps to resolve the issue immediately, instead suggesting a possible escalation and offering an alternative payment method.",
+        "score": 40
+      },
+      "communication": {
+        "score": 70,
+        "note": "The agent's communication was generally professional and empathetic, but could improve on providing more reassurance and clear explanations to the customer."
+      },
+      "final_score": 57.2,
+      "grade": "D"
+    }
   },
   {
     "call_id": "card_blocked_ambiguous_2",
@@ -666,7 +1041,22 @@
         "reason": "The agent did not offer alternative solutions."
       }
     ],
-    "overall_summary": "The agent did not fully resolve the issue or provide clear explanations and alternatives to the customer."
+    "overall_summary": "The agent did not fully resolve the issue or provide clear explanations and alternatives to the customer.",
+    "score": {
+      "call_id": "card_blocked_ambiguous_2",
+      "policy_compliance": 50.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent took action to submit a request to remove the system flag and provided clear next steps for the customer to try again at lunchtime.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear throughout the conversation."
+      },
+      "final_score": 75.0,
+      "grade": "B"
+    }
   },
   {
     "call_id": "card_blocked_bad_1",
@@ -694,7 +1084,22 @@
         "reason": "The agent did not offer alternative payment solutions"
       }
     ],
-    "overall_summary": "The agent failed to adequately address the customer's issue, neglecting to check the card status, investigate potential blocks, and offer alternative solutions, ultimately requiring the customer to visit a branch."
+    "overall_summary": "The agent failed to adequately address the customer's issue, neglecting to check the card status, investigate potential blocks, and offer alternative solutions, ultimately requiring the customer to visit a branch.",
+    "score": {
+      "call_id": "card_blocked_bad_1",
+      "policy_compliance": 50.0,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not provide a clear solution or next steps that could be taken immediately to resolve the issue.",
+        "score": 40
+      },
+      "communication": {
+        "score": 70,
+        "note": "The agent's responses were somewhat helpful but came across as slightly dismissive and unempathetic, particularly with phrases like 'Sometimes cards just stop working' and 'Sorry' at the end."
+      },
+      "final_score": 51.0,
+      "grade": "D"
+    }
   },
   {
     "call_id": "card_blocked_good_1",
@@ -703,7 +1108,22 @@
     "recovered": true,
     "recovery_note": "",
     "violations": [],
-    "overall_summary": "The agent effectively resolved the customer's issue with their card not working by identifying the cause, removing the fraud prevention hold, and adding a travel note to prevent future issues."
+    "overall_summary": "The agent effectively resolved the customer's issue with their card not working by identifying the cause, removing the fraud prevention hold, and adding a travel note to prevent future issues.",
+    "score": {
+      "call_id": "card_blocked_good_1",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent successfully resolved the customer's issue by removing the fraud prevention hold and adding a travel note to the account.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear throughout the conversation."
+      },
+      "final_score": 100.0,
+      "grade": "A"
+    }
   },
   {
     "call_id": "card_blocked_incomplete_1",
@@ -731,7 +1151,22 @@
         "reason": "The agent only mentioned that the queue might be a few minutes, but did not provide any alternative payment solutions."
       }
     ],
-    "overall_summary": "The agent's performance was inadequate as they failed to verify the card status, investigate potential blocks, and offer alternative solutions, ultimately transferring the customer to the fraud team without resolving the issue."
+    "overall_summary": "The agent's performance was inadequate as they failed to verify the card status, investigate potential blocks, and offer alternative solutions, ultimately transferring the customer to the fraud team without resolving the issue.",
+    "score": {
+      "call_id": "card_blocked_incomplete_1",
+      "policy_compliance": 40.0,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not resolve the issue themselves but transferred the customer to another team.",
+        "score": 40
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear throughout the interaction."
+      },
+      "final_score": 52.0,
+      "grade": "D"
+    }
   },
   {
     "call_id": "card_blocked_noise_1",
@@ -740,7 +1175,22 @@
     "recovered": true,
     "recovery_note": "",
     "violations": [],
-    "overall_summary": "The agent effectively resolved the customer's issue with their card not working by lifting the temporary fraud hold and adding a geographic travel note, ensuring the customer's card was functional and preventing future issues."
+    "overall_summary": "The agent effectively resolved the customer's issue with their card not working by lifting the temporary fraud hold and adding a geographic travel note, ensuring the customer's card was functional and preventing future issues.",
+    "score": {
+      "call_id": "card_blocked_noise_1",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent successfully resolved the customer's issue by lifting the temporary fraud hold and adding a geographic travel note.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear throughout the conversation."
+      },
+      "final_score": 100.0,
+      "grade": "A"
+    }
   },
   {
     "call_id": "card_blocked_recovery_1",
@@ -749,7 +1199,22 @@
     "recovered": true,
     "recovery_note": "",
     "violations": [],
-    "overall_summary": "The agent effectively resolved the issue with the customer's debit card, identifying and removing a block caused by a suspicious transaction, and provided additional support by flagging the account to prevent future blocks."
+    "overall_summary": "The agent effectively resolved the issue with the customer's debit card, identifying and removing a block caused by a suspicious transaction, and provided additional support by flagging the account to prevent future blocks.",
+    "score": {
+      "call_id": "card_blocked_recovery_1",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent successfully unblocked the customer's card and flagged the account to prevent similar issues in the future.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear throughout the conversation, showing understanding and providing a solution."
+      },
+      "final_score": 100.0,
+      "grade": "A"
+    }
   },
   {
     "call_id": "disputed_charge_bad_1",
@@ -784,7 +1249,22 @@
         "evidence": "The agent did not offer additional security measures, such as transaction alerts or two-factor authentication, to prevent similar incidents in the future."
       }
     ],
-    "overall_summary": "The agent failed to properly handle the customer's dispute, did not verify transaction details, and did not dispute the transaction with the card network, leading to a poor outcome for the customer."
+    "overall_summary": "The agent failed to properly handle the customer's dispute, did not verify transaction details, and did not dispute the transaction with the card network, leading to a poor outcome for the customer.",
+    "score": {
+      "call_id": "disputed_charge_bad_1",
+      "policy_compliance": 16.7,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not provide a solution or clear next steps to resolve the customer's issue with the unrecognized card payment.",
+        "score": 40
+      },
+      "communication": {
+        "score": 40,
+        "note": "The agent's tone came across as dismissive and unhelpful, using phrases like 'That's our process I'm afraid' and implying the customer's concern was invalid."
+      },
+      "final_score": 28.3,
+      "grade": "D"
+    }
   },
   {
     "call_id": "disputed_charge_bad_2",
@@ -819,7 +1299,22 @@
         "evidence": "The agent did not document the merchant information in the customer's account notes."
       }
     ],
-    "overall_summary": "The agent failed to properly handle the customer's dispute, neglecting to verify transaction details, dispute the transaction, provide a dispute resolution timeline, offer additional security measures, and document merchant information."
+    "overall_summary": "The agent failed to properly handle the customer's dispute, neglecting to verify transaction details, dispute the transaction, provide a dispute resolution timeline, offer additional security measures, and document merchant information.",
+    "score": {
+      "call_id": "disputed_charge_bad_2",
+      "policy_compliance": 28.6,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not take action, provide a solution, or give clear next steps to resolve the customer's issue with the unrecognized card payment.",
+        "score": 40
+      },
+      "communication": {
+        "score": 40,
+        "note": "The agent came across as dismissive and unhelpful, using phrases that seemed to shift the burden to the customer without offering support or alternatives."
+      },
+      "final_score": 34.3,
+      "grade": "D"
+    }
   },
   {
     "call_id": "disputed_charge_good_1",
@@ -828,7 +1323,22 @@
     "recovered": true,
     "recovery_note": "",
     "violations": [],
-    "overall_summary": "The agent efficiently handled the call, resolving the customer's concern by disputing the unauthorized transaction, providing a clear timeline for resolution, and taking precautionary measures to secure the customer's account."
+    "overall_summary": "The agent efficiently handled the call, resolving the customer's concern by disputing the unauthorized transaction, providing a clear timeline for resolution, and taking precautionary measures to secure the customer's account.",
+    "score": {
+      "call_id": "disputed_charge_good_1",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent successfully resolved the customer's issue by raising a formal dispute, placing a temporary hold on the card, and providing a clear next steps and timeline for the investigation and refund.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear throughout the conversation, showing understanding and providing reassurance to the customer."
+      },
+      "final_score": 100.0,
+      "grade": "A"
+    }
   },
   {
     "call_id": "disputed_charge_good_2",
@@ -837,7 +1347,22 @@
     "recovered": false,
     "recovery_note": "",
     "violations": [],
-    "overall_summary": "The agent effectively handled the call, resolving the customer's concern by disputing the unauthorized transaction, cancelling and reissuing the card, and providing a clear resolution timeline."
+    "overall_summary": "The agent effectively handled the call, resolving the customer's concern by disputing the unauthorized transaction, cancelling and reissuing the card, and providing a clear resolution timeline.",
+    "score": {
+      "call_id": "disputed_charge_good_2",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent successfully resolved the customer's issue by cancelling the compromised card, issuing a replacement, and raising a chargeback dispute with a provisional credit.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear throughout the conversation, showing understanding and providing helpful solutions."
+      },
+      "final_score": 100.0,
+      "grade": "A"
+    }
   },
   {
     "call_id": "disputed_charge_incomplete_1",
@@ -883,7 +1408,22 @@
         "reason": "The agent did not document the merchant information for future reference."
       }
     ],
-    "overall_summary": "The agent did not fully address the customer's concerns and did not follow all necessary policies and procedures for disputing transactions."
+    "overall_summary": "The agent did not fully address the customer's concerns and did not follow all necessary policies and procedures for disputing transactions.",
+    "score": {
+      "call_id": "disputed_charge_incomplete_1",
+      "policy_compliance": 0.0,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not resolve the issue but transferred the customer to the disputes team, providing a clear next step.",
+        "score": 40
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear throughout the conversation."
+      },
+      "final_score": 32.0,
+      "grade": "D"
+    }
   },
   {
     "call_id": "disputed_charge_noise_1",
@@ -892,7 +1432,22 @@
     "recovered": true,
     "recovery_note": "",
     "violations": [],
-    "overall_summary": "The agent effectively handled the call, resolving the customer's concern about an unrecognized transaction by disputing the transaction, providing a provisional refund, and offering additional security measures."
+    "overall_summary": "The agent effectively handled the call, resolving the customer's concern about an unrecognized transaction by disputing the transaction, providing a provisional refund, and offering additional security measures.",
+    "score": {
+      "call_id": "disputed_charge_noise_1",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent successfully resolved the customer's issue by raising a dispute, providing a provisional refund, and offering to block the card and replace it.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear throughout the conversation."
+      },
+      "final_score": 100.0,
+      "grade": "A"
+    }
   },
   {
     "call_id": "disputed_charge_recovery_1",
@@ -908,7 +1463,22 @@
         "reason": "The agent accessed account details before verifying the customer's identity"
       }
     ],
-    "overall_summary": "The agent effectively resolved the customer's issue with the disputed transaction, provided a clear dispute resolution timeline, and apologized for the initial procedural error."
+    "overall_summary": "The agent effectively resolved the customer's issue with the disputed transaction, provided a clear dispute resolution timeline, and apologized for the initial procedural error.",
+    "score": {
+      "call_id": "disputed_charge_recovery_1",
+      "policy_compliance": 83.3,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent successfully resolved the customer's issue by verifying their identity, investigating the charge, and raising a dispute for a provisional refund.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear throughout the conversation, including apologizing for a procedural error and providing a clear case reference."
+      },
+      "final_score": 91.7,
+      "grade": "A"
+    }
   },
   {
     "call_id": "card_blocked_good_2",
@@ -917,7 +1487,22 @@
     "recovered": true,
     "recovery_note": "",
     "violations": [],
-    "overall_summary": "The agent effectively handled the call, resolving the customer's issue with their compromised card by verifying their identity, flagging the account, canceling and reissuing the card, and providing guidance on next steps."
+    "overall_summary": "The agent effectively handled the call, resolving the customer's issue with their compromised card by verifying their identity, flagging the account, canceling and reissuing the card, and providing guidance on next steps.",
+    "score": {
+      "call_id": "card_blocked_good_2",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent took action to block the compromised card, generated a new card, and provided options for a temporary card or immediate Google Pay provisioning.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent was professional, empathetic, and clear in their communication, providing a helpful and apologetic tone throughout the conversation."
+      },
+      "final_score": 100.0,
+      "grade": "A"
+    }
   },
   {
     "call_id": "failed_card_payment_ambiguous_1",
@@ -926,7 +1511,22 @@
     "recovered": true,
     "recovery_note": "The agent successfully troubleshooted and potentially resolved the issue with a system refresh.",
     "violations": [],
-    "overall_summary": "The agent effectively addressed the customer's concern about their declined card payment by verifying the card status, checking for potential blocks, and performing a system refresh to potentially resolve the issue."
+    "overall_summary": "The agent effectively addressed the customer's concern about their declined card payment by verifying the card status, checking for potential blocks, and performing a system refresh to potentially resolve the issue.",
+    "score": {
+      "call_id": "failed_card_payment_ambiguous_1",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not provide a clear resolution or next steps after attempting a system refresh, instead simply instructing the customer to try again.",
+        "score": 40
+      },
+      "communication": {
+        "score": 70,
+        "note": "The agent's communication was mostly professional and clear, but lacked empathy and a sense of urgency to resolve the issue."
+      },
+      "final_score": 76.0,
+      "grade": "B"
+    }
   },
   {
     "call_id": "failed_card_payment_bad_1",
@@ -960,7 +1560,22 @@
         "reason": "The agent's solution was limited and did not fully address the customer's concerns."
       }
     ],
-    "overall_summary": "The agent did not fully investigate the cause of the declined payment and did not provide comprehensive alternative solutions to the customer."
+    "overall_summary": "The agent did not fully investigate the cause of the declined payment and did not provide comprehensive alternative solutions to the customer.",
+    "score": {
+      "call_id": "failed_card_payment_bad_1",
+      "policy_compliance": 33.3,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not provide a clear resolution or take concrete action to fix the customer's declined card payment issue.",
+        "score": 40
+      },
+      "communication": {
+        "score": 70,
+        "note": "The agent's responses were generally professional but lacked empathy and clear explanations, sometimes coming across as slightly dismissive or unhelpful."
+      },
+      "final_score": 42.7,
+      "grade": "D"
+    }
   },
   {
     "call_id": "failed_card_payment_bad_2",
@@ -988,7 +1603,22 @@
         "reason": "The agent simply told the customer to try again in a few hours without offering any further assistance."
       }
     ],
-    "overall_summary": "The agent failed to adequately investigate and resolve the issue with the customer's declined card payment."
+    "overall_summary": "The agent failed to adequately investigate and resolve the issue with the customer's declined card payment.",
+    "score": {
+      "call_id": "failed_card_payment_bad_2",
+      "policy_compliance": 50.0,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not take action or provide a clear solution, only suggesting to try again in a few hours.",
+        "score": 40
+      },
+      "communication": {
+        "score": 70,
+        "note": "The agent's tone was somewhat dismissive and unempathetic, as evidenced by the phrase 'Sorry, not much else I can do'."
+      },
+      "final_score": 51.0,
+      "grade": "D"
+    }
   },
   {
     "call_id": "failed_card_payment_good_1",
@@ -997,7 +1627,22 @@
     "recovered": false,
     "recovery_note": "",
     "violations": [],
-    "overall_summary": "The agent effectively resolved the customer's issue by verifying their account and card status, explaining the reason for the declined payment, and providing alternative solutions."
+    "overall_summary": "The agent effectively resolved the customer's issue by verifying their account and card status, explaining the reason for the declined payment, and providing alternative solutions.",
+    "score": {
+      "call_id": "failed_card_payment_good_1",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent successfully resolved the customer's issue by explaining the reason for the declined payment, providing a clear explanation of the pre-authorization process, and offering an alternative solution.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear, demonstrating a high level of courtesy and helpfulness throughout the conversation."
+      },
+      "final_score": 100.0,
+      "grade": "A"
+    }
   },
   {
     "call_id": "failed_card_payment_good_2",
@@ -1006,7 +1651,22 @@
     "recovered": true,
     "recovery_note": "",
     "violations": [],
-    "overall_summary": "The agent effectively resolved the customer's issue with their declined card payment by identifying the cause, whitelisting international e-commerce transactions, and providing alternative solutions."
+    "overall_summary": "The agent effectively resolved the customer's issue with their declined card payment by identifying the cause, whitelisting international e-commerce transactions, and providing alternative solutions.",
+    "score": {
+      "call_id": "failed_card_payment_good_2",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent successfully resolved the customer's issue by whitelisting international e-commerce for the account and enabling transaction notifications.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear throughout the conversation."
+      },
+      "final_score": 100.0,
+      "grade": "A"
+    }
   },
   {
     "call_id": "failed_card_payment_incomplete_1",
@@ -1041,7 +1701,22 @@
         "evidence": "The agent did not provide alternative solutions to the customer, such as offering a different payment method or advising on how to reactivate the card if it was deactivated due to suspicious activity."
       }
     ],
-    "overall_summary": "The agent failed to follow the necessary policies and procedures to resolve the customer's issue with their declined card payment, instead transferring the customer to the card security team without taking adequate steps to troubleshoot the problem."
+    "overall_summary": "The agent failed to follow the necessary policies and procedures to resolve the customer's issue with their declined card payment, instead transferring the customer to the card security team without taking adequate steps to troubleshoot the problem.",
+    "score": {
+      "call_id": "failed_card_payment_incomplete_1",
+      "policy_compliance": 0.0,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not resolve the issue but transferred the customer to another team without providing a clear solution or next steps.",
+        "score": 40
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear, showing understanding of the urgency and apologizing for the inconvenience."
+      },
+      "final_score": 32.0,
+      "grade": "D"
+    }
   },
   {
     "call_id": "failed_card_payment_noise_1",
@@ -1050,7 +1725,22 @@
     "recovered": true,
     "recovery_note": "",
     "violations": [],
-    "overall_summary": "The agent effectively resolved the customer's issues with their debit card, identifying and addressing two separate causes for the declined payments, and provided a clear explanation and solutions to the customer."
+    "overall_summary": "The agent effectively resolved the customer's issues with their debit card, identifying and addressing two separate causes for the declined payments, and provided a clear explanation and solutions to the customer.",
+    "score": {
+      "call_id": "failed_card_payment_noise_1",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent successfully resolved the customer's issue by resetting the contactless limit and updating the email address for 3D Secure verification.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear throughout the conversation, providing a helpful and respectful experience for the customer."
+      },
+      "final_score": 100.0,
+      "grade": "A"
+    }
   },
   {
     "call_id": "failed_card_payment_recovery_1",
@@ -1066,7 +1756,22 @@
         "reason": "The agent started by asking for the customer's name and then verified their identity, but did not explicitly verify the card status"
       }
     ],
-    "overall_summary": "The agent effectively resolved the customer's issue with their declined card payment by identifying a 3D Secure authentication problem and updating their mobile number, despite an initial oversight in verifying the card status."
+    "overall_summary": "The agent effectively resolved the customer's issue with their declined card payment by identifying a 3D Secure authentication problem and updating their mobile number, despite an initial oversight in verifying the card status.",
+    "score": {
+      "call_id": "failed_card_payment_recovery_1",
+      "policy_compliance": 83.3,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent identified the issue with the 3D Secure authentication and updated the customer's mobile number to resolve the problem.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent was professional, empathetic, and clear throughout the conversation, providing a smooth and helpful experience for the customer."
+      },
+      "final_score": 91.7,
+      "grade": "A"
+    }
   },
   {
     "call_id": "disputed_charge_ambiguous_1",
@@ -1100,7 +1805,22 @@
         "reason": "The agent mentioned that 'I don't have one to give you right now. It should come through by email.'"
       }
     ],
-    "overall_summary": "The agent did not fully resolve the customer's issue with the extra charge on their statement, specifically failing to verify charge details, investigate the charge reason, process a refund or waiver, and provide a reference number immediately."
+    "overall_summary": "The agent did not fully resolve the customer's issue with the extra charge on their statement, specifically failing to verify charge details, investigate the charge reason, process a refund or waiver, and provide a reference number immediately.",
+    "score": {
+      "call_id": "disputed_charge_ambiguous_1",
+      "policy_compliance": 42.9,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not provide a clear resolution or next steps for a refund, only noting a dispute and suggesting the customer contact the merchant.",
+        "score": 40
+      },
+      "communication": {
+        "score": 70,
+        "note": "The agent's communication was mostly professional and empathetic but lacked a clear solution or follow-up steps for the customer's specific issue."
+      },
+      "final_score": 47.4,
+      "grade": "D"
+    }
   },
   {
     "call_id": "transfer_not_received_bad_2",
@@ -1116,7 +1836,22 @@
         "reason": "The agent immediately concluded that the issue is with the sending bank without exploring other possible solutions or providing additional guidance."
       }
     ],
-    "overall_summary": "The agent's performance was inadequate as they failed to provide sufficient guidance or support to the customer regarding the missing payment, instead simply advising them to wait a few more days."
+    "overall_summary": "The agent's performance was inadequate as they failed to provide sufficient guidance or support to the customer regarding the missing payment, instead simply advising them to wait a few more days.",
+    "score": {
+      "call_id": "transfer_not_received_bad_2",
+      "policy_compliance": 85.7,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not take action, provide a solution, or give clear next steps beyond suggesting the customer wait a few more days.",
+        "score": 40
+      },
+      "communication": {
+        "score": 70,
+        "note": "The agent's tone was somewhat dismissive and unhelpful, particularly with phrases like 'not much else I can do' and 'wait a few more days'."
+      },
+      "final_score": 68.9,
+      "grade": "C"
+    }
   },
   {
     "call_id": "transfer_not_received_ambiguous_1",
@@ -1144,7 +1879,22 @@
         "reason": "The agent didn't provide the reference number or any further assistance."
       }
     ],
-    "overall_summary": "The agent failed to accurately verify the transfer status, provide sufficient assistance, and offer a reference number, leading to an unresolved issue for the customer."
+    "overall_summary": "The agent failed to accurately verify the transfer status, provide sufficient assistance, and offer a reference number, leading to an unresolved issue for the customer.",
+    "score": {
+      "call_id": "transfer_not_received_ambiguous_1",
+      "policy_compliance": 57.1,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not provide a clear resolution or next steps that would lead to a resolution, only indicating a process that might take a few days.",
+        "score": 40
+      },
+      "communication": {
+        "score": 70,
+        "note": "The agent's communication was generally professional and clear, but lacked empathy and a sense of urgency or apology for the customer's issue."
+      },
+      "final_score": 54.6,
+      "grade": "D"
+    }
   },
   {
     "call_id": "transfer_not_received_bad_1",
@@ -1172,7 +1922,22 @@
         "reason": "The agent did not verify the transfer details before suggesting an error"
       }
     ],
-    "overall_summary": "The agent failed to adequately investigate the transfer issue, provide clear information, and offer necessary assistance to resolve the problem."
+    "overall_summary": "The agent failed to adequately investigate the transfer issue, provide clear information, and offer necessary assistance to resolve the problem.",
+    "score": {
+      "call_id": "transfer_not_received_bad_1",
+      "policy_compliance": 50.0,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not take action, provide a solution, or give clear next steps to resolve the customer's issue of not receiving a transfer.",
+        "score": 40
+      },
+      "communication": {
+        "score": 40,
+        "note": "The agent's responses came across as dismissive and unhelpful, using phrases that downplayed the issue and shifted responsibility to the customer or the recipient's bank."
+      },
+      "final_score": 45.0,
+      "grade": "D"
+    }
   },
   {
     "call_id": "transfer_not_received_good_1",
@@ -1181,7 +1946,22 @@
     "recovered": true,
     "recovery_note": "",
     "violations": [],
-    "overall_summary": "The agent effectively handled the call, verifying transfer details, checking the transfer status, and providing a clear explanation of the next steps to resolve the issue."
+    "overall_summary": "The agent effectively handled the call, verifying transfer details, checking the transfer status, and providing a clear explanation of the next steps to resolve the issue.",
+    "score": {
+      "call_id": "transfer_not_received_good_1",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not directly resolve the issue but provided clear next steps for the customer to take.",
+        "score": 40
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent was professional, empathetic, and clear in their communication, providing a helpful and apologetic tone throughout the conversation."
+      },
+      "final_score": 82.0,
+      "grade": "B"
+    }
   },
   {
     "call_id": "transfer_not_received_good_2",
@@ -1190,7 +1970,22 @@
     "recovered": true,
     "recovery_note": "",
     "violations": [],
-    "overall_summary": "The agent effectively handled the customer's concern about a missing transfer, verified the transfer details, checked the transfer status, and offered to conduct a payment trace, providing a clear resolution and timeline for the customer."
+    "overall_summary": "The agent effectively handled the customer's concern about a missing transfer, verified the transfer details, checked the transfer status, and offered to conduct a payment trace, providing a clear resolution and timeline for the customer.",
+    "score": {
+      "call_id": "transfer_not_received_good_2",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not confirm if the transfer was received by the recipient, but rather initiated a payment trace to be followed up on Monday.",
+        "score": 40
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent was professional, empathetic, and clear throughout the conversation, providing a clear next steps and a trace reference."
+      },
+      "final_score": 82.0,
+      "grade": "B"
+    }
   },
   {
     "call_id": "transfer_not_received_incomplete_1",
@@ -1218,7 +2013,22 @@
         "reason": "The agent did not explore options to resolve the issue before transferring the call."
       }
     ],
-    "overall_summary": "The agent failed to verify transfer details, check transfer status, provide transfer timeline, and offer trace or research before transferring the customer, leaving the issue unresolved."
+    "overall_summary": "The agent failed to verify transfer details, check transfer status, provide transfer timeline, and offer trace or research before transferring the customer, leaving the issue unresolved.",
+    "score": {
+      "call_id": "transfer_not_received_incomplete_1",
+      "policy_compliance": 40.0,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not resolve the issue, instead transferring the customer to another team without providing clear next steps or taking action.",
+        "score": 40
+      },
+      "communication": {
+        "score": 70,
+        "note": "The agent's communication was mostly professional but lacked empathy and clear explanations, as they quickly transferred the customer without fully addressing their concern."
+      },
+      "final_score": 46.0,
+      "grade": "D"
+    }
   },
   {
     "call_id": "transfer_not_received_noise_1",
@@ -1227,7 +2037,22 @@
     "recovered": true,
     "recovery_note": "",
     "violations": [],
-    "overall_summary": "The agent effectively handled the call, verified transfer details, checked transfer status, provided a transfer timeline, investigated delays, and offered to conduct a trace to locate the funds, ultimately resolving the customer's issue."
+    "overall_summary": "The agent effectively handled the call, verified transfer details, checked transfer status, provided a transfer timeline, investigated delays, and offered to conduct a trace to locate the funds, ultimately resolving the customer's issue.",
+    "score": {
+      "call_id": "transfer_not_received_noise_1",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent took action to raise a payment trace and provided clear next steps for the customer and the recipient to follow.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear throughout the conversation."
+      },
+      "final_score": 100.0,
+      "grade": "A"
+    }
   },
   {
     "call_id": "transfer_not_received_recovery_1",
@@ -1249,7 +2074,22 @@
         "reason": "The agent didn't provide the correct solution initially."
       }
     ],
-    "overall_summary": "The agent recovered from an initial mistake and successfully resolved the customer's issue by raising a payment trace and providing a clear resolution timeline."
+    "overall_summary": "The agent recovered from an initial mistake and successfully resolved the customer's issue by raising a payment trace and providing a clear resolution timeline.",
+    "score": {
+      "call_id": "transfer_not_received_recovery_1",
+      "policy_compliance": 66.7,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent successfully resolved the customer's issue by raising a payment trace and providing clear next steps.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear, showing understanding and apologizing for the delay in resolving the issue."
+      },
+      "final_score": 83.3,
+      "grade": "B"
+    }
   },
   {
     "call_id": "wrong_amount_of_cash_received_ambiguous_1",
@@ -1283,7 +2123,22 @@
         "reason": "The agent did not generate a reference or incident number for the customer's issue."
       }
     ],
-    "overall_summary": "The agent failed to adequately address the customer's issue, not investigating the transaction, not providing corrective action, not giving a resolution timeframe, and not providing a reference number."
+    "overall_summary": "The agent failed to adequately address the customer's issue, not investigating the transaction, not providing corrective action, not giving a resolution timeframe, and not providing a reference number.",
+    "score": {
+      "call_id": "wrong_amount_of_cash_received_ambiguous_1",
+      "policy_compliance": 33.3,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not take concrete action or provide a direct solution to the customer's issue of receiving the wrong amount of cash.",
+        "score": 40
+      },
+      "communication": {
+        "score": 70,
+        "note": "The agent's tone was somewhat dismissive and lacked empathy, as evidenced by the phrase 'These things do happen occasionally with ATMs'."
+      },
+      "final_score": 42.7,
+      "grade": "D"
+    }
   },
   {
     "call_id": "wrong_amount_of_cash_received_bad_1",
@@ -1311,7 +2166,22 @@
         "reason": "The agent only provided an email address for the complaints team without further assistance."
       }
     ],
-    "overall_summary": "The agent failed to adequately address the customer's concern, investigate the issue, and provide a clear resolution or reference number for future follow-up."
+    "overall_summary": "The agent failed to adequately address the customer's concern, investigate the issue, and provide a clear resolution or reference number for future follow-up.",
+    "score": {
+      "call_id": "wrong_amount_of_cash_received_bad_1",
+      "policy_compliance": 50.0,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not take action, provide a solution, or give clear next steps to resolve the customer's issue of receiving the wrong amount of cash.",
+        "score": 40
+      },
+      "communication": {
+        "score": 40,
+        "note": "The agent's responses came across as dismissive and unhelpful, implying the customer's error and providing no concrete assistance."
+      },
+      "final_score": 45.0,
+      "grade": "D"
+    }
   },
   {
     "call_id": "wrong_amount_of_cash_received_good_1",
@@ -1320,7 +2190,22 @@
     "recovered": true,
     "recovery_note": "",
     "violations": [],
-    "overall_summary": "The agent effectively handled the customer's concern about receiving an incorrect amount of cash from an ATM, providing a clear explanation of the next steps and resolving the issue according to the bank's policies."
+    "overall_summary": "The agent effectively handled the customer's concern about receiving an incorrect amount of cash from an ATM, providing a clear explanation of the next steps and resolving the issue according to the bank's policies.",
+    "score": {
+      "call_id": "wrong_amount_of_cash_received_good_1",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent took action by logging an ATM cash discrepancy report and provided clear next steps for resolving the issue.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear throughout the conversation."
+      },
+      "final_score": 100.0,
+      "grade": "A"
+    }
   },
   {
     "call_id": "wrong_amount_of_cash_received_good_2",
@@ -1329,7 +2214,22 @@
     "recovered": true,
     "recovery_note": "",
     "violations": [],
-    "overall_summary": "The agent effectively handled the customer's issue with the ATM dispensing incorrect cash, providing a reference number, explaining the investigation process, and outlining the expected timeframe for resolution."
+    "overall_summary": "The agent effectively handled the customer's issue with the ATM dispensing incorrect cash, providing a reference number, explaining the investigation process, and outlining the expected timeframe for resolution.",
+    "score": {
+      "call_id": "wrong_amount_of_cash_received_good_2",
+      "policy_compliance": 100.0,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent took action by raising a cash discrepancy report, provided a clear next step, and offered a solution of refunding fifty pounds if the discrepancy is confirmed.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear, showing understanding and providing a helpful response to the customer's issue."
+      },
+      "final_score": 100.0,
+      "grade": "A"
+    }
   },
   {
     "call_id": "wrong_amount_of_cash_received_incomplete_1",
@@ -1369,7 +2269,22 @@
         "reason": "The agent did not provide any information on when the issue would be resolved."
       }
     ],
-    "overall_summary": "The agent failed to adequately address the customer's issue and did not provide necessary information or resolution before transferring the call."
+    "overall_summary": "The agent failed to adequately address the customer's issue and did not provide necessary information or resolution before transferring the call.",
+    "score": {
+      "call_id": "wrong_amount_of_cash_received_incomplete_1",
+      "policy_compliance": 16.7,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not take direct action or provide a solution, only transferring the customer to another team.",
+        "score": 40
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent's communication was professional, empathetic, and clear throughout the conversation."
+      },
+      "final_score": 40.3,
+      "grade": "D"
+    }
   },
   {
     "call_id": "wrong_amount_of_cash_received_incomplete_2",
@@ -1394,7 +2309,22 @@
         "evidence": "The agent did not provide immediate assistance to the customer and instead opted to have a specialist team call the customer back."
       }
     ],
-    "overall_summary": "The agent failed to provide a satisfactory resolution to the customer's issue, specifically regarding the timeframe for resolving the issue and providing a reference number."
+    "overall_summary": "The agent failed to provide a satisfactory resolution to the customer's issue, specifically regarding the timeframe for resolving the issue and providing a reference number.",
+    "score": {
+      "call_id": "wrong_amount_of_cash_received_incomplete_2",
+      "policy_compliance": 57.1,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not provide a immediate solution and instead offered a callback within two working days.",
+        "score": 40
+      },
+      "communication": {
+        "score": 70,
+        "note": "The agent's communication was professional and clear, but lacked empathy and a sense of urgency to resolve the customer's issue immediately."
+      },
+      "final_score": 54.6,
+      "grade": "D"
+    }
   },
   {
     "call_id": "wrong_amount_of_cash_received_noise_1",
@@ -1416,7 +2346,22 @@
         "reason": "The agent did not provide a clear timeframe for resolving the issue, which is typically 3-5 business days."
       }
     ],
-    "overall_summary": "The agent failed to provide clear instructions to the customer on how to proceed with the missing funds and did not clearly communicate the expected timeframe for resolving the issue."
+    "overall_summary": "The agent failed to provide clear instructions to the customer on how to proceed with the missing funds and did not clearly communicate the expected timeframe for resolving the issue.",
+    "score": {
+      "call_id": "wrong_amount_of_cash_received_noise_1",
+      "policy_compliance": 60.0,
+      "issue_resolution": {
+        "resolved": false,
+        "reason": "The agent did not provide a solution or immediate refund for the wrong amount of cash received, only a reference number for a future audit.",
+        "score": 40
+      },
+      "communication": {
+        "score": 70,
+        "note": "The agent's communication was professional and clear, but lacked empathy and did not offer any immediate assistance or alternatives."
+      },
+      "final_score": 56.0,
+      "grade": "D"
+    }
   },
   {
     "call_id": "wrong_amount_of_cash_received_recovery_1",
@@ -1432,6 +2377,21 @@
         "reason": "The agent provided incorrect information about the process for reporting the issue."
       }
     ],
-    "overall_summary": "The agent corrected their initial mistake and successfully resolved the customer's issue by raising an ATM cash discrepancy report and providing a reference number."
+    "overall_summary": "The agent corrected their initial mistake and successfully resolved the customer's issue by raising an ATM cash discrepancy report and providing a reference number.",
+    "score": {
+      "call_id": "wrong_amount_of_cash_received_recovery_1",
+      "policy_compliance": 83.3,
+      "issue_resolution": {
+        "resolved": true,
+        "reason": "The agent successfully resolved the customer's issue by raising an ATM cash discrepancy report and providing a clear next step for the refund process.",
+        "score": 100
+      },
+      "communication": {
+        "score": 100,
+        "note": "The agent provided professional, empathetic, and clear communication, correcting their initial mistake and showing willingness to help the customer."
+      },
+      "final_score": 91.7,
+      "grade": "A"
+    }
   }
 ]

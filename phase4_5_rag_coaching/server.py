@@ -66,6 +66,11 @@ class Handler(http.server.BaseHTTPRequestHandler):
             self.send_file(DASHBOARD_FILE, "text/html; charset=utf-8")
             return
 
+        # ── Serve logo ───────────────────────────────────────────
+        if path == "/ejust_logo.png":
+            self.send_file(BASE_DIR / "ejust_logo.png", "image/png")
+            return
+
         # ── API: result by call_id ────────────────────────────────
         # GET /api/result/<call_id>
         if path.startswith("/api/result/"):

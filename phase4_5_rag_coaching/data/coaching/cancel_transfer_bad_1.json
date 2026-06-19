@@ -6,8 +6,43 @@
   "verdict": "violation",
   "violations_count": 5,
   "strengths": [
-    "(parse error — raw response below)"
+    "The agent actively listened to the customer's concern and responded to their questions.",
+    "The agent provided some information about the transfer process, such as it being processed and cleared.",
+    "The agent attempted to offer a solution, albeit not a very effective one, by suggesting the customer contact the recipient."
   ],
-  "improvements": [],
-  "rephrasing": []
+  "improvements": [
+    "The agent needs to verify the transfer status before making conclusions about its irreversibility.",
+    "The agent should consider initiating a recall request when a customer wants to cancel a transfer.",
+    "The agent must clearly explain the reasons behind the irreversibility of a transfer and provide more feasible alternative solutions."
+  ],
+  "rephrasing": [
+    {
+      "original": "That's how Faster Payments works",
+      "better": "Faster Payments are processed immediately, which means they can't be cancelled once sent. However, I can check if the transfer is still pending or if we can initiate a recall request."
+    },
+    {
+      "original": "They'll tell you the same thing. Sorry.",
+      "better": "I apologize for the inconvenience. I'm going to check on the status of your transfer and see what options are available to you."
+    },
+    {
+      "original": "The agent did not verify if the transfer was still pending before stating it was processed.",
+      "better": "Can you please give me a moment to check the status of your transfer? I want to make sure it's still pending or if it's already been processed."
+    },
+    {
+      "original": "The agent immediately stated that cancellation was not possible.",
+      "better": "I've checked on your transfer, and it appears it's still pending. I'm going to see if we can initiate a recall request for you."
+    },
+    {
+      "original": "The agent only mentioned that it was processed and cleared.",
+      "better": "The reason we can't cancel the transfer is that it has already been processed and cleared. This is an irreversible transaction."
+    },
+    {
+      "original": "The agent stated that recalls were not a service they offered.",
+      "better": "I can look into initiating a recall request for you. This is a service we offer in certain situations. Let me see what I can do."
+    },
+    {
+      "original": "The agent suggested contacting the recipient.",
+      "better": "One possible next step could be to reach out to the recipient and request they return the funds. However, if that's not feasible, I can also explore other options with you, such as a recall request."
+    }
+  ]
 }

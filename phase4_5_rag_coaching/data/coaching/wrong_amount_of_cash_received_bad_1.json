@@ -4,10 +4,29 @@
   "recovered": false,
   "recovery_note": "",
   "verdict": "violation",
-  "violations_count": 4,
+  "violations_count": 3,
   "strengths": [
-    "(parse error — raw response below)"
+    "The agent responded to the customer's concern in a timely manner.",
+    "The agent attempted to provide some guidance, although it was not effective.",
+    "The agent provided an email address for the complaints team."
   ],
-  "improvements": [],
-  "rephrasing": []
+  "improvements": [
+    "Investigate transaction details to determine the root cause of the issue.",
+    "Provide clear corrective actions to customers, such as returning to the ATM or submitting a claim.",
+    "Generate reference or incident numbers for customer issues to ensure follow-up."
+  ],
+  "rephrasing": [
+    {
+      "original": "The agent did not investigate the ATM transaction details to determine if the correct amount was dispensed and if the customer's account was debited correctly.",
+      "better": "I'd like to investigate this further. Can you please tell me the exact amount you received from the ATM and the amount you were expecting?"
+    },
+    {
+      "original": "The agent did not provide corrective action to the customer, such as instructing them to return to the ATM location or providing instructions on how to submit a claim for the missing funds.",
+      "better": "I apologize for the inconvenience. If you could return to the ATM location and check if there's any information or a contact number available, we can also look into submitting a claim for the missing funds on your behalf."
+    },
+    {
+      "original": "The agent did not generate a reference or incident number for the customer's issue.",
+      "better": "I've created a reference number for your issue, which is #XXXXX. You can also reach out to our complaints team directly at complaints@email.com, and please quote this reference number for a smoother process."
+    }
+  ]
 }
