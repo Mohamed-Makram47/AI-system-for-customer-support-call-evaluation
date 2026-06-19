@@ -1,0 +1,60 @@
+{
+  "call_id": "failed_card_payment_recovery_1",
+  "intent": "failed_card_payment",
+  "quality_level": "recovery",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Good afternoon, First National Bank. This is Amelia."
+    },
+    {
+      "speaker": "customer",
+      "text": "Hi Amelia. My card was declined twice this afternoon. Once at a supermarket and once online. I'm not sure what's going on."
+    },
+    {
+      "speaker": "agent",
+      "text": "Let me take a quick look at the account. What's your name?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Nelson Ferreira."
+    },
+    {
+      "speaker": "agent",
+      "text": "Looking at your account Mr. Ferreira... I can see the declined transactions. It looks like your card is fine. The issue — actually hold on, I need to verify your identity before I go further. I'm sorry, I should have done that first. Full name and date of birth?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Nelson Ferreira, thirteenth of February 1983."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you. Looking properly now — I can see your card has a 3D Secure authentication issue that would explain the online decline. Have you recently changed your phone number?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Actually, yes — about two weeks ago."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's the issue. Your one-time authentication codes are going to your old number. I've updated the mobile number on your account right now. Your next online payment will send the code to the new number."
+    },
+    {
+      "speaker": "customer",
+      "text": "That's such a specific issue, I'd never have guessed that."
+    },
+    {
+      "speaker": "agent",
+      "text": "It's a common one after number changes. Your card is fine and should work on your next attempt. Is there anything else?"
+    },
+    {
+      "speaker": "customer",
+      "text": "No, that's great. Thank you Amelia."
+    }
+  ],
+  "planted_violations": [
+    "accessed account and began reviewing details before completing identity verification"
+  ],
+  "noise_injected": false
+}

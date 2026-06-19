@@ -1,0 +1,52 @@
+{
+  "call_id": "balance_not_updated_recovery_1",
+  "intent": "balance_not_updated",
+  "quality_level": "recovery",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Good morning, First National Bank, this is Owen speaking."
+    },
+    {
+      "speaker": "customer",
+      "text": "Hi Owen, I made a cash deposit at the branch counter this morning — five hundred pounds — and it's still not on my balance three hours later."
+    },
+    {
+      "speaker": "agent",
+      "text": "I can look at your recent transactions. Can I get your name please?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Aisha Okonkwo."
+    },
+    {
+      "speaker": "agent",
+      "text": "Looking at your account now, Ms. Okonkwo — actually, wait. I need to verify your identity properly before sharing account details. I'm sorry about that. Can I take your full name and date of birth please?"
+    },
+    {
+      "speaker": "customer",
+      "text": "No worries — Aisha Okonkwo, first of September 1991."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you, I've now verified you properly. I can see the cash deposit processed at 9:47 this morning. Counter deposits can occasionally have a short compliance hold for amounts around this level. It should clear by end of business today. If it hasn't by 4 PM, please call back and I'll escalate directly."
+    },
+    {
+      "speaker": "customer",
+      "text": "Okay, I'll wait until then. Thank you."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely. I've added a note to your account. Sorry again for the procedural slip at the start."
+    },
+    {
+      "speaker": "customer",
+      "text": "Not at all, happens."
+    }
+  ],
+  "planted_violations": [
+    "began accessing account before completing identity verification"
+  ],
+  "noise_injected": false
+}

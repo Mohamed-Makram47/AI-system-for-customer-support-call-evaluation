@@ -1,0 +1,58 @@
+{
+  "call_id": "balance_not_updated_bad_1",
+  "intent": "balance_not_updated",
+  "quality_level": "bad",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "First National Bank."
+    },
+    {
+      "speaker": "customer",
+      "text": "Hi. I put money in my account earlier today — eight hundred pounds from Barclays — and my balance hasn't changed. What's going on?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Sometimes the system just takes a while. It'll update eventually."
+    },
+    {
+      "speaker": "customer",
+      "text": "How long is eventually? I need those funds available today."
+    },
+    {
+      "speaker": "agent",
+      "text": "Could be by end of day, could be tomorrow. Not much I can do about it."
+    },
+    {
+      "speaker": "customer",
+      "text": "Can you check if there's a delay on the transfer?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I don't have that system in front of me. If it hasn't come through by tomorrow, call back."
+    },
+    {
+      "speaker": "customer",
+      "text": "Tomorrow? I was told it would be instant."
+    },
+    {
+      "speaker": "agent",
+      "text": "Faster Payments isn't always instant. Sometimes it takes 24 hours. Just wait."
+    },
+    {
+      "speaker": "customer",
+      "text": "Can you at least log a trace or something?"
+    },
+    {
+      "speaker": "agent",
+      "text": "We don't do that unless it's been missing for three working days. That's what I'm telling you. Give it time."
+    }
+  ],
+  "planted_violations": [
+    "failed to verify customer identity before discussing account",
+    "provided incorrect trace policy (stated 3 working days; correct policy allows same-day trace for delayed Faster Payments)",
+    "dismissive and unhelpful; offered no investigation or follow-up"
+  ],
+  "noise_injected": false
+}

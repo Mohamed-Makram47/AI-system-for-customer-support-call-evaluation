@@ -28,26 +28,23 @@ def evaluate(utterances, fine_label, policies_text, client):
 
     # Single LLM call configuration and prompt creation
     prompt = (
-        f"You are a banking call center QA evaluator.\n"
+        f"You are a banking compliance checker.\n"
         f"Issue class: {fine_label}\n\n"
         f"CONVERSATION:\n{conversation}\n\n"
         f"POLICIES:\n{policies_text}\n\n"
-        f"Evaluate the agent's FINAL performance in this conversation.\n"
-        f"Focus on the outcome of the call, not individual turns.\n"
-        f"If the agent made a mistake early but corrected it before the call ended, "
-        f"do NOT flag it as a violation.\n"
-        f"Only flag violations that were UNRESOLVED at the end of the call.\n\n"
-        f"IMPORTANT: Only flag violations that are explicitly covered by the POLICIES "
-        f"section above. Do not flag general customer service best practices or "
-        f"behaviours not mentioned in the provided policies. "
-        f"If a behaviour is not addressed in the policies, do not flag it.\n\n"
+        f"Your task: Check if the agent violated any of the policies listed above.\n"
+        f"For each violation found, return the exact policy rule code (e.g. cancel_transfer:R1 or baseline:B2).\n\n"
+        f"Rules:\n"
+        f"- ONLY flag violations of policies explicitly listed above\n"
+        f"- Do NOT flag general customer service issues not covered by the policies\n"
+        f"- If the agent made a mistake early but fully corrected it before the call ended, do NOT flag it\n\n"
+        #===============================================
         f"Reply ONLY in this JSON format:\n"
         f'{{"verdict": "violation" or "ok", '
         f'"recovered": true or false, '
         f'"recovery_note": "one sentence or empty string", '
-        f'"violations": [{{"turn": 1, "violated_policy": "...", '
-        f'"evidence": "...", "reason": "..."}}], '
-        f'"overall_summary": "one sentence about the agent\'s overall performance"}}'
+        f'"violations": [{{"turn": 1, "violated_policy": "exact_rule_code e.g. cancel_transfer:R1", '
+        f'"evidence": "exact quote from conversation", "reason": "one sentence"}}]}}'
     )
 
     # Groq API rate-limit resilient retry loop (max 9 attempts)

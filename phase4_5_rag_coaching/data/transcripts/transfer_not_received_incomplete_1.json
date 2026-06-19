@@ -1,0 +1,51 @@
+{
+  "call_id": "transfer_not_received_incomplete_1",
+  "intent": "transfer_not_received",
+  "quality_level": "incomplete",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Good morning, First National."
+    },
+    {
+      "speaker": "customer",
+      "text": "Morning. I sent an international transfer on Friday and it hasn't been received. It's now Monday. My business partner is waiting on it."
+    },
+    {
+      "speaker": "agent",
+      "text": "International transfers — okay. Can I get your name?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Stuart McCrae."
+    },
+    {
+      "speaker": "agent",
+      "text": "Let me look at this... For international transfers, there's a separate team that handles those. One moment."
+    },
+    {
+      "speaker": "customer",
+      "text": "Before you transfer me — can you at least confirm the payment left my account?"
+    },
+    {
+      "speaker": "agent",
+      "text": "It shows a debit, yes. I really need to get the international team for this."
+    },
+    {
+      "speaker": "customer",
+      "text": "How long might this take to resolve?"
+    },
+    {
+      "speaker": "agent",
+      "text": "They'll be best placed to tell you that. Might be a wait. Good luck. Transferring now."
+    }
+  ],
+  "planted_violations": [
+    "failed to verify customer identity before accessing account",
+    "transferred without providing any case reference or setting proper expectations",
+    "did not log call details or take any preliminary action before transfer",
+    "dismissive farewell — 'good luck' inappropriate in a customer service context"
+  ],
+  "noise_injected": false
+}

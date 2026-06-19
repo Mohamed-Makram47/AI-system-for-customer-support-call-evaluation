@@ -1,0 +1,58 @@
+{
+  "call_id": "balance_not_updated_good_2",
+  "intent": "balance_not_updated",
+  "quality_level": "good",
+  "variant": 2,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Good morning, you're through to First National Bank. This is Raj speaking. Can I start by taking your name and date of birth for security?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Sure thing — Chloe Fitzpatrick, twenty-eighth of July 1996."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Chloe, identity confirmed. What's brought you in today?"
+    },
+    {
+      "speaker": "customer",
+      "text": "My boyfriend sent me some money — two-fifty — through his Halifax account. He did it about two hours ago and I haven't seen it come in yet."
+    },
+    {
+      "speaker": "agent",
+      "text": "For Faster Payments transfers between different banks, you'd normally see the money within two hours. Let me check your account for incoming transfers."
+    },
+    {
+      "speaker": "customer",
+      "text": "Please do, I want to make sure he sent it to the right sort code."
+    },
+    {
+      "speaker": "agent",
+      "text": "I can see an incoming transfer of two hundred and fifty pounds — it's in final processing and should appear on your balance within the next ten to fifteen minutes."
+    },
+    {
+      "speaker": "customer",
+      "text": "Oh brilliant! So it did come through."
+    },
+    {
+      "speaker": "agent",
+      "text": "Yes, it's there and on its way. If for any reason it doesn't show in the next twenty minutes, give us a call back with the payment reference and we can trace it."
+    },
+    {
+      "speaker": "customer",
+      "text": "Perfect. Thank you so much."
+    },
+    {
+      "speaker": "agent",
+      "text": "Not a problem. Anything else today?"
+    },
+    {
+      "speaker": "customer",
+      "text": "No, that's all I needed."
+    }
+  ],
+  "planted_violations": [],
+  "noise_injected": false
+}

@@ -1,0 +1,50 @@
+{
+  "call_id": "card_blocked_good_1",
+  "intent": "card_blocked",
+  "quality_level": "good",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Good afternoon, First National Bank. My name is Tom. For security, could I take your name and date of birth?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yes — it's Grace Adeyemi, fifth of May 1990."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Grace, verified. How can I help you?"
+    },
+    {
+      "speaker": "customer",
+      "text": "My card has been declined twice this afternoon. I have money in my account — I checked the app — so I don't understand what's happening."
+    },
+    {
+      "speaker": "agent",
+      "text": "Let me check the card status now. I can see an automatic fraud prevention hold was placed on the card this afternoon following an unusual purchase pattern — two transactions in different cities within a short time window."
+    },
+    {
+      "speaker": "customer",
+      "text": "Oh — I see. I was in London this morning and then I drove to Birmingham. That must be why."
+    },
+    {
+      "speaker": "agent",
+      "text": "Exactly right. Can you confirm — were both those transactions yours?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yes, both mine. The coffee shop in London and the petrol station in Birmingham."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect, I've removed the hold and your card is active right now. I've also added a travel note to your account for the next seven days so this shouldn't happen again."
+    },
+    {
+      "speaker": "customer",
+      "text": "That's a relief. Thank you Tom."
+    }
+  ],
+  "planted_violations": [],
+  "noise_injected": false
+}

@@ -1,0 +1,60 @@
+{
+  "call_id": "failed_card_payment_bad_2",
+  "intent": "failed_card_payment",
+  "quality_level": "bad",
+  "variant": 2,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "First National, what's your query?"
+    },
+    {
+      "speaker": "customer",
+      "text": "My card isn't working. I'm trying to make a payment for my rent — fifteen hundred pounds — and it keeps saying declined."
+    },
+    {
+      "speaker": "agent",
+      "text": "What's your account number?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I don't know it off the top of my head. Can you look me up by name?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I need the account number for security reasons."
+    },
+    {
+      "speaker": "customer",
+      "text": "Okay, it's 00987451."
+    },
+    {
+      "speaker": "agent",
+      "text": "Right. Your account shows fine. If the payment isn't going through it must be the recipient's account that's the problem."
+    },
+    {
+      "speaker": "customer",
+      "text": "My landlord's account has worked for three years of rent payments. Can you check if there's a daily limit on my card?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Your card is standard. That should be on your app."
+    },
+    {
+      "speaker": "customer",
+      "text": "I'm asking you. My rent is going to be late."
+    },
+    {
+      "speaker": "agent",
+      "text": "Just try again in a few hours, these things usually clear. Sorry, not much else I can do."
+    }
+  ],
+  "planted_violations": [
+    "failed to verify customer identity — used account number alone with no further checks",
+    "failed to check card daily limit or investigate decline reason",
+    "blamed recipient account without evidence",
+    "directed customer to app instead of providing information directly",
+    "no action taken; customer left with urgent unresolved issue"
+  ],
+  "noise_injected": false
+}

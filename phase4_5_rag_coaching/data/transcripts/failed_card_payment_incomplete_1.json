@@ -1,0 +1,51 @@
+{
+  "call_id": "failed_card_payment_incomplete_1",
+  "intent": "failed_card_payment",
+  "quality_level": "incomplete",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Good morning, First National Bank."
+    },
+    {
+      "speaker": "customer",
+      "text": "Good morning. I'm having trouble with my card — it's been refused three times this morning. I'm currently at a car rental desk and it's quite urgent."
+    },
+    {
+      "speaker": "agent",
+      "text": "I can help with that. Your name?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Jason Webb."
+    },
+    {
+      "speaker": "agent",
+      "text": "One moment, Mr. Webb. I can see there's a flag on the card. I'm going to need to transfer you to the card security team who handle these."
+    },
+    {
+      "speaker": "customer",
+      "text": "Transfer me? I'm standing at a counter in a foreign country."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand it's urgent. The card team will be quicker at resolving it. Can give me a reference number at least?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Can I get a reference—"
+    },
+    {
+      "speaker": "agent",
+      "text": "They'll generate one. You're being transferred now. Thank you for your patience."
+    }
+  ],
+  "planted_violations": [
+    "failed to verify customer identity before accessing account",
+    "transferred customer in urgent situation without any preliminary action to unblock card",
+    "failed to provide reference number before transfer",
+    "call ended abruptly while customer was mid-sentence"
+  ],
+  "noise_injected": false
+}

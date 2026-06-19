@@ -1,0 +1,51 @@
+{
+  "call_id": "card_blocked_incomplete_1",
+  "intent": "card_blocked",
+  "quality_level": "incomplete",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Good morning, First National Bank."
+    },
+    {
+      "speaker": "customer",
+      "text": "Good morning. My card has been blocked and I'm currently at a checkout. I'm in a really difficult situation."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand, let me bring up your account. Your name?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Harriet Morse."
+    },
+    {
+      "speaker": "agent",
+      "text": "One moment, Ms. Morse. I can see your account. I'm going to need to put you on hold briefly to check the card status."
+    },
+    {
+      "speaker": "customer",
+      "text": "Please be quick, I'm holding up the queue."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you for holding. I can see there is a block on the card. I'm going to need to transfer you to the fraud team who can remove it."
+    },
+    {
+      "speaker": "customer",
+      "text": "Transfer me? I need this sorted in the next minute, I'm standing in a shop."
+    },
+    {
+      "speaker": "agent",
+      "text": "They should be able to help you quickly. The queue might be a few minutes. I'm transferring you now. Apologies for the inconvenience."
+    }
+  ],
+  "planted_violations": [
+    "failed to verify customer identity before accessing account",
+    "transferred customer in urgent situation without attempting any preliminary action",
+    "did not offer callback or alternative option to customer in urgent situation",
+    "call ended without resolution; customer left in distress at checkout"
+  ],
+  "noise_injected": false
+}

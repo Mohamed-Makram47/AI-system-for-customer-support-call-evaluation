@@ -1,0 +1,70 @@
+{
+  "call_id": "failed_card_payment_ambiguous_1",
+  "intent": "failed_card_payment",
+  "quality_level": "ambiguous",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Hi, First National, how can I help?"
+    },
+    {
+      "speaker": "customer",
+      "text": "My card keeps getting refused. I've tried it at two places today and it's not working."
+    },
+    {
+      "speaker": "agent",
+      "text": "Name for me?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Beatriz Santos."
+    },
+    {
+      "speaker": "agent",
+      "text": "Right, let me see... the card shows as active. No obvious reason it should be declining."
+    },
+    {
+      "speaker": "customer",
+      "text": "Could it be my daily spending limit?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Your daily limit is five hundred. What did you try to spend total?"
+    },
+    {
+      "speaker": "customer",
+      "text": "About four hundred across the two purchases."
+    },
+    {
+      "speaker": "agent",
+      "text": "That shouldn't be the problem then. Hard to say really — could be the merchant's terminal, though two different merchants does seem unlikely."
+    },
+    {
+      "speaker": "customer",
+      "text": "Can you do something?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Let me try a system refresh on the card record. Done. That might help."
+    },
+    {
+      "speaker": "customer",
+      "text": "What did you do exactly?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Just a record refresh. Should be immediate if it worked. Try it again and see."
+    },
+    {
+      "speaker": "customer",
+      "text": "Okay... I'll try it."
+    }
+  ],
+  "planted_violations": [
+    "incomplete identity verification — name only",
+    "unable to diagnose decline reason; applied vague 'system refresh' without explanation",
+    "no reference or follow-up mechanism provided if issue persists"
+  ],
+  "noise_injected": false
+}

@@ -1,0 +1,60 @@
+{
+  "call_id": "card_blocked_recovery_1",
+  "intent": "card_blocked",
+  "quality_level": "recovery",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "First National Bank, good morning."
+    },
+    {
+      "speaker": "customer",
+      "text": "Morning. My debit card got declined just now at a supermarket. I'm a bit embarrassed — is there something wrong with my account?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Let me take a look. What's your name?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Patrick Brennan."
+    },
+    {
+      "speaker": "agent",
+      "text": "One second Mr. Brennan... I can see the card has been blocked. It looks like — actually, wait, before I share any more detail I need to verify your identity properly. I'm sorry, I jumped ahead there. Could I take your full name and date of birth please?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Patrick Brennan, seventeenth of November 1977."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you, you're verified. The card was blocked by our fraud system about an hour ago following a purchase that didn't match your usual pattern. Can you confirm — was there a larger-than-usual purchase recently?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I bought a computer part online — it was a bigger purchase than I normally make."
+    },
+    {
+      "speaker": "agent",
+      "text": "That would explain it. As long as you confirm that purchase was yours, I can remove the block right now."
+    },
+    {
+      "speaker": "customer",
+      "text": "Yes, absolutely mine."
+    },
+    {
+      "speaker": "agent",
+      "text": "Card is now unblocked. I've also flagged your account so similar amounts won't trigger a hold for the next fourteen days. Is there anything else?"
+    },
+    {
+      "speaker": "customer",
+      "text": "No, thank you."
+    }
+  ],
+  "planted_violations": [
+    "began accessing and referencing account details before completing identity verification"
+  ],
+  "noise_injected": false
+}

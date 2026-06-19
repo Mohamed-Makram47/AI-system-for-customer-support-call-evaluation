@@ -1,0 +1,50 @@
+{
+  "call_id": "disputed_charge_good_1",
+  "intent": "disputed_charge",
+  "quality_level": "good",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Thank you for calling First National Bank. My name is Sophie. For security, could I take your full name and date of birth?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Of course. It's Carlos Vega, twenty-ninth of January 1985."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Mr. Vega, all verified. What's the nature of your call today?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I noticed a charge on my account this morning — sixty-two pounds — from a company called TechSubs Ltd. I've never heard of them and I definitely didn't authorise this."
+    },
+    {
+      "speaker": "agent",
+      "text": "That must be very alarming. Let me pull up the transaction. I can see the charge, processed yesterday at 11:43 PM. Can I confirm — you've never dealt with TechSubs Ltd in any capacity? No subscriptions, trial memberships?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Absolutely not. I've never heard of the name."
+    },
+    {
+      "speaker": "agent",
+      "text": "In that case I'll raise a formal dispute immediately and place a temporary hold on your card as a precaution while we investigate — is that okay?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yes please, I'd rather be safe."
+    },
+    {
+      "speaker": "agent",
+      "text": "Done. Your case reference is DISP-2024-8831. The investigation takes three to five working days. We'll refund the amount provisionally within two working days while we investigate. You'll receive a confirmation email within the hour."
+    },
+    {
+      "speaker": "customer",
+      "text": "That's exactly what I needed. Thank you for being so efficient."
+    }
+  ],
+  "planted_violations": [],
+  "noise_injected": false
+}

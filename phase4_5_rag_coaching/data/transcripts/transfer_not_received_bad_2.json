@@ -1,0 +1,67 @@
+{
+  "call_id": "transfer_not_received_bad_2",
+  "intent": "transfer_not_received",
+  "quality_level": "bad",
+  "variant": 2,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Transfers, go ahead."
+    },
+    {
+      "speaker": "customer",
+      "text": "Yes, hi — I need help with a payment that was sent to me but I haven't received it. It was sent three days ago."
+    },
+    {
+      "speaker": "agent",
+      "text": "Who are you?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Sorry — Sarah Poulton."
+    },
+    {
+      "speaker": "agent",
+      "text": "Is this your account the money should have come into?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yes."
+    },
+    {
+      "speaker": "agent",
+      "text": "Then it's a problem with the sending bank. If the payment didn't arrive, NatWest — or whoever sent it — needs to trace it."
+    },
+    {
+      "speaker": "customer",
+      "text": "I thought you might be able to trace it on your end too?"
+    },
+    {
+      "speaker": "agent",
+      "text": "We can only see what comes in. We can't trace something that doesn't exist in our system."
+    },
+    {
+      "speaker": "customer",
+      "text": "NatWest says it left their system though."
+    },
+    {
+      "speaker": "agent",
+      "text": "Then it'll arrive eventually. Wait a few more days. These things sort out."
+    },
+    {
+      "speaker": "customer",
+      "text": "Wait a few more days with money that's apparently disappeared?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Sorry, not much else I can do."
+    }
+  ],
+  "planted_violations": [
+    "failed to verify customer identity properly",
+    "refused to raise a payment trace despite payment being confirmed sent from other bank",
+    "incorrectly stated that the receiving bank cannot trace incoming payments",
+    "dismissive throughout; offered no actionable assistance"
+  ],
+  "noise_injected": false
+}

@@ -1,0 +1,58 @@
+{
+  "call_id": "balance_not_updated_good_1",
+  "intent": "balance_not_updated",
+  "quality_level": "good",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Good afternoon, First National Bank. My name is Amara. Can I take your full name and date of birth for security?"
+    },
+    {
+      "speaker": "customer",
+      "text": "It's Leon Dupont, fifteenth of April 1983."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Mr. Dupont, I've verified your account. How can I help you?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I transferred money into my account this morning — about nine hundred pounds — and it's not showing on my balance yet. It's making me nervous."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand, that can be worrying. Was this from another bank, or an internal transfer?"
+    },
+    {
+      "speaker": "customer",
+      "text": "From a different bank. Barclays."
+    },
+    {
+      "speaker": "agent",
+      "text": "Faster Payments transfers between banks can take up to two hours during business hours. Could I ask roughly what time you made the transfer?"
+    },
+    {
+      "speaker": "customer",
+      "text": "About ten this morning."
+    },
+    {
+      "speaker": "agent",
+      "text": "In that case it should have cleared by now. Can I also confirm — has Barclays debited your account with that amount?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yes, it's already gone from there."
+    },
+    {
+      "speaker": "agent",
+      "text": "The funds are in transit and should appear shortly. If you don't see it by 5 PM today please call back and I can trace the payment directly. I've noted today's call."
+    },
+    {
+      "speaker": "customer",
+      "text": "Oh that's a relief. Thank you Amara."
+    }
+  ],
+  "planted_violations": [],
+  "noise_injected": false
+}

@@ -1,0 +1,59 @@
+{
+  "call_id": "failed_card_payment_bad_1",
+  "intent": "failed_card_payment",
+  "quality_level": "bad",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "First National, hello."
+    },
+    {
+      "speaker": "customer",
+      "text": "My card keeps getting declined. It happened three times today. I have money in my account."
+    },
+    {
+      "speaker": "agent",
+      "text": "It's probably the merchant's system. Try a different shop."
+    },
+    {
+      "speaker": "customer",
+      "text": "I tried three different shops. Declined everywhere."
+    },
+    {
+      "speaker": "agent",
+      "text": "Could be a chip issue. These things wear out. Been using it long?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Six months. Can you check if there's something on my account?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can see your account but the card system doesn't show anything obvious. Might be a network issue today — lots of banks are having connectivity problems."
+    },
+    {
+      "speaker": "customer",
+      "text": "Is there a network issue? Can I check that somewhere?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Not that I can link you to. Just try again later. Could also try ordering a new card through the app."
+    },
+    {
+      "speaker": "customer",
+      "text": "What if the problem is something you need to fix on my account?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I don't see anything I can fix. Sorry."
+    }
+  ],
+  "planted_violations": [
+    "failed to verify customer identity",
+    "failed to properly diagnose card decline reason — did not check card status, fraud flags, or daily limits",
+    "provided false information about a network outage",
+    "offered no definitive resolution; directed customer to reorder card without identifying root cause"
+  ],
+  "noise_injected": false
+}

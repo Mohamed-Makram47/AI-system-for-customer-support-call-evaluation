@@ -1,0 +1,57 @@
+{
+  "call_id": "transfer_not_received_recovery_1",
+  "intent": "transfer_not_received",
+  "quality_level": "recovery",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Good afternoon, First National Bank."
+    },
+    {
+      "speaker": "customer",
+      "text": "Afternoon. I sent a transfer of three hundred pounds to my landlord on Monday and it hasn't arrived. He's chasing me for it."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand. What name is the account in?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Mine — it's Gareth Collins."
+    },
+    {
+      "speaker": "agent",
+      "text": "Looking at your recent transfers... I can see the three-hundred-pound payment on Monday. It's showing as sent. Your landlord just needs to wait — there's nothing unusual showing."
+    },
+    {
+      "speaker": "customer",
+      "text": "That's what your colleague told me yesterday and it still hasn't arrived."
+    },
+    {
+      "speaker": "agent",
+      "text": "Oh — I apologise. If it was sent Monday and still hasn't arrived it's now outside the normal window. I should be raising a payment trace right now, not telling you to wait. Can I verify your identity first — full name and date of birth?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Gareth Collins, second of January 1980."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Gareth. I'm raising the trace now. Reference TRC-2024-4502. Your landlord's bank will be contacted directly. Resolution is typically twenty-four to forty-eight hours."
+    },
+    {
+      "speaker": "customer",
+      "text": "Thank you. I wish I'd been told this yesterday."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's a fair point and I apologise. The trace is active now."
+    }
+  ],
+  "planted_violations": [
+    "initially dismissed customer's concern and told them to wait, despite payment being outside normal clearing window",
+    "did not verify identity before accessing account details initially"
+  ],
+  "noise_injected": false
+}

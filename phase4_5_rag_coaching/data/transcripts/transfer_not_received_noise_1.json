@@ -1,0 +1,50 @@
+{
+  "call_id": "transfer_not_received_noise_1",
+  "intent": "transfer_not_received",
+  "quality_level": "good",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Good afternoon, First National Bank. My name is Ben. Can I take your full name and date of birth for verification?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Uh yeah, hi. So it's — uh — Cynthia, Cynthia Park. And uh, date of birth is, um, the, uh — seventh of — uh, March. Nineteen eighty-five."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Ms. Park, you're all verified. How can I help today?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Okay so, um — I made a transfer? Like I sent money to my — uh — to my cousin? And she's been — like she's been saying she hasn't got it. And it was — uh — like five days ago? I sent like four hundred pounds?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can see that transfer leaving your account five days ago. It's shown as sent from our end. Do you have the sort code and account number you sent it to?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Uh yeah, um — hold on — uh, [inaudible] — right, it's, um, 40-22-19 and the account is, uh — 65447821."
+    },
+    {
+      "speaker": "agent",
+      "text": "Those match the payment we sent. Since it's been five days and the funds haven't been received, I'll raise a payment trace immediately. This contacts the receiving bank directly to locate the funds."
+    },
+    {
+      "speaker": "customer",
+      "text": "Yeah okay, that sounds — uh — yeah, that sounds good. Um, like will she, uh — will she have to do anything on her end?"
+    },
+    {
+      "speaker": "agent",
+      "text": "She can also contact her bank to flag the incoming payment as missing — that can speed things up. Your trace reference is TRC-2024-4701. You'll receive an email update within twenty-four to forty-eight hours."
+    },
+    {
+      "speaker": "customer",
+      "text": "Brilliant. Yeah, um — thank you. That's — yeah, that's all I needed."
+    }
+  ],
+  "planted_violations": [],
+  "noise_injected": true
+}

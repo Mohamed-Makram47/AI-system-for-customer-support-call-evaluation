@@ -1,0 +1,58 @@
+{
+  "call_id": "card_blocked_good_2",
+  "intent": "card_blocked",
+  "quality_level": "good",
+  "variant": 2,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "First National Bank, good evening. This is Jasmine. Can I take your name and date of birth for verification?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Sure — it's Ivan Petrov, ninth of March 1982."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Ivan, I've got you verified. What can I do for you?"
+    },
+    {
+      "speaker": "customer",
+      "text": "My card's been blocked out of nowhere. I was trying to pay for dinner and it was declined — very embarrassing."
+    },
+    {
+      "speaker": "agent",
+      "text": "I'm really sorry about that. Let me look into this straight away. The card was locked by our automated security system forty minutes ago — there was an attempt to use the card for an e-commerce transaction that flagged as suspicious."
+    },
+    {
+      "speaker": "customer",
+      "text": "I didn't make any online purchases today."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's very helpful. I've blocked the card permanently and I'm generating a new card for you. This suggests someone may have your card details. Your new card will arrive in three to five working days."
+    },
+    {
+      "speaker": "customer",
+      "text": "How do I pay for things in the meantime?"
+    },
+    {
+      "speaker": "agent",
+      "text": "You can visit any branch tomorrow with photo ID for a temporary card. I can also arrange Google Pay provisioning right now if your phone supports it — that's immediate."
+    },
+    {
+      "speaker": "customer",
+      "text": "Oh, the Google Pay option would be perfect."
+    },
+    {
+      "speaker": "agent",
+      "text": "I'll send an SMS to your registered number with setup instructions right now. Anything else this evening?"
+    },
+    {
+      "speaker": "customer",
+      "text": "That's brilliant, thank you. Really sorted it out."
+    }
+  ],
+  "planted_violations": [],
+  "noise_injected": false
+}

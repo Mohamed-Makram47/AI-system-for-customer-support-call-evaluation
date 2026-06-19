@@ -1,0 +1,74 @@
+{
+  "call_id": "card_blocked_ambiguous_1",
+  "intent": "card_blocked",
+  "quality_level": "ambiguous",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Hi, you're through to First National."
+    },
+    {
+      "speaker": "customer",
+      "text": "Hi, my card was declined this morning. I think it might be blocked?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Name please?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Simone Laurent."
+    },
+    {
+      "speaker": "agent",
+      "text": "Right, I can see there's a flag on the card."
+    },
+    {
+      "speaker": "customer",
+      "text": "What kind of flag? Is it blocked?"
+    },
+    {
+      "speaker": "agent",
+      "text": "It's some kind of restriction. I'm not sure exactly what triggered it."
+    },
+    {
+      "speaker": "customer",
+      "text": "Can you unblock it?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I'd need to escalate that probably. Some of these I can deal with, some I can't."
+    },
+    {
+      "speaker": "customer",
+      "text": "So what happens now?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I'll make a note. Someone may call you back within twenty-four to forty-eight hours."
+    },
+    {
+      "speaker": "customer",
+      "text": "And in the meantime my card doesn't work."
+    },
+    {
+      "speaker": "agent",
+      "text": "You could use a different payment method."
+    },
+    {
+      "speaker": "customer",
+      "text": "I only have the one card."
+    },
+    {
+      "speaker": "agent",
+      "text": "I see. Well let me try to escalate now..."
+    }
+  ],
+  "planted_violations": [
+    "incomplete identity verification — name only",
+    "unable to diagnose or resolve card block; failed to take definitive action",
+    "left customer without a working payment method and no clear resolution timeline"
+  ],
+  "noise_injected": false
+}

@@ -1,0 +1,50 @@
+{
+  "call_id": "balance_not_updated_noise_1",
+  "intent": "balance_not_updated",
+  "quality_level": "good",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Good afternoon, First National Bank. My name is Helen. Can I take your full name and date of birth for security?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Uh yeah, it's — Mark, uh, Mark Wilkinson. And my date of birth is the, um, the twenty... twenty-seventh of, uh, May. Nineteen eighty-four."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Mr. Wilkinson, I've verified your identity. How can I help you today?"
+    },
+    {
+      "speaker": "customer",
+      "text": "So like, my — I made a transfer? Into my account? From my like, my savings account at — uh, [inaudible] — sorry, from Nationwide. Like a thousand pounds. And it's not — like it hasn't showed up yet. And I did it like, I don't know, like this morning at nine or something."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand. Let me check the status of that incoming transfer for you."
+    },
+    {
+      "speaker": "customer",
+      "text": "Yeah because I need it like, I need it to be there today because I've got a direct debit going out and I don't want it to like, bounce or whatever."
+    },
+    {
+      "speaker": "agent",
+      "text": "I can see an incoming transfer for one thousand pounds that's currently being processed. Given it was initiated around nine this morning, it should clear within the next hour. Your direct debit won't be affected."
+    },
+    {
+      "speaker": "customer",
+      "text": "Oh — okay. So you're saying like it's definitely coming? Like it's not, uh, stuck or anything?"
+    },
+    {
+      "speaker": "agent",
+      "text": "It's processing normally. If you don't see it by lunchtime, call us back with your payment reference and we can trace it directly. I've noted today's call."
+    },
+    {
+      "speaker": "customer",
+      "text": "Right, yeah. Um — [inaudible] — thanks. Yeah that's all I needed."
+    }
+  ],
+  "planted_violations": [],
+  "noise_injected": true
+}

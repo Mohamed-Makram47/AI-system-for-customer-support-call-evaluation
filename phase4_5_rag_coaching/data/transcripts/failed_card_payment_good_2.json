@@ -1,0 +1,58 @@
+{
+  "call_id": "failed_card_payment_good_2",
+  "intent": "failed_card_payment",
+  "quality_level": "good",
+  "variant": 2,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Good evening, First National Bank. My name is Zara. Could I take your name and date of birth for security?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yeah — Hana Yamamoto, thirty-first of January 1995."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Hana, you're verified. How can I help?"
+    },
+    {
+      "speaker": "customer",
+      "text": "So I tried to make an online purchase earlier — about two hundred and forty pounds — and my card kept coming up as declined. I've got plenty of money so I'm confused."
+    },
+    {
+      "speaker": "agent",
+      "text": "Let me check the transaction history. I can see two declined attempts for that amount. The merchant is an international site — the transactions were flagged by our international fraud prevention controls. We see a higher rate of fraud on cross-border e-commerce."
+    },
+    {
+      "speaker": "customer",
+      "text": "So my card isn't blocked — it's specifically flagged for that site?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Not permanently. It was an automatic hold on that transaction pattern. I can whitelist international e-commerce for your account for the next thirty days, which should allow the payment to go through. Would you like me to do that?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yes please."
+    },
+    {
+      "speaker": "agent",
+      "text": "Done. I'd also recommend enabling transaction notifications in the app — that way you'll see in real time if anything unusual happens. Your card will now work for that purchase."
+    },
+    {
+      "speaker": "customer",
+      "text": "It's gone through. Thank you so much. You're a star."
+    },
+    {
+      "speaker": "agent",
+      "text": "Brilliant! Is there anything else I can help with?"
+    },
+    {
+      "speaker": "customer",
+      "text": "No, that's everything."
+    }
+  ],
+  "planted_violations": [],
+  "noise_injected": false
+}

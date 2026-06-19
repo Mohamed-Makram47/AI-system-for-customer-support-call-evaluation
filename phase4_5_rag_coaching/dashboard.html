@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EJUST — Call Evaluation System</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Syne:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --red: #C8102E;
+  --red-dark: #9B0B22;
+  --red-light: #FEF0F2;
+  --black: #0D0D0D;
+  --white: #FFFFFF;
+  --gray-50: #F6F5F3;
+  --gray-100: #EBEBEA;
+  --gray-200: #D5D5D3;
+  --gray-400: #9A9A97;
+  --gray-600: #5C5C59;
+  --gray-800: #2D2D2B;
+  --green: #1A7F4B;
+  --green-bg: #EAF5F0;
+  --green-border: #A8D9C0;
+  --amber: #B45309;
+  --amber-bg: #FEF3E2;
+  --amber-border: #F5C97A;
+  --viol-bg: #FEF0F2;
+  --viol-border: #F7BBBF;
+  --viol-text: #9B0B22;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Syne',sans-serif; background:var(--gray-50); color:var(--black); min-height:100vh; overflow-x:hidden; }
+
+/* NAV */
+nav { background:var(--black); display:flex; align-items:center; justify-content:space-between; padding:0 2.5rem; height:62px; position:sticky; top:0; z-index:200; }
+.nav-logo { display:flex; align-items:center; gap:12px; }
+.logo-mark { width:36px; height:36px; background:var(--red); display:flex; align-items:center; justify-content:center; font-family:'DM Serif Display',serif; font-size:14px; color:white; flex-shrink:0; }
+.nav-title { font-size:12px; font-weight:700; color:white; letter-spacing:0.08em; text-transform:uppercase; }
+.nav-sub { font-size:9px; color:var(--gray-400); letter-spacing:0.05em; text-transform:uppercase; margin-top:2px; }
+.nav-dots { display:flex; align-items:center; gap:7px; }
+.dot { width:7px; height:7px; border-radius:50%; background:var(--gray-600); transition:background .3s; }
+.dot.active { background:var(--red); }
+.dot.done { background:var(--gray-400); }
+
+/* SCREENS */
+.screen { display:none; }
+.screen.active { display:flex; flex-direction:column; }
+
+/* ═══ SCREEN 1: UPLOAD ═══ */
+#s-upload { min-height:calc(100vh - 62px); align-items:center; justify-content:center; padding:3rem 1.5rem; }
+.upload-box { width:100%; max-width:640px; }
+.upload-headline { font-family:'DM Serif Display',serif; font-size:44px; line-height:1.05; color:var(--black); margin-bottom:.4rem; }
+.upload-headline em { font-style:italic; color:var(--red); }
+.upload-sub { font-size:13px; color:var(--gray-600); margin-bottom:2rem; letter-spacing:.02em; }
+
+.dropzone { border:1.5px dashed var(--gray-200); background:var(--white); border-radius:3px; padding:3rem 2rem; text-align:center; cursor:pointer; transition:border-color .2s,background .2s; position:relative; }
+.dropzone:hover,.dropzone.over { border-color:var(--red); background:var(--red-light); }
+.dropzone input[type=file] { position:absolute; inset:0; opacity:0; cursor:pointer; width:100%; height:100%; }
+.dz-icon { width:48px; height:48px; background:var(--gray-100); border-radius:50%; display:flex; align-items:center; justify-content:center; margin:0 auto 1rem; }
+.dz-icon svg { width:22px; height:22px; stroke:var(--gray-600); fill:none; stroke-width:1.5; stroke-linecap:round; stroke-linejoin:round; }
+.dz-main { font-size:14px; font-weight:600; color:var(--black); margin-bottom:4px; }
+.dz-hint { font-size:11px; color:var(--gray-400); letter-spacing:.03em; }
+
+.file-pill { display:none; align-items:center; gap:10px; background:var(--white); border:1px solid var(--gray-200); border-radius:3px; padding:12px 14px; margin-top:.75rem; }
+.file-pill.show { display:flex; }
+.pill-icon { width:32px; height:32px; background:var(--red-light); border-radius:3px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+.pill-icon svg { width:16px; height:16px; stroke:var(--red); fill:none; stroke-width:1.5; stroke-linecap:round; stroke-linejoin:round; }
+.pill-name { font-size:12px; font-weight:600; color:var(--black); }
+.pill-id { font-size:10px; color:var(--gray-400); font-family:'DM Mono',monospace; margin-top:1px; }
+
+.pipeline { margin-top:1.75rem; border-top:1px solid var(--gray-100); padding-top:1.25rem; }
+.pipe-label { font-size:9px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--gray-400); margin-bottom:.9rem; }
+.pipe-steps { display:flex; align-items:flex-start; }
+.pipe-step { flex:1; text-align:center; position:relative; }
+.pipe-step:not(:last-child)::after { content:''; position:absolute; top:13px; left:60%; width:80%; height:1px; background:var(--gray-200); }
+.pipe-num { width:28px; height:28px; border-radius:50%; background:var(--gray-100); display:flex; align-items:center; justify-content:center; font-size:10px; font-weight:700; color:var(--gray-600); margin:0 auto 6px; position:relative; z-index:1; }
+.pipe-name { font-size:9px; color:var(--gray-600); line-height:1.4; letter-spacing:.01em; }
+
+.btn-start { margin-top:1.5rem; width:100%; background:var(--red); color:white; border:none; border-radius:3px; padding:15px; font-family:'Syne',sans-serif; font-size:13px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; cursor:pointer; transition:background .15s,opacity .2s; opacity:.35; pointer-events:none; }
+.btn-start.on { opacity:1; pointer-events:all; }
+.btn-start:hover { background:var(--red-dark); }
+
+/* ═══ SCREEN 2: LOADING ═══ */
+#s-loading { min-height:calc(100vh - 62px); align-items:center; justify-content:center; padding:3rem 1.5rem; }
+.load-box { width:100%; max-width:520px; }
+.load-title { font-family:'DM Serif Display',serif; font-size:30px; color:var(--black); margin-bottom:.3rem; }
+.load-sub { font-size:12px; color:var(--gray-400); font-family:'DM Mono',monospace; margin-bottom:2.5rem; }
+
+.stages { border:1px solid var(--gray-100); border-radius:3px; overflow:hidden; background:var(--white); }
+.stage { display:flex; align-items:center; gap:14px; padding:16px 20px; border-bottom:1px solid var(--gray-100); transition:background .3s; }
+.stage:last-child { border-bottom:none; }
+.stage.running { background:#FFFBF4; }
+.stage.done { background:var(--white); }
+
+.st-icon { width:32px; height:32px; border-radius:50%; background:var(--gray-100); display:flex; align-items:center; justify-content:center; flex-shrink:0; transition:background .3s; }
+.stage.running .st-icon { background:#FEF0D4; }
+.stage.done .st-icon { background:var(--green-bg); }
+.st-icon svg { width:14px; height:14px; fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; }
+.ico-wait { stroke:var(--gray-400); display:block; }
+.ico-spin { stroke:#C47B10; display:none; animation:spin 1s linear infinite; transform-origin:center; }
+.ico-ok { stroke:var(--green); display:none; }
+.stage.running .ico-wait { display:none; }
+.stage.running .ico-spin { display:block; }
+.stage.done .ico-wait,.stage.done .ico-spin { display:none; }
+.stage.done .ico-ok { display:block; }
+@keyframes spin { to { transform:rotate(360deg); } }
+
+.st-info { flex:1; }
+.st-name { font-size:12px; font-weight:600; color:var(--black); }
+.st-detail { font-size:10px; color:var(--gray-400); font-family:'DM Mono',monospace; margin-top:2px; }
+.st-status { font-size:10px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--gray-400); }
+.stage.running .st-status { color:#C47B10; }
+.stage.done .st-status { color:var(--green); }
+
+.load-bar-wrap { height:2px; background:var(--gray-100); border-radius:1px; margin-top:1.5rem; overflow:hidden; }
+.load-bar { height:100%; background:var(--red); width:0%; transition:width .6s ease; border-radius:1px; }
+
+/* ═══ SCREEN 3: RESULTS ═══ */
+#s-results { min-height:calc(100vh - 62px); flex-direction:column; }
+
+.res-topbar { background:var(--black); padding:1.25rem 2.5rem; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; }
+.res-callid-label { font-size:9px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--gray-400); margin-bottom:3px; }
+.res-callid { font-size:20px; font-family:'DM Mono',monospace; color:white; letter-spacing:.03em; }
+.res-badges { display:flex; align-items:center; gap:7px; flex-wrap:wrap; }
+.bdg { font-size:10px; font-weight:600; letter-spacing:.04em; padding:5px 11px; border-radius:2px; }
+.bdg-intent-coarse { background:rgba(255,255,255,.08); color:rgba(255,255,255,.6); }
+.bdg-arrow { color:var(--gray-400); font-size:13px; }
+.bdg-intent-fine { background:var(--red); color:white; }
+.bdg-quality { background:transparent; border:1px solid rgba(255,255,255,.15); color:rgba(255,255,255,.5); text-transform:uppercase; }
+.bdg-verdict-ok { background:rgba(26,127,75,.25); color:#6EDBA8; border:1px solid rgba(26,127,75,.4); }
+.bdg-verdict-viol { background:rgba(200,16,46,.25); color:#F7BBBF; border:1px solid rgba(200,16,46,.4); }
+
+.res-body { display:grid; grid-template-columns:290px 1fr; flex:1; min-height:0; }
+
+/* LEFT */
+.left-col { background:var(--white); border-right:1px solid var(--gray-100); display:flex; flex-direction:column; overflow-y:auto; max-height:calc(100vh - 130px); }
+
+/* SCORE */
+.score-card { padding:1.75rem; border-bottom:1px solid var(--gray-100); text-align:center; }
+.sec-label { font-size:9px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--gray-400); margin-bottom:1.25rem; text-align:left; }
+
+.score-ring-wrap { position:relative; width:148px; height:148px; margin:0 auto 1rem; }
+.score-ring-wrap svg { width:148px; height:148px; transform:rotate(-90deg); }
+.ring-bg { fill:none; stroke:var(--gray-100); stroke-width:9; }
+.ring-fill { fill:none; stroke-width:9; stroke-linecap:round; stroke-dasharray:377; stroke-dashoffset:377; transition:stroke-dashoffset 1.4s cubic-bezier(.16,1,.3,1),stroke .3s; }
+.ring-fill.col-green { stroke:var(--green); }
+.ring-fill.col-amber { stroke:var(--amber); }
+.ring-fill.col-red   { stroke:var(--red); }
+.ring-fill.col-default { stroke:var(--red); }
+
+.score-inner { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+.score-num { font-family:'DM Serif Display',serif; font-size:38px; color:var(--black); line-height:1; }
+.score-den { font-size:10px; color:var(--gray-400); margin-top:1px; }
+
+.grade-circle { width:46px; height:46px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:'DM Serif Display',serif; font-size:24px; color:white; margin:0 auto .4rem; background:var(--red); }
+.grade-circle.col-green { background:var(--green); }
+.grade-circle.col-amber { background:var(--amber); }
+.grade-circle.col-red   { background:var(--red); }
+.grade-lbl { font-size:11px; color:var(--gray-400); }
+
+/* SUB SCORES */
+.sub-scores { padding:1.25rem 1.75rem; border-bottom:1px solid var(--gray-100); }
+.sub-row { margin-bottom:.9rem; }
+.sub-row:last-child { margin-bottom:0; }
+.sub-head { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:5px; }
+.sub-name { font-size:11px; font-weight:600; color:var(--black); }
+.sub-val { font-size:11px; font-family:'DM Mono',monospace; color:var(--gray-600); }
+.sub-bar-bg { height:4px; background:var(--gray-100); border-radius:2px; overflow:hidden; }
+.sub-bar-fill { height:100%; border-radius:2px; transition:width 1s ease .3s; }
+.sub-bar-fill.col-green { background:var(--green); }
+.sub-bar-fill.col-amber { background:var(--amber); }
+.sub-bar-fill.col-red   { background:var(--red); }
+
+/* VIOLATIONS */
+.viol-panel { padding:1.25rem 1.75rem; flex:1; }
+.viol-item { background:var(--viol-bg); border-left:3px solid var(--red); border-radius:0 3px 3px 0; padding:10px 12px; margin-bottom:8px; }
+.viol-item:last-child { margin-bottom:0; }
+.viol-policy { font-size:10px; font-weight:700; color:var(--viol-text); margin-bottom:3px; letter-spacing:.02em; }
+.viol-evidence { font-size:10px; color:var(--gray-600); line-height:1.5; }
+
+.no-viol { text-align:center; padding:1.5rem 0; }
+.no-viol-icon { font-size:28px; margin-bottom:.5rem; }
+.no-viol-text { font-size:12px; color:var(--green); font-weight:600; }
+
+/* RIGHT */
+.right-col { display:flex; flex-direction:column; overflow:hidden; max-height:calc(100vh - 130px); }
+
+/* TRANSCRIPT */
+.transcript-panel { flex:1; overflow-y:auto; padding:1.75rem 2rem; background:var(--gray-50); }
+.panel-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:1.25rem; }
+.legend { display:flex; gap:12px; font-size:10px; color:var(--gray-400); }
+.leg-item { display:flex; align-items:center; gap:4px; }
+.leg-dot { width:7px; height:7px; border-radius:50%; }
+.leg-dot.ag { background:var(--black); }
+.leg-dot.cx { background:var(--gray-400); }
+.leg-dot.vl { background:var(--red); }
+
+.turn { display:flex; gap:10px; margin-bottom:1rem; align-items:flex-start; }
+.turn-av { width:28px; height:28px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:9px; font-weight:700; flex-shrink:0; margin-top:1px; letter-spacing:.02em; }
+.turn-av.ag { background:var(--black); color:white; }
+.turn-av.cx { background:var(--gray-200); color:var(--gray-800); }
+.turn-bubble { flex:1; background:var(--white); border:1px solid var(--gray-100); border-radius:3px; padding:9px 13px; font-size:12px; color:var(--black); line-height:1.65; }
+.turn-bubble.viol { background:var(--viol-bg); border-color:var(--viol-border); }
+.turn-spk { font-size:8px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--gray-400); margin-bottom:3px; }
+.turn-bubble.viol .turn-spk { color:var(--red); }
+.viol-tag { display:inline-flex; align-items:center; gap:3px; background:var(--red); color:white; font-size:8px; font-weight:700; letter-spacing:.07em; text-transform:uppercase; padding:2px 7px; border-radius:2px; margin-top:5px; }
+
+/* COACHING */
+.coaching-panel { border-top:1px solid var(--gray-100); padding:1.5rem 2rem; background:var(--white); overflow-y:auto; max-height:320px; }
+.coaching-section { margin-bottom:1.25rem; }
+.coaching-section:last-child { margin-bottom:0; }
+.coaching-sec-title { font-size:9px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; margin-bottom:.6rem; }
+.coaching-sec-title.green { color:var(--green); }
+.coaching-sec-title.amber { color:var(--amber); }
+.coaching-sec-title.gray  { color:var(--gray-600); }
+
+.coaching-list { list-style:none; display:flex; flex-direction:column; gap:5px; }
+.coaching-list li { font-size:11px; color:var(--gray-600); line-height:1.55; padding-left:12px; position:relative; }
+.coaching-list li::before { content:''; position:absolute; left:0; top:7px; width:5px; height:5px; border-radius:50%; }
+.coaching-list.green li::before { background:var(--green); }
+.coaching-list.amber li::before { background:var(--amber); }
+
+.rephrase-pair { background:var(--gray-50); border-radius:3px; padding:10px 12px; margin-bottom:6px; border:1px solid var(--gray-100); }
+.rephrase-pair:last-child { margin-bottom:0; }
+.rephrase-orig { font-size:10px; color:var(--gray-400); font-style:italic; margin-bottom:4px; line-height:1.5; }
+.rephrase-better { font-size:10px; color:var(--green); font-weight:600; line-height:1.5; }
+.rephrase-arrow { font-size:9px; color:var(--gray-400); margin-bottom:2px; }
+
+.res-footer { padding:.75rem 2rem; display:flex; gap:8px; background:var(--white); border-top:1px solid var(--gray-100); }
+.btn-dl { display:inline-flex; align-items:center; gap:6px; background:transparent; border:1px solid var(--gray-200); border-radius:3px; padding:8px 14px; font-family:'Syne',sans-serif; font-size:11px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--black); cursor:pointer; transition:border-color .15s,color .15s; }
+.btn-dl:hover { border-color:var(--red); color:var(--red); }
+.btn-dl svg { width:13px; height:13px; stroke:currentColor; fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; }
+.btn-new { display:inline-flex; align-items:center; gap:6px; background:var(--black); border:none; border-radius:3px; padding:8px 14px; font-family:'Syne',sans-serif; font-size:11px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:white; cursor:pointer; transition:background .15s; }
+.btn-new:hover { background:var(--red); }
+
+/* ERROR TOAST */
+.toast { position:fixed; bottom:1.5rem; left:50%; transform:translateX(-50%); background:var(--black); color:white; font-size:12px; font-family:'DM Mono',monospace; padding:10px 20px; border-radius:3px; border-left:3px solid var(--red); display:none; z-index:999; white-space:nowrap; }
+.toast.show { display:block; animation:fadeup .3s ease; }
+@keyframes fadeup { from { opacity:0; transform:translateX(-50%) translateY(8px); } to { opacity:1; transform:translateX(-50%) translateY(0); } }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">
+    <div class="logo-mark">EJ</div>
+    <div>
+      <div class="nav-title">Call Evaluation System</div>
+      <div class="nav-sub">Egypt Japan University of Science &amp; Technology</div>
+    </div>
+  </div>
+  <div class="nav-dots">
+    <div class="dot active" id="d1"></div>
+    <div class="dot" id="d2"></div>
+    <div class="dot" id="d3"></div>
+  </div>
+</nav>
+
+<!-- ═══ SCREEN 1: UPLOAD ═══ -->
+<div class="screen active" id="s-upload">
+  <div class="upload-box">
+    <h1 class="upload-headline">Evaluate a<br><em>Customer Call</em></h1>
+    <p class="upload-sub">Upload a call recording — results load instantly from the evaluation pipeline.</p>
+
+    <div class="dropzone" id="dropzone">
+      <input type="file" id="audio-input" accept=".wav,.mp3,.m4a,.ogg,.flac">
+      <div class="dz-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 18V9m-3.5 3.5L12 9l3.5 3.5"/><path d="M20 16.7A4 4 0 0017 9h-1.3A7 7 0 104 15.7"/></svg>
+      </div>
+      <div class="dz-main">Drop audio file here or click to browse</div>
+      <div class="dz-hint">WAV · MP3 · M4A · Max 5 minutes</div>
+    </div>
+
+    <div class="file-pill" id="file-pill">
+      <div class="pill-icon">
+        <svg viewBox="0 0 24 24"><path d="M9 18c-4 1.5-4-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 00-1.3-3.2 4.2 4.2 0 00-.1-3.2s-1-.3-3.3 1.3a11.4 11.4 0 00-6 0C6.3 2.8 5.3 3 5.3 3a4.2 4.2 0 00-.1 3.2A4.6 4.6 0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+      </div>
+      <div>
+        <div class="pill-name" id="pill-name">—</div>
+        <div class="pill-id">call_id: <span id="pill-id">—</span></div>
+      </div>
+    </div>
+
+    <div class="pipeline">
+      <div class="pipe-label">Processing pipeline</div>
+      <div class="pipe-steps">
+        <div class="pipe-step"><div class="pipe-num">1</div><div class="pipe-name">Speech-to-Text<br>+ Diarization</div></div>
+        <div class="pipe-step"><div class="pipe-num">2</div><div class="pipe-name">Intent<br>Classification</div></div>
+        <div class="pipe-step"><div class="pipe-num">3</div><div class="pipe-name">RAG Policy<br>Validation</div></div>
+        <div class="pipe-step"><div class="pipe-num">4</div><div class="pipe-name">Scoring &amp;<br>Coaching</div></div>
+      </div>
+    </div>
+
+    <button class="btn-start" id="btn-start">Start Evaluation →</button>
+  </div>
+</div>
+
+<!-- ═══ SCREEN 2: LOADING ═══ -->
+<div class="screen" id="s-loading">
+  <div class="load-box">
+    <h2 class="load-title">Analysing call…</h2>
+    <p class="load-sub" id="load-fname">Preparing pipeline</p>
+    <div class="stages">
+      <div class="stage" id="st1">
+        <div class="st-icon"><svg viewBox="0 0 24 24"><circle class="ico-wait" cx="12" cy="12" r="9"/><path class="ico-spin" d="M12 3a9 9 0 019 9"/><path class="ico-ok" d="M7 12l3.5 3.5L17 9" stroke-width="2"/></svg></div>
+        <div class="st-info"><div class="st-name">Speech-to-Text + Diarization</div><div class="st-detail">Whisper STT · ahmedosamaa/CallScript-Diarizer</div></div>
+        <div class="st-status" id="ss1">Waiting</div>
+      </div>
+      <div class="stage" id="st2">
+        <div class="st-icon"><svg viewBox="0 0 24 24"><circle class="ico-wait" cx="12" cy="12" r="9"/><path class="ico-spin" d="M12 3a9 9 0 019 9"/><path class="ico-ok" d="M7 12l3.5 3.5L17 9" stroke-width="2"/></svg></div>
+        <div class="st-info"><div class="st-name">Intent Classification</div><div class="st-detail">DualHead RoBERTa-large · SBERT ensemble · 78 intents</div></div>
+        <div class="st-status" id="ss2">Waiting</div>
+      </div>
+      <div class="stage" id="st3">
+        <div class="st-icon"><svg viewBox="0 0 24 24"><circle class="ico-wait" cx="12" cy="12" r="9"/><path class="ico-spin" d="M12 3a9 9 0 019 9"/><path class="ico-ok" d="M7 12l3.5 3.5L17 9" stroke-width="2"/></svg></div>
+        <div class="st-info"><div class="st-name">RAG Policy Validation</div><div class="st-detail">FAISS · all-MiniLM-L6-v2 · Llama-4 Scout Judge</div></div>
+        <div class="st-status" id="ss3">Waiting</div>
+      </div>
+      <div class="stage" id="st4">
+        <div class="st-icon"><svg viewBox="0 0 24 24"><circle class="ico-wait" cx="12" cy="12" r="9"/><path class="ico-spin" d="M12 3a9 9 0 019 9"/><path class="ico-ok" d="M7 12l3.5 3.5L17 9" stroke-width="2"/></svg></div>
+        <div class="st-info"><div class="st-name">Scoring &amp; Coaching Report</div><div class="st-detail">Compliance grading · Personalised recommendations</div></div>
+        <div class="st-status" id="ss4">Waiting</div>
+      </div>
+    </div>
+    <div class="load-bar-wrap"><div class="load-bar" id="load-bar"></div></div>
+  </div>
+</div>
+
+<!-- ═══ SCREEN 3: RESULTS ═══ -->
+<div class="screen" id="s-results">
+  <div class="res-topbar">
+    <div>
+      <div class="res-callid-label">Evaluation Report</div>
+      <div class="res-callid" id="r-callid">—</div>
+    </div>
+    <div class="res-badges" id="r-badges"></div>
+  </div>
+
+  <div class="res-body">
+    <!-- LEFT -->
+    <div class="left-col">
+      <div class="score-card">
+        <div class="sec-label">Compliance Score</div>
+        <div class="score-ring-wrap">
+          <svg viewBox="0 0 148 148">
+            <circle class="ring-bg" cx="74" cy="74" r="60"/>
+            <circle class="ring-fill col-default" id="ring" cx="74" cy="74" r="60"/>
+          </svg>
+          <div class="score-inner">
+            <div class="score-num" id="r-score">—</div>
+            <div class="score-den">/ 100</div>
+          </div>
+        </div>
+        <div class="grade-circle" id="r-grade-circle">—</div>
+        <div class="grade-lbl">Overall Grade</div>
+      </div>
+
+      <div class="sub-scores">
+        <div class="sec-label">Score Breakdown</div>
+        <div class="sub-row">
+          <div class="sub-head"><span class="sub-name">Policy Compliance</span><span class="sub-val" id="sb-policy">—</span></div>
+          <div class="sub-bar-bg"><div class="sub-bar-fill" id="bar-policy" style="width:0%"></div></div>
+        </div>
+        <div class="sub-row">
+          <div class="sub-head"><span class="sub-name">Issue Resolution</span><span class="sub-val" id="sb-resolution">—</span></div>
+          <div class="sub-bar-bg"><div class="sub-bar-fill" id="bar-resolution" style="width:0%"></div></div>
+        </div>
+        <div class="sub-row">
+          <div class="sub-head"><span class="sub-name">Communication</span><span class="sub-val" id="sb-comm">—</span></div>
+          <div class="sub-bar-bg"><div class="sub-bar-fill" id="bar-comm" style="width:0%"></div></div>
+        </div>
+      </div>
+
+      <div class="viol-panel">
+        <div class="sec-label">Policy Violations</div>
+        <div id="r-violations"></div>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="right-col">
+      <div class="transcript-panel">
+        <div class="panel-header">
+          <div class="sec-label" style="margin-bottom:0">Call Transcript</div>
+          <div class="legend">
+            <div class="leg-item"><div class="leg-dot ag"></div> Agent</div>
+            <div class="leg-item"><div class="leg-dot cx"></div> Customer</div>
+            <div class="leg-item"><div class="leg-dot vl"></div> Violation</div>
+          </div>
+        </div>
+        <div id="r-transcript"></div>
+      </div>
+
+      <div class="coaching-panel">
+        <div class="sec-label" style="margin-bottom:1rem">Coaching Report</div>
+        <div id="r-coaching"></div>
+      </div>
+
+      <div class="res-footer">
+        <button class="btn-dl" id="btn-dl">
+          <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download JSON
+        </button>
+        <button class="btn-new" onclick="reset()">← New Evaluation</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const API = 'http://localhost:8000';
+let currentCallId = null;
+let fullData = null;
+
+// ── UTILS ──
+function show(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+}
+function setDots(n) {
+  [1,2,3].forEach(i => {
+    const d = document.getElementById('d'+i);
+    d.className = 'dot' + (i===n?' active':i<n?' done':'');
+  });
+}
+function toast(msg, ms=3500) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), ms);
+}
+function scoreColor(v) {
+  if (v >= 75) return 'col-green';
+  if (v >= 50) return 'col-amber';
+  return 'col-red';
+}
+
+// ── UPLOAD ──
+const dropzone = document.getElementById('dropzone');
+const audioInput = document.getElementById('audio-input');
+const btnStart = document.getElementById('btn-start');
+
+dropzone.addEventListener('dragover', e => { e.preventDefault(); dropzone.classList.add('over'); });
+dropzone.addEventListener('dragleave', () => dropzone.classList.remove('over'));
+dropzone.addEventListener('drop', e => { e.preventDefault(); dropzone.classList.remove('over'); if(e.dataTransfer.files[0]) handleFile(e.dataTransfer.files[0]); });
+audioInput.addEventListener('change', () => { if(audioInput.files[0]) handleFile(audioInput.files[0]); });
+
+function handleFile(f) {
+  // Extract call_id: filename without extension
+  const callId = f.name.replace(/\.[^/.]+$/, '');
+  currentCallId = callId;
+  document.getElementById('pill-name').textContent = f.name;
+  document.getElementById('pill-id').textContent = callId;
+  document.getElementById('file-pill').classList.add('show');
+  btnStart.classList.add('on');
+}
+
+btnStart.addEventListener('click', () => {
+  if (!currentCallId) return;
+  startLoading();
+});
+
+// ── LOADING ──
+function startLoading() {
+  show('s-loading');
+  setDots(2);
+  document.getElementById('load-fname').textContent = currentCallId;
+  const durations = [2600, 1800, 3000, 2000];
+  let i = 0;
+  const pcts = [22, 48, 75, 100];
+
+  function next() {
+    if (i >= 4) { fetchAndRender(); return; }
+    const st = document.getElementById('st'+(i+1));
+    const ss = document.getElementById('ss'+(i+1));
+    st.className = 'stage running';
+    ss.textContent = 'Running…';
+    document.getElementById('load-bar').style.width = (pcts[i]-18)+'%';
+    setTimeout(() => {
+      st.className = 'stage done';
+      ss.textContent = 'Done';
+      document.getElementById('load-bar').style.width = pcts[i]+'%';
+      i++;
+      setTimeout(next, 280);
+    }, durations[i]);
+  }
+  next();
+}
+
+// ── FETCH DATA ──
+async function fetchAndRender() {
+  try {
+    const [resR, trR, coR] = await Promise.all([
+      fetch(`${API}/api/result/${encodeURIComponent(currentCallId)}`),
+      fetch(`${API}/api/transcript/${encodeURIComponent(currentCallId)}`),
+      fetch(`${API}/api/coaching/${encodeURIComponent(currentCallId)}`)
+    ]);
+
+    if (!resR.ok) { const e=await resR.json(); throw new Error(e.error||'Result not found'); }
+    if (!trR.ok)  { const e=await trR.json();  throw new Error(e.error||'Transcript not found'); }
+
+    const result   = await resR.json();
+    const transcript = await trR.json();
+    const coaching = coR.ok ? await coR.json() : null;
+
+    fullData = { result, transcript, coaching };
+    renderResults(result, transcript, coaching);
+
+  } catch(err) {
+    toast('Error: ' + err.message);
+    reset();
+  }
+}
+
+// ── RENDER ──
+function renderResults(result, transcript, coaching) {
+  show('s-results');
+  setDots(3);
+
+  // Top bar
+  document.getElementById('r-callid').textContent = result.call_id || currentCallId;
+  const score = result.score || {};
+  const verdict = result.verdict || 'unknown';
+  const quality = transcript.quality_level || '';
+  const intent = result.fine_label_expected || transcript.intent || '—';
+
+  const badges = document.getElementById('r-badges');
+  badges.innerHTML = `
+    <span class="bdg bdg-intent-coarse">${formatCoarse(intent)}</span>
+    <span class="bdg-arrow">→</span>
+    <span class="bdg bdg-intent-fine">${intent.replace(/_/g,' ')}</span>
+    ${quality ? `<span class="bdg bdg-quality">${quality}</span>` : ''}
+    <span class="bdg ${verdict==='ok'?'bdg-verdict-ok':'bdg-verdict-viol'}">${verdict==='ok'?'✓ Compliant':'⚑ Violation'}</span>
+  `;
+
+  // Score ring
+  const finalScore = Math.round(score.final_score || score.policy_compliance || 0);
+  const grade = score.grade || '—';
+  const col = scoreColor(finalScore);
+
+  document.getElementById('r-score').textContent = finalScore;
+  const ring = document.getElementById('ring');
+  ring.className = 'ring-fill ' + col;
+  const circ = 2 * Math.PI * 60;
+  setTimeout(() => {
+    ring.style.strokeDasharray = circ;
+    ring.style.strokeDashoffset = circ * (1 - finalScore/100);
+  }, 80);
+
+  const gc = document.getElementById('r-grade-circle');
+  gc.textContent = grade;
+  gc.className = 'grade-circle ' + col;
+
+  // Sub scores
+  function setSub(idVal, idBar, val, note) {
+    const v = Math.round(val||0);
+    const c = scoreColor(v);
+    document.getElementById(idVal).textContent = v + '/100' + (note ? ' — '+note : '');
+    const bar = document.getElementById(idBar);
+    bar.className = 'sub-bar-fill ' + c;
+    setTimeout(() => { bar.style.width = v+'%'; }, 150);
+  }
+  setSub('sb-policy',     'bar-policy',     score.policy_compliance, null);
+  setSub('sb-resolution', 'bar-resolution', score.issue_resolution?.score, score.issue_resolution?.resolved===false?'Unresolved':score.issue_resolution?.resolved===true?'Resolved':null);
+  setSub('sb-comm',       'bar-comm',       score.communication?.score, null);
+
+  // Violations
+  const vContainer = document.getElementById('r-violations');
+  const viols = result.violations || [];
+  if (viols.length === 0) {
+    vContainer.innerHTML = `<div class="no-viol"><div class="no-viol-icon">✓</div><div class="no-viol-text">No violations detected</div></div>`;
+  } else {
+    vContainer.innerHTML = viols.map(v => `
+      <div class="viol-item">
+        <div class="viol-policy">${v.violated_policy || v.rule || '—'}</div>
+        <div class="viol-evidence">${v.evidence || v.reason || '—'}</div>
+      </div>
+    `).join('');
+  }
+
+  // Transcript
+  const turns = transcript.transcript || [];
+  // Build set of violation turn indices (1-based from result)
+  const violTurns = new Set((result.violations||[]).map(v => v.turn).filter(t => t!=null));
+
+  const tContainer = document.getElementById('r-transcript');
+  tContainer.innerHTML = turns.map((t, idx) => {
+    const isAgent = t.speaker?.toLowerCase() === 'agent';
+    const isViol  = violTurns.has(idx+1); // turn is 1-based
+    return `
+      <div class="turn">
+        <div class="turn-av ${isAgent?'ag':'cx'}">${isAgent?'AG':'CX'}</div>
+        <div class="turn-bubble ${isViol?'viol':''}">
+          <div class="turn-spk">${t.speaker||'—'}</div>
+          ${t.text||''}
+          ${isViol?`<div><span class="viol-tag">⚑ Violation</span></div>`:''}
+        </div>
+      </div>`;
+  }).join('');
+
+  // Coaching
+  const cContainer = document.getElementById('r-coaching');
+  if (!coaching) {
+    cContainer.innerHTML = `<p style="font-size:11px;color:var(--gray-400);font-style:italic;">No coaching report available for this call.</p>`;
+  } else {
+    let html = '';
+    if (coaching.strengths?.length) {
+      html += `<div class="coaching-section">
+        <div class="coaching-sec-title green">Strengths</div>
+        <ul class="coaching-list green">${coaching.strengths.map(s=>`<li>${s}</li>`).join('')}</ul>
+      </div>`;
+    }
+    if (coaching.improvements?.length) {
+      html += `<div class="coaching-section">
+        <div class="coaching-sec-title amber">Areas for Improvement</div>
+        <ul class="coaching-list amber">${coaching.improvements.map(s=>`<li>${s}</li>`).join('')}</ul>
+      </div>`;
+    }
+    if (coaching.rephrasing?.length) {
+      html += `<div class="coaching-section">
+        <div class="coaching-sec-title gray">Suggested Rephrasing</div>
+        ${coaching.rephrasing.map(r=>`
+          <div class="rephrase-pair">
+            <div class="rephrase-orig">${r.original}</div>
+            <div class="rephrase-arrow">↓ Better</div>
+            <div class="rephrase-better">${r.better}</div>
+          </div>`).join('')}
+      </div>`;
+    }
+    if (!html) {
+      html = `<p style="font-size:11px;color:var(--gray-400);font-style:italic;">Coaching report loaded but no sections found.</p>`;
+    }
+    cContainer.innerHTML = html;
+  }
+
+  // Download
+  document.getElementById('btn-dl').onclick = () => {
+    const blob = new Blob([JSON.stringify(fullData, null, 2)], {type:'application/json'});
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = (currentCallId||'result') + '_full_evaluation.json';
+    a.click();
+  };
+}
+
+// ── HELPERS ──
+function formatCoarse(intent) {
+  const map = {
+    balance_not_updated:'Balance',cancel_transfer:'Transfers',
+    card_arrival:'Cards',card_not_working:'Cards',card_blocked:'Cards',
+    card_payment_not_recognised:'Payments',declined_card_payment:'Payments',
+    failed_card_payment:'Payments',transfer_not_received:'Transfers',
+    wrong_amount_of_cash_received:'Cash',disputed_charge:'Charges',
+    extra_charge_on_statement:'Charges',compromised_card:'Security',
+    receiving_money:'Transfers'
+  };
+  return map[intent] || 'Banking';
+}
+
+function reset() {
+  currentCallId = null; fullData = null;
+  document.getElementById('file-pill').classList.remove('show');
+  btnStart.classList.remove('on');
+  document.getElementById('audio-input').value = '';
+  document.getElementById('pill-name').textContent = '—';
+  document.getElementById('pill-id').textContent = '—';
+  [1,2,3,4].forEach(i => {
+    document.getElementById('st'+i).className = 'stage';
+    document.getElementById('ss'+i).textContent = 'Waiting';
+  });
+  document.getElementById('load-bar').style.width = '0%';
+  document.getElementById('ring').style.strokeDashoffset = 2*Math.PI*60;
+  show('s-upload'); setDots(1);
+}
+</script>
+</body>
+</html>

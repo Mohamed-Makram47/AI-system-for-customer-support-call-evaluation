@@ -1,0 +1,58 @@
+{
+  "call_id": "transfer_not_received_good_2",
+  "intent": "transfer_not_received",
+  "quality_level": "good",
+  "variant": 2,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Good evening, First National Bank. My name is Ellie. Can I take your full name and date of birth to verify you?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Evening. Amir Hassan, twenty-sixth of August 1987."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Mr. Hassan, verified. How can I help?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I made a bank transfer to pay an invoice — one thousand two hundred — on Wednesday morning. It's now Friday evening and the company says they haven't received it."
+    },
+    {
+      "speaker": "agent",
+      "text": "I can see that transfer left on Wednesday at 10:43. The sort code and account on the payment — do you have those to hand?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yes — 20-14-55, account 87634221."
+    },
+    {
+      "speaker": "agent",
+      "text": "Those match exactly what we have. For a business payment of this size at the end of the week, I'm raising a formal payment trace now so we're not relying on the weekend to sort it."
+    },
+    {
+      "speaker": "customer",
+      "text": "I really appreciate that."
+    },
+    {
+      "speaker": "agent",
+      "text": "Trace reference TRC-2024-4619. Our payments team will contact the receiving bank first thing Monday. You should have an update by midday Monday. Shall I also note the invoice reference on your account?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Please do. Invoice ref INV-8834."
+    },
+    {
+      "speaker": "agent",
+      "text": "Noted. Is there anything else I can help with?"
+    },
+    {
+      "speaker": "customer",
+      "text": "No, that's everything. Thank you Ellie."
+    }
+  ],
+  "planted_violations": [],
+  "noise_injected": false
+}

@@ -1,0 +1,50 @@
+{
+  "call_id": "card_blocked_noise_1",
+  "intent": "card_blocked",
+  "quality_level": "good",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Thank you for calling First National Bank. My name is Victor. Can I take your full name and date of birth for security please?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yeah, um — hi. So, uh, it's Jenny — Jennifer Bloom. And um, date of birth, it's uh, the fourteenth — no, fifteenth — fifteenth of, um, June. Nineteen ninety."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Ms. Bloom, I've verified your account. How can I help you?"
+    },
+    {
+      "speaker": "customer",
+      "text": "So, uh, my card got declined? Like, twice now. Once at, uh, like a coffee shop and then again at, um — [inaudible] — like a supermarket or something. And I definitely have money, like, I checked the app and my balance is fine."
+    },
+    {
+      "speaker": "agent",
+      "text": "I can see the card has been placed on a temporary fraud hold. There were two purchases in different locations within a short period. Can you confirm — were both of those transactions yours?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Um, yeah — so like, I was at Costa in the morning and then I, uh, went to — uh — Tesco? In the afternoon. So yeah, both mine."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect, that would have triggered the security system. I'm lifting the hold now — your card should work immediately."
+    },
+    {
+      "speaker": "customer",
+      "text": "Oh brilliant, that's like — yeah, uh, that's a relief. I was starting to like, you know, panic a bit."
+    },
+    {
+      "speaker": "agent",
+      "text": "Completely understandable. I've also added a geographic travel note for the next seven days to prevent this happening again. Anything else?"
+    },
+    {
+      "speaker": "customer",
+      "text": "No, that's — that's everything. Um, thanks."
+    }
+  ],
+  "planted_violations": [],
+  "noise_injected": true
+}

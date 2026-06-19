@@ -1,0 +1,59 @@
+{
+  "call_id": "disputed_charge_bad_1",
+  "intent": "disputed_charge",
+  "quality_level": "bad",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "First National, how can I help."
+    },
+    {
+      "speaker": "customer",
+      "text": "I need to dispute a charge. There's a payment for eighty-five pounds from a company I've never used and I never authorised it."
+    },
+    {
+      "speaker": "agent",
+      "text": "Okay, what's the company name?"
+    },
+    {
+      "speaker": "customer",
+      "text": "DataPrime Solutions. I genuinely don't know who they are."
+    },
+    {
+      "speaker": "agent",
+      "text": "Let me have a look. Right, I can see that charge. It looks legitimate from our end — the payment went through normally with no flags."
+    },
+    {
+      "speaker": "customer",
+      "text": "It doesn't matter if it went through normally, I didn't authorise it. I want to dispute it."
+    },
+    {
+      "speaker": "agent",
+      "text": "If the charge went through successfully it means your card was used correctly. Fraudsters can't use your card without the details."
+    },
+    {
+      "speaker": "customer",
+      "text": "Can you raise a dispute or not?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I'd need to send you a paper form for that, which takes up to ten working days to arrive. You can also go into a branch."
+    },
+    {
+      "speaker": "customer",
+      "text": "That's ridiculous. You can't do it on the phone?"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's our process I'm afraid."
+    }
+  ],
+  "planted_violations": [
+    "failed to verify customer identity before accessing account",
+    "refused to raise a formal dispute over the phone, which is against policy",
+    "incorrectly stated that a successful transaction cannot be disputed",
+    "directed customer to an unnecessarily slow paper process without raising a case"
+  ],
+  "noise_injected": false
+}

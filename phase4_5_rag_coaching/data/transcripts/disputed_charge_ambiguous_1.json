@@ -1,0 +1,66 @@
+{
+  "call_id": "disputed_charge_ambiguous_1",
+  "intent": "disputed_charge",
+  "quality_level": "ambiguous",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Good afternoon, First National."
+    },
+    {
+      "speaker": "customer",
+      "text": "Hi. I'm looking at my statement and there's a charge for thirty-nine pounds from a subscription I cancelled three months ago. They're still taking money."
+    },
+    {
+      "speaker": "agent",
+      "text": "What's your name?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Benjamin Clarke."
+    },
+    {
+      "speaker": "agent",
+      "text": "Let me see. I can see the charge. Sometimes cancellations don't process immediately through payment systems and charges can come through for a cycle or two."
+    },
+    {
+      "speaker": "customer",
+      "text": "Three months is more than a cycle or two. Can I get a refund?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can make a note on your account. Whether you get a refund would depend on the merchant's policy — you'd ideally raise it with them directly as well."
+    },
+    {
+      "speaker": "customer",
+      "text": "But can you do anything from your end?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can raise a dispute if you want."
+    },
+    {
+      "speaker": "customer",
+      "text": "Yes, please do that."
+    },
+    {
+      "speaker": "agent",
+      "text": "Okay, I've noted a dispute. You'll hear back in due course."
+    },
+    {
+      "speaker": "customer",
+      "text": "What's the reference number?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I don't have one to give you right now. It should come through by email."
+    }
+  ],
+  "planted_violations": [
+    "incomplete identity verification — name only, no date of birth",
+    "failed to proactively offer dispute resolution; required customer to push for it",
+    "dispute raised without providing case reference number or clear timeline"
+  ],
+  "noise_injected": false
+}

@@ -1,0 +1,66 @@
+{
+  "call_id": "transfer_not_received_ambiguous_1",
+  "intent": "transfer_not_received",
+  "quality_level": "ambiguous",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Hi, First National, how can I help?"
+    },
+    {
+      "speaker": "customer",
+      "text": "My daughter is waiting for a transfer I made yesterday morning. Two hundred and fifty pounds. She hasn't received it."
+    },
+    {
+      "speaker": "agent",
+      "text": "What's your name?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Margaret Hobbs."
+    },
+    {
+      "speaker": "agent",
+      "text": "Let me look... I can see the payment. It shows it was sent."
+    },
+    {
+      "speaker": "customer",
+      "text": "She definitely hasn't received it though. Her account is empty."
+    },
+    {
+      "speaker": "agent",
+      "text": "It might still be processing. Sometimes it takes twenty-four to forty-eight hours."
+    },
+    {
+      "speaker": "customer",
+      "text": "It's been over twenty-four hours already."
+    },
+    {
+      "speaker": "agent",
+      "text": "Right. Well I can submit a trace request. It might take a few days to come back."
+    },
+    {
+      "speaker": "customer",
+      "text": "A few days? She needs that money for food shopping."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand. I'll put in the request. There's a reference I'll note on your account."
+    },
+    {
+      "speaker": "customer",
+      "text": "What's the reference number so I can tell my daughter?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I don't have a number to give you yet. The request needs to be processed first. Just wait for now."
+    }
+  ],
+  "planted_violations": [
+    "incomplete identity verification — name only",
+    "did not definitively raise a trace or provide any reference number",
+    "left customer with vague 'few days' timeline and no actionable next step"
+  ],
+  "noise_injected": false
+}

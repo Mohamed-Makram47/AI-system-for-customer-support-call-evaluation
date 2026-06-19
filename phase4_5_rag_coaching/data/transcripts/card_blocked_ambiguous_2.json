@@ -1,0 +1,62 @@
+{
+  "call_id": "card_blocked_ambiguous_2",
+  "intent": "card_blocked",
+  "quality_level": "ambiguous",
+  "variant": 2,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Good morning, First National, how can I help?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Hi, I think my card's blocked? It got declined last night at a restaurant and again this morning."
+    },
+    {
+      "speaker": "agent",
+      "text": "Can I get your name and the last four digits of your card?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Natasha Bird. Card ends in 7219."
+    },
+    {
+      "speaker": "agent",
+      "text": "Let me have a look... There is something on here, yes. Looks like a temporary restriction. These usually lift on their own after twenty-four hours."
+    },
+    {
+      "speaker": "customer",
+      "text": "Usually? So it might not?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Most of the time they do. It just shows a system flag — doesn't say exactly why."
+    },
+    {
+      "speaker": "customer",
+      "text": "Can you lift it manually?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I might be able to. Let me see... I've submitted a request to remove the flag. It should update in the next hour or two."
+    },
+    {
+      "speaker": "customer",
+      "text": "So it might be working in an hour?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Should be. Try it at lunchtime."
+    },
+    {
+      "speaker": "customer",
+      "text": "Okay... I'll do that."
+    }
+  ],
+  "planted_violations": [
+    "incomplete identity verification — name and card last four digits only; no date of birth",
+    "unable to confirm reason for block; provided vague explanation",
+    "submitted removal request without confirming outcome or providing reference number"
+  ],
+  "noise_injected": false
+}

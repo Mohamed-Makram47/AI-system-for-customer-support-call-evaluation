@@ -1,0 +1,58 @@
+{
+  "call_id": "disputed_charge_good_2",
+  "intent": "disputed_charge",
+  "quality_level": "good",
+  "variant": 2,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Good morning, First National Bank. I'm Callum. Could I start by confirming your name and date of birth please?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Morning. It's Adaeze Obi, third of October 1993."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Ms. Obi, identity confirmed. How can I help?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I'm looking at my account on the app and there's a payment for one hundred and twelve pounds to something called Premium Media Hub. I never signed up for anything by that name."
+    },
+    {
+      "speaker": "agent",
+      "text": "That does sound concerning. Let me pull that up. I can see the transaction — processed four days ago. Is it possible anyone else with access to your card signed up for a media service recently?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Definitely not. I live alone and nobody else has my card details."
+    },
+    {
+      "speaker": "agent",
+      "text": "Understood. I'm raising a chargeback dispute immediately. I also recommend cancelling your current card and issuing a replacement as a precaution since the details may be compromised. Would you like me to do that?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yes please. That would make me feel much better."
+    },
+    {
+      "speaker": "agent",
+      "text": "Card is now cancelled. Replacement arrives in three to five working days. Dispute reference is DISP-2024-9503 and we'll provisionally credit your account within two working days. Confirmation email on its way."
+    },
+    {
+      "speaker": "customer",
+      "text": "Thank you so much. You've handled this brilliantly."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's what we're here for. Anything else at all?"
+    },
+    {
+      "speaker": "customer",
+      "text": "No, thank you."
+    }
+  ],
+  "planted_violations": [],
+  "noise_injected": false
+}

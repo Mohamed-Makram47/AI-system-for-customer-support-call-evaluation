@@ -1,0 +1,52 @@
+{
+  "call_id": "balance_not_updated_recovery_2",
+  "intent": "balance_not_updated",
+  "quality_level": "recovery",
+  "variant": 2,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "First National Bank, you're through to David."
+    },
+    {
+      "speaker": "customer",
+      "text": "Hi David, I need help figuring out why my salary hasn't shown on my balance. My employer usually pays on the first and it's now the second."
+    },
+    {
+      "speaker": "agent",
+      "text": "Not a problem. I'll need to verify your identity first. Can I take your full name and date of birth please?"
+    },
+    {
+      "speaker": "customer",
+      "text": "It's Kofi Asante, seventh of February 1979."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Kofi. Now, it looks like there may be an issue with the BACS payment. When was the first — a weekday?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Saturday."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's exactly the situation — I should have asked that immediately rather than suggesting there was a problem. When the first falls on a weekend, BACS salary payments automatically roll to the next working day. Your salary should arrive by midday today. I apologise for implying otherwise."
+    },
+    {
+      "speaker": "customer",
+      "text": "Ah, I didn't know that. I've been panicking for nothing."
+    },
+    {
+      "speaker": "agent",
+      "text": "Completely understandable. Is there anything else I can help with?"
+    },
+    {
+      "speaker": "customer",
+      "text": "No, that's very reassuring. Thanks David."
+    }
+  ],
+  "planted_violations": [
+    "initially implied there was a potential issue without first gathering basic information about the payment date"
+  ],
+  "noise_injected": false
+}

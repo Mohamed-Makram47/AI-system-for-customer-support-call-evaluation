@@ -1,0 +1,59 @@
+{
+  "call_id": "transfer_not_received_bad_1",
+  "intent": "transfer_not_received",
+  "quality_level": "bad",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "First National."
+    },
+    {
+      "speaker": "customer",
+      "text": "Hi, I sent money to my friend four days ago and he hasn't received it. Seven hundred pounds."
+    },
+    {
+      "speaker": "agent",
+      "text": "These things happen. Probably a bank holiday delay."
+    },
+    {
+      "speaker": "customer",
+      "text": "There was no bank holiday. I sent it on a normal Tuesday."
+    },
+    {
+      "speaker": "agent",
+      "text": "Well sometimes Faster Payments just takes longer. It's out of our system now, not much I can do."
+    },
+    {
+      "speaker": "customer",
+      "text": "Can't you trace it?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Not until it's been missing for two weeks. Before that it's too early to intervene."
+    },
+    {
+      "speaker": "customer",
+      "text": "Two weeks? That's seven hundred pounds — my friend needs that money."
+    },
+    {
+      "speaker": "agent",
+      "text": "Tell him to check with his bank. They might be able to see it their end."
+    },
+    {
+      "speaker": "customer",
+      "text": "He has — they say they haven't received anything."
+    },
+    {
+      "speaker": "agent",
+      "text": "Maybe you entered the wrong details. Not much else I can do."
+    }
+  ],
+  "planted_violations": [
+    "failed to verify customer identity",
+    "provided incorrect trace policy (stated 2 weeks; trace can be initiated immediately)",
+    "failed to raise a payment trace or take any remedial action",
+    "dismissive and unhelpful throughout"
+  ],
+  "noise_injected": false
+}

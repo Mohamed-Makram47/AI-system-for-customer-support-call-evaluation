@@ -1,0 +1,59 @@
+{
+  "call_id": "balance_not_updated_incomplete_1",
+  "intent": "balance_not_updated",
+  "quality_level": "incomplete",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "First National Bank, good afternoon."
+    },
+    {
+      "speaker": "customer",
+      "text": "Good afternoon. I sent myself a transfer from my other account — two thousand pounds — and it's not showing up. That's a lot of money to have floating around."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand that must be stressful. Can I get your name please?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Richard Hollis."
+    },
+    {
+      "speaker": "agent",
+      "text": "Mr. Hollis, let me look into this for you. Could you hold for a moment?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Of course."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you for holding. I've just been advised I need to transfer you to our transfers team as they handle payment traces."
+    },
+    {
+      "speaker": "customer",
+      "text": "Before you transfer me — can you tell me anything? Is there an issue?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I really can't see the full details on my system. The transfers team will sort this out right away."
+    },
+    {
+      "speaker": "customer",
+      "text": "How long will I be on hold?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Should be no more than a few minutes. Transferring you now."
+    }
+  ],
+  "planted_violations": [
+    "failed to verify customer identity before accessing account",
+    "transferred call without providing any information or taking preliminary action",
+    "did not offer callback option or reference number before transfer",
+    "issue left unresolved with no steps taken to reassure customer or set expectations"
+  ],
+  "noise_injected": false
+}

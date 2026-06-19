@@ -1,0 +1,60 @@
+{
+  "call_id": "card_blocked_bad_1",
+  "intent": "card_blocked",
+  "quality_level": "bad",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "First National."
+    },
+    {
+      "speaker": "customer",
+      "text": "My card isn't working. It's been declined three times now and I have money in my account."
+    },
+    {
+      "speaker": "agent",
+      "text": "It might be a chip issue. Have you tried a different machine?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yes, two different machines and contactless too."
+    },
+    {
+      "speaker": "agent",
+      "text": "Sometimes cards just stop working. You'd need to come into a branch to sort that out."
+    },
+    {
+      "speaker": "customer",
+      "text": "Come into a branch? Can't you check what's wrong on the system?"
+    },
+    {
+      "speaker": "agent",
+      "text": "The card system is separate. I can't tell you why it's blocked from here."
+    },
+    {
+      "speaker": "customer",
+      "text": "My nearest branch is thirty miles away. Is it blocked for fraud?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can't see that. I could order you a new card but that takes up to two weeks."
+    },
+    {
+      "speaker": "customer",
+      "text": "Two weeks? Can you not just unblock it over the phone?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Branch is your best option. Sorry."
+    }
+  ],
+  "planted_violations": [
+    "failed to verify customer identity",
+    "failed to check card block reason on account system",
+    "directed customer to branch unnecessarily — card unblocking can be done over the phone",
+    "provided incorrect card delivery timeframe (stated two weeks)",
+    "left card blocked with no action taken or reference provided"
+  ],
+  "noise_injected": false
+}

@@ -1,0 +1,50 @@
+{
+  "call_id": "transfer_not_received_good_1",
+  "intent": "transfer_not_received",
+  "quality_level": "good",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "First National Bank, good morning. This is Dani. Can I take your full name and date of birth for security?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Hi. It's Alice Greenberg, fourteenth of June 1991."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Alice, you're all verified. How can I help today?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I transferred five hundred pounds to my sister three days ago and she still hasn't received it. She's with Lloyds. I'm worried something went wrong."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand how worrying that must be. Let me look at the transfer. I can see the payment left your account on Tuesday via Faster Payments. Do you have the sort code and account number you sent it to?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yes — 30-98-76, account 12445871."
+    },
+    {
+      "speaker": "agent",
+      "text": "Those match what we have. The transfer shows as successfully sent on our end, which means the issue is with the receiving bank's processing. I'd recommend your sister also contact Lloyds and quote the payment reference PAY-2024-7765. I'm also raising a payment trace request now."
+    },
+    {
+      "speaker": "customer",
+      "text": "Should I do both at the same time?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Yes, it's best to run both simultaneously. Trace reference is TRC-2024-4411 and you'll receive an email update within twenty-four to forty-eight hours. Is there anything else?"
+    },
+    {
+      "speaker": "customer",
+      "text": "No, that's all. Thank you."
+    }
+  ],
+  "planted_violations": [],
+  "noise_injected": false
+}

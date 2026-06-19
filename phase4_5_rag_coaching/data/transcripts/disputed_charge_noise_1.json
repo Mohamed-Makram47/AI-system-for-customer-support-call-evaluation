@@ -1,0 +1,50 @@
+{
+  "call_id": "disputed_charge_noise_1",
+  "intent": "disputed_charge",
+  "quality_level": "good",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Thank you for calling First National Bank. My name is Priya. For security can I take your full name and date of birth?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yeah hi. Um, it's — uh, Gerald. Gerald, um, Hutchins. And my, uh, my date of birth, sorry, twenty-third of — um — December. Nineteen, uh, seventy-nine."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Mr. Hutchins, all verified. What can I help you with today?"
+    },
+    {
+      "speaker": "customer",
+      "text": "So, um, there's a charge on my — on my account? Like a payment went out that I, uh — I don't recog— I don't know what it is. It says, um, [inaudible] something like, um, NetBridge or something? For like forty — no, forty-four pounds?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Let me look that up. I can see a charge from NetBridge Services for forty-four pounds. Do you have any online subscriptions or trial accounts you might have forgotten about?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Um, I — I mean I have like Netflix and that but like — no, NetBridge doesn't ring any — like, you know, any bells. I didn't — I don't think I did that."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's fine. I'll raise a dispute on that transaction now. Would you also like your card blocked as a precaution while we investigate?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Uh, yeah I think — yeah, like, better safe than sorry yeah? Um, is there like — will I get the money back or — [inaudible]?"
+    },
+    {
+      "speaker": "agent",
+      "text": "We'll provisionally refund the forty-four pounds within two working days while we investigate. Your dispute reference is DISP-2024-9271. A new card will arrive in five working days."
+    },
+    {
+      "speaker": "customer",
+      "text": "Oh brilliant. Yeah, that's — yeah that's all I, um — that's all I needed really. Cheers."
+    }
+  ],
+  "planted_violations": [],
+  "noise_injected": true
+}

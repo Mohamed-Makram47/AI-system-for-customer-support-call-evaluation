@@ -1,0 +1,50 @@
+{
+  "call_id": "failed_card_payment_good_1",
+  "intent": "failed_card_payment",
+  "quality_level": "good",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Good morning, First National Bank. My name is Luke. Can I take your full name and date of birth?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Morning. It's Claire Donohue, eighteenth of September 1992."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Claire, you're verified. What can I help with today?"
+    },
+    {
+      "speaker": "customer",
+      "text": "My card was declined this morning at a garage when I tried to pay for petrol. It's embarrassing — I have money in my account."
+    },
+    {
+      "speaker": "agent",
+      "text": "I'm sorry that happened. Let me check the card and account status now. Your balance is healthy and the card is active. The declined transaction — the garage attempted to pre-authorise one hundred and fifty pounds, which is a common fuel station practice to reserve funds. Your available balance at the time was ninety-eight pounds, which fell below their pre-auth threshold."
+    },
+    {
+      "speaker": "customer",
+      "text": "Oh — I had no idea that was a thing. So it was refused because of a temporary hold, not because I actually don't have the money?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Exactly right. The actual cost of your fuel would have been far less, but the pre-auth check fails first. You can pay inside at the counter rather than at the pump to avoid this — inside payments use the exact amount."
+    },
+    {
+      "speaker": "customer",
+      "text": "That's really useful to know. Is there anything you need to do on your end?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Nothing at all — your card and account are completely fine. Is there anything else I can help with?"
+    },
+    {
+      "speaker": "customer",
+      "text": "No, that makes complete sense now. Thank you Luke."
+    }
+  ],
+  "planted_violations": [],
+  "noise_injected": false
+}

@@ -1,0 +1,67 @@
+{
+  "call_id": "disputed_charge_bad_2",
+  "intent": "disputed_charge",
+  "quality_level": "bad",
+  "variant": 2,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Accounts, go ahead."
+    },
+    {
+      "speaker": "customer",
+      "text": "Hello, I'm disputing a charge. There's something for one hundred and fifty pounds on my account that I never agreed to. It says it's from some travel company."
+    },
+    {
+      "speaker": "agent",
+      "text": "What's your account number?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I'd rather not give that out. Can you look me up another way?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I need the account number. Otherwise I can't help."
+    },
+    {
+      "speaker": "customer",
+      "text": "Okay, fine. It's 00556712."
+    },
+    {
+      "speaker": "agent",
+      "text": "Right. I see the charge. Travel companies often have delayed billing — you might have booked something months ago."
+    },
+    {
+      "speaker": "customer",
+      "text": "I really don't think I did. I want to dispute this."
+    },
+    {
+      "speaker": "agent",
+      "text": "To dispute a transaction you'd have to prove you didn't make it. Do you have documentation showing you weren't involved?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I don't know what documentation I'd even give you. I just know I didn't do this."
+    },
+    {
+      "speaker": "agent",
+      "text": "Without evidence it's difficult to proceed. Policy changed — written disputes only now for amounts over one hundred pounds."
+    },
+    {
+      "speaker": "customer",
+      "text": "That's completely untrue. Other agents have raised disputes on the phone for me before."
+    },
+    {
+      "speaker": "agent",
+      "text": "Well that's the current process. Sorry."
+    }
+  ],
+  "planted_violations": [
+    "failed to verify customer identity — used account number alone with no further checks",
+    "fabricated policy: stated written disputes required for amounts over £100, no such policy exists",
+    "required customer to provide evidence before raising a dispute, contrary to policy",
+    "dismissive and obstructive; did not raise dispute"
+  ],
+  "noise_injected": false
+}

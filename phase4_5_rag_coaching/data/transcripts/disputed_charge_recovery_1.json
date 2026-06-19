@@ -1,0 +1,60 @@
+{
+  "call_id": "disputed_charge_recovery_1",
+  "intent": "disputed_charge",
+  "quality_level": "recovery",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Good morning, First National Bank, you're through to Nina."
+    },
+    {
+      "speaker": "customer",
+      "text": "Hi Nina. I've got a weird charge on my account — forty-eight pounds from somewhere called CloudServ Analytics. Never heard of them."
+    },
+    {
+      "speaker": "agent",
+      "text": "Let me take a look at that. Can I get your name?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Sandra Whitfield."
+    },
+    {
+      "speaker": "agent",
+      "text": "Just pulling up the account, Ms. Whitfield — actually I need to stop there. I've accessed account details before verifying your identity, which I shouldn't have done. My apologies. Can I take your full name and date of birth to properly confirm who I'm speaking with?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Not a problem. Sandra Whitfield, nineteenth of March 1988."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you, I've now verified you correctly. Looking at the account — I can see that forty-eight pound charge from CloudServ Analytics, dated two days ago. Do you have any subscription services or trial periods that might match?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I really can't think of anything. I'd like to dispute it."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely. Raising the dispute right now. You'll have a provisional refund within two working days while we investigate. Case reference DISP-2024-9114, and a confirmation will be emailed to you."
+    },
+    {
+      "speaker": "customer",
+      "text": "That's great, thank you."
+    },
+    {
+      "speaker": "agent",
+      "text": "I also want to apologise again for the procedural error at the start. Is there anything else you need?"
+    },
+    {
+      "speaker": "customer",
+      "text": "No, that's all."
+    }
+  ],
+  "planted_violations": [
+    "accessed account details before completing identity verification"
+  ],
+  "noise_injected": false
+}

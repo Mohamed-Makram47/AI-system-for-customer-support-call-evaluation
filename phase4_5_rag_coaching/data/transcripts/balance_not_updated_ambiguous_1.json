@@ -1,0 +1,62 @@
+{
+  "call_id": "balance_not_updated_ambiguous_1",
+  "intent": "balance_not_updated",
+  "quality_level": "ambiguous",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Hi, First National, how can I help?"
+    },
+    {
+      "speaker": "customer",
+      "text": "My balance is wrong. I transferred in six hundred pounds yesterday afternoon and it's still not there."
+    },
+    {
+      "speaker": "agent",
+      "text": "Can I get your name?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Fatima Al-Rashid."
+    },
+    {
+      "speaker": "agent",
+      "text": "Okay, looking at your account... I can see a transfer pending."
+    },
+    {
+      "speaker": "customer",
+      "text": "Pending? What does that mean? When will it clear?"
+    },
+    {
+      "speaker": "agent",
+      "text": "It should update soon. These things take time."
+    },
+    {
+      "speaker": "customer",
+      "text": "It's been almost twenty-four hours. Is there something wrong with it?"
+    },
+    {
+      "speaker": "agent",
+      "text": "It doesn't look wrong. Probably just the weekend affecting things."
+    },
+    {
+      "speaker": "customer",
+      "text": "So will it definitely be there by tonight?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I'd expect so, yes. Just keep an eye on it."
+    },
+    {
+      "speaker": "customer",
+      "text": "Alright... I'll check tonight then."
+    }
+  ],
+  "planted_violations": [
+    "incomplete identity verification — name only, no date of birth or security check",
+    "vague and uncommitted response; did not explain processing timeframe or offer trace",
+    "no follow-up action taken or reference logged"
+  ],
+  "noise_injected": false
+}

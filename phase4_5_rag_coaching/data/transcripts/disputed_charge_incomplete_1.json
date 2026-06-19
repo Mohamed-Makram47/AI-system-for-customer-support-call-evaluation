@@ -1,0 +1,59 @@
+{
+  "call_id": "disputed_charge_incomplete_1",
+  "intent": "disputed_charge",
+  "quality_level": "incomplete",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "First National Bank, how can I help?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I want to dispute two charges. One for twenty-two pounds and one for sixty pounds. I don't recognise either."
+    },
+    {
+      "speaker": "agent",
+      "text": "Okay, what's your name please?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yuki Tanaka."
+    },
+    {
+      "speaker": "agent",
+      "text": "And the account number?"
+    },
+    {
+      "speaker": "customer",
+      "text": "It's 00718293."
+    },
+    {
+      "speaker": "agent",
+      "text": "I can see those two charges. I'll need to put you on hold while I check the process for multiple disputes."
+    },
+    {
+      "speaker": "customer",
+      "text": "Okay, I'll hold."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you for holding. I'm going to need to transfer you to our disputes team as they handle multiple-transaction cases."
+    },
+    {
+      "speaker": "customer",
+      "text": "Before you transfer me — will I lose my place in the queue?"
+    },
+    {
+      "speaker": "agent",
+      "text": "There might be a short wait. They'll have your details on the system. Transferring you now."
+    }
+  ],
+  "planted_violations": [
+    "failed to verify customer identity — used account number only, no date of birth",
+    "transferred without raising any preliminary case or providing customer a reference number",
+    "did not advise customer of hold time before transfer",
+    "issue left entirely unresolved; no provisional action taken"
+  ],
+  "noise_injected": false
+}

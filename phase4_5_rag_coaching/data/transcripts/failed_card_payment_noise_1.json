@@ -1,0 +1,58 @@
+{
+  "call_id": "failed_card_payment_noise_1",
+  "intent": "failed_card_payment",
+  "quality_level": "good",
+  "variant": 1,
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Good morning, First National Bank. My name is James. Can I take your full name and date of birth for security?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Oh hi, yeah. So it's, um — Bradley, Bradley Osei. And, um, date of birth is — uh — the, uh, twenty — twenty-second of, uh — November. Nineteen, uh, ninety-two."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Mr. Osei, you're verified. How can I help you today?"
+    },
+    {
+      "speaker": "customer",
+      "text": "So, um, my card — like my debit card — it's been, like, refused? Like twice this morning. Um, once at a like, coffee shop and then I tried to pay for, uh, like groceries online and it, um — [inaudible] — it just kept saying like, card declined."
+    },
+    {
+      "speaker": "agent",
+      "text": "I can see both declined transactions. Let me check what triggered the refusals. The coffee shop decline appears to be a contactless limit reset issue — your contactless limit was reached after a sequence of smaller payments. The online decline is separate — your card needs 3D Secure verification for online purchases above fifty pounds, and the code was going to an outdated email."
+    },
+    {
+      "speaker": "customer",
+      "text": "Oh — uh, right. So like, there's like two different — uh — two different problems?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Two different causes, yes. I've reset your contactless limit — you can use contactless again right now. For the email — what's your current email address so I can update it?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Yeah, it's, um — uh, b.osei — that's B-dot-O-S-E-I — at, um, gmail.com."
+    },
+    {
+      "speaker": "agent",
+      "text": "Updated. Your next online purchase over fifty pounds will send the code to that address. Both issues are now resolved."
+    },
+    {
+      "speaker": "customer",
+      "text": "Brilliant, yeah. Um, that's — that's great. Um, [inaudible] — both sorted then?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Both sorted. Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "customer",
+      "text": "No, that's — uh — yeah, that's everything. Cheers."
+    }
+  ],
+  "planted_violations": [],
+  "noise_injected": true
+}
