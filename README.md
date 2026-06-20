@@ -1,135 +1,318 @@
-# AI System for Customer Support Call Evaluation
+# Automated Customer Support Call Evaluation System
 
-An end-to-end agentic AI system that automatically evaluates customer support calls and generates personalized coaching feedback for agents — replacing manual, subjective quality assurance with a fully automated, explainable pipeline.
+An automated, intent-aware system for evaluating customer support calls. It converts recorded calls into structured evaluations, checks whether agents followed the relevant policies, calculates a quality score, and generates personalized coaching feedback.
 
----
-
-## The Problem
-
-Current customer support evaluation suffers from:
-- Manual quality assurance that is costly and slow
-- Subjective and inconsistent scoring
-- Limited call sampling — only a fraction of calls get reviewed
-- No automatic policy compliance verification
-- Lack of structured coaching for agents
+The system is designed to support quality assurance teams by making call evaluation faster, more consistent, explainable, and scalable.
 
 ---
 
-## What the System Does
+## Overview
 
-When a call ends, the system automatically:
+Traditional call-center quality assurance depends on supervisors manually reviewing a small sample of recorded calls. This process is time-consuming, subjective, and unable to cover the full call volume.
 
-1. **Transcribes** the call audio and identifies who is speaking (agent vs customer)
-2. **Extracts behavioral metrics** — talking ratio, interruptions, silences, number of turns
-3. **Evaluates the call using deep learning:**
-   - Customer sentiment (Positive / Neutral / Negative) across the call
-   - Agent opening and closing compliance
-   - Issue type classification (78 banking categories)
-4. **Validates agent resolution** against company policy using RAG (Retrieval-Augmented Generation)
-5. **Computes a final performance score** using weighted metrics
-6. **Generates a coaching report** with strengths, areas for improvement, and suggested alternative phrasing
+This project automates the main stages of call evaluation:
+
+* Transcribing recorded calls
+* Identifying the agent and customer
+* Measuring conversational behavior
+* Detecting the customer’s banking issue
+* Retrieving the policies relevant to that issue
+* Evaluating agent compliance
+* Calculating a final quality score
+* Generating structured coaching feedback
 
 ---
 
 ## System Pipeline
 
-```
+```text
 Call Recording
-      ↓
-Phase 1 — Speech-to-Text + Speaker Diarization (Whisper + pyannote.audio)  ✅ Done
-      ↓
-Phase 2 — Rule-Based Behavioral Metrics (Talking ratio, interruptions, silences)  🔄 In Progress
-      ↓
-Phase 3 — Deep Learning Evaluation
-      ├── 3A: Customer Sentiment (RoBERTa — 3 class)                        🔄 In Progress
-      ├── 3B: Agent Opening/Closing Compliance (RoBERTa — binary)           ⬜ Planned
-      └── 3C: Issue Classification (DualHead RoBERTa-large + SBERT ensemble — 10 coarse / 78 fine) ✅ Done
-      ↓
-Phase 4 — RAG Policy Validation (FAISS + sentence-transformers + Groq LLM)  ✅ Done
-      ↓
-Phase 5 — Scoring + Coaching Generation (LLM)                               ✅ Done
-      ↓
-Phase 6 — Web Dashboard (React / Streamlit)                                  ⬜ Planned
+      │
+      ▼
+Phase 1 — Audio Processing
+Speech-to-Text + Speaker Diarization
+      │
+      ├──────────────────────────────┐
+      ▼                              ▼
+Phase 2                        Phase 3
+Behavioral Metrics             Banking Intent Classification
+      │                              │
+      └──────────────┬───────────────┘
+                     ▼
+Phase 4 — Final Call Evaluation
+Topic Segmentation
+        ↓
+Policy Retrieval
+        ↓
+LLM Compliance Evaluation
+        ↓
+Quality Scoring
+        ↓
+Coaching Report
+```
+
+Phase 2 and Phase 3 operate as parallel branches after the transcript is produced by Phase 1.
+
+---
+
+## Phase 1 — Audio-to-Text and Speaker Diarization
+
+The first phase converts a recorded customer support call into a structured, timestamped transcript.
+
+The pipeline:
+
+1. Converts the input audio into a standard 16 kHz mono format
+2. Applies noise reduction
+3. Transcribes the call using Whisper
+4. Identifies speaker intervals using `pyannote.audio`
+5. Merges transcription segments with speaker timestamps
+6. Maps speakers to the functional roles of Agent and Customer
+7. Detects long silence periods
+
+The output contains:
+
+* Transcript text
+* Speaker labels
+* Start and end timestamps
+* Call duration
+* Detected silence intervals
+* Speaker and segment statistics
+
+---
+
+## Phase 2 — Timestamp-Based Behavioral Metrics
+
+The second phase measures conversational behavior directly from the speaker timestamps produced by Phase 1.
+
+It is completely rule-based and does not use a deep-learning model.
+
+The extracted metrics include:
+
+* **Talking ratio:** Percentage of the call occupied by each speaker
+* **Interruption ratio:** Cases where the agent starts speaking before the customer finishes
+* **Silence ratio:** Percentage of the call containing long silence periods
+* **Number of turns:** Number of speaker changes during the conversation
+* **Speaking duration:** Total speaking time for the agent and customer
+
+These measurements provide transparent and reproducible indicators of communication quality.
+
+---
+
+## Phase 3 — Banking Intent Classification
+
+The third phase identifies the main reason for the customer’s call.
+
+Only customer turns are processed. Each turn is classified independently, and the informative predictions are combined to determine the primary call intent.
+
+The classifier supports:
+
+* 77 banking intents from the BANKING77 dataset
+* 1 neutral category for greetings, acknowledgements, names, thanks, and other non-informative turns
+* 10 broader banking categories used to support hierarchical classification
+
+The classification architecture combines:
+
+* Hierarchical BERT classification
+* Coarse-category prediction
+* Fine-grained intent prediction
+* Sentence-BERT semantic embeddings
+* Intent-centroid similarity
+* Weighted BERT–SBERT fusion
+* Call-level prediction aggregation
+
+Neutral turns are excluded before the final call intent is selected, preventing greetings and conversational fillers from affecting the result.
+
+---
+
+## Phase 4 — Policy Compliance, Scoring, and Coaching
+
+Phase 4 is the complete final evaluation stage.
+
+It combines:
+
+* The speaker-attributed transcript
+* The conversational metrics
+* The predicted banking intent
+* The relevant policy rules
+
+### Topic Segmentation
+
+A call may contain more than one banking issue.
+
+The system analyzes consecutive customer utterances using sentence embeddings and detects possible topic changes based on semantic similarity.
+
+When a topic shift is detected, the call is divided into segments. Each segment can then be classified and evaluated independently.
+
+### Policy Retrieval
+
+The system uses Retrieval-Augmented Generation to retrieve the policy rules relevant to the detected intent.
+
+Each banking intent has its own class-scoped FAISS index. Searching only the index associated with the detected intent reduces unrelated policy results and keeps the evaluation focused.
+
+The retrieval component uses:
+
+* FAISS vector search
+* `all-MiniLM-L6-v2` sentence embeddings
+* Cosine-similarity retrieval
+* Similarity thresholding
+* Top-k policy-rule selection
+
+### Compliance Evaluation
+
+The retrieved policy rules and the complete conversation are passed to a large language model.
+
+The LLM evaluates whether each applicable rule was:
+
+* Satisfied
+* Partially satisfied
+* Violated
+
+For each detected problem, the system returns:
+
+* The relevant policy rule
+* The compliance decision
+* Supporting transcript evidence
+* An explanation of the decision
+
+Using the complete call context allows the system to recognize recovery cases in which an agent makes an early mistake but later corrects it.
+
+---
+
+## Quality Scoring
+
+The final score ranges from 0 to 100 and combines three components:
+
+```text
+Final Score =
+    50% Policy Compliance
+  + 30% Issue Resolution
+  + 20% Communication Quality
+```
+
+### Policy Compliance
+
+Measures how successfully the agent followed the retrieved policy rules.
+
+* Satisfied rule: Full credit
+* Partially satisfied rule: Half credit
+* Violated rule: No credit
+
+### Issue Resolution
+
+Measures whether the customer’s issue was resolved or given an appropriate next step.
+
+Possible outcomes include:
+
+* Clearly resolved
+* Resolved but dependent on an external action or waiting period
+* Appropriately escalated
+* Unresolved without a valid next step
+
+### Communication Quality
+
+Uses the Phase 2 measurements as its initial evidence.
+
+It considers:
+
+* Agent talking ratio
+* Silence ratio
+* Interruptions
+* Turn-taking behavior
+* Conversation context
+
+The LLM may apply a limited contextual adjustment when unusual metrics have a reasonable explanation.
+
+### Grades
+
+| Grade |    Score |
+| ----- | -------: |
+| A     |   90–100 |
+| B     |    80–89 |
+| C     |    70–79 |
+| D     | Below 70 |
+
+The scoring weights, thresholds, and grade ranges can be adapted to the approved quality-assurance scorecard of a specific organization.
+
+---
+
+## Coaching Report
+
+The system generates a structured coaching report for every evaluated call.
+
+The report includes:
+
+* Final numerical score
+* Letter grade
+* Policy compliance results
+* Issue-resolution assessment
+* Communication-quality assessment
+* Agent strengths
+* Confirmed violations
+* Supporting transcript evidence
+* Areas for improvement
+* Suggested alternative phrasing
+
+The goal is not only to identify mistakes, but also to provide actionable guidance that agents can use in future calls.
+
+---
+
+## Example Output
+
+```json
+{
+  "call_id": "example_call",
+  "primary_intent": "card_blocked",
+  "behavioral_metrics": {
+    "agent_talking_ratio": 0.54,
+    "customer_talking_ratio": 0.36,
+    "silence_ratio": 0.10,
+    "interruptions": 2,
+    "total_turns": 24
+  },
+  "policy_compliance_score": 85,
+  "issue_resolution_score": 100,
+  "communication_score": 90,
+  "final_score": 90.5,
+  "grade": "A",
+  "strengths": [],
+  "violations": [],
+  "areas_for_improvement": [],
+  "suggested_phrasing": []
+}
 ```
 
 ---
 
-## Project Structure
+## Core Technologies
 
-| Folder | Phase | Description | Status |
-|--------|-------|-------------|--------|
-| `phase1_audio_to_text/` | Phase 1 | Speech-to-text + speaker diarization (Whisper + pyannote) | ✅ Done |
-| `issue_type_classification_model/` | Phase 3 | Issue classification — DualHead RoBERTa (78 classes) | ✅ Done |
-| `phase4_5_rag_coaching/` | Phase 4 & 5 | RAG compliance evaluation + scoring + coaching | ✅ Done |
-
----
-
-## End-to-End Pipeline Test
-
-A real 4-minute 40-second banking call was recorded, transcribed through Phase 1,
-classified through Phase 3, and evaluated through Phase 4 & 5.
-
-- Real audio recorded by the team
-- Two banking issues in one call: `lost_or_stolen_card` + `card_payment_fee_charged`
-- Automatic topic shift detection using embedding similarity
-- Self-correction correctly handled by call-level LLM evaluation
-- Final scores: Segment 1–3 (B/C), Segment 4 (D — violation), Segment 5 (A — recovery)
-
-Test files: `test_data/real_call_analysis.json` · `test_data/real_call_transcript.txt`
+| Component                      | Technology                          |
+| ------------------------------ | ----------------------------------- |
+| Audio preprocessing            | Python audio-processing tools       |
+| Speech-to-text                 | Whisper / faster-whisper            |
+| Speaker diarization            | pyannote.audio                      |
+| Intent classification          | BERT                                |
+| Semantic intent representation | Sentence-BERT / all-mpnet-base-v2   |
+| Topic segmentation             | all-MiniLM-L6-v2                    |
+| Policy retrieval               | FAISS                               |
+| Compliance evaluation          | Groq-hosted LLM                     |
+| Scoring and coaching           | Python + LLM                        |
+| Model development              | PyTorch + Hugging Face Transformers |
 
 ---
 
-## Current Progress
+## Intended Use
 
-| Phase | Description | Status |
-|-------|-------------|--------|
-| **Phase 3C** | Issue Classification — Dual-head RoBERTa-large + SBERT ensemble fine-tuned on BANKING77 (10 coarse + 78 fine classes, ~94% accuracy) | ✅ Done |
-| **Phase 4** | RAG Policy Validation — 78 FAISS indexes (one per issue type), retrieves top-k policy rules and evaluates agent compliance via Groq LLM | ✅ Done |
-| **Phase 5** | Scoring + Coaching Generation — LLM generates per-call coaching reports with violations, strengths, and suggested alternative phrasing | ✅ Done |
-| **Phase 1** | Speech-to-Text & Speaker Diarization (Whisper + pyannote.audio) | 🔄 In Progress |
-| **Phase 3A** | Customer Sentiment Analysis (RoBERTa — 3 class) | 🔄 In Progress |
-| **Phase 3B** | Agent Opening/Closing Compliance (RoBERTa — binary) | ⬜ Planned |
-| **Phase 2** | Rule-Based Behavioral Metrics (talking ratio, interruptions, silences) | ⬜ Planned |
-| **Phase 6** | Web Dashboard (React / Streamlit) | ⬜ Planned |
+The system is designed as an intent-aware decision-support tool for customer support quality assurance.
 
-### Completed Highlights
+It can help organizations:
 
-**Phase 3C — Issue Classification**
-- Architecture: Dual-head RoBERTa-large with SBERT fallback ensemble (`all-mpnet-base-v2`)
-- Coarse head: 10 banking categories | Fine head: 78 issue classes
-- Accuracy: 93.9% on BANKING77 test set
-- Model on HuggingFace: [Mohamed-Makram47/banking-issue-classifier](https://huggingface.co/Mohamed-Makram47/banking-issue-classifier)
+* Review a larger percentage of their calls
+* Apply more consistent evaluation criteria
+* Detect intent-specific policy violations
+* Identify unresolved customer issues
+* Provide evidence-based coaching
+* Focus human reviewers on calls requiring further attention
 
-**Phase 4 — RAG Policy Validation**
-- 78 class-scoped FAISS indexes — one per fine issue class
-- Policy manuals grounded in real Banking77 customer queries (10 examples per class)
-- Embedding model: `all-MiniLM-L6-v2` (sentence-transformers, runs locally)
-- Call-level evaluation: full conversation sent to LLM in one prompt
-- Handles self-corrections — agent fixing a mistake is not penalised
-- Output: violation verdict + violated policy + evidence + reason + confidence
+The policy manuals used by the research prototype are project-specific research artifacts.
 
-**Phase 5 — Scoring + Coaching Generation**
-- Weighted quality score (0–100): policy compliance 50% · issue resolution 30% · communication 20%
-- LLM judges whether the agent successfully resolved the customer's issue
-- Dismissive language detection for communication scoring
-- Grade: A (90–100) · B (75–89) · C (60–74) · D (below 60)
-- Coaching report per call: strengths · improvements · suggested rephrasing
-- Output saved to `data/coaching/{call_id}.json`
-
----
-
-## Tech Stack
-
-| Component | Technology |
-|-----------|-----------|
-| Speech-to-Text | OpenAI Whisper |
-| Speaker Diarization | pyannote.audio |
-| NLP Models | RoBERTa (PyTorch + HuggingFace) |
-| Issue Classification | Dual-head RoBERTa-large + SBERT ensemble (10 coarse + 78 fine classes) |
-| RAG | FAISS + sentence-transformers (`all-MiniLM-L6-v2`) |
-| LLM | Groq API (Llama 3) |
-| Backend | Python + FastAPI |
-| Frontend | React |
-| Database | PostgreSQL + Vector DB |
-
----
+Deployment within a real organization requires replacing them with approved company policies and validating the complete system with qualified quality-assurance and compliance specialists.
