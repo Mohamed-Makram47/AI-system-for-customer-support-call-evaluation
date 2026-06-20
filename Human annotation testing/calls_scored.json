@@ -1,0 +1,4170 @@
+[
+  {
+    "type": "balance_not_updated_ambiguous",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Hi, First National, how can I help?"
+      },
+      {
+        "speaker": "customer",
+        "text": "My balance is wrong. I transferred in six hundred pounds yesterday afternoon and it's still not there."
+      },
+      {
+        "speaker": "agent",
+        "text": "Can I get your name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Fatima Al-Rashid."
+      },
+      {
+        "speaker": "agent",
+        "text": "Okay, looking at your account... I can see a transfer pending."
+      },
+      {
+        "speaker": "customer",
+        "text": "Pending? What does that mean? When will it clear?"
+      },
+      {
+        "speaker": "agent",
+        "text": "It should update soon. These things take time."
+      },
+      {
+        "speaker": "customer",
+        "text": "It's been almost twenty-four hours. Is there something wrong with it?"
+      },
+      {
+        "speaker": "agent",
+        "text": "It doesn't look wrong. Probably just the weekend affecting things."
+      },
+      {
+        "speaker": "customer",
+        "text": "So will it definitely be there by tonight?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I'd expect so, yes. Just keep an eye on it."
+      },
+      {
+        "speaker": "customer",
+        "text": "Alright... I'll check tonight then."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 4,
+      "communication": 4,
+      "resolution": 3
+    },
+    "human1_score": {
+      "policy_compliance": 3,
+      "communication": 3,
+      "resolution": 3
+    },
+    "human2_score": {
+      "policy_compliance": 3,
+      "communication": 3,
+      "resolution": 4
+    }
+  },
+  {
+    "type": "balance_not_updated_bad",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "First National Bank."
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi. I put money in my account earlier today \u2014 eight hundred pounds from Barclays \u2014 and my balance hasn't changed. What's going on?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Sometimes the system just takes a while. It'll update eventually."
+      },
+      {
+        "speaker": "customer",
+        "text": "How long is eventually? I need those funds available today."
+      },
+      {
+        "speaker": "agent",
+        "text": "Could be by end of day, could be tomorrow. Not much I can do about it."
+      },
+      {
+        "speaker": "customer",
+        "text": "Can you check if there's a delay on the transfer?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I don't have that system in front of me. If it hasn't come through by tomorrow, call back."
+      },
+      {
+        "speaker": "customer",
+        "text": "Tomorrow? I was told it would be instant."
+      },
+      {
+        "speaker": "agent",
+        "text": "Faster Payments isn't always instant. Sometimes it takes 24 hours. Just wait."
+      },
+      {
+        "speaker": "customer",
+        "text": "Can you at least log a trace or something?"
+      },
+      {
+        "speaker": "agent",
+        "text": "We don't do that unless it's been missing for three working days. That's what I'm telling you. Give it time."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 3,
+      "communication": 1,
+      "resolution": 1
+    },
+    "human1_score": {
+      "policy_compliance": 2,
+      "communication": 1,
+      "resolution": 1
+    },
+    "human2_score": {
+      "policy_compliance": 1,
+      "communication": 2,
+      "resolution": 2
+    }
+  },
+  {
+    "type": "balance_not_updated_good",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good afternoon, First National Bank. My name is Amara. Can I take your full name and date of birth for security?"
+      },
+      {
+        "speaker": "customer",
+        "text": "It's Leon Dupont, fifteenth of April 1983."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Mr. Dupont, I've verified your account. How can I help you?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I transferred money into my account this morning \u2014 about nine hundred pounds \u2014 and it's not showing on my balance yet. It's making me nervous."
+      },
+      {
+        "speaker": "agent",
+        "text": "I completely understand, that can be worrying. Was this from another bank, or an internal transfer?"
+      },
+      {
+        "speaker": "customer",
+        "text": "From a different bank. Barclays."
+      },
+      {
+        "speaker": "agent",
+        "text": "Faster Payments transfers between banks can take up to two hours during business hours. Could I ask roughly what time you made the transfer?"
+      },
+      {
+        "speaker": "customer",
+        "text": "About ten this morning."
+      },
+      {
+        "speaker": "agent",
+        "text": "In that case it should have cleared by now. Can I also confirm \u2014 has Barclays debited your account with that amount?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes, it's already gone from there."
+      },
+      {
+        "speaker": "agent",
+        "text": "The funds are in transit and should appear shortly. If you don't see it by 5 PM today please call back and I can trace the payment directly. I've noted today's call."
+      },
+      {
+        "speaker": "customer",
+        "text": "Oh that's a relief. Thank you Amara."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 4,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 4
+    }
+  },
+  {
+    "type": "balance_not_updated_good",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good morning, you're through to First National Bank. This is Raj speaking. Can I start by taking your name and date of birth for security?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Sure thing \u2014 Chloe Fitzpatrick, twenty-eighth of July 1996."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Chloe, identity confirmed. What's brought you in today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "My boyfriend sent me some money \u2014 two-fifty \u2014 through his Halifax account. He did it about two hours ago and I haven't seen it come in yet."
+      },
+      {
+        "speaker": "agent",
+        "text": "For Faster Payments transfers between different banks, you'd normally see the money within two hours. Let me check your account for incoming transfers."
+      },
+      {
+        "speaker": "customer",
+        "text": "Please do, I want to make sure he sent it to the right sort code."
+      },
+      {
+        "speaker": "agent",
+        "text": "I can see an incoming transfer of two hundred and fifty pounds \u2014 it's in final processing and should appear on your balance within the next ten to fifteen minutes."
+      },
+      {
+        "speaker": "customer",
+        "text": "Oh brilliant! So it did come through."
+      },
+      {
+        "speaker": "agent",
+        "text": "Yes, it's there and on its way. If for any reason it doesn't show in the next twenty minutes, give us a call back with the payment reference and we can trace it."
+      },
+      {
+        "speaker": "customer",
+        "text": "Perfect. Thank you so much."
+      },
+      {
+        "speaker": "agent",
+        "text": "Not a problem. Anything else today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No, that's all I needed."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 4
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    }
+  },
+  {
+    "type": "balance_not_updated_incomplete",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "First National Bank, good afternoon."
+      },
+      {
+        "speaker": "customer",
+        "text": "Good afternoon. I sent myself a transfer from my other account \u2014 two thousand pounds \u2014 and it's not showing up. That's a lot of money to have floating around."
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand that must be stressful. Can I get your name please?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Richard Hollis."
+      },
+      {
+        "speaker": "agent",
+        "text": "Mr. Hollis, let me look into this for you. Could you hold for a moment?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Of course."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you for holding. I've just been advised I need to transfer you to our transfers team as they handle payment traces."
+      },
+      {
+        "speaker": "customer",
+        "text": "Before you transfer me \u2014 can you tell me anything? Is there an issue?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I really can't see the full details on my system. The transfers team will sort this out right away."
+      },
+      {
+        "speaker": "customer",
+        "text": "How long will I be on hold?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Should be no more than a few minutes. Transferring you now."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 4,
+      "communication": 2,
+      "resolution": 2
+    },
+    "human1_score": {
+      "policy_compliance": 2,
+      "communication": 3,
+      "resolution": 3
+    },
+    "human2_score": {
+      "policy_compliance": 3,
+      "communication": 3,
+      "resolution": 2
+    }
+  },
+  {
+    "type": "balance_not_updated_noise",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good afternoon, First National Bank. My name is Helen. Can I take your full name and date of birth for security?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Uh yeah, it's \u2014 Mark, uh, Mark Wilkinson. And my date of birth is the, um, the twenty... twenty-seventh of, uh, May. Nineteen eighty-four."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Mr. Wilkinson, I've verified your identity. How can I help you today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "So like, my \u2014 I made a transfer? Into my account? From my like, my savings account at \u2014 uh, [inaudible] \u2014 sorry, from Nationwide. Like a thousand pounds. And it's not \u2014 like it hasn't showed up yet. And I did it like, I don't know, like this morning at nine or something."
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand. Let me check the status of that incoming transfer for you."
+      },
+      {
+        "speaker": "customer",
+        "text": "Yeah because I need it like, I need it to be there today because I've got a direct debit going out and I don't want it to like, bounce or whatever."
+      },
+      {
+        "speaker": "agent",
+        "text": "I can see an incoming transfer for one thousand pounds that's currently being processed. Given it was initiated around nine this morning, it should clear within the next hour. Your direct debit won't be affected."
+      },
+      {
+        "speaker": "customer",
+        "text": "Oh \u2014 okay. So you're saying like it's definitely coming? Like it's not, uh, stuck or anything?"
+      },
+      {
+        "speaker": "agent",
+        "text": "It's processing normally. If you don't see it by lunchtime, call us back with your payment reference and we can trace it directly. I've noted today's call."
+      },
+      {
+        "speaker": "customer",
+        "text": "Right, yeah. Um \u2014 [inaudible] \u2014 thanks. Yeah that's all I needed."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 5,
+      "communication": 3,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 4
+    }
+  },
+  {
+    "type": "balance_not_updated_recovery",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good morning, First National Bank, this is Owen speaking."
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi Owen, I made a cash deposit at the branch counter this morning \u2014 five hundred pounds \u2014 and it's still not on my balance three hours later."
+      },
+      {
+        "speaker": "agent",
+        "text": "I can look at your recent transactions. Can I get your name please?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Aisha Okonkwo."
+      },
+      {
+        "speaker": "agent",
+        "text": "Looking at your account now, Ms. Okonkwo \u2014 actually, wait. I need to verify your identity properly before sharing account details. I'm sorry about that. Can I take your full name and date of birth please?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No worries \u2014 Aisha Okonkwo, first of September 1991."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you, I've now verified you properly. I can see the cash deposit processed at 9:47 this morning. Counter deposits can occasionally have a short compliance hold for amounts around this level. It should clear by end of business today. If it hasn't by 4 PM, please call back and I'll escalate directly."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, I'll wait until then. Thank you."
+      },
+      {
+        "speaker": "agent",
+        "text": "Absolutely. I've added a note to your account. Sorry again for the procedural slip at the start."
+      },
+      {
+        "speaker": "customer",
+        "text": "Not at all, happens."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 4,
+      "communication": 4,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 4,
+      "communication": 3,
+      "resolution": 5
+    }
+  },
+  {
+    "type": "balance_not_updated_recovery",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "First National Bank, you're through to David."
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi David, I need help figuring out why my salary hasn't shown on my balance. My employer usually pays on the first and it's now the second."
+      },
+      {
+        "speaker": "agent",
+        "text": "Not a problem. I'll need to verify your identity first. Can I take your full name and date of birth please?"
+      },
+      {
+        "speaker": "customer",
+        "text": "It's Kofi Asante, seventh of February 1979."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Kofi. Now, it looks like there may be an issue with the BACS payment. When was the first \u2014 a weekday?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Saturday."
+      },
+      {
+        "speaker": "agent",
+        "text": "That's exactly the situation \u2014 I should have asked that immediately rather than suggesting there was a problem. When the first falls on a weekend, BACS salary payments automatically roll to the next working day. Your salary should arrive by midday today. I apologise for implying otherwise."
+      },
+      {
+        "speaker": "customer",
+        "text": "Ah, I didn't know that. I've been panicking for nothing."
+      },
+      {
+        "speaker": "agent",
+        "text": "Completely understandable. Is there anything else I can help with?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No, that's very reassuring. Thanks David."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 4,
+      "communication": 3,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 4,
+      "communication": 4,
+      "resolution": 4
+    },
+    "human2_score": {
+      "policy_compliance": 3,
+      "communication": 5,
+      "resolution": 3
+    }
+  },
+  {
+    "type": "cancel_transfer_ambiguous",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Hi there, First National."
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi. I sent a payment to the wrong person. Two hundred pounds. I realised about ten minutes after I did it."
+      },
+      {
+        "speaker": "agent",
+        "text": "What's your name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Theo Marsh."
+      },
+      {
+        "speaker": "agent",
+        "text": "Right, let me have a look... Yes, I see the payment."
+      },
+      {
+        "speaker": "customer",
+        "text": "Can you do anything?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I can log it as a potential misdirected payment. There may be a recall option. Let me check."
+      },
+      {
+        "speaker": "customer",
+        "text": "Please."
+      },
+      {
+        "speaker": "agent",
+        "text": "Okay, I've submitted something. I'm not a hundred percent sure it was the right form \u2014 I'll double-check with my supervisor."
+      },
+      {
+        "speaker": "customer",
+        "text": "Should I call back?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Leave it a day and see what happens."
+      },
+      {
+        "speaker": "customer",
+        "text": "What's my reference number? This is two hundred pounds."
+      },
+      {
+        "speaker": "agent",
+        "text": "I'd have to check. Let me take your number and call you back if there's an update."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay... I'll wait I suppose."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 3,
+      "communication": 3,
+      "resolution": 4
+    },
+    "human1_score": {
+      "policy_compliance": 3,
+      "communication": 3,
+      "resolution": 3
+    },
+    "human2_score": {
+      "policy_compliance": 2,
+      "communication": 3,
+      "resolution": 3
+    }
+  },
+  {
+    "type": "cancel_transfer_bad",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "First National."
+      },
+      {
+        "speaker": "customer",
+        "text": "I need to cancel a transfer I made five minutes ago. Wrong account. Three hundred pounds."
+      },
+      {
+        "speaker": "agent",
+        "text": "Once a transfer has processed there's no way to cancel it."
+      },
+      {
+        "speaker": "customer",
+        "text": "Five minutes ago \u2014 surely the bank can do something?"
+      },
+      {
+        "speaker": "agent",
+        "text": "It's already cleared into the other account. That's how Faster Payments works."
+      },
+      {
+        "speaker": "customer",
+        "text": "Can you raise a recall? I've seen that mentioned on your website."
+      },
+      {
+        "speaker": "agent",
+        "text": "We don't do recalls. That's not a service we offer."
+      },
+      {
+        "speaker": "customer",
+        "text": "Can you transfer me to someone who can help?"
+      },
+      {
+        "speaker": "agent",
+        "text": "There isn't a specific team for that. Your best bet is to contact the person you sent it to and ask for it back."
+      },
+      {
+        "speaker": "customer",
+        "text": "I don't know who I sent it to \u2014 I typed the wrong number. Can I at least speak to a manager?"
+      },
+      {
+        "speaker": "agent",
+        "text": "They'll tell you the same thing. Sorry."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 2,
+      "communication": 2,
+      "resolution": 1
+    },
+    "human1_score": {
+      "policy_compliance": 2,
+      "communication": 2,
+      "resolution": 1
+    },
+    "human2_score": {
+      "policy_compliance": 2,
+      "communication": 2,
+      "resolution": 2
+    }
+  },
+  {
+    "type": "cancel_transfer_good",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good afternoon, First National Bank. My name is Rachel. Can I take your full name and date of birth for security?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Of course. It's David Kim, twenty-first of September 1986."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you David, identity confirmed. How can I help?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I made a transfer about thirty minutes ago to the wrong account by mistake. I sent five hundred pounds to someone I don't know. I need to get it back urgently."
+      },
+      {
+        "speaker": "agent",
+        "text": "I completely understand the urgency. I can see the transfer. For Faster Payments, once processed it's at the receiving bank, but I can immediately raise a recall request which formally asks them to return the funds."
+      },
+      {
+        "speaker": "customer",
+        "text": "Will they have to return it?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Under UK payment rules, if the recipient confirms it was received in error they must return it. The process can take up to two weeks if they don't respond promptly. Reference number CAN-2024-7815 \u2014 you'll receive email updates. The sort code you sent to is Barclays, so you can also call Barclays' fraud line in parallel and quote a misdirected payment."
+      },
+      {
+        "speaker": "customer",
+        "text": "I'll do that right now. That's incredibly helpful. Thank you Rachel."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    }
+  },
+  {
+    "type": "cancel_transfer_good",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good morning, First National Bank. I'm Femi. Can I start by confirming your name and date of birth?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Morning. Petra Kovacs, fourth of April 1989."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Petra, you're verified. What's happened today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I've done something really stupid \u2014 I sent money to the wrong account. Four hundred and fifty pounds. It was my sister's old account number that she's since closed."
+      },
+      {
+        "speaker": "agent",
+        "text": "Don't worry, we can deal with this. How long ago was the transfer?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Maybe forty minutes."
+      },
+      {
+        "speaker": "agent",
+        "text": "Do you know which bank your sister uses?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Nationwide, same as me."
+      },
+      {
+        "speaker": "agent",
+        "text": "Even better \u2014 an intra-bank recall is usually quicker. I'm raising it now. Reference CAN-2024-8010. Because the account was closed, Nationwide should automatically return the funds within forty-eight hours since closed accounts can't hold balances."
+      },
+      {
+        "speaker": "customer",
+        "text": "Oh, that's actually reassuring. So it should come back on its own?"
+      },
+      {
+        "speaker": "agent",
+        "text": "The recall ensures it's formally tracked and handled. I've also sent you an email confirmation. Is there anything else?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Thank you so much Femi. That's a massive relief."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 4,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 4
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 4
+    }
+  },
+  {
+    "type": "cancel_transfer_incomplete",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good evening, First National Bank."
+      },
+      {
+        "speaker": "customer",
+        "text": "Good evening. I urgently need to cancel a transfer I made by mistake. It was fifteen hundred pounds to the wrong account."
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand, I'll try to help. Your name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Vanessa Okonkwo."
+      },
+      {
+        "speaker": "agent",
+        "text": "Ms. Okonkwo, let me look at this... I can see the transfer. I'm going to need to put you on hold and speak to our payments team."
+      },
+      {
+        "speaker": "customer",
+        "text": "Please be quick, every minute counts."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you for holding. The payments team has advised they need you to fill in a form online. I'm just getting the web address \u2014 actually, my screen isn't loading. I'm going to have to call you back with the details."
+      },
+      {
+        "speaker": "customer",
+        "text": "Call me back? When?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Within the hour. The transfers team are aware of the situation."
+      },
+      {
+        "speaker": "customer",
+        "text": "Are they raising a recall? Is anything actually happening right now?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I've flagged it. Someone will call you. Thanks for your patience."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 4,
+      "communication": 3,
+      "resolution": 1
+    },
+    "human1_score": {
+      "policy_compliance": 3,
+      "communication": 3,
+      "resolution": 2
+    },
+    "human2_score": {
+      "policy_compliance": 4,
+      "communication": 2,
+      "resolution": 1
+    }
+  },
+  {
+    "type": "cancel_transfer_noise",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good afternoon, First National Bank. My name is Carly. Can I take your full name and date of birth for security?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yeah hi, um \u2014 it's, uh, Marcus Webb. And um, my date of birth is, uh \u2014 fifth \u2014 no, fifteenth? Fifteenth of, uh, July. Nineteen eighty-eight."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Mr. Webb, I've confirmed your identity. What can I help you with?"
+      },
+      {
+        "speaker": "customer",
+        "text": "So I, uh \u2014 I made a transfur? Like I sent money? And uh \u2014 I realized straight away like, literally \u2014 uh \u2014 within like ten minutes that I'd, like, put the wrong \u2014 uh \u2014 account number in. Like I transposed some digits or something."
+      },
+      {
+        "speaker": "agent",
+        "text": "I completely understand. How much was the transfer for?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Uh, six \u2014 six hundred and, uh \u2014 fifty pounds. Yeah, six-fifty."
+      },
+      {
+        "speaker": "agent",
+        "text": "I can see that payment. Since it went via Faster Payments it's already settled, but I'm raising a formal recall request now. This contacts the receiving bank and formally requests the funds back."
+      },
+      {
+        "speaker": "customer",
+        "text": "Right, yeah. And like \u2014 uh \u2014 [inaudible] \u2014 what are the chances they, like, give it back?"
+      },
+      {
+        "speaker": "agent",
+        "text": "If the account number doesn't match any active account, the funds are returned automatically within forty-eight hours. If there is an account holder, they're legally obligated to return funds received in error. Reference number CAN-2024-8099. You'll receive an email confirmation."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay brilliant. Um, yeah \u2014 like, uh \u2014 thank you. That's \u2014 that's taken a load off."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 4
+    }
+  },
+  {
+    "type": "cancel_transfer_recovery",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good morning, First National Bank. This is Alex."
+      },
+      {
+        "speaker": "customer",
+        "text": "Alex, I've made a terrible mistake. I sent eight hundred pounds to the wrong account number. I mixed up two digits. Can you cancel it?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Let me see if there's a cancellation window. What's your name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Diana Patel."
+      },
+      {
+        "speaker": "agent",
+        "text": "Ms. Patel, I can see the transfer. Unfortunately I'm unable to reverse it at this stage \u2014 Faster Payments are instantaneous once processed."
+      },
+      {
+        "speaker": "customer",
+        "text": "Is there absolutely nothing you can do?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I... actually wait. I should have offered this immediately \u2014 I can raise a formal recall request. I apologise for not leading with that. That's the correct process. Let me verify your identity first \u2014 full name and date of birth?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Diana Patel, thirtieth of March 1994."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you. Raising the recall now. Reference CAN-2024-7901. The sort code you sent to is Santander \u2014 you can also call Santander's fraud line directly and quote a misdirected payment to help expedite recovery alongside our recall."
+      },
+      {
+        "speaker": "customer",
+        "text": "I'll call them now. Thank you for catching yourself on that."
+      },
+      {
+        "speaker": "agent",
+        "text": "I apologise again for the initial confusion. Is there anything else?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No, I'm going to call Santander right now."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 4,
+      "communication": 5,
+      "resolution": 4
+    },
+    "human1_score": {
+      "policy_compliance": 3,
+      "communication": 3,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 4,
+      "communication": 5,
+      "resolution": 5
+    }
+  },
+  {
+    "type": "cancel_transfer_recovery",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "First National Bank, good afternoon."
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi, I've been trying to cancel a payment I made this morning. One hundred and twenty pounds. I think I got the account number wrong."
+      },
+      {
+        "speaker": "agent",
+        "text": "Let me see. Name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yemi Adewale."
+      },
+      {
+        "speaker": "agent",
+        "text": "Looking at your account now... Okay, I see the transfer. I should mention \u2014 there's nothing we can do to cancel a Faster Payment once it's sent."
+      },
+      {
+        "speaker": "customer",
+        "text": "Really? Not even a recall request? I've seen it mentioned on your website."
+      },
+      {
+        "speaker": "agent",
+        "text": "Oh \u2014 you're right, I apologise. That is absolutely a service we offer and I should have mentioned it straight away. Before I raise it, let me properly verify your identity \u2014 full name and date of birth?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yemi Adewale, ninth of October 1997."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you. And the account number you intended to send versus what you actually sent?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Meant to send to 23456781 but I think I put 23456718 \u2014 transposed the last two digits."
+      },
+      {
+        "speaker": "agent",
+        "text": "Got it. Raising the recall now. Reference CAN-2024-8043. The receiving bank has five working days to respond. If the account doesn't exist or is closed, funds return automatically within forty-eight hours."
+      },
+      {
+        "speaker": "customer",
+        "text": "Thank you \u2014 I did have to prompt you but I appreciate you following through."
+      },
+      {
+        "speaker": "agent",
+        "text": "Completely fair. I apologise for the initial confusion."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 5,
+      "communication": 3,
+      "resolution": 4
+    },
+    "human1_score": {
+      "policy_compliance": 5,
+      "communication": 3,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 3,
+      "communication": 4,
+      "resolution": 5
+    }
+  },
+  {
+    "type": "card_arrival_ambiguous",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Hi, thanks for calling. What can I do for you?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I'm waiting on a new debit card. Ordered it eight days ago and nothing's arrived."
+      },
+      {
+        "speaker": "agent",
+        "text": "Can I get your name and postcode?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Marcus Webb, SW6 3TP."
+      },
+      {
+        "speaker": "agent",
+        "text": "Okay, I can see something here. Shows dispatched last Thursday."
+      },
+      {
+        "speaker": "customer",
+        "text": "That was five days ago. So where is it?"
+      },
+      {
+        "speaker": "agent",
+        "text": "It's probably still in the post. These can get delayed sometimes."
+      },
+      {
+        "speaker": "customer",
+        "text": "Is there a tracking number? Can I check where it is?"
+      },
+      {
+        "speaker": "agent",
+        "text": "We don't offer tracking on standard card deliveries unfortunately."
+      },
+      {
+        "speaker": "customer",
+        "text": "And if it doesn't arrive by end of the week?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Give us a call back and we can look at options at that point."
+      },
+      {
+        "speaker": "customer",
+        "text": "Alright. I suppose I'll wait then."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 4,
+      "communication": 2,
+      "resolution": 2
+    },
+    "human1_score": {
+      "policy_compliance": 2,
+      "communication": 3,
+      "resolution": 2
+    },
+    "human2_score": {
+      "policy_compliance": 4,
+      "communication": 3,
+      "resolution": 4
+    }
+  },
+  {
+    "type": "card_arrival_bad",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "First National Bank, go ahead."
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi, I ordered a new card nearly two weeks ago and it hasn't arrived. Is something wrong?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Cards usually take two to three weeks, so you're still within the normal window. Just wait a bit longer."
+      },
+      {
+        "speaker": "customer",
+        "text": "Two to three weeks? The website said five to seven working days. It's already been ten working days."
+      },
+      {
+        "speaker": "agent",
+        "text": "Yeah, sometimes it takes longer depending on Royal Mail. There's nothing I can do until it's been a full three weeks."
+      },
+      {
+        "speaker": "customer",
+        "text": "Can you at least check it went to the right address?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I don't have that in front of me right now. You'd need to go into a branch for that."
+      },
+      {
+        "speaker": "customer",
+        "text": "This is unacceptable. Can I speak to a manager?"
+      },
+      {
+        "speaker": "agent",
+        "text": "They'll tell you the same thing. Call back after three weeks if it still hasn't come."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 2,
+      "communication": 2,
+      "resolution": 1
+    },
+    "human1_score": {
+      "policy_compliance": 2,
+      "communication": 2,
+      "resolution": 2
+    },
+    "human2_score": {
+      "policy_compliance": 1,
+      "communication": 2,
+      "resolution": 1
+    }
+  },
+  {
+    "type": "card_arrival_bad",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "You're through to First National."
+      },
+      {
+        "speaker": "customer",
+        "text": "Yeah hi, I've been waiting on a card for like nearly two weeks now and I'm getting pretty fed up."
+      },
+      {
+        "speaker": "agent",
+        "text": "What's your account number?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I don't have it in front of me. Can't you look me up by name?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I need the account number to access anything."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, it's 00443892."
+      },
+      {
+        "speaker": "agent",
+        "text": "Right. The card system shows it sent. I can't tell you more than that."
+      },
+      {
+        "speaker": "customer",
+        "text": "When was it sent? And where was it sent to?"
+      },
+      {
+        "speaker": "agent",
+        "text": "It just says dispatched. These things get delayed all the time, not our problem."
+      },
+      {
+        "speaker": "customer",
+        "text": "Not your problem? I can't use my account without a card."
+      },
+      {
+        "speaker": "agent",
+        "text": "You can use the app. The card will come when it comes."
+      },
+      {
+        "speaker": "customer",
+        "text": "Can you reissue it at least?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Not until it's officially lost, which is after 30 days. Those are the rules. Sorry I can't help more."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 2,
+      "communication": 3,
+      "resolution": 1
+    },
+    "human1_score": {
+      "policy_compliance": 2,
+      "communication": 2,
+      "resolution": 1
+    },
+    "human2_score": {
+      "policy_compliance": 3,
+      "communication": 2,
+      "resolution": 1
+    }
+  },
+  {
+    "type": "card_arrival_good",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Thank you for calling First National Bank. My name is Sarah. Can I take your full name and date of birth to verify your identity?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes, it's James Thornton, fourteenth of March 1988."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Mr. Thornton, I've verified your account. How can I help you today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I ordered a replacement card about ten days ago and it still hasn't arrived. I'm getting a bit worried."
+      },
+      {
+        "speaker": "agent",
+        "text": "I completely understand, that must be frustrating. Let me pull up the card order now. I can see it was dispatched six days ago by standard post \u2014 delivery is typically five to seven working days, so you should receive it by Thursday at the latest."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, that's reassuring. Can you confirm it went to the right address?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Of course. I can read back the first line of the address on file \u2014 it shows 14 Maple Avenue. Is that correct?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes, that's right. Thank you."
+      },
+      {
+        "speaker": "agent",
+        "text": "If it hasn't arrived by end of day Thursday, please call us back and we can cancel and reissue with tracked delivery at no charge. I've made a note on your account."
+      },
+      {
+        "speaker": "customer",
+        "text": "Great, I'll wait until Thursday then. Thanks for your help."
+      },
+      {
+        "speaker": "agent",
+        "text": "My pleasure. Is there anything else I can help you with today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No, that's everything."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 4,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    }
+  },
+  {
+    "type": "card_arrival_good",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good morning, First National Bank. This is Daniel. Before we begin, could I take your full name and date of birth for security?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Of course. It's Priya Mehta, twenty-second of November 1990."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Priya, identity confirmed. How can I help you today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "So I got a new card issued about a week ago \u2014 I had to replace my old one \u2014 and it just hasn't come through yet. Is that normal?"
+      },
+      {
+        "speaker": "agent",
+        "text": "That's a really common concern. Delivery is five to seven working days from dispatch. Let me check where yours is in the process."
+      },
+      {
+        "speaker": "customer",
+        "text": "I just want to make sure it's not lost or sent to the wrong place."
+      },
+      {
+        "speaker": "agent",
+        "text": "Completely understandable. I can see it was dispatched four days ago, so you're well within the window. The card was sent to the address ending in Birch Road \u2014 is that right?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes, that's my address."
+      },
+      {
+        "speaker": "agent",
+        "text": "You're in good shape. I'd expect it to arrive tomorrow or the day after. If you reach next Tuesday and it still hasn't arrived, call us and we'll issue a new one same day with tracked post."
+      },
+      {
+        "speaker": "customer",
+        "text": "That's really helpful, thanks Daniel."
+      },
+      {
+        "speaker": "agent",
+        "text": "My pleasure. I've added a note to your account for reference. Anything else today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No, that's all."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    }
+  },
+  {
+    "type": "card_arrival_incomplete",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "First National Bank, how can I help?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I need to ask about a card I ordered. It should have arrived by now and I'm starting to worry."
+      },
+      {
+        "speaker": "agent",
+        "text": "Can I get your name please?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Diana Russo."
+      },
+      {
+        "speaker": "agent",
+        "text": "One moment... okay, I can see an order. It was sent \u2014 sorry, my system is very slow today."
+      },
+      {
+        "speaker": "customer",
+        "text": "That's okay. Can you tell me when it was dispatched?"
+      },
+      {
+        "speaker": "agent",
+        "text": "It does show dispatched, yes. I'm going to have to put you on a brief hold."
+      },
+      {
+        "speaker": "customer",
+        "text": "Sure, that's fine."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you for holding. I'm going to have to transfer you to our card services team, they'll be able to give you more detail."
+      },
+      {
+        "speaker": "customer",
+        "text": "Wait \u2014 before you transfer me, can you at least confirm the address on file is correct?"
+      },
+      {
+        "speaker": "agent",
+        "text": "The card services team will go through all of that with you. Transferring you now, have a good day."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 3,
+      "communication": 4,
+      "resolution": 3
+    },
+    "human1_score": {
+      "policy_compliance": 3,
+      "communication": 4,
+      "resolution": 1
+    },
+    "human2_score": {
+      "policy_compliance": 4,
+      "communication": 3,
+      "resolution": 2
+    }
+  },
+  {
+    "type": "card_arrival_noise",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Thank you for calling First National Bank. My name is Claire. Can I take your full name and date of birth to verify your identity?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Uh yeah, it's \u2014 sorry, um \u2014 Thomas, Thomas Kieran, no wait, Kearney. Thomas Kearney. And uh, date of birth is the, uh, third of \u2014 no, fourth of August, nineteen eighty-seven."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Mr. Kearney, I've verified your account. What can I help you with today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yeah so, I um \u2014 my cart hasn't arrived? Like my new bank cart, I ordered it, I don't know, like over a week ago now, maybe ten days?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand. Let me check the status of the card dispatch for you."
+      },
+      {
+        "speaker": "customer",
+        "text": "It's just \u2014 I've been using cash for everything which is like, you know, really annoying. And I'm worried it got like [inaudible] or sent to the wrong place or something."
+      },
+      {
+        "speaker": "agent",
+        "text": "I can see the card was dispatched seven days ago. It's right at the edge of the standard delivery window, so I'd expect it to arrive very soon \u2014 most likely today or tomorrow."
+      },
+      {
+        "speaker": "customer",
+        "text": "Oh okay. And it's going to my \u2014 uh, my address on file? Like the one in \u2014 um, sorry, in Coventry?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Yes, I can confirm it was sent to the Coventry address we have on record. If it doesn't arrive by the end of this week, call us back and I can cancel and reissue immediately."
+      },
+      {
+        "speaker": "customer",
+        "text": "Right yeah, that's \u2014 uh, that's good. And there's no \u2014 like [inaudible] \u2014 no extra charge for a replacement?"
+      },
+      {
+        "speaker": "agent",
+        "text": "No charge at all. I've noted today's call on your account. Is there anything else I can help with?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No, that's \u2014 yeah, I think that's everything. Thanks."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 4
+    }
+  },
+  {
+    "type": "card_arrival_recovery",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good afternoon, First National Bank. How can I help you?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi, I'm calling about a replacement card. Ordered it about a week and a half ago and nothing's arrived."
+      },
+      {
+        "speaker": "agent",
+        "text": "Let me pull up your account \u2014 what surname is it?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Patterson."
+      },
+      {
+        "speaker": "agent",
+        "text": "Right, I can see a card order here \u2014 actually, hold on. I need to properly verify your identity before I share any account details. I apologise, I should have started with that. Can I take your full name and date of birth please?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No worries at all. Emily Patterson, second of June 1995."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Emily, I've verified you now. The card was dispatched eight days ago, so it's just coming to the end of the standard delivery window. If it doesn't arrive by this Friday I can cancel and reissue with tracked delivery at no charge."
+      },
+      {
+        "speaker": "customer",
+        "text": "That's fine, I can wait until Friday. Just wanted to make sure nothing had gone wrong."
+      },
+      {
+        "speaker": "agent",
+        "text": "Completely understandable. I've added a note on your account so you won't need to re-explain if you do call back. Is there anything else I can help with?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No, that's great. Thank you."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 3,
+      "communication": 5,
+      "resolution": 4
+    },
+    "human1_score": {
+      "policy_compliance": 3,
+      "communication": 3,
+      "resolution": 4
+    },
+    "human2_score": {
+      "policy_compliance": 4,
+      "communication": 4,
+      "resolution": 3
+    }
+  },
+  {
+    "type": "card_blocked_ambiguous",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Hi, you're through to First National."
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi, my card was declined this morning. I think it might be blocked?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Name please?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Simone Laurent."
+      },
+      {
+        "speaker": "agent",
+        "text": "Right, I can see there's a flag on the card."
+      },
+      {
+        "speaker": "customer",
+        "text": "What kind of flag? Is it blocked?"
+      },
+      {
+        "speaker": "agent",
+        "text": "It's some kind of restriction. I'm not sure exactly what triggered it."
+      },
+      {
+        "speaker": "customer",
+        "text": "Can you unblock it?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I'd need to escalate that probably. Some of these I can deal with, some I can't."
+      },
+      {
+        "speaker": "customer",
+        "text": "So what happens now?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I'll make a note. Someone may call you back within twenty-four to forty-eight hours."
+      },
+      {
+        "speaker": "customer",
+        "text": "And in the meantime my card doesn't work."
+      },
+      {
+        "speaker": "agent",
+        "text": "You could use a different payment method."
+      },
+      {
+        "speaker": "customer",
+        "text": "I only have the one card."
+      },
+      {
+        "speaker": "agent",
+        "text": "I see. Well let me try to escalate now..."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 2,
+      "communication": 3,
+      "resolution": 3
+    },
+    "human1_score": {
+      "policy_compliance": 4,
+      "communication": 2,
+      "resolution": 3
+    },
+    "human2_score": {
+      "policy_compliance": 4,
+      "communication": 3,
+      "resolution": 4
+    }
+  },
+  {
+    "type": "card_blocked_ambiguous",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good morning, First National, how can I help?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi, I think my card's blocked? It got declined last night at a restaurant and again this morning."
+      },
+      {
+        "speaker": "agent",
+        "text": "Can I get your name and the last four digits of your card?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Natasha Bird. Card ends in 7219."
+      },
+      {
+        "speaker": "agent",
+        "text": "Let me have a look... There is something on here, yes. Looks like a temporary restriction. These usually lift on their own after twenty-four hours."
+      },
+      {
+        "speaker": "customer",
+        "text": "Usually? So it might not?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Most of the time they do. It just shows a system flag \u2014 doesn't say exactly why."
+      },
+      {
+        "speaker": "customer",
+        "text": "Can you lift it manually?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I might be able to. Let me see... I've submitted a request to remove the flag. It should update in the next hour or two."
+      },
+      {
+        "speaker": "customer",
+        "text": "So it might be working in an hour?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Should be. Try it at lunchtime."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay... I'll do that."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 3,
+      "communication": 2,
+      "resolution": 3
+    },
+    "human1_score": {
+      "policy_compliance": 2,
+      "communication": 4,
+      "resolution": 3
+    },
+    "human2_score": {
+      "policy_compliance": 3,
+      "communication": 3,
+      "resolution": 2
+    }
+  },
+  {
+    "type": "card_blocked_bad",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "First National."
+      },
+      {
+        "speaker": "customer",
+        "text": "My card isn't working. It's been declined three times now and I have money in my account."
+      },
+      {
+        "speaker": "agent",
+        "text": "It might be a chip issue. Have you tried a different machine?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes, two different machines and contactless too."
+      },
+      {
+        "speaker": "agent",
+        "text": "Sometimes cards just stop working. You'd need to come into a branch to sort that out."
+      },
+      {
+        "speaker": "customer",
+        "text": "Come into a branch? Can't you check what's wrong on the system?"
+      },
+      {
+        "speaker": "agent",
+        "text": "The card system is separate. I can't tell you why it's blocked from here."
+      },
+      {
+        "speaker": "customer",
+        "text": "My nearest branch is thirty miles away. Is it blocked for fraud?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I can't see that. I could order you a new card but that takes up to two weeks."
+      },
+      {
+        "speaker": "customer",
+        "text": "Two weeks? Can you not just unblock it over the phone?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Branch is your best option. Sorry."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 2,
+      "communication": 2,
+      "resolution": 1
+    },
+    "human1_score": {
+      "policy_compliance": 2,
+      "communication": 3,
+      "resolution": 1
+    },
+    "human2_score": {
+      "policy_compliance": 1,
+      "communication": 2,
+      "resolution": 1
+    }
+  },
+  {
+    "type": "card_blocked_good",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good afternoon, First National Bank. My name is Tom. For security, could I take your name and date of birth?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes \u2014 it's Grace Adeyemi, fifth of May 1990."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Grace, verified. How can I help you?"
+      },
+      {
+        "speaker": "customer",
+        "text": "My card has been declined twice this afternoon. I have money in my account \u2014 I checked the app \u2014 so I don't understand what's happening."
+      },
+      {
+        "speaker": "agent",
+        "text": "Let me check the card status now. I can see an automatic fraud prevention hold was placed on the card this afternoon following an unusual purchase pattern \u2014 two transactions in different cities within a short time window."
+      },
+      {
+        "speaker": "customer",
+        "text": "Oh \u2014 I see. I was in London this morning and then I drove to Birmingham. That must be why."
+      },
+      {
+        "speaker": "agent",
+        "text": "Exactly right. Can you confirm \u2014 were both those transactions yours?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes, both mine. The coffee shop in London and the petrol station in Birmingham."
+      },
+      {
+        "speaker": "agent",
+        "text": "Perfect, I've removed the hold and your card is active right now. I've also added a travel note to your account for the next seven days so this shouldn't happen again."
+      },
+      {
+        "speaker": "customer",
+        "text": "That's a relief. Thank you Tom."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 4,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    }
+  },
+  {
+    "type": "card_blocked_good",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "First National Bank, good evening. This is Jasmine. Can I take your name and date of birth for verification?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Sure \u2014 it's Ivan Petrov, ninth of March 1982."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Ivan, I've got you verified. What can I do for you?"
+      },
+      {
+        "speaker": "customer",
+        "text": "My card's been blocked out of nowhere. I was trying to pay for dinner and it was declined \u2014 very embarrassing."
+      },
+      {
+        "speaker": "agent",
+        "text": "I'm really sorry about that. Let me look into this straight away. The card was locked by our automated security system forty minutes ago \u2014 there was an attempt to use the card for an e-commerce transaction that flagged as suspicious."
+      },
+      {
+        "speaker": "customer",
+        "text": "I didn't make any online purchases today."
+      },
+      {
+        "speaker": "agent",
+        "text": "That's very helpful. I've blocked the card permanently and I'm generating a new card for you. This suggests someone may have your card details. Your new card will arrive in three to five working days."
+      },
+      {
+        "speaker": "customer",
+        "text": "How do I pay for things in the meantime?"
+      },
+      {
+        "speaker": "agent",
+        "text": "You can visit any branch tomorrow with photo ID for a temporary card. I can also arrange Google Pay provisioning right now if your phone supports it \u2014 that's immediate."
+      },
+      {
+        "speaker": "customer",
+        "text": "Oh, the Google Pay option would be perfect."
+      },
+      {
+        "speaker": "agent",
+        "text": "I'll send an SMS to your registered number with setup instructions right now. Anything else this evening?"
+      },
+      {
+        "speaker": "customer",
+        "text": "That's brilliant, thank you. Really sorted it out."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 4,
+      "communication": 5,
+      "resolution": 4
+    },
+    "human1_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    }
+  },
+  {
+    "type": "card_blocked_incomplete",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good morning, First National Bank."
+      },
+      {
+        "speaker": "customer",
+        "text": "Good morning. My card has been blocked and I'm currently at a checkout. I'm in a really difficult situation."
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand, let me bring up your account. Your name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Harriet Morse."
+      },
+      {
+        "speaker": "agent",
+        "text": "One moment, Ms. Morse. I can see your account. I'm going to need to put you on hold briefly to check the card status."
+      },
+      {
+        "speaker": "customer",
+        "text": "Please be quick, I'm holding up the queue."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you for holding. I can see there is a block on the card. I'm going to need to transfer you to the fraud team who can remove it."
+      },
+      {
+        "speaker": "customer",
+        "text": "Transfer me? I need this sorted in the next minute, I'm standing in a shop."
+      },
+      {
+        "speaker": "agent",
+        "text": "They should be able to help you quickly. The queue might be a few minutes. I'm transferring you now. Apologies for the inconvenience."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 3,
+      "communication": 2,
+      "resolution": 2
+    },
+    "human1_score": {
+      "policy_compliance": 3,
+      "communication": 2,
+      "resolution": 2
+    },
+    "human2_score": {
+      "policy_compliance": 4,
+      "communication": 3,
+      "resolution": 2
+    }
+  },
+  {
+    "type": "card_blocked_noise",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Thank you for calling First National Bank. My name is Victor. Can I take your full name and date of birth for security please?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yeah, um \u2014 hi. So, uh, it's Jenny \u2014 Jennifer Bloom. And um, date of birth, it's uh, the fourteenth \u2014 no, fifteenth \u2014 fifteenth of, um, June. Nineteen ninety."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Ms. Bloom, I've verified your account. How can I help you?"
+      },
+      {
+        "speaker": "customer",
+        "text": "So, uh, my card got declined? Like, twice now. Once at, uh, like a coffee shop and then again at, um \u2014 [inaudible] \u2014 like a supermarket or something. And I definitely have money, like, I checked the app and my balance is fine."
+      },
+      {
+        "speaker": "agent",
+        "text": "I can see the card has been placed on a temporary fraud hold. There were two purchases in different locations within a short period. Can you confirm \u2014 were both of those transactions yours?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Um, yeah \u2014 so like, I was at Costa in the morning and then I, uh, went to \u2014 uh \u2014 Tesco? In the afternoon. So yeah, both mine."
+      },
+      {
+        "speaker": "agent",
+        "text": "Perfect, that would have triggered the security system. I'm lifting the hold now \u2014 your card should work immediately."
+      },
+      {
+        "speaker": "customer",
+        "text": "Oh brilliant, that's like \u2014 yeah, uh, that's a relief. I was starting to like, you know, panic a bit."
+      },
+      {
+        "speaker": "agent",
+        "text": "Completely understandable. I've also added a geographic travel note for the next seven days to prevent this happening again. Anything else?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No, that's \u2014 that's everything. Um, thanks."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 4,
+      "communication": 4,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 5
+    }
+  },
+  {
+    "type": "card_blocked_recovery",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "First National Bank, good morning."
+      },
+      {
+        "speaker": "customer",
+        "text": "Morning. My debit card got declined just now at a supermarket. I'm a bit embarrassed \u2014 is there something wrong with my account?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Let me take a look. What's your name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Patrick Brennan."
+      },
+      {
+        "speaker": "agent",
+        "text": "One second Mr. Brennan... I can see the card has been blocked. It looks like \u2014 actually, wait, before I share any more detail I need to verify your identity properly. I'm sorry, I jumped ahead there. Could I take your full name and date of birth please?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Patrick Brennan, seventeenth of November 1977."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you, you're verified. The card was blocked by our fraud system about an hour ago following a purchase that didn't match your usual pattern. Can you confirm \u2014 was there a larger-than-usual purchase recently?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I bought a computer part online \u2014 it was a bigger purchase than I normally make."
+      },
+      {
+        "speaker": "agent",
+        "text": "That would explain it. As long as you confirm that purchase was yours, I can remove the block right now."
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes, absolutely mine."
+      },
+      {
+        "speaker": "agent",
+        "text": "Card is now unblocked. I've also flagged your account so similar amounts won't trigger a hold for the next fourteen days. Is there anything else?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No, thank you."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 5,
+      "communication": 3,
+      "resolution": 4
+    },
+    "human1_score": {
+      "policy_compliance": 4,
+      "communication": 3,
+      "resolution": 4
+    },
+    "human2_score": {
+      "policy_compliance": 4,
+      "communication": 3,
+      "resolution": 4
+    }
+  },
+  {
+    "type": "disputed_charge_ambiguous",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good afternoon, First National."
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi. I'm looking at my statement and there's a charge for thirty-nine pounds from a subscription I cancelled three months ago. They're still taking money."
+      },
+      {
+        "speaker": "agent",
+        "text": "What's your name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Benjamin Clarke."
+      },
+      {
+        "speaker": "agent",
+        "text": "Let me see. I can see the charge. Sometimes cancellations don't process immediately through payment systems and charges can come through for a cycle or two."
+      },
+      {
+        "speaker": "customer",
+        "text": "Three months is more than a cycle or two. Can I get a refund?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I can make a note on your account. Whether you get a refund would depend on the merchant's policy \u2014 you'd ideally raise it with them directly as well."
+      },
+      {
+        "speaker": "customer",
+        "text": "But can you do anything from your end?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I can raise a dispute if you want."
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes, please do that."
+      },
+      {
+        "speaker": "agent",
+        "text": "Okay, I've noted a dispute. You'll hear back in due course."
+      },
+      {
+        "speaker": "customer",
+        "text": "What's the reference number?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I don't have one to give you right now. It should come through by email."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 3,
+      "communication": 3,
+      "resolution": 4
+    },
+    "human1_score": {
+      "policy_compliance": 4,
+      "communication": 4,
+      "resolution": 4
+    },
+    "human2_score": {
+      "policy_compliance": 3,
+      "communication": 2,
+      "resolution": 3
+    }
+  },
+  {
+    "type": "disputed_charge_bad",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "First National, how can I help."
+      },
+      {
+        "speaker": "customer",
+        "text": "I need to dispute a charge. There's a payment for eighty-five pounds from a company I've never used and I never authorised it."
+      },
+      {
+        "speaker": "agent",
+        "text": "Okay, what's the company name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "DataPrime Solutions. I genuinely don't know who they are."
+      },
+      {
+        "speaker": "agent",
+        "text": "Let me have a look. Right, I can see that charge. It looks legitimate from our end \u2014 the payment went through normally with no flags."
+      },
+      {
+        "speaker": "customer",
+        "text": "It doesn't matter if it went through normally, I didn't authorise it. I want to dispute it."
+      },
+      {
+        "speaker": "agent",
+        "text": "If the charge went through successfully it means your card was used correctly. Fraudsters can't use your card without the details."
+      },
+      {
+        "speaker": "customer",
+        "text": "Can you raise a dispute or not?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I'd need to send you a paper form for that, which takes up to ten working days to arrive. You can also go into a branch."
+      },
+      {
+        "speaker": "customer",
+        "text": "That's ridiculous. You can't do it on the phone?"
+      },
+      {
+        "speaker": "agent",
+        "text": "That's our process I'm afraid."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 2,
+      "communication": 2,
+      "resolution": 1
+    },
+    "human1_score": {
+      "policy_compliance": 2,
+      "communication": 3,
+      "resolution": 2
+    },
+    "human2_score": {
+      "policy_compliance": 3,
+      "communication": 2,
+      "resolution": 1
+    }
+  },
+  {
+    "type": "disputed_charge_bad",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Accounts, go ahead."
+      },
+      {
+        "speaker": "customer",
+        "text": "Hello, I'm disputing a charge. There's something for one hundred and fifty pounds on my account that I never agreed to. It says it's from some travel company."
+      },
+      {
+        "speaker": "agent",
+        "text": "What's your account number?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I'd rather not give that out. Can you look me up another way?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I need the account number. Otherwise I can't help."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, fine. It's 00556712."
+      },
+      {
+        "speaker": "agent",
+        "text": "Right. I see the charge. Travel companies often have delayed billing \u2014 you might have booked something months ago."
+      },
+      {
+        "speaker": "customer",
+        "text": "I really don't think I did. I want to dispute this."
+      },
+      {
+        "speaker": "agent",
+        "text": "To dispute a transaction you'd have to prove you didn't make it. Do you have documentation showing you weren't involved?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I don't know what documentation I'd even give you. I just know I didn't do this."
+      },
+      {
+        "speaker": "agent",
+        "text": "Without evidence it's difficult to proceed. Policy changed \u2014 written disputes only now for amounts over one hundred pounds."
+      },
+      {
+        "speaker": "customer",
+        "text": "That's completely untrue. Other agents have raised disputes on the phone for me before."
+      },
+      {
+        "speaker": "agent",
+        "text": "Well that's the current process. Sorry."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 3,
+      "communication": 2,
+      "resolution": 1
+    },
+    "human1_score": {
+      "policy_compliance": 3,
+      "communication": 2,
+      "resolution": 2
+    },
+    "human2_score": {
+      "policy_compliance": 3,
+      "communication": 3,
+      "resolution": 1
+    }
+  },
+  {
+    "type": "disputed_charge_good",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Thank you for calling First National Bank. My name is Sophie. For security, could I take your full name and date of birth?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Of course. It's Carlos Vega, twenty-ninth of January 1985."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Mr. Vega, all verified. What's the nature of your call today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I noticed a charge on my account this morning \u2014 sixty-two pounds \u2014 from a company called TechSubs Ltd. I've never heard of them and I definitely didn't authorise this."
+      },
+      {
+        "speaker": "agent",
+        "text": "That must be very alarming. Let me pull up the transaction. I can see the charge, processed yesterday at 11:43 PM. Can I confirm \u2014 you've never dealt with TechSubs Ltd in any capacity? No subscriptions, trial memberships?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Absolutely not. I've never heard of the name."
+      },
+      {
+        "speaker": "agent",
+        "text": "In that case I'll raise a formal dispute immediately and place a temporary hold on your card as a precaution while we investigate \u2014 is that okay?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes please, I'd rather be safe."
+      },
+      {
+        "speaker": "agent",
+        "text": "Done. Your case reference is DISP-2024-8831. The investigation takes three to five working days. We'll refund the amount provisionally within two working days while we investigate. You'll receive a confirmation email within the hour."
+      },
+      {
+        "speaker": "customer",
+        "text": "That's exactly what I needed. Thank you for being so efficient."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 4
+    },
+    "human1_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 4
+    }
+  },
+  {
+    "type": "disputed_charge_good",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good morning, First National Bank. I'm Callum. Could I start by confirming your name and date of birth please?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Morning. It's Adaeze Obi, third of October 1993."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Ms. Obi, identity confirmed. How can I help?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I'm looking at my account on the app and there's a payment for one hundred and twelve pounds to something called Premium Media Hub. I never signed up for anything by that name."
+      },
+      {
+        "speaker": "agent",
+        "text": "That does sound concerning. Let me pull that up. I can see the transaction \u2014 processed four days ago. Is it possible anyone else with access to your card signed up for a media service recently?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Definitely not. I live alone and nobody else has my card details."
+      },
+      {
+        "speaker": "agent",
+        "text": "Understood. I'm raising a chargeback dispute immediately. I also recommend cancelling your current card and issuing a replacement as a precaution since the details may be compromised. Would you like me to do that?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes please. That would make me feel much better."
+      },
+      {
+        "speaker": "agent",
+        "text": "Card is now cancelled. Replacement arrives in three to five working days. Dispute reference is DISP-2024-9503 and we'll provisionally credit your account within two working days. Confirmation email on its way."
+      },
+      {
+        "speaker": "customer",
+        "text": "Thank you so much. You've handled this brilliantly."
+      },
+      {
+        "speaker": "agent",
+        "text": "That's what we're here for. Anything else at all?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No, thank you."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 4,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 4,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    }
+  },
+  {
+    "type": "disputed_charge_incomplete",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "First National Bank, how can I help?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I want to dispute two charges. One for twenty-two pounds and one for sixty pounds. I don't recognise either."
+      },
+      {
+        "speaker": "agent",
+        "text": "Okay, what's your name please?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yuki Tanaka."
+      },
+      {
+        "speaker": "agent",
+        "text": "And the account number?"
+      },
+      {
+        "speaker": "customer",
+        "text": "It's 00718293."
+      },
+      {
+        "speaker": "agent",
+        "text": "I can see those two charges. I'll need to put you on hold while I check the process for multiple disputes."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, I'll hold."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you for holding. I'm going to need to transfer you to our disputes team as they handle multiple-transaction cases."
+      },
+      {
+        "speaker": "customer",
+        "text": "Before you transfer me \u2014 will I lose my place in the queue?"
+      },
+      {
+        "speaker": "agent",
+        "text": "There might be a short wait. They'll have your details on the system. Transferring you now."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 2,
+      "communication": 3,
+      "resolution": 3
+    },
+    "human1_score": {
+      "policy_compliance": 3,
+      "communication": 3,
+      "resolution": 2
+    },
+    "human2_score": {
+      "policy_compliance": 3,
+      "communication": 3,
+      "resolution": 3
+    }
+  },
+  {
+    "type": "disputed_charge_noise",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Thank you for calling First National Bank. My name is Priya. For security can I take your full name and date of birth?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yeah hi. Um, it's \u2014 uh, Gerald. Gerald, um, Hutchins. And my, uh, my date of birth, sorry, twenty-third of \u2014 um \u2014 December. Nineteen, uh, seventy-nine."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Mr. Hutchins, all verified. What can I help you with today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "So, um, there's a charge on my \u2014 on my account? Like a payment went out that I, uh \u2014 I don't recog\u2014 I don't know what it is. It says, um, [inaudible] something like, um, NetBridge or something? For like forty \u2014 no, forty-four pounds?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Let me look that up. I can see a charge from NetBridge Services for forty-four pounds. Do you have any online subscriptions or trial accounts you might have forgotten about?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Um, I \u2014 I mean I have like Netflix and that but like \u2014 no, NetBridge doesn't ring any \u2014 like, you know, any bells. I didn't \u2014 I don't think I did that."
+      },
+      {
+        "speaker": "agent",
+        "text": "That's fine. I'll raise a dispute on that transaction now. Would you also like your card blocked as a precaution while we investigate?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Uh, yeah I think \u2014 yeah, like, better safe than sorry yeah? Um, is there like \u2014 will I get the money back or \u2014 [inaudible]?"
+      },
+      {
+        "speaker": "agent",
+        "text": "We'll provisionally refund the forty-four pounds within two working days while we investigate. Your dispute reference is DISP-2024-9271. A new card will arrive in five working days."
+      },
+      {
+        "speaker": "customer",
+        "text": "Oh brilliant. Yeah, that's \u2014 yeah that's all I, um \u2014 that's all I needed really. Cheers."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 4,
+      "communication": 4,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 3,
+      "resolution": 4
+    }
+  },
+  {
+    "type": "disputed_charge_recovery",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good morning, First National Bank, you're through to Nina."
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi Nina. I've got a weird charge on my account \u2014 forty-eight pounds from somewhere called CloudServ Analytics. Never heard of them."
+      },
+      {
+        "speaker": "agent",
+        "text": "Let me take a look at that. Can I get your name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Sandra Whitfield."
+      },
+      {
+        "speaker": "agent",
+        "text": "Just pulling up the account, Ms. Whitfield \u2014 actually I need to stop there. I've accessed account details before verifying your identity, which I shouldn't have done. My apologies. Can I take your full name and date of birth to properly confirm who I'm speaking with?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Not a problem. Sandra Whitfield, nineteenth of March 1988."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you, I've now verified you correctly. Looking at the account \u2014 I can see that forty-eight pound charge from CloudServ Analytics, dated two days ago. Do you have any subscription services or trial periods that might match?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I really can't think of anything. I'd like to dispute it."
+      },
+      {
+        "speaker": "agent",
+        "text": "Absolutely. Raising the dispute right now. You'll have a provisional refund within two working days while we investigate. Case reference DISP-2024-9114, and a confirmation will be emailed to you."
+      },
+      {
+        "speaker": "customer",
+        "text": "That's great, thank you."
+      },
+      {
+        "speaker": "agent",
+        "text": "I also want to apologise again for the procedural error at the start. Is there anything else you need?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No, that's all."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 4,
+      "communication": 4,
+      "resolution": 3
+    },
+    "human1_score": {
+      "policy_compliance": 4,
+      "communication": 5,
+      "resolution": 3
+    },
+    "human2_score": {
+      "policy_compliance": 4,
+      "communication": 3,
+      "resolution": 4
+    }
+  },
+  {
+    "type": "failed_card_payment_ambiguous",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Hi, First National, how can I help?"
+      },
+      {
+        "speaker": "customer",
+        "text": "My card keeps getting refused. I've tried it at two places today and it's not working."
+      },
+      {
+        "speaker": "agent",
+        "text": "Name for me?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Beatriz Santos."
+      },
+      {
+        "speaker": "agent",
+        "text": "Right, let me see... the card shows as active. No obvious reason it should be declining."
+      },
+      {
+        "speaker": "customer",
+        "text": "Could it be my daily spending limit?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Your daily limit is five hundred. What did you try to spend total?"
+      },
+      {
+        "speaker": "customer",
+        "text": "About four hundred across the two purchases."
+      },
+      {
+        "speaker": "agent",
+        "text": "That shouldn't be the problem then. Hard to say really \u2014 could be the merchant's terminal, though two different merchants does seem unlikely."
+      },
+      {
+        "speaker": "customer",
+        "text": "Can you do something?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Let me try a system refresh on the card record. Done. That might help."
+      },
+      {
+        "speaker": "customer",
+        "text": "What did you do exactly?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Just a record refresh. Should be immediate if it worked. Try it again and see."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay... I'll try it."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 3,
+      "communication": 2,
+      "resolution": 3
+    },
+    "human1_score": {
+      "policy_compliance": 3,
+      "communication": 2,
+      "resolution": 3
+    },
+    "human2_score": {
+      "policy_compliance": 3,
+      "communication": 2,
+      "resolution": 3
+    }
+  },
+  {
+    "type": "failed_card_payment_bad",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "First National, hello."
+      },
+      {
+        "speaker": "customer",
+        "text": "My card keeps getting declined. It happened three times today. I have money in my account."
+      },
+      {
+        "speaker": "agent",
+        "text": "It's probably the merchant's system. Try a different shop."
+      },
+      {
+        "speaker": "customer",
+        "text": "I tried three different shops. Declined everywhere."
+      },
+      {
+        "speaker": "agent",
+        "text": "Could be a chip issue. These things wear out. Been using it long?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Six months. Can you check if there's something on my account?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I can see your account but the card system doesn't show anything obvious. Might be a network issue today \u2014 lots of banks are having connectivity problems."
+      },
+      {
+        "speaker": "customer",
+        "text": "Is there a network issue? Can I check that somewhere?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Not that I can link you to. Just try again later. Could also try ordering a new card through the app."
+      },
+      {
+        "speaker": "customer",
+        "text": "What if the problem is something you need to fix on my account?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I don't see anything I can fix. Sorry."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 2,
+      "communication": 2,
+      "resolution": 2
+    },
+    "human1_score": {
+      "policy_compliance": 2,
+      "communication": 2,
+      "resolution": 2
+    },
+    "human2_score": {
+      "policy_compliance": 2,
+      "communication": 2,
+      "resolution": 1
+    }
+  },
+  {
+    "type": "failed_card_payment_bad",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "First National, what's your query?"
+      },
+      {
+        "speaker": "customer",
+        "text": "My card isn't working. I'm trying to make a payment for my rent \u2014 fifteen hundred pounds \u2014 and it keeps saying declined."
+      },
+      {
+        "speaker": "agent",
+        "text": "What's your account number?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I don't know it off the top of my head. Can you look me up by name?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I need the account number for security reasons."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, it's 00987451."
+      },
+      {
+        "speaker": "agent",
+        "text": "Right. Your account shows fine. If the payment isn't going through it must be the recipient's account that's the problem."
+      },
+      {
+        "speaker": "customer",
+        "text": "My landlord's account has worked for three years of rent payments. Can you check if there's a daily limit on my card?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Your card is standard. That should be on your app."
+      },
+      {
+        "speaker": "customer",
+        "text": "I'm asking you. My rent is going to be late."
+      },
+      {
+        "speaker": "agent",
+        "text": "Just try again in a few hours, these things usually clear. Sorry, not much else I can do."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 2,
+      "communication": 1,
+      "resolution": 1
+    },
+    "human1_score": {
+      "policy_compliance": 1,
+      "communication": 1,
+      "resolution": 1
+    },
+    "human2_score": {
+      "policy_compliance": 2,
+      "communication": 3,
+      "resolution": 2
+    }
+  },
+  {
+    "type": "failed_card_payment_good",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good morning, First National Bank. My name is Luke. Can I take your full name and date of birth?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Morning. It's Claire Donohue, eighteenth of September 1992."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Claire, you're verified. What can I help with today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "My card was declined this morning at a garage when I tried to pay for petrol. It's embarrassing \u2014 I have money in my account."
+      },
+      {
+        "speaker": "agent",
+        "text": "I'm sorry that happened. Let me check the card and account status now. Your balance is healthy and the card is active. The declined transaction \u2014 the garage attempted to pre-authorise one hundred and fifty pounds, which is a common fuel station practice to reserve funds. Your available balance at the time was ninety-eight pounds, which fell below their pre-auth threshold."
+      },
+      {
+        "speaker": "customer",
+        "text": "Oh \u2014 I had no idea that was a thing. So it was refused because of a temporary hold, not because I actually don't have the money?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Exactly right. The actual cost of your fuel would have been far less, but the pre-auth check fails first. You can pay inside at the counter rather than at the pump to avoid this \u2014 inside payments use the exact amount."
+      },
+      {
+        "speaker": "customer",
+        "text": "That's really useful to know. Is there anything you need to do on your end?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Nothing at all \u2014 your card and account are completely fine. Is there anything else I can help with?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No, that makes complete sense now. Thank you Luke."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 4,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 5
+    }
+  },
+  {
+    "type": "failed_card_payment_good",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good evening, First National Bank. My name is Zara. Could I take your name and date of birth for security?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yeah \u2014 Hana Yamamoto, thirty-first of January 1995."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Hana, you're verified. How can I help?"
+      },
+      {
+        "speaker": "customer",
+        "text": "So I tried to make an online purchase earlier \u2014 about two hundred and forty pounds \u2014 and my card kept coming up as declined. I've got plenty of money so I'm confused."
+      },
+      {
+        "speaker": "agent",
+        "text": "Let me check the transaction history. I can see two declined attempts for that amount. The merchant is an international site \u2014 the transactions were flagged by our international fraud prevention controls. We see a higher rate of fraud on cross-border e-commerce."
+      },
+      {
+        "speaker": "customer",
+        "text": "So my card isn't blocked \u2014 it's specifically flagged for that site?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Not permanently. It was an automatic hold on that transaction pattern. I can whitelist international e-commerce for your account for the next thirty days, which should allow the payment to go through. Would you like me to do that?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes please."
+      },
+      {
+        "speaker": "agent",
+        "text": "Done. I'd also recommend enabling transaction notifications in the app \u2014 that way you'll see in real time if anything unusual happens. Your card will now work for that purchase."
+      },
+      {
+        "speaker": "customer",
+        "text": "It's gone through. Thank you so much. You're a star."
+      },
+      {
+        "speaker": "agent",
+        "text": "Brilliant! Is there anything else I can help with?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No, that's everything."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    }
+  },
+  {
+    "type": "failed_card_payment_incomplete",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good morning, First National Bank."
+      },
+      {
+        "speaker": "customer",
+        "text": "Good morning. I'm having trouble with my card \u2014 it's been refused three times this morning. I'm currently at a car rental desk and it's quite urgent."
+      },
+      {
+        "speaker": "agent",
+        "text": "I can help with that. Your name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Jason Webb."
+      },
+      {
+        "speaker": "agent",
+        "text": "One moment, Mr. Webb. I can see there's a flag on the card. I'm going to need to transfer you to the card security team who handle these."
+      },
+      {
+        "speaker": "customer",
+        "text": "Transfer me? I'm standing at a counter in a foreign country."
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand it's urgent. The card team will be quicker at resolving it. Can give me a reference number at least?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Can I get a reference\u2014"
+      },
+      {
+        "speaker": "agent",
+        "text": "They'll generate one. You're being transferred now. Thank you for your patience."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 3,
+      "communication": 3,
+      "resolution": 2
+    },
+    "human1_score": {
+      "policy_compliance": 3,
+      "communication": 4,
+      "resolution": 1
+    },
+    "human2_score": {
+      "policy_compliance": 3,
+      "communication": 4,
+      "resolution": 3
+    }
+  },
+  {
+    "type": "failed_card_payment_noise",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good morning, First National Bank. My name is James. Can I take your full name and date of birth for security?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Oh hi, yeah. So it's, um \u2014 Bradley, Bradley Osei. And, um, date of birth is \u2014 uh \u2014 the, uh, twenty \u2014 twenty-second of, uh \u2014 November. Nineteen, uh, ninety-two."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Mr. Osei, you're verified. How can I help you today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "So, um, my card \u2014 like my debit card \u2014 it's been, like, refused? Like twice this morning. Um, once at a like, coffee shop and then I tried to pay for, uh, like groceries online and it, um \u2014 [inaudible] \u2014 it just kept saying like, card declined."
+      },
+      {
+        "speaker": "agent",
+        "text": "I can see both declined transactions. Let me check what triggered the refusals. The coffee shop decline appears to be a contactless limit reset issue \u2014 your contactless limit was reached after a sequence of smaller payments. The online decline is separate \u2014 your card needs 3D Secure verification for online purchases above fifty pounds, and the code was going to an outdated email."
+      },
+      {
+        "speaker": "customer",
+        "text": "Oh \u2014 uh, right. So like, there's like two different \u2014 uh \u2014 two different problems?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Two different causes, yes. I've reset your contactless limit \u2014 you can use contactless again right now. For the email \u2014 what's your current email address so I can update it?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yeah, it's, um \u2014 uh, b.osei \u2014 that's B-dot-O-S-E-I \u2014 at, um, gmail.com."
+      },
+      {
+        "speaker": "agent",
+        "text": "Updated. Your next online purchase over fifty pounds will send the code to that address. Both issues are now resolved."
+      },
+      {
+        "speaker": "customer",
+        "text": "Brilliant, yeah. Um, that's \u2014 that's great. Um, [inaudible] \u2014 both sorted then?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Both sorted. Is there anything else I can help with today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No, that's \u2014 uh \u2014 yeah, that's everything. Cheers."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 4
+    }
+  },
+  {
+    "type": "failed_card_payment_recovery",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good afternoon, First National Bank. This is Amelia."
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi Amelia. My card was declined twice this afternoon. Once at a supermarket and once online. I'm not sure what's going on."
+      },
+      {
+        "speaker": "agent",
+        "text": "Let me take a quick look at the account. What's your name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Nelson Ferreira."
+      },
+      {
+        "speaker": "agent",
+        "text": "Looking at your account Mr. Ferreira... I can see the declined transactions. It looks like your card is fine. The issue \u2014 actually hold on, I need to verify your identity before I go further. I'm sorry, I should have done that first. Full name and date of birth?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Nelson Ferreira, thirteenth of February 1983."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you. Looking properly now \u2014 I can see your card has a 3D Secure authentication issue that would explain the online decline. Have you recently changed your phone number?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Actually, yes \u2014 about two weeks ago."
+      },
+      {
+        "speaker": "agent",
+        "text": "That's the issue. Your one-time authentication codes are going to your old number. I've updated the mobile number on your account right now. Your next online payment will send the code to the new number."
+      },
+      {
+        "speaker": "customer",
+        "text": "That's such a specific issue, I'd never have guessed that."
+      },
+      {
+        "speaker": "agent",
+        "text": "It's a common one after number changes. Your card is fine and should work on your next attempt. Is there anything else?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No, that's great. Thank you Amelia."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 4,
+      "communication": 4,
+      "resolution": 4
+    },
+    "human1_score": {
+      "policy_compliance": 3,
+      "communication": 4,
+      "resolution": 4
+    },
+    "human2_score": {
+      "policy_compliance": 4,
+      "communication": 4,
+      "resolution": 4
+    }
+  },
+  {
+    "type": "transfer_not_received_ambiguous",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Hi, First National, how can I help?"
+      },
+      {
+        "speaker": "customer",
+        "text": "My daughter is waiting for a transfer I made yesterday morning. Two hundred and fifty pounds. She hasn't received it."
+      },
+      {
+        "speaker": "agent",
+        "text": "What's your name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Margaret Hobbs."
+      },
+      {
+        "speaker": "agent",
+        "text": "Let me look... I can see the payment. It shows it was sent."
+      },
+      {
+        "speaker": "customer",
+        "text": "She definitely hasn't received it though. Her account is empty."
+      },
+      {
+        "speaker": "agent",
+        "text": "It might still be processing. Sometimes it takes twenty-four to forty-eight hours."
+      },
+      {
+        "speaker": "customer",
+        "text": "It's been over twenty-four hours already."
+      },
+      {
+        "speaker": "agent",
+        "text": "Right. Well I can submit a trace request. It might take a few days to come back."
+      },
+      {
+        "speaker": "customer",
+        "text": "A few days? She needs that money for food shopping."
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand. I'll put in the request. There's a reference I'll note on your account."
+      },
+      {
+        "speaker": "customer",
+        "text": "What's the reference number so I can tell my daughter?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I don't have a number to give you yet. The request needs to be processed first. Just wait for now."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 3,
+      "communication": 3,
+      "resolution": 3
+    },
+    "human1_score": {
+      "policy_compliance": 4,
+      "communication": 4,
+      "resolution": 3
+    },
+    "human2_score": {
+      "policy_compliance": 3,
+      "communication": 2,
+      "resolution": 3
+    }
+  },
+  {
+    "type": "transfer_not_received_bad",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "First National."
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi, I sent money to my friend four days ago and he hasn't received it. Seven hundred pounds."
+      },
+      {
+        "speaker": "agent",
+        "text": "These things happen. Probably a bank holiday delay."
+      },
+      {
+        "speaker": "customer",
+        "text": "There was no bank holiday. I sent it on a normal Tuesday."
+      },
+      {
+        "speaker": "agent",
+        "text": "Well sometimes Faster Payments just takes longer. It's out of our system now, not much I can do."
+      },
+      {
+        "speaker": "customer",
+        "text": "Can't you trace it?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Not until it's been missing for two weeks. Before that it's too early to intervene."
+      },
+      {
+        "speaker": "customer",
+        "text": "Two weeks? That's seven hundred pounds \u2014 my friend needs that money."
+      },
+      {
+        "speaker": "agent",
+        "text": "Tell him to check with his bank. They might be able to see it their end."
+      },
+      {
+        "speaker": "customer",
+        "text": "He has \u2014 they say they haven't received anything."
+      },
+      {
+        "speaker": "agent",
+        "text": "Maybe you entered the wrong details. Not much else I can do."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 3,
+      "communication": 2,
+      "resolution": 1
+    },
+    "human1_score": {
+      "policy_compliance": 1,
+      "communication": 1,
+      "resolution": 1
+    },
+    "human2_score": {
+      "policy_compliance": 3,
+      "communication": 3,
+      "resolution": 2
+    }
+  },
+  {
+    "type": "transfer_not_received_bad",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Transfers, go ahead."
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes, hi \u2014 I need help with a payment that was sent to me but I haven't received it. It was sent three days ago."
+      },
+      {
+        "speaker": "agent",
+        "text": "Who are you?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Sorry \u2014 Sarah Poulton."
+      },
+      {
+        "speaker": "agent",
+        "text": "Is this your account the money should have come into?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes."
+      },
+      {
+        "speaker": "agent",
+        "text": "Then it's a problem with the sending bank. If the payment didn't arrive, NatWest \u2014 or whoever sent it \u2014 needs to trace it."
+      },
+      {
+        "speaker": "customer",
+        "text": "I thought you might be able to trace it on your end too?"
+      },
+      {
+        "speaker": "agent",
+        "text": "We can only see what comes in. We can't trace something that doesn't exist in our system."
+      },
+      {
+        "speaker": "customer",
+        "text": "NatWest says it left their system though."
+      },
+      {
+        "speaker": "agent",
+        "text": "Then it'll arrive eventually. Wait a few more days. These things sort out."
+      },
+      {
+        "speaker": "customer",
+        "text": "Wait a few more days with money that's apparently disappeared?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Sorry, not much else I can do."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 2,
+      "communication": 2,
+      "resolution": 1
+    },
+    "human1_score": {
+      "policy_compliance": 2,
+      "communication": 2,
+      "resolution": 1
+    },
+    "human2_score": {
+      "policy_compliance": 2,
+      "communication": 3,
+      "resolution": 2
+    }
+  },
+  {
+    "type": "transfer_not_received_good",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "First National Bank, good morning. This is Dani. Can I take your full name and date of birth for security?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi. It's Alice Greenberg, fourteenth of June 1991."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Alice, you're all verified. How can I help today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I transferred five hundred pounds to my sister three days ago and she still hasn't received it. She's with Lloyds. I'm worried something went wrong."
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand how worrying that must be. Let me look at the transfer. I can see the payment left your account on Tuesday via Faster Payments. Do you have the sort code and account number you sent it to?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes \u2014 30-98-76, account 12445871."
+      },
+      {
+        "speaker": "agent",
+        "text": "Those match what we have. The transfer shows as successfully sent on our end, which means the issue is with the receiving bank's processing. I'd recommend your sister also contact Lloyds and quote the payment reference PAY-2024-7765. I'm also raising a payment trace request now."
+      },
+      {
+        "speaker": "customer",
+        "text": "Should I do both at the same time?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Yes, it's best to run both simultaneously. Trace reference is TRC-2024-4411 and you'll receive an email update within twenty-four to forty-eight hours. Is there anything else?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No, that's all. Thank you."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 4,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 4,
+      "communication": 4,
+      "resolution": 5
+    }
+  },
+  {
+    "type": "transfer_not_received_good",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good evening, First National Bank. My name is Ellie. Can I take your full name and date of birth to verify you?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Evening. Amir Hassan, twenty-sixth of August 1987."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Mr. Hassan, verified. How can I help?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I made a bank transfer to pay an invoice \u2014 one thousand two hundred \u2014 on Wednesday morning. It's now Friday evening and the company says they haven't received it."
+      },
+      {
+        "speaker": "agent",
+        "text": "I can see that transfer left on Wednesday at 10:43. The sort code and account on the payment \u2014 do you have those to hand?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes \u2014 20-14-55, account 87634221."
+      },
+      {
+        "speaker": "agent",
+        "text": "Those match exactly what we have. For a business payment of this size at the end of the week, I'm raising a formal payment trace now so we're not relying on the weekend to sort it."
+      },
+      {
+        "speaker": "customer",
+        "text": "I really appreciate that."
+      },
+      {
+        "speaker": "agent",
+        "text": "Trace reference TRC-2024-4619. Our payments team will contact the receiving bank first thing Monday. You should have an update by midday Monday. Shall I also note the invoice reference on your account?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Please do. Invoice ref INV-8834."
+      },
+      {
+        "speaker": "agent",
+        "text": "Noted. Is there anything else I can help with?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No, that's everything. Thank you Ellie."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 4,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 4,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 4
+    }
+  },
+  {
+    "type": "transfer_not_received_incomplete",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good morning, First National."
+      },
+      {
+        "speaker": "customer",
+        "text": "Morning. I sent an international transfer on Friday and it hasn't been received. It's now Monday. My business partner is waiting on it."
+      },
+      {
+        "speaker": "agent",
+        "text": "International transfers \u2014 okay. Can I get your name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Stuart McCrae."
+      },
+      {
+        "speaker": "agent",
+        "text": "Let me look at this... For international transfers, there's a separate team that handles those. One moment."
+      },
+      {
+        "speaker": "customer",
+        "text": "Before you transfer me \u2014 can you at least confirm the payment left my account?"
+      },
+      {
+        "speaker": "agent",
+        "text": "It shows a debit, yes. I really need to get the international team for this."
+      },
+      {
+        "speaker": "customer",
+        "text": "How long might this take to resolve?"
+      },
+      {
+        "speaker": "agent",
+        "text": "They'll be best placed to tell you that. Might be a wait. Good luck. Transferring now."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 4,
+      "communication": 3,
+      "resolution": 1
+    },
+    "human1_score": {
+      "policy_compliance": 3,
+      "communication": 3,
+      "resolution": 3
+    },
+    "human2_score": {
+      "policy_compliance": 2,
+      "communication": 3,
+      "resolution": 2
+    }
+  },
+  {
+    "type": "transfer_not_received_noise",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good afternoon, First National Bank. My name is Ben. Can I take your full name and date of birth for verification?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Uh yeah, hi. So it's \u2014 uh \u2014 Cynthia, Cynthia Park. And uh, date of birth is, um, the, uh \u2014 seventh of \u2014 uh, March. Nineteen eighty-five."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Ms. Park, you're all verified. How can I help today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay so, um \u2014 I made a transfer? Like I sent money to my \u2014 uh \u2014 to my cousin? And she's been \u2014 like she's been saying she hasn't got it. And it was \u2014 uh \u2014 like five days ago? I sent like four hundred pounds?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I can see that transfer leaving your account five days ago. It's shown as sent from our end. Do you have the sort code and account number you sent it to?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Uh yeah, um \u2014 hold on \u2014 uh, [inaudible] \u2014 right, it's, um, 40-22-19 and the account is, uh \u2014 65447821."
+      },
+      {
+        "speaker": "agent",
+        "text": "Those match the payment we sent. Since it's been five days and the funds haven't been received, I'll raise a payment trace immediately. This contacts the receiving bank directly to locate the funds."
+      },
+      {
+        "speaker": "customer",
+        "text": "Yeah okay, that sounds \u2014 uh \u2014 yeah, that sounds good. Um, like will she, uh \u2014 will she have to do anything on her end?"
+      },
+      {
+        "speaker": "agent",
+        "text": "She can also contact her bank to flag the incoming payment as missing \u2014 that can speed things up. Your trace reference is TRC-2024-4701. You'll receive an email update within twenty-four to forty-eight hours."
+      },
+      {
+        "speaker": "customer",
+        "text": "Brilliant. Yeah, um \u2014 thank you. That's \u2014 yeah, that's all I needed."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 4,
+      "communication": 4,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 4,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 5
+    }
+  },
+  {
+    "type": "transfer_not_received_recovery",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good afternoon, First National Bank."
+      },
+      {
+        "speaker": "customer",
+        "text": "Afternoon. I sent a transfer of three hundred pounds to my landlord on Monday and it hasn't arrived. He's chasing me for it."
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand. What name is the account in?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Mine \u2014 it's Gareth Collins."
+      },
+      {
+        "speaker": "agent",
+        "text": "Looking at your recent transfers... I can see the three-hundred-pound payment on Monday. It's showing as sent. Your landlord just needs to wait \u2014 there's nothing unusual showing."
+      },
+      {
+        "speaker": "customer",
+        "text": "That's what your colleague told me yesterday and it still hasn't arrived."
+      },
+      {
+        "speaker": "agent",
+        "text": "Oh \u2014 I apologise. If it was sent Monday and still hasn't arrived it's now outside the normal window. I should be raising a payment trace right now, not telling you to wait. Can I verify your identity first \u2014 full name and date of birth?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Gareth Collins, second of January 1980."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Gareth. I'm raising the trace now. Reference TRC-2024-4502. Your landlord's bank will be contacted directly. Resolution is typically twenty-four to forty-eight hours."
+      },
+      {
+        "speaker": "customer",
+        "text": "Thank you. I wish I'd been told this yesterday."
+      },
+      {
+        "speaker": "agent",
+        "text": "That's a fair point and I apologise. The trace is active now."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 4,
+      "communication": 5,
+      "resolution": 4
+    },
+    "human1_score": {
+      "policy_compliance": 3,
+      "communication": 4,
+      "resolution": 4
+    },
+    "human2_score": {
+      "policy_compliance": 4,
+      "communication": 5,
+      "resolution": 4
+    }
+  },
+  {
+    "type": "wrong_amount_of_cash_received_ambiguous",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Hi, First National, how can I help?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi \u2014 so I withdrew money from the ATM and got less than I asked for. I wanted a hundred and fifty but got a hundred."
+      },
+      {
+        "speaker": "agent",
+        "text": "What's your name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Olga Hernandez."
+      },
+      {
+        "speaker": "agent",
+        "text": "And when did this happen?"
+      },
+      {
+        "speaker": "customer",
+        "text": "About two hours ago. St. James Street ATM."
+      },
+      {
+        "speaker": "agent",
+        "text": "Right, I see. These things do happen occasionally with ATMs. I can make a note."
+      },
+      {
+        "speaker": "customer",
+        "text": "Just a note? Will there be an investigation?"
+      },
+      {
+        "speaker": "agent",
+        "text": "It may trigger a review at some point. If the machine comes up short in its daily balance, the difference gets allocated back."
+      },
+      {
+        "speaker": "customer",
+        "text": "And if it doesn't? I'm just waiting and hoping?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Essentially, yes. I've made the note. Call back if you don't hear anything."
+      },
+      {
+        "speaker": "customer",
+        "text": "Alright."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 3,
+      "communication": 3,
+      "resolution": 3
+    },
+    "human1_score": {
+      "policy_compliance": 2,
+      "communication": 4,
+      "resolution": 3
+    },
+    "human2_score": {
+      "policy_compliance": 3,
+      "communication": 4,
+      "resolution": 3
+    }
+  },
+  {
+    "type": "wrong_amount_of_cash_received_bad",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "First National, go ahead."
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes, I withdrew fifty pounds from your ATM on Oak Street this morning and only got twenty. The machine took my card and gave me twenty quid."
+      },
+      {
+        "speaker": "agent",
+        "text": "ATM machines are very reliable. Are you sure you didn't just withdraw twenty?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I am absolutely sure. I pressed fifty on the screen."
+      },
+      {
+        "speaker": "agent",
+        "text": "It's possible you pressed the wrong button by mistake."
+      },
+      {
+        "speaker": "customer",
+        "text": "I did not press the wrong button. I want to report this."
+      },
+      {
+        "speaker": "agent",
+        "text": "These things are hard to prove without a receipt. Without one there's not much I can do."
+      },
+      {
+        "speaker": "customer",
+        "text": "The machine didn't give me a receipt. That's part of the problem. What about CCTV?"
+      },
+      {
+        "speaker": "agent",
+        "text": "CCTV audits are done quarterly, not on individual reports."
+      },
+      {
+        "speaker": "customer",
+        "text": "This is outrageous. I want to raise a formal complaint."
+      },
+      {
+        "speaker": "agent",
+        "text": "You can email our complaints team."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 3,
+      "communication": 2,
+      "resolution": 1
+    },
+    "human1_score": {
+      "policy_compliance": 2,
+      "communication": 1,
+      "resolution": 1
+    },
+    "human2_score": {
+      "policy_compliance": 2,
+      "communication": 2,
+      "resolution": 2
+    }
+  },
+  {
+    "type": "wrong_amount_of_cash_received_good",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good afternoon, First National Bank. My name is Michelle. Can I take your name and date of birth for security?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Hello, it's Frank Osei, second of July 1975."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Mr. Osei, you're verified. How can I help today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I withdrew two hundred pounds from an ATM this afternoon and only received one hundred and sixty. The machine didn't give me an error or a receipt."
+      },
+      {
+        "speaker": "agent",
+        "text": "That's very concerning and I'm sorry that happened. Can I ask which ATM you used \u2014 do you have the location?"
+      },
+      {
+        "speaker": "customer",
+        "text": "It was on the high street \u2014 Barton Road, I think it's near the Halifax building."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you. I'm logging an ATM cash discrepancy report right now. The ATM will be physically audited and if the machine is found to be over by forty pounds, it will be refunded to your account automatically within three to five working days. Your case reference is ATM-2024-3312."
+      },
+      {
+        "speaker": "customer",
+        "text": "And if it turns out the machine balanced correctly?"
+      },
+      {
+        "speaker": "agent",
+        "text": "In that case we would review CCTV footage and you'd be able to provide a statement. These cases are resolved in the customer's favour in the vast majority of cases. Is there anything else?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No, that's very thorough. Thank you Michelle."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 4,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    }
+  },
+  {
+    "type": "wrong_amount_of_cash_received_good",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good morning, First National Bank. I'm Kenji. Can I take your full name and date of birth for security?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi, yeah \u2014 it's Louise Drummond, sixteenth of February 1988."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Louise, you're verified. What can I help with today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "So this is going to sound weird, but the cash machine shortchanged me. I asked for two-fifty and it only gave me two hundred. And it didn't give me a receipt."
+      },
+      {
+        "speaker": "agent",
+        "text": "That doesn't sound weird at all \u2014 I'm sorry that happened. Do you have the location of the ATM and roughly what time?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes, it's outside the Boots on Crown Street. It was at 9:17 this morning \u2014 I've got it on my phone."
+      },
+      {
+        "speaker": "agent",
+        "text": "Perfect \u2014 that timestamp will really help us pinpoint the machine's transaction log. I'm raising a cash discrepancy report right now. Reference ATM-2024-3551. The machine will be audited within two working days and if the discrepancy is confirmed, fifty pounds will be refunded to your account automatically."
+      },
+      {
+        "speaker": "customer",
+        "text": "And what if the audit doesn't show anything?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Our ATM investigations team will review transaction records and CCTV as a next step. Either way your case is formally logged and we will follow up. You'll receive a confirmation by email."
+      },
+      {
+        "speaker": "customer",
+        "text": "That's really good to know. Thank you Kenji."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 5
+    },
+    "human1_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 5
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 5
+    }
+  },
+  {
+    "type": "wrong_amount_of_cash_received_incomplete",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good morning, First National Bank."
+      },
+      {
+        "speaker": "customer",
+        "text": "Good morning. I have an issue with an ATM. I withdrew sixty pounds last night and only received forty. The machine didn't give any error."
+      },
+      {
+        "speaker": "agent",
+        "text": "I'm sorry to hear that. Can I take your name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Jenna Park."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you. I'll need to transfer you to our ATM disputes team \u2014 they have direct access to the machine records."
+      },
+      {
+        "speaker": "customer",
+        "text": "Oh, okay. Before you transfer me \u2014 can you give me a reference number?"
+      },
+      {
+        "speaker": "agent",
+        "text": "They'll generate one for you on the other end. Which ATM was it?"
+      },
+      {
+        "speaker": "customer",
+        "text": "The one on Duke Street."
+      },
+      {
+        "speaker": "agent",
+        "text": "Got it. Actually, the transfer might be quicker. Let me put you through now."
+      },
+      {
+        "speaker": "customer",
+        "text": "Are you going to\u2014"
+      },
+      {
+        "speaker": "agent",
+        "text": "Transferring you now. They'll have all the details."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 2,
+      "communication": 3,
+      "resolution": 2
+    },
+    "human1_score": {
+      "policy_compliance": 2,
+      "communication": 4,
+      "resolution": 2
+    },
+    "human2_score": {
+      "policy_compliance": 3,
+      "communication": 4,
+      "resolution": 2
+    }
+  },
+  {
+    "type": "wrong_amount_of_cash_received_incomplete",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "First National Bank, hello."
+      },
+      {
+        "speaker": "customer",
+        "text": "Hello. I used your ATM on Maple Lane this morning and I'm pretty sure it gave me the wrong amount. I asked for eighty and I think I only got sixty."
+      },
+      {
+        "speaker": "agent",
+        "text": "Right, I can log something for that. Your name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Colin Marsh."
+      },
+      {
+        "speaker": "agent",
+        "text": "Okay Mr. Marsh, let me see what we've got... I'm going to need to bring in a colleague on this actually."
+      },
+      {
+        "speaker": "customer",
+        "text": "A colleague? Should I have a pen handy for a reference number?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Yes \u2014 actually, hold on, let me just check something first."
+      },
+      {
+        "speaker": "customer",
+        "text": "Sure."
+      },
+      {
+        "speaker": "agent",
+        "text": "So Mr. Marsh I've had a quick look and I think what we'll do is have our specialist team call you back within two working days."
+      },
+      {
+        "speaker": "customer",
+        "text": "Call me back? Will I need to explain everything again?"
+      },
+      {
+        "speaker": "agent",
+        "text": "They'll have some notes from me. Is the number we have on file okay?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I suppose so, but can I just get a reference number for now?"
+      },
+      {
+        "speaker": "agent",
+        "text": "A reference will be generated when they call. Thanks for your patience Mr. Marsh."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 2,
+      "communication": 3,
+      "resolution": 1
+    },
+    "human1_score": {
+      "policy_compliance": 4,
+      "communication": 3,
+      "resolution": 2
+    },
+    "human2_score": {
+      "policy_compliance": 2,
+      "communication": 3,
+      "resolution": 2
+    }
+  },
+  {
+    "type": "wrong_amount_of_cash_received_noise",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "Good afternoon, First National Bank. My name is Sandra. Can I take your full name and date of birth for security?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Uh yeah, hi. It's, um \u2014 Darren, Darren Oakes. And date of birth is, uh \u2014 twenty-first, no \u2014 yeah, twenty-first of, um, October. Nineteen, uh, eighty-one."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Mr. Oakes, I've confirmed your identity. How can I help you?"
+      },
+      {
+        "speaker": "customer",
+        "text": "So, um, I was at your, uh \u2014 like the cash machine? On, uh, Field Road? And I took out \u2014 like I put in, uh, I asked for a hundred and, uh, I only got, like \u2014 [inaudible] \u2014 I think it was like sixty? Or maybe eighty? But definitely not a hundred."
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand. Do you know roughly what time you used the ATM?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Uh, yeah, it was like around \u2014 um \u2014 maybe twelve, twelve-thirty? Lunchtime, you know."
+      },
+      {
+        "speaker": "agent",
+        "text": "Perfect. I'm raising a cash discrepancy report for the Field Road ATM, midday today. Your reference number is ATM-2024-3619. The machine will be audited within two working days. If the overage matches your claim, the amount will be refunded automatically."
+      },
+      {
+        "speaker": "customer",
+        "text": "Oh right yeah. And like \u2014 uh \u2014 I don't need to do anything else? Like [inaudible] \u2014 I don't need to go to the branch or anything?"
+      },
+      {
+        "speaker": "agent",
+        "text": "No, everything is logged from this call. We'll contact you if we need any additional information."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, brilliant. That's, uh \u2014 yeah, that's all I needed. Um, cheers."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 5,
+      "communication": 5,
+      "resolution": 4
+    },
+    "human1_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 4
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 3,
+      "resolution": 4
+    }
+  },
+  {
+    "type": "wrong_amount_of_cash_received_recovery",
+    "dialogue": [
+      {
+        "speaker": "agent",
+        "text": "First National Bank, this is Leila."
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi Leila, I have a problem with an ATM withdrawal. I asked for a hundred pounds and only got eighty."
+      },
+      {
+        "speaker": "agent",
+        "text": "I see. Can I get your name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Robert Finch."
+      },
+      {
+        "speaker": "agent",
+        "text": "Mr. Finch, you'd need to visit the branch where the ATM is located to report that directly \u2014 they can check the machine on site."
+      },
+      {
+        "speaker": "customer",
+        "text": "Oh \u2014 I wouldn't have thought I'd need to go to the branch. Is that really the process?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Actually \u2014 I need to correct myself. I'm sorry, that's not right. You can absolutely report this over the phone and we can raise the investigation from here. I should have offered that straight away. Let me take your details properly \u2014 can I verify your identity first? Full name and date of birth?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Robert Finch, twenty-eighth of August 1963."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you Mr. Finch. And which ATM was it?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Erskine Street, outside Tesco."
+      },
+      {
+        "speaker": "agent",
+        "text": "Got it. I'm raising an ATM cash discrepancy report now. Reference ATM-2024-3499. The audit should be completed within three working days and if confirmed, the twenty pounds will be refunded automatically."
+      },
+      {
+        "speaker": "customer",
+        "text": "That's much better, thank you."
+      }
+    ],
+    "ai_score": {
+      "policy_compliance": 4,
+      "communication": 4,
+      "resolution": 4
+    },
+    "human1_score": {
+      "policy_compliance": 4,
+      "communication": 4,
+      "resolution": 4
+    },
+    "human2_score": {
+      "policy_compliance": 5,
+      "communication": 4,
+      "resolution": 4
+    }
+  }
+]
